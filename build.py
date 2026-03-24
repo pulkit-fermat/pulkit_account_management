@@ -564,6 +564,8 @@ function sentimentLabel(score) {
 
 function isPulkit() {
   var u = window.__PORTAL_USER__ || {};
+  // Local file access (no server) — treat as Pulkit
+  if (!u.email && window.location.protocol === 'file:') return true;
   return u.email === 'pulkit@fermatcommerce.com';
 }
 
@@ -874,7 +876,11 @@ function renderHealth(d, m) {
   var d30 = p['30d'] || {};
   var sentLatest = getLatestSentiment(cur);
   var sentScore = sentLatest ? sentLatest.score : 0;
-  var sentMapped = bd.csm_sentiment || 0;
+  var sentMapped = sentScore > 0 ? sentScore * 4 : (bd.csm_sentiment || 0);
+  // Recalculate total health score with live sentiment
+  if (sentScore > 0) {
+    hs = (bd.platform_performance || bd.platform_activity || 0) + (bd.communication || 0) + (bd.engagement || 0) + sentMapped;
+  }
 
   // ── 3 COLUMNS: Score | KPI cards | Radar ──
   var html = '<div style="display:grid;grid-template-columns:150px 1fr 1fr;gap:16px;margin-bottom:20px;align-items:stretch">' +
@@ -940,7 +946,7 @@ function renderHealth(d, m) {
         data: {
           labels: ['Platform (20)', 'Communication (20)', 'Engagement (20)', 'CSM Sentiment (40)'],
           datasets: [{
-            data: [bd.platform_performance || bd.platform_activity || 0, bd.communication || 0, bd.engagement || 0, bd.csm_sentiment || 0],
+            data: [bd.platform_performance || bd.platform_activity || 0, bd.communication || 0, bd.engagement || 0, sentMapped],
             backgroundColor: sc(hs) + '22',
             borderColor: sc(hs),
             borderWidth: 2.5,

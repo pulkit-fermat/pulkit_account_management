@@ -1,42 +1,49 @@
 const express = require('express');
 const session = require('express-session');
 const passport = require('passport');
-const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Session
-app.use(session({
-  secret: process.env.SESSION_SECRET || 'fermat-portal-secret-change-me',
-  resave: false,
-  saveUninitialized: false,
-  cookie: { secure: process.env.NODE_ENV === 'production', maxAge: 24 * 60 * 60 * 1000 }
-}));
+const SSO_ENABLED = !!(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET);
 
-app.use(passport.initialize());
-app.use(passport.session());
+if (SSO_ENABLED) {
+  const GoogleStrategy = require('passport-google-oauth20').Strategy;
 
-// Google OAuth Strategy
-passport.use(new GoogleStrategy({
-  clientID: process.env.GOOGLE_CLIENT_ID,
-  clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-  callbackURL: process.env.CALLBACK_URL || '/auth/google/callback'
-}, (accessToken, refreshToken, profile, done) => {
-  // Only allow @fermatcommerce.com emails
-  const email = profile.emails && profile.emails[0] && profile.emails[0].value;
-  if (email && email.endsWith('@fermatcommerce.com')) {
-    return done(null, { id: profile.id, name: profile.displayName, email });
-  }
-  return done(null, false, { message: 'Only @fermatcommerce.com accounts allowed' });
-}));
+  app.use(session({
+    secret: process.env.SESSION_SECRET || 'fermat-portal-secret',
+    resave: false,
+    saveUninitialized: false,
+    cookie: { secure: process.env.NODE_ENV === 'production', maxAge: 24 * 60 * 60 * 1000 }
+  }));
 
-passport.serializeUser((user, done) => done(null, user));
-passport.deserializeUser((user, done) => done(null, user));
+  app.use(passport.initialize());
+  app.use(passport.session());
+
+  passport.use(new GoogleStrategy({
+    clientID: process.env.GOOGLE_CLIENT_ID,
+    clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+    callbackURL: process.env.CALLBACK_URL || '/auth/google/callback'
+  }, (accessToken, refreshToken, profile, done) => {
+    const email = profile.emails && profile.emails[0] && profile.emails[0].value;
+    if (email && email.endsWith('@fermatcommerce.com')) {
+      return done(null, { id: profile.id, name: profile.displayName, email });
+    }
+    return done(null, false, { message: 'Only @fermatcommerce.com accounts allowed' });
+  }));
+
+  passport.serializeUser((user, done) => done(null, user));
+  passport.deserializeUser((user, done) => done(null, user));
+
+  console.log('SSO enabled — @fermatcommerce.com only');
+} else {
+  console.log('SSO disabled — GOOGLE_CLIENT_ID not set. Serving without auth.');
+}
 
 // Auth middleware
 function ensureAuth(req, res, next) {
+  if (!SSO_ENABLED) return next();
   if (req.isAuthenticated()) return next();
   res.redirect('/auth/google');
 }

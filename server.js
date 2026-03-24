@@ -68,8 +68,12 @@ app.get('/', function (req, res) {
   var ssoConfigured = GOOGLE_CLIENT_ID !== 'PLACEHOLDER_CLIENT_ID';
   var userEmail = checkAuth(req);
 
-  // SSO is configured but user is NOT authenticated → block completely
-  if (ssoConfigured && !userEmail) {
+  // NOT authenticated → ALWAYS block. Never serve dashboard without auth.
+  if (!userEmail) {
+    if (!ssoConfigured) {
+      // No credentials set — show setup message, NOT the dashboard
+      return res.send(loginPage('SSO not configured yet. Ask your admin to add GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET to Railway.'));
+    }
     var error = req.query.sso_error;
     var errorMsg = null;
     if (error === 'domain_not_allowed') errorMsg = 'Only @fermatcommerce.com accounts allowed.';
@@ -78,7 +82,7 @@ app.get('/', function (req, res) {
     return res.send(loginPage(errorMsg));
   }
 
-  // Authenticated (or SSO not configured) → serve dashboard
+  // Authenticated → serve dashboard
   var html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
 
   // Inject user profile script

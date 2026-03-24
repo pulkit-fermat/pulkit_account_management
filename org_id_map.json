@@ -1,0 +1,26 @@
+{
+  "_note": "Maps CSV Brand ID -> correct FERMÀT platform org_id for funnel metrics. Some brands have different IDs in the CSV vs the platform.",
+  "8fd93118-a246-431e-aebf-4aa362622342": {
+    "brand": "De Soi",
+    "fermat_org_id": "01177dbe-2c72-4dfc-bd98-ab4866295f65",
+    "note": "CSV brand_id differs from Fermat org_id"
+  },
+  "f0a1a21b-3832-4bfd-ad3d-af38d11a90e8": {
+    "brand": "Moment",
+    "fermat_org_id": "0de970ae-a2f3-46b1-9c67-bda052cfcd8f",
+    "note": "CSV brand_id differs from Fermat org_id"
+  },
+  "39f04705-e991-461e-a98f-2dd3f29d6e47": { "brand": "belliwelli", "fermat_org_id": "39f04705-e991-461e-a98f-2dd3f29d6e47" },
+  "35845b70-d5ef-4dbf-83cf-e9f327662c17": { "brand": "Medik8", "fermat_org_id": "35845b70-d5ef-4dbf-83cf-e9f327662c17" },
+  "508e7756-81aa-48b1-bbf5-765d2e8f1eb9": { "brand": "Westmore Beauty", "fermat_org_id": "508e7756-81aa-48b1-bbf5-765d2e8f1eb9" },
+  "ae4f1f5d-f1d1-488f-8340-1890cfd0faf3": { "brand": "MOTHER ROOT", "fermat_org_id": "ae4f1f5d-f1d1-488f-8340-1890cfd0faf3" },
+  "ab6fc1e8-f245-4344-902c-b60388575aca": { "brand": "FOND Regenerative", "fermat_org_id": "ab6fc1e8-f245-4344-902c-b60388575aca" },
+  "74128082-bd6b-4435-94a5-7a7fdfa41726": { "brand": "HOP WTR", "fermat_org_id": "74128082-bd6b-4435-94a5-7a7fdfa41726" },
+  "8be8e4b7-d7c1-4922-b8e3-271671ee1592": { "brand": "Little Saints", "fermat_org_id": "8be8e4b7-d7c1-4922-b8e3-271671ee1592" },
+  "737444a0-c397-46a8-a53f-8b32d07a1722": { "brand": "Shop FlavCity", "fermat_org_id": "737444a0-c397-46a8-a53f-8b32d07a1722" },
+  "1e7aa370-3cde-40bf-90d9-8ce8a3aaed30": { "brand": "HAVN", "fermat_org_id": "1e7aa370-3cde-40bf-90d9-8ce8a3aaed30" },
+  "f7983632-4d4b-49c8-8e7a-192e9e999dff": { "brand": "Henry Rose", "fermat_org_id": "f7983632-4d4b-49c8-8e7a-192e9e999dff" },
+  "f8f83f9d-be9e-4177-ad7e-292ed079eafd": { "brand": "Veracity Selfcare", "fermat_org_id": "f8f83f9d-be9e-4177-ad7e-292ed079eafd" },
+  "c686cb26-9441-4aa2-883e-7204999f2bc4": { "brand": "Sole Toscana", "fermat_org_id": "c686cb26-9441-4aa2-883e-7204999f2bc4" },
+  "5cc7fc09-8acf-4af0-892f-735c6686c2a2": { "brand": "Gains In Bulk", "fermat_org_id": "5cc7fc09-8acf-4af0-892f-735c6686c2a2" }
+}

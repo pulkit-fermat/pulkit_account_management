@@ -1,0 +1,584 @@
+{
+  "brand_id": "f0a1a21b-3832-4bfd-ad3d-af38d11a90e8",
+  "brand_name": "Moment",
+  "last_updated": "2026-03-24T16:00:00Z",
+  "health": {
+    "score": 31,
+    "status": "red",
+    "breakdown": {
+      "platform_performance": 19,
+      "platform_performance_detail": "Sessions:5/9, Revenue:5/9, CVR:7/9, Purchases:2/8",
+      "communication": 0,
+      "communication_detail": "SlackRecency:0/6, BrandSlack14d:0/6, PulkitSlack14d:0/6, EmailThreads14d:0/6, PulkitOutreach:0/6",
+      "engagement": 12,
+      "engagement_detail": "LastCall:6/12, Calls30d:6/12, Upcoming:0/11"
+    },
+    "signals": [
+      {
+        "type": "positive",
+        "text": "7d revenue $15,497 with 246 purchases at 2.14% CVR — excellent platform performance",
+        "time": "Mar 23"
+      },
+      {
+        "type": "negative",
+        "text": "No calls in 56 days — no GM handoff to Pulkit completed",
+        "time": "Mar 23"
+      },
+      {
+        "type": "negative",
+        "text": "Pulkit joined Slack Feb 24 but sent no intro message — brand unaware of new CSM",
+        "time": "Feb 24"
+      },
+      {
+        "type": "warning",
+        "text": "Brand contact Aisha noted 'CVR is super low' Jan 12 — no follow-up visible",
+        "time": "Jan 12"
+      },
+      {
+        "type": "negative",
+        "text": "Pierre weekly roundups stopped after Jan 11 — automated reporting may have broken",
+        "time": "Jan 11"
+      },
+      {
+        "type": "positive",
+        "text": "Strong recent daily performance — Mar 22 had 71 sessions, 2 purchases, $284 revenue",
+        "time": "Mar 22"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 283.5,
+      "cvr": 2.1505,
+      "sessions": 93,
+      "roas": null,
+      "cpa": null,
+      "purchases": 2,
+      "aov": 141.75,
+      "pdp_views": 8,
+      "atc": 3,
+      "checkouts": 2
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 347.25,
+      "cvr": 1.1111,
+      "sessions": 270,
+      "roas": null,
+      "cpa": null,
+      "purchases": 3,
+      "aov": 115.75,
+      "pdp_views": 16,
+      "atc": 8,
+      "checkouts": 3
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 411.0,
+      "cvr": 0.6033,
+      "sessions": 663,
+      "roas": null,
+      "cpa": null,
+      "purchases": 4,
+      "aov": 102.75,
+      "pdp_views": 34,
+      "atc": 15,
+      "checkouts": 5
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 1861.0,
+      "cvr": 0.6169,
+      "sessions": 3404,
+      "roas": null,
+      "cpa": null,
+      "purchases": 21,
+      "aov": 88.62,
+      "pdp_views": 262,
+      "atc": 74,
+      "checkouts": 33
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 2401.0,
+      "cvr": 0.6154,
+      "sessions": 4225,
+      "roas": null,
+      "cpa": null,
+      "purchases": 26,
+      "aov": 92.35,
+      "pdp_views": 343,
+      "atc": 90,
+      "checkouts": 39
+    },
+    "daily": [
+      {
+        "date": "2026-02-06",
+        "sessions": 200,
+        "revenue": 157.5,
+        "purchases": 1,
+        "pdp_views": 17,
+        "atc": 2,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-07",
+        "sessions": 41,
+        "revenue": 225.0,
+        "purchases": 1,
+        "pdp_views": 7,
+        "atc": 2,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-02-08",
+        "sessions": 4,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-09",
+        "sessions": 16,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-10",
+        "sessions": 5,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-11",
+        "sessions": 6,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-12",
+        "sessions": 35,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-13",
+        "sessions": 2,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-14",
+        "sessions": 5,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-15",
+        "sessions": 9,
+        "revenue": 123.75,
+        "purchases": 1,
+        "pdp_views": 2,
+        "atc": 1,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-16",
+        "sessions": 4,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-17",
+        "sessions": 15,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-18",
+        "sessions": 31,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-19",
+        "sessions": 59,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-20",
+        "sessions": 5,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-21",
+        "sessions": 584,
+        "revenue": 191.25,
+        "purchases": 3,
+        "pdp_views": 65,
+        "atc": 13,
+        "checkouts": 3
+      },
+      {
+        "date": "2026-02-22",
+        "sessions": 1612,
+        "revenue": 891.25,
+        "purchases": 11,
+        "pdp_views": 153,
+        "atc": 36,
+        "checkouts": 17
+      },
+      {
+        "date": "2026-02-23",
+        "sessions": 302,
+        "revenue": 198.75,
+        "purchases": 2,
+        "pdp_views": 23,
+        "atc": 8,
+        "checkouts": 4
+      },
+      {
+        "date": "2026-02-24",
+        "sessions": 113,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 5,
+        "atc": 3,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-25",
+        "sessions": 79,
+        "revenue": 63.75,
+        "purchases": 1,
+        "pdp_views": 9,
+        "atc": 2,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-26",
+        "sessions": 101,
+        "revenue": 232.5,
+        "purchases": 2,
+        "pdp_views": 4,
+        "atc": 1,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-27",
+        "sessions": 99,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 9,
+        "atc": 3,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-28",
+        "sessions": 85,
+        "revenue": 63.75,
+        "purchases": 1,
+        "pdp_views": 4,
+        "atc": 2,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-03-01",
+        "sessions": 119,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 5,
+        "atc": 1,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-02",
+        "sessions": 79,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 7,
+        "atc": 1,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-03",
+        "sessions": 101,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 8,
+        "atc": 2,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-03-04",
+        "sessions": 32,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-05",
+        "sessions": 8,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-06",
+        "sessions": 3,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-07",
+        "sessions": 7,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-08",
+        "sessions": 1,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-09",
+        "sessions": 2,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-10",
+        "sessions": 3,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-11",
+        "sessions": 8,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-12",
+        "sessions": 2,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-13",
+        "sessions": 25,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 3,
+        "atc": 1,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-14",
+        "sessions": 47,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 1,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-15",
+        "sessions": 162,
+        "revenue": 63.75,
+        "purchases": 1,
+        "pdp_views": 7,
+        "atc": 3,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-03-16",
+        "sessions": 144,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 8,
+        "atc": 2,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-17",
+        "sessions": 123,
+        "revenue": 63.75,
+        "purchases": 1,
+        "pdp_views": 6,
+        "atc": 3,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-03-18",
+        "sessions": 46,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 2,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-19",
+        "sessions": 5,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-20",
+        "sessions": 3,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-21",
+        "sessions": 22,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-22",
+        "sessions": 71,
+        "revenue": 283.5,
+        "purchases": 2,
+        "pdp_views": 7,
+        "atc": 3,
+        "checkouts": 2
+      }
+    ]
+  },
+  "calls": {
+    "recent": [
+      {
+        "title": "FERMÀT | Live Momentous",
+        "date": "2026-02-26T20:58:03Z",
+        "duration": "48 min",
+        "participants": "Crystal Haggard, Gillian Roth",
+        "source": "Glyphic",
+        "summary": "Call between FERMÀT (Gillian Roth) and Momentous (Crystal Haggard). Note: This appears to be a different brand (Momentous/livemomentous.com) rather than the Moment brand in this portfolio.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
+      }
+    ],
+    "analysis": "The Glyphic search returned one call titled 'FERMÀT | Live Momentous' from Feb 26, but this appears to be for a different brand (Momentous/livemomentous.com, not Moment). No calls found specifically for the Moment brand in the portfolio. The brand is managed by Mia DyBuncio's team — Pulkit has not been involved in any calls."
+  },
+  "calendar": {
+    "past": [],
+    "upcoming": [],
+    "_note": "No Google Calendar events found matching 'Moment' between Feb 22 and Apr 30, 2026 on Pulkit's calendar."
+  },
+  "slack": {
+    "messages": [
+      {
+        "user": "Moment team member",
+        "text": "wow, cvr is super low / why is that?",
+        "timestamp": "2026-01-12T22:40:31+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMÀT Weekly Roundup Jan 5-11: Sessions 24,512 | Purchases 679 | GMV $47,915 | Revenue $41,785. Top funnel: 3 Reasons Why - Better than Booze (24,361 sessions, $47,915 GMV, 2.79% CVR)",
+        "timestamp": "2026-01-12T22:30:38+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMÀT Weekly Roundup Dec 29 - Jan 4: Sessions 11,126 | Purchases 572 | GMV $39,569 | Revenue $34,477. Top funnel: 3 Reasons Why - Better than Booze (11,044 sessions, 5.14% CVR)",
+        "timestamp": "2026-01-05T22:30:41+05:30",
+        "channel": "#fermat-x-moment"
+      }
+    ],
+    "analysis": "The Moment Slack channel has been completely silent since Jan 12 — no human messages in over 2 months. Pulkit and the FERMÀT bot joined Feb 24 but no introduction was posted. The brand had strong weekly roundup numbers (24K+ sessions, 679 purchases in one week) driven by the '3 Reasons Why - Better than Booze' funnel. A Moment team member noted low CVR on Jan 12. The channel appears to be running on autopilot with minimal engagement needed, but Pulkit should still introduce himself and build the relationship."
+  },
+  "email": {
+    "messages": [],
+    "analysis": "No relevant brand-specific email activity for Moment in the last 30 days. The Gmail search returned unrelated Meta ad approvals and LinkedIn notifications. No direct communications between Pulkit and the Moment team."
+  }
+}

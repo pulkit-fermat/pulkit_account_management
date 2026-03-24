@@ -1,0 +1,590 @@
+{
+  "brand_id": "f8f83f9d-be9e-4177-ad7e-292ed079eafd",
+  "brand_name": "Veracity Selfcare",
+  "last_updated": "2026-03-24T16:00:00Z",
+  "health": {
+    "score": 47,
+    "status": "yellow",
+    "breakdown": {
+      "platform_performance": 35,
+      "platform_performance_detail": "Sessions:9/9, Revenue:9/9, CVR:9/9, Purchases:8/8",
+      "communication": 0,
+      "communication_detail": "SlackRecency:0/6, BrandSlack14d:0/6, PulkitSlack14d:0/6, EmailThreads14d:0/6, PulkitOutreach:0/6",
+      "engagement": 12,
+      "engagement_detail": "LastCall:6/12, Calls30d:6/12, Upcoming:0/11"
+    },
+    "signals": [
+      {
+        "type": "positive",
+        "text": "7d revenue $8,174 with 68 purchases at 2.61% CVR — strong platform performance",
+        "time": "Mar 23"
+      },
+      {
+        "type": "negative",
+        "text": "No calls in 46 days — Feb 26 call was cancelled, no reschedule",
+        "time": "Mar 23"
+      },
+      {
+        "type": "negative",
+        "text": "Pulkit joined Slack Feb 24 but never introduced himself — no GM transition completed",
+        "time": "Feb 24"
+      },
+      {
+        "type": "warning",
+        "text": "SKU/variant cleanup requested Feb 18 — unclear if resolved",
+        "time": "Feb 18"
+      },
+      {
+        "type": "positive",
+        "text": "Meta ads actively running and getting approved — campaigns still live",
+        "time": "Mar 17"
+      },
+      {
+        "type": "warning",
+        "text": "7d revenue down 26% vs 30d daily average — slight decline",
+        "time": "Mar 23"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 668.15,
+      "cvr": 1.4151,
+      "sessions": 424,
+      "roas": null,
+      "cpa": null,
+      "purchases": 6,
+      "aov": 111.36,
+      "pdp_views": 100,
+      "atc": 29,
+      "checkouts": 13
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 3621.46,
+      "cvr": 2.0424,
+      "sessions": 1273,
+      "roas": null,
+      "cpa": null,
+      "purchases": 26,
+      "aov": 139.29,
+      "pdp_views": 302,
+      "atc": 92,
+      "checkouts": 42
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 7723.26,
+      "cvr": 2.4252,
+      "sessions": 2639,
+      "roas": null,
+      "cpa": null,
+      "purchases": 64,
+      "aov": 120.68,
+      "pdp_views": 586,
+      "atc": 222,
+      "checkouts": 109
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 18797.06,
+      "cvr": 2.6935,
+      "sessions": 5866,
+      "roas": null,
+      "cpa": null,
+      "purchases": 158,
+      "aov": 118.97,
+      "pdp_views": 1248,
+      "atc": 492,
+      "checkouts": 246
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 46897.07,
+      "cvr": 2.6148,
+      "sessions": 14571,
+      "roas": null,
+      "cpa": null,
+      "purchases": 381,
+      "aov": 123.09,
+      "pdp_views": 2897,
+      "atc": 1044,
+      "checkouts": 553
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 61697.21,
+      "cvr": 2.3011,
+      "sessions": 22033,
+      "roas": null,
+      "cpa": null,
+      "purchases": 507,
+      "aov": 121.69,
+      "pdp_views": 4272,
+      "atc": 1464,
+      "checkouts": 790
+    },
+    "daily": [
+      {
+        "date": "2026-02-07",
+        "sessions": 431,
+        "revenue": 967.25,
+        "purchases": 8,
+        "pdp_views": 100,
+        "atc": 31,
+        "checkouts": 19
+      },
+      {
+        "date": "2026-02-08",
+        "sessions": 513,
+        "revenue": 571.45,
+        "purchases": 5,
+        "pdp_views": 98,
+        "atc": 28,
+        "checkouts": 14
+      },
+      {
+        "date": "2026-02-09",
+        "sessions": 500,
+        "revenue": 1263.55,
+        "purchases": 11,
+        "pdp_views": 88,
+        "atc": 28,
+        "checkouts": 18
+      },
+      {
+        "date": "2026-02-10",
+        "sessions": 594,
+        "revenue": 1321.06,
+        "purchases": 10,
+        "pdp_views": 89,
+        "atc": 28,
+        "checkouts": 16
+      },
+      {
+        "date": "2026-02-11",
+        "sessions": 453,
+        "revenue": 1019.76,
+        "purchases": 9,
+        "pdp_views": 90,
+        "atc": 21,
+        "checkouts": 15
+      },
+      {
+        "date": "2026-02-12",
+        "sessions": 410,
+        "revenue": 876.65,
+        "purchases": 9,
+        "pdp_views": 69,
+        "atc": 19,
+        "checkouts": 11
+      },
+      {
+        "date": "2026-02-13",
+        "sessions": 461,
+        "revenue": 679.25,
+        "purchases": 5,
+        "pdp_views": 80,
+        "atc": 18,
+        "checkouts": 7
+      },
+      {
+        "date": "2026-02-14",
+        "sessions": 507,
+        "revenue": 871.21,
+        "purchases": 8,
+        "pdp_views": 105,
+        "atc": 26,
+        "checkouts": 18
+      },
+      {
+        "date": "2026-02-15",
+        "sessions": 612,
+        "revenue": 1329.1,
+        "purchases": 14,
+        "pdp_views": 120,
+        "atc": 45,
+        "checkouts": 25
+      },
+      {
+        "date": "2026-02-16",
+        "sessions": 542,
+        "revenue": 676.3,
+        "purchases": 6,
+        "pdp_views": 111,
+        "atc": 22,
+        "checkouts": 10
+      },
+      {
+        "date": "2026-02-17",
+        "sessions": 561,
+        "revenue": 706.41,
+        "purchases": 6,
+        "pdp_views": 105,
+        "atc": 26,
+        "checkouts": 13
+      },
+      {
+        "date": "2026-02-18",
+        "sessions": 463,
+        "revenue": 1869.15,
+        "purchases": 13,
+        "pdp_views": 75,
+        "atc": 29,
+        "checkouts": 19
+      },
+      {
+        "date": "2026-02-19",
+        "sessions": 524,
+        "revenue": 764.66,
+        "purchases": 7,
+        "pdp_views": 81,
+        "atc": 30,
+        "checkouts": 13
+      },
+      {
+        "date": "2026-02-20",
+        "sessions": 472,
+        "revenue": 525.9,
+        "purchases": 3,
+        "pdp_views": 85,
+        "atc": 37,
+        "checkouts": 21
+      },
+      {
+        "date": "2026-02-21",
+        "sessions": 419,
+        "revenue": 1358.44,
+        "purchases": 12,
+        "pdp_views": 79,
+        "atc": 32,
+        "checkouts": 18
+      },
+      {
+        "date": "2026-02-22",
+        "sessions": 564,
+        "revenue": 1870.44,
+        "purchases": 14,
+        "pdp_views": 122,
+        "atc": 46,
+        "checkouts": 24
+      },
+      {
+        "date": "2026-02-23",
+        "sessions": 459,
+        "revenue": 1464.47,
+        "purchases": 11,
+        "pdp_views": 92,
+        "atc": 27,
+        "checkouts": 17
+      },
+      {
+        "date": "2026-02-24",
+        "sessions": 504,
+        "revenue": 1035.65,
+        "purchases": 12,
+        "pdp_views": 106,
+        "atc": 35,
+        "checkouts": 17
+      },
+      {
+        "date": "2026-02-25",
+        "sessions": 495,
+        "revenue": 810.05,
+        "purchases": 7,
+        "pdp_views": 89,
+        "atc": 22,
+        "checkouts": 14
+      },
+      {
+        "date": "2026-02-26",
+        "sessions": 382,
+        "revenue": 785.3,
+        "purchases": 6,
+        "pdp_views": 75,
+        "atc": 23,
+        "checkouts": 13
+      },
+      {
+        "date": "2026-02-27",
+        "sessions": 387,
+        "revenue": 1573.27,
+        "purchases": 9,
+        "pdp_views": 67,
+        "atc": 22,
+        "checkouts": 11
+      },
+      {
+        "date": "2026-02-28",
+        "sessions": 471,
+        "revenue": 1307.07,
+        "purchases": 10,
+        "pdp_views": 106,
+        "atc": 30,
+        "checkouts": 15
+      },
+      {
+        "date": "2026-03-01",
+        "sessions": 428,
+        "revenue": 1653.81,
+        "purchases": 15,
+        "pdp_views": 91,
+        "atc": 33,
+        "checkouts": 20
+      },
+      {
+        "date": "2026-03-02",
+        "sessions": 428,
+        "revenue": 994.46,
+        "purchases": 9,
+        "pdp_views": 68,
+        "atc": 24,
+        "checkouts": 13
+      },
+      {
+        "date": "2026-03-03",
+        "sessions": 1068,
+        "revenue": 6588.07,
+        "purchases": 49,
+        "pdp_views": 200,
+        "atc": 89,
+        "checkouts": 54
+      },
+      {
+        "date": "2026-03-04",
+        "sessions": 769,
+        "revenue": 3604.16,
+        "purchases": 29,
+        "pdp_views": 162,
+        "atc": 58,
+        "checkouts": 34
+      },
+      {
+        "date": "2026-03-05",
+        "sessions": 692,
+        "revenue": 1660.16,
+        "purchases": 12,
+        "pdp_views": 117,
+        "atc": 36,
+        "checkouts": 18
+      },
+      {
+        "date": "2026-03-06",
+        "sessions": 651,
+        "revenue": 1993.96,
+        "purchases": 13,
+        "pdp_views": 108,
+        "atc": 37,
+        "checkouts": 16
+      },
+      {
+        "date": "2026-03-07",
+        "sessions": 653,
+        "revenue": 1498.07,
+        "purchases": 15,
+        "pdp_views": 114,
+        "atc": 28,
+        "checkouts": 20
+      },
+      {
+        "date": "2026-03-08",
+        "sessions": 754,
+        "revenue": 1261.07,
+        "purchases": 12,
+        "pdp_views": 132,
+        "atc": 42,
+        "checkouts": 21
+      },
+      {
+        "date": "2026-03-09",
+        "sessions": 822,
+        "revenue": 4030.48,
+        "purchases": 31,
+        "pdp_views": 144,
+        "atc": 61,
+        "checkouts": 42
+      },
+      {
+        "date": "2026-03-10",
+        "sessions": 387,
+        "revenue": 1445.46,
+        "purchases": 12,
+        "pdp_views": 77,
+        "atc": 31,
+        "checkouts": 18
+      },
+      {
+        "date": "2026-03-11",
+        "sessions": 351,
+        "revenue": 332.25,
+        "purchases": 3,
+        "pdp_views": 74,
+        "atc": 20,
+        "checkouts": 6
+      },
+      {
+        "date": "2026-03-12",
+        "sessions": 303,
+        "revenue": 795.2,
+        "purchases": 9,
+        "pdp_views": 66,
+        "atc": 22,
+        "checkouts": 10
+      },
+      {
+        "date": "2026-03-13",
+        "sessions": 197,
+        "revenue": 884.55,
+        "purchases": 6,
+        "pdp_views": 48,
+        "atc": 21,
+        "checkouts": 11
+      },
+      {
+        "date": "2026-03-14",
+        "sessions": 340,
+        "revenue": 1233.63,
+        "purchases": 11,
+        "pdp_views": 95,
+        "atc": 35,
+        "checkouts": 17
+      },
+      {
+        "date": "2026-03-15",
+        "sessions": 431,
+        "revenue": 1233.21,
+        "purchases": 12,
+        "pdp_views": 93,
+        "atc": 48,
+        "checkouts": 22
+      },
+      {
+        "date": "2026-03-16",
+        "sessions": 396,
+        "revenue": 1119.02,
+        "purchases": 10,
+        "pdp_views": 65,
+        "atc": 32,
+        "checkouts": 11
+      },
+      {
+        "date": "2026-03-17",
+        "sessions": 367,
+        "revenue": 1240.5,
+        "purchases": 10,
+        "pdp_views": 83,
+        "atc": 33,
+        "checkouts": 13
+      },
+      {
+        "date": "2026-03-18",
+        "sessions": 367,
+        "revenue": 1050.95,
+        "purchases": 11,
+        "pdp_views": 85,
+        "atc": 36,
+        "checkouts": 19
+      },
+      {
+        "date": "2026-03-19",
+        "sessions": 350,
+        "revenue": 1133.08,
+        "purchases": 10,
+        "pdp_views": 70,
+        "atc": 40,
+        "checkouts": 24
+      },
+      {
+        "date": "2026-03-20",
+        "sessions": 282,
+        "revenue": 677.27,
+        "purchases": 7,
+        "pdp_views": 46,
+        "atc": 21,
+        "checkouts": 11
+      },
+      {
+        "date": "2026-03-21",
+        "sessions": 390,
+        "revenue": 1420.03,
+        "purchases": 10,
+        "pdp_views": 102,
+        "atc": 29,
+        "checkouts": 12
+      },
+      {
+        "date": "2026-03-22",
+        "sessions": 459,
+        "revenue": 1533.28,
+        "purchases": 10,
+        "pdp_views": 100,
+        "atc": 34,
+        "checkouts": 17
+      },
+      {
+        "date": "2026-03-23",
+        "sessions": 424,
+        "revenue": 668.15,
+        "purchases": 6,
+        "pdp_views": 100,
+        "atc": 29,
+        "checkouts": 13
+      }
+    ]
+  },
+  "calls": {
+    "recent": [
+      {
+        "title": "Fermat x Veracity",
+        "date": "2026-02-26T16:58:10Z",
+        "duration": "7 min",
+        "participants": "Mia DyBuncio, Jacqueline Lin, Adaeze, Yuliia, James, Sabrina Pereira, Maggie Sullivan",
+        "source": "Glyphic",
+        "summary": "Cancelled call — 7 minutes of brief connection before cancellation. Full team was present but no substantive discussion.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
+      }
+    ],
+    "analysis": "One call found but it was cancelled (only 7 min). This was Mia's last scheduled call with the Veracity team on Feb 26, with full team present but no substantive discussion. Since Pulkit's transition, no calls have been initiated. The brand had weekly calls with Mia — this cadence has completely dropped off."
+  },
+  "calendar": {
+    "past": [],
+    "upcoming": [],
+    "_note": "No Google Calendar events found matching 'Veracity' between Feb 22 and Apr 30, 2026 on Pulkit's calendar."
+  },
+  "slack": {
+    "messages": [
+      {
+        "user": "Veracity team member",
+        "text": "hey team - are you able to share what SKUs/variants are being used on the fermat side? trying to do a cleanup of some of our promo SKUs",
+        "timestamp": "2026-02-18T03:15:11+05:30",
+        "channel": "#fermat-x-veracitywellness"
+      },
+      {
+        "user": "Veracity team member",
+        "text": "hey Mia! mind if we push this meeting out to next week?",
+        "timestamp": "2026-01-29T22:09:35+05:30",
+        "channel": "#fermat-x-veracitywellness"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "hey Maggie Sullivan it looks like the singular protein sku hasn't been shared with fermat, i'm only seeing the metabolism + protein power set. could you help share this over?",
+        "timestamp": "2026-01-16T22:15:39+05:30",
+        "channel": "#fermat-x-veracitywellness"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "Hi team, thanks for the time today! Recap: subdomain change notified to engineering, protein SKU sharing, two protein landing pages for 1/15, rebrand images across funnels pending go-ahead.",
+        "timestamp": "2026-01-06T02:28:17+05:30",
+        "channel": "#fermat-x-veracitywellness"
+      }
+    ],
+    "analysis": "The Veracity Selfcare channel has been quiet since Feb 18 when a team member asked about SKUs/variants in use. Pulkit and the FERMÀT bot joined Feb 24 but no introduction message was posted. The brand team includes Jacqueline Lin, Maggie Sullivan, and Yuliia (agency). Mia was managing the account with weekly calls and active funnel work (protein landing pages, rebrand). Since Pulkit's transition, there has been zero engagement — an introduction message is urgently needed."
+  },
+  "email": {
+    "messages": [],
+    "analysis": "No email activity found for Veracity Selfcare in the last 30 days. No direct communications between Pulkit and the Veracity team."
+  }
+}

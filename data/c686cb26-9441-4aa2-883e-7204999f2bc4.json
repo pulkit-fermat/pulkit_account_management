@@ -1,0 +1,630 @@
+{
+  "brand_id": "c686cb26-9441-4aa2-883e-7204999f2bc4",
+  "brand_name": "Sole Toscana",
+  "last_updated": "2026-03-24T16:00:00Z",
+  "account_info": {
+    "active_users_l7d": 1,
+    "arr": 16800,
+    "renewal_date": "2026-06-30",
+    "csm": "Pulkit Srivastava",
+    "previous_csm": "Mia DyBuncio",
+    "primary_contact": "Preston Alder",
+    "primary_contact_email": "preston@soletoscana.com",
+    "slack_channel": "C07PRNWRZ9Q"
+  },
+  "health": {
+    "score": 60,
+    "status": "yellow",
+    "breakdown": {
+      "platform_performance": 33,
+      "platform_performance_detail": "Sessions:9/9, Revenue:9/9, CVR:7/9, Purchases:8/8",
+      "communication": 4,
+      "communication_detail": "SlackRecency:0/6, BrandSlack14d:0/6, PulkitSlack14d:0/6, EmailThreads14d:4/6, PulkitOutreach:0/6",
+      "engagement": 23,
+      "engagement_detail": "LastCall:6/12, Calls30d:6/12, Upcoming:11/11"
+    },
+    "signals": [
+      {
+        "type": "positive",
+        "text": "Intro call completed Mar 10 — Preston responsive and booked via Calendly promptly",
+        "time": "Mar 10"
+      },
+      {
+        "type": "positive",
+        "text": "Next monthly call confirmed Apr 14 — Preston accepted invite",
+        "time": "Mar 12"
+      },
+      {
+        "type": "warning",
+        "text": "35-day gap between intro call (Mar 10) and next monthly (Apr 14) — consider mid-month check-in",
+        "time": "Mar 23"
+      },
+      {
+        "type": "warning",
+        "text": "7d revenue down 55% vs 30d average — massive bot traffic inflating session counts",
+        "time": "Mar 23"
+      },
+      {
+        "type": "positive",
+        "text": "Feb 14 revenue spike: $12,139 from 151 purchases — brand has strong campaign potential",
+        "time": "Feb 14"
+      },
+      {
+        "type": "warning",
+        "text": "Pierre weekly roundups stopped after Jan 12 — 10+ week gap",
+        "time": "Jan 12"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 2870.58,
+      "cvr": 1.3537,
+      "sessions": 2881,
+      "roas": null,
+      "cpa": null,
+      "purchases": 39,
+      "aov": 73.6,
+      "pdp_views": 383,
+      "atc": 88,
+      "checkouts": 34
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 6722.19,
+      "cvr": 1.5693,
+      "sessions": 5735,
+      "roas": null,
+      "cpa": null,
+      "purchases": 90,
+      "aov": 74.69,
+      "pdp_views": 838,
+      "atc": 201,
+      "checkouts": 74
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 16686.96,
+      "cvr": 1.5959,
+      "sessions": 14161,
+      "roas": null,
+      "cpa": null,
+      "purchases": 226,
+      "aov": 73.84,
+      "pdp_views": 1966,
+      "atc": 491,
+      "checkouts": 182
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 46328.3,
+      "cvr": 1.6493,
+      "sessions": 38562,
+      "roas": null,
+      "cpa": null,
+      "purchases": 636,
+      "aov": 72.84,
+      "pdp_views": 5212,
+      "atc": 1391,
+      "checkouts": 529
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 119218.68,
+      "cvr": 1.9493,
+      "sessions": 83517,
+      "roas": null,
+      "cpa": null,
+      "purchases": 1628,
+      "aov": 73.23,
+      "pdp_views": 11320,
+      "atc": 3236,
+      "checkouts": 1443
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 168093.55,
+      "cvr": 2.0148,
+      "sessions": 113759,
+      "roas": null,
+      "cpa": null,
+      "purchases": 2292,
+      "aov": 73.34,
+      "pdp_views": 15318,
+      "atc": 4435,
+      "checkouts": 2144
+    },
+    "daily": [
+      {
+        "date": "2026-02-07",
+        "sessions": 1043,
+        "revenue": 1160.83,
+        "purchases": 17,
+        "pdp_views": 105,
+        "atc": 33,
+        "checkouts": 17
+      },
+      {
+        "date": "2026-02-08",
+        "sessions": 999,
+        "revenue": 2140.46,
+        "purchases": 25,
+        "pdp_views": 112,
+        "atc": 40,
+        "checkouts": 25
+      },
+      {
+        "date": "2026-02-09",
+        "sessions": 1023,
+        "revenue": 1296.85,
+        "purchases": 15,
+        "pdp_views": 102,
+        "atc": 28,
+        "checkouts": 19
+      },
+      {
+        "date": "2026-02-10",
+        "sessions": 1275,
+        "revenue": 1705.72,
+        "purchases": 20,
+        "pdp_views": 115,
+        "atc": 33,
+        "checkouts": 22
+      },
+      {
+        "date": "2026-02-11",
+        "sessions": 1954,
+        "revenue": 3659.74,
+        "purchases": 48,
+        "pdp_views": 261,
+        "atc": 74,
+        "checkouts": 50
+      },
+      {
+        "date": "2026-02-12",
+        "sessions": 2067,
+        "revenue": 2215.64,
+        "purchases": 32,
+        "pdp_views": 261,
+        "atc": 62,
+        "checkouts": 36
+      },
+      {
+        "date": "2026-02-13",
+        "sessions": 1543,
+        "revenue": 2216.67,
+        "purchases": 25,
+        "pdp_views": 174,
+        "atc": 40,
+        "checkouts": 23
+      },
+      {
+        "date": "2026-02-14",
+        "sessions": 1688,
+        "revenue": 2763.13,
+        "purchases": 37,
+        "pdp_views": 247,
+        "atc": 74,
+        "checkouts": 39
+      },
+      {
+        "date": "2026-02-15",
+        "sessions": 2034,
+        "revenue": 2528.62,
+        "purchases": 36,
+        "pdp_views": 257,
+        "atc": 58,
+        "checkouts": 36
+      },
+      {
+        "date": "2026-02-16",
+        "sessions": 2999,
+        "revenue": 4364.56,
+        "purchases": 62,
+        "pdp_views": 447,
+        "atc": 122,
+        "checkouts": 67
+      },
+      {
+        "date": "2026-02-17",
+        "sessions": 163,
+        "revenue": 349.95,
+        "purchases": 2,
+        "pdp_views": 18,
+        "atc": 5,
+        "checkouts": 4
+      },
+      {
+        "date": "2026-02-18",
+        "sessions": 2707,
+        "revenue": 5885.56,
+        "purchases": 81,
+        "pdp_views": 421,
+        "atc": 155,
+        "checkouts": 90
+      },
+      {
+        "date": "2026-02-19",
+        "sessions": 3758,
+        "revenue": 7520.56,
+        "purchases": 112,
+        "pdp_views": 548,
+        "atc": 185,
+        "checkouts": 112
+      },
+      {
+        "date": "2026-02-20",
+        "sessions": 4435,
+        "revenue": 6823.45,
+        "purchases": 94,
+        "pdp_views": 535,
+        "atc": 177,
+        "checkouts": 99
+      },
+      {
+        "date": "2026-02-21",
+        "sessions": 2554,
+        "revenue": 4243.13,
+        "purchases": 58,
+        "pdp_views": 395,
+        "atc": 113,
+        "checkouts": 62
+      },
+      {
+        "date": "2026-02-22",
+        "sessions": 4936,
+        "revenue": 7799.45,
+        "purchases": 109,
+        "pdp_views": 622,
+        "atc": 199,
+        "checkouts": 105
+      },
+      {
+        "date": "2026-02-23",
+        "sessions": 4370,
+        "revenue": 7102.92,
+        "purchases": 106,
+        "pdp_views": 571,
+        "atc": 183,
+        "checkouts": 103
+      },
+      {
+        "date": "2026-02-24",
+        "sessions": 3514,
+        "revenue": 5980.61,
+        "purchases": 78,
+        "pdp_views": 509,
+        "atc": 143,
+        "checkouts": 86
+      },
+      {
+        "date": "2026-02-25",
+        "sessions": 2667,
+        "revenue": 4689.29,
+        "purchases": 58,
+        "pdp_views": 364,
+        "atc": 121,
+        "checkouts": 74
+      },
+      {
+        "date": "2026-02-26",
+        "sessions": 3158,
+        "revenue": 5205.91,
+        "purchases": 72,
+        "pdp_views": 443,
+        "atc": 132,
+        "checkouts": 72
+      },
+      {
+        "date": "2026-02-27",
+        "sessions": 2207,
+        "revenue": 3482.06,
+        "purchases": 51,
+        "pdp_views": 305,
+        "atc": 89,
+        "checkouts": 56
+      },
+      {
+        "date": "2026-02-28",
+        "sessions": 2459,
+        "revenue": 4376.08,
+        "purchases": 55,
+        "pdp_views": 338,
+        "atc": 101,
+        "checkouts": 52
+      },
+      {
+        "date": "2026-03-01",
+        "sessions": 3409,
+        "revenue": 6233.74,
+        "purchases": 78,
+        "pdp_views": 445,
+        "atc": 137,
+        "checkouts": 77
+      },
+      {
+        "date": "2026-03-02",
+        "sessions": 2866,
+        "revenue": 4601.44,
+        "purchases": 58,
+        "pdp_views": 413,
+        "atc": 114,
+        "checkouts": 49
+      },
+      {
+        "date": "2026-03-03",
+        "sessions": 3167,
+        "revenue": 4290.35,
+        "purchases": 60,
+        "pdp_views": 424,
+        "atc": 121,
+        "checkouts": 41
+      },
+      {
+        "date": "2026-03-04",
+        "sessions": 2504,
+        "revenue": 3209.44,
+        "purchases": 49,
+        "pdp_views": 331,
+        "atc": 96,
+        "checkouts": 28
+      },
+      {
+        "date": "2026-03-05",
+        "sessions": 2535,
+        "revenue": 3896.89,
+        "purchases": 55,
+        "pdp_views": 331,
+        "atc": 97,
+        "checkouts": 39
+      },
+      {
+        "date": "2026-03-06",
+        "sessions": 2338,
+        "revenue": 3507.47,
+        "purchases": 44,
+        "pdp_views": 313,
+        "atc": 92,
+        "checkouts": 42
+      },
+      {
+        "date": "2026-03-07",
+        "sessions": 2302,
+        "revenue": 3625.68,
+        "purchases": 58,
+        "pdp_views": 342,
+        "atc": 103,
+        "checkouts": 45
+      },
+      {
+        "date": "2026-03-08",
+        "sessions": 2523,
+        "revenue": 4889.05,
+        "purchases": 61,
+        "pdp_views": 357,
+        "atc": 117,
+        "checkouts": 45
+      },
+      {
+        "date": "2026-03-09",
+        "sessions": 2888,
+        "revenue": 5495.44,
+        "purchases": 75,
+        "pdp_views": 379,
+        "atc": 123,
+        "checkouts": 56
+      },
+      {
+        "date": "2026-03-10",
+        "sessions": 3537,
+        "revenue": 4256.32,
+        "purchases": 63,
+        "pdp_views": 467,
+        "atc": 150,
+        "checkouts": 62
+      },
+      {
+        "date": "2026-03-11",
+        "sessions": 3036,
+        "revenue": 3382.93,
+        "purchases": 51,
+        "pdp_views": 391,
+        "atc": 119,
+        "checkouts": 41
+      },
+      {
+        "date": "2026-03-12",
+        "sessions": 3287,
+        "revenue": 3680.2,
+        "purchases": 47,
+        "pdp_views": 423,
+        "atc": 111,
+        "checkouts": 43
+      },
+      {
+        "date": "2026-03-13",
+        "sessions": 2406,
+        "revenue": 2939.84,
+        "purchases": 40,
+        "pdp_views": 309,
+        "atc": 84,
+        "checkouts": 36
+      },
+      {
+        "date": "2026-03-14",
+        "sessions": 2857,
+        "revenue": 3647.96,
+        "purchases": 48,
+        "pdp_views": 416,
+        "atc": 115,
+        "checkouts": 42
+      },
+      {
+        "date": "2026-03-15",
+        "sessions": 3073,
+        "revenue": 3559.25,
+        "purchases": 50,
+        "pdp_views": 441,
+        "atc": 114,
+        "checkouts": 40
+      },
+      {
+        "date": "2026-03-16",
+        "sessions": 3317,
+        "revenue": 2679.4,
+        "purchases": 36,
+        "pdp_views": 420,
+        "atc": 84,
+        "checkouts": 27
+      },
+      {
+        "date": "2026-03-17",
+        "sessions": 2152,
+        "revenue": 2790.35,
+        "purchases": 41,
+        "pdp_views": 277,
+        "atc": 80,
+        "checkouts": 30
+      },
+      {
+        "date": "2026-03-18",
+        "sessions": 2152,
+        "revenue": 2208.95,
+        "purchases": 26,
+        "pdp_views": 300,
+        "atc": 76,
+        "checkouts": 32
+      },
+      {
+        "date": "2026-03-19",
+        "sessions": 2121,
+        "revenue": 2017.18,
+        "purchases": 28,
+        "pdp_views": 278,
+        "atc": 53,
+        "checkouts": 20
+      },
+      {
+        "date": "2026-03-20",
+        "sessions": 2001,
+        "revenue": 2948.29,
+        "purchases": 41,
+        "pdp_views": 273,
+        "atc": 81,
+        "checkouts": 26
+      },
+      {
+        "date": "2026-03-21",
+        "sessions": 1329,
+        "revenue": 1895.67,
+        "purchases": 25,
+        "pdp_views": 259,
+        "atc": 61,
+        "checkouts": 23
+      },
+      {
+        "date": "2026-03-22",
+        "sessions": 1525,
+        "revenue": 1955.94,
+        "purchases": 26,
+        "pdp_views": 196,
+        "atc": 52,
+        "checkouts": 17
+      },
+      {
+        "date": "2026-03-23",
+        "sessions": 2881,
+        "revenue": 2870.58,
+        "purchases": 39,
+        "pdp_views": 383,
+        "atc": 88,
+        "checkouts": 34
+      }
+    ]
+  },
+  "calls": {
+    "recent": [
+      {
+        "title": "Sole Toscana x Fermat",
+        "date": "2026-03-03T17:58:10Z",
+        "duration": "13 min",
+        "participants": "Mia DyBuncio, Preston, Sarah",
+        "source": "Glyphic",
+        "summary": "Mia's final call with Preston as she transitions to the Product team. Introduced the upcoming transition to Pulkit and discussed current funnel performance.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
+      }
+    ],
+    "analysis": "One call found in the last 30 days — Mia's Mar 3 transition call with Preston (13 min). The Glyphic summary from Mar 10 (visible in email) indicates Pulkit had an introductory call with Preston that day, though it wasn't captured under the 'Sole Toscana' title filter. Monthly recurring calls have been set up."
+  },
+  "calendar": {
+    "past": [
+      {
+        "title": "Sole Toscana x FERMÀT||Monthly",
+        "date": "2026-03-10T21:00:00+05:30",
+        "type": "past"
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Sole Toscana x FERMÀT||Monthly",
+        "date": "2026-04-14T21:00:00+05:30",
+        "type": "upcoming"
+      }
+    ]
+  },
+  "slack": {
+    "messages": [
+      {
+        "user": "Preston (Sole Toscana)",
+        "text": "Hi Pulkit, I just scheduled a time on your calendar for next week. Looking forward to meeting you!",
+        "timestamp": "2026-03-04T22:20:49+05:30",
+        "channel": "#fermat-x-sole-toscana"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Hey Sole Toscana team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all!",
+        "timestamp": "2026-03-04T08:45:49+05:30",
+        "channel": "#fermat-x-sole-toscana"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "Hey Preston! As mentioned on our call earlier I'm transitioning to our Product team at FERMÀT so I'm excited to introduce Pulkit as your new Growth Manager!",
+        "timestamp": "2026-03-04T01:41:49+05:30",
+        "channel": "#fermat-x-sole-toscana"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMÀT Weekly Roundup Jan 5-11: Sessions 2,180 | Purchases 54 | GMV $8,187 | Revenue $7,079. Top funnel: Sole Toscana Shop Returning Customers (219 sessions, 11.87% CVR, $14.76 Rev/Session)",
+        "timestamp": "2026-01-12T22:30:26+05:30",
+        "channel": "#fermat-x-sole-toscana"
+      }
+    ],
+    "analysis": "Sole Toscana has Preston as the sole brand contact, and he responded quickly and positively to Pulkit's introduction on Mar 4, immediately scheduling a call. The GM transition from Mia to Pulkit was announced Mar 4. Preston booked time on Pulkit's calendar for Mar 10 and also accepted a recurring monthly meeting. The brand shows excellent retention funnel performance (11.87% CVR for returning customers). This is a healthy, engaged account with smooth GM transition."
+  },
+  "email": {
+    "messages": [
+      {
+        "from": "Preston Alder <preston@soletoscana.com>",
+        "subject": "Accepted: Sole Toscana x FERMÀT||Monthly @ Monthly from 9pm to 9:30pm on the second Tuesday",
+        "date": "2026-03-12T18:12:31Z",
+        "snippet": "Preston accepting the recurring monthly meeting invite."
+      },
+      {
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "subject": "Preston (Sole Toscana) and Pulkit Srivastava summary is ready",
+        "date": "2026-03-10T15:49:05Z",
+        "snippet": "Glyphic summary of the Mar 10 introductory call between Preston and Pulkit."
+      },
+      {
+        "from": "Preston Alder <preston@soletoscana.com>",
+        "subject": "Accepted: Preston (Sole Toscana) and Pulkit Srivastava @ Tue Mar 10, 2026",
+        "date": "2026-03-04T16:52:45Z",
+        "snippet": "Preston accepting the introductory call invite for Mar 10."
+      }
+    ],
+    "analysis": "Strong email engagement for Sole Toscana. Preston accepted the Mar 10 introductory call with Pulkit, and the Glyphic summary was generated. Preston also accepted the recurring monthly meeting (second Tuesday at 9pm IST). Meta ad approvals show Pulkit is running ads for Sole Toscana's FERMÀT funnels."
+  }
+}

@@ -1,0 +1,609 @@
+{
+  "brand_id": "ab6fc1e8-f245-4344-902c-b60388575aca",
+  "brand_name": "FOND Regenerative",
+  "last_updated": "2026-03-24T16:00:00Z",
+  "health": {
+    "score": 9,
+    "status": "red",
+    "breakdown": {
+      "platform_performance": 3,
+      "platform_performance_detail": "Sessions:3/9, Revenue:0/9, CVR:0/9, Purchases:0/8",
+      "communication": 4,
+      "communication_detail": "SlackRecency:2/6, BrandSlack14d:2/6, PulkitSlack14d:0/6, EmailThreads14d:0/6, PulkitOutreach:0/6",
+      "engagement": 2,
+      "engagement_detail": "LastCall:0/12, Calls30d:2/12, Upcoming:0/11"
+    },
+    "signals": [
+      {
+        "type": "warning",
+        "text": "Video compression issue raised in Slack Mar 13 — only 1 reply, needs follow-up",
+        "time": "Mar 13"
+      },
+      {
+        "type": "negative",
+        "text": "No calls since GM transition Feb 25 — weekly cadence completely lapsed (54 days)",
+        "time": "Mar 23"
+      },
+      {
+        "type": "positive",
+        "text": "7d revenue $284 — up from near-zero earlier in March, CVR recovering to 1.12%",
+        "time": "Mar 23"
+      },
+      {
+        "type": "negative",
+        "text": "Only 178 sessions in 7d — traffic dropped 80%+ from Jan levels (500+/day)",
+        "time": "Mar 23"
+      },
+      {
+        "type": "positive",
+        "text": "Team warmly received Pulkit intro Feb 25 — heart reactions from multiple members",
+        "time": "Feb 25"
+      },
+      {
+        "type": "warning",
+        "text": "Recipe funnel request from Feb 18 (Egg Drop Soup) still pending — needs action",
+        "time": "Feb 18"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0.0,
+      "sessions": 8,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0.0,
+      "sessions": 41,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 1,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0.0,
+      "sessions": 118,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 5,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 92.5,
+      "cvr": 0.3484,
+      "sessions": 287,
+      "roas": null,
+      "cpa": null,
+      "purchases": 1,
+      "aov": 92.5,
+      "pdp_views": 20,
+      "atc": 2,
+      "checkouts": 1
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 92.5,
+      "cvr": 0.1832,
+      "sessions": 546,
+      "roas": null,
+      "cpa": null,
+      "purchases": 1,
+      "aov": 92.5,
+      "pdp_views": 48,
+      "atc": 4,
+      "checkouts": 1
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 1198.5,
+      "cvr": 0.5551,
+      "sessions": 1261,
+      "roas": null,
+      "cpa": null,
+      "purchases": 7,
+      "aov": 171.21,
+      "pdp_views": 128,
+      "atc": 22,
+      "checkouts": 8
+    },
+    "daily": [
+      {
+        "date": "2026-02-07",
+        "sessions": 31,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-08",
+        "sessions": 43,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 7,
+        "atc": 2,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-09",
+        "sessions": 51,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 11,
+        "atc": 2,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-10",
+        "sessions": 22,
+        "revenue": 270,
+        "purchases": 1,
+        "pdp_views": 2,
+        "atc": 1,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-11",
+        "sessions": 39,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 6,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-12",
+        "sessions": 24,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 3,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-13",
+        "sessions": 20,
+        "revenue": 270,
+        "purchases": 1,
+        "pdp_views": 2,
+        "atc": 2,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-14",
+        "sessions": 35,
+        "revenue": 135,
+        "purchases": 1,
+        "pdp_views": 3,
+        "atc": 1,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-15",
+        "sessions": 57,
+        "revenue": 135,
+        "purchases": 1,
+        "pdp_views": 4,
+        "atc": 1,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-16",
+        "sessions": 65,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 12,
+        "atc": 1,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-17",
+        "sessions": 74,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 9,
+        "atc": 2,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-18",
+        "sessions": 39,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-19",
+        "sessions": 31,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-20",
+        "sessions": 85,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 9,
+        "atc": 1,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-21",
+        "sessions": 99,
+        "revenue": 296,
+        "purchases": 2,
+        "pdp_views": 11,
+        "atc": 5,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-02-22",
+        "sessions": 56,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 3,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-23",
+        "sessions": 38,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-24",
+        "sessions": 52,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 6,
+        "atc": 1,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-25",
+        "sessions": 30,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 15,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-26",
+        "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-27",
+        "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-28",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-01",
+        "sessions": 16,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-02",
+        "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-03",
+        "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-04",
+        "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-05",
+        "sessions": 30,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-06",
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 1,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-07",
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-08",
+        "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-09",
+        "sessions": 12,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-10",
+        "sessions": 22,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-11",
+        "sessions": 19,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-12",
+        "sessions": 14,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-13",
+        "sessions": 38,
+        "revenue": 92.5,
+        "purchases": 1,
+        "pdp_views": 7,
+        "atc": 2,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-03-14",
+        "sessions": 12,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-15",
+        "sessions": 18,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-16",
+        "sessions": 34,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-17",
+        "sessions": 34,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-18",
+        "sessions": 12,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-19",
+        "sessions": 16,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-20",
+        "sessions": 15,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-21",
+        "sessions": 20,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-22",
+        "sessions": 13,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-23",
+        "sessions": 8,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      }
+    ]
+  },
+  "calls": {
+    "recent": [],
+    "analysis": "No Glyphic calls found for FOND in the last 30 days (since Feb 22). The previous GM Talia had regular weekly calls with Chelsea, Kendall, and Amy. Since the transition to Pulkit on Feb 25, no calls have been scheduled yet — this gap needs to be addressed to maintain the cadence the brand team was accustomed to."
+  },
+  "calendar": {
+    "past": [],
+    "upcoming": [],
+    "_note": "No Google Calendar events found matching 'FOND' between Feb 22 and Apr 30, 2026 on Pulkit's calendar. No recurring meetings have been set up since the GM transition on Feb 25."
+  },
+  "slack": {
+    "messages": [
+      {
+        "user": "FOND team member",
+        "text": "Hi! Pulkit Do you have an idea why videos compress on Fermat?",
+        "timestamp": "2026-03-13T20:17:30+05:30",
+        "channel": "#fermat-x-fond"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Hey FOND team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call and get to know everyone.",
+        "timestamp": "2026-02-25T20:46:07+05:30",
+        "channel": "#fermat-x-fond"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Hey FOND team! I'm reaching out with some bittersweet but exciting news — later this week I'll be transitioning into a new role on our Enterprise team here at FERMÀT. I'm thrilled to introduce Pulkit, one of our outstanding Onboarding and Growth Managers!",
+        "timestamp": "2026-02-25T19:30:15+05:30",
+        "channel": "#fermat-x-fond"
+      },
+      {
+        "user": "FOND team member",
+        "text": "I think I would love your insights on a different style recipe video funnel. I have 2 created (swedish meatballs & filet mignon). Could you build an Egg Drop Soup funnel and I can see how you lay it out?",
+        "timestamp": "2026-02-18T21:15:19+05:30",
+        "channel": "#fermat-x-fond"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "great, thanks all! Chelsea and Kendall - i don't believe i saw any funnels come across my way. was there anything the both of you were working on that you wanted my input on?",
+        "timestamp": "2026-02-18T20:55:46+05:30",
+        "channel": "#fermat-x-fond"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Hey Kendall, Amy, Chelsea - any chance we can adjust our meeting time tomorrow back by a half hour?",
+        "timestamp": "2026-02-17T23:52:24+05:30",
+        "channel": "#fermat-x-fond"
+      },
+      {
+        "user": "FOND team member",
+        "text": "Hi Talia! Our funnel 'how to know your tallow can be trusted' is getting some good traction and views due to another company going viral about the tallow industry being corrupt. Can you take another look at the funnel and make edits to really get people converting?",
+        "timestamp": "2026-01-28T20:55:04+05:30",
+        "channel": "#fermat-x-fond"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Sharing below a quick recap: Tallow for Fat Hormones Funnel recommendations implemented — added subscribe & save CTAs, updated product hyperlinks, introduced navigation menu bar, added grid shop CTA. Upcoming funnels: Shiitake & Sage, Foundational Nourishment Bundle video funnel.",
+        "timestamp": "2026-01-22T04:04:48+05:30",
+        "channel": "#fermat-x-fond"
+      }
+    ],
+    "analysis": "The FOND channel shows an engaged brand team with Chelsea, Kendall, and Amy actively building funnels (recipe funnels, flavor-specific funnels). The GM transition from Talia to Pulkit was announced Feb 25 and warmly received (heart reactions). A FOND team member asked Pulkit about video compression on Mar 13 — this is the first direct technical question to Pulkit, showing early relationship building. The team has been proactive about funnel creation and optimizing for conversions, particularly around their tallow products."
+  },
+  "email": {
+    "messages": [
+      {
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "subject": "Talia / Pulkit Accounts KT summary is ready",
+        "date": "2026-02-23T15:01:39Z",
+        "snippet": "Glyphic summary of the Talia to Pulkit account transition knowledge transfer call covering FOND and other accounts."
+      }
+    ],
+    "analysis": "Minimal brand-specific email activity for FOND in the last 30 days. The only relevant email is the Glyphic KT summary from Feb 23 documenting the account transition from Talia to Pulkit. No direct email exchanges between Pulkit and the FOND team have occurred yet — communication has been via Slack."
+  }
+}

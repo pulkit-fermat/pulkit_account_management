@@ -1,0 +1,603 @@
+{
+  "brand_id": "f7983632-4d4b-49c8-8e7a-192e9e999dff",
+  "brand_name": "Henry Rose",
+  "last_updated": "2026-03-24T16:00:00Z",
+  "health": {
+    "score": 27,
+    "status": "red",
+    "breakdown": {
+      "platform_performance": 23,
+      "platform_performance_detail": "Sessions:7/9, Revenue:5/9, CVR:7/9, Purchases:4/8",
+      "communication": 2,
+      "communication_detail": "SlackRecency:2/6, BrandSlack14d:0/6, PulkitSlack14d:0/6, EmailThreads14d:0/6, PulkitOutreach:0/6",
+      "engagement": 2,
+      "engagement_detail": "LastCall:0/12, Calls30d:2/12, Upcoming:0/11"
+    },
+    "signals": [
+      {
+        "type": "positive",
+        "text": "7d revenue $15,520 with 212 purchases — highest revenue brand in portfolio",
+        "time": "Mar 23"
+      },
+      {
+        "type": "positive",
+        "text": "Warm CSM transition — Remi, Ngoc, Brittany all responded positively Mar 3",
+        "time": "Mar 3"
+      },
+      {
+        "type": "negative",
+        "text": "No call scheduled with Pulkit — Remi asked to adjust weekly time but no booking yet",
+        "time": "Mar 23"
+      },
+      {
+        "type": "warning",
+        "text": "7d rev down 44% vs 30d daily avg — traffic declining week-over-week",
+        "time": "Mar 23"
+      },
+      {
+        "type": "positive",
+        "text": "AI Search funnels generating weekly — Pierre bot active in channel",
+        "time": "Mar 12"
+      },
+      {
+        "type": "warning",
+        "text": "Agency Good Moose (Brittany Thoma) offered to coordinate scheduling — needs follow-up",
+        "time": "Mar 3"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 99.45,
+      "cvr": 3.0,
+      "sessions": 100,
+      "roas": null,
+      "cpa": null,
+      "purchases": 3,
+      "aov": 33.15,
+      "pdp_views": 27,
+      "atc": 6,
+      "checkouts": 3
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 227.95,
+      "cvr": 1.6234,
+      "sessions": 308,
+      "roas": null,
+      "cpa": null,
+      "purchases": 5,
+      "aov": 45.59,
+      "pdp_views": 60,
+      "atc": 12,
+      "checkouts": 7
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 409.95,
+      "cvr": 1.0127,
+      "sessions": 790,
+      "roas": null,
+      "cpa": null,
+      "purchases": 8,
+      "aov": 51.24,
+      "pdp_views": 163,
+      "atc": 36,
+      "checkouts": 11
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 999.7,
+      "cvr": 0.977,
+      "sessions": 1740,
+      "roas": null,
+      "cpa": null,
+      "purchases": 17,
+      "aov": 58.81,
+      "pdp_views": 295,
+      "atc": 71,
+      "checkouts": 18
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 2433.3,
+      "cvr": 0.9802,
+      "sessions": 4183,
+      "roas": null,
+      "cpa": null,
+      "purchases": 41,
+      "aov": 59.35,
+      "pdp_views": 573,
+      "atc": 172,
+      "checkouts": 65
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 3150.3,
+      "cvr": 0.2773,
+      "sessions": 20194,
+      "roas": null,
+      "cpa": null,
+      "purchases": 56,
+      "aov": 56.26,
+      "pdp_views": 1097,
+      "atc": 284,
+      "checkouts": 101
+    },
+    "daily": [
+      {
+        "date": "2026-02-07",
+        "sessions": 1229,
+        "revenue": 68,
+        "purchases": 2,
+        "pdp_views": 40,
+        "atc": 10,
+        "checkouts": 3
+      },
+      {
+        "date": "2026-02-08",
+        "sessions": 1465,
+        "revenue": 90,
+        "purchases": 2,
+        "pdp_views": 80,
+        "atc": 14,
+        "checkouts": 6
+      },
+      {
+        "date": "2026-02-09",
+        "sessions": 1486,
+        "revenue": 90,
+        "purchases": 1,
+        "pdp_views": 56,
+        "atc": 12,
+        "checkouts": 4
+      },
+      {
+        "date": "2026-02-10",
+        "sessions": 1518,
+        "revenue": 80,
+        "purchases": 2,
+        "pdp_views": 64,
+        "atc": 13,
+        "checkouts": 6
+      },
+      {
+        "date": "2026-02-11",
+        "sessions": 1131,
+        "revenue": 40.5,
+        "purchases": 1,
+        "pdp_views": 58,
+        "atc": 8,
+        "checkouts": 3
+      },
+      {
+        "date": "2026-02-12",
+        "sessions": 1350,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 43,
+        "atc": 12,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-02-13",
+        "sessions": 1326,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 26,
+        "atc": 4,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-14",
+        "sessions": 1226,
+        "revenue": 38.25,
+        "purchases": 1,
+        "pdp_views": 33,
+        "atc": 6,
+        "checkouts": 3
+      },
+      {
+        "date": "2026-02-15",
+        "sessions": 1180,
+        "revenue": 83.25,
+        "purchases": 2,
+        "pdp_views": 40,
+        "atc": 10,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-02-16",
+        "sessions": 627,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 26,
+        "atc": 4,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-17",
+        "sessions": 3185,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 13,
+        "atc": 4,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-18",
+        "sessions": 59,
+        "revenue": 45,
+        "purchases": 1,
+        "pdp_views": 6,
+        "atc": 2,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-19",
+        "sessions": 70,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 13,
+        "atc": 3,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-20",
+        "sessions": 66,
+        "revenue": 147,
+        "purchases": 2,
+        "pdp_views": 11,
+        "atc": 5,
+        "checkouts": 3
+      },
+      {
+        "date": "2026-02-21",
+        "sessions": 93,
+        "revenue": 35,
+        "purchases": 1,
+        "pdp_views": 15,
+        "atc": 5,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-22",
+        "sessions": 49,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 5,
+        "atc": 1,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-23",
+        "sessions": 62,
+        "revenue": 102,
+        "purchases": 1,
+        "pdp_views": 15,
+        "atc": 7,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-24",
+        "sessions": 106,
+        "revenue": 178.8,
+        "purchases": 2,
+        "pdp_views": 12,
+        "atc": 6,
+        "checkouts": 3
+      },
+      {
+        "date": "2026-02-25",
+        "sessions": 115,
+        "revenue": 38.25,
+        "purchases": 1,
+        "pdp_views": 9,
+        "atc": 2,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-02-26",
+        "sessions": 212,
+        "revenue": 217,
+        "purchases": 3,
+        "pdp_views": 24,
+        "atc": 11,
+        "checkouts": 5
+      },
+      {
+        "date": "2026-02-27",
+        "sessions": 332,
+        "revenue": 76.5,
+        "purchases": 2,
+        "pdp_views": 27,
+        "atc": 10,
+        "checkouts": 4
+      },
+      {
+        "date": "2026-02-28",
+        "sessions": 235,
+        "revenue": 76.5,
+        "purchases": 2,
+        "pdp_views": 24,
+        "atc": 10,
+        "checkouts": 4
+      },
+      {
+        "date": "2026-03-01",
+        "sessions": 336,
+        "revenue": 236.25,
+        "purchases": 4,
+        "pdp_views": 35,
+        "atc": 13,
+        "checkouts": 10
+      },
+      {
+        "date": "2026-03-02",
+        "sessions": 295,
+        "revenue": 255,
+        "purchases": 4,
+        "pdp_views": 35,
+        "atc": 15,
+        "checkouts": 6
+      },
+      {
+        "date": "2026-03-03",
+        "sessions": 211,
+        "revenue": 38.25,
+        "purchases": 1,
+        "pdp_views": 28,
+        "atc": 11,
+        "checkouts": 5
+      },
+      {
+        "date": "2026-03-04",
+        "sessions": 167,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 23,
+        "atc": 4,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-03-05",
+        "sessions": 120,
+        "revenue": 38.25,
+        "purchases": 1,
+        "pdp_views": 12,
+        "atc": 3,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-03-06",
+        "sessions": 85,
+        "revenue": 76.5,
+        "purchases": 1,
+        "pdp_views": 10,
+        "atc": 1,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-07",
+        "sessions": 53,
+        "revenue": 76.5,
+        "purchases": 1,
+        "pdp_views": 11,
+        "atc": 4,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-03-08",
+        "sessions": 65,
+        "revenue": 23.8,
+        "purchases": 1,
+        "pdp_views": 8,
+        "atc": 3,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-03-09",
+        "sessions": 76,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 13,
+        "atc": 2,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-10",
+        "sessions": 118,
+        "revenue": 83.25,
+        "purchases": 2,
+        "pdp_views": 23,
+        "atc": 8,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-03-11",
+        "sessions": 83,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 7,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-12",
+        "sessions": 105,
+        "revenue": 38.25,
+        "purchases": 1,
+        "pdp_views": 15,
+        "atc": 5,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-03-13",
+        "sessions": 119,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 22,
+        "atc": 4,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-03-14",
+        "sessions": 65,
+        "revenue": 102,
+        "purchases": 1,
+        "pdp_views": 8,
+        "atc": 4,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-15",
+        "sessions": 96,
+        "revenue": 308.5,
+        "purchases": 3,
+        "pdp_views": 13,
+        "atc": 5,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-03-16",
+        "sessions": 288,
+        "revenue": 57.75,
+        "purchases": 2,
+        "pdp_views": 31,
+        "atc": 7,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-03-17",
+        "sessions": 113,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 26,
+        "atc": 5,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-03-18",
+        "sessions": 105,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 27,
+        "atc": 7,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-19",
+        "sessions": 152,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 35,
+        "atc": 8,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-20",
+        "sessions": 112,
+        "revenue": 182,
+        "purchases": 3,
+        "pdp_views": 15,
+        "atc": 4,
+        "checkouts": 3
+      },
+      {
+        "date": "2026-03-21",
+        "sessions": 39,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 6,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-22",
+        "sessions": 169,
+        "revenue": 128.5,
+        "purchases": 2,
+        "pdp_views": 27,
+        "atc": 6,
+        "checkouts": 4
+      },
+      {
+        "date": "2026-03-23",
+        "sessions": 100,
+        "revenue": 99.45,
+        "purchases": 3,
+        "pdp_views": 27,
+        "atc": 6,
+        "checkouts": 3
+      }
+    ]
+  },
+  "calls": {
+    "recent": [],
+    "analysis": "No Glyphic calls found for Henry Rose in the last 30 days. Mia had weekly calls with the Henry Rose team. Since the GM transition, Pulkit has not yet set up recurring meetings. The brand team proactively asked to reschedule the meeting time on Mar 3, indicating they want to maintain the call cadence."
+  },
+  "calendar": {
+    "past": [],
+    "upcoming": [],
+    "_note": "No Google Calendar events found matching 'Henry Rose' between Feb 22 and Apr 30, 2026 on Pulkit's calendar. The Henry Rose team has requested to set up a new recurring meeting time."
+  },
+  "slack": {
+    "messages": [
+      {
+        "user": "Henry Rose team member",
+        "text": "Pulkit lovely to meet you. I generally have issues with our weekly Fermat time, perhaps we could switch the time around a bit?",
+        "timestamp": "2026-03-03T23:23:04+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Henry Rose team member",
+        "text": "Mia DyBuncio thank you for everything!! We are so sad to see you go, but excited for your next adventure!",
+        "timestamp": "2026-03-03T23:22:11+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Henry Rose team member",
+        "text": "hi Pulkit, so nice to meet you! i'll get some time scheduled and hopefully we can treat that as our ongoing meeting time, will also coordinate that with Remi and Ngoc Ma.",
+        "timestamp": "2026-03-03T19:54:14+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Hey Henry Rose team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all!",
+        "timestamp": "2026-03-03T11:00:44+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "Hey Henry Rose team! I'm reaching out with some bittersweet but exciting news, later this week I'll be transitioning into a new role on our Product team here at FERMÀT. I'm thrilled to introduce Pulkit.",
+        "timestamp": "2026-03-03T01:47:43+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "There are new AI Search funnels ready for you to approve!",
+        "timestamp": "2026-03-12T02:55:17+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "There are new AI Search funnels ready for you to approve!",
+        "timestamp": "2026-03-05T03:20:30+05:30",
+        "channel": "#fermat-x-henry-rose"
+      }
+    ],
+    "analysis": "Henry Rose's Slack channel shows a warm reception to Pulkit's introduction on Mar 3. Two team members (one asking to reschedule weekly timing, another coordinating with Remi and Ngoc Ma) responded positively. Pierre is actively generating AI Search funnels (Mar 5, Mar 12). The brand team was emotional about Mia's departure. A key next step is for Pulkit to set up the recurring meeting time as requested, coordinating with Remi and Ngoc Ma."
+  },
+  "email": {
+    "messages": [
+      {
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "subject": "Pulkit / Mia - Account Transitions summary is ready",
+        "date": "2026-02-24T15:42:34Z",
+        "snippet": "Glyphic summary of the Mia to Pulkit account transition KT call covering Henry Rose and other accounts."
+      }
+    ],
+    "analysis": "Minimal brand-specific email activity for Henry Rose in the last 30 days. The only relevant email is the Glyphic KT summary from the Mia-to-Pulkit transition. No direct email exchanges between Pulkit and the Henry Rose team yet — communication has been via Slack."
+  }
+}

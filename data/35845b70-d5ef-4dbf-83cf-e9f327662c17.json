@@ -1,0 +1,270 @@
+{
+  "brand_id": "35845b70-d5ef-4dbf-83cf-e9f327662c17",
+  "brand_name": "Medik8",
+  "last_updated": "2026-03-24T16:00:00Z",
+  "health": {
+    "score": 35,
+    "status": "red",
+    "breakdown": {
+      "platform_performance": 0,
+      "platform_performance_detail": "Sessions:0/9, Revenue:0/9, CVR:0/9, Purchases:0/8",
+      "communication": 22,
+      "communication_detail": "SlackRecency:4/6, BrandSlack14d:4/6, PulkitSlack14d:4/6, EmailThreads14d:6/6, PulkitOutreach:4/6",
+      "engagement": 13,
+      "engagement_detail": "LastCall:0/12, Calls30d:2/12, Upcoming:11/11"
+    },
+    "signals": [
+      {
+        "type": "positive",
+        "text": "Weekly sync cadence established — next call Mar 24 with 4 attendees",
+        "time": "Mar 16"
+      },
+      {
+        "type": "positive",
+        "text": "Brand guidelines PDF shared proactively by Lindsey — strong engagement",
+        "time": "Mar 16"
+      },
+      {
+        "type": "positive",
+        "text": "3 Medik8 stakeholders (Lindsey, Danielle, Jiyoon) accepted weekly sync invites",
+        "time": "Mar 17"
+      },
+      {
+        "type": "warning",
+        "text": "Zero live traffic — funnels built but not yet receiving sessions",
+        "time": "Mar 23"
+      },
+      {
+        "type": "positive",
+        "text": "Major product launch planned May 14 — high-value opportunity for FERMAT",
+        "time": "Mar 16"
+      },
+      {
+        "type": "warning",
+        "text": "Open action items: connect Facebook Ads Manager, GA4, custom domain setup",
+        "time": "Mar 16"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "daily": []
+  },
+  "calls": {
+    "recent": [],
+    "analysis": "No calls found via Glyphic title search for 'Medik8' in the last 30 days, though Glyphic captured the Mar 9 kick-off and Mar 16 check-in (visible in email summaries). The calls may be logged under a different title pattern. Weekly sync-ups are confirmed through April with Lindsey, Danielle, and Jiyoon."
+  },
+  "calendar": {
+    "past": [
+      {
+        "title": "Medik8 x FERMÀT|| Kick-Off Call",
+        "date": "2026-03-09T20:00:00+05:30",
+        "type": "past"
+      },
+      {
+        "title": "Medik8 x FERMÀT|| Weekly Sync-up",
+        "date": "2026-03-16T22:30:00+05:30",
+        "type": "past"
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Medik8 x FERMÀT|| Weekly Sync-up",
+        "date": "2026-03-24T20:30:00+05:30",
+        "type": "upcoming"
+      },
+      {
+        "title": "Medik8 x FERMÀT|| Weekly Sync-up",
+        "date": "2026-03-31T20:30:00+05:30",
+        "type": "upcoming"
+      },
+      {
+        "title": "Medik8 x FERMÀT|| Weekly Sync-up",
+        "date": "2026-04-07T20:30:00+05:30",
+        "type": "upcoming"
+      },
+      {
+        "title": "Medik8 x FERMÀT|| Weekly Sync-up",
+        "date": "2026-04-14T20:30:00+05:30",
+        "type": "upcoming"
+      }
+    ]
+  },
+  "slack": {
+    "messages": [
+      {
+        "user": "Lindsey Shin",
+        "text": "Pulkit these are the assets we are running on our new welcome offer via facebook. can you please use these assets to ideate a fermat landing page so we can use this as the first campaign for fermat?",
+        "timestamp": "2026-03-19T23:55:34+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Thanks for sharing Lindsey and Danielle — I will go ahead and accept the partner invite. You can go ahead with the next steps.",
+        "timestamp": "2026-03-19T23:40:36+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Lindsey Shin",
+        "text": "we sent a partner invite for tiktok integration, can you please accept it?",
+        "timestamp": "2026-03-19T22:20:01+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Hey Lindsey — great connecting today! Recap: Brand Alignment Priority, May Product Launch (May 14th), Testing Strategy, Canada Expansion (late April). Action Items shared for both Medik8 and FERMÀT teams.",
+        "timestamp": "2026-03-16T22:50:42+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Lindsey Shin",
+        "text": "here are the brand guidelines for you!",
+        "timestamp": "2026-03-16T22:48:05+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Hey Lindsey — great connecting today! Here's a quick recap from our kick-off call. Key Funnels: Crystal Retinal Funnel with Octane quiz, Bundle Funnel (C-Tetra + Crystal Retinal). Integrations this week, funnels live before April.",
+        "timestamp": "2026-03-09T20:59:05+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Lindsey Shin",
+        "text": "Pulkit can you add Danielle Finn to this chat?",
+        "timestamp": "2026-03-09T21:02:35+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Mukul Varshney",
+        "text": "Hey Lindsey Shin, welcome to FERMÀT! This will be our main space for quick questions, updates, and everything in between. Also introducing Pulkit, your Account Manager & Primary Point of Contact.",
+        "timestamp": "2026-03-05T19:58:29+05:30",
+        "channel": "#fermat-x-medik8"
+      }
+    ],
+    "analysis": "Medik8 is a NEW BRAND onboarding with strong momentum. Lindsey Shin is the primary contact with Danielle Finn and Jiyoon Cha also involved. The kick-off call happened Mar 9, with a check-in on Mar 16 where brand guidelines were shared. On Mar 19, Lindsey sent ad creative assets and requested a landing page build, plus shared TikTok partner invite for integration. Major milestones: May 14 product launch, Canada expansion in late April requiring separate FERMÀT account. Weekly sync-ups are scheduled. This is one of the most active and engaged brands in the portfolio."
+  },
+  "email": {
+    "messages": [
+      {
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "subject": "Re: Medik8 x FERMÀT | Check-in Call Recap",
+        "date": "2026-03-16T17:23:58Z",
+        "snippet": "Pulkit sending check-in call recap to Lindsey, cc'ing Danielle and Jiyoon — brand alignment, May launch, testing strategy, Canada expansion."
+      },
+      {
+        "from": "Jiyoon Cha <jiyoon.cha@medik8.com>",
+        "subject": "Accepted: Medik8 x FERMÀT|| Weekly Sync-up @ Tue Apr 7",
+        "date": "2026-03-18T20:25:04Z",
+        "snippet": "Jiyoon accepting weekly sync-up calendar invite for Apr 7."
+      },
+      {
+        "from": "Jiyoon Cha <jiyoon.cha@medik8.com>",
+        "subject": "Accepted: Medik8 x FERMÀT|| Weekly Sync-up @ Tue Mar 31",
+        "date": "2026-03-18T20:24:59Z",
+        "snippet": "Jiyoon accepting weekly sync-up calendar invite for Mar 31."
+      },
+      {
+        "from": "Jiyoon Cha <jiyoon.cha@medik8.com>",
+        "subject": "Accepted: Medik8 x FERMÀT|| Weekly Sync-up @ Tue Mar 24",
+        "date": "2026-03-17T12:59:48Z",
+        "snippet": "Jiyoon accepting weekly sync-up for Mar 24."
+      },
+      {
+        "from": "Danielle Finn <danielle.finn@medik8.com>",
+        "subject": "Accepted: Medik8 x FERMÀT|| Weekly Sync-up",
+        "date": "2026-03-16T17:21:29Z",
+        "snippet": "Danielle accepting recurring weekly sync-up invites."
+      },
+      {
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "subject": "Medik8 x FERMÀT|| Weekly Sync-up summary is ready",
+        "date": "2026-03-16T17:20:43Z",
+        "snippet": "Glyphic summary of the Mar 16 weekly sync-up with Medik8."
+      },
+      {
+        "from": "Lindsey Shin <lindsey.shin@medik8.com>",
+        "subject": "Accepted: Medik8 x FERMÀT|| Weekly Sync-up @ Mon Mar 16",
+        "date": "2026-03-16T14:34:58Z",
+        "snippet": "Lindsey accepting the Mar 16 weekly sync-up."
+      }
+    ],
+    "analysis": "Strong email activity reflecting an engaged onboarding. Pulkit sent the check-in recap on Mar 16 to Lindsey, Danielle, and Jiyoon. All three Medik8 contacts (Lindsey, Danielle, Jiyoon) have accepted the recurring weekly sync-up invites through April. Glyphic captured the Mar 16 sync-up summary. This is the most active email trail across all brands — a sign of healthy onboarding momentum."
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "brand_id": "737444a0-c397-46a8-a53f-8b32d07a1722",
+  "brand_name": "Shop FlavCity",
+  "last_updated": "2026-03-24T16:00:00Z",
+  "contract": {
+    "arr": 24000,
+    "take_rate": 0.06,
+    "total_users": 16,
+    "active_users_l7d": 3
+  },
+  "health": {
+    "score": 49,
+    "status": "yellow",
+    "breakdown": {
+      "platform_performance": 24,
+      "platform_performance_detail": "Sessions:9/9, Revenue:7/9, CVR:2/9, Purchases:6/8",
+      "communication": 4,
+      "communication_detail": "SlackRecency:2/6, BrandSlack14d:2/6, PulkitSlack14d:0/6, EmailThreads14d:0/6, PulkitOutreach:0/6",
+      "engagement": 21,
+      "engagement_detail": "LastCall:9/12, Calls30d:12/12, Upcoming:0/11"
+    },
+    "signals": [
+      {
+        "type": "positive",
+        "text": "Weekly call cadence maintained — 3 calls in last 30 days with multi-stakeholder attendance",
+        "time": "Mar 13"
+      },
+      {
+        "type": "positive",
+        "text": "New head of eCommerce (Christy Hernandez) onboarded and attending calls",
+        "time": "Mar 7"
+      },
+      {
+        "type": "warning",
+        "text": "Bot/crawler traffic inflating session counts 50-100x — real CVR much higher than reported",
+        "time": "Mar 23"
+      },
+      {
+        "type": "warning",
+        "text": "7d revenue $1,390 — down 76% vs 30d daily average of $811/day",
+        "time": "Mar 23"
+      },
+      {
+        "type": "positive",
+        "text": "Chief Detective agency fully integrated — Ryan, Eddie, Connor in Slack and calls",
+        "time": "Feb 24"
+      },
+      {
+        "type": "warning",
+        "text": "Amazon price-match concern raised — brand wants exclusive FERMAT promos",
+        "time": "Feb 11"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 59.99,
+      "cvr": 0.0011,
+      "sessions": 89411,
+      "roas": null,
+      "cpa": null,
+      "purchases": 1,
+      "aov": 59.99,
+      "pdp_views": 823,
+      "atc": 144,
+      "checkouts": 47
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 435.94,
+      "cvr": 0.0032,
+      "sessions": 218394,
+      "roas": null,
+      "cpa": null,
+      "purchases": 7,
+      "aov": 62.28,
+      "pdp_views": 2199,
+      "atc": 441,
+      "checkouts": 133
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 1263.88,
+      "cvr": 0.003,
+      "sessions": 657695,
+      "roas": null,
+      "cpa": null,
+      "purchases": 20,
+      "aov": 63.19,
+      "pdp_views": 6032,
+      "atc": 917,
+      "checkouts": 249
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 5087.66,
+      "cvr": 0.0046,
+      "sessions": 1430716,
+      "roas": null,
+      "cpa": null,
+      "purchases": 66,
+      "aov": 77.09,
+      "pdp_views": 13226,
+      "atc": 2077,
+      "checkouts": 565
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 22896.4,
+      "cvr": 0.0127,
+      "sessions": 2086430,
+      "roas": null,
+      "cpa": null,
+      "purchases": 265,
+      "aov": 86.4,
+      "pdp_views": 21375,
+      "atc": 3991,
+      "checkouts": 1486
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 62896.17,
+      "cvr": 0.036,
+      "sessions": 2115584,
+      "roas": null,
+      "cpa": null,
+      "purchases": 762,
+      "aov": 82.54,
+      "pdp_views": 27304,
+      "atc": 6942,
+      "checkouts": 2875
+    },
+    "daily": [
+      {
+        "date": "2026-02-07",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-09",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 1,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-10",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-11",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-12",
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-13",
+        "sessions": 9,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 1,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-02-14",
+        "sessions": 9138,
+        "revenue": 12138.86,
+        "purchases": 151,
+        "pdp_views": 2061,
+        "atc": 1059,
+        "checkouts": 487
+      },
+      {
+        "date": "2026-02-15",
+        "sessions": 5305,
+        "revenue": 7541.91,
+        "purchases": 89,
+        "pdp_views": 982,
+        "atc": 508,
+        "checkouts": 245
+      },
+      {
+        "date": "2026-02-16",
+        "sessions": 3893,
+        "revenue": 5746.89,
+        "purchases": 69,
+        "pdp_views": 663,
+        "atc": 321,
+        "checkouts": 167
+      },
+      {
+        "date": "2026-02-17",
+        "sessions": 3211,
+        "revenue": 3719.9,
+        "purchases": 44,
+        "pdp_views": 578,
+        "atc": 277,
+        "checkouts": 136
+      },
+      {
+        "date": "2026-02-18",
+        "sessions": 2200,
+        "revenue": 3186.42,
+        "purchases": 45,
+        "pdp_views": 483,
+        "atc": 226,
+        "checkouts": 102
+      },
+      {
+        "date": "2026-02-19",
+        "sessions": 2200,
+        "revenue": 2571.94,
+        "purchases": 36,
+        "pdp_views": 460,
+        "atc": 225,
+        "checkouts": 97
+      },
+      {
+        "date": "2026-02-20",
+        "sessions": 1783,
+        "revenue": 3601.91,
+        "purchases": 41,
+        "pdp_views": 394,
+        "atc": 191,
+        "checkouts": 91
+      },
+      {
+        "date": "2026-02-21",
+        "sessions": 1406,
+        "revenue": 1491.94,
+        "purchases": 22,
+        "pdp_views": 307,
+        "atc": 142,
+        "checkouts": 63
+      },
+      {
+        "date": "2026-02-22",
+        "sessions": 1131,
+        "revenue": 3183.87,
+        "purchases": 37,
+        "pdp_views": 286,
+        "atc": 147,
+        "checkouts": 78
+      },
+      {
+        "date": "2026-02-23",
+        "sessions": 1118,
+        "revenue": 2217.96,
+        "purchases": 25,
+        "pdp_views": 251,
+        "atc": 133,
+        "checkouts": 66
+      },
+      {
+        "date": "2026-02-24",
+        "sessions": 781,
+        "revenue": 2506.0,
+        "purchases": 19,
+        "pdp_views": 179,
+        "atc": 100,
+        "checkouts": 58
+      },
+      {
+        "date": "2026-02-25",
+        "sessions": 6267,
+        "revenue": 1323.38,
+        "purchases": 19,
+        "pdp_views": 200,
+        "atc": 93,
+        "checkouts": 49
+      },
+      {
+        "date": "2026-02-26",
+        "sessions": 111520,
+        "revenue": 1394.98,
+        "purchases": 19,
+        "pdp_views": 1149,
+        "atc": 129,
+        "checkouts": 54
+      },
+      {
+        "date": "2026-02-27",
+        "sessions": 52507,
+        "revenue": 1143.92,
+        "purchases": 12,
+        "pdp_views": 543,
+        "atc": 83,
+        "checkouts": 43
+      },
+      {
+        "date": "2026-02-28",
+        "sessions": 85672,
+        "revenue": 974.94,
+        "purchases": 11,
+        "pdp_views": 845,
+        "atc": 117,
+        "checkouts": 45
+      },
+      {
+        "date": "2026-03-01",
+        "sessions": 90690,
+        "revenue": 675.95,
+        "purchases": 8,
+        "pdp_views": 964,
+        "atc": 137,
+        "checkouts": 76
+      },
+      {
+        "date": "2026-03-02",
+        "sessions": 125113,
+        "revenue": 624.96,
+        "purchases": 8,
+        "pdp_views": 1123,
+        "atc": 164,
+        "checkouts": 81
+      },
+      {
+        "date": "2026-03-03",
+        "sessions": 13690,
+        "revenue": 210.0,
+        "purchases": 3,
+        "pdp_views": 458,
+        "atc": 213,
+        "checkouts": 103
+      },
+      {
+        "date": "2026-03-04",
+        "sessions": 29647,
+        "revenue": 392.98,
+        "purchases": 5,
+        "pdp_views": 463,
+        "atc": 173,
+        "checkouts": 87
+      },
+      {
+        "date": "2026-03-05",
+        "sessions": 14869,
+        "revenue": 897.96,
+        "purchases": 12,
+        "pdp_views": 255,
+        "atc": 90,
+        "checkouts": 41
+      },
+      {
+        "date": "2026-03-06",
+        "sessions": 41084,
+        "revenue": 448.98,
+        "purchases": 6,
+        "pdp_views": 427,
+        "atc": 124,
+        "checkouts": 48
+      },
+      {
+        "date": "2026-03-07",
+        "sessions": 54324,
+        "revenue": 851.9,
+        "purchases": 4,
+        "pdp_views": 596,
+        "atc": 88,
+        "checkouts": 32
+      },
+      {
+        "date": "2026-03-08",
+        "sessions": 27301,
+        "revenue": 960.96,
+        "purchases": 11,
+        "pdp_views": 410,
+        "atc": 123,
+        "checkouts": 60
+      },
+      {
+        "date": "2026-03-09",
+        "sessions": 39958,
+        "revenue": 737.94,
+        "purchases": 7,
+        "pdp_views": 444,
+        "atc": 112,
+        "checkouts": 36
+      },
+      {
+        "date": "2026-03-10",
+        "sessions": 38947,
+        "revenue": 479.99,
+        "purchases": 7,
+        "pdp_views": 449,
+        "atc": 116,
+        "checkouts": 33
+      },
+      {
+        "date": "2026-03-11",
+        "sessions": 132890,
+        "revenue": 543.97,
+        "purchases": 7,
+        "pdp_views": 1200,
+        "atc": 186,
+        "checkouts": 43
+      },
+      {
+        "date": "2026-03-12",
+        "sessions": 110319,
+        "revenue": 149.99,
+        "purchases": 3,
+        "pdp_views": 985,
+        "atc": 139,
+        "checkouts": 43
+      },
+      {
+        "date": "2026-03-13",
+        "sessions": 95837,
+        "revenue": 646.94,
+        "purchases": 7,
+        "pdp_views": 872,
+        "atc": 132,
+        "checkouts": 37
+      },
+      {
+        "date": "2026-03-14",
+        "sessions": 109882,
+        "revenue": 808.97,
+        "purchases": 9,
+        "pdp_views": 1074,
+        "atc": 184,
+        "checkouts": 59
+      },
+      {
+        "date": "2026-03-15",
+        "sessions": 94901,
+        "revenue": 269.99,
+        "purchases": 4,
+        "pdp_views": 850,
+        "atc": 143,
+        "checkouts": 38
+      },
+      {
+        "date": "2026-03-16",
+        "sessions": 150287,
+        "revenue": 185.99,
+        "purchases": 2,
+        "pdp_views": 1320,
+        "atc": 148,
+        "checkouts": 27
+      },
+      {
+        "date": "2026-03-17",
+        "sessions": 104975,
+        "revenue": 143.99,
+        "purchases": 3,
+        "pdp_views": 862,
+        "atc": 101,
+        "checkouts": 30
+      },
+      {
+        "date": "2026-03-18",
+        "sessions": 112080,
+        "revenue": 107.99,
+        "purchases": 2,
+        "pdp_views": 928,
+        "atc": 91,
+        "checkouts": 20
+      },
+      {
+        "date": "2026-03-19",
+        "sessions": 140964,
+        "revenue": 185.99,
+        "purchases": 2,
+        "pdp_views": 1296,
+        "atc": 173,
+        "checkouts": 37
+      },
+      {
+        "date": "2026-03-20",
+        "sessions": 81282,
+        "revenue": 389.97,
+        "purchases": 6,
+        "pdp_views": 747,
+        "atc": 111,
+        "checkouts": 29
+      },
+      {
+        "date": "2026-03-21",
+        "sessions": 55250,
+        "revenue": 227.97,
+        "purchases": 4,
+        "pdp_views": 659,
+        "atc": 148,
+        "checkouts": 45
+      },
+      {
+        "date": "2026-03-22",
+        "sessions": 73733,
+        "revenue": 147.98,
+        "purchases": 2,
+        "pdp_views": 717,
+        "atc": 149,
+        "checkouts": 41
+      },
+      {
+        "date": "2026-03-23",
+        "sessions": 89411,
+        "revenue": 59.99,
+        "purchases": 1,
+        "pdp_views": 823,
+        "atc": 144,
+        "checkouts": 47
+      }
+    ]
+  },
+  "calls": {
+    "recent": [
+      {
+        "title": "Flavcity x Fermat",
+        "date": "2026-03-13T19:58:03Z",
+        "duration": "30 min",
+        "participants": "Mia DyBuncio, Will, Christy Hernandez",
+        "source": "Glyphic",
+        "summary": "Meeting between Mia and FlavCity team including new head of eCommerce Christy Hernandez.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
+      },
+      {
+        "title": "FlavCity x Fermat Weekly",
+        "date": "2026-03-11T18:58:03Z",
+        "duration": "19 min",
+        "participants": "Christy, Ryan Longo, Kaitlin Frye, Mia DyBuncio, Sammie Walker, Will, Megan Hart, Thi Tran, Marie Leroux, Eddie, Ryan Barry, Travis Halff",
+        "source": "Glyphic",
+        "summary": "Weekly meeting with full FlavCity team and agency partners (Chief Detective, Ecko Digital Media, Y'all).",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
+      },
+      {
+        "title": "Fermat x FlavCity - Platform Walkthrough",
+        "date": "2026-02-23T19:28:04Z",
+        "duration": "17 min",
+        "participants": "Mia DyBuncio, SarahJay Kucyk",
+        "source": "Glyphic",
+        "summary": "Platform walkthrough with agency partner.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
+      },
+      {
+        "title": "FlavCity x Fermat Weekly",
+        "date": "2026-02-23T18:58:04Z",
+        "duration": "16 min",
+        "participants": "Ryan Longo, Mia DyBuncio, Will, Marie Leroux, Sammie Walker, Megan Hart, Eddie, Ryan Barry, Thi Tran, Travis Halff",
+        "source": "Glyphic",
+        "summary": "Regular weekly meeting with FlavCity team and agency partners.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
+      }
+    ],
+    "analysis": "FlavCity has an active call cadence with weekly meetings managed by Mia DyBuncio. Four calls were recorded in the last 30 days, including a platform walkthrough with agency partner SarahJay Kucyk (Feb 23), two weekly meetings (Feb 23, Mar 11), and a separate meeting with new eCommerce head Christy Hernandez (Mar 13). The team includes multiple agency partners (Chief Detective, Ecko Digital Media, Y'all)."
+  },
+  "calendar": {
+    "past": [],
+    "upcoming": [],
+    "_note": "No Google Calendar events found matching 'FlavCity' on Pulkit's calendar. This brand is managed by Mia DyBuncio."
+  },
+  "slack": {
+    "messages": [
+      {
+        "user": "Will (FlavCity)",
+        "text": "Hey Mia sorry I missed the TB, something else came up - do you have a quick 15 on Friday afternoon to chat?",
+        "timestamp": "2026-03-12T13:19:12+05:30",
+        "channel": "#fermat-x-flavcity"
+      },
+      {
+        "user": "Will (FlavCity)",
+        "text": "Also meet Christy Hernandez our new head of eCommerce! Mia can you invite her to the meeting - and also find time to set up a 1 on 1 with her!",
+        "timestamp": "2026-03-07T03:57:12+05:30",
+        "channel": "#fermat-x-flavcity"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "Hey Ryan Longo, Will — I'll be travelling during our meeting on Monday, any chance we can push this to Wednesday at 3 pm ET?",
+        "timestamp": "2026-03-07T03:01:49+05:30",
+        "channel": "#fermat-x-flavcity"
+      },
+      {
+        "user": "Will (FlavCity)",
+        "text": "We want to run a promo just on Fermatt for a few select SKUS but dont want AMZ to price match. Do you know if AMZ will crawl a Fermatt landing page when looking at pricing?",
+        "timestamp": "2026-02-11T04:13:52+05:30",
+        "channel": "#fermat-x-flavcity"
+      },
+      {
+        "user": "Will (FlavCity)",
+        "text": "Mia — can you invite Ryan and Connor to this channel? Also adding connor@chiefdetective.com and ryan@chiefdetective.com",
+        "timestamp": "2026-02-18T20:49:32+05:30",
+        "channel": "#fermat-x-flavcity"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "Hey Will I saw you went through our AI Search onboarding and generated your first set of funnels! Let me know if you'd like to hop on a call to review your visibility score.",
+        "timestamp": "2026-01-27T22:14:27+05:30",
+        "channel": "#fermat-x-flavcity"
+      }
+    ],
+    "analysis": "FlavCity is actively managed by Mia DyBuncio (not transitioned to Pulkit). The brand is highly engaged with regular weekly meetings. A new head of eCommerce (Christy Hernandez) joined in early March. The brand's agency partners (Chief Detective — Ryan Longo, Connor, Nate Lee; Ecko Digital Media — Sammie) are also active in the channel. Will asked about Amazon price matching on FERMÀT-exclusive promos (Feb 11). Will completed AI Search onboarding (Jan 27). Pulkit is not the GM for this brand — Mia continues to manage it."
+  },
+  "email": {
+    "messages": [],
+    "analysis": "No email activity found for FlavCity in the last 30 days on Pulkit's inbox. This is expected as Mia DyBuncio manages this account."
+  }
+}

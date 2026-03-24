@@ -1,0 +1,552 @@
+{
+  "brand_id": "8be8e4b7-d7c1-4922-b8e3-271671ee1592",
+  "brand_name": "Little Saints",
+  "last_updated": "2026-03-24T16:00:00Z",
+  "health": {
+    "score": 23,
+    "status": "red",
+    "breakdown": {
+      "platform_performance": 13,
+      "platform_performance_detail": "Sessions:0/9, Revenue:2/9, CVR:9/9, Purchases:2/8",
+      "communication": 8,
+      "communication_detail": "SlackRecency:4/6, BrandSlack14d:2/6, PulkitSlack14d:0/6, EmailThreads14d:2/6, PulkitOutreach:0/6",
+      "engagement": 2,
+      "engagement_detail": "LastCall:0/12, Calls30d:2/12, Upcoming:0/11"
+    },
+    "signals": [
+      {
+        "type": "positive",
+        "text": "Kar actively engaged — asked about outages Mar 17, less than 7 days ago",
+        "time": "Mar 17"
+      },
+      {
+        "type": "negative",
+        "text": "No call with Pulkit since GM transition Mar 3 — intro call still not booked",
+        "time": "Mar 23"
+      },
+      {
+        "type": "warning",
+        "text": "Contract renewal May 3 (~41 days away) with no recent call engagement",
+        "time": "Mar 23"
+      },
+      {
+        "type": "warning",
+        "text": "7d revenue down 33% vs 30d average — traffic declining",
+        "time": "Mar 23"
+      },
+      {
+        "type": "positive",
+        "text": "Pierre AI Search funnels generating weekly — platform still active",
+        "time": "Mar 12"
+      },
+      {
+        "type": "warning",
+        "text": "PDP content sync issue raised Feb 20 — unclear if resolved",
+        "time": "Feb 20"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0.0,
+      "sessions": 3,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0.0,
+      "sessions": 7,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 1,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 78,
+      "cvr": 3.8462,
+      "sessions": 26,
+      "roas": null,
+      "cpa": null,
+      "purchases": 1,
+      "aov": 78.0,
+      "pdp_views": 4,
+      "atc": 1,
+      "checkouts": 0
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 78,
+      "cvr": 1.7857,
+      "sessions": 56,
+      "roas": null,
+      "cpa": null,
+      "purchases": 1,
+      "aov": 78.0,
+      "pdp_views": 13,
+      "atc": 3,
+      "checkouts": 0
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 78,
+      "cvr": 1.0309,
+      "sessions": 97,
+      "roas": null,
+      "cpa": null,
+      "purchases": 1,
+      "aov": 78.0,
+      "pdp_views": 27,
+      "atc": 3,
+      "checkouts": 0
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 78,
+      "cvr": 0.8197,
+      "sessions": 122,
+      "roas": null,
+      "cpa": null,
+      "purchases": 1,
+      "aov": 78.0,
+      "pdp_views": 31,
+      "atc": 3,
+      "checkouts": 0
+    },
+    "daily": [
+      {
+        "date": "2026-02-07",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-09",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-10",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-11",
+        "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-12",
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-13",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-14",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-15",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-16",
+        "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-18",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-20",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-21",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-22",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-23",
+        "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-24",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-25",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-26",
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-27",
+        "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-02-28",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-01",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-02",
+        "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-03",
+        "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 3,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-04",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-06",
+        "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-08",
+        "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-09",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-10",
+        "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 2,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-11",
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-12",
+        "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-13",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-14",
+        "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 4,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-15",
+        "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-16",
+        "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-17",
+        "sessions": 6,
+        "revenue": 78,
+        "purchases": 1,
+        "pdp_views": 3,
+        "atc": 1,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-18",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-19",
+        "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-20",
+        "sessions": 7,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-21",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-22",
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-23",
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      }
+    ]
+  },
+  "calls": {
+    "recent": [],
+    "analysis": "No Glyphic calls found for Little Saints in the last 30 days. Mia had periodic calls with Kar. Since the GM transition, no calls have been scheduled between Pulkit and Kar."
+  },
+  "calendar": {
+    "past": [],
+    "upcoming": [],
+    "_note": "No Google Calendar events found matching 'Little Saints' between Feb 22 and Apr 30, 2026 on Pulkit's calendar."
+  },
+  "slack": {
+    "messages": [
+      {
+        "user": "Kar (Little Saints)",
+        "text": "Hi Pulkit were there any outages yesterday with Fermat or Shopify?",
+        "timestamp": "2026-03-17T18:47:07+05:30",
+        "channel": "#fermat-x-little-saints"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "There are new AI Search funnels ready for you to approve!",
+        "timestamp": "2026-03-12T02:55:19+05:30",
+        "channel": "#fermat-x-little-saints"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "There are new AI Search funnels ready for you to approve!",
+        "timestamp": "2026-03-05T03:20:32+05:30",
+        "channel": "#fermat-x-little-saints"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Hey Little Saints team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all!",
+        "timestamp": "2026-03-03T11:00:32+05:30",
+        "channel": "#fermat-x-little-saints"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "Hey Kar — I'm reaching out with some bittersweet but exciting news, I'll be transitioning into a new role on our Product team here at FERMÀT. I'm thrilled to introduce Pulkit.",
+        "timestamp": "2026-03-03T01:51:26+05:30",
+        "channel": "#fermat-x-little-saints"
+      },
+      {
+        "user": "Kar (Little Saints)",
+        "text": "Hi Mia I knew i totally forgot a coupla questions 1) was wondering if you guys set up an LLMS.txt file for us. 2) Was wondering how to edit content in a PDP like the actual About section",
+        "timestamp": "2026-02-20T18:40:08+05:30",
+        "channel": "#fermat-x-little-saints"
+      }
+    ],
+    "analysis": "The Little Saints channel shows Kar as the sole brand contact. She asked Pulkit about potential outages on Mar 17 — this is the first direct engagement with Pulkit and shows the brand is actively using the platform and monitoring it. Pierre is generating AI Search funnels regularly. Kar had questions about LLMS.txt setup and PDP editing on Feb 20, indicating she's exploring the platform's capabilities. The GM transition was announced Mar 3."
+  },
+  "email": {
+    "messages": [
+      {
+        "from": "Notion Team <notify@mail.notion.so>",
+        "subject": "Jennifer Schnadig made updates in Fermat Commerce",
+        "date": "2026-03-11T01:23:04Z",
+        "snippet": "Internal Notion update notification related to account management documentation."
+      }
+    ],
+    "analysis": "Minimal email activity for Little Saints in the last 30 days. No direct email exchanges between Pulkit and Kar. Communication is primarily via Slack."
+  }
+}

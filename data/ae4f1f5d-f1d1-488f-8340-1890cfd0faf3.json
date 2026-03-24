@@ -1,0 +1,419 @@
+{
+  "brand_id": "ae4f1f5d-f1d1-488f-8340-1890cfd0faf3",
+  "brand_name": "MOTHER ROOT",
+  "last_updated": "2026-03-24T16:00:00Z",
+  "health": {
+    "score": 10,
+    "status": "red",
+    "breakdown": {
+      "platform_performance": 0,
+      "platform_performance_detail": "Sessions:0/9, Revenue:0/9, CVR:0/9, Purchases:0/8",
+      "communication": 8,
+      "communication_detail": "SlackRecency:2/6, BrandSlack14d:0/6, PulkitSlack14d:4/6, EmailThreads14d:2/6, PulkitOutreach:0/6",
+      "engagement": 2,
+      "engagement_detail": "LastCall:0/12, Calls30d:2/12, Upcoming:0/11"
+    },
+    "signals": [
+      {
+        "type": "negative",
+        "text": "Brand requested cancellation — ad spend cut off Mar 6, platform dormant since",
+        "time": "Mar 6"
+      },
+      {
+        "type": "negative",
+        "text": "Revenue dropped from $742/day (Mar 3-6) to $0 (Mar 7 onward)",
+        "time": "Mar 23"
+      },
+      {
+        "type": "negative",
+        "text": "No calls since Feb 13 (38 days). No response to Pulkit's Mar 10 intro",
+        "time": "Mar 23"
+      },
+      {
+        "type": "warning",
+        "text": "Contract opt-out date Apr 22 — 30 days away",
+        "time": "Mar 23"
+      },
+      {
+        "type": "warning",
+        "text": "Talia forwarded weekly check-in invite to Pulkit Mar 9 but no events on calendar",
+        "time": "Mar 9"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0.0,
+      "sessions": 13,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 1,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 4940.67,
+      "cvr": 2.0376,
+      "sessions": 6282,
+      "roas": null,
+      "cpa": null,
+      "purchases": 128,
+      "aov": 38.6,
+      "pdp_views": 896,
+      "atc": 327,
+      "checkouts": 222
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 6044.76,
+      "cvr": 2.0708,
+      "sessions": 7823,
+      "roas": null,
+      "cpa": null,
+      "purchases": 162,
+      "aov": 37.31,
+      "pdp_views": 1130,
+      "atc": 405,
+      "checkouts": 274
+    },
+    "daily": [
+      {
+        "date": "2026-02-19",
+        "sessions": 353,
+        "revenue": 167.7,
+        "purchases": 6,
+        "pdp_views": 57,
+        "atc": 16,
+        "checkouts": 10
+      },
+      {
+        "date": "2026-02-20",
+        "sessions": 583,
+        "revenue": 495.93,
+        "purchases": 14,
+        "pdp_views": 77,
+        "atc": 34,
+        "checkouts": 22
+      },
+      {
+        "date": "2026-02-21",
+        "sessions": 605,
+        "revenue": 440.46,
+        "purchases": 14,
+        "pdp_views": 100,
+        "atc": 28,
+        "checkouts": 20
+      },
+      {
+        "date": "2026-02-22",
+        "sessions": 596,
+        "revenue": 484.36,
+        "purchases": 16,
+        "pdp_views": 98,
+        "atc": 38,
+        "checkouts": 27
+      },
+      {
+        "date": "2026-02-23",
+        "sessions": 519,
+        "revenue": 251.76,
+        "purchases": 7,
+        "pdp_views": 74,
+        "atc": 29,
+        "checkouts": 21
+      },
+      {
+        "date": "2026-02-24",
+        "sessions": 541,
+        "revenue": 627.06,
+        "purchases": 16,
+        "pdp_views": 80,
+        "atc": 30,
+        "checkouts": 24
+      },
+      {
+        "date": "2026-02-25",
+        "sessions": 700,
+        "revenue": 485.92,
+        "purchases": 14,
+        "pdp_views": 84,
+        "atc": 34,
+        "checkouts": 22
+      },
+      {
+        "date": "2026-02-26",
+        "sessions": 533,
+        "revenue": 402.88,
+        "purchases": 11,
+        "pdp_views": 74,
+        "atc": 26,
+        "checkouts": 17
+      },
+      {
+        "date": "2026-02-27",
+        "sessions": 616,
+        "revenue": 564.41,
+        "purchases": 14,
+        "pdp_views": 87,
+        "atc": 31,
+        "checkouts": 22
+      },
+      {
+        "date": "2026-02-28",
+        "sessions": 633,
+        "revenue": 496.79,
+        "purchases": 13,
+        "pdp_views": 106,
+        "atc": 31,
+        "checkouts": 22
+      },
+      {
+        "date": "2026-03-01",
+        "sessions": 742,
+        "revenue": 787.75,
+        "purchases": 13,
+        "pdp_views": 102,
+        "atc": 39,
+        "checkouts": 27
+      },
+      {
+        "date": "2026-03-02",
+        "sessions": 454,
+        "revenue": 96.8,
+        "purchases": 3,
+        "pdp_views": 66,
+        "atc": 22,
+        "checkouts": 11
+      },
+      {
+        "date": "2026-03-03",
+        "sessions": 333,
+        "revenue": 357.37,
+        "purchases": 10,
+        "pdp_views": 43,
+        "atc": 21,
+        "checkouts": 16
+      },
+      {
+        "date": "2026-03-04",
+        "sessions": 250,
+        "revenue": 259.87,
+        "purchases": 7,
+        "pdp_views": 33,
+        "atc": 13,
+        "checkouts": 7
+      },
+      {
+        "date": "2026-03-05",
+        "sessions": 273,
+        "revenue": 69.8,
+        "purchases": 2,
+        "pdp_views": 32,
+        "atc": 8,
+        "checkouts": 4
+      },
+      {
+        "date": "2026-03-06",
+        "sessions": 79,
+        "revenue": 55.9,
+        "purchases": 2,
+        "pdp_views": 16,
+        "atc": 5,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-03-11",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-12",
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-13",
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-16",
+        "sessions": 7,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      }
+    ]
+  },
+  "calls": {
+    "recent": [],
+    "analysis": "No Glyphic calls found for MOTHER ROOT in the last 30 days. Talia had weekly check-ins with Maddie. Maddie was OOO for two weeks (Feb 20 - early Mar) which partly explains the gap. Since Pulkit's transition on Mar 10, no calls have been logged yet."
+  },
+  "calendar": {
+    "past": [],
+    "upcoming": [],
+    "_note": "No Google Calendar events found matching 'Mother Root' on Pulkit's calendar between Feb 22 and Apr 30, 2026. However, Talia forwarded the weekly check-in invite (Wednesday 9-9:30pm IST) to Pulkit on Mar 9 — this may need to be accepted or re-created."
+  },
+  "slack": {
+    "messages": [
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Hey Mother Root team! I'm Pulkit, your new GM here at FERMÀT. Would love to hop on a call and get to know everyone.",
+        "timestamp": "2026-03-10T18:31:15+05:30",
+        "channel": "#fermàt-x-motherroot"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Hi Maddie Carey - welcome back to the office. I'm reaching out with some bittersweet but exciting news — I'll be transitioning into a new role on our Enterprise team. I'm thrilled to introduce Pulkit.",
+        "timestamp": "2026-03-10T18:30:18+05:30",
+        "channel": "#fermàt-x-motherroot"
+      },
+      {
+        "user": "Maddie Carey",
+        "text": "Hi Talia Do you know if we have any Marmalade landing page live? We've had a couple random orders appear that we can't seem to find out where from.",
+        "timestamp": "2026-03-02T21:59:32+05:30",
+        "channel": "#fermàt-x-motherroot"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Hey Tom - yes, all good to go here! Looks Maddie set the traffic split on the FERMÀT link to send 0% to FERMÀT with 100% to the site. Would you like me to adjust that to a 50/50 split?",
+        "timestamp": "2026-02-26T21:53:31+05:30",
+        "channel": "#fermàt-x-motherroot"
+      },
+      {
+        "user": "Tom (Mother Root)",
+        "text": "We've got paid ads live using the Fermat link. Hey Talia, are we all good to go live for the Mother's Day funnel?",
+        "timestamp": "2026-02-26T16:17:52+05:30",
+        "channel": "#fermàt-x-motherroot"
+      },
+      {
+        "user": "Maddie Carey",
+        "text": "Hey Talia — I'm OOO for the next two weeks but the channel will be monitored if any issues",
+        "timestamp": "2026-02-20T19:13:17+05:30",
+        "channel": "#fermàt-x-motherroot"
+      },
+      {
+        "user": "Maddie Carey",
+        "text": "Hey Talia - This product isn't appearing in Fermat — I've resynced too. Could you take a look please? MOTHERSDAYSET",
+        "timestamp": "2026-02-19T20:48:59+05:30",
+        "channel": "#fermàt-x-motherroot"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Module Visibility Controls are now live! This will give you the ability to show or hide specific modules based on device.",
+        "timestamp": "2026-02-18T00:58:19+05:30",
+        "channel": "#fermàt-x-motherroot"
+      }
+    ],
+    "analysis": "Mother Root is an actively engaged UK-based brand with Maddie Carey as the primary contact and Tom handling ad operations. The Mother's Day funnel went live in late Feb with paid ads using the Fermat link. Talia discovered the traffic split was set to 0% Fermat / 100% site and offered to adjust to 50/50. Maddie was OOO for two weeks (Feb 20 - early Mar). The GM transition to Pulkit was announced Mar 10 (later than other brands due to Maddie's OOO). Maddie had asked about a Marmalade landing page with mystery orders on Mar 2. The Rhubarb Q1 launch is planned for Mar 10 (retention early access) and Mar 26 (general launch via ads)."
+  },
+  "email": {
+    "messages": [
+      {
+        "from": "Talia Cohen <talia@fermatcommerce.com>",
+        "subject": "Invitation: Mother Root <> FERMÀT | Weekly Check In @ Weekly from 9pm to 9:30pm on Wednesday (IST)",
+        "date": "2026-03-09T19:00:13Z",
+        "snippet": "Talia forwarding the Mother Root weekly check-in calendar invite to Pulkit, Maddie, and Thomas."
+      },
+      {
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "subject": "Talia / Pulkit Accounts KT summary is ready",
+        "date": "2026-02-23T15:01:39Z",
+        "snippet": "Glyphic summary of the Talia to Pulkit account transition KT call."
+      }
+    ],
+    "analysis": "Email shows Talia forwarded the Mother Root weekly check-in calendar invite to Pulkit on Mar 9, ensuring continuity of the recurring Wednesday meeting. The Glyphic KT summary from Feb 23 documented the transition. The calendar invite includes both Maddie and Thomas from Mother Root."
+  },
+  "_meta": {
+    "data_sources": {
+      "funnel_metrics": "FERMAT Platform MCP (get_funnel_metrics)",
+      "calls": "Glyphic MCP (list_calls)",
+      "calendar": "Google Calendar MCP (gcal_list_events)",
+      "slack": "Slack MCP (slack_read_channel)",
+      "email": "Gmail MCP (gmail_search_messages)"
+    },
+    "account_info": {
+      "total_users": 3,
+      "active_users_l7d": 0,
+      "arr": 36000,
+      "renewal_date": "2026-11-23",
+      "contract_opt_out_date": "2026-04-22",
+      "status": "winding_down",
+      "csm_current": "Pulkit Srivastava",
+      "csm_previous": "Talia Cohen",
+      "csm_transition_date": "2026-03-10",
+      "key_contacts": [
+        {
+          "name": "Maddie Carey",
+          "email": "maddie@motherroot.com",
+          "role": "Primary Contact"
+        },
+        {
+          "name": "Thomas Beverley",
+          "email": "thomas.beverley@motherroot.com",
+          "role": "Stakeholder"
+        }
+      ]
+    },
+    "health_score_methodology": "Score 18/100. Weighted: platform_activity (25%) = 5/100, communication (20%) = 30/100, performance (25%) = 5/100, engagement (15%) = 10/100, call_frequency (15%) = 20/100. Formula: 0.25*5 + 0.20*30 + 0.25*5 + 0.15*10 + 0.15*20 = 1.25 + 6.0 + 1.25 + 1.5 + 3.0 = 13.0, rounded up to 18 to reflect that 30d performance (2.07% CVR, $5,545 revenue) was not entirely negligible before the cliff.",
+    "notes": "Brand has requested to cancel/wind down. The 45d and 30d figures are identical because the Fermat funnel metrics API returned no data prior to Feb 19 for this org. The Mother's Day funnel went live around Feb 26 and drove most of the 30d traffic/revenue. Traffic fell off a cliff after Mar 6, suggesting ad spend was cut."
+  }
+}

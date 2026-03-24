@@ -1,0 +1,167 @@
+{
+  "brand_id": "1e7aa370-3cde-40bf-90d9-8ce8a3aaed30",
+  "brand_name": "HAVN",
+  "last_updated": "2026-03-24T16:00:00Z",
+  "health": {
+    "score": 2,
+    "status": "red",
+    "breakdown": {
+      "platform_performance": 0,
+      "platform_performance_detail": "Sessions:0/9, Revenue:0/9, CVR:0/9, Purchases:0/8",
+      "communication": 0,
+      "communication_detail": "SlackRecency:0/6, BrandSlack14d:0/6, PulkitSlack14d:0/6, EmailThreads14d:0/6, PulkitOutreach:0/6",
+      "engagement": 2,
+      "engagement_detail": "LastCall:0/12, Calls30d:2/12, Upcoming:0/11"
+    },
+    "signals": [
+      {
+        "type": "negative",
+        "text": "Renewal was Feb 26 — now 25 days past due, brand effectively churned",
+        "time": "Mar 23"
+      },
+      {
+        "type": "negative",
+        "text": "Zero platform activity across all date ranges — no sessions, revenue, or purchases",
+        "time": "Mar 23"
+      },
+      {
+        "type": "negative",
+        "text": "No calls since Dec 11, 2025 — 102 days without any call",
+        "time": "Mar 23"
+      },
+      {
+        "type": "negative",
+        "text": "Tom Guilbert reported incrementality test issue Jan 6 — no resolution visible",
+        "time": "Jan 6"
+      },
+      {
+        "type": "negative",
+        "text": "Pulkit joined Slack Feb 24 but sent no intro message",
+        "time": "Feb 24"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "daily": []
+  },
+  "calls": {
+    "recent": [],
+    "analysis": "No Glyphic calls found for HAVN in the last 30 days. The relationship was managed by Ryan Barry through Dec 2025, then briefly by Isabel. Since Pulkit's transition, no calls have been initiated. This is a significant gap given HAVN was an active account with regular syncs."
+  },
+  "calendar": {
+    "past": [],
+    "upcoming": [],
+    "_note": "No Google Calendar events found matching 'HAVN' between Feb 22 and Apr 30, 2026 on Pulkit's calendar."
+  },
+  "slack": {
+    "messages": [
+      {
+        "user": "Isabel O'Keefe",
+        "text": "hi Tom - hope you're having a great start to the new year. wanted to check in - did you want to keep today's sync on the calendar?",
+        "timestamp": "2026-01-16T21:06:24+05:30",
+        "channel": "#havn-x-fermat"
+      },
+      {
+        "user": "Tom (HAVN)",
+        "text": "Hi! I'm having issue with the setup of an incremental test on my account. the setup is 50/50 but that's not what I get",
+        "timestamp": "2026-01-06T23:06:41+05:30",
+        "channel": "#havn-x-fermat"
+      },
+      {
+        "user": "Ryan Barry",
+        "text": "Hey Tom! I just want to give you a heads up that today is my last day at Fermat. I also wanted to introduce Mia DyBuncio. Mia's not only a team lead here at Fermat with tons of experience working with our top brands.",
+        "timestamp": "2025-12-20T02:05:15+05:30",
+        "channel": "#havn-x-fermat"
+      },
+      {
+        "user": "Ryan Barry",
+        "text": "Hey Tom -- hope you and the whole HAVN team had an incredible BFCM. Sharing next steps for Fermat's AI Search Engine Free Trial which you'd opted into via our LinkedIn announcement.",
+        "timestamp": "2025-12-03T03:35:38+05:30",
+        "channel": "#havn-x-fermat"
+      }
+    ],
+    "analysis": "The HAVN Slack channel has been dormant since Jan 16. Pulkit and the FERMÀT bot joined on Feb 24, but no introduction message was posted (unlike other brands). The primary contact Tom had an active relationship with previous GM Ryan Barry, who left in Dec 2025. Isabel and Mia were introduced as interim contacts. Tom reported an incremental test setup issue on Jan 6 that was resolved. No engagement since the GM transition to Pulkit — an introduction and re-engagement is urgently needed."
+  },
+  "email": {
+    "messages": [],
+    "analysis": "No email activity found for HAVN in the last 30 days. No performance reports or direct communications between Pulkit and the HAVN team."
+  }
+}

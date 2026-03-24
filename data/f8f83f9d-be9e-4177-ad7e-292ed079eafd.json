@@ -3,15 +3,17 @@
   "brand_name": "Veracity Selfcare",
   "last_updated": "2026-03-24T16:00:00Z",
   "health": {
-    "score": 47,
-    "status": "yellow",
+    "score": 27,
+    "status": "red",
     "breakdown": {
-      "platform_performance": 35,
-      "platform_performance_detail": "Sessions:9/9, Revenue:9/9, CVR:9/9, Purchases:8/8",
+      "platform_performance": 20,
+      "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:5/5, Purchases:5/5",
       "communication": 0,
-      "communication_detail": "SlackRecency:0/6, BrandSlack14d:0/6, PulkitSlack14d:0/6, EmailThreads14d:0/6, PulkitOutreach:0/6",
-      "engagement": 12,
-      "engagement_detail": "LastCall:6/12, Calls30d:6/12, Upcoming:0/11"
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
+      "engagement": 7,
+      "engagement_detail": "LastCall:4/8, Calls30d:3/6, Upcoming:0/6",
+      "csm_sentiment": 0,
+      "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
       {

@@ -367,6 +367,8 @@ document.addEventListener('DOMContentLoaded', function() {
   renderOverview();
   var first = document.querySelector('.bi');
   if (first) { cur = first.dataset.bid; first.classList.add('active'); }
+  // Monday popup check (after short delay so page is fully rendered)
+  setTimeout(function() { checkMondayPopup(); }, 800);
 });
 
 // ===== NAV =====
@@ -535,6 +537,333 @@ function renderOverview() {
   }, 150);
 }
 
+// ===== SENTIMENT HELPERS =====
+var SENTIMENT = window.__SENTIMENT__ || {};
+
+function getLatestSentiment(brandId) {
+  var ratings = SENTIMENT[brandId];
+  if (!ratings || !Array.isArray(ratings) || ratings.length === 0) return null;
+  var latest = null;
+  ratings.forEach(function(r) {
+    if (r && r.score && (!latest || (r.date || '') > (latest.date || ''))) latest = r;
+  });
+  return latest;
+}
+
+function sentimentColor(score) {
+  if (score >= 9) return '#3ED660';
+  if (score >= 7) return '#EAB308';
+  return '#C84632';
+}
+
+function sentimentLabel(score) {
+  if (score >= 9) return 'Healthy';
+  if (score >= 7) return 'Moderate';
+  return 'Concerning';
+}
+
+function isPulkit() {
+  var u = window.__PORTAL_USER__ || {};
+  return u.email === 'pulkit@fermatcommerce.com';
+}
+
+// ===== RATE MODAL =====
+function openRateModal(brandId) {
+  var m = M[brandId] || {};
+  var existing = getLatestSentiment(brandId);
+  var startScore = existing ? existing.score : 7;
+  var overlay = document.createElement('div');
+  overlay.id = 'sentimentOverlay';
+  overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.45);z-index:9999;display:flex;align-items:center;justify-content:center;animation:fadeIn .2s ease';
+
+  var scoreButtons = '';
+  for (var i = 1; i <= 10; i++) {
+    var bg = i <= 6 ? 'rgba(200,70,50,0.12)' : i <= 8 ? 'rgba(234,179,8,0.12)' : 'rgba(62,214,96,0.12)';
+    var col = i <= 6 ? '#C84632' : i <= 8 ? '#92700c' : '#1a8a3e';
+    var selBg = i <= 6 ? '#C84632' : i <= 8 ? '#EAB308' : '#3ED660';
+    scoreButtons += '<button class="sent-score-btn" data-score="' + i + '" style="width:36px;height:36px;border-radius:10px;border:2px solid transparent;background:' + bg + ';color:' + col + ';font-size:14px;font-weight:700;cursor:pointer;transition:all .15s;font-family:inherit" data-bg="' + bg + '" data-col="' + col + '" data-selbg="' + selBg + '">' + i + '</button>';
+  }
+
+  overlay.innerHTML = '<div style="background:#fff;border-radius:20px;width:520px;max-width:90vw;box-shadow:0 24px 80px rgba(0,0,0,0.25);overflow:hidden">' +
+    '<div style="padding:24px 28px 0;display:flex;justify-content:space-between;align-items:center">' +
+      '<div style="font-size:16px;font-weight:700;color:#072C1B">Rate Account: ' + esc(m.n || brandId) + '</div>' +
+      '<button onclick="closeRateModal()" style="background:none;border:none;cursor:pointer;font-size:20px;color:#9E9E9E;padding:4px">&times;</button>' +
+    '</div>' +
+    '<div style="padding:20px 28px 28px">' +
+      '<div style="font-size:13px;color:#3a3a3a;margin-bottom:14px">How do you feel about this account?</div>' +
+      '<div style="display:flex;gap:6px;margin-bottom:12px" id="sentScoreBtns">' + scoreButtons + '</div>' +
+      '<div id="sentScoreLabel" style="font-size:12px;font-weight:600;margin-bottom:18px;color:#9E9E9E">Selected: ' + startScore + '/10</div>' +
+      '<div style="font-size:12px;font-weight:600;color:#072C1B;margin-bottom:8px">Comment</div>' +
+      '<div style="position:relative">' +
+        '<textarea id="sentComment" rows="3" style="width:100%;padding:12px 14px;border:1px solid rgba(0,0,0,0.1);border-radius:12px;font-size:13px;font-family:inherit;resize:vertical;outline:none;transition:border-color .2s" placeholder="Type your thoughts...">' + (existing ? esc(existing.comment || '') : '') + '</textarea>' +
+      '</div>' +
+      '<div style="margin-top:10px;margin-bottom:18px">' +
+        '<button onclick="proofreadComment()" style="display:inline-flex;align-items:center;gap:6px;padding:7px 16px;background:rgba(155,89,182,0.08);color:#7B3FA0;border:1px solid rgba(155,89,182,0.2);border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .15s" onmouseover="this.style.background=\'rgba(155,89,182,0.15)\'" onmouseout="this.style.background=\'rgba(155,89,182,0.08)\'">' +
+          '<span style="font-size:14px">&#10024;</span> AI Proofread</button>' +
+      '</div>' +
+      '<div style="display:flex;justify-content:flex-end;gap:10px">' +
+        '<button onclick="closeRateModal()" style="padding:10px 24px;background:none;border:1px solid rgba(0,0,0,0.1);border-radius:12px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;color:#9E9E9E">Cancel</button>' +
+        '<button onclick="saveSentimentRating()" style="padding:10px 24px;background:#072C1B;color:#fff;border:none;border-radius:12px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;box-shadow:0 2px 8px rgba(7,44,27,0.2)">Save Rating</button>' +
+      '</div>' +
+    '</div></div>';
+
+  document.body.appendChild(overlay);
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) closeRateModal(); });
+
+  // Set initial selection
+  window.__sentBrandId = brandId;
+  window.__sentScore = startScore;
+  updateScoreSelection(startScore);
+
+  // Wire up score buttons
+  document.querySelectorAll('.sent-score-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var s = parseInt(this.dataset.score, 10);
+      window.__sentScore = s;
+      updateScoreSelection(s);
+    });
+  });
+}
+
+function updateScoreSelection(score) {
+  document.querySelectorAll('.sent-score-btn').forEach(function(btn) {
+    var s = parseInt(btn.dataset.score, 10);
+    if (s === score) {
+      btn.style.background = btn.dataset.selbg;
+      btn.style.color = '#fff';
+      btn.style.borderColor = btn.dataset.selbg;
+      btn.style.transform = 'scale(1.12)';
+      btn.style.boxShadow = '0 2px 8px rgba(0,0,0,0.15)';
+    } else {
+      btn.style.background = btn.dataset.bg;
+      btn.style.color = btn.dataset.col;
+      btn.style.borderColor = 'transparent';
+      btn.style.transform = 'scale(1)';
+      btn.style.boxShadow = 'none';
+    }
+  });
+  var lbl = document.getElementById('sentScoreLabel');
+  if (lbl) {
+    var col = sentimentColor(score);
+    lbl.innerHTML = 'Selected: <span style="color:' + col + ';font-weight:700">' + score + '/10</span> <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:' + col + ';vertical-align:middle;margin:0 4px"></span> ' + sentimentLabel(score);
+  }
+}
+
+function closeRateModal() {
+  var ov = document.getElementById('sentimentOverlay');
+  if (ov) ov.remove();
+}
+
+function saveSentimentRating() {
+  var brandId = window.__sentBrandId;
+  var score = window.__sentScore;
+  var comment = (document.getElementById('sentComment') || {}).value || '';
+
+  fetch('/api/sentiment', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ brandId: brandId, score: score, comment: comment })
+  }).then(function(r) { return r.json(); }).then(function(data) {
+    if (data.success) {
+      // Update local cache
+      if (!SENTIMENT[brandId]) SENTIMENT[brandId] = [];
+      SENTIMENT[brandId].unshift({ date: data.date, score: score, comment: comment });
+      closeRateModal();
+      // Re-render health tab
+      renderTab('health');
+    } else {
+      alert('Failed to save: ' + (data.error || 'Unknown error'));
+    }
+  }).catch(function(e) { alert('Network error: ' + e.message); });
+}
+
+function proofreadComment() {
+  var ta = document.getElementById('sentComment');
+  if (!ta || !ta.value.trim()) return;
+  var origText = ta.value;
+  ta.value = 'Proofreading...';
+  ta.disabled = true;
+
+  fetch('/api/proofread', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ text: origText })
+  }).then(function(r) { return r.json(); }).then(function(data) {
+    ta.disabled = false;
+    if (data.text) {
+      ta.value = data.text;
+    } else {
+      ta.value = origText;
+      alert('Proofread failed: ' + (data.error || 'Unknown error'));
+    }
+  }).catch(function(e) {
+    ta.disabled = false;
+    ta.value = origText;
+    alert('Network error: ' + e.message);
+  });
+}
+
+// ===== HISTORY MODAL =====
+function openHistoryModal(brandId) {
+  var m = M[brandId] || {};
+  var ratings = (SENTIMENT[brandId] || []).slice().sort(function(a, b) {
+    return (b.date || '').localeCompare(a.date || '');
+  });
+
+  var overlay = document.createElement('div');
+  overlay.id = 'historyOverlay';
+  overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.45);z-index:9999;display:flex;align-items:center;justify-content:center;animation:fadeIn .2s ease';
+
+  var rows = '';
+  if (ratings.length === 0) {
+    rows = '<tr><td colspan="3" style="padding:20px;text-align:center;color:#9E9E9E;font-size:13px">No ratings yet</td></tr>';
+  } else {
+    ratings.forEach(function(r) {
+      var dotColor = sentimentColor(r.score || 0);
+      rows += '<tr>' +
+        '<td style="padding:10px 14px;font-size:12px;color:#3a3a3a;border-bottom:1px solid rgba(0,0,0,0.04);white-space:nowrap">' + esc(r.date || '') + '</td>' +
+        '<td style="padding:10px 14px;font-size:13px;font-weight:700;border-bottom:1px solid rgba(0,0,0,0.04)"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:' + dotColor + ';margin-right:8px;vertical-align:middle"></span><span style="color:' + dotColor + '">' + (r.score || 0) + '/10</span></td>' +
+        '<td style="padding:10px 14px;font-size:12px;color:#3a3a3a;border-bottom:1px solid rgba(0,0,0,0.04);line-height:1.5">' + esc(r.comment || '') + '</td>' +
+        '</tr>';
+    });
+  }
+
+  overlay.innerHTML = '<div style="background:#fff;border-radius:20px;width:640px;max-width:90vw;max-height:80vh;box-shadow:0 24px 80px rgba(0,0,0,0.25);overflow:hidden;display:flex;flex-direction:column">' +
+    '<div style="padding:24px 28px 16px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(0,0,0,0.06)">' +
+      '<div style="font-size:16px;font-weight:700;color:#072C1B">Sentiment History: ' + esc(m.n || brandId) + '</div>' +
+      '<button onclick="closeHistoryModal()" style="background:none;border:none;cursor:pointer;font-size:20px;color:#9E9E9E;padding:4px">&times;</button>' +
+    '</div>' +
+    '<div style="padding:16px 28px;display:flex;gap:12px;align-items:center;border-bottom:1px solid rgba(0,0,0,0.04)">' +
+      '<label style="font-size:11px;font-weight:600;color:#9E9E9E">From:</label>' +
+      '<input type="date" id="histFrom" style="padding:6px 10px;border:1px solid rgba(0,0,0,0.1);border-radius:8px;font-size:12px;font-family:inherit">' +
+      '<label style="font-size:11px;font-weight:600;color:#9E9E9E">To:</label>' +
+      '<input type="date" id="histTo" style="padding:6px 10px;border:1px solid rgba(0,0,0,0.1);border-radius:8px;font-size:12px;font-family:inherit">' +
+      '<button onclick="filterHistory()" style="padding:6px 14px;background:#072C1B;color:#fff;border:none;border-radius:8px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit">Filter</button>' +
+    '</div>' +
+    '<div style="flex:1;overflow-y:auto;padding:0 28px 24px">' +
+      '<table style="width:100%;border-collapse:collapse;margin-top:12px" id="historyTable">' +
+        '<thead><tr>' +
+          '<th style="padding:10px 14px;text-align:left;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(0,0,0,0.3);border-bottom:2px solid rgba(0,0,0,0.06)">Date</th>' +
+          '<th style="padding:10px 14px;text-align:left;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(0,0,0,0.3);border-bottom:2px solid rgba(0,0,0,0.06)">Score</th>' +
+          '<th style="padding:10px 14px;text-align:left;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(0,0,0,0.3);border-bottom:2px solid rgba(0,0,0,0.06)">Comment</th>' +
+        '</tr></thead>' +
+        '<tbody id="historyBody">' + rows + '</tbody>' +
+      '</table>' +
+    '</div></div>';
+
+  document.body.appendChild(overlay);
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) closeHistoryModal(); });
+  window.__histBrandId = brandId;
+}
+
+function closeHistoryModal() {
+  var ov = document.getElementById('historyOverlay');
+  if (ov) ov.remove();
+}
+
+function filterHistory() {
+  var brandId = window.__histBrandId;
+  var fromVal = (document.getElementById('histFrom') || {}).value || '';
+  var toVal = (document.getElementById('histTo') || {}).value || '';
+  var ratings = (SENTIMENT[brandId] || []).slice().sort(function(a, b) {
+    return (b.date || '').localeCompare(a.date || '');
+  });
+
+  if (fromVal) ratings = ratings.filter(function(r) { return (r.date || '') >= fromVal; });
+  if (toVal) ratings = ratings.filter(function(r) { return (r.date || '') <= toVal; });
+
+  var rows = '';
+  if (ratings.length === 0) {
+    rows = '<tr><td colspan="3" style="padding:20px;text-align:center;color:#9E9E9E;font-size:13px">No ratings in this range</td></tr>';
+  } else {
+    ratings.forEach(function(r) {
+      var dotColor = sentimentColor(r.score || 0);
+      rows += '<tr><td style="padding:10px 14px;font-size:12px;color:#3a3a3a;border-bottom:1px solid rgba(0,0,0,0.04);white-space:nowrap">' + esc(r.date || '') + '</td>' +
+        '<td style="padding:10px 14px;font-size:13px;font-weight:700;border-bottom:1px solid rgba(0,0,0,0.04)"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:' + dotColor + ';margin-right:8px;vertical-align:middle"></span><span style="color:' + dotColor + '">' + (r.score || 0) + '/10</span></td>' +
+        '<td style="padding:10px 14px;font-size:12px;color:#3a3a3a;border-bottom:1px solid rgba(0,0,0,0.04);line-height:1.5">' + esc(r.comment || '') + '</td></tr>';
+    });
+  }
+  var body = document.getElementById('historyBody');
+  if (body) body.innerHTML = rows;
+}
+
+// ===== MONDAY POPUP =====
+function checkMondayPopup() {
+  if (!isPulkit()) return;
+  var today = new Date();
+  var isMonday = today.getDay() === 1;
+  var todayStr = today.toISOString().substring(0, 10);
+  var sevenDaysAgo = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000).toISOString().substring(0, 10);
+  var dismissals = SENTIMENT.dismissals || {};
+
+  var unratedBrands = [];
+  Object.keys(M).forEach(function(brandId) {
+    var mm = M[brandId] || {};
+    if (mm.ch) return; // skip churned
+
+    // Check if dismissed in last 7 days
+    var dismissed = dismissals[brandId];
+    if (dismissed) {
+      var dismissDate = dismissed.substring(0, 10);
+      if (dismissDate >= sevenDaysAgo) return;
+    }
+
+    // Check if rated in last 7 days
+    var ratings = SENTIMENT[brandId] || [];
+    var ratedRecently = false;
+    if (Array.isArray(ratings)) {
+      ratings.forEach(function(r) {
+        if (r && r.date && r.date >= sevenDaysAgo) ratedRecently = true;
+      });
+    }
+    if (!ratedRecently) unratedBrands.push({ id: brandId, name: mm.n });
+  });
+
+  if (unratedBrands.length === 0) return;
+  if (!isMonday && unratedBrands.length < 5) return; // only show on non-Monday if many unrated
+
+  var items = '';
+  unratedBrands.forEach(function(b) {
+    items += '<div style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;background:rgba(0,0,0,0.02);border-radius:10px;margin-bottom:6px">' +
+      '<span style="font-size:13px;font-weight:600;color:#072C1B">' + esc(b.name) + '</span>' +
+      '<div style="display:flex;gap:8px">' +
+        '<button onclick="openRateModal(\\'' + b.id + '\\');closeMondayPopup()" style="padding:5px 14px;background:#072C1B;color:#fff;border:none;border-radius:8px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit">Rate</button>' +
+        '<button onclick="dismissBrand(\\'' + b.id + '\\')" style="padding:5px 14px;background:none;border:1px solid rgba(0,0,0,0.1);border-radius:8px;font-size:11px;font-weight:500;cursor:pointer;font-family:inherit;color:#9E9E9E">Dismiss</button>' +
+      '</div></div>';
+  });
+
+  var banner = document.createElement('div');
+  banner.id = 'mondayPopup';
+  banner.style.cssText = 'position:fixed;bottom:24px;right:24px;width:380px;background:#fff;border-radius:16px;box-shadow:0 12px 48px rgba(0,0,0,0.2);z-index:9998;overflow:hidden;border:1px solid rgba(7,44,27,0.1);animation:fadeIn .3s ease';
+  banner.innerHTML = '<div style="padding:18px 20px 12px;border-bottom:1px solid rgba(0,0,0,0.06);display:flex;justify-content:space-between;align-items:center">' +
+    '<div><div style="font-size:14px;font-weight:700;color:#072C1B">' + (isMonday ? 'Monday Check-in' : 'Sentiment Reminder') + '</div>' +
+    '<div style="font-size:11px;color:#9E9E9E;margin-top:2px">' + unratedBrands.length + ' brand' + (unratedBrands.length > 1 ? 's' : '') + ' need rating</div></div>' +
+    '<button onclick="closeMondayPopup()" style="background:none;border:none;cursor:pointer;font-size:18px;color:#9E9E9E;padding:4px">&times;</button></div>' +
+    '<div style="padding:14px 20px;max-height:300px;overflow-y:auto">' + items + '</div>';
+  document.body.appendChild(banner);
+}
+
+function closeMondayPopup() {
+  var p = document.getElementById('mondayPopup');
+  if (p) p.remove();
+}
+
+function dismissBrand(brandId) {
+  fetch('/api/dismiss-popup', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ brandId: brandId })
+  }).then(function(r) { return r.json(); }).then(function(data) {
+    if (data.success) {
+      if (!SENTIMENT.dismissals) SENTIMENT.dismissals = {};
+      SENTIMENT.dismissals[brandId] = new Date().toISOString();
+      // Remove from popup
+      closeMondayPopup();
+      checkMondayPopup();
+    }
+  }).catch(function() {});
+}
+
 // ===== HEALTH =====
 function renderHealth(d, m) {
   var el = document.getElementById('healthContent');
@@ -543,6 +872,9 @@ function renderHealth(d, m) {
   var rev30 = (p['30d'] && p['30d'].revenue) || 0;
   var d7 = p['7d'] || {};
   var d30 = p['30d'] || {};
+  var sentLatest = getLatestSentiment(cur);
+  var sentScore = sentLatest ? sentLatest.score : 0;
+  var sentMapped = bd.csm_sentiment || 0;
 
   // ── 3 COLUMNS: Score | KPI cards | Radar ──
   var html = '<div style="display:grid;grid-template-columns:150px 1fr 1fr;gap:16px;margin-bottom:20px;align-items:stretch">' +
@@ -562,10 +894,18 @@ function renderHealth(d, m) {
     '<div class="kpi" style="padding:14px 16px"><div class="kpi-accent" style="background:#3ED660"></div><div class="kpi-name">30d CVR</div><div class="kpi-val" style="font-size:22px">' + fp((d30.cvr) || 0) + '</div></div>' +
     '<div class="kpi" style="padding:14px 16px"><div class="kpi-accent" style="background:#B89240"></div><div class="kpi-name">Renewal</div><div class="kpi-val" style="font-size:18px">' + (m.ren || 'Not set') + '</div></div>' +
     '</div>' +
-    // COL 3: Radar chart
+    // COL 3: Radar chart + buttons
     '<div style="background:var(--wh);border-radius:var(--rl);padding:16px;box-shadow:var(--sh);border:1px solid rgba(0,0,0,0.03);display:flex;flex-direction:column">' +
     '<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:rgba(0,0,0,0.3);margin-bottom:8px">Health Breakdown</div>' +
     (Object.keys(bd).length > 0 ? '<div style="flex:1;min-height:200px"><canvas id="healthRadar"></canvas></div>' : '<div style="color:var(--mi);font-size:12px">No breakdown data</div>') +
+    // Sentiment buttons (Pulkit only)
+    (isPulkit() ? '<div style="display:flex;gap:8px;margin-top:10px;justify-content:center">' +
+      '<button onclick="openRateModal(\\'' + cur + '\\')" style="padding:7px 16px;background:#072C1B;color:#fff;border:none;border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:5px;box-shadow:0 2px 6px rgba(7,44,27,0.15);transition:all .15s" onmouseover="this.style.transform=\\'translateY(-1px)\\';this.style.boxShadow=\\'0 4px 12px rgba(7,44,27,0.25)\\'" onmouseout="this.style.transform=\\'none\\';this.style.boxShadow=\\'0 2px 6px rgba(7,44,27,0.15)\\'">' +
+        (sentLatest ? '&#9998; Update Rating' : '&#9733; Rate Account') + '</button>' +
+      '<button onclick="openHistoryModal(\\'' + cur + '\\')" style="padding:7px 16px;background:none;border:1px solid rgba(0,0,0,0.1);border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;color:#9E9E9E;transition:all .15s" onmouseover="this.style.borderColor=\\'rgba(7,44,27,0.3)\\';this.style.color=\\'#072C1B\\'" onmouseout="this.style.borderColor=\\'rgba(0,0,0,0.1)\\';this.style.color=\\'#9E9E9E\\'">&#128203; History</button>' +
+    '</div>' : '') +
+    // Show current sentiment inline
+    (sentLatest ? '<div style="text-align:center;margin-top:8px;font-size:11px;color:#9E9E9E">Current: <span style="color:' + sentimentColor(sentScore) + ';font-weight:700">' + sentScore + '/10</span> <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:' + sentimentColor(sentScore) + ';vertical-align:middle"></span> ' + sentimentLabel(sentScore) + ' (' + (sentLatest.date || '') + ')</div>' : '') +
     '</div></div>';
 
   // ── Account Note ──
@@ -594,13 +934,13 @@ function renderHealth(d, m) {
   setTimeout(function() {
     var ctx = document.getElementById('healthRadar');
     if (ctx && Object.keys(bd).length > 0) {
-      var detailTexts = [bd.platform_performance_detail || bd.platform_detail || '', bd.communication_detail || '', bd.engagement_detail || ''];
+      var detailTexts = [bd.platform_performance_detail || bd.platform_detail || '', bd.communication_detail || '', bd.engagement_detail || '', bd.csm_sentiment_detail || ''];
       charts.healthRadar = new Chart(ctx, {
         type: 'radar',
         data: {
-          labels: ['Platform Performance (35)', 'Communication (30)', 'Engagement (35)'],
+          labels: ['Platform (20)', 'Communication (20)', 'Engagement (20)', 'CSM Sentiment (40)'],
           datasets: [{
-            data: [bd.platform_performance || bd.platform_activity || 0, bd.communication || 0, bd.engagement || ((bd.engagement || 0) + (bd.call_frequency || 0))],
+            data: [bd.platform_performance || bd.platform_activity || 0, bd.communication || 0, bd.engagement || 0, bd.csm_sentiment || 0],
             backgroundColor: sc(hs) + '22',
             borderColor: sc(hs),
             borderWidth: 2.5,
@@ -624,8 +964,8 @@ function renderHealth(d, m) {
               callbacks: {
                 title: function(items) {
                   var idx = items[0].dataIndex;
-                  var names = ['Platform Performance', 'Communication', 'Engagement'];
-                  var maxes = [35, 30, 35];
+                  var names = ['Platform Performance', 'Communication', 'Engagement', 'CSM Sentiment'];
+                  var maxes = [20, 20, 20, 40];
                   return names[idx] + ': ' + items[0].raw + '/' + maxes[idx];
                 },
                 label: function(item) {
@@ -639,8 +979,8 @@ function renderHealth(d, m) {
             }
           },
           scales: { r: {
-            beginAtZero: true, max: 35,
-            ticks: { stepSize: 7, font: { size: 9 }, backdropColor: 'transparent', color: 'rgba(0,0,0,0.25)' },
+            beginAtZero: true, max: 40,
+            ticks: { stepSize: 8, font: { size: 9 }, backdropColor: 'transparent', color: 'rgba(0,0,0,0.25)' },
             grid: { color: 'rgba(0,0,0,0.05)' },
             pointLabels: { font: { size: 10, family: "'Space Grotesk'", weight: '600' }, color: 'rgba(0,0,0,0.5)' }
           }}

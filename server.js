@@ -1,12 +1,14 @@
 /**
  * server.js — Express server for Account Management Portal
  * Google OAuth SSO (same pattern as Newsletter Hub)
+ * CSM Sentiment Tracker endpoints
  */
 
 const express = require('express');
 const path = require('path');
 const crypto = require('crypto');
 const querystring = require('querystring');
+const https = require('https');
 const fs = require('fs');
 
 const app = express();
@@ -17,6 +19,38 @@ const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || 'PLACEHOLDER_CLIENT_ID'
 const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET || 'PLACEHOLDER_CLIENT_SECRET';
 const SSO_SIGNING_SECRET = process.env.SSO_SIGNING_SECRET || crypto.randomBytes(32).toString('hex');
 const ALLOWED_DOMAIN = 'fermatcommerce.com';
+
+// ── SENTIMENT DATA CONFIG ───────────────────────────────────────────────────
+var ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || '';
+var SENTIMENT_DIR = (process.env.RAILWAY_VOLUME_MOUNT_PATH || './sentiment-data');
+var SENTIMENT_FILE = path.join(SENTIMENT_DIR, 'sentiment.json');
+
+function ensureSentimentDir() {
+  try {
+    if (!fs.existsSync(SENTIMENT_DIR)) {
+      fs.mkdirSync(SENTIMENT_DIR, { recursive: true });
+    }
+  } catch (e) {
+    console.error('Failed to create sentiment dir:', e.message);
+  }
+}
+
+function readSentimentData() {
+  ensureSentimentDir();
+  try {
+    if (fs.existsSync(SENTIMENT_FILE)) {
+      return JSON.parse(fs.readFileSync(SENTIMENT_FILE, 'utf8'));
+    }
+  } catch (e) {
+    console.error('Failed to read sentiment data:', e.message);
+  }
+  return {};
+}
+
+function writeSentimentData(data) {
+  ensureSentimentDir();
+  fs.writeFileSync(SENTIMENT_FILE, JSON.stringify(data, null, 2), 'utf8');
+}
 
 function getCallbackUrl(req) {
   var proto = req.headers['x-forwarded-proto'] || req.protocol || 'http';
@@ -39,6 +73,9 @@ function checkAuth(req) {
   if (!email || signEmail(email) !== token) return null;
   return email;
 }
+
+// ── JSON BODY PARSER ────────────────────────────────────────────────────────
+app.use(express.json());
 
 // ── STATIC FILES (CSS/JS if needed) ─────────────────────────────────────────
 app.use(express.static(__dirname, {
@@ -89,12 +126,16 @@ app.get('/', function (req, res) {
   var authScript = '<script>' + fs.readFileSync(path.join(__dirname, 'auth-portal.js'), 'utf8') + '</script>';
   html = html.replace('</body>', authScript + '</body>');
 
+  // Inject sentiment data
+  var sentimentData = readSentimentData();
+  var sentimentScript = '<script>window.__SENTIMENT__=' + JSON.stringify(sentimentData) + ';</script>';
+
   var userMeta = '<script>window.__PORTAL_USER__=' + JSON.stringify({
     email: userEmail || 'pulkit@fermatcommerce.com',
     name: userEmail ? '' : 'Pulkit Srivastava',
     ssoConfigured: ssoConfigured
   }) + ';</script>';
-  html = html.replace('</head>', userMeta + '</head>');
+  html = html.replace('</head>', userMeta + sentimentScript + '</head>');
 
   res.send(html);
 });
@@ -176,6 +217,128 @@ app.get('/api/verify-sso', function (req, res) {
 app.get('/auth/logout', function (req, res) {
   res.set('Set-Cookie', 'fermat_portal_auth=; Path=/; HttpOnly; Max-Age=0');
   res.redirect('/');
+});
+
+// ── SENTIMENT API ────────────────────────────────────────────────────────────
+
+// POST /api/sentiment — Save a sentiment rating (Pulkit only)
+app.post('/api/sentiment', function (req, res) {
+  var userEmail = checkAuth(req);
+  if (!userEmail || userEmail !== 'pulkit@fermatcommerce.com') {
+    return res.status(403).json({ error: 'Only Pulkit can submit ratings' });
+  }
+
+  var brandId = req.body.brandId;
+  var score = parseInt(req.body.score, 10);
+  var comment = (req.body.comment || '').trim();
+
+  if (!brandId) return res.status(400).json({ error: 'brandId is required' });
+  if (isNaN(score) || score < 1 || score > 10) return res.status(400).json({ error: 'score must be 1-10' });
+
+  var data = readSentimentData();
+  if (!data[brandId]) data[brandId] = [];
+
+  var today = new Date().toISOString().substring(0, 10);
+  data[brandId].unshift({
+    date: today,
+    score: score,
+    comment: comment
+  });
+
+  writeSentimentData(data);
+  res.json({ success: true, date: today, score: score });
+});
+
+// GET /api/sentiment/:brandId — Get sentiment history for a brand
+app.get('/api/sentiment/:brandId', function (req, res) {
+  var data = readSentimentData();
+  var brandRatings = data[req.params.brandId] || [];
+  // Sort by date descending
+  brandRatings.sort(function (a, b) {
+    return (b.date || '').localeCompare(a.date || '');
+  });
+  res.json(brandRatings);
+});
+
+// GET /api/sentiment — Get all sentiment data
+app.get('/api/sentiment', function (req, res) {
+  var data = readSentimentData();
+  res.json(data);
+});
+
+// POST /api/proofread — AI text cleanup via Anthropic API
+app.post('/api/proofread', function (req, res) {
+  var userEmail = checkAuth(req);
+  if (!userEmail) return res.status(401).json({ error: 'Not authenticated' });
+
+  var text = (req.body.text || '').trim();
+  if (!text) return res.status(400).json({ error: 'text is required' });
+
+  if (!ANTHROPIC_API_KEY) {
+    return res.status(503).json({ error: 'ANTHROPIC_API_KEY not configured' });
+  }
+
+  var postData = JSON.stringify({
+    model: 'claude-sonnet-4-20250514',
+    max_tokens: 1024,
+    system: 'You are a proofreader. Fix spelling, grammar, and make the text concise. Keep the meaning and tone. Return only the corrected text, nothing else.',
+    messages: [{ role: 'user', content: text }]
+  });
+
+  var options = {
+    hostname: 'api.anthropic.com',
+    port: 443,
+    path: '/v1/messages',
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'x-api-key': ANTHROPIC_API_KEY,
+      'anthropic-version': '2023-06-01',
+      'Content-Length': Buffer.byteLength(postData)
+    }
+  };
+
+  var apiReq = https.request(options, function (apiRes) {
+    var chunks = [];
+    apiRes.on('data', function (chunk) { chunks.push(chunk); });
+    apiRes.on('end', function () {
+      try {
+        var body = JSON.parse(Buffer.concat(chunks).toString());
+        if (body.content && body.content[0] && body.content[0].text) {
+          res.json({ text: body.content[0].text });
+        } else {
+          res.status(500).json({ error: 'Unexpected API response', detail: body });
+        }
+      } catch (e) {
+        res.status(500).json({ error: 'Failed to parse API response' });
+      }
+    });
+  });
+
+  apiReq.on('error', function (e) {
+    res.status(500).json({ error: 'API request failed', detail: e.message });
+  });
+
+  apiReq.write(postData);
+  apiReq.end();
+});
+
+// POST /api/dismiss-popup — Dismiss Monday reminder for a brand
+app.post('/api/dismiss-popup', function (req, res) {
+  var userEmail = checkAuth(req);
+  if (!userEmail || userEmail !== 'pulkit@fermatcommerce.com') {
+    return res.status(403).json({ error: 'Only Pulkit can dismiss popups' });
+  }
+
+  var brandId = req.body.brandId;
+  if (!brandId) return res.status(400).json({ error: 'brandId is required' });
+
+  var data = readSentimentData();
+  if (!data.dismissals) data.dismissals = {};
+  data.dismissals[brandId] = new Date().toISOString();
+
+  writeSentimentData(data);
+  res.json({ success: true });
 });
 
 // Health check

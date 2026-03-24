@@ -3,15 +3,17 @@
   "brand_name": "belliwelli",
   "last_updated": "2026-03-24T16:00:00Z",
   "health": {
-    "score": 64,
-    "status": "yellow",
+    "score": 38,
+    "status": "red",
     "breakdown": {
-      "platform_performance": 33,
-      "platform_performance_detail": "Sessions:9/9, Revenue:9/9, CVR:7/9, Purchases:8/8",
-      "communication": 18,
-      "communication_detail": "SlackRecency:6/6, BrandSlack14d:4/6, PulkitSlack14d:4/6, EmailThreads14d:4/6, PulkitOutreach:0/6",
-      "engagement": 13,
-      "engagement_detail": "LastCall:0/12, Calls30d:2/12, Upcoming:11/11"
+      "platform_performance": 19,
+      "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:4/5, Purchases:5/5",
+      "communication": 12,
+      "communication_detail": "SlackRecency:4/4, BrandSlack14d:3/4, PulkitSlack14d:2/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
+      "engagement": 7,
+      "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:6/6",
+      "csm_sentiment": 0,
+      "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
       {

@@ -13,15 +13,17 @@
     "slack_channel": "C07PRNWRZ9Q"
   },
   "health": {
-    "score": 60,
-    "status": "yellow",
+    "score": 35,
+    "status": "red",
     "breakdown": {
-      "platform_performance": 33,
-      "platform_performance_detail": "Sessions:9/9, Revenue:9/9, CVR:7/9, Purchases:8/8",
-      "communication": 4,
-      "communication_detail": "SlackRecency:0/6, BrandSlack14d:0/6, PulkitSlack14d:0/6, EmailThreads14d:4/6, PulkitOutreach:0/6",
-      "engagement": 23,
-      "engagement_detail": "LastCall:6/12, Calls30d:6/12, Upcoming:11/11"
+      "platform_performance": 19,
+      "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:4/5, Purchases:5/5",
+      "communication": 3,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
+      "engagement": 13,
+      "engagement_detail": "LastCall:4/8, Calls30d:3/6, Upcoming:6/6",
+      "csm_sentiment": 0,
+      "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
       {

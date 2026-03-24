@@ -3,15 +3,17 @@
   "brand_name": "Gains In Bulk",
   "last_updated": "2026-03-24T16:00:00Z",
   "health": {
-    "score": 21,
+    "score": 12,
     "status": "red",
     "breakdown": {
-      "platform_performance": 19,
-      "platform_performance_detail": "Sessions:5/9, Revenue:5/9, CVR:7/9, Purchases:2/8",
+      "platform_performance": 11,
+      "platform_performance_detail": "Sessions:3/5, Revenue:3/5, CVR:4/5, Purchases:1/5",
       "communication": 0,
-      "communication_detail": "SlackRecency:0/6, BrandSlack14d:0/6, PulkitSlack14d:0/6, EmailThreads14d:0/6, PulkitOutreach:0/6",
-      "engagement": 2,
-      "engagement_detail": "LastCall:0/12, Calls30d:2/12, Upcoming:0/11"
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
+      "engagement": 1,
+      "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:0/6",
+      "csm_sentiment": 0,
+      "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
       {

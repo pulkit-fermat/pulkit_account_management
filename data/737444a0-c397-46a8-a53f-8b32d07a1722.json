@@ -9,15 +9,17 @@
     "active_users_l7d": 3
   },
   "health": {
-    "score": 49,
-    "status": "yellow",
+    "score": 28,
+    "status": "red",
     "breakdown": {
-      "platform_performance": 24,
-      "platform_performance_detail": "Sessions:9/9, Revenue:7/9, CVR:2/9, Purchases:6/8",
-      "communication": 4,
-      "communication_detail": "SlackRecency:2/6, BrandSlack14d:2/6, PulkitSlack14d:0/6, EmailThreads14d:0/6, PulkitOutreach:0/6",
-      "engagement": 21,
-      "engagement_detail": "LastCall:9/12, Calls30d:12/12, Upcoming:0/11"
+      "platform_performance": 14,
+      "platform_performance_detail": "Sessions:5/5, Revenue:4/5, CVR:1/5, Purchases:4/5",
+      "communication": 2,
+      "communication_detail": "SlackRecency:1/4, BrandSlack14d:1/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
+      "engagement": 12,
+      "engagement_detail": "LastCall:6/8, Calls30d:6/6, Upcoming:0/6",
+      "csm_sentiment": 0,
+      "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
       {

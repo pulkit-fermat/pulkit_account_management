@@ -598,7 +598,7 @@ function openRateModal(brandId) {
         '<textarea id="sentComment" rows="3" style="width:100%;padding:12px 14px;border:1px solid rgba(0,0,0,0.1);border-radius:12px;font-size:13px;font-family:inherit;resize:vertical;outline:none;transition:border-color .2s" placeholder="Type your thoughts...">' + (existing ? esc(existing.comment || '') : '') + '</textarea>' +
       '</div>' +
       '<div style="margin-top:10px;margin-bottom:18px">' +
-        '<button onclick="proofreadComment()" style="display:inline-flex;align-items:center;gap:6px;padding:7px 16px;background:rgba(155,89,182,0.08);color:#7B3FA0;border:1px solid rgba(155,89,182,0.2);border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .15s" onmouseover="this.style.background=\'rgba(155,89,182,0.15)\'" onmouseout="this.style.background=\'rgba(155,89,182,0.08)\'">' +
+        '<button onclick="proofreadComment()" style="display:inline-flex;align-items:center;gap:6px;padding:7px 16px;background:rgba(155,89,182,0.08);color:#7B3FA0;border:1px solid rgba(155,89,182,0.2);border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .15s" onmouseover="this.style.background=\\'rgba(155,89,182,0.15)\\'" onmouseout="this.style.background=\\'rgba(155,89,182,0.08)\\'">' +
           '<span style="font-size:14px">&#10024;</span> AI Proofread</button>' +
       '</div>' +
       '<div style="display:flex;justify-content:flex-end;gap:10px">' +

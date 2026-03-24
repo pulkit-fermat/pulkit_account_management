@@ -199,7 +199,7 @@ app.get('/auth/google/callback', function (req, res) {
 
       var token = signEmail(email);
       res.set('Set-Cookie', 'fermat_portal_auth=' + token + '_' + email + '; Path=/; HttpOnly; SameSite=Lax; Max-Age=86400');
-      res.redirect('/?sso_email=' + encodeURIComponent(email) + '&sso_name=' + encodeURIComponent(name) + '&sso_token=' + token);
+      res.redirect('/');
 
     } catch (e) {
       res.redirect('/?sso_error=network_error&detail=' + encodeURIComponent(e.message));

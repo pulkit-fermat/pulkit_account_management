@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "FERMÀT Account Management Portal with Google SSO",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
-    "start": "node server.js",
-    "build": "python3 compute_health.py && python3 build.py"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",

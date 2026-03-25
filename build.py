@@ -14,7 +14,7 @@ FLOGO = "https://cdn.prod.website-files.com/63f5f201b1f212a5c76681f0/63f6319f0b6
 
 LOGOS = {
     "35845b70-d5ef-4dbf-83cf-e9f327662c17": "https://www.medik8.com/cdn/shop/t/331/assets/logo.png?v=20852127142504936671709712608",
-    "508e7756-81aa-48b1-bbf5-765d2e8f1eb9": "https://www.leapingbunny.org/sites/default/files/2024-02/Westmore%20Beauty%20Logo_purple_updated_052919%20%281%29.png",
+    "508e7756-81aa-48b1-bbf5-765d2e8f1eb9": "https://westmorebeauty.com/cdn/shop/files/Westmore_-_Logo_CMYK.png?v=1773860108&width=500",
     "ae4f1f5d-f1d1-488f-8340-1890cfd0faf3": "https://d19ayerf5ehaab.cloudfront.net/assets/store-534884/534884-logo-1736177561.png",
     "39f04705-e991-461e-a98f-2dd3f29d6e47": "https://wellybelly.in/cdn/shop/files/Welly_Belly_Final_Logo_2_0f65ddea-5650-47ba-a2ab-632871ef89aa.png?v=1740736627",
     "ab6fc1e8-f245-4344-902c-b60388575aca": "https://wholesale.fondbonebroth.com/cdn/shop/files/FND_Secondary_logo_Navy_wStroke_RGB_eebc91b8-6b17-46f5-a8d5-43c1367c94f2.png?v=1686840930",
@@ -1392,6 +1392,7 @@ def build():
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>FERMÀT Account Management Portal</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23072C1B'/><rect x='5' y='5' width='9' height='9' rx='2' fill='%233ED660'/><rect x='18' y='5' width='9' height='9' rx='2' fill='%233ED660' opacity='.6'/><rect x='5' y='18' width='9' height='9' rx='2' fill='%233ED660' opacity='.6'/><rect x='18' y='18' width='9' height='9' rx='2' fill='%233ED660' opacity='.3'/></svg>">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>

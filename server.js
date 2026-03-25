@@ -341,6 +341,33 @@ app.post('/api/dismiss-popup', function (req, res) {
   res.json({ success: true });
 });
 
+// POST /api/churn-status — Toggle brand churn status (Pulkit only)
+app.post('/api/churn-status', function (req, res) {
+  var userEmail = checkAuth(req);
+  if (!userEmail || userEmail !== 'pulkit@fermatcommerce.com') {
+    return res.status(403).json({ error: 'Only Pulkit can change churn status' });
+  }
+
+  var brandId = req.body.brandId;
+  var churned = req.body.churned;
+
+  if (!brandId) return res.status(400).json({ error: 'brandId is required' });
+  if (typeof churned !== 'boolean') return res.status(400).json({ error: 'churned must be true or false' });
+
+  var data = readSentimentData();
+  if (!data.churn_status) data.churn_status = {};
+  data.churn_status[brandId] = churned;
+
+  writeSentimentData(data);
+  res.json({ success: true, brandId: brandId, churned: churned });
+});
+
+// GET /api/churn-status — Get all churn overrides
+app.get('/api/churn-status', function (req, res) {
+  var data = readSentimentData();
+  res.json(data.churn_status || {});
+});
+
 // Health check
 app.get('/health', function (req, res) {
   res.json({ status: 'ok', sso: GOOGLE_CLIENT_ID !== 'PLACEHOLDER_CLIENT_ID' });

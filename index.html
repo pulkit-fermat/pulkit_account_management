@@ -28,6 +28,7 @@ body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:var(--bk)
 .bl{width:32px;height:32px;border-radius:8px;object-fit:contain;background:#fff;padding:4px;flex-shrink:0;box-shadow:0 1px 4px rgba(0,0,0,0.15)}
 .bii{flex:1;overflow:hidden}.bin{font-size:13px;font-weight:500;color:rgba(255,255,255,0.75);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .15s}.bim{font-size:10px;color:rgba(255,255,255,0.28);margin-top:2px;font-weight:400}
 .bd{width:8px;height:8px;border-radius:50%;flex-shrink:0}.bd.green{background:#3ED660;box-shadow:0 0 6px rgba(62,214,96,0.4)}.bd.yellow{background:#EAB308;box-shadow:0 0 6px rgba(234,179,8,0.3)}.bd.red{background:#C84632;box-shadow:0 0 6px rgba(200,70,50,0.3)}.bd.gray{background:rgba(255,255,255,0.15)}
+.sb-section{padding:10px 16px 6px;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:rgba(255,255,255,0.3);display:flex;align-items:center;gap:6px}.sb-section-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}.sb-section-count{margin-left:auto;font-size:9px;font-weight:600;color:rgba(255,255,255,0.2)}
 .sbf{padding:20px 24px;border-top:1px solid rgba(219,233,224,0.08)}.sbft{font-size:11px;color:rgba(255,255,255,0.5);font-weight:500}.sbfr{font-size:10px;color:rgba(255,255,255,0.2);margin-top:4px}
 
 /* Main */
@@ -264,7 +265,7 @@ body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:var(--bk)
 <div class="bi" onclick="sel('508e7756-81aa-48b1-bbf5-765d2e8f1eb9')" data-bid="508e7756-81aa-48b1-bbf5-765d2e8f1eb9"><img src="https://www.leapingbunny.org/sites/default/files/2024-02/Westmore%20Beauty%20Logo_purple_updated_052919%20%281%29.png" class="bl" onerror="this.style.display='none'"><div class="bii"><div class="bin">Westmore Beauty</div><div class="bim">Beauty &middot; $36K</div></div><div class="bd red"></div></div>
 <div class="bi" onclick="sel('39f04705-e991-461e-a98f-2dd3f29d6e47')" data-bid="39f04705-e991-461e-a98f-2dd3f29d6e47"><img src="https://wellybelly.in/cdn/shop/files/Welly_Belly_Final_Logo_2_0f65ddea-5650-47ba-a2ab-632871ef89aa.png?v=1740736627" class="bl" onerror="this.style.display='none'"><div class="bii"><div class="bin">belliwelli</div><div class="bim">Health &amp; Supplements &middot; $24K</div></div><div class="bd red"></div></div>
 </div>
-<div class="sbf"><div class="sbft">Pulkit Srivastava &middot; CSM</div><div class="sbfr">Last refresh: Mar 24, 2026 05:09 PM</div></div>
+<div class="sbf"><div class="sbft">Pulkit Srivastava &middot; CSM</div><div class="sbfr">Last refresh: Mar 25, 2026 10:30 AM</div></div>
 </aside>
 
 <main class="mn">
@@ -276,7 +277,7 @@ body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:var(--bk)
 <div class="hdr-r">
 <div class="hdr-ri"><div class="hdr-rl">Total ARR</div><div class="hdr-rv">$338,400</div></div>
 <div class="hdr-ri"><div class="hdr-rl">Total MRR</div><div class="hdr-rv">$28,200</div></div>
-<div class="hdr-ri"><div class="hdr-rl">Last Refresh</div><div class="hdr-rv">Mar 24, 2026 05:09 PM</div></div>
+<div class="hdr-ri"><div class="hdr-rl">Last Refresh</div><div class="hdr-rv">Mar 25, 2026 10:30 AM</div></div>
 </div>
 </div>
 
@@ -287,6 +288,7 @@ body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:var(--bk)
 <div class="hdr-r">
 <div class="hdr-ri"><div class="hdr-rl">Renewal</div><div class="hdr-rv" id="hdrRen"></div></div>
 <div class="hdr-ri"><div class="hdr-rl">Slack</div><div class="hdr-rv" id="hdrSlack"></div></div>
+<div id="churnToggleWrap"></div>
 </div>
 </div>
 
@@ -365,6 +367,7 @@ function destroyCharts() { Object.keys(charts).forEach(function(k) { try { chart
 
 // ===== INIT =====
 document.addEventListener('DOMContentLoaded', function() {
+  organizeSidebar();
   switchTab('overview');
   renderOverview();
   var first = document.querySelector('.bi');
@@ -386,11 +389,22 @@ function updateHeader() {
   var m = M[cur] || {};
   document.getElementById('hdrName').textContent = m.n || '';
   document.getElementById('hdrVert').textContent = (m.v || '') + ' \u00b7 ' + (m.t || '').toUpperCase();
-  var status = m.ch ? 'Churned' : ((m.cm || '').toLowerCase().indexOf('churn') >= 0 ? 'At Risk' : 'Active');
-  document.getElementById('hdrStatus').textContent = status + ' \u00b7 $' + (m.arr || 0).toLocaleString() + ' ARR';
+  var churned = isChurned(cur);
+  var status = churned ? 'Churned' : 'Active';
+  document.getElementById('hdrStatus').innerHTML = '<span style="color:' + (churned ? '#C84632' : '#1a8a3e') + ';font-weight:600">' + status + '</span> \u00b7 $' + (m.arr || 0).toLocaleString() + ' ARR';
   document.getElementById('hdrRen').textContent = m.ren || 'Not set';
   var sn = SL[m.sl] || 'unknown';
   document.getElementById('hdrSlack').innerHTML = '<a href="https://app.slack.com/client/T/' + (m.sl||'') + '" target="_blank">#' + sn + '</a>';
+
+  // Churn toggle button (Pulkit only)
+  var toggleWrap = document.getElementById('churnToggleWrap');
+  if (isPulkit() && toggleWrap) {
+    toggleWrap.innerHTML = churned ?
+      '<button onclick="toggleChurnStatus(cur)" style="padding:6px 16px;background:rgba(62,214,96,0.08);color:#1a8a3e;border:1px solid rgba(62,214,96,0.2);border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:5px;transition:all .15s" onmouseover="this.style.background=\'rgba(62,214,96,0.15)\'" onmouseout="this.style.background=\'rgba(62,214,96,0.08)\'">&#10003; Mark Active</button>' :
+      '<button onclick="toggleChurnStatus(cur)" style="padding:6px 16px;background:rgba(200,70,50,0.06);color:#C84632;border:1px solid rgba(200,70,50,0.15);border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:5px;transition:all .15s" onmouseover="this.style.background=\'rgba(200,70,50,0.12)\'" onmouseout="this.style.background=\'rgba(200,70,50,0.06)\'">&#10005; Mark Churned</button>';
+  } else if (toggleWrap) {
+    toggleWrap.innerHTML = '';
+  }
 }
 
 function switchTab(tab) {
@@ -444,6 +458,12 @@ function renderOverview() {
     var m = M[id], d = BD[id] || {};
     totalARR += m.arr || 0;
     var hs = (d.health && d.health.score) || 0;
+    // Recalculate with live sentiment
+    var sl = getLatestSentiment(id);
+    if (sl && sl.score > 0) {
+      var bd2 = (d.health && d.health.breakdown) || {};
+      hs = (bd2.platform_performance || bd2.platform_activity || 0) + (bd2.communication || 0) + (bd2.engagement || 0) + (sl.score * 4);
+    }
     var rev30 = (d.performance && d.performance['30d'] && d.performance['30d'].revenue) || 0;
     totalRev30 += rev30;
     if (m.ch) churned++; else if ((m.cm||'').toLowerCase().indexOf('churn') >= 0) atRisk++; else active++;
@@ -469,13 +489,17 @@ function renderOverview() {
   brands.forEach(function(id) {
     var m = M[id], d = BD[id] || {};
     var hs = (d.health && d.health.score) || 0;
+    // Recalculate with live sentiment
+    var sl2 = getLatestSentiment(id);
+    if (sl2 && sl2.score > 0) {
+      var bd3 = (d.health && d.health.breakdown) || {};
+      hs = (bd3.platform_performance || bd3.platform_activity || 0) + (bd3.communication || 0) + (bd3.engagement || 0) + (sl2.score * 4);
+    }
     var rev30 = (d.performance && d.performance['30d'] && d.performance['30d'].revenue) || 0;
+    var cvr30 = (d.performance && d.performance['30d'] && d.performance['30d'].cvr) || 0;
     var status = m.ch ? 'churned' : ((m.cm||'').toLowerCase().indexOf('churn') >= 0 ? 'at-risk' : 'active');
     var statusLabel = status === 'churned' ? 'Churned' : status === 'at-risk' ? 'At Risk' : 'Active';
     var logo = L[id];
-    var periods = ['yesterday','3d','7d','15d','30d','45d'];
-    var revVals = periods.map(function(p) { return (d.performance && d.performance[p] && d.performance[p].revenue) || 0; });
-    var spark = sparkline(revVals, 120, 28, sc(hs));
     var negSigs = ((d.health && d.health.signals) || []).filter(function(s){return s.type==='negative'}).length;
 
     html += '<div class="bg-card" onclick="sel(\'' + id + '\')">' +
@@ -485,8 +509,8 @@ function renderOverview() {
       '<div class="bg-name">' + esc(m.n) + '</div>' +
       '<div class="bg-meta">' + esc(m.v) + '</div>' +
       '<div class="bg-kpis"><div class="bg-kpi"><span class="bg-kl">ARR</span><span class="bg-kv">$' + (m.arr||0).toLocaleString() + '</span></div>' +
-      '<div class="bg-kpi"><span class="bg-kl">30d Rev</span><span class="bg-kv">' + (rev30 ? '$' + rev30.toLocaleString(undefined,{maximumFractionDigits:0}) : '--') + '</span></div></div>' +
-      '<div class="bg-spark">' + spark + '</div>' +
+      '<div class="bg-kpi"><span class="bg-kl">30d Rev</span><span class="bg-kv">' + (rev30 ? '$' + rev30.toLocaleString(undefined,{maximumFractionDigits:0}) : '--') + '</span></div>' +
+      '<div class="bg-kpi"><span class="bg-kl">30d CVR</span><span class="bg-kv">' + (cvr30 ? cvr30.toFixed(2) + '%' : '--') + '</span></div></div>' +
       '<div class="bg-footer"><span class="bg-status bg-' + status + '">' + statusLabel + '</span>' +
       (m.ren ? '<span class="bg-renewal">Renews ' + m.ren + '</span>' : '') + '</div>' +
       (negSigs > 0 ? '<div class="bg-alerts">' + negSigs + ' alert' + (negSigs > 1 ? 's' : '') + '</div>' : '') +
@@ -569,6 +593,74 @@ function isPulkit() {
   // Local file access (no server) — treat as Pulkit
   if (!u.email && window.location.protocol === 'file:') return true;
   return u.email === 'pulkit@fermatcommerce.com';
+}
+
+// ===== CHURN STATUS =====
+function isChurned(brandId) {
+  var overrides = SENTIMENT.churn_status || {};
+  if (typeof overrides[brandId] === 'boolean') return overrides[brandId];
+  var m = M[brandId] || {};
+  return m.ch || (m.cm || '').toLowerCase().indexOf('churn') >= 0;
+}
+
+function toggleChurnStatus(brandId) {
+  var nowChurned = !isChurned(brandId);
+  fetch('/api/churn-status', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ brandId: brandId, churned: nowChurned })
+  }).then(function(r) { return r.json(); }).then(function(data) {
+    if (data.success) {
+      if (!SENTIMENT.churn_status) SENTIMENT.churn_status = {};
+      SENTIMENT.churn_status[brandId] = nowChurned;
+      organizeSidebar();
+      updateHeader();
+    }
+  }).catch(function(e) {
+    // Local fallback — update in memory only
+    if (!SENTIMENT.churn_status) SENTIMENT.churn_status = {};
+    SENTIMENT.churn_status[brandId] = nowChurned;
+    organizeSidebar();
+    updateHeader();
+  });
+}
+
+function organizeSidebar() {
+  var bls = document.querySelector('.bls');
+  if (!bls) return;
+  var items = Array.prototype.slice.call(bls.querySelectorAll('.bi'));
+  // Remove existing section headers
+  bls.querySelectorAll('.sb-section').forEach(function(el) { el.remove(); });
+
+  var activeItems = [];
+  var churnedItems = [];
+  items.forEach(function(el) {
+    var bid = el.dataset.bid;
+    if (isChurned(bid)) churnedItems.push(el);
+    else activeItems.push(el);
+  });
+
+  // Clear and rebuild
+  bls.innerHTML = '';
+
+  // Active section
+  var activeHdr = document.createElement('div');
+  activeHdr.className = 'sb-section';
+  activeHdr.innerHTML = '<span class="sb-section-dot" style="background:#3ED660"></span>Active <span class="sb-section-count">' + activeItems.length + '</span>';
+  bls.appendChild(activeHdr);
+  activeItems.forEach(function(el) { bls.appendChild(el); });
+
+  // Churned section
+  if (churnedItems.length > 0) {
+    var churnHdr = document.createElement('div');
+    churnHdr.className = 'sb-section';
+    churnHdr.innerHTML = '<span class="sb-section-dot" style="background:#C84632"></span>Churned <span class="sb-section-count">' + churnedItems.length + '</span>';
+    bls.appendChild(churnHdr);
+    churnedItems.forEach(function(el) {
+      el.style.opacity = '0.5';
+      bls.appendChild(el);
+    });
+  }
 }
 
 // ===== RATE MODAL =====

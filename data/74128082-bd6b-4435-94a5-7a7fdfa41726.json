@@ -1,155 +1,102 @@
 {
   "brand_id": "74128082-bd6b-4435-94a5-7a7fdfa41726",
   "brand_name": "HOP WTR",
-  "last_updated": "2026-03-24T16:00:00Z",
-  "status": "churned",
-  "churn_date": "2026-03-06",
-  "churn_reason": "Transitioning to new agency, reevaluating tech stack",
-  "arr": 12000,
+  "last_updated": "2026-03-27T12:00:00Z",
   "health": {
-    "score": 6,
+    "score": 5,
     "status": "red",
     "breakdown": {
       "platform_performance": 3,
       "platform_performance_detail": "Sessions:3/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
-      "communication": 2,
-      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:1/4, PulkitOutreach:1/4",
+      "communication": 1,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:1/4",
       "engagement": 1,
       "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": [
-      {
-        "type": "negative",
-        "text": "Brand officially churned Mar 6 — cancellation confirmed via email",
-        "time": "Mar 6"
-      },
-      {
-        "type": "negative",
-        "text": "Zero purchases in last 17 consecutive days (Mar 7-23)",
-        "time": "Mar 23"
-      },
-      {
-        "type": "negative",
-        "text": "Sessions collapsed from 1,000+/day (early Feb) to 40/day — 96% decline",
-        "time": "Mar 23"
-      },
-      {
-        "type": "warning",
-        "text": "Churn reason: transitioning to new agency, reevaluating tech stack — not platform dissatisfaction",
-        "time": "Mar 3"
-      },
-      {
-        "type": "positive",
-        "text": "AB pricing test showed Variant 1 at 2.16% CVR (400%+ over control) before churn",
-        "time": "Feb 20"
-      },
-      {
-        "type": "warning",
-        "text": "CSM transition happened Feb 25 — only 9 days before churn notification",
-        "time": "Feb 25"
-      }
-    ]
+    "signals": []
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
       "revenue": 0,
-      "cvr": 0.0,
-      "sessions": 49,
+      "cvr": 0,
+      "sessions": 15,
       "roas": null,
       "cpa": null,
       "purchases": 0,
       "aov": 0,
-      "pdp_views": 4,
+      "pdp_views": 0,
       "atc": 0,
       "checkouts": 0
     },
     "3d": {
       "ad_spend": null,
       "revenue": 0,
-      "cvr": 0.0,
-      "sessions": 125,
+      "cvr": 0,
+      "sessions": 74,
       "roas": null,
       "cpa": null,
       "purchases": 0,
       "aov": 0,
-      "pdp_views": 8,
+      "pdp_views": 1,
       "atc": 0,
       "checkouts": 0
     },
     "7d": {
       "ad_spend": null,
       "revenue": 0,
-      "cvr": 0.0,
-      "sessions": 265,
+      "cvr": 0,
+      "sessions": 234,
       "roas": null,
       "cpa": null,
       "purchases": 0,
       "aov": 0,
-      "pdp_views": 15,
-      "atc": 2,
+      "pdp_views": 9,
+      "atc": 0,
       "checkouts": 0
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 85.58,
-      "cvr": 0.1708,
-      "sessions": 1171,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 936,
       "roas": null,
       "cpa": null,
-      "purchases": 2,
-      "aov": 42.79,
-      "pdp_views": 36,
-      "atc": 9,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 28,
+      "atc": 6,
       "checkouts": 2
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 2742.78,
-      "cvr": 0.8579,
-      "sessions": 6644,
+      "revenue": 2340.61,
+      "cvr": 0.7968,
+      "sessions": 6149,
       "roas": null,
       "cpa": null,
-      "purchases": 57,
-      "aov": 48.12,
-      "pdp_views": 409,
-      "atc": 142,
-      "checkouts": 72
+      "purchases": 49,
+      "aov": 47.77,
+      "pdp_views": 360,
+      "atc": 126,
+      "checkouts": 65
     },
     "45d": {
       "ad_spend": null,
-      "revenue": 7545.02,
-      "cvr": 0.922,
-      "sessions": 17246,
+      "revenue": 6834.68,
+      "cvr": 0.9732,
+      "sessions": 14899,
       "roas": null,
       "cpa": null,
-      "purchases": 159,
-      "aov": 47.45,
-      "pdp_views": 1186,
-      "atc": 387,
-      "checkouts": 217
+      "purchases": 145,
+      "aov": 47.14,
+      "pdp_views": 1056,
+      "atc": 350,
+      "checkouts": 194
     },
     "daily": [
-      {
-        "date": "2026-02-07",
-        "sessions": 1176,
-        "revenue": 351.78,
-        "purchases": 7,
-        "pdp_views": 75,
-        "atc": 19,
-        "checkouts": 12
-      },
-      {
-        "date": "2026-02-08",
-        "sessions": 1246,
-        "revenue": 358.56,
-        "purchases": 7,
-        "pdp_views": 56,
-        "atc": 18,
-        "checkouts": 11
-      },
       {
         "date": "2026-02-09",
         "sessions": 1098,
@@ -530,10 +477,37 @@
       },
       {
         "date": "2026-03-23",
-        "sessions": 49,
+        "sessions": 50,
         "revenue": 0,
         "purchases": 0,
         "pdp_views": 4,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-24",
+        "sessions": 31,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-25",
+        "sessions": 28,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-26",
+        "sessions": 15,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
         "atc": 0,
         "checkouts": 0
       }
@@ -541,12 +515,11 @@
   },
   "calls": {
     "recent": [],
-    "analysis": "No Glyphic calls found for HOP WTR in the last 30 days. The account has been churned as of Mar 5."
+    "analysis": "Glyphic API unavailable during data pull. No call data retrieved."
   },
   "calendar": {
     "past": [],
-    "upcoming": [],
-    "_note": "No Google Calendar events found for HOP WTR. Account churned on Mar 5, 2026."
+    "upcoming": []
   },
   "slack": {
     "messages": [
@@ -554,92 +527,86 @@
         "user": "Pulkit Srivastava",
         "text": "Hey HOP WTR team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all!",
         "timestamp": "2026-02-25T20:45:43+05:30",
-        "channel": "#fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr"
       },
       {
         "user": "Talia Cohen",
-        "text": "Hey HOP WTR team! I'm reaching out with some bittersweet but exciting news — I'll be transitioning into a new role on our Enterprise team here at FERMÀT. I'm thrilled to introduce Pulkit.",
+        "text": "Hey HOP WTR team! I'm reaching out with some bittersweet but exciting news — later this week I'll be transitioning into a new role. I'm thrilled to introduce Pulkit.",
         "timestamp": "2026-02-25T19:30:20+05:30",
-        "channel": "#fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr"
       },
       {
         "user": "Talia Cohen",
-        "text": "Hi Grace Colbert - great connecting with you earlier today! Pricing Test Funnel | Google: We hit statistical significance! Variant 1 (lower price point) is showing a 2.16% CVR (400%+ over control). Recommend continuing to push traffic.",
+        "text": "Hi Grace Colbert - great connecting with you earlier today! Sharing a brief recap. Pricing Test Funnel Google: We hit statistical significance! Variant 1 (lower price point) showing 2.16% CVR (400%+ over control).",
         "timestamp": "2026-02-20T02:50:47+05:30",
-        "channel": "#fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr"
       },
       {
-        "user": "Andreas (HOP WTR)",
-        "text": "Andreas noticed the Meta experiment page didn't have the link appended at the top. Grace added it and we're now seeing sessions come through. Could you confirm the setup is now 100% correct on your end?",
+        "user": "Unknown",
+        "text": "We noticed the Meta experiment page didn't have the link appended at the top. Grace added it and we're now seeing sessions come through. Could you please confirm the setup is now 100% correct on your end?",
         "timestamp": "2026-02-12T05:45:46+05:30",
-        "channel": "#fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr"
       },
       {
-        "user": "Andreas (HOP WTR)",
-        "text": "I see the AB price test now show up twice — once with Google as source and then Meta as source. Is that intended?",
+        "user": "Unknown",
+        "text": "Hi Talia, hope your offsite is going well. Quick question: I see the AB price test now show up twice, once with Google as source and then Meta as source. Is that intended?",
         "timestamp": "2026-02-11T01:04:40+05:30",
-        "channel": "#fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr"
       },
       {
         "user": "Talia Cohen",
-        "text": "Hey Grace, Andreas - deploying new links for testing purposes. Google Link and Meta Link with experiments set up as A/B tests within the funnel themselves - no need to add in a link split.",
+        "text": "Hey Grace Colbert, Andreas — deploying new links for Meta and Google testing. Both funnels have the experiment set up as A/B tests within the funnel themselves.",
         "timestamp": "2026-02-10T04:57:12+05:30",
-        "channel": "#fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr"
       },
       {
-        "user": "Andreas (HOP WTR)",
-        "text": "if i look at the funnels, I see the two tests side by side - directionally very encouraging as the test group has >2x conversion rate",
-        "timestamp": "2026-02-09T06:40:40+05:30",
-        "channel": "#fermat-x-hop-wtr"
-      },
-      {
-        "user": "Andreas (HOP WTR)",
-        "text": "I am a little concerned we continue to have just one conversion. Does this still seem normal?",
+        "user": "Unknown",
+        "text": "I am a little concerned we continue to have just one conversion which happened on day one. The conversion rate is just way too low. Does this still seem normal?",
         "timestamp": "2026-02-08T05:04:47+05:30",
-        "channel": "#fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr"
       },
       {
-        "user": "Grace Colbert",
-        "text": "launched a campaign on Meta this afternoon to kick off the test. Daily spend $800-1000 to get started",
-        "timestamp": "2026-02-06T06:01:39+05:30",
-        "channel": "#fermat-x-hop-wtr"
+        "user": "Unknown",
+        "text": "Hi all, happy Friday. Curious to see how the AB price test progresses. Grace/Talia please keep us posted with any updates.",
+        "timestamp": "2026-02-07T01:03:58+05:30",
+        "channel": "fermat-x-hop-wtr"
       }
     ],
-    "analysis": "HOP WTR is a CHURNED account. The pricing A/B test showed strong results (Variant 1 at 2.16% CVR, 400%+ over control), but the brand decided to cancel. Talia transitioned the account to Pulkit on Feb 25, and Pulkit introduced himself. However, the cancellation was processed on Mar 5 based on email data. The Slack channel shows intense activity around the pricing test from Feb 6-20, with Andreas closely monitoring results and Grace launching Meta campaigns. Despite promising test results, the brand chose to churn."
+    "analysis": "CHURNED BRAND. No Slack messages since Feb 25 GM handoff intro. Last substantive brand activity was Feb 12. Brand was running A/B price tests on Google and Meta with promising results (2.16% CVR on Google variant), but engagement dropped sharply. Cancellation was processed in early March."
   },
   "email": {
     "messages": [
       {
         "from": "Glyphic AI <noreply@glyphic.ai>",
         "subject": "Prepare for Grace Colbert and Pulkit Srivastava",
-        "date": "2026-03-10T15:47:27Z",
-        "snippet": "Glyphic pre-call prep for scheduled call between Grace Colbert and Pulkit."
+        "date": "2026-03-10T15:47:27+00:00",
+        "snippet": "Your call is starting soon — prepare for Grace Colbert and Pulkit Srivastava."
       },
       {
         "from": "Andreas Biebl <andreas.b@hopwtr.com>",
         "subject": "Re: HOP WTR x FERMÀT || Cancellation Confirmed",
-        "date": "2026-03-05T05:31:12Z",
-        "snippet": "Andreas thanking Pulkit for processing the cancellation."
+        "date": "2026-03-04T21:31:12-08:00",
+        "snippet": "Thank you so much"
       },
       {
         "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
         "subject": "HOP WTR x FERMÀT || Cancellation Confirmed",
-        "date": "2026-03-05T05:14:55Z",
-        "snippet": "Pulkit confirming cancellation processing, noting one final invoice for February."
+        "date": "2026-03-05T10:44:55+05:30",
+        "snippet": "Hi Andreas, As requested, we've gone ahead and processed your cancellation."
       },
       {
         "from": "Ashutosh Patel <ashutosh@fermatcommerce.com>",
         "subject": "Re: Brand Churn Notice: HOP WTR",
-        "date": "2026-03-03T10:54:50Z",
-        "snippet": "AR team confirming last invoice to be paid by March 31."
+        "date": "2026-03-03T16:24:50+05:30",
+        "snippet": "Hey Pulkit, Thanks for the notif. The brand has paid all invoices, last invoice to be paid by 31st of March."
       },
       {
         "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
         "subject": "Brand Churn Notice: HOP WTR",
-        "date": "2026-03-03T04:09:17Z",
-        "snippet": "Pulkit submitting formal churn notice for HOP WTR — contacts Brad Nogle (Head of E-Commerce) and Grace Colbert (Sr. Manager Growth)."
+        "date": "2026-03-03T09:39:17+00:00",
+        "snippet": "Hi team, Please see the churn details for HOP WTR below."
       }
     ],
-    "analysis": "HOP WTR has churned. Pulkit submitted the formal churn notice on Mar 3 and processed the cancellation confirmation on Mar 5. Andreas acknowledged the cancellation. The last invoice for February is due by March 31. Despite the pricing test showing 400%+ improvement in CVR, the brand still chose to leave FERMÀT."
+    "analysis": "CHURNED. Cancellation confirmed Mar 5. Churn notice filed Mar 3. Last invoice due by Mar 31. Brief Glyphic call prep on Mar 10 suggests a wrap-up call with Grace Colbert occurred."
   }
 }

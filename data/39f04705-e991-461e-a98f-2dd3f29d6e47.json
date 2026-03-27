@@ -1,151 +1,102 @@
 {
   "brand_id": "39f04705-e991-461e-a98f-2dd3f29d6e47",
   "brand_name": "belliwelli",
-  "last_updated": "2026-03-24T16:00:00Z",
+  "last_updated": "2026-03-27T12:00:00Z",
   "health": {
-    "score": 38,
-    "status": "red",
+    "score": 46,
+    "status": "yellow",
     "breakdown": {
       "platform_performance": 19,
       "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:4/5, Purchases:5/5",
-      "communication": 12,
-      "communication_detail": "SlackRecency:4/4, BrandSlack14d:3/4, PulkitSlack14d:2/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
-      "engagement": 7,
-      "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:6/6",
+      "communication": 9,
+      "communication_detail": "SlackRecency:3/4, BrandSlack14d:1/4, PulkitSlack14d:2/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
+      "engagement": 18,
+      "engagement_detail": "LastCall:8/8, Calls30d:4/6, Upcoming:6/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": [
-      {
-        "type": "positive",
-        "text": "Bi-weekly call today Mar 23 — cadence established with Tom Fitzpatrick",
-        "time": "Mar 23"
-      },
-      {
-        "type": "positive",
-        "text": "7d revenue $6,599 with 133 purchases — stable performance, in line with 30d average",
-        "time": "Mar 23"
-      },
-      {
-        "type": "warning",
-        "text": "Experiment running since Mar 11 with no data showing — needs investigation",
-        "time": "Mar 11"
-      },
-      {
-        "type": "positive",
-        "text": "Pulkit sent comprehensive performance update email Mar 16",
-        "time": "Mar 16"
-      },
-      {
-        "type": "positive",
-        "text": "Tom accepted recurring bi-weekly calendar invite — engaged",
-        "time": "Mar 12"
-      },
-      {
-        "type": "warning",
-        "text": "PDP lead image pulling incorrectly — flagged Feb 26, needs resolution",
-        "time": "Feb 26"
-      }
-    ]
+    "signals": []
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
-      "revenue": 917.35,
-      "cvr": 1.5754,
-      "sessions": 1333,
+      "revenue": 1456.65,
+      "cvr": 2.0506,
+      "sessions": 1463,
       "roas": null,
       "cpa": null,
-      "purchases": 21,
-      "aov": 43.68,
-      "pdp_views": 71,
-      "atc": 53,
-      "checkouts": 28
+      "purchases": 30,
+      "aov": 48.56,
+      "pdp_views": 93,
+      "atc": 63,
+      "checkouts": 38
     },
     "3d": {
       "ad_spend": null,
-      "revenue": 2807.05,
-      "cvr": 1.4299,
-      "sessions": 4336,
+      "revenue": 3090.58,
+      "cvr": 1.4226,
+      "sessions": 4569,
       "roas": null,
       "cpa": null,
-      "purchases": 62,
-      "aov": 45.27,
-      "pdp_views": 253,
-      "atc": 149,
-      "checkouts": 79
+      "purchases": 65,
+      "aov": 47.55,
+      "pdp_views": 271,
+      "atc": 159,
+      "checkouts": 91
     },
     "7d": {
       "ad_spend": null,
-      "revenue": 6581.73,
-      "cvr": 1.3229,
-      "sessions": 10356,
+      "revenue": 7176.12,
+      "cvr": 1.4578,
+      "sessions": 10427,
       "roas": null,
       "cpa": null,
-      "purchases": 137,
-      "aov": 48.04,
-      "pdp_views": 599,
-      "atc": 345,
-      "checkouts": 190
+      "purchases": 152,
+      "aov": 47.21,
+      "pdp_views": 624,
+      "atc": 359,
+      "checkouts": 198
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 14708.36,
-      "cvr": 1.3276,
-      "sessions": 22597,
+      "revenue": 15125.71,
+      "cvr": 1.3057,
+      "sessions": 23510,
       "roas": null,
       "cpa": null,
-      "purchases": 300,
-      "aov": 49.03,
-      "pdp_views": 1315,
-      "atc": 766,
-      "checkouts": 424
+      "purchases": 307,
+      "aov": 49.27,
+      "pdp_views": 1393,
+      "atc": 787,
+      "checkouts": 428
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 28407.02,
-      "cvr": 1.392,
-      "sessions": 39296,
+      "revenue": 29979.2,
+      "cvr": 1.4296,
+      "sessions": 41549,
       "roas": null,
       "cpa": null,
-      "purchases": 547,
-      "aov": 51.93,
-      "pdp_views": 2197,
-      "atc": 1293,
-      "checkouts": 774
+      "purchases": 594,
+      "aov": 50.47,
+      "pdp_views": 2364,
+      "atc": 1372,
+      "checkouts": 825
     },
     "45d": {
       "ad_spend": null,
-      "revenue": 37552.85,
-      "cvr": 1.3889,
-      "sessions": 53425,
+      "revenue": 39639.69,
+      "cvr": 1.4143,
+      "sessions": 56632,
       "roas": null,
       "cpa": null,
-      "purchases": 742,
-      "aov": 50.61,
-      "pdp_views": 2956,
-      "atc": 1732,
-      "checkouts": 1084
+      "purchases": 801,
+      "aov": 49.49,
+      "pdp_views": 3158,
+      "atc": 1841,
+      "checkouts": 1158
     },
     "daily": [
-      {
-        "date": "2026-02-07",
-        "sessions": 748,
-        "revenue": 704.8,
-        "purchases": 15,
-        "pdp_views": 42,
-        "atc": 29,
-        "checkouts": 23
-      },
-      {
-        "date": "2026-02-08",
-        "sessions": 763,
-        "revenue": 468.9,
-        "purchases": 9,
-        "pdp_views": 40,
-        "atc": 24,
-        "checkouts": 17
-      },
       {
         "date": "2026-02-09",
         "sessions": 799,
@@ -526,42 +477,85 @@
       },
       {
         "date": "2026-03-23",
-        "sessions": 1333,
-        "revenue": 917.35,
-        "purchases": 21,
+        "sessions": 1482,
+        "revenue": 1087.31,
+        "purchases": 25,
+        "pdp_views": 84,
+        "atc": 56,
+        "checkouts": 31
+      },
+      {
+        "date": "2026-03-24",
+        "sessions": 1655,
+        "revenue": 729.83,
+        "purchases": 16,
+        "pdp_views": 107,
+        "atc": 48,
+        "checkouts": 26
+      },
+      {
+        "date": "2026-03-25",
+        "sessions": 1451,
+        "revenue": 904.1,
+        "purchases": 19,
         "pdp_views": 71,
-        "atc": 53,
-        "checkouts": 28
+        "atc": 48,
+        "checkouts": 27
+      },
+      {
+        "date": "2026-03-26",
+        "sessions": 1463,
+        "revenue": 1456.65,
+        "purchases": 30,
+        "pdp_views": 93,
+        "atc": 63,
+        "checkouts": 38
       }
     ]
   },
   "calls": {
     "recent": [],
-    "analysis": "No Glyphic calls found under 'belliwelli' title search, but email data confirms bi-weekly calls are happening (Mar 9, Mar 23). The Glyphic summary from Mar 23 was generated. Calls may be logged under a different title or the Glyphic search is case-sensitive. The bi-weekly cadence is confirmed through calendar data."
+    "analysis": "Glyphic API unavailable during data pull. No call data retrieved."
   },
   "calendar": {
     "past": [
       {
         "title": "Belliwelli x FERMÀT|| Bi-Weekly",
-        "date": "2026-03-09T21:30:00+05:30",
-        "type": "past"
+        "start": "2026-03-09T21:30:00+05:30",
+        "end": "2026-03-09T22:00:00+05:30",
+        "attendees": []
       },
       {
         "title": "Belliwelli x FERMÀT|| Bi-Weekly",
-        "date": "2026-03-23T21:30:00+05:30",
-        "type": "past"
+        "start": "2026-03-23T21:30:00+05:30",
+        "end": "2026-03-23T22:00:00+05:30",
+        "attendees": []
       }
     ],
     "upcoming": [
       {
         "title": "Belliwelli x FERMÀT|| Bi-Weekly",
-        "date": "2026-04-06T21:30:00+05:30",
-        "type": "upcoming"
+        "start": "2026-04-06T21:30:00+05:30",
+        "end": "2026-04-06T22:00:00+05:30",
+        "attendees": []
       },
       {
         "title": "Belliwelli x FERMÀT|| Bi-Weekly",
-        "date": "2026-04-20T21:30:00+05:30",
-        "type": "upcoming"
+        "start": "2026-04-20T21:30:00+05:30",
+        "end": "2026-04-20T22:00:00+05:30",
+        "attendees": []
+      },
+      {
+        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "start": "2026-05-04T21:30:00+05:30",
+        "end": "2026-05-04T22:00:00+05:30",
+        "attendees": []
+      },
+      {
+        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "start": "2026-05-18T21:30:00+05:30",
+        "end": "2026-05-18T22:00:00+05:30",
+        "attendees": []
       }
     ]
   },
@@ -569,94 +563,88 @@
     "messages": [
       {
         "user": "Pulkit Srivastava",
-        "text": "Hey Tom Fitz — great call today! Performance: Revenue $28K (30d), Subscription Rate 56% (30% above benchmark), CVR 1.38% (targeting 3%). Top Performer: Best Seller GLP-1 funnel with 29K sessions. Action Items shared for both teams.",
+        "text": "Hey Tom Fitz — great call today! Performance Highlights: Revenue — $28K (last 30 days), Subscription Rate — 56%, CVR — 1.38%. Key Takeaways: Top Performer — Best Seller GLP-1 funnel, Scale Opportunity — Generic Gummies v1 at 2.5% CVR needs more traffic, Problem Child — Doctor Backed Generic Fiber at 0.19% CVR needs overhaul.",
         "timestamp": "2026-03-23T22:02:46+05:30",
-        "channel": "#belliwelli-fermàt-new"
+        "channel": "belliwelli-fermàt-new"
       },
       {
-        "user": "Tom Fitz",
-        "text": "CODE RED — this page is 404ing. What's going on?? (shop.belliwelli.com link)",
+        "user": "Unknown",
+        "text": "CODE RED — this page is 404ing. What's going on?? (shop.belliwelli.com funnel link)",
         "timestamp": "2026-03-18T17:12:52+05:30",
-        "channel": "#belliwelli-fermàt-new"
+        "channel": "belliwelli-fermàt-new"
       },
       {
-        "user": "Tom Fitz",
-        "text": "Checked the url in my mobile chrome browser and saw the same 404",
-        "timestamp": "2026-03-18T17:14:26+05:30",
-        "channel": "#belliwelli-fermàt-new"
-      },
-      {
-        "user": "Tom Fitz",
-        "text": "Talia, Pulkit — We've been running this experiment since Friday and still no data is showing up",
+        "user": "Unknown",
+        "text": "Talia Cohen / Pulkit — We've been running this experiment since Friday and still no data is showing up",
         "timestamp": "2026-03-11T22:10:36+05:30",
-        "channel": "#belliwelli-fermàt-new"
+        "channel": "belliwelli-fermàt-new"
       },
       {
-        "user": "Tom Fitz",
-        "text": "Talia, Pulkit - would you be able to look into this pdp and advise why the wrong lead image is pulling?",
+        "user": "Unknown",
+        "text": "Talia Cohen / Pulkit — would you be able to look into this pdp and advise why the wrong lead image is pulling?",
         "timestamp": "2026-02-26T01:35:07+05:30",
-        "channel": "#belliwelli-fermàt-new"
+        "channel": "belliwelli-fermàt-new"
       },
       {
-        "user": "Tom Fitz",
-        "text": "Talia congratulations on your new role! Pulkit good to meet you and looking forward to working together. I'll grab a call on your calendar now",
+        "user": "Unknown",
+        "text": "Talia Cohen congratulations on your new role! Pulkit good to meet you and looking forward to working together.",
         "timestamp": "2026-02-25T22:51:10+05:30",
-        "channel": "#belliwelli-fermàt-new"
+        "channel": "belliwelli-fermàt-new"
       },
       {
         "user": "Pulkit Srivastava",
-        "text": "Hey BelliWelli team! I'm Pulkit, your new GM here at FERMÀT.",
+        "text": "Hey BelliWelli team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all!",
         "timestamp": "2026-02-25T20:47:10+05:30",
-        "channel": "#belliwelli-fermàt-new"
+        "channel": "belliwelli-fermàt-new"
       },
       {
         "user": "Talia Cohen",
-        "text": "Hey BelliWelli team! I'm transitioning into a new role on our Enterprise team. I'm thrilled to introduce Pulkit.",
+        "text": "Hey BelliWelli team! I'm reaching out with some bittersweet but exciting news — later this week I'll be transitioning into a new role on our Enterprise team here at FERMÀT. I'm thrilled to introduce Pulkit.",
         "timestamp": "2026-02-25T19:30:22+05:30",
-        "channel": "#belliwelli-fermàt-new"
+        "channel": "belliwelli-fermàt-new"
       },
       {
         "user": "Talia Cohen",
-        "text": "Hey Tom Fitz - thanks for the time earlier today! Sending performance analysis and recommendations for 'Best Sellers | GLP1' and 'Gummies GLP1 | Version 1'. Also reminder: contract rolls into remainder on February 22nd.",
+        "text": "Hey Tom Fitz - thanks for the time earlier today! Sending over performance analysis and recommendations for Best Sellers GLP1 and Gummies GLP1 Version 1 funnels. Contract set to roll on February 22nd.",
         "timestamp": "2026-02-20T02:35:33+05:30",
-        "channel": "#belliwelli-fermàt-new"
-      },
-      {
-        "user": "Tom Fitz",
-        "text": "We just set up a test running half traffic to Fermat, half to the website. How do we determine if the test is winning?",
-        "timestamp": "2026-02-11T04:30:53+05:30",
-        "channel": "#belliwelli-fermàt-new"
+        "channel": "belliwelli-fermàt-new"
       }
     ],
-    "analysis": "Belliwelli is one of the most actively engaged brands with Tom Fitz as the primary contact and Morry also involved. Pulkit had a bi-weekly call on Mar 23 and posted a detailed recap with performance data ($28K revenue, 56% subscription rate). There have been urgent issues — a 404 error on Mar 18 (CODE RED) and experiment data not showing on Mar 11. Tom was quick to engage with Pulkit after the GM transition on Feb 25, immediately booking a call. The brand has bi-weekly recurring calls and is actively running experiments and split tests. Contract renewed past the Feb 22 opt-in date."
+    "analysis": "Active channel with regular bi-weekly recaps. Recent urgent 404 issue flagged on Mar 18 (resolved). Experiment data visibility issue reported Mar 11. GM handoff from Talia Cohen to Pulkit Srivastava completed Feb 25. Brand is engaged and responsive."
   },
   "email": {
     "messages": [
       {
-        "from": "Glyphic AI <noreply@glyphic.ai>",
-        "subject": "Belliwelli x FERMÀT|| Bi-Weekly summary is ready",
-        "date": "2026-03-23T16:31:33Z",
-        "snippet": "Glyphic summary of today's (Mar 23) bi-weekly call with BelliWelli."
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-03-26T15:37:41-07:00",
+        "snippet": "Your ads were approved and should begin delivering shortly."
       },
       {
-        "from": "Tom Fitzpatrick (via Google Sheets)",
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "subject": "Belliwelli x FERMÀT|| Bi-Weekly summary is ready",
+        "date": "2026-03-23T16:31:33+00:00",
+        "snippet": "Find out some key insights from the bi-weekly call."
+      },
+      {
+        "from": "Tom Fitzpatrick (via Google Sheets) <drive-shares-dm-noreply@google.com>",
         "subject": "Spreadsheet shared with you: BELLIWELLI CREATIVE PIPELINE",
-        "date": "2026-03-23T16:13:24Z",
-        "snippet": "Tom sharing the BelliWelli creative pipeline spreadsheet with Pulkit for ad-to-funnel mapping."
+        "date": "2026-03-23T16:13:24+00:00",
+        "snippet": "Tom Fitzpatrick shared the BELLIWELLI CREATIVE PIPELINE spreadsheet."
       },
       {
         "from": "Zoom <no-reply@zoom.us>",
         "subject": "FERMÀT Copilot has joined your meeting - Belliwelli x FERMÀT|| Bi-Weekly",
-        "date": "2026-03-23T15:58:27Z",
-        "snippet": "Zoom notification for bi-weekly meeting."
+        "date": "2026-03-23T15:58:27+00:00",
+        "snippet": "FERMÀT Copilot has joined your Belliwelli Bi-Weekly meeting."
       },
       {
         "from": "Nidhi Singh <nidhi@fermatcommerce.com>",
-        "subject": "Accepted: Belliwelli x FERMÀT|| Bi-Weekly @ Mon Mar 23",
-        "date": "2026-03-23T09:40:54Z",
-        "snippet": "Nidhi (FERMÀT) accepting the bi-weekly meeting invite."
+        "subject": "Accepted: Belliwelli x FERMÀT|| Bi-Weekly",
+        "date": "2026-03-23T09:40:54+00:00",
+        "snippet": "Nidhi Singh has accepted the Belliwelli Bi-Weekly invitation."
       }
     ],
-    "analysis": "Strong email activity for BelliWelli. The Mar 23 bi-weekly call happened today — Glyphic captured the summary, Tom shared the creative pipeline spreadsheet. Nidhi Singh (FERMÀT) is also involved in the calls. Multiple Meta ad approval emails show Pulkit is actively running ads for BelliWelli's FERMÀT funnels. The brand is highly active with consistent bi-weekly cadence."
+    "analysis": "Active email trail. Multiple Meta ad approval notifications (ads actively running). Bi-weekly call summary from Glyphic on Mar 23. Tom Fitzpatrick shared BELLIWELLI CREATIVE PIPELINE spreadsheet. Good engagement signal."
   }
 }

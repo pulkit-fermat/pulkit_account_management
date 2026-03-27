@@ -1,151 +1,102 @@
 {
   "brand_id": "8fd93118-a246-431e-aebf-4aa362622342",
   "brand_name": "De Soi",
-  "last_updated": "2026-03-24T16:00:00Z",
+  "last_updated": "2026-03-27T12:00:00Z",
   "health": {
-    "score": 28,
+    "score": 36,
     "status": "red",
     "breakdown": {
       "platform_performance": 18,
       "platform_performance_detail": "Sessions:5/5, Revenue:4/5, CVR:4/5, Purchases:5/5",
-      "communication": 9,
-      "communication_detail": "SlackRecency:1/4, BrandSlack14d:1/4, PulkitSlack14d:0/4, EmailThreads14d:4/4, PulkitOutreach:3/4",
-      "engagement": 1,
-      "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:0/6",
+      "communication": 11,
+      "communication_detail": "SlackRecency:4/4, BrandSlack14d:0/4, PulkitSlack14d:2/4, EmailThreads14d:4/4, PulkitOutreach:1/4",
+      "engagement": 7,
+      "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:6/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": [
-      {
-        "type": "positive",
-        "text": "7d revenue $2,830 with 37 purchases at 1.57% CVR — strong platform performance",
-        "time": "Mar 23"
-      },
-      {
-        "type": "positive",
-        "text": "Denise Shon actively engaging — asked about invoices Mar 11, built subscription funnel in Feb",
-        "time": "Mar 11"
-      },
-      {
-        "type": "negative",
-        "text": "No calls since GM transition Mar 3 — last completed call was Feb 3 (48 days ago)",
-        "time": "Mar 23"
-      },
-      {
-        "type": "negative",
-        "text": "No upcoming call scheduled with Pulkit — relationship building stalled",
-        "time": "Mar 23"
-      },
-      {
-        "type": "warning",
-        "text": "Denise asked about product reviews via Intercom Mar 17 — needs follow-up response",
-        "time": "Mar 17"
-      },
-      {
-        "type": "positive",
-        "text": "Google Ads to FERMAT pages: CPA 8% stronger, nCAC 18% better than site (reported Jan 9)",
-        "time": "Jan 9"
-      }
-    ]
+    "signals": []
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
-      "revenue": 563.92,
-      "cvr": 2.1918,
-      "sessions": 365,
+      "revenue": 130.46,
+      "cvr": 0.6024,
+      "sessions": 332,
       "roas": null,
       "cpa": null,
-      "purchases": 8,
-      "aov": 70.49,
-      "pdp_views": 76,
-      "atc": 17,
-      "checkouts": 8
+      "purchases": 2,
+      "aov": 65.23,
+      "pdp_views": 65,
+      "atc": 14,
+      "checkouts": 6
     },
     "3d": {
       "ad_spend": null,
-      "revenue": 1493.13,
-      "cvr": 1.7431,
-      "sessions": 1090,
+      "revenue": 1405.63,
+      "cvr": 1.6569,
+      "sessions": 1026,
       "roas": null,
       "cpa": null,
-      "purchases": 19,
-      "aov": 78.59,
-      "pdp_views": 227,
-      "atc": 49,
+      "purchases": 17,
+      "aov": 82.68,
+      "pdp_views": 190,
+      "atc": 56,
       "checkouts": 21
     },
     "7d": {
       "ad_spend": null,
-      "revenue": 2742.68,
-      "cvr": 1.5418,
-      "sessions": 2335,
+      "revenue": 3191.44,
+      "cvr": 1.6935,
+      "sessions": 2421,
       "roas": null,
       "cpa": null,
-      "purchases": 36,
-      "aov": 76.19,
-      "pdp_views": 471,
-      "atc": 98,
-      "checkouts": 40
+      "purchases": 41,
+      "aov": 77.84,
+      "pdp_views": 475,
+      "atc": 111,
+      "checkouts": 46
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 5884.15,
-      "cvr": 1.7736,
-      "sessions": 4567,
+      "revenue": 6509.23,
+      "cvr": 1.8062,
+      "sessions": 4872,
       "roas": null,
       "cpa": null,
-      "purchases": 81,
-      "aov": 72.64,
-      "pdp_views": 990,
-      "atc": 235,
-      "checkouts": 98
+      "purchases": 88,
+      "aov": 73.97,
+      "pdp_views": 1000,
+      "atc": 252,
+      "checkouts": 101
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 13559.07,
-      "cvr": 1.8341,
-      "sessions": 9378,
+      "revenue": 13703.22,
+      "cvr": 1.8813,
+      "sessions": 9355,
       "roas": null,
       "cpa": null,
-      "purchases": 172,
-      "aov": 78.83,
-      "pdp_views": 2020,
-      "atc": 459,
-      "checkouts": 222
+      "purchases": 176,
+      "aov": 77.86,
+      "pdp_views": 1994,
+      "atc": 469,
+      "checkouts": 220
     },
     "45d": {
       "ad_spend": null,
-      "revenue": 20808.14,
-      "cvr": 1.756,
-      "sessions": 15319,
+      "revenue": 21844.11,
+      "cvr": 1.8012,
+      "sessions": 15601,
       "roas": null,
       "cpa": null,
-      "purchases": 269,
-      "aov": 77.35,
-      "pdp_views": 3207,
-      "atc": 739,
-      "checkouts": 372
+      "purchases": 281,
+      "aov": 77.74,
+      "pdp_views": 3257,
+      "atc": 766,
+      "checkouts": 383
     },
     "daily": [
-      {
-        "date": "2026-02-07",
-        "sessions": 321,
-        "revenue": 238.9,
-        "purchases": 4,
-        "pdp_views": 64,
-        "atc": 14,
-        "checkouts": 6
-      },
-      {
-        "date": "2026-02-08",
-        "sessions": 438,
-        "revenue": 177.3,
-        "purchases": 2,
-        "pdp_views": 83,
-        "atc": 16,
-        "checkouts": 5
-      },
       {
         "date": "2026-02-09",
         "sessions": 373,
@@ -526,128 +477,156 @@
       },
       {
         "date": "2026-03-23",
-        "sessions": 365,
-        "revenue": 563.92,
-        "purchases": 8,
-        "pdp_views": 76,
-        "atc": 17,
+        "sessions": 380,
+        "revenue": 610.46,
+        "purchases": 9,
+        "pdp_views": 83,
+        "atc": 18,
+        "checkouts": 9
+      },
+      {
+        "date": "2026-03-24",
+        "sessions": 343,
+        "revenue": 398.22,
+        "purchases": 4,
+        "pdp_views": 46,
+        "atc": 13,
         "checkouts": 8
+      },
+      {
+        "date": "2026-03-25",
+        "sessions": 351,
+        "revenue": 876.95,
+        "purchases": 11,
+        "pdp_views": 79,
+        "atc": 29,
+        "checkouts": 7
+      },
+      {
+        "date": "2026-03-26",
+        "sessions": 332,
+        "revenue": 130.46,
+        "purchases": 2,
+        "pdp_views": 65,
+        "atc": 14,
+        "checkouts": 6
       }
     ]
   },
   "calls": {
     "recent": [],
-    "analysis": "No Glyphic calls found for De Soi in the last 30 days (since Feb 22). The last completed call was Mia's platform walkthrough with Denise on Feb 3. The Feb 19 weekly was cancelled. Since the GM transition from Mia to Pulkit on Mar 3, no calls have been scheduled — this is a significant gap that needs immediate attention to build the relationship with Denise."
+    "analysis": "Glyphic API returned an error when searching for De Soi calls. Gmail shows Glyphic prep emails for a '1:1 Call With Pulkit from Fermat' on 2026-03-18, suggesting a call occurred around that time. Previous GM Mia DyBuncio handled calls before the transition in early March."
   },
   "calendar": {
     "past": [],
-    "upcoming": [],
-    "_note": "No Google Calendar events found matching 'De Soi' between Feb 22 and Apr 30, 2026 on Pulkit's calendar. No recurring meetings have been set up since the GM transition on Mar 3."
+    "upcoming": [
+      {
+        "id": "3kud1k2hlbhtbmfrjc0m1euqcc",
+        "summary": "De Soi x FERMAT",
+        "date": "2026-04-01T21:30:00+05:30",
+        "status": "confirmed",
+        "type": "Scheduled call"
+      }
+    ]
   },
   "slack": {
     "messages": [
       {
-        "user": "Denise Shon",
-        "text": "hi Pulkit could you have the fermat invoices sent to ap@drinkdesoi.com and cc denise@drinkdesoi.com?",
-        "timestamp": "2026-03-11T04:01:38+05:30",
-        "channel": "#fermat-x-de-soi"
+        "date": "2026-03-25T13:10:21+05:30",
+        "author": "Pulkit Srivastava",
+        "content": "Follow-up bump asking De Soi team to schedule intro call via calendar link.",
+        "ts": "1774424421.376029"
       },
       {
-        "user": "Pulkit Srivastava",
-        "text": "Hey De Soi team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call and get to know everyone.",
-        "timestamp": "2026-03-03T11:00:12+05:30",
-        "channel": "#fermat-x-de-soi"
+        "date": "2026-03-11T04:01:38+05:30",
+        "author": "De Soi team member",
+        "content": "Asked for FERMAT invoices to be sent to ap@drinkdesoi.com and cc denise@drinkdesoi.com.",
+        "ts": "1773181898.378219"
       },
       {
-        "user": "Mia DyBuncio",
-        "text": "I'm reaching out with some bittersweet but exciting news — later this week I'll be transitioning into a new role on our Product team here at FERMÀT. I'm thrilled to introduce Pulkit, one of our outstanding Onboarding and Growth Managers!",
-        "timestamp": "2026-03-03T01:50:37+05:30",
-        "channel": "#fermat-x-de-soi"
+        "date": "2026-03-03T11:00:12+05:30",
+        "author": "Pulkit Srivastava",
+        "content": "GM intro message - introduced himself as new GM, shared Calendly link.",
+        "ts": "1772515812.475609"
       },
       {
-        "user": "Mia DyBuncio",
-        "text": "hey Denise was on the zoom but don't have much to cover today so happy to connect async instead!",
-        "timestamp": "2026-02-19T23:09:02+05:30",
-        "channel": "#fermat-x-de-soi"
+        "date": "2026-03-03T01:50:37+05:30",
+        "author": "Mia DyBuncio",
+        "content": "Transition message - introduced Pulkit as new GM to Denise Shon, transitioning to Product team.",
+        "ts": "1772482837.632239"
       },
       {
-        "user": "Denise Shon",
-        "text": "Out of curiosity - is it possible to do a subscription only buy box in Fermat? I was thinking it could be interesting to run a split test to this page where we offer a sub only option vs having 1 time vs sub",
-        "timestamp": "2026-02-19T00:09:25+05:30",
-        "channel": "#fermat-x-de-soi"
+        "date": "2026-02-19T23:09:02+05:30",
+        "author": "Mia DyBuncio",
+        "content": "Was on Zoom but not much to cover, offered to connect async.",
+        "ts": "1771522742.078539"
       },
       {
-        "user": "Denise Shon",
-        "text": "I'm working on another funnel (duplicated an existing template) and wondering how to change the media for the hero header?",
-        "timestamp": "2026-02-18T05:51:52+05:30",
-        "channel": "#fermat-x-de-soi"
+        "date": "2026-02-19T00:09:25+05:30",
+        "author": "De Soi team member",
+        "content": "Asked about subscription-only buy box in Fermat for split test.",
+        "ts": "1771439965.343169"
       },
       {
-        "user": "Denise Shon",
-        "text": "Would you be able to take a look at this funnel I created and share any recommendations/optimizations? For context, we want to run ads promoting a unique, limited time offer: a free 4pk when you subscribe to le grand ensemble",
-        "timestamp": "2026-02-18T03:51:03+05:30",
-        "channel": "#fermat-x-de-soi"
+        "date": "2026-02-18T05:51:52+05:30",
+        "author": "De Soi team member",
+        "content": "Asked how to change media for hero header on duplicated funnel.",
+        "ts": "1771374112.047099"
       },
       {
-        "user": "Pierre (Bot)",
-        "text": "FERMÀT Weekly Roundup Jan 5-11: Sessions 4,729 | Purchases 113 | GMV $7,819 | Revenue $6,586. Top funnels: Collection Grid Page: Meta (2,867 sessions, $5,228 GMV, 2.65% CVR), Match Your Cocktail to De Soi (1,488 sessions, $2,115 GMV, 1.95% CVR)",
-        "timestamp": "2026-01-12T22:30:24+05:30",
-        "channel": "#fermat-x-de-soi"
-      },
-      {
-        "user": "Rebekah (Structured)",
-        "text": "We launched our Google Fermat LP campaign in PMAX on Dec 17th. We've spent $2.02k so far. The CPA in Google is 8% stronger than our OG PMAX campaign & nCAC in TripleWhale is 18% better than our OG PMAX going to De Soi .com.",
-        "timestamp": "2026-01-09T00:34:07+05:30",
-        "channel": "#fermat-x-de-soi"
-      },
-      {
-        "user": "Denise Shon",
-        "text": "We just got started with Snap ads and were sending traffic to Fermat but I am wondering if there is something we need to do in Fermat to make sure the Snap pixel on our Shopify store is pulling through to Fermat",
-        "timestamp": "2026-01-08T01:19:39+05:30",
-        "channel": "#fermat-x-de-soi"
+        "date": "2026-02-18T03:51:03+05:30",
+        "author": "De Soi team member",
+        "content": "Asked for optimization recommendations on Le Grand Ensemble subscription offer funnel.",
+        "ts": "1771366863.563459"
       }
     ],
-    "analysis": "The Slack channel shows active engagement from Denise Shon who has taken over as the primary contact after Amruta's departure. She has been proactively building funnels (le grand ensemble subscription offer), asking about features (subscription-only buy box, hero media changes), and handling operational tasks (invoice routing). The GM transition from Mia to Pulkit was announced on Mar 3, with Pulkit introducing himself. However, there has been no substantive conversation between Pulkit and the De Soi team since the introduction — the only interaction was Denise asking about invoice routing on Mar 11. The last Pierre weekly roundup was Jan 12, suggesting automated reporting may have stopped."
+    "analysis": "De Soi is an active brand with frequent Slack engagement. The brand recently transitioned from Mia DyBuncio to Pulkit (Mar 3). Denise Shon is the primary brand contact. Pulkit sent a follow-up bump on Mar 25 to schedule an intro call. Brand is engaged - asking about subscription funnels, split tests, and funnel optimizations. An upcoming call is scheduled for Apr 1. Intercom conversations also show Denise asking platform questions (product reviews, shop all products)."
   },
   "email": {
     "messages": [
       {
-        "from": "Denise Shon via Intercom <notifications@fermat-e313b71dec30.intercom-mail.com>",
-        "subject": "Re: [FERMÀT] Denise Shon: how can i change what products show when someone clicks on 'shop all products'",
-        "date": "2026-03-20T22:58:22Z",
-        "snippet": "Denise at De Soi asking about customizing 'shop all products' display. Assigned to Pulkit via Intercom."
+        "date": "2026-03-20",
+        "subject": "Denise Shon: how to change products in 'shop all products'",
+        "from": "Denise Shon via Intercom",
+        "type": "intercom_support"
       },
       {
-        "from": "Pierre via Intercom <notifications@fermat-e313b71dec30.intercom-mail.com>",
-        "subject": "FERMÀT: Pierre assigned a conversation with Denise Shon to you",
-        "date": "2026-03-20T22:55:37Z",
-        "snippet": "Pierre assigned Intercom conversation with Denise Shon (shop all products question) to Pulkit."
+        "date": "2026-03-20",
+        "subject": "Pierre assigned conversation with Denise Shon to you",
+        "from": "Pierre via Intercom",
+        "type": "intercom_assignment"
       },
       {
-        "from": "Denise Shon via Intercom <notifications@fermat-e313b71dec30.intercom-mail.com>",
-        "subject": "Re: [FERMÀT] Denise Shon: how to pull in product reviews",
-        "date": "2026-03-17T23:40:53Z",
-        "snippet": "Denise at De Soi asking about how to pull in product reviews. Assigned to Pulkit via Intercom."
+        "date": "2026-03-18",
+        "subject": "Prepare for 1:1 Call With Pulkit from Fermat",
+        "from": "Glyphic AI",
+        "type": "call_prep"
       },
       {
-        "from": "Pierre via Intercom <notifications@fermat-e313b71dec30.intercom-mail.com>",
-        "subject": "FERMÀT: Pierre assigned a conversation with Denise Shon to you",
-        "date": "2026-03-17T23:38:08Z",
-        "snippet": "Pierre assigned Intercom conversation with Denise Shon to Pulkit. Denise asking about product reviews functionality."
+        "date": "2026-03-17",
+        "subject": "Denise Shon: how to pull in product reviews",
+        "from": "Denise Shon via Intercom",
+        "type": "intercom_support"
       },
       {
-        "from": "FERMÀT Performance Reports <pulkit@fermatcommerce.com>",
-        "subject": "De Soi × FERMÀT || Feb 27 – Mar 12, 2026 Performance Update",
-        "date": "2026-03-13T13:56:46Z",
-        "snippet": "Sharing FERMÀT funnel performance update covering sessions, revenue, conversion rates, ad spend, and funnel-level breakdowns with insights and recommendations."
+        "date": "2026-03-17",
+        "subject": "Pierre assigned conversation with Denise Shon to you",
+        "from": "Pierre via Intercom",
+        "type": "intercom_assignment"
       },
       {
-        "from": "FERMÀT Performance Reports <pulkit@fermatcommerce.com>",
-        "subject": "De Soi × FERMÀT || Feb 24 – Mar 11, 2026 Performance Update",
-        "date": "2026-03-13T10:51:03Z",
-        "snippet": "Sharing FERMÀT funnel performance update covering sessions, revenue, conversion rates, ad spend, and funnel-level breakdowns with insights and recommendations."
+        "date": "2026-03-13",
+        "subject": "De Soi x FERMAT || Feb 27 - Mar 12, 2026 Performance Update",
+        "from": "FERMAT Performance Reports <pulkit@fermatcommerce.com>",
+        "type": "performance_report"
+      },
+      {
+        "date": "2026-03-13",
+        "subject": "De Soi x FERMAT || Feb 24 - Mar 11, 2026 Performance Update",
+        "from": "FERMAT Performance Reports <pulkit@fermatcommerce.com>",
+        "type": "performance_report"
       }
     ],
-    "analysis": "Email activity is primarily operational. Pulkit sent performance reports on Mar 13 covering Feb 24 - Mar 12 periods. Denise Shon has reached out via Intercom twice — on Mar 17 asking about product reviews and on Mar 20 asking how to change products in 'shop all products' display. Both were auto-assigned to Pulkit and need responses. These Intercom queries show Denise is actively using the platform and encountering questions, which is a positive engagement signal but also indicates unresolved support needs."
+    "analysis": "Active email engagement from De Soi. Denise Shon is reaching out via Intercom with platform questions (product reviews on Mar 17, product display on Mar 20). Pulkit sent performance reports on Mar 13. A Glyphic call prep email on Mar 18 confirms a meeting took place. This brand is actively using FERMAT and engaging with support."
   }
 }

@@ -1,155 +1,109 @@
 {
   "brand_id": "737444a0-c397-46a8-a53f-8b32d07a1722",
   "brand_name": "Shop FlavCity",
-  "last_updated": "2026-03-24T16:00:00Z",
-  "contract": {
-    "arr": 24000,
-    "take_rate": 0.06,
-    "total_users": 16,
-    "active_users_l7d": 3
-  },
+  "last_updated": "2026-03-27T12:00:00Z",
   "health": {
-    "score": 28,
+    "score": 22,
     "status": "red",
     "breakdown": {
       "platform_performance": 14,
       "platform_performance_detail": "Sessions:5/5, Revenue:4/5, CVR:1/5, Purchases:4/5",
-      "communication": 2,
-      "communication_detail": "SlackRecency:1/4, BrandSlack14d:1/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
-      "engagement": 12,
-      "engagement_detail": "LastCall:6/8, Calls30d:6/6, Upcoming:0/6",
+      "communication": 0,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
+      "engagement": 8,
+      "engagement_detail": "LastCall:4/8, Calls30d:4/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": [
-      {
-        "type": "positive",
-        "text": "Weekly call cadence maintained — 3 calls in last 30 days with multi-stakeholder attendance",
-        "time": "Mar 13"
-      },
-      {
-        "type": "positive",
-        "text": "New head of eCommerce (Christy Hernandez) onboarded and attending calls",
-        "time": "Mar 7"
-      },
-      {
-        "type": "warning",
-        "text": "Bot/crawler traffic inflating session counts 50-100x — real CVR much higher than reported",
-        "time": "Mar 23"
-      },
-      {
-        "type": "warning",
-        "text": "7d revenue $1,390 — down 76% vs 30d daily average of $811/day",
-        "time": "Mar 23"
-      },
-      {
-        "type": "positive",
-        "text": "Chief Detective agency fully integrated — Ryan, Eddie, Connor in Slack and calls",
-        "time": "Feb 24"
-      },
-      {
-        "type": "warning",
-        "text": "Amazon price-match concern raised — brand wants exclusive FERMAT promos",
-        "time": "Feb 11"
-      }
-    ]
+    "signals": []
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
-      "revenue": 59.99,
-      "cvr": 0.0011,
-      "sessions": 89411,
+      "revenue": 215.96,
+      "cvr": 0.0008,
+      "sessions": 251690,
       "roas": null,
       "cpa": null,
-      "purchases": 1,
-      "aov": 59.99,
-      "pdp_views": 823,
-      "atc": 144,
-      "checkouts": 47
+      "purchases": 2,
+      "aov": 107.98,
+      "pdp_views": 1629,
+      "atc": 184,
+      "checkouts": 45
     },
     "3d": {
       "ad_spend": null,
-      "revenue": 435.94,
-      "cvr": 0.0032,
-      "sessions": 218394,
+      "revenue": 768.66,
+      "cvr": 0.0015,
+      "sessions": 476776,
       "roas": null,
       "cpa": null,
       "purchases": 7,
-      "aov": 62.28,
-      "pdp_views": 2199,
-      "atc": 441,
-      "checkouts": 133
+      "aov": 109.81,
+      "pdp_views": 3521,
+      "atc": 521,
+      "checkouts": 136
     },
     "7d": {
       "ad_spend": null,
-      "revenue": 1263.88,
-      "cvr": 0.003,
-      "sessions": 657695,
+      "revenue": 1594.57,
+      "cvr": 0.0026,
+      "sessions": 776452,
       "roas": null,
       "cpa": null,
       "purchases": 20,
-      "aov": 63.19,
-      "pdp_views": 6032,
-      "atc": 917,
-      "checkouts": 249
+      "aov": 79.73,
+      "pdp_views": 6467,
+      "atc": 1073,
+      "checkouts": 298
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 5087.66,
-      "cvr": 0.0046,
-      "sessions": 1430716,
+      "revenue": 4094.42,
+      "cvr": 0.0031,
+      "sessions": 1695697,
       "roas": null,
       "cpa": null,
-      "purchases": 66,
-      "aov": 77.09,
-      "pdp_views": 13226,
-      "atc": 2077,
-      "checkouts": 565
+      "purchases": 52,
+      "aov": 78.74,
+      "pdp_views": 14654,
+      "atc": 2184,
+      "checkouts": 589
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 22896.4,
-      "cvr": 0.0127,
-      "sessions": 2086430,
+      "revenue": 18263.23,
+      "cvr": 0.0082,
+      "sessions": 2560957,
       "roas": null,
       "cpa": null,
-      "purchases": 265,
-      "aov": 86.4,
-      "pdp_views": 21375,
-      "atc": 3991,
-      "checkouts": 1486
+      "purchases": 210,
+      "aov": 86.97,
+      "pdp_views": 24359,
+      "atc": 4232,
+      "checkouts": 1518
     },
     "45d": {
       "ad_spend": null,
-      "revenue": 62896.17,
-      "cvr": 0.036,
-      "sessions": 2115584,
+      "revenue": 63664.83,
+      "cvr": 0.0297,
+      "sessions": 2592358,
       "roas": null,
       "cpa": null,
-      "purchases": 762,
-      "aov": 82.54,
-      "pdp_views": 27304,
-      "atc": 6942,
-      "checkouts": 2875
+      "purchases": 769,
+      "aov": 82.79,
+      "pdp_views": 30824,
+      "atc": 7462,
+      "checkouts": 3051
     },
     "daily": [
-      {
-        "date": "2026-02-07",
-        "sessions": 2,
-        "revenue": 0,
-        "purchases": 0,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0
-      },
       {
         "date": "2026-02-09",
         "sessions": 1,
         "revenue": 0,
         "purchases": 0,
-        "pdp_views": 1,
-        "atc": 1,
+        "pdp_views": 0,
+        "atc": 0,
         "checkouts": 0
       },
       {
@@ -529,106 +483,156 @@
         "pdp_views": 823,
         "atc": 144,
         "checkouts": 47
+      },
+      {
+        "date": "2026-03-24",
+        "sessions": 96280,
+        "revenue": 239.96,
+        "purchases": 2,
+        "pdp_views": 937,
+        "atc": 161,
+        "checkouts": 44
+      },
+      {
+        "date": "2026-03-25",
+        "sessions": 128806,
+        "revenue": 312.74,
+        "purchases": 3,
+        "pdp_views": 955,
+        "atc": 176,
+        "checkouts": 47
+      },
+      {
+        "date": "2026-03-26",
+        "sessions": 251690,
+        "revenue": 215.96,
+        "purchases": 2,
+        "pdp_views": 1629,
+        "atc": 184,
+        "checkouts": 45
       }
     ]
   },
   "calls": {
     "recent": [
       {
+        "id": "69b4735c829bd9726fcda490",
         "title": "Flavcity x Fermat",
-        "date": "2026-03-13T19:58:03Z",
-        "duration": "30 min",
-        "participants": "Mia DyBuncio, Will, Christy Hernandez",
-        "source": "Glyphic",
-        "summary": "Meeting between Mia and FlavCity team including new head of eCommerce Christy Hernandez.",
-        "recording_url": null,
-        "snippets": [],
-        "action_items": []
+        "date": "2026-03-13",
+        "duration_seconds": 1806,
+        "participants": [
+          "Will (will@shopflavcity.com)",
+          "Christy (christy@shopflavcity.com)",
+          "Mia DyBuncio (mia@fermatcommerce.com)"
+        ],
+        "summary": "FlavCity requested transition to month-to-month contract ($2K/month via Stripe) due to internal changes, with current contract expiring April 15. Mia confirmed the arrangement and announced her transition to Product team, with a new CSM to be introduced. Will expressed interest in exploring AI Search product.",
+        "next_steps": [
+          "Reply to Christy's email with month-to-month details",
+          "Introduce new CSM to FlavCity team",
+          "Set up Stripe billing link"
+        ],
+        "url": "https://app.glyphic.ai/calls/69b4735c829bd9726fcda490"
       },
       {
+        "id": "69b1bfc9d98e5bea61355baf",
         "title": "FlavCity x Fermat Weekly",
-        "date": "2026-03-11T18:58:03Z",
-        "duration": "19 min",
-        "participants": "Christy, Ryan Longo, Kaitlin Frye, Mia DyBuncio, Sammie Walker, Will, Megan Hart, Thi Tran, Marie Leroux, Eddie, Ryan Barry, Travis Halff",
-        "source": "Glyphic",
-        "summary": "Weekly meeting with full FlavCity team and agency partners (Chief Detective, Ecko Digital Media, Y'all).",
-        "recording_url": null,
-        "snippets": [],
-        "action_items": []
+        "date": "2026-03-11",
+        "duration_seconds": 1159,
+        "participants": [
+          "Christy (christy@shopflavcity.com)",
+          "Ryan Longo (ryan@chiefdetective.com)",
+          "Kaitlin Frye (kaitlin@fermatcommerce.com)",
+          "Mia DyBuncio (mia@fermatcommerce.com)"
+        ],
+        "summary": "CSM handoff from Mia to Kaitlin Frye. Introduced Christy (new D2C lead, started last week). Ad strategy shifted to full-price bags focusing on breakfast replacement and GLP1 themes. Discussed creating enhanced PDPs and listicle-style funnels aligned with winning ad headlines. TikTok agency contact also left recently.",
+        "next_steps": [
+          "Kaitlin to schedule platform walkthrough with Christy via Slack",
+          "Ryan to share marketing calendar and winning headlines",
+          "Build breakfast replacement and GLP1-themed funnels"
+        ],
+        "url": "https://app.glyphic.ai/calls/69b1bfc9d98e5bea61355baf"
       },
       {
+        "id": "699cae2d487f1bc61d75bbf6",
         "title": "Fermat x FlavCity - Platform Walkthrough",
-        "date": "2026-02-23T19:28:04Z",
-        "duration": "17 min",
-        "participants": "Mia DyBuncio, SarahJay Kucyk",
-        "source": "Glyphic",
-        "summary": "Platform walkthrough with agency partner.",
-        "recording_url": null,
-        "snippets": [],
-        "action_items": []
-      },
-      {
-        "title": "FlavCity x Fermat Weekly",
-        "date": "2026-02-23T18:58:04Z",
-        "duration": "16 min",
-        "participants": "Ryan Longo, Mia DyBuncio, Will, Marie Leroux, Sammie Walker, Megan Hart, Eddie, Ryan Barry, Thi Tran, Travis Halff",
-        "source": "Glyphic",
-        "summary": "Regular weekly meeting with FlavCity team and agency partners.",
-        "recording_url": null,
-        "snippets": [],
-        "action_items": []
+        "date": "2026-02-23",
+        "duration_seconds": 998,
+        "participants": [
+          "Mia DyBuncio (mia@fermatcommerce.com)",
+          "SarahJay Kucyk (sarah@verb.tech)"
+        ],
+        "summary": "Platform walkthrough for SarahJay (TikTok agency contact). Covered funnel builder, cloning, Pierre AI for product swaps, offers/scheduling, and A/B testing features. SarahJay's last day was that Friday -- introduced replacement Seth for handoff. Focused on building TikTok-specific PDPs for individual flavors.",
+        "next_steps": [
+          "Review SarahJay's test funnel draft",
+          "Ensure TikTok naming convention for funnels",
+          "Onboard Seth as replacement contact"
+        ],
+        "url": "https://app.glyphic.ai/calls/699cae2d487f1bc61d75bbf6"
       }
     ],
-    "analysis": "FlavCity has an active call cadence with weekly meetings managed by Mia DyBuncio. Four calls were recorded in the last 30 days, including a platform walkthrough with agency partner SarahJay Kucyk (Feb 23), two weekly meetings (Feb 23, Mar 11), and a separate meeting with new eCommerce head Christy Hernandez (Mar 13). The team includes multiple agency partners (Chief Detective, Ecko Digital Media, Y'all)."
+    "analysis": "FlavCity is transitioning to month-to-month at $2K/month (contract expires April 15). High stakeholder turnover on both sides: Mia left for Product team (Kaitlin taking over CSM), Christy is new D2C lead (started March), TikTok agency contact SarahJay also left. Ad strategy shifted from trial kits to full-price bags with GLP1/breakfast replacement angles. Massive session inflation since late Feb (100K+ daily) suggests bot/crawler traffic distorting CVR metrics. Real engagement metrics (purchases, ATC) remain low. Churn risk is elevated."
   },
   "calendar": {
     "past": [],
-    "upcoming": [],
-    "_note": "No Google Calendar events found matching 'FlavCity' on Pulkit's calendar. This brand is managed by Mia DyBuncio."
+    "upcoming": []
   },
   "slack": {
     "messages": [
       {
-        "user": "Will (FlavCity)",
-        "text": "Hey Mia sorry I missed the TB, something else came up - do you have a quick 15 on Friday afternoon to chat?",
-        "timestamp": "2026-03-12T13:19:12+05:30",
-        "channel": "#fermat-x-flavcity"
+        "date": "2026-03-12",
+        "author": "Will (brand)",
+        "content": "Apologized for missing bi-weekly call, asked Mia for quick 15-min chat on Friday (9 replies in thread)"
       },
       {
-        "user": "Will (FlavCity)",
-        "text": "Also meet Christy Hernandez our new head of eCommerce! Mia can you invite her to the meeting - and also find time to set up a 1 on 1 with her!",
-        "timestamp": "2026-03-07T03:57:12+05:30",
-        "channel": "#fermat-x-flavcity"
+        "date": "2026-03-07",
+        "author": "Will (brand)",
+        "content": "Introduced Christy Hernandez as new head of eCommerce, asked Mia to invite her to meetings and schedule 1-on-1"
       },
       {
-        "user": "Mia DyBuncio",
-        "text": "Hey Ryan Longo, Will — I'll be travelling during our meeting on Monday, any chance we can push this to Wednesday at 3 pm ET?",
-        "timestamp": "2026-03-07T03:01:49+05:30",
-        "channel": "#fermat-x-flavcity"
+        "date": "2026-03-07",
+        "author": "Mia DyBuncio",
+        "content": "Asked Will and Ryan if they could push Monday meeting to Wednesday at 3pm ET due to travel"
       },
       {
-        "user": "Will (FlavCity)",
-        "text": "We want to run a promo just on Fermatt for a few select SKUS but dont want AMZ to price match. Do you know if AMZ will crawl a Fermatt landing page when looking at pricing?",
-        "timestamp": "2026-02-11T04:13:52+05:30",
-        "channel": "#fermat-x-flavcity"
+        "date": "2026-02-26",
+        "author": "System",
+        "content": "Connor Simon joined the channel"
       },
       {
-        "user": "Will (FlavCity)",
-        "text": "Mia — can you invite Ryan and Connor to this channel? Also adding connor@chiefdetective.com and ryan@chiefdetective.com",
-        "timestamp": "2026-02-18T20:49:32+05:30",
-        "channel": "#fermat-x-flavcity"
+        "date": "2026-02-24",
+        "author": "Ryan Longo (agency)",
+        "content": "Was stuck underground in transit, unable to attend meeting"
       },
       {
-        "user": "Mia DyBuncio",
-        "text": "Hey Will I saw you went through our AI Search onboarding and generated your first set of funnels! Let me know if you'd like to hop on a call to review your visibility score.",
-        "timestamp": "2026-01-27T22:14:27+05:30",
-        "channel": "#fermat-x-flavcity"
+        "date": "2026-02-18",
+        "author": "Will (brand)",
+        "content": "Asked to add connor@chiefdetective.com and ryan@chiefdetective.com to channel"
+      },
+      {
+        "date": "2026-02-14",
+        "author": "Will (brand)",
+        "content": "Asked Mia to invite Nate Lee to channel"
+      },
+      {
+        "date": "2026-02-11",
+        "author": "Will (brand)",
+        "content": "Asked whether Amazon crawls FERMAT landing pages for price matching on promo SKUs (3 replies)"
+      },
+      {
+        "date": "2026-01-27",
+        "author": "Mia DyBuncio",
+        "content": "Noticed Will went through AI Search onboarding, offered to hop on call to review visibility score"
+      },
+      {
+        "date": "2026-01-26",
+        "author": "Will (brand)",
+        "content": "Asked Mia to add travis@yall.co to channel"
       }
     ],
-    "analysis": "FlavCity is actively managed by Mia DyBuncio (not transitioned to Pulkit). The brand is highly engaged with regular weekly meetings. A new head of eCommerce (Christy Hernandez) joined in early March. The brand's agency partners (Chief Detective — Ryan Longo, Connor, Nate Lee; Ecko Digital Media — Sammie) are also active in the channel. Will asked about Amazon price matching on FERMÀT-exclusive promos (Feb 11). Will completed AI Search onboarding (Jan 27). Pulkit is not the GM for this brand — Mia continues to manage it."
+    "analysis": "Channel shows active engagement from Will (Head of Growth) with operational coordination around meetings, channel invites, and strategic questions (Amazon price matching). Christy Hernandez joined as new head of eCommerce on March 7. Agency partner Chief Detective (Ryan Longo) is active. Recent thread activity around schedule changes and missed meetings. Will engaged with AI Search onboarding in late January."
   },
   "email": {
     "messages": [],
-    "analysis": "No email activity found for FlavCity in the last 30 days on Pulkit's inbox. This is expected as Mia DyBuncio manages this account."
+    "analysis": "No email communication found in the last 30 days between Pulkit and FlavCity. All communication appears to happen via Slack and scheduled calls."
   }
 }

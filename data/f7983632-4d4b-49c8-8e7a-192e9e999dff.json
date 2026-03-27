@@ -1,49 +1,49 @@
 {
   "brand_id": "f7983632-4d4b-49c8-8e7a-192e9e999dff",
   "brand_name": "Henry Rose",
-  "last_updated": "2026-03-24T16:00:00Z",
+  "last_updated": "2026-03-27T10:00:00Z",
   "health": {
-    "score": 16,
+    "score": 17,
     "status": "red",
     "breakdown": {
-      "platform_performance": 14,
-      "platform_performance_detail": "Sessions:4/5, Revenue:3/5, CVR:4/5, Purchases:3/5",
-      "communication": 1,
-      "communication_detail": "SlackRecency:1/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
-      "engagement": 1,
-      "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:0/6",
+      "platform_performance": 15,
+      "platform_performance_detail": "Sessions:4/5, Revenue:3/5, CVR:4/5, Purchases:4/5",
+      "communication": 0,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
+      "engagement": 2,
+      "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
       {
         "type": "positive",
-        "text": "7d revenue $15,520 with 212 purchases — highest revenue brand in portfolio",
-        "time": "Mar 23"
-      },
-      {
-        "type": "positive",
-        "text": "Warm CSM transition — Remi, Ngoc, Brittany all responded positively Mar 3",
+        "text": "Successful GM handoff: Pulkit posted intro Mar 3, brand contacts responded warmly same day. Remi wants to schedule ongoing meeting time.",
         "time": "Mar 3"
       },
       {
-        "type": "negative",
-        "text": "No call scheduled with Pulkit — Remi asked to adjust weekly time but no booking yet",
-        "time": "Mar 23"
-      },
-      {
-        "type": "warning",
-        "text": "7d rev down 44% vs 30d daily avg — traffic declining week-over-week",
-        "time": "Mar 23"
-      },
-      {
         "type": "positive",
-        "text": "AI Search funnels generating weekly — Pierre bot active in channel",
+        "text": "Pierre AI Search funnels actively being generated weekly - brand has AI Search product live",
         "time": "Mar 12"
       },
       {
         "type": "warning",
-        "text": "Agency Good Moose (Brittany Thoma) offered to coordinate scheduling — needs follow-up",
+        "text": "Platform performance very low: only 12 purchases, $588 revenue in last 7 days across 994 sessions (1.21% CVR)",
+        "time": "Mar 26"
+      },
+      {
+        "type": "negative",
+        "text": "No calls since Feb 18 (37 days) - need to schedule first Pulkit-led bi-weekly",
+        "time": "Mar 26"
+      },
+      {
+        "type": "warning",
+        "text": "Sessions volatile: huge spike to 3,185 on Feb 17, then dropped to 39-458 range in March",
+        "time": "Mar 26"
+      },
+      {
+        "type": "positive",
+        "text": "Brand contacts (Remi, Ngoc, Brittany/Good Moose agency) are engaged and responsive in Slack",
         "time": "Mar 3"
       }
     ]
@@ -51,105 +51,87 @@
   "performance": {
     "yesterday": {
       "ad_spend": null,
-      "revenue": 99.45,
-      "cvr": 3.0,
-      "sessions": 100,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 458,
       "roas": null,
       "cpa": null,
-      "purchases": 3,
-      "aov": 33.15,
-      "pdp_views": 27,
-      "atc": 6,
-      "checkouts": 3
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 45,
+      "atc": 4,
+      "checkouts": 2
     },
     "3d": {
       "ad_spend": null,
-      "revenue": 227.95,
-      "cvr": 1.6234,
-      "sessions": 308,
+      "revenue": 178.5,
+      "cvr": 0.3016,
+      "sessions": 994,
       "roas": null,
       "cpa": null,
-      "purchases": 5,
-      "aov": 45.59,
-      "pdp_views": 60,
-      "atc": 12,
-      "checkouts": 7
+      "purchases": 3,
+      "aov": 59.5,
+      "pdp_views": 129,
+      "atc": 25,
+      "checkouts": 5
     },
     "7d": {
       "ad_spend": null,
-      "revenue": 409.95,
-      "cvr": 1.0127,
-      "sessions": 790,
+      "revenue": 588.45,
+      "cvr": 1.2072,
+      "sessions": 994,
       "roas": null,
       "cpa": null,
-      "purchases": 8,
-      "aov": 51.24,
-      "pdp_views": 163,
-      "atc": 36,
-      "checkouts": 11
+      "purchases": 12,
+      "aov": 49.04,
+      "pdp_views": 209,
+      "atc": 44,
+      "checkouts": 15
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 999.7,
-      "cvr": 0.977,
-      "sessions": 1740,
+      "revenue": 1095.2,
+      "cvr": 0.8152,
+      "sessions": 2208,
       "roas": null,
       "cpa": null,
-      "purchases": 17,
-      "aov": 58.81,
-      "pdp_views": 295,
-      "atc": 71,
-      "checkouts": 18
+      "purchases": 18,
+      "aov": 60.84,
+      "pdp_views": 326,
+      "atc": 65,
+      "checkouts": 19
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 2433.3,
-      "cvr": 0.9802,
-      "sessions": 4183,
+      "revenue": 2594.55,
+      "cvr": 0.7669,
+      "sessions": 5216,
       "roas": null,
       "cpa": null,
-      "purchases": 41,
-      "aov": 59.35,
-      "pdp_views": 573,
-      "atc": 172,
-      "checkouts": 65
+      "purchases": 40,
+      "aov": 64.86,
+      "pdp_views": 637,
+      "atc": 162,
+      "checkouts": 63
     },
     "45d": {
       "ad_spend": null,
-      "revenue": 3150.3,
-      "cvr": 0.2773,
-      "sessions": 20194,
+      "revenue": 2926.3,
+      "cvr": 0.327,
+      "sessions": 15288,
       "roas": null,
       "cpa": null,
-      "purchases": 56,
-      "aov": 56.26,
-      "pdp_views": 1097,
-      "atc": 284,
-      "checkouts": 101
+      "purchases": 50,
+      "aov": 58.53,
+      "pdp_views": 996,
+      "atc": 258,
+      "checkouts": 86
     },
     "daily": [
       {
-        "date": "2026-02-07",
-        "sessions": 1229,
-        "revenue": 68,
-        "purchases": 2,
-        "pdp_views": 40,
-        "atc": 10,
-        "checkouts": 3
-      },
-      {
-        "date": "2026-02-08",
-        "sessions": 1465,
-        "revenue": 90,
-        "purchases": 2,
-        "pdp_views": 80,
-        "atc": 14,
-        "checkouts": 6
-      },
-      {
         "date": "2026-02-09",
         "sessions": 1486,
-        "revenue": 90,
+        "revenue": 90.0,
         "purchases": 1,
         "pdp_views": 56,
         "atc": 12,
@@ -158,7 +140,7 @@
       {
         "date": "2026-02-10",
         "sessions": 1518,
-        "revenue": 80,
+        "revenue": 80.0,
         "purchases": 2,
         "pdp_views": 64,
         "atc": 13,
@@ -176,7 +158,7 @@
       {
         "date": "2026-02-12",
         "sessions": 1350,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 43,
         "atc": 12,
@@ -185,7 +167,7 @@
       {
         "date": "2026-02-13",
         "sessions": 1326,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 26,
         "atc": 4,
@@ -212,7 +194,7 @@
       {
         "date": "2026-02-16",
         "sessions": 627,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 26,
         "atc": 4,
@@ -221,7 +203,7 @@
       {
         "date": "2026-02-17",
         "sessions": 3185,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 13,
         "atc": 4,
@@ -230,7 +212,7 @@
       {
         "date": "2026-02-18",
         "sessions": 59,
-        "revenue": 45,
+        "revenue": 45.0,
         "purchases": 1,
         "pdp_views": 6,
         "atc": 2,
@@ -239,7 +221,7 @@
       {
         "date": "2026-02-19",
         "sessions": 70,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 13,
         "atc": 3,
@@ -248,7 +230,7 @@
       {
         "date": "2026-02-20",
         "sessions": 66,
-        "revenue": 147,
+        "revenue": 147.0,
         "purchases": 2,
         "pdp_views": 11,
         "atc": 5,
@@ -257,7 +239,7 @@
       {
         "date": "2026-02-21",
         "sessions": 93,
-        "revenue": 35,
+        "revenue": 35.0,
         "purchases": 1,
         "pdp_views": 15,
         "atc": 5,
@@ -266,7 +248,7 @@
       {
         "date": "2026-02-22",
         "sessions": 49,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 5,
         "atc": 1,
@@ -275,7 +257,7 @@
       {
         "date": "2026-02-23",
         "sessions": 62,
-        "revenue": 102,
+        "revenue": 102.0,
         "purchases": 1,
         "pdp_views": 15,
         "atc": 7,
@@ -302,7 +284,7 @@
       {
         "date": "2026-02-26",
         "sessions": 212,
-        "revenue": 217,
+        "revenue": 217.0,
         "purchases": 3,
         "pdp_views": 24,
         "atc": 11,
@@ -338,7 +320,7 @@
       {
         "date": "2026-03-02",
         "sessions": 295,
-        "revenue": 255,
+        "revenue": 255.0,
         "purchases": 4,
         "pdp_views": 35,
         "atc": 15,
@@ -356,7 +338,7 @@
       {
         "date": "2026-03-04",
         "sessions": 167,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 23,
         "atc": 4,
@@ -401,7 +383,7 @@
       {
         "date": "2026-03-09",
         "sessions": 76,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 13,
         "atc": 2,
@@ -419,7 +401,7 @@
       {
         "date": "2026-03-11",
         "sessions": 83,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 7,
         "atc": 0,
@@ -437,7 +419,7 @@
       {
         "date": "2026-03-13",
         "sessions": 119,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 22,
         "atc": 4,
@@ -446,7 +428,7 @@
       {
         "date": "2026-03-14",
         "sessions": 65,
-        "revenue": 102,
+        "revenue": 102.0,
         "purchases": 1,
         "pdp_views": 8,
         "atc": 4,
@@ -473,7 +455,7 @@
       {
         "date": "2026-03-17",
         "sessions": 113,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 26,
         "atc": 5,
@@ -482,7 +464,7 @@
       {
         "date": "2026-03-18",
         "sessions": 105,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 27,
         "atc": 7,
@@ -491,7 +473,7 @@
       {
         "date": "2026-03-19",
         "sessions": 152,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 35,
         "atc": 8,
@@ -500,7 +482,7 @@
       {
         "date": "2026-03-20",
         "sessions": 112,
-        "revenue": 182,
+        "revenue": 182.0,
         "purchases": 3,
         "pdp_views": 15,
         "atc": 4,
@@ -509,7 +491,7 @@
       {
         "date": "2026-03-21",
         "sessions": 39,
-        "revenue": 0,
+        "revenue": 0.0,
         "purchases": 0,
         "pdp_views": 6,
         "atc": 0,
@@ -526,80 +508,118 @@
       },
       {
         "date": "2026-03-23",
-        "sessions": 100,
-        "revenue": 99.45,
-        "purchases": 3,
-        "pdp_views": 27,
-        "atc": 6,
+        "sessions": 125,
+        "revenue": 277.95,
+        "purchases": 4,
+        "pdp_views": 32,
+        "atc": 9,
         "checkouts": 3
+      },
+      {
+        "date": "2026-03-24",
+        "sessions": 211,
+        "revenue": 102.0,
+        "purchases": 1,
+        "pdp_views": 46,
+        "atc": 14,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-03-25",
+        "sessions": 325,
+        "revenue": 76.5,
+        "purchases": 2,
+        "pdp_views": 38,
+        "atc": 7,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-03-26",
+        "sessions": 458,
+        "revenue": 0.0,
+        "purchases": 0,
+        "pdp_views": 45,
+        "atc": 4,
+        "checkouts": 2
       }
     ]
   },
   "calls": {
-    "recent": [],
-    "analysis": "No Glyphic calls found for Henry Rose in the last 30 days. Mia had weekly calls with the Henry Rose team. Since the GM transition, Pulkit has not yet set up recurring meetings. The brand team proactively asked to reschedule the meeting time on Mar 3, indicating they want to maintain the call cadence."
+    "recent": [
+      {
+        "title": "Fermat x Henry Rose",
+        "date": "2026-02-18T16:58:30Z",
+        "duration": "14 min",
+        "participants": "Mia DyBuncio, Paige Davis (Good Moose), Remi Brixton, Ngoc Ma, Brittany Thoma (Good Moose), Allegra Miele",
+        "source": "Glyphic",
+        "summary": "Last call led by Mia DyBuncio before transition. Included Henry Rose team (Remi, Ngoc) and Good Moose agency (Paige, Brittany). Short 14-minute call.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
+      }
+    ],
+    "analysis": "Last call was Feb 18 (37 days ago), led by Mia before the GM transition. Pulkit has not yet had a call with Henry Rose. Brand contact expressed interest in rescheduling the regular meeting time. Need to schedule first Pulkit-led call urgently."
   },
   "calendar": {
     "past": [],
     "upcoming": [],
-    "_note": "No Google Calendar events found matching 'Henry Rose' between Feb 22 and Apr 30, 2026 on Pulkit's calendar. The Henry Rose team has requested to set up a new recurring meeting time."
+    "_note": "No Google Calendar events found matching 'Henry Rose' between Feb 9 and Apr 30, 2026 on Pulkit's calendar. Need to schedule first bi-weekly."
   },
   "slack": {
     "messages": [
       {
-        "user": "Henry Rose team member",
-        "text": "Pulkit lovely to meet you. I generally have issues with our weekly Fermat time, perhaps we could switch the time around a bit?",
-        "timestamp": "2026-03-03T23:23:04+05:30",
-        "channel": "#fermat-x-henry-rose"
-      },
-      {
-        "user": "Henry Rose team member",
-        "text": "Mia DyBuncio thank you for everything!! We are so sad to see you go, but excited for your next adventure!",
-        "timestamp": "2026-03-03T23:22:11+05:30",
-        "channel": "#fermat-x-henry-rose"
-      },
-      {
-        "user": "Henry Rose team member",
-        "text": "hi Pulkit, so nice to meet you! i'll get some time scheduled and hopefully we can treat that as our ongoing meeting time, will also coordinate that with Remi and Ngoc Ma.",
-        "timestamp": "2026-03-03T19:54:14+05:30",
-        "channel": "#fermat-x-henry-rose"
-      },
-      {
-        "user": "Pulkit Srivastava",
-        "text": "Hey Henry Rose team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all!",
-        "timestamp": "2026-03-03T11:00:44+05:30",
-        "channel": "#fermat-x-henry-rose"
-      },
-      {
-        "user": "Mia DyBuncio",
-        "text": "Hey Henry Rose team! I'm reaching out with some bittersweet but exciting news, later this week I'll be transitioning into a new role on our Product team here at FERMÀT. I'm thrilled to introduce Pulkit.",
-        "timestamp": "2026-03-03T01:47:43+05:30",
-        "channel": "#fermat-x-henry-rose"
-      },
-      {
         "user": "Pierre (Bot)",
-        "text": "There are new AI Search funnels ready for you to approve!",
+        "text": "New AI Search funnels ready for approval",
         "timestamp": "2026-03-12T02:55:17+05:30",
         "channel": "#fermat-x-henry-rose"
       },
       {
         "user": "Pierre (Bot)",
-        "text": "There are new AI Search funnels ready for you to approve!",
+        "text": "New AI Search funnels ready for approval",
         "timestamp": "2026-03-05T03:20:30+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Brand contact",
+        "text": "@Pulkit lovely to meet you. I generally have issues with our weekly Fermat time, perhaps we could switch the time around a bit?",
+        "timestamp": "2026-03-03T23:23:04+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Brand contact",
+        "text": "@Mia DyBuncio thank you for everything!! We are so sad to see you go, but excited for your next adventure!",
+        "timestamp": "2026-03-03T23:22:11+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Brand contact",
+        "text": "@Mia thank you SO much for your support on Henry Rose over the last year+, and for positively challenging the work we've done to drive more revenue. you've been such a valuable contributor to the brand!",
+        "timestamp": "2026-03-03T19:55:36+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Brand contact",
+        "text": "hi @Pulkit, so nice to meet you! i'll get some time scheduled and hopefully we can treat that as our ongoing meeting time, will also coordinate that with Remi and Ngoc Ma.",
+        "timestamp": "2026-03-03T19:54:14+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Hey Henry Rose team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call and get to know everyone. Feel free to grab some time on my calendar.",
+        "timestamp": "2026-03-03T11:00:44+05:30",
+        "channel": "#fermat-x-henry-rose"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "Hey Henry Rose team! I'm reaching out with some bittersweet but exciting news - transitioning to Product team. Introducing Pulkit as new Onboarding and Growth Manager. Pulkit will follow up with calendar link.",
+        "timestamp": "2026-03-03T01:47:43+05:30",
         "channel": "#fermat-x-henry-rose"
       }
     ],
-    "analysis": "Henry Rose's Slack channel shows a warm reception to Pulkit's introduction on Mar 3. Two team members (one asking to reschedule weekly timing, another coordinating with Remi and Ngoc Ma) responded positively. Pierre is actively generating AI Search funnels (Mar 5, Mar 12). The brand team was emotional about Mia's departure. A key next step is for Pulkit to set up the recurring meeting time as requested, coordinating with Remi and Ngoc Ma."
+    "analysis": "Very warm GM handoff completed Mar 3. Mia introduced Pulkit, brand contacts responded enthusiastically same day. One contact wants to reschedule weekly meeting time. Pierre AI Search notifications continue weekly. Channel was active with brand-side engagement (Remi, Ngoc, Good Moose agency). Previous GM Mia had strong relationship - the brand expressed genuine appreciation for her work. Key contacts: Remi Brixton, Ngoc Ma (Henry Rose), Brittany Toney/Paige Davis (Good Moose agency)."
   },
   "email": {
-    "messages": [
-      {
-        "from": "Glyphic AI <noreply@glyphic.ai>",
-        "subject": "Pulkit / Mia - Account Transitions summary is ready",
-        "date": "2026-02-24T15:42:34Z",
-        "snippet": "Glyphic summary of the Mia to Pulkit account transition KT call covering Henry Rose and other accounts."
-      }
-    ],
-    "analysis": "Minimal brand-specific email activity for Henry Rose in the last 30 days. The only relevant email is the Glyphic KT summary from the Mia-to-Pulkit transition. No direct email exchanges between Pulkit and the Henry Rose team yet — communication has been via Slack."
+    "messages": [],
+    "analysis": "No direct brand-specific emails found for Henry Rose in the search period. The Glyphic account transitions summary email (Feb 24) likely contains Henry Rose context. No Pulkit-to-brand email thread established yet. Communication has been primarily through Slack."
   }
 }

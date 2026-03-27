@@ -1,7 +1,7 @@
 {
   "brand_id": "ab6fc1e8-f245-4344-902c-b60388575aca",
   "brand_name": "FOND Regenerative",
-  "last_updated": "2026-03-24T16:00:00Z",
+  "last_updated": "2026-03-27T12:00:00Z",
   "health": {
     "score": 5,
     "status": "red",
@@ -15,137 +15,88 @@
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": [
-      {
-        "type": "warning",
-        "text": "Video compression issue raised in Slack Mar 13 — only 1 reply, needs follow-up",
-        "time": "Mar 13"
-      },
-      {
-        "type": "negative",
-        "text": "No calls since GM transition Feb 25 — weekly cadence completely lapsed (54 days)",
-        "time": "Mar 23"
-      },
-      {
-        "type": "positive",
-        "text": "7d revenue $284 — up from near-zero earlier in March, CVR recovering to 1.12%",
-        "time": "Mar 23"
-      },
-      {
-        "type": "negative",
-        "text": "Only 178 sessions in 7d — traffic dropped 80%+ from Jan levels (500+/day)",
-        "time": "Mar 23"
-      },
-      {
-        "type": "positive",
-        "text": "Team warmly received Pulkit intro Feb 25 — heart reactions from multiple members",
-        "time": "Feb 25"
-      },
-      {
-        "type": "warning",
-        "text": "Recipe funnel request from Feb 18 (Egg Drop Soup) still pending — needs action",
-        "time": "Feb 18"
-      }
-    ]
+    "signals": []
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
       "revenue": 0,
-      "cvr": 0.0,
+      "cvr": 0,
       "sessions": 8,
       "roas": null,
       "cpa": null,
       "purchases": 0,
       "aov": 0,
-      "pdp_views": 0,
-      "atc": 0,
-      "checkouts": 0
+      "pdp_views": 1,
+      "atc": 1,
+      "checkouts": 1
     },
     "3d": {
       "ad_spend": null,
       "revenue": 0,
-      "cvr": 0.0,
-      "sessions": 41,
+      "cvr": 0,
+      "sessions": 18,
       "roas": null,
       "cpa": null,
       "purchases": 0,
       "aov": 0,
       "pdp_views": 1,
-      "atc": 0,
-      "checkouts": 0
+      "atc": 1,
+      "checkouts": 1
     },
     "7d": {
       "ad_spend": null,
       "revenue": 0,
-      "cvr": 0.0,
-      "sessions": 118,
+      "cvr": 0,
+      "sessions": 74,
       "roas": null,
       "cpa": null,
       "purchases": 0,
       "aov": 0,
-      "pdp_views": 5,
-      "atc": 0,
-      "checkouts": 0
+      "pdp_views": 2,
+      "atc": 1,
+      "checkouts": 1
     },
     "15d": {
       "ad_spend": null,
       "revenue": 92.5,
-      "cvr": 0.3484,
-      "sessions": 287,
+      "cvr": 0.3968,
+      "sessions": 252,
       "roas": null,
       "cpa": null,
       "purchases": 1,
       "aov": 92.5,
-      "pdp_views": 20,
-      "atc": 2,
-      "checkouts": 1
+      "pdp_views": 18,
+      "atc": 3,
+      "checkouts": 2
     },
     "30d": {
       "ad_spend": null,
       "revenue": 92.5,
-      "cvr": 0.1832,
-      "sessions": 546,
+      "cvr": 0.2128,
+      "sessions": 470,
       "roas": null,
       "cpa": null,
       "purchases": 1,
       "aov": 92.5,
-      "pdp_views": 48,
-      "atc": 4,
-      "checkouts": 1
+      "pdp_views": 44,
+      "atc": 5,
+      "checkouts": 2
     },
     "45d": {
       "ad_spend": null,
       "revenue": 1198.5,
-      "cvr": 0.5551,
-      "sessions": 1261,
+      "cvr": 0.5809,
+      "sessions": 1205,
       "roas": null,
       "cpa": null,
       "purchases": 7,
       "aov": 171.21,
-      "pdp_views": 128,
-      "atc": 22,
-      "checkouts": 8
+      "pdp_views": 122,
+      "atc": 21,
+      "checkouts": 9
     },
     "daily": [
-      {
-        "date": "2026-02-07",
-        "sessions": 31,
-        "revenue": 0,
-        "purchases": 0,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0
-      },
-      {
-        "date": "2026-02-08",
-        "sessions": 43,
-        "revenue": 0,
-        "purchases": 0,
-        "pdp_views": 7,
-        "atc": 2,
-        "checkouts": 0
-      },
       {
         "date": "2026-02-09",
         "sessions": 51,
@@ -532,80 +483,87 @@
         "pdp_views": 0,
         "atc": 0,
         "checkouts": 0
+      },
+      {
+        "date": "2026-03-24",
+        "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-25",
+        "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-03-26",
+        "sessions": 8,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 1,
+        "checkouts": 1
       }
     ]
   },
   "calls": {
     "recent": [],
-    "analysis": "No Glyphic calls found for FOND in the last 30 days (since Feb 22). The previous GM Talia had regular weekly calls with Chelsea, Kendall, and Amy. Since the transition to Pulkit on Feb 25, no calls have been scheduled yet — this gap needs to be addressed to maintain the cadence the brand team was accustomed to."
+    "analysis": "Glyphic API unavailable during data pull. No call data retrieved."
   },
   "calendar": {
     "past": [],
-    "upcoming": [],
-    "_note": "No Google Calendar events found matching 'FOND' between Feb 22 and Apr 30, 2026 on Pulkit's calendar. No recurring meetings have been set up since the GM transition on Feb 25."
+    "upcoming": []
   },
   "slack": {
     "messages": [
       {
-        "user": "FOND team member",
-        "text": "Hi! Pulkit Do you have an idea why videos compress on Fermat?",
+        "user": "Unknown",
+        "text": "Hi! Pulkit - Do you have an idea why videos compress on Fermat?",
         "timestamp": "2026-03-13T20:17:30+05:30",
-        "channel": "#fermat-x-fond"
+        "channel": "fermat-x-fond"
       },
       {
         "user": "Pulkit Srivastava",
-        "text": "Hey FOND team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call and get to know everyone.",
+        "text": "Hey FOND team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all!",
         "timestamp": "2026-02-25T20:46:07+05:30",
-        "channel": "#fermat-x-fond"
+        "channel": "fermat-x-fond"
       },
       {
         "user": "Talia Cohen",
-        "text": "Hey FOND team! I'm reaching out with some bittersweet but exciting news — later this week I'll be transitioning into a new role on our Enterprise team here at FERMÀT. I'm thrilled to introduce Pulkit, one of our outstanding Onboarding and Growth Managers!",
+        "text": "Hey FOND team! I'm reaching out with some bittersweet but exciting news — later this week I'll be transitioning into a new role on our Enterprise team here at FERMÀT. I'm thrilled to introduce Pulkit.",
         "timestamp": "2026-02-25T19:30:15+05:30",
-        "channel": "#fermat-x-fond"
+        "channel": "fermat-x-fond"
       },
       {
-        "user": "FOND team member",
-        "text": "I think I would love your insights on a different style recipe video funnel. I have 2 created (swedish meatballs & filet mignon). Could you build an Egg Drop Soup funnel and I can see how you lay it out?",
+        "user": "Unknown",
+        "text": "I think I would love your insights on a different style recipe video funnel. I have 2 created (swedish meatballs & filet mignon). Could you build an Egg Drop Soup recipe funnel?",
         "timestamp": "2026-02-18T21:15:19+05:30",
-        "channel": "#fermat-x-fond"
+        "channel": "fermat-x-fond"
       },
       {
         "user": "Talia Cohen",
-        "text": "great, thanks all! Chelsea and Kendall - i don't believe i saw any funnels come across my way. was there anything the both of you were working on that you wanted my input on?",
+        "text": "Great, thanks all! Chelsea and Kendall - I don't believe I saw any funnels come across my way. Was there anything you were working on?",
         "timestamp": "2026-02-18T20:55:46+05:30",
-        "channel": "#fermat-x-fond"
+        "channel": "fermat-x-fond"
       },
       {
-        "user": "Talia Cohen",
-        "text": "Hey Kendall, Amy, Chelsea - any chance we can adjust our meeting time tomorrow back by a half hour?",
-        "timestamp": "2026-02-17T23:52:24+05:30",
-        "channel": "#fermat-x-fond"
-      },
-      {
-        "user": "FOND team member",
-        "text": "Hi Talia! Our funnel 'how to know your tallow can be trusted' is getting some good traction and views due to another company going viral about the tallow industry being corrupt. Can you take another look at the funnel and make edits to really get people converting?",
+        "user": "Unknown",
+        "text": "Hi Talia Cohen! Our funnel 'how to know your tallow can be trusted' is getting some good traction due to another company going viral about the tallow industry. Can you take another look and make edits to really get people converting?",
         "timestamp": "2026-01-28T20:55:04+05:30",
-        "channel": "#fermat-x-fond"
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Sharing below a quick recap: Tallow for Fat Hormones Funnel recommendations implemented — added subscribe & save CTAs, updated product hyperlinks, introduced navigation menu bar, added grid shop CTA. Upcoming funnels: Shiitake & Sage, Foundational Nourishment Bundle video funnel.",
-        "timestamp": "2026-01-22T04:04:48+05:30",
-        "channel": "#fermat-x-fond"
+        "channel": "fermat-x-fond"
       }
     ],
-    "analysis": "The FOND channel shows an engaged brand team with Chelsea, Kendall, and Amy actively building funnels (recipe funnels, flavor-specific funnels). The GM transition from Talia to Pulkit was announced Feb 25 and warmly received (heart reactions). A FOND team member asked Pulkit about video compression on Mar 13 — this is the first direct technical question to Pulkit, showing early relationship building. The team has been proactive about funnel creation and optimizing for conversions, particularly around their tallow products."
+    "analysis": "Low activity channel. Only 1 message since Pulkit took over (video compression question on Mar 13). GM handoff completed Feb 25. No bi-weekly recaps or call summaries posted. Brand team (Chelsea, Kendall, Amy) were active with Talia but engagement dropped after transition. No scheduled calls found."
   },
   "email": {
-    "messages": [
-      {
-        "from": "Glyphic AI <noreply@glyphic.ai>",
-        "subject": "Talia / Pulkit Accounts KT summary is ready",
-        "date": "2026-02-23T15:01:39Z",
-        "snippet": "Glyphic summary of the Talia to Pulkit account transition knowledge transfer call covering FOND and other accounts."
-      }
-    ],
-    "analysis": "Minimal brand-specific email activity for FOND in the last 30 days. The only relevant email is the Glyphic KT summary from Feb 23 documenting the account transition from Talia to Pulkit. No direct email exchanges between Pulkit and the FOND team have occurred yet — communication has been via Slack."
+    "messages": [],
+    "analysis": "No emails found matching 'FOND Regenerative' in the last 30 days. Zero email engagement since GM handoff."
   }
 }

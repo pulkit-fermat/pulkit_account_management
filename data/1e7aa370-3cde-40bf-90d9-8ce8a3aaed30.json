@@ -1,47 +1,21 @@
 {
   "brand_id": "1e7aa370-3cde-40bf-90d9-8ce8a3aaed30",
   "brand_name": "HAVN",
-  "last_updated": "2026-03-24T16:00:00Z",
+  "last_updated": "2026-03-27T12:00:00Z",
   "health": {
-    "score": 1,
+    "score": 2,
     "status": "red",
     "breakdown": {
       "platform_performance": 0,
       "platform_performance_detail": "Sessions:0/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
       "communication": 0,
       "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
-      "engagement": 1,
-      "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:0/6",
+      "engagement": 2,
+      "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": [
-      {
-        "type": "negative",
-        "text": "Renewal was Feb 26 — now 25 days past due, brand effectively churned",
-        "time": "Mar 23"
-      },
-      {
-        "type": "negative",
-        "text": "Zero platform activity across all date ranges — no sessions, revenue, or purchases",
-        "time": "Mar 23"
-      },
-      {
-        "type": "negative",
-        "text": "No calls since Dec 11, 2025 — 102 days without any call",
-        "time": "Mar 23"
-      },
-      {
-        "type": "negative",
-        "text": "Tom Guilbert reported incrementality test issue Jan 6 — no resolution visible",
-        "time": "Jan 6"
-      },
-      {
-        "type": "negative",
-        "text": "Pulkit joined Slack Feb 24 but sent no intro message",
-        "time": "Feb 24"
-      }
-    ]
+    "signals": []
   },
   "performance": {
     "yesterday": {
@@ -125,45 +99,113 @@
     "daily": []
   },
   "calls": {
-    "recent": [],
-    "analysis": "No Glyphic calls found for HAVN in the last 30 days. The relationship was managed by Ryan Barry through Dec 2025, then briefly by Isabel. Since Pulkit's transition, no calls have been initiated. This is a significant gap given HAVN was an active account with regular syncs."
+    "recent": [
+      {
+        "id": "693b1552738f04b60b7e5114",
+        "title": "HAVN x Fermat Weekly",
+        "date": "2025-12-11",
+        "duration_seconds": 1901,
+        "participants": [
+          "Tom Guilbert (tom@havnwear.com)",
+          "Ryan Barry (ryan.barry@fermatcommerce.com)",
+          "Isabel O'Keefe (isabel@fermatcommerce.com)"
+        ],
+        "summary": "Last recorded weekly sync with HAVN. Tom, Ryan, and Isabel discussed ongoing funnel performance and AI Search trial. Ryan's last day at FERMAT was Dec 20 -- handoff to Mia announced. This was likely one of the final active engagement calls before the brand went silent.",
+        "next_steps": [
+          "Ryan handoff to Mia/Isabel for ongoing account management"
+        ],
+        "url": "https://app.glyphic.ai/calls/693b1552738f04b60b7e5114"
+      },
+      {
+        "id": "693322c5575677ba4bf0f6e1",
+        "title": "HAVN x Fermat Weekly",
+        "date": "2025-12-05",
+        "duration_seconds": 1205,
+        "participants": [
+          "Tom Guilbert (tom@havnwear.com)",
+          "Ryan Barry (ryan.barry@fermatcommerce.com)"
+        ],
+        "summary": "Weekly sync between Tom and Ryan discussing funnel performance and ongoing optimization work.",
+        "next_steps": [],
+        "url": "https://app.glyphic.ai/calls/693322c5575677ba4bf0f6e1"
+      },
+      {
+        "id": "6920ace3acef311c557e581b",
+        "title": "HAVN x Fermat Weekly",
+        "date": "2025-11-21",
+        "duration_seconds": 1046,
+        "participants": [
+          "Tom Guilbert (tom@havnwear.com)",
+          "Ryan Barry (ryan.barry@fermatcommerce.com)"
+        ],
+        "summary": "Regular weekly sync discussing HAVN funnel performance and strategy.",
+        "next_steps": [],
+        "url": "https://app.glyphic.ai/calls/6920ace3acef311c557e581b"
+      }
+    ],
+    "analysis": "HAVN had active weekly calls through December 2025 with Ryan Barry as CSM. Ryan left FERMAT on Dec 20, and Isabel O'Keefe (Head of AM) was introduced as interim contact. Mia was also introduced. Last call was Dec 11 -- no calls recorded in 2026. The brand has gone completely silent on calls for 3.5+ months. Key contact is Tom Guilbert (tom@havnwear.com). HAVN is a churning account with no active FERMAT metrics."
   },
   "calendar": {
     "past": [],
-    "upcoming": [],
-    "_note": "No Google Calendar events found matching 'HAVN' between Feb 22 and Apr 30, 2026 on Pulkit's calendar."
+    "upcoming": []
   },
   "slack": {
     "messages": [
       {
-        "user": "Isabel O'Keefe",
-        "text": "hi Tom - hope you're having a great start to the new year. wanted to check in - did you want to keep today's sync on the calendar?",
-        "timestamp": "2026-01-16T21:06:24+05:30",
-        "channel": "#havn-x-fermat"
+        "date": "2026-02-24",
+        "author": "Pulkit Srivastava",
+        "content": "Joined the channel"
       },
       {
-        "user": "Tom (HAVN)",
-        "text": "Hi! I'm having issue with the setup of an incremental test on my account. the setup is 50/50 but that's not what I get",
-        "timestamp": "2026-01-06T23:06:41+05:30",
-        "channel": "#havn-x-fermat"
+        "date": "2026-02-24",
+        "author": "FERMAT (bot)",
+        "content": "Joined the channel"
       },
       {
-        "user": "Ryan Barry",
-        "text": "Hey Tom! I just want to give you a heads up that today is my last day at Fermat. I also wanted to introduce Mia DyBuncio. Mia's not only a team lead here at Fermat with tons of experience working with our top brands.",
-        "timestamp": "2025-12-20T02:05:15+05:30",
-        "channel": "#havn-x-fermat"
+        "date": "2026-01-16",
+        "author": "Isabel O'Keefe",
+        "content": "Checked in with Tom: asked if he wanted to keep the weekly sync on the calendar (no reply visible)"
       },
       {
-        "user": "Ryan Barry",
-        "text": "Hey Tom -- hope you and the whole HAVN team had an incredible BFCM. Sharing next steps for Fermat's AI Search Engine Free Trial which you'd opted into via our LinkedIn announcement.",
-        "timestamp": "2025-12-03T03:35:38+05:30",
-        "channel": "#havn-x-fermat"
+        "date": "2026-01-06",
+        "author": "Tom Guilbert (brand)",
+        "content": "Reported issue with 50/50 incremental test setup not producing correct split (9 replies in thread, included screenshot)"
+      },
+      {
+        "date": "2025-12-20",
+        "author": "Ryan Barry",
+        "content": "Farewell message: announced last day at FERMAT, introduced Mia DyBuncio and Isabel O'Keefe as new contacts (2 replies)"
+      },
+      {
+        "date": "2025-12-03",
+        "author": "Ryan Barry",
+        "content": "Shared AI Search Free Trial info and onboarding steps, offered free 6-month trial"
+      },
+      {
+        "date": "2025-11-18",
+        "author": "Ryan Barry",
+        "content": "Dashboard outage restoration notice (Cloudflare issue resolved)"
+      },
+      {
+        "date": "2025-11-18",
+        "author": "Isabel O'Keefe",
+        "content": "Dashboard outage alert (Cloudflare issue, funnels unaffected)"
+      },
+      {
+        "date": "2025-11-13",
+        "author": "Ryan Barry",
+        "content": "AI Search Commerce Engine launch announcement with free and paid tiers"
+      },
+      {
+        "date": "2025-11-08",
+        "author": "Ryan Barry",
+        "content": "Post-call follow-up: virtual product config for blanket launch, AI visibility report, gift guide funnel examples"
       }
     ],
-    "analysis": "The HAVN Slack channel has been dormant since Jan 16. Pulkit and the FERMÀT bot joined on Feb 24, but no introduction message was posted (unlike other brands). The primary contact Tom had an active relationship with previous GM Ryan Barry, who left in Dec 2025. Isabel and Mia were introduced as interim contacts. Tom reported an incremental test setup issue on Jan 6 that was resolved. No engagement since the GM transition to Pulkit — an introduction and re-engagement is urgently needed."
+    "analysis": "HAVN Slack channel has been essentially dead since January 2026. Isabel checked in on Jan 16 about keeping the weekly sync -- no visible response from Tom. Tom's last engagement was a technical issue on Jan 6 about A/B test splits. Pulkit joined the channel Feb 24 but has not posted any outreach. Ryan Barry (former CSM) was the primary relationship driver before departing Dec 20. The brand appears to have disengaged after the CSM transition and is now churning."
   },
   "email": {
     "messages": [],
-    "analysis": "No email activity found for HAVN in the last 30 days. No performance reports or direct communications between Pulkit and the HAVN team."
+    "analysis": "No email communication found in the last 30 days between Pulkit and HAVN. The brand has been completely silent across all communication channels."
   }
 }

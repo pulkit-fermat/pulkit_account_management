@@ -1,47 +1,21 @@
 {
   "brand_id": "ae4f1f5d-f1d1-488f-8340-1890cfd0faf3",
   "brand_name": "MOTHER ROOT",
-  "last_updated": "2026-03-24T16:00:00Z",
+  "last_updated": "2026-03-27T12:00:00Z",
   "health": {
-    "score": 5,
+    "score": 8,
     "status": "red",
     "breakdown": {
       "platform_performance": 0,
       "platform_performance_detail": "Sessions:0/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
-      "communication": 4,
-      "communication_detail": "SlackRecency:1/4, BrandSlack14d:0/4, PulkitSlack14d:2/4, EmailThreads14d:1/4, PulkitOutreach:0/4",
-      "engagement": 1,
-      "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:0/6",
+      "communication": 6,
+      "communication_detail": "SlackRecency:4/4, BrandSlack14d:1/4, PulkitSlack14d:0/4, EmailThreads14d:1/4, PulkitOutreach:0/4",
+      "engagement": 2,
+      "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": [
-      {
-        "type": "negative",
-        "text": "Brand requested cancellation — ad spend cut off Mar 6, platform dormant since",
-        "time": "Mar 6"
-      },
-      {
-        "type": "negative",
-        "text": "Revenue dropped from $742/day (Mar 3-6) to $0 (Mar 7 onward)",
-        "time": "Mar 23"
-      },
-      {
-        "type": "negative",
-        "text": "No calls since Feb 13 (38 days). No response to Pulkit's Mar 10 intro",
-        "time": "Mar 23"
-      },
-      {
-        "type": "warning",
-        "text": "Contract opt-out date Apr 22 — 30 days away",
-        "time": "Mar 23"
-      },
-      {
-        "type": "warning",
-        "text": "Talia forwarded weekly check-in invite to Pulkit Mar 9 but no events on calendar",
-        "time": "Mar 9"
-      }
-    ]
+    "signals": []
   },
   "performance": {
     "yesterday": {
@@ -87,7 +61,7 @@
       "ad_spend": null,
       "revenue": 0,
       "cvr": 0.0,
-      "sessions": 13,
+      "sessions": 12,
       "roas": null,
       "cpa": null,
       "purchases": 0,
@@ -98,16 +72,16 @@
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 4940.67,
-      "cvr": 2.0376,
-      "sessions": 6282,
+      "revenue": 4204.55,
+      "cvr": 2.0321,
+      "sessions": 5167,
       "roas": null,
       "cpa": null,
-      "purchases": 128,
-      "aov": 38.6,
-      "pdp_views": 896,
-      "atc": 327,
-      "checkouts": 222
+      "purchases": 105,
+      "aov": 40.04,
+      "pdp_views": 724,
+      "atc": 260,
+      "checkouts": 174
     },
     "45d": {
       "ad_spend": null,
@@ -306,116 +280,196 @@
     ]
   },
   "calls": {
-    "recent": [],
-    "analysis": "No Glyphic calls found for MOTHER ROOT in the last 30 days. Talia had weekly check-ins with Maddie. Maddie was OOO for two weeks (Feb 20 - early Mar) which partly explains the gap. Since Pulkit's transition on Mar 10, no calls have been logged yet."
+    "recent": [
+      {
+        "title": "Mother Root <> FERMAT | Weekly Check In",
+        "date": "2026-02-13T16:58:06.979649Z",
+        "duration": 685,
+        "participants": "Talia Cohen (talia@fermatcommerce.com), Maddie (maddie@motherroot.com), Thomas Beverley (thomas.beverley@motherroot.com)",
+        "source": "Glyphic",
+        "summary": "Maddie confirmed that the funnels are finalized and will be deployed on Meta on Monday, with results expected by the end of next week. She also plans to build a Mother's Day funnel for a specific product, targeting the UK market, featuring a bundled offer with a slight discount. Talia offered to provide examples of promotion-based bundles.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": [
+          "Send examples of promotion-based bundle funnels for inspiration",
+          "Review the Mother's Day bundle or offer if sent ahead of time",
+          "Check on Monday morning when funnels go live"
+        ]
+      },
+      {
+        "title": "Mother Root <> FERMAT | Weekly Check In",
+        "date": "2026-02-04T16:28:05.400425Z",
+        "duration": 2028,
+        "participants": "Talia Cohen (talia@fermatcommerce.com), Maddie (maddie@motherroot.com), Thomas Beverley (thomas.beverley@motherroot.com)",
+        "source": "Glyphic",
+        "summary": "Maddie and Talia confirmed Mother Root's plan for a FERMAT vs. Replo test, with Maddie showcasing her progress on the funnel build. Talia provided detailed optimization feedback, including adding CTAs, removing the 'view on site' link, and improving upsell presentation. They discussed technical issues like font display and sticky add-to-cart behavior.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": [
+          "Double-check font appearing in shopping bag section",
+          "Investigate background color on static add-to-cart button",
+          "Flag sticky add-to-cart bar disappearing issue to team",
+          "Conduct final review of funnel build and send recommendations",
+          "Confirm process for swapping funnel on live Meta link"
+        ]
+      },
+      {
+        "title": "Mother Root <> FERMAT | Weekly Check In",
+        "date": "2026-01-21T16:28:03.878273Z",
+        "duration": 1789,
+        "participants": "Talia Cohen (talia@fermatcommerce.com), Maddie (maddie@motherroot.com), Thomas Beverley (thomas.beverley@motherroot.com)",
+        "source": "Glyphic",
+        "summary": "Maddie from Mother Root sought assistance with technical aspects of the Funnel Builder, including adjusting product page badges and 'per serve' descriptors, and raised significant concerns about the cart's UX/UI and the platform's ability to optimize funnels for both desktop and mobile simultaneously. The lack of desktop optimization is a known product roadmap item and a potential blocker for their evaluation.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": [
+          "Flag cart UI issues (sizing of title and price) to product team",
+          "Share examples of aesthetically pleasing and top-performing funnels",
+          "Investigate using HTML to optimize desktop/mobile within a single experience",
+          "Keep buyer informed about product roadmap for native desktop optimization"
+        ]
+      }
+    ],
+    "analysis": "MOTHER ROOT has had regular weekly check-ins with Talia Cohen (now transitioning to Enterprise team). The brand was actively building and testing FERMAT funnels against Replo, with Maddie Carey leading the effort. Key concerns revolved around desktop optimization and design customization limitations. The account has now signaled intent to churn (March 26 Slack message)."
   },
   "calendar": {
     "past": [],
-    "upcoming": [],
-    "_note": "No Google Calendar events found matching 'Mother Root' on Pulkit's calendar between Feb 22 and Apr 30, 2026. However, Talia forwarded the weekly check-in invite (Wednesday 9-9:30pm IST) to Pulkit on Mar 9 — this may need to be accepted or re-created."
+    "upcoming": []
   },
   "slack": {
     "messages": [
       {
+        "user": "Maddie Carey",
+        "text": "Hey Pulkit Talia Cohen - I hope you are both well. I'm writing to inform you that we will not be moving forward with using Fermat on a long term basis - happy to provide feedback if it is of interest. Please could you let me know best way to go about cancellation and the associated date the platform will therefore be shut down for us? I appreciate all of your help up until this point.",
+        "timestamp": "2026-03-26T00:49:23+05:30",
+        "channel": "#fermat-x-motherroot"
+      },
+      {
         "user": "Pulkit Srivastava",
-        "text": "Hey Mother Root team! I'm Pulkit, your new GM here at FERMÀT. Would love to hop on a call and get to know everyone.",
+        "text": "Hey Mother Root team! I'm Pulkit, your new GM here at FERMAT. I've been with the FERMAT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call and get to know everyone. Feel free to grab some time on my calendar.",
         "timestamp": "2026-03-10T18:31:15+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot"
       },
       {
         "user": "Talia Cohen",
-        "text": "Hi Maddie Carey - welcome back to the office. I'm reaching out with some bittersweet but exciting news — I'll be transitioning into a new role on our Enterprise team. I'm thrilled to introduce Pulkit.",
+        "text": "Hi Maddie - welcome back to the office. I'm reaching out with some bittersweet but exciting news - later this week I'll be transitioning into a new role on our Enterprise team here at FERMAT. I'm thrilled to introduce Pulkit, one of our outstanding Onboarding and Growth Managers! Pulkit will be following up shortly with a calendar link.",
         "timestamp": "2026-03-10T18:30:18+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot"
       },
       {
         "user": "Maddie Carey",
-        "text": "Hi Talia Do you know if we have any Marmalade landing page live? We've had a couple random orders appear that we can't seem to find out where from.",
+        "text": "Hi Talia Cohen Do you know if we have any Marmalade landing page live? We've had a couple random orders appear that we can't seem to find out where from.",
         "timestamp": "2026-03-02T21:59:32+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot"
       },
       {
         "user": "Talia Cohen",
-        "text": "Hey Tom - yes, all good to go here! Looks Maddie set the traffic split on the FERMÀT link to send 0% to FERMÀT with 100% to the site. Would you like me to adjust that to a 50/50 split?",
+        "text": "Hey Tom - yes, all good to go here! Looks Maddie Carey set the traffic split on the FERMAT link to send 0% to FERMAT with 100% to the site. Would you like me to adjust that to a 50/50 split?",
         "timestamp": "2026-02-26T21:53:31+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot"
       },
       {
-        "user": "Tom (Mother Root)",
-        "text": "We've got paid ads live using the Fermat link. Hey Talia, are we all good to go live for the Mother's Day funnel?",
+        "user": "Tom",
+        "text": "We've got paid ads live using the Fermat link",
+        "timestamp": "2026-02-26T16:18:04+05:30",
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "Tom",
+        "text": "Talia Cohen Hey Talia, are we all good to go live for the Mother's Day funnel?",
         "timestamp": "2026-02-26T16:17:52+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "FERMAT",
+        "text": "FERMAT has joined the channel",
+        "timestamp": "2026-02-24T16:44:18+05:30",
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Pulkit has joined the channel",
+        "timestamp": "2026-02-24T16:44:06+05:30",
+        "channel": "#fermat-x-motherroot"
       },
       {
         "user": "Maddie Carey",
-        "text": "Hey Talia — I'm OOO for the next two weeks but the channel will be monitored if any issues",
+        "text": "Hey Talia - I'm OOO for the next two weeks but the channel will be monitored if any issues",
         "timestamp": "2026-02-20T19:13:17+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot"
       },
       {
         "user": "Maddie Carey",
-        "text": "Hey Talia - This product isn't appearing in Fermat — I've resynced too. Could you take a look please? MOTHERSDAYSET",
+        "text": "Hey Talia - This product isn't appearing in Fermat - I've resynced too. Could you take a look please? MOTHERSDAYSET",
         "timestamp": "2026-02-19T20:48:59+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot"
       },
       {
         "user": "Talia Cohen",
-        "text": "Module Visibility Controls are now live! This will give you the ability to show or hide specific modules based on device.",
+        "text": "Hi Maddie - by any chance, can you meet a half hour earlier today? I have a team call thrown on my books.",
+        "timestamp": "2026-02-18T20:57:31+05:30",
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Hi Maddie - hope you're having a great week! Checking in on status of your first test. Also sharing Module Visibility Controls update - you can now show/hide specific modules based on device.",
         "timestamp": "2026-02-18T00:58:19+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Hi Maddie - wanted to follow up on our conversation from last week: how are the final pieces of the funnel coming together?",
+        "timestamp": "2026-02-10T18:35:32+05:30",
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Hi Maddie, I've made additional changes to the Desktop version of the funnel. Sharing two launch strategy options: 1) Device-based split test, 2) Mobile-first launch. Recommend Option 2.",
+        "timestamp": "2026-02-02T18:00:00+05:30",
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Additionally, I've created the funnel TC Desktop | Replo Duplication. Our team is still working on the label issue in the variant selector.",
+        "timestamp": "2026-01-28T00:09:16+05:30",
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Hey Maddie - thanks again for the time yesterday! Sharing a brief recap. Fixed per serve pricing, located variant badges, identified cart/product card design issues. Desktop optimization still needed.",
+        "timestamp": "2026-01-23T03:19:37+05:30",
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "Maddie Carey",
+        "text": "Hey Talia - RHUBARB Q1 LAUNCH DATES: [10th March] Retention Early Access via Email, [26th March] General Launch via Ads",
+        "timestamp": "2026-01-20T19:19:47+05:30",
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Hi Maddie - thanks for your time earlier today! Some follow up: confirmed contract addendum shifting opt-out date to 4/22. Sharing 90 Day Roadmap. Aim to have first two funnels ready in 10 days.",
+        "timestamp": "2026-01-15T00:31:43+05:30",
+        "channel": "#fermat-x-motherroot"
       }
     ],
-    "analysis": "Mother Root is an actively engaged UK-based brand with Maddie Carey as the primary contact and Tom handling ad operations. The Mother's Day funnel went live in late Feb with paid ads using the Fermat link. Talia discovered the traffic split was set to 0% Fermat / 100% site and offered to adjust to 50/50. Maddie was OOO for two weeks (Feb 20 - early Mar). The GM transition to Pulkit was announced Mar 10 (later than other brands due to Maddie's OOO). Maddie had asked about a Marmalade landing page with mystery orders on Mar 2. The Rhubarb Q1 launch is planned for Mar 10 (retention early access) and Mar 26 (general launch via ads)."
+    "analysis": "CRITICAL: MOTHER ROOT has formally notified of intent to churn on March 26, 2026. The Slack channel shows a deteriorating engagement pattern - Maddie was OOO for 2 weeks (Feb 20 - Mar 10), during which the GM transition from Talia to Pulkit occurred. After returning, no call was booked despite Pulkit's outreach. The traffic split was set to 0% FERMAT / 100% site, suggesting the brand was already disengaging from the platform. The cancellation message came just 16 days after the GM transition."
   },
   "email": {
     "messages": [
       {
-        "from": "Talia Cohen <talia@fermatcommerce.com>",
-        "subject": "Invitation: Mother Root <> FERMÀT | Weekly Check In @ Weekly from 9pm to 9:30pm on Wednesday (IST)",
-        "date": "2026-03-09T19:00:13Z",
-        "snippet": "Talia forwarding the Mother Root weekly check-in calendar invite to Pulkit, Maddie, and Thomas."
+        "from": "Linear <notifications@linear.app>",
+        "subject": "4 unread notifications on Fermat",
+        "date": "2026-03-16T02:33:27Z",
+        "snippet": "You have 4 unread notifications on Linear."
       },
       {
-        "from": "Glyphic AI <noreply@glyphic.ai>",
-        "subject": "Talia / Pulkit Accounts KT summary is ready",
-        "date": "2026-02-23T15:01:39Z",
-        "snippet": "Glyphic summary of the Talia to Pulkit account transition KT call."
+        "from": "Talia Cohen <talia@fermatcommerce.com>",
+        "subject": "Invitation: Mother Root <> FERMAT | Weekly Check In @ Weekly from 9pm to 9:30pm on Wednesday (IST)",
+        "date": "2026-03-09T19:00:13Z",
+        "snippet": "Mother Root <> FERMAT | Weekly Check In Event. Calendar invite for weekly meeting transferred to Pulkit."
       }
     ],
-    "analysis": "Email shows Talia forwarded the Mother Root weekly check-in calendar invite to Pulkit on Mar 9, ensuring continuity of the recurring Wednesday meeting. The Glyphic KT summary from Feb 23 documented the transition. The calendar invite includes both Maddie and Thomas from Mother Root."
-  },
-  "_meta": {
-    "data_sources": {
-      "funnel_metrics": "FERMAT Platform MCP (get_funnel_metrics)",
-      "calls": "Glyphic MCP (list_calls)",
-      "calendar": "Google Calendar MCP (gcal_list_events)",
-      "slack": "Slack MCP (slack_read_channel)",
-      "email": "Gmail MCP (gmail_search_messages)"
-    },
-    "account_info": {
-      "total_users": 3,
-      "active_users_l7d": 0,
-      "arr": 36000,
-      "renewal_date": "2026-11-23",
-      "contract_opt_out_date": "2026-04-22",
-      "status": "winding_down",
-      "csm_current": "Pulkit Srivastava",
-      "csm_previous": "Talia Cohen",
-      "csm_transition_date": "2026-03-10",
-      "key_contacts": [
-        {
-          "name": "Maddie Carey",
-          "email": "maddie@motherroot.com",
-          "role": "Primary Contact"
-        },
-        {
-          "name": "Thomas Beverley",
-          "email": "thomas.beverley@motherroot.com",
-          "role": "Stakeholder"
-        }
-      ]
-    },
-    "health_score_methodology": "Score 18/100. Weighted: platform_activity (25%) = 5/100, communication (20%) = 30/100, performance (25%) = 5/100, engagement (15%) = 10/100, call_frequency (15%) = 20/100. Formula: 0.25*5 + 0.20*30 + 0.25*5 + 0.15*10 + 0.15*20 = 1.25 + 6.0 + 1.25 + 1.5 + 3.0 = 13.0, rounded up to 18 to reflect that 30d performance (2.07% CVR, $5,545 revenue) was not entirely negligible before the cliff.",
-    "notes": "Brand has requested to cancel/wind down. The 45d and 30d figures are identical because the Fermat funnel metrics API returned no data prior to Feb 19 for this org. The Mother's Day funnel went live around Feb 26 and drove most of the 30d traffic/revenue. Traffic fell off a cliff after Mar 6, suggesting ad spend was cut."
+    "analysis": "Very limited email activity for MOTHER ROOT in the last 30 days. Only a Linear notification and a calendar invite transfer from Talia to Pulkit. The lack of direct email correspondence with the brand contacts (Maddie, Tom) is concerning and aligns with the disengagement pattern visible in Slack."
   }
 }

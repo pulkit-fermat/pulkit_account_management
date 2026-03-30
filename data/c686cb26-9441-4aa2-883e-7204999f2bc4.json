@@ -1,7 +1,7 @@
 {
   "brand_id": "c686cb26-9441-4aa2-883e-7204999f2bc4",
   "brand_name": "Sole Toscana",
-  "last_updated": "2026-03-27T12:00:00Z",
+  "last_updated": "2026-03-30T00:00:00Z",
   "health": {
     "score": 29,
     "status": "red",
@@ -19,497 +19,497 @@
   },
   "performance": {
     "yesterday": {
+      "sessions": 555,
+      "revenue": 1715.18,
+      "purchases": 14,
+      "pdp_views": 151,
+      "atc": 44,
+      "checkouts": 25,
+      "cvr": 2.52,
+      "aov": 122.51,
       "ad_spend": null,
-      "revenue": 1002.35,
-      "cvr": 2.4316,
-      "sessions": 329,
       "roas": null,
-      "cpa": null,
-      "purchases": 8,
-      "aov": 125.29,
-      "pdp_views": 70,
-      "atc": 23,
-      "checkouts": 10
+      "cpa": null
     },
     "3d": {
+      "sessions": 1417,
+      "revenue": 3925.21,
+      "purchases": 35,
+      "pdp_views": 338,
+      "atc": 108,
+      "checkouts": 58,
+      "cvr": 2.47,
+      "aov": 112.15,
       "ad_spend": null,
-      "revenue": 2306.46,
-      "cvr": 1.5267,
-      "sessions": 1048,
       "roas": null,
-      "cpa": null,
-      "purchases": 16,
-      "aov": 144.15,
-      "pdp_views": 223,
-      "atc": 68,
-      "checkouts": 28
+      "cpa": null
     },
     "7d": {
+      "sessions": 2915,
+      "revenue": 6899.82,
+      "purchases": 57,
+      "pdp_views": 665,
+      "atc": 206,
+      "checkouts": 100,
+      "cvr": 1.96,
+      "aov": 121.05,
       "ad_spend": null,
-      "revenue": 6605.19,
-      "cvr": 1.8745,
-      "sessions": 2614,
       "roas": null,
-      "cpa": null,
-      "purchases": 49,
-      "aov": 134.8,
-      "pdp_views": 574,
-      "atc": 181,
-      "checkouts": 81
+      "cpa": null
     },
     "15d": {
+      "sessions": 5957,
+      "revenue": 16307.16,
+      "purchases": 137,
+      "pdp_views": 1309,
+      "atc": 479,
+      "checkouts": 229,
+      "cvr": 2.3,
+      "aov": 119.03,
       "ad_spend": null,
-      "revenue": 15295.33,
-      "cvr": 2.3858,
-      "sessions": 5365,
       "roas": null,
-      "cpa": null,
-      "purchases": 128,
-      "aov": 119.49,
-      "pdp_views": 1179,
-      "atc": 448,
-      "checkouts": 208
+      "cpa": null
     },
     "30d": {
+      "sessions": 14271,
+      "revenue": 45589.56,
+      "purchases": 373,
+      "pdp_views": 2911,
+      "atc": 1046,
+      "checkouts": 544,
+      "cvr": 2.61,
+      "aov": 122.22,
       "ad_spend": null,
-      "revenue": 45868.62,
-      "cvr": 2.5467,
-      "sessions": 14607,
       "roas": null,
-      "cpa": null,
-      "purchases": 372,
-      "aov": 123.3,
-      "pdp_views": 2909,
-      "atc": 1039,
-      "checkouts": 540
+      "cpa": null
     },
     "45d": {
+      "sessions": 22033,
+      "revenue": 62785.81,
+      "purchases": 515,
+      "pdp_views": 4372,
+      "atc": 1505,
+      "checkouts": 795,
+      "cvr": 2.34,
+      "aov": 121.91,
       "ad_spend": null,
-      "revenue": 62464.97,
-      "cvr": 2.3027,
-      "sessions": 22148,
       "roas": null,
-      "cpa": null,
-      "purchases": 510,
-      "aov": 122.48,
-      "pdp_views": 4300,
-      "atc": 1473,
-      "checkouts": 785
+      "cpa": null
     },
     "daily": [
       {
-        "date": "2026-02-09",
-        "sessions": 500,
-        "revenue": 1263.55,
-        "purchases": 11,
-        "pdp_views": 88,
-        "atc": 28,
-        "checkouts": 18
-      },
-      {
-        "date": "2026-02-10",
-        "sessions": 594,
-        "revenue": 1321.06,
-        "purchases": 10,
-        "pdp_views": 89,
-        "atc": 28,
-        "checkouts": 16
-      },
-      {
-        "date": "2026-02-11",
-        "sessions": 453,
-        "revenue": 1019.76,
-        "purchases": 9,
-        "pdp_views": 90,
-        "atc": 21,
-        "checkouts": 15
-      },
-      {
         "date": "2026-02-12",
         "sessions": 410,
-        "revenue": 876.65,
-        "purchases": 9,
         "pdp_views": 69,
         "atc": 19,
-        "checkouts": 11
+        "checkouts": 11,
+        "purchases": 9,
+        "revenue": 876.65
       },
       {
         "date": "2026-02-13",
         "sessions": 461,
-        "revenue": 679.25,
-        "purchases": 5,
         "pdp_views": 80,
         "atc": 18,
-        "checkouts": 7
+        "checkouts": 7,
+        "purchases": 5,
+        "revenue": 679.25
       },
       {
         "date": "2026-02-14",
         "sessions": 507,
-        "revenue": 871.21,
-        "purchases": 8,
         "pdp_views": 105,
         "atc": 26,
-        "checkouts": 18
+        "checkouts": 18,
+        "purchases": 8,
+        "revenue": 871.21
       },
       {
         "date": "2026-02-15",
         "sessions": 612,
-        "revenue": 1329.1,
-        "purchases": 14,
         "pdp_views": 120,
         "atc": 45,
-        "checkouts": 25
+        "checkouts": 25,
+        "purchases": 14,
+        "revenue": 1329.1
       },
       {
         "date": "2026-02-16",
         "sessions": 542,
-        "revenue": 676.3,
-        "purchases": 6,
         "pdp_views": 111,
         "atc": 22,
-        "checkouts": 10
+        "checkouts": 10,
+        "purchases": 6,
+        "revenue": 676.3
       },
       {
         "date": "2026-02-17",
         "sessions": 561,
-        "revenue": 706.41,
-        "purchases": 6,
         "pdp_views": 105,
         "atc": 26,
-        "checkouts": 13
+        "checkouts": 13,
+        "purchases": 6,
+        "revenue": 706.41
       },
       {
         "date": "2026-02-18",
         "sessions": 463,
-        "revenue": 1869.15,
-        "purchases": 13,
         "pdp_views": 75,
         "atc": 29,
-        "checkouts": 19
+        "checkouts": 19,
+        "purchases": 13,
+        "revenue": 1869.15
       },
       {
         "date": "2026-02-19",
         "sessions": 524,
-        "revenue": 764.66,
-        "purchases": 7,
         "pdp_views": 81,
         "atc": 30,
-        "checkouts": 13
+        "checkouts": 13,
+        "purchases": 7,
+        "revenue": 764.66
       },
       {
         "date": "2026-02-20",
         "sessions": 472,
-        "revenue": 525.9,
-        "purchases": 3,
         "pdp_views": 85,
         "atc": 37,
-        "checkouts": 21
+        "checkouts": 21,
+        "purchases": 3,
+        "revenue": 525.9
       },
       {
         "date": "2026-02-21",
         "sessions": 419,
-        "revenue": 1358.44,
-        "purchases": 12,
         "pdp_views": 79,
         "atc": 32,
-        "checkouts": 18
+        "checkouts": 18,
+        "purchases": 12,
+        "revenue": 1358.44
       },
       {
         "date": "2026-02-22",
         "sessions": 564,
-        "revenue": 1870.44,
-        "purchases": 14,
         "pdp_views": 122,
         "atc": 46,
-        "checkouts": 24
+        "checkouts": 24,
+        "purchases": 14,
+        "revenue": 1870.44
       },
       {
         "date": "2026-02-23",
         "sessions": 459,
-        "revenue": 1464.47,
-        "purchases": 11,
         "pdp_views": 92,
         "atc": 27,
-        "checkouts": 17
+        "checkouts": 17,
+        "purchases": 11,
+        "revenue": 1464.47
       },
       {
         "date": "2026-02-24",
         "sessions": 504,
-        "revenue": 1035.65,
-        "purchases": 12,
         "pdp_views": 106,
         "atc": 35,
-        "checkouts": 17
+        "checkouts": 17,
+        "purchases": 12,
+        "revenue": 1035.65
       },
       {
         "date": "2026-02-25",
         "sessions": 495,
-        "revenue": 810.05,
-        "purchases": 7,
         "pdp_views": 89,
         "atc": 22,
-        "checkouts": 14
+        "checkouts": 14,
+        "purchases": 7,
+        "revenue": 810.05
       },
       {
         "date": "2026-02-26",
         "sessions": 382,
-        "revenue": 785.3,
-        "purchases": 6,
         "pdp_views": 75,
         "atc": 23,
-        "checkouts": 13
+        "checkouts": 13,
+        "purchases": 6,
+        "revenue": 785.3
       },
       {
         "date": "2026-02-27",
         "sessions": 387,
-        "revenue": 1573.27,
-        "purchases": 9,
         "pdp_views": 67,
         "atc": 22,
-        "checkouts": 11
+        "checkouts": 11,
+        "purchases": 9,
+        "revenue": 1573.27
       },
       {
         "date": "2026-02-28",
         "sessions": 471,
-        "revenue": 1307.07,
-        "purchases": 10,
         "pdp_views": 106,
         "atc": 30,
-        "checkouts": 15
+        "checkouts": 15,
+        "purchases": 10,
+        "revenue": 1307.07
       },
       {
         "date": "2026-03-01",
         "sessions": 428,
-        "revenue": 1653.81,
-        "purchases": 15,
         "pdp_views": 91,
         "atc": 33,
-        "checkouts": 20
+        "checkouts": 20,
+        "purchases": 15,
+        "revenue": 1653.81
       },
       {
         "date": "2026-03-02",
         "sessions": 428,
-        "revenue": 994.46,
-        "purchases": 9,
         "pdp_views": 68,
         "atc": 24,
-        "checkouts": 13
+        "checkouts": 13,
+        "purchases": 9,
+        "revenue": 994.46
       },
       {
         "date": "2026-03-03",
         "sessions": 1068,
-        "revenue": 6588.07,
-        "purchases": 49,
         "pdp_views": 200,
         "atc": 89,
-        "checkouts": 54
+        "checkouts": 54,
+        "purchases": 49,
+        "revenue": 6588.07
       },
       {
         "date": "2026-03-04",
         "sessions": 769,
-        "revenue": 3604.16,
-        "purchases": 29,
         "pdp_views": 162,
         "atc": 58,
-        "checkouts": 34
+        "checkouts": 34,
+        "purchases": 29,
+        "revenue": 3604.16
       },
       {
         "date": "2026-03-05",
         "sessions": 692,
-        "revenue": 1660.16,
-        "purchases": 12,
         "pdp_views": 117,
         "atc": 36,
-        "checkouts": 18
+        "checkouts": 18,
+        "purchases": 12,
+        "revenue": 1660.16
       },
       {
         "date": "2026-03-06",
         "sessions": 651,
-        "revenue": 1993.96,
-        "purchases": 13,
         "pdp_views": 108,
         "atc": 37,
-        "checkouts": 16
+        "checkouts": 16,
+        "purchases": 13,
+        "revenue": 1993.96
       },
       {
         "date": "2026-03-07",
         "sessions": 653,
-        "revenue": 1498.07,
-        "purchases": 15,
         "pdp_views": 114,
         "atc": 28,
-        "checkouts": 20
+        "checkouts": 20,
+        "purchases": 15,
+        "revenue": 1498.07
       },
       {
         "date": "2026-03-08",
         "sessions": 754,
-        "revenue": 1261.07,
-        "purchases": 12,
         "pdp_views": 132,
         "atc": 42,
-        "checkouts": 21
+        "checkouts": 21,
+        "purchases": 12,
+        "revenue": 1261.07
       },
       {
         "date": "2026-03-09",
         "sessions": 822,
-        "revenue": 4030.48,
-        "purchases": 31,
         "pdp_views": 144,
         "atc": 61,
-        "checkouts": 42
+        "checkouts": 42,
+        "purchases": 31,
+        "revenue": 4030.48
       },
       {
         "date": "2026-03-10",
         "sessions": 387,
-        "revenue": 1445.46,
-        "purchases": 12,
         "pdp_views": 77,
         "atc": 31,
-        "checkouts": 18
+        "checkouts": 18,
+        "purchases": 12,
+        "revenue": 1445.46
       },
       {
         "date": "2026-03-11",
         "sessions": 351,
-        "revenue": 332.25,
-        "purchases": 3,
         "pdp_views": 74,
         "atc": 20,
-        "checkouts": 6
+        "checkouts": 6,
+        "purchases": 3,
+        "revenue": 332.25
       },
       {
         "date": "2026-03-12",
         "sessions": 303,
-        "revenue": 795.2,
-        "purchases": 9,
         "pdp_views": 66,
         "atc": 22,
-        "checkouts": 10
+        "checkouts": 10,
+        "purchases": 9,
+        "revenue": 795.2
       },
       {
         "date": "2026-03-13",
         "sessions": 197,
-        "revenue": 884.55,
-        "purchases": 6,
         "pdp_views": 48,
         "atc": 21,
-        "checkouts": 11
+        "checkouts": 11,
+        "purchases": 6,
+        "revenue": 884.55
       },
       {
         "date": "2026-03-14",
         "sessions": 340,
-        "revenue": 1233.63,
-        "purchases": 11,
         "pdp_views": 95,
         "atc": 35,
-        "checkouts": 17
+        "checkouts": 17,
+        "purchases": 11,
+        "revenue": 1233.63
       },
       {
         "date": "2026-03-15",
         "sessions": 431,
-        "revenue": 1233.21,
-        "purchases": 12,
         "pdp_views": 93,
         "atc": 48,
-        "checkouts": 22
+        "checkouts": 22,
+        "purchases": 12,
+        "revenue": 1233.21
       },
       {
         "date": "2026-03-16",
         "sessions": 396,
-        "revenue": 1119.02,
-        "purchases": 10,
         "pdp_views": 65,
         "atc": 32,
-        "checkouts": 11
+        "checkouts": 11,
+        "purchases": 10,
+        "revenue": 1119.02
       },
       {
         "date": "2026-03-17",
         "sessions": 367,
-        "revenue": 1240.5,
-        "purchases": 10,
         "pdp_views": 83,
         "atc": 33,
-        "checkouts": 13
+        "checkouts": 13,
+        "purchases": 10,
+        "revenue": 1240.5
       },
       {
         "date": "2026-03-18",
         "sessions": 367,
-        "revenue": 1050.95,
-        "purchases": 11,
         "pdp_views": 85,
         "atc": 36,
-        "checkouts": 19
+        "checkouts": 19,
+        "purchases": 11,
+        "revenue": 1050.95
       },
       {
         "date": "2026-03-19",
         "sessions": 350,
-        "revenue": 1133.08,
-        "purchases": 10,
         "pdp_views": 70,
         "atc": 40,
-        "checkouts": 24
+        "checkouts": 24,
+        "purchases": 10,
+        "revenue": 1133.08
       },
       {
         "date": "2026-03-20",
         "sessions": 282,
-        "revenue": 677.27,
-        "purchases": 7,
         "pdp_views": 46,
         "atc": 21,
-        "checkouts": 11
+        "checkouts": 11,
+        "purchases": 7,
+        "revenue": 677.27
       },
       {
         "date": "2026-03-21",
         "sessions": 390,
-        "revenue": 1420.03,
-        "purchases": 10,
         "pdp_views": 102,
         "atc": 29,
-        "checkouts": 12
+        "checkouts": 12,
+        "purchases": 10,
+        "revenue": 1420.03
       },
       {
         "date": "2026-03-22",
         "sessions": 459,
-        "revenue": 1533.28,
-        "purchases": 10,
         "pdp_views": 100,
         "atc": 34,
-        "checkouts": 17
+        "checkouts": 17,
+        "purchases": 10,
+        "revenue": 1533.28
       },
       {
         "date": "2026-03-23",
         "sessions": 435,
-        "revenue": 668.15,
-        "purchases": 6,
         "pdp_views": 103,
         "atc": 29,
-        "checkouts": 13
+        "checkouts": 13,
+        "purchases": 6,
+        "revenue": 668.15
       },
       {
         "date": "2026-03-24",
         "sessions": 383,
-        "revenue": 194.35,
-        "purchases": 2,
         "pdp_views": 73,
         "atc": 25,
-        "checkouts": 9
+        "checkouts": 9,
+        "purchases": 2,
+        "revenue": 194.35
       },
       {
         "date": "2026-03-25",
         "sessions": 336,
-        "revenue": 1109.76,
-        "purchases": 6,
         "pdp_views": 80,
         "atc": 20,
-        "checkouts": 9
+        "checkouts": 9,
+        "purchases": 6,
+        "revenue": 1109.76
       },
       {
         "date": "2026-03-26",
-        "sessions": 329,
-        "revenue": 1002.35,
+        "sessions": 344,
+        "pdp_views": 71,
+        "atc": 24,
+        "checkouts": 11,
         "purchases": 8,
-        "pdp_views": 70,
-        "atc": 23,
-        "checkouts": 10
+        "revenue": 1002.35
+      },
+      {
+        "date": "2026-03-27",
+        "sessions": 424,
+        "pdp_views": 87,
+        "atc": 31,
+        "checkouts": 16,
+        "purchases": 9,
+        "revenue": 747.51
+      },
+      {
+        "date": "2026-03-28",
+        "sessions": 438,
+        "pdp_views": 100,
+        "atc": 33,
+        "checkouts": 17,
+        "purchases": 12,
+        "revenue": 1462.52
+      },
+      {
+        "date": "2026-03-29",
+        "sessions": 555,
+        "pdp_views": 151,
+        "atc": 44,
+        "checkouts": 25,
+        "purchases": 14,
+        "revenue": 1715.18
       }
     ]
   },

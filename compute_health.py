@@ -15,7 +15,7 @@ from datetime import datetime, timedelta
 
 DIR  = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(DIR, "data")
-REF  = datetime(2026, 3, 27)  # reference date
+REF  = datetime(2026, 3, 30)  # reference date
 
 # Sentiment data path (same as server.js logic)
 SENTIMENT_DIR = os.environ.get("RAILWAY_VOLUME_MOUNT_PATH", os.path.join(DIR, "sentiment-data"))

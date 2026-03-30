@@ -1,15 +1,15 @@
 {
   "brand_id": "ab6fc1e8-f245-4344-902c-b60388575aca",
   "brand_name": "FOND Regenerative",
-  "last_updated": "2026-03-27T12:00:00Z",
+  "last_updated": "2026-03-30T00:00:00Z",
   "health": {
-    "score": 5,
+    "score": 3,
     "status": "red",
     "breakdown": {
       "platform_performance": 2,
       "platform_performance_detail": "Sessions:2/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
-      "communication": 2,
-      "communication_detail": "SlackRecency:1/4, BrandSlack14d:1/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
+      "communication": 0,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
       "engagement": 1,
       "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:0/6",
       "csm_sentiment": 0,
@@ -19,497 +19,497 @@
   },
   "performance": {
     "yesterday": {
-      "ad_spend": null,
-      "revenue": 0,
-      "cvr": 0,
       "sessions": 8,
-      "roas": null,
-      "cpa": null,
+      "revenue": 0,
       "purchases": 0,
-      "aov": 0,
       "pdp_views": 1,
-      "atc": 1,
-      "checkouts": 1
+      "atc": 0,
+      "checkouts": 0,
+      "cvr": 0.0,
+      "aov": 0,
+      "ad_spend": null,
+      "roas": null,
+      "cpa": null
     },
     "3d": {
-      "ad_spend": null,
+      "sessions": 36,
       "revenue": 0,
-      "cvr": 0,
-      "sessions": 18,
-      "roas": null,
-      "cpa": null,
       "purchases": 0,
-      "aov": 0,
       "pdp_views": 1,
-      "atc": 1,
-      "checkouts": 1
+      "atc": 0,
+      "checkouts": 0,
+      "cvr": 0.0,
+      "aov": 0,
+      "ad_spend": null,
+      "roas": null,
+      "cpa": null
     },
     "7d": {
-      "ad_spend": null,
+      "sessions": 63,
       "revenue": 0,
-      "cvr": 0,
-      "sessions": 74,
-      "roas": null,
-      "cpa": null,
       "purchases": 0,
-      "aov": 0,
       "pdp_views": 2,
       "atc": 1,
-      "checkouts": 1
+      "checkouts": 1,
+      "cvr": 0.0,
+      "aov": 0,
+      "ad_spend": null,
+      "roas": null,
+      "cpa": null
     },
     "15d": {
+      "sessions": 225,
+      "revenue": 0,
+      "purchases": 0,
+      "pdp_views": 10,
+      "atc": 1,
+      "checkouts": 1,
+      "cvr": 0.0,
+      "aov": 0,
       "ad_spend": null,
-      "revenue": 92.5,
-      "cvr": 0.3968,
-      "sessions": 252,
       "roas": null,
-      "cpa": null,
-      "purchases": 1,
-      "aov": 92.5,
-      "pdp_views": 18,
-      "atc": 3,
-      "checkouts": 2
+      "cpa": null
     },
     "30d": {
-      "ad_spend": null,
+      "sessions": 413,
       "revenue": 92.5,
-      "cvr": 0.2128,
-      "sessions": 470,
-      "roas": null,
-      "cpa": null,
       "purchases": 1,
+      "pdp_views": 23,
+      "atc": 4,
+      "checkouts": 2,
+      "cvr": 0.24,
       "aov": 92.5,
-      "pdp_views": 44,
-      "atc": 5,
-      "checkouts": 2
+      "ad_spend": null,
+      "roas": null,
+      "cpa": null
     },
     "45d": {
+      "sessions": 1130,
+      "revenue": 928.5,
+      "purchases": 6,
+      "pdp_views": 104,
+      "atc": 18,
+      "checkouts": 8,
+      "cvr": 0.53,
+      "aov": 154.75,
       "ad_spend": null,
-      "revenue": 1198.5,
-      "cvr": 0.5809,
-      "sessions": 1205,
       "roas": null,
-      "cpa": null,
-      "purchases": 7,
-      "aov": 171.21,
-      "pdp_views": 122,
-      "atc": 21,
-      "checkouts": 9
+      "cpa": null
     },
     "daily": [
       {
-        "date": "2026-02-09",
-        "sessions": 51,
-        "revenue": 0,
-        "purchases": 0,
-        "pdp_views": 11,
-        "atc": 2,
-        "checkouts": 0
-      },
-      {
-        "date": "2026-02-10",
-        "sessions": 22,
-        "revenue": 270,
-        "purchases": 1,
-        "pdp_views": 2,
-        "atc": 1,
-        "checkouts": 1
-      },
-      {
-        "date": "2026-02-11",
-        "sessions": 39,
-        "revenue": 0,
-        "purchases": 0,
-        "pdp_views": 6,
-        "atc": 0,
-        "checkouts": 0
-      },
-      {
         "date": "2026-02-12",
         "sessions": 24,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 3,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-13",
         "sessions": 20,
-        "revenue": 270,
-        "purchases": 1,
         "pdp_views": 2,
         "atc": 2,
-        "checkouts": 1
+        "checkouts": 1,
+        "purchases": 1,
+        "revenue": 270
       },
       {
         "date": "2026-02-14",
         "sessions": 35,
-        "revenue": 135,
-        "purchases": 1,
         "pdp_views": 3,
         "atc": 1,
-        "checkouts": 1
+        "checkouts": 1,
+        "purchases": 1,
+        "revenue": 135
       },
       {
         "date": "2026-02-15",
         "sessions": 57,
-        "revenue": 135,
-        "purchases": 1,
         "pdp_views": 4,
         "atc": 1,
-        "checkouts": 1
+        "checkouts": 1,
+        "purchases": 1,
+        "revenue": 135
       },
       {
         "date": "2026-02-16",
         "sessions": 65,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 12,
         "atc": 1,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-17",
         "sessions": 74,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 9,
         "atc": 2,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-18",
         "sessions": 39,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-19",
         "sessions": 31,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-20",
         "sessions": 85,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 9,
         "atc": 1,
-        "checkouts": 1
+        "checkouts": 1,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-21",
         "sessions": 99,
-        "revenue": 296,
-        "purchases": 2,
         "pdp_views": 11,
         "atc": 5,
-        "checkouts": 2
+        "checkouts": 2,
+        "purchases": 2,
+        "revenue": 296
       },
       {
         "date": "2026-02-22",
         "sessions": 56,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 3,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-23",
         "sessions": 38,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-24",
         "sessions": 52,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 6,
         "atc": 1,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-25",
         "sessions": 30,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 15,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-26",
         "sessions": 6,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-27",
         "sessions": 6,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-02-28",
         "sessions": 2,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-01",
         "sessions": 16,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-02",
         "sessions": 4,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-03",
         "sessions": 4,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-04",
         "sessions": 4,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-05",
         "sessions": 30,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-06",
         "sessions": 3,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 1,
         "atc": 1,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-07",
         "sessions": 3,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-08",
         "sessions": 5,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-09",
         "sessions": 12,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-10",
         "sessions": 22,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-11",
         "sessions": 19,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-12",
         "sessions": 14,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-13",
         "sessions": 38,
-        "revenue": 92.5,
-        "purchases": 1,
         "pdp_views": 7,
         "atc": 2,
-        "checkouts": 1
+        "checkouts": 1,
+        "purchases": 1,
+        "revenue": 92.5
       },
       {
         "date": "2026-03-14",
         "sessions": 12,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-15",
         "sessions": 18,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-16",
         "sessions": 34,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-17",
         "sessions": 34,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-18",
         "sessions": 12,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-19",
         "sessions": 16,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-20",
         "sessions": 15,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-21",
         "sessions": 20,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-22",
         "sessions": 13,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-23",
         "sessions": 8,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-24",
         "sessions": 6,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-25",
         "sessions": 4,
-        "revenue": 0,
-        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       },
       {
         "date": "2026-03-26",
-        "sessions": 8,
-        "revenue": 0,
-        "purchases": 0,
+        "sessions": 9,
         "pdp_views": 1,
         "atc": 1,
-        "checkouts": 1
+        "checkouts": 1,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-03-27",
+        "sessions": 17,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-03-28",
+        "sessions": 11,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-03-29",
+        "sessions": 8,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
       }
     ]
   },

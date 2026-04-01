@@ -1,7 +1,7 @@
 {
   "brand_id": "5cc7fc09-8acf-4af0-892f-735c6686c2a2",
   "brand_name": "Gains In Bulk",
-  "last_updated": "2026-03-30T00:00:00Z",
+  "last_updated": "2026-04-01T00:00:00Z",
   "health": {
     "score": 1,
     "status": "red",
@@ -19,7 +19,7 @@
   },
   "performance": {
     "yesterday": {
-      "sessions": 6,
+      "sessions": 2,
       "revenue": 0,
       "purchases": 0,
       "pdp_views": 0,
@@ -35,7 +35,7 @@
       "sessions": 10,
       "revenue": 0,
       "purchases": 0,
-      "pdp_views": 1,
+      "pdp_views": 0,
       "atc": 0,
       "checkouts": 0,
       "cvr": 0.0,
@@ -45,10 +45,10 @@
       "cpa": null
     },
     "7d": {
-      "sessions": 24,
+      "sessions": 19,
       "revenue": 0,
       "purchases": 0,
-      "pdp_views": 4,
+      "pdp_views": 3,
       "atc": 0,
       "checkouts": 0,
       "cvr": 0.0,
@@ -58,33 +58,33 @@
       "cpa": null
     },
     "15d": {
-      "sessions": 55,
+      "sessions": 51,
       "revenue": 78,
       "purchases": 1,
-      "pdp_views": 10,
+      "pdp_views": 8,
       "atc": 1,
       "checkouts": 0,
-      "cvr": 1.82,
+      "cvr": 1.96,
       "aov": 78.0,
       "ad_spend": null,
       "roas": null,
       "cpa": null
     },
     "30d": {
-      "sessions": 101,
+      "sessions": 102,
       "revenue": 78,
       "purchases": 1,
       "pdp_views": 23,
       "atc": 3,
       "checkouts": 0,
-      "cvr": 0.99,
+      "cvr": 0.98,
       "aov": 78.0,
       "ad_spend": null,
       "roas": null,
       "cpa": null
     },
     "45d": {
-      "sessions": 134,
+      "sessions": 133,
       "revenue": 78,
       "purchases": 1,
       "pdp_views": 33,
@@ -469,6 +469,24 @@
       {
         "date": "2026-03-29",
         "sessions": 6,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-03-30",
+        "sessions": 2,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-03-31",
+        "sessions": 2,
         "pdp_views": 0,
         "atc": 0,
         "checkouts": 0,

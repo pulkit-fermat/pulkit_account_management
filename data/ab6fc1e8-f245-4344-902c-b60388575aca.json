@@ -1,7 +1,7 @@
 {
   "brand_id": "ab6fc1e8-f245-4344-902c-b60388575aca",
   "brand_name": "FOND Regenerative",
-  "last_updated": "2026-03-30T00:00:00Z",
+  "last_updated": "2026-04-01T00:00:00Z",
   "health": {
     "score": 3,
     "status": "red",
@@ -19,10 +19,10 @@
   },
   "performance": {
     "yesterday": {
-      "sessions": 8,
+      "sessions": 17,
       "revenue": 0,
       "purchases": 0,
-      "pdp_views": 1,
+      "pdp_views": 0,
       "atc": 0,
       "checkouts": 0,
       "cvr": 0.0,
@@ -32,10 +32,10 @@
       "cpa": null
     },
     "3d": {
-      "sessions": 36,
+      "sessions": 44,
       "revenue": 0,
       "purchases": 0,
-      "pdp_views": 1,
+      "pdp_views": 2,
       "atc": 0,
       "checkouts": 0,
       "cvr": 0.0,
@@ -45,10 +45,10 @@
       "cpa": null
     },
     "7d": {
-      "sessions": 63,
+      "sessions": 85,
       "revenue": 0,
       "purchases": 0,
-      "pdp_views": 2,
+      "pdp_views": 3,
       "atc": 1,
       "checkouts": 1,
       "cvr": 0.0,
@@ -58,10 +58,10 @@
       "cpa": null
     },
     "15d": {
-      "sessions": 225,
+      "sessions": 209,
       "revenue": 0,
       "purchases": 0,
-      "pdp_views": 10,
+      "pdp_views": 8,
       "atc": 1,
       "checkouts": 1,
       "cvr": 0.0,
@@ -71,27 +71,27 @@
       "cpa": null
     },
     "30d": {
-      "sessions": 413,
+      "sessions": 431,
       "revenue": 92.5,
       "purchases": 1,
-      "pdp_views": 23,
+      "pdp_views": 24,
       "atc": 4,
       "checkouts": 2,
-      "cvr": 0.24,
+      "cvr": 0.23,
       "aov": 92.5,
       "ad_spend": null,
       "roas": null,
       "cpa": null
     },
     "45d": {
-      "sessions": 1130,
-      "revenue": 928.5,
-      "purchases": 6,
-      "pdp_views": 104,
-      "atc": 18,
-      "checkouts": 8,
-      "cvr": 0.53,
-      "aov": 154.75,
+      "sessions": 1122,
+      "revenue": 658.5,
+      "purchases": 5,
+      "pdp_views": 100,
+      "atc": 16,
+      "checkouts": 7,
+      "cvr": 0.45,
+      "aov": 131.7,
       "ad_spend": null,
       "roas": null,
       "cpa": null
@@ -506,6 +506,24 @@
         "date": "2026-03-29",
         "sessions": 8,
         "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-03-30",
+        "sessions": 19,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-03-31",
+        "sessions": 17,
+        "pdp_views": 0,
         "atc": 0,
         "checkouts": 0,
         "purchases": 0,

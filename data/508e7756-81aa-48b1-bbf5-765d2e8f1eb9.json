@@ -1,7 +1,7 @@
 {
   "brand_id": "508e7756-81aa-48b1-bbf5-765d2e8f1eb9",
   "brand_name": "Westmore Beauty",
-  "last_updated": "2026-04-01T00:00:00Z",
+  "last_updated": "2026-04-06T05:47:50.255913Z",
   "health": {
     "score": 9,
     "status": "red",
@@ -9,145 +9,156 @@
       "platform_performance": 0,
       "platform_performance_detail": "Sessions:0/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
       "communication": 7,
-      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:4/4, PulkitOutreach:3/4",
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:3/4, PulkitOutreach:4/4",
       "engagement": 2,
       "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": []
+    "signals": [
+      {
+        "type": "negative",
+        "text": "Zero FERMÀT sessions/revenue — platform completely inactive, no funnel metrics found",
+        "time": "Apr 5"
+      },
+      {
+        "type": "negative",
+        "text": "No Slack activity in 51+ days — brand not engaging in channel since Feb 14",
+        "time": "Apr 5"
+      },
+      {
+        "type": "negative",
+        "text": "No upcoming calls scheduled — need to book a sync",
+        "time": "Apr 5"
+      },
+      {
+        "type": "positive",
+        "text": "Pulkit emailed Brenda Apr 3 about Supreme Crème launch strategy",
+        "time": "Apr 3"
+      },
+      {
+        "type": "positive",
+        "text": "Brenda responded Apr 2 with interest in Supreme Crème landing page",
+        "time": "Apr 2"
+      },
+      {
+        "type": "warning",
+        "text": "Brand undergoing rebrand — may delay FERMÀT implementation further",
+        "time": "Mar 18"
+      }
+    ]
   },
   "performance": {
     "yesterday": {
-      "sessions": 0,
+      "ad_spend": null,
       "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
       "purchases": 0,
+      "aov": 0,
       "pdp_views": 0,
       "atc": 0,
-      "checkouts": 0,
-      "cvr": 0,
-      "aov": 0,
-      "ad_spend": null,
-      "roas": null,
-      "cpa": null
+      "checkouts": 0
     },
     "3d": {
-      "sessions": 0,
+      "ad_spend": null,
       "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
       "purchases": 0,
+      "aov": 0,
       "pdp_views": 0,
       "atc": 0,
-      "checkouts": 0,
-      "cvr": 0,
-      "aov": 0,
-      "ad_spend": null,
-      "roas": null,
-      "cpa": null
+      "checkouts": 0
     },
     "7d": {
-      "sessions": 0,
+      "ad_spend": null,
       "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
       "purchases": 0,
+      "aov": 0,
       "pdp_views": 0,
       "atc": 0,
-      "checkouts": 0,
-      "cvr": 0,
-      "aov": 0,
-      "ad_spend": null,
-      "roas": null,
-      "cpa": null
+      "checkouts": 0
     },
     "15d": {
-      "sessions": 0,
+      "ad_spend": null,
       "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
       "purchases": 0,
+      "aov": 0,
       "pdp_views": 0,
       "atc": 0,
-      "checkouts": 0,
-      "cvr": 0,
-      "aov": 0,
-      "ad_spend": null,
-      "roas": null,
-      "cpa": null
+      "checkouts": 0
     },
     "30d": {
-      "sessions": 0,
+      "ad_spend": null,
       "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
       "purchases": 0,
+      "aov": 0,
       "pdp_views": 0,
       "atc": 0,
-      "checkouts": 0,
-      "cvr": 0,
-      "aov": 0,
-      "ad_spend": null,
-      "roas": null,
-      "cpa": null
+      "checkouts": 0
     },
     "45d": {
-      "sessions": 0,
+      "ad_spend": null,
       "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
       "purchases": 0,
+      "aov": 0,
       "pdp_views": 0,
       "atc": 0,
-      "checkouts": 0,
-      "cvr": 0,
-      "aov": 0,
-      "ad_spend": null,
-      "roas": null,
-      "cpa": null
+      "checkouts": 0
     },
     "daily": []
   },
   "calls": {
     "recent": [
       {
-        "title": "Westmore Beauty <> FERMAT | Launch Kick Off",
-        "date": "2026-02-13T17:58:06.055379Z",
-        "duration": 2006,
-        "participants": "Brenda Hernandez (bhernandez@westmorebeauty.com), Jessica Tennant (jtennant@westmorebeauty.com), Talia Cohen (talia@fermatcommerce.com), Pulkit Srivastava (pulkit@fermatcommerce.com), rruger@westmorebeauty.com",
+        "title": "Westmore Beauty <> FERMÀT | Launch Kick Off",
+        "date": "2026-02-13T17:58:06Z",
+        "duration": "33 min",
+        "participants": "Brenda Hernandez, Jessica Tennant, Ryan Ruger (Westmore), Talia Cohen, Pulkit Srivastava (FERMÀT)",
         "source": "Glyphic",
-        "summary": "Talia and Pulkit held a launch kick-off with Westmore Beauty, where Jessica provided crucial feedback on the initial 62nd Eye Cream funnel, stressing the need for funnels to mirror their paid social landing page offers, including product bundles and upsells. FERMAT successfully connected Google Analytics, Google Ads, and Klaviyo integrations during the call.",
+        "summary": "Kick-off call discussing 60 Second Eye Cream, Body Coverage Perfector, and Supreme Cream funnels. Integrations complete (Google Ads, GA, Klaviyo). Shifted to performance-focused approach targeting key products.",
         "recording_url": null,
         "snippets": [],
         "action_items": [
-          "Revise 60 Second Eye funnel to match paid social landing page structure",
-          "Stitch 1, 2, and 3 pack SKUs into a Virtual Product",
-          "Add Dual-Sided Brow Brush as GWP",
-          "Build Body Coverage Perfector '5 Reasons Why' funnel",
-          "Westmore to share brand kit (fonts, hex codes)"
+          "Share brand kit (fonts, hex codes)",
+          "Upload hero video asset",
+          "Revise 60 Second Eye funnel"
         ]
       },
       {
-        "title": "Westmore Beauty <> FERMAT | Launch Kick Off",
-        "date": "2026-02-05T16:58:02.950625Z",
-        "duration": 2949,
-        "participants": "Brenda Hernandez (bhernandez@westmorebeauty.com), Pulkit Srivastava (pulkit@fermatcommerce.com), Ryan, Talia Cohen (talia@fermatcommerce.com), Jessica Tennant (jtennant@westmorebeauty.com), rruger@westmorebeauty.com",
+        "title": "Westmore Beauty <> FERMÀT | Launch Kick Off",
+        "date": "2026-02-05T16:58:02Z",
+        "duration": "49 min",
+        "participants": "Brenda Hernandez, Jessica Tennant, Ryan Ruger (Westmore), Pulkit Srivastava, Talia Cohen (FERMÀT)",
         "source": "Glyphic",
-        "summary": "The initial Westmore Beauty launch kick-off focused on setup, addressing email deliverability, Google Analytics integration, and Shopify product imports. Jessica, Brenda, and Ryan shared key objectives including improving conversion for specific SKUs, increasing testing velocity, and maintaining AOV, with ROAS and CAC as primary success metrics.",
+        "summary": "Initial kick-off with Westmore Beauty team. Discussed Shopify integration, product selection, and funnel strategy.",
         "recording_url": null,
         "snippets": [],
-        "action_items": [
-          "Build skeptic-first advertorial for 60 Second Eye",
-          "Build concern-specific funnels for Body Coverage Perfector",
-          "Westmore Beauty to create video shops for both products"
-        ]
-      },
-      {
-        "title": "Westmore Beauty x FERMAT Demo",
-        "date": "2025-10-17T19:00:24.400347Z",
-        "duration": 4568,
-        "participants": "Rae Prince (rae@fermatcommerce.com), Talia Cohen (talia@fermatcommerce.com), afriedson@guthy-renker.com, Daniel Chun (dchun@guthy-renker.com), Dan Joo (dan.joo@fermatcommerce.com)",
-        "source": "Glyphic",
-        "summary": "Rae Prince and Talia Cohen demonstrated FERMAT's platform to Westmore Beauty's team, showcasing personalized landing pages, PDPs, and carts. The team was interested in the AI assistant Pierre and bundling/A/B testing features. Daniel Chun expressed strong interest but requested a 3-month opt-out clause for thorough testing.",
-        "recording_url": null,
-        "snippets": [],
-        "action_items": [
-          "Provide 3-month opt-out clause in contract",
-          "Schedule separate deep-dive into A/B testing"
-        ]
+        "action_items": []
       }
     ],
-    "analysis": "Westmore Beauty had an initial demo in October 2025 and two kick-off calls in February 2026. The brand's key contacts are Jessica Tennant (VP eCommerce & Growth), Brenda Hernandez, and Ryan Ruger. They are focused on conversion optimization for hero SKUs (60 Second Eye, Body Coverage Perfector) and are currently stalled due to a rebrand."
+    "analysis": "Two kick-off calls completed in early February. Last recorded call was Mar 11 (Granola) to address funnel pricing issues and go-live timeline. Brand has been slow to engage since, primarily due to an ongoing rebrand."
   },
   "calendar": {
     "past": [],
@@ -156,14 +167,8 @@
   "slack": {
     "messages": [
       {
-        "user": "FERMAT",
-        "text": "FERMAT has joined the channel",
-        "timestamp": "2026-02-24T17:01:43+05:30",
-        "channel": "#fermat-x-westmorebeauty"
-      },
-      {
         "user": "Talia Cohen",
-        "text": "Cross posting call update: Recap of 2/13 call. Confirming Slack invites reshared. Key action items for both teams outlined including 60 Second Eye funnel revisions and Body Coverage Perfector funnel build.",
+        "text": "Cross posting call update here with recap of conversation including funnel revisions, integration status, and action items.",
         "timestamp": "2026-02-14T00:20:17+05:30",
         "channel": "#fermat-x-westmorebeauty"
       },
@@ -174,113 +179,65 @@
         "channel": "#fermat-x-westmorebeauty"
       },
       {
-        "user": "jtennant",
-        "text": "has left the channel",
-        "timestamp": "2026-02-11T02:19:19+05:30",
-        "channel": "#fermat-x-westmorebeauty"
-      },
-      {
         "user": "Talia Cohen",
-        "text": "Confirming I've reshared access to them! LMK if that works or we can try something else",
+        "text": "Confirming I've reshared access to them!",
         "timestamp": "2026-02-10T04:59:26+05:30",
         "channel": "#fermat-x-westmorebeauty"
       },
       {
-        "user": "jtennant",
-        "text": "Talia Cohen can you please add us as members from the admin to YOUR channel as a guest? We don't use slack internally and are having issues accessing slack past a free trial period",
+        "user": "Jessica Tennant (Westmore)",
+        "text": "Can you please add us as members from the admin? We don't use Slack internally.",
         "timestamp": "2026-02-10T03:21:37+05:30",
         "channel": "#fermat-x-westmorebeauty"
       },
       {
-        "user": "Slackbot",
-        "text": "Westmorebeauty has removed themselves from this channel.",
-        "timestamp": "2026-02-05T17:02:37+05:30",
-        "channel": "#fermat-x-westmorebeauty"
-      },
-      {
-        "user": "Ryan R",
-        "text": "has joined the channel",
-        "timestamp": "2026-02-05T06:11:10+05:30",
-        "channel": "#fermat-x-westmorebeauty"
-      },
-      {
-        "user": "Brenda Hernandez",
-        "text": "has joined the channel",
-        "timestamp": "2026-02-05T04:10:21+05:30",
-        "channel": "#fermat-x-westmorebeauty"
-      },
-      {
         "user": "Talia Cohen",
-        "text": "Pre-call message: Ahead of our call tomorrow, please make sure integrations (Shopify, GA4, Meta) are completed at least 24 hours before our call.",
+        "text": "Pre-call setup instructions with integration guides and onboarding checklist.",
         "timestamp": "2026-02-05T00:16:27+05:30",
+        "channel": "#fermat-x-westmorebeauty"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Pulkit has joined the channel",
+        "timestamp": "2026-02-03T22:36:05+05:30",
         "channel": "#fermat-x-westmorebeauty"
       }
     ],
-    "analysis": "Westmore Beauty's Slack channel has been largely inactive since mid-February 2026. The brand team had Slack access issues (free trial limitations) and members have left/been removed from the channel multiple times. No messages from the brand since February 12, indicating the account has gone silent. This aligns with the rebrand that Jessica mentioned in email."
+    "analysis": "Slack channel is essentially inactive. Westmore Beauty team doesn't use Slack internally and had access issues (removed themselves twice). Last substantive message from Talia on Feb 14. All communication has shifted to email between Pulkit and Jessica/Brenda."
   },
   "email": {
     "messages": [
       {
-        "from": "Sharing <sharing@superhuman.com>",
-        "subject": "FERMAT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-03-23T02:30:09Z",
-        "snippet": "Hey Jessica, Thanks for the update! I completely understand how rebranding can take precedence."
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "subject": "Re: FERMÀT <> Westmore Beauty | Call Recap 2/13",
+        "date": "2026-04-03T06:49:22Z",
+        "snippet": "Hi Brenda, Thanks so much for reaching out! I'm excited to help you strategize and optimize the landing page for the Supreme Crème launch."
       },
       {
-        "from": "Reminder <reminder@superhuman.com>",
-        "subject": "Re: FERMAT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-03-23T02:30:07Z",
-        "snippet": "Hey Jessica, Thanks for the update! I completely understand how rebranding can take precedence."
+        "from": "Brenda Hernandez <bhernandez@westmorebeauty.com>",
+        "subject": "Re: FERMÀT <> Westmore Beauty | Call Recap 2/13",
+        "date": "2026-04-02T21:46:19Z",
+        "snippet": "Hi Pulkit, We are in the process of launching our refreshed Supreme Crème and would love to touch base with you."
       },
       {
         "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "subject": "Re: FERMAT <> Westmore Beauty | Call Recap 2/13",
+        "subject": "Re: FERMÀT <> Westmore Beauty | Call Recap 2/13",
+        "date": "2026-03-31T13:41:29Z",
+        "snippet": "Hey Jessica, I know you're busy with the rebrand, but just wanted to check in."
+      },
+      {
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "subject": "Re: FERMÀT <> Westmore Beauty | Call Recap 2/13",
         "date": "2026-03-18T17:51:21Z",
-        "snippet": "Hey Jessica, Thanks for the update! I completely understand how rebranding can take precedence. Just let me know when you're ready to dive back in."
+        "snippet": "Hey Jessica, Thanks for the update! I completely understand how rebranding can take precedence."
       },
       {
         "from": "Jessica Tennant <jtennant@westmorebeauty.com>",
-        "subject": "Re: FERMAT <> Westmore Beauty | Call Recap 2/13",
+        "subject": "Re: FERMÀT <> Westmore Beauty | Call Recap 2/13",
         "date": "2026-03-18T16:59:08Z",
-        "snippet": "No i havent we have been knee deep in the rebrand which we will also need to update all creative to match."
-      },
-      {
-        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "subject": "Re: FERMAT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-03-18T16:24:31Z",
-        "snippet": "Hey Jessica, I wanted to reach out and see how things are going on your end."
-      },
-      {
-        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "subject": "Re: FERMAT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-03-16T10:51:28Z",
-        "snippet": "Hey Jessica, Just wanted to follow up and see if you've had a chance to test out the updated funnels."
-      },
-      {
-        "from": "Jessica Tennant <jtennant@westmorebeauty.com>",
-        "subject": "Re: FERMAT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-03-13T01:24:50Z",
-        "snippet": "Thank you so much! Going to dive in now!"
-      },
-      {
-        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "subject": "Re: FERMAT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-03-11T18:17:10Z",
-        "snippet": "Hey Jessica, As we discussed, I've updated the flows for both funnels based on your feedback."
-      },
-      {
-        "from": "Glyphic AI <noreply@glyphic.ai>",
-        "subject": "Jessica Tennant and Pulkit Srivastava summary is ready",
-        "date": "2026-03-11T16:34:54Z",
-        "snippet": "Find out some key insights..."
-      },
-      {
-        "from": "Glyphic AI <noreply@glyphic.ai>",
-        "subject": "Prepare for Jessica Tennant and Pulkit Srivastava",
-        "date": "2026-03-11T15:52:33Z",
-        "snippet": "Your call is starting soon"
+        "snippet": "No I haven't we have been knee deep in the rebrand which we will also need to update all creative to match."
       }
     ],
-    "analysis": "Email thread shows a pattern of follow-ups from Pulkit with declining responsiveness from Jessica Tennant. Last substantive reply from Jessica (March 18) reveals the brand is deep in a rebrand, stalling FERMAT funnel work. Multiple follow-up emails sent on March 11, 16, and 18. Superhuman reminder triggered on March 23 suggesting another follow-up is due. The brand is at risk of going silent."
+    "analysis": "Email is the primary communication channel for Westmore. Pulkit has been persistent with follow-ups (Mar 18, Mar 31, Apr 3). The brand was unresponsive during their rebrand but re-engaged on Apr 2 when Brenda reached out about the Supreme Crème launch — a promising sign."
   }
 }

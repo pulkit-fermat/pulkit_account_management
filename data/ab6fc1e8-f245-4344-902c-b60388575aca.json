@@ -1,7 +1,7 @@
 {
   "brand_id": "ab6fc1e8-f245-4344-902c-b60388575aca",
   "brand_name": "FOND Regenerative",
-  "last_updated": "2026-04-01T00:00:00Z",
+  "last_updated": "2026-04-06T06:25:35.710281Z",
   "health": {
     "score": 3,
     "status": "red",
@@ -15,160 +15,124 @@
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": []
+    "signals": [
+      {
+        "type": "negative",
+        "text": "Zero revenue and zero purchases in 7d (85 sessions with 0% CVR) -- platform not converting",
+        "time": "2026-03-31"
+      },
+      {
+        "type": "negative",
+        "text": "Zero email engagement in last 30 days -- no outreach from either side since GM handoff",
+        "time": "2026-04-01"
+      },
+      {
+        "type": "negative",
+        "text": "No calls scheduled and no meetings held since GM transition on Feb 25",
+        "time": "2026-04-01"
+      },
+      {
+        "type": "negative",
+        "text": "Slack channel silent since Mar 13 (19 days) -- video compression question went unanswered",
+        "time": "2026-03-13"
+      },
+      {
+        "type": "warning",
+        "text": "Only 1 purchase ($92.50) in entire 30d period vs 4 purchases ($566) in prior 15 days -- steep decline",
+        "time": "2026-03-31"
+      },
+      {
+        "type": "negative",
+        "text": "Brand team (Chelsea, Kendall, Amy) were active with Talia but engagement dropped completely after Pulkit transition",
+        "time": "2026-02-25"
+      },
+      {
+        "type": "warning",
+        "text": "45d total: only $658.50 revenue from 5 purchases across 1,122 sessions -- extremely low conversion",
+        "time": "2026-04-01"
+      }
+    ]
   },
   "performance": {
     "yesterday": {
-      "sessions": 17,
-      "revenue": 0,
+      "ad_spend": null,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "sessions": 10,
+      "roas": null,
+      "cpa": null,
       "purchases": 0,
+      "aov": 0,
       "pdp_views": 0,
       "atc": 0,
-      "checkouts": 0,
-      "cvr": 0.0,
-      "aov": 0,
-      "ad_spend": null,
-      "roas": null,
-      "cpa": null
+      "checkouts": 0
     },
     "3d": {
-      "sessions": 44,
-      "revenue": 0,
-      "purchases": 0,
-      "pdp_views": 2,
-      "atc": 0,
-      "checkouts": 0,
-      "cvr": 0.0,
-      "aov": 0,
       "ad_spend": null,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "sessions": 26,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
     },
     "7d": {
-      "sessions": 85,
-      "revenue": 0,
-      "purchases": 0,
-      "pdp_views": 3,
-      "atc": 1,
-      "checkouts": 1,
-      "cvr": 0.0,
-      "aov": 0,
       "ad_spend": null,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "sessions": 94,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 1,
+      "atc": 0,
+      "checkouts": 0
     },
     "15d": {
-      "sessions": 209,
-      "revenue": 0,
-      "purchases": 0,
-      "pdp_views": 8,
-      "atc": 1,
-      "checkouts": 1,
-      "cvr": 0.0,
-      "aov": 0,
       "ad_spend": null,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "sessions": 170,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 3,
+      "atc": 1,
+      "checkouts": 1
     },
     "30d": {
-      "sessions": 431,
-      "revenue": 92.5,
-      "purchases": 1,
-      "pdp_views": 24,
-      "atc": 4,
-      "checkouts": 2,
-      "cvr": 0.23,
-      "aov": 92.5,
       "ad_spend": null,
+      "revenue": 92.5,
+      "cvr": 0.2252,
+      "sessions": 444,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 1,
+      "aov": 92.5,
+      "pdp_views": 23,
+      "atc": 3,
+      "checkouts": 2
     },
     "45d": {
-      "sessions": 1122,
-      "revenue": 658.5,
-      "purchases": 5,
-      "pdp_views": 100,
-      "atc": 16,
-      "checkouts": 7,
-      "cvr": 0.45,
-      "aov": 131.7,
       "ad_spend": null,
+      "revenue": 388.5,
+      "cvr": 0.3413,
+      "sessions": 879,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 3,
+      "aov": 129.5,
+      "pdp_views": 71,
+      "atc": 11,
+      "checkouts": 5
     },
     "daily": [
-      {
-        "date": "2026-02-12",
-        "sessions": 24,
-        "pdp_views": 3,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-13",
-        "sessions": 20,
-        "pdp_views": 2,
-        "atc": 2,
-        "checkouts": 1,
-        "purchases": 1,
-        "revenue": 270
-      },
-      {
-        "date": "2026-02-14",
-        "sessions": 35,
-        "pdp_views": 3,
-        "atc": 1,
-        "checkouts": 1,
-        "purchases": 1,
-        "revenue": 135
-      },
-      {
-        "date": "2026-02-15",
-        "sessions": 57,
-        "pdp_views": 4,
-        "atc": 1,
-        "checkouts": 1,
-        "purchases": 1,
-        "revenue": 135
-      },
-      {
-        "date": "2026-02-16",
-        "sessions": 65,
-        "pdp_views": 12,
-        "atc": 1,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-17",
-        "sessions": 74,
-        "pdp_views": 9,
-        "atc": 2,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-18",
-        "sessions": 39,
-        "pdp_views": 1,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-19",
-        "sessions": 31,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
       {
         "date": "2026-02-20",
         "sessions": 85,
@@ -523,6 +487,51 @@
       {
         "date": "2026-03-31",
         "sessions": 17,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-04-01",
+        "sessions": 11,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-04-02",
+        "sessions": 21,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-04-03",
+        "sessions": 12,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-04-04",
+        "sessions": 4,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-04-05",
+        "sessions": 10,
         "pdp_views": 0,
         "atc": 0,
         "checkouts": 0,

@@ -1,550 +1,601 @@
 {
   "brand_id": "39f04705-e991-461e-a98f-2dd3f29d6e47",
   "brand_name": "belliwelli",
-  "last_updated": "2026-04-01T00:00:00Z",
+  "last_updated": "2026-04-06T12:00:00",
   "health": {
-    "score": 46,
+    "score": 49,
     "status": "yellow",
     "breakdown": {
       "platform_performance": 19,
       "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:4/5, Purchases:5/5",
-      "communication": 9,
-      "communication_detail": "SlackRecency:3/4, BrandSlack14d:1/4, PulkitSlack14d:2/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
+      "communication": 12,
+      "communication_detail": "SlackRecency:4/4, BrandSlack14d:3/4, PulkitSlack14d:2/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
       "engagement": 18,
       "engagement_detail": "LastCall:8/8, Calls30d:4/6, Upcoming:6/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": []
+    "signals": [
+      {
+        "type": "positive",
+        "text": "Strong 7d sessions (10,112) with consistent daily traffic >1,200",
+        "time": "Apr 5"
+      },
+      {
+        "type": "positive",
+        "text": "7d revenue $5,412.92 with 144 purchases across the period",
+        "time": "Apr 5"
+      },
+      {
+        "type": "positive",
+        "text": "Brand actively using platform - Tom setting up experiments and building funnels independently",
+        "time": "Mar 31"
+      },
+      {
+        "type": "warning",
+        "text": "7d CVR at 1.44% - below 3% target discussed on Mar 23 call",
+        "time": "Apr 5"
+      },
+      {
+        "type": "negative",
+        "text": "CODE RED 404 issue reported Mar 18 on Doctor Backed Generic Fiber funnel",
+        "time": "Mar 18"
+      },
+      {
+        "type": "positive",
+        "text": "Bi-weekly calls scheduled through June, next Apr 20",
+        "time": "Apr 6"
+      },
+      {
+        "type": "warning",
+        "text": "Account recently transitioned from Talia to Pulkit on Feb 25",
+        "time": "Feb 25"
+      }
+    ]
   },
   "performance": {
     "yesterday": {
-      "sessions": 1373,
-      "revenue": 616.21,
-      "purchases": 15,
-      "pdp_views": 93,
-      "atc": 48,
-      "checkouts": 25,
-      "cvr": 1.09,
-      "aov": 41.08,
       "ad_spend": null,
+      "revenue": 769.99,
+      "cvr": 1.16,
+      "sessions": 1470,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 17,
+      "aov": 45.29,
+      "pdp_views": 82,
+      "atc": 49,
+      "checkouts": 22
     },
     "3d": {
-      "sessions": 4733,
-      "revenue": 3036.39,
-      "purchases": 67,
-      "pdp_views": 295,
-      "atc": 169,
-      "checkouts": 101,
-      "cvr": 1.42,
-      "aov": 45.32,
       "ad_spend": null,
+      "revenue": 2550.48,
+      "cvr": 1.29,
+      "sessions": 4422,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 57,
+      "aov": 44.74,
+      "pdp_views": 256,
+      "atc": 154,
+      "checkouts": 79
     },
     "7d": {
-      "sessions": 10726,
-      "revenue": 7738.96,
-      "purchases": 168,
-      "pdp_views": 650,
-      "atc": 379,
-      "checkouts": 225,
-      "cvr": 1.57,
-      "aov": 46.07,
       "ad_spend": null,
+      "revenue": 5412.92,
+      "cvr": 1.42,
+      "sessions": 10112,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 144,
+      "aov": 37.59,
+      "pdp_views": 604,
+      "atc": 347,
+      "checkouts": 203
     },
     "15d": {
-      "sessions": 22886,
-      "revenue": 15220.48,
-      "purchases": 325,
-      "pdp_views": 1369,
-      "atc": 775,
-      "checkouts": 444,
-      "cvr": 1.42,
-      "aov": 46.83,
       "ad_spend": null,
+      "revenue": 14814.98,
+      "cvr": 1.44,
+      "sessions": 22204,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 319,
+      "aov": 46.44,
+      "pdp_views": 1314,
+      "atc": 766,
+      "checkouts": 444
     },
     "30d": {
-      "sessions": 42684,
-      "revenue": 30086.92,
-      "purchases": 619,
-      "pdp_views": 2509,
-      "atc": 1470,
-      "checkouts": 846,
-      "cvr": 1.45,
-      "aov": 48.61,
       "ad_spend": null,
+      "revenue": 28863.3,
+      "cvr": 1.37,
+      "sessions": 44159,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 606,
+      "aov": 47.63,
+      "pdp_views": 2659,
+      "atc": 1496,
+      "checkouts": 868
     },
     "45d": {
-      "sessions": 60000,
-      "revenue": 41898.44,
-      "purchases": 839,
-      "pdp_views": 3408,
-      "atc": 1970,
-      "checkouts": 1198,
-      "cvr": 1.4,
-      "aov": 49.94,
       "ad_spend": null,
+      "revenue": 42137.14,
+      "cvr": 1.37,
+      "sessions": 60698,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 832,
+      "aov": 50.65,
+      "pdp_views": 3488,
+      "atc": 1993,
+      "checkouts": 1147
     },
     "daily": [
       {
-        "date": "2026-02-12",
-        "sessions": 922,
-        "pdp_views": 63,
-        "atc": 32,
-        "checkouts": 21,
-        "purchases": 14,
-        "revenue": 747.98
-      },
-      {
-        "date": "2026-02-13",
-        "sessions": 965,
-        "pdp_views": 52,
-        "atc": 33,
-        "checkouts": 17,
-        "purchases": 13,
-        "revenue": 664.28
-      },
-      {
-        "date": "2026-02-14",
-        "sessions": 862,
-        "pdp_views": 53,
-        "atc": 26,
-        "checkouts": 18,
-        "purchases": 11,
-        "revenue": 589.27
-      },
-      {
-        "date": "2026-02-15",
-        "sessions": 1132,
-        "pdp_views": 66,
-        "atc": 32,
-        "checkouts": 23,
-        "purchases": 12,
-        "revenue": 552.49
-      },
-      {
-        "date": "2026-02-16",
-        "sessions": 886,
-        "pdp_views": 36,
-        "atc": 25,
-        "checkouts": 15,
-        "purchases": 14,
-        "revenue": 664.29
-      },
-      {
-        "date": "2026-02-17",
-        "sessions": 999,
-        "pdp_views": 52,
-        "atc": 28,
-        "checkouts": 18,
-        "purchases": 10,
-        "revenue": 452.69
-      },
-      {
-        "date": "2026-02-18",
-        "sessions": 1073,
-        "pdp_views": 62,
-        "atc": 39,
-        "checkouts": 28,
-        "purchases": 17,
-        "revenue": 738.17
-      },
-      {
-        "date": "2026-02-19",
-        "sessions": 1076,
-        "pdp_views": 65,
-        "atc": 39,
-        "checkouts": 27,
-        "purchases": 17,
-        "revenue": 733.43
-      },
-      {
         "date": "2026-02-20",
         "sessions": 1031,
+        "revenue": 653.1,
+        "purchases": 12,
         "pdp_views": 56,
         "atc": 28,
-        "checkouts": 23,
-        "purchases": 12,
-        "revenue": 653.1
+        "checkouts": 23
       },
       {
         "date": "2026-02-21",
         "sessions": 1115,
+        "revenue": 469.23,
+        "purchases": 11,
         "pdp_views": 51,
         "atc": 30,
-        "checkouts": 18,
-        "purchases": 11,
-        "revenue": 469.23
+        "checkouts": 18
       },
       {
         "date": "2026-02-22",
         "sessions": 1260,
+        "revenue": 921.88,
+        "purchases": 20,
         "pdp_views": 55,
         "atc": 48,
-        "checkouts": 35,
-        "purchases": 20,
-        "revenue": 921.88
+        "checkouts": 35
       },
       {
         "date": "2026-02-23",
         "sessions": 1205,
+        "revenue": 766.48,
+        "purchases": 16,
         "pdp_views": 62,
         "atc": 35,
-        "checkouts": 28,
-        "purchases": 16,
-        "revenue": 766.48
+        "checkouts": 28
       },
       {
         "date": "2026-02-24",
         "sessions": 1105,
+        "revenue": 453.32,
+        "purchases": 7,
         "pdp_views": 60,
         "atc": 25,
-        "checkouts": 19,
-        "purchases": 7,
-        "revenue": 453.32
+        "checkouts": 19
       },
       {
         "date": "2026-02-25",
         "sessions": 1027,
+        "revenue": 1001.22,
+        "purchases": 13,
         "pdp_views": 42,
         "atc": 21,
-        "checkouts": 18,
-        "purchases": 13,
-        "revenue": 1001.22
+        "checkouts": 18
       },
       {
         "date": "2026-02-26",
         "sessions": 1361,
+        "revenue": 792.27,
+        "purchases": 13,
         "pdp_views": 75,
         "atc": 29,
-        "checkouts": 18,
-        "purchases": 13,
-        "revenue": 792.27
+        "checkouts": 18
       },
       {
         "date": "2026-02-27",
         "sessions": 1088,
+        "revenue": 1336.6,
+        "purchases": 21,
         "pdp_views": 61,
         "atc": 35,
-        "checkouts": 26,
-        "purchases": 21,
-        "revenue": 1336.6
+        "checkouts": 26
       },
       {
         "date": "2026-02-28",
         "sessions": 972,
+        "revenue": 748.67,
+        "purchases": 11,
         "pdp_views": 49,
         "atc": 31,
-        "checkouts": 17,
-        "purchases": 11,
-        "revenue": 748.67
+        "checkouts": 17
       },
       {
         "date": "2026-03-01",
         "sessions": 1124,
+        "revenue": 938.41,
+        "purchases": 15,
         "pdp_views": 54,
         "atc": 29,
-        "checkouts": 21,
-        "purchases": 15,
-        "revenue": 938.41
+        "checkouts": 21
       },
       {
         "date": "2026-03-02",
         "sessions": 1218,
+        "revenue": 948.13,
+        "purchases": 14,
         "pdp_views": 71,
         "atc": 38,
-        "checkouts": 20,
-        "purchases": 14,
-        "revenue": 948.13
+        "checkouts": 20
       },
       {
         "date": "2026-03-03",
         "sessions": 1035,
+        "revenue": 705.96,
+        "purchases": 13,
         "pdp_views": 51,
         "atc": 26,
-        "checkouts": 14,
-        "purchases": 13,
-        "revenue": 705.96
+        "checkouts": 14
       },
       {
         "date": "2026-03-04",
         "sessions": 1084,
+        "revenue": 1046.0,
+        "purchases": 19,
         "pdp_views": 61,
         "atc": 41,
-        "checkouts": 27,
-        "purchases": 19,
-        "revenue": 1046
+        "checkouts": 27
       },
       {
         "date": "2026-03-05",
         "sessions": 953,
+        "revenue": 1007.75,
+        "purchases": 20,
         "pdp_views": 56,
         "atc": 41,
-        "checkouts": 24,
-        "purchases": 20,
-        "revenue": 1007.75
+        "checkouts": 24
       },
       {
         "date": "2026-03-06",
         "sessions": 1011,
+        "revenue": 1153.15,
+        "purchases": 22,
         "pdp_views": 58,
         "atc": 40,
-        "checkouts": 26,
-        "purchases": 22,
-        "revenue": 1153.15
+        "checkouts": 26
       },
       {
         "date": "2026-03-07",
         "sessions": 1071,
+        "revenue": 1154.43,
+        "purchases": 25,
         "pdp_views": 63,
         "atc": 46,
-        "checkouts": 28,
-        "purchases": 25,
-        "revenue": 1154.43
+        "checkouts": 28
       },
       {
         "date": "2026-03-08",
         "sessions": 1185,
+        "revenue": 724.39,
+        "purchases": 18,
         "pdp_views": 64,
         "atc": 42,
-        "checkouts": 29,
-        "purchases": 18,
-        "revenue": 724.39
+        "checkouts": 29
       },
       {
         "date": "2026-03-09",
         "sessions": 1255,
+        "revenue": 900.15,
+        "purchases": 18,
         "pdp_views": 68,
         "atc": 38,
-        "checkouts": 23,
-        "purchases": 18,
-        "revenue": 900.15
+        "checkouts": 23
       },
       {
         "date": "2026-03-10",
         "sessions": 1330,
+        "revenue": 1070.39,
+        "purchases": 25,
         "pdp_views": 68,
         "atc": 48,
-        "checkouts": 36,
-        "purchases": 25,
-        "revenue": 1070.39
+        "checkouts": 36
       },
       {
         "date": "2026-03-11",
         "sessions": 1220,
+        "revenue": 872.65,
+        "purchases": 19,
         "pdp_views": 70,
         "atc": 55,
-        "checkouts": 31,
-        "purchases": 19,
-        "revenue": 872.65
+        "checkouts": 31
       },
       {
         "date": "2026-03-12",
         "sessions": 1385,
+        "revenue": 1807.06,
+        "purchases": 34,
         "pdp_views": 92,
         "atc": 66,
-        "checkouts": 38,
-        "purchases": 34,
-        "revenue": 1807.06
+        "checkouts": 38
       },
       {
         "date": "2026-03-13",
         "sessions": 2095,
+        "revenue": 980.88,
+        "purchases": 19,
         "pdp_views": 144,
         "atc": 67,
-        "checkouts": 30,
-        "purchases": 19,
-        "revenue": 980.88
+        "checkouts": 30
       },
       {
         "date": "2026-03-14",
         "sessions": 1410,
+        "revenue": 465.2,
+        "purchases": 10,
         "pdp_views": 87,
         "atc": 40,
-        "checkouts": 18,
-        "purchases": 10,
-        "revenue": 465.2
+        "checkouts": 18
       },
       {
         "date": "2026-03-15",
         "sessions": 1794,
+        "revenue": 1045.71,
+        "purchases": 20,
         "pdp_views": 114,
         "atc": 63,
-        "checkouts": 28,
-        "purchases": 20,
-        "revenue": 1045.71
+        "checkouts": 28
       },
       {
         "date": "2026-03-16",
         "sessions": 1752,
+        "revenue": 984.59,
+        "purchases": 18,
         "pdp_views": 73,
         "atc": 44,
-        "checkouts": 30,
-        "purchases": 18,
-        "revenue": 984.59
+        "checkouts": 30
       },
       {
         "date": "2026-03-17",
         "sessions": 1499,
+        "revenue": 734.8,
+        "purchases": 16,
         "pdp_views": 75,
         "atc": 47,
-        "checkouts": 29,
-        "purchases": 16,
-        "revenue": 734.8
+        "checkouts": 29
       },
       {
         "date": "2026-03-18",
         "sessions": 1569,
+        "revenue": 1172.54,
+        "purchases": 21,
         "pdp_views": 97,
         "atc": 49,
-        "checkouts": 29,
-        "purchases": 21,
-        "revenue": 1172.54
+        "checkouts": 29
       },
       {
         "date": "2026-03-19",
         "sessions": 1579,
+        "revenue": 758.81,
+        "purchases": 17,
         "pdp_views": 87,
         "atc": 52,
-        "checkouts": 28,
-        "purchases": 17,
-        "revenue": 758.81
+        "checkouts": 28
       },
       {
         "date": "2026-03-20",
         "sessions": 1373,
+        "revenue": 1108.53,
+        "purchases": 21,
         "pdp_views": 87,
         "atc": 48,
-        "checkouts": 25,
-        "purchases": 21,
-        "revenue": 1108.53
+        "checkouts": 25
       },
       {
         "date": "2026-03-21",
         "sessions": 1375,
+        "revenue": 671.65,
+        "purchases": 15,
         "pdp_views": 86,
         "atc": 37,
-        "checkouts": 19,
-        "purchases": 15,
-        "revenue": 671.65
+        "checkouts": 19
       },
       {
         "date": "2026-03-22",
         "sessions": 1628,
+        "revenue": 1218.05,
+        "purchases": 26,
         "pdp_views": 96,
         "atc": 59,
-        "checkouts": 32,
-        "purchases": 26,
-        "revenue": 1218.05
+        "checkouts": 32
       },
       {
         "date": "2026-03-23",
         "sessions": 1482,
+        "revenue": 1087.31,
+        "purchases": 25,
         "pdp_views": 84,
         "atc": 56,
-        "checkouts": 31,
-        "purchases": 25,
-        "revenue": 1087.31
+        "checkouts": 31
       },
       {
         "date": "2026-03-24",
         "sessions": 1655,
+        "revenue": 729.83,
+        "purchases": 16,
         "pdp_views": 107,
         "atc": 48,
-        "checkouts": 26,
-        "purchases": 16,
-        "revenue": 729.83
+        "checkouts": 26
       },
       {
         "date": "2026-03-25",
         "sessions": 1451,
+        "revenue": 904.1,
+        "purchases": 19,
         "pdp_views": 71,
         "atc": 48,
-        "checkouts": 27,
-        "purchases": 19,
-        "revenue": 904.1
+        "checkouts": 27
       },
       {
         "date": "2026-03-26",
         "sessions": 1579,
+        "revenue": 1724.98,
+        "purchases": 34,
         "pdp_views": 98,
         "atc": 66,
-        "checkouts": 39,
-        "purchases": 34,
-        "revenue": 1724.98
+        "checkouts": 39
       },
       {
         "date": "2026-03-27",
         "sessions": 1634,
+        "revenue": 928.19,
+        "purchases": 22,
         "pdp_views": 93,
         "atc": 45,
-        "checkouts": 28,
-        "purchases": 22,
-        "revenue": 928.19
+        "checkouts": 28
       },
       {
         "date": "2026-03-28",
         "sessions": 1329,
+        "revenue": 1145.3,
+        "purchases": 26,
         "pdp_views": 93,
         "atc": 51,
-        "checkouts": 30,
-        "purchases": 26,
-        "revenue": 1145.3
+        "checkouts": 30
       },
       {
         "date": "2026-03-29",
-        "sessions": 1570,
-        "pdp_views": 101,
-        "atc": 60,
-        "checkouts": 37,
-        "purchases": 24,
-        "revenue": 1137.91
+        "sessions": 1711,
+        "revenue": 1346.66,
+        "purchases": 28,
+        "pdp_views": 111,
+        "atc": 65,
+        "checkouts": 39
       },
       {
         "date": "2026-03-30",
         "sessions": 1790,
+        "revenue": 1282.27,
+        "purchases": 28,
         "pdp_views": 101,
         "atc": 61,
-        "checkouts": 39,
-        "purchases": 28,
-        "revenue": 1282.27
+        "checkouts": 39
       },
       {
         "date": "2026-03-31",
         "sessions": 1373,
+        "revenue": 616.21,
+        "purchases": 15,
         "pdp_views": 93,
         "atc": 48,
-        "checkouts": 25,
-        "purchases": 15,
-        "revenue": 616.21
+        "checkouts": 25
+      },
+      {
+        "date": "2026-04-01",
+        "sessions": 1226,
+        "revenue": 888.93,
+        "purchases": 21,
+        "pdp_views": 76,
+        "atc": 48,
+        "checkouts": 30
+      },
+      {
+        "date": "2026-04-02",
+        "sessions": 1301,
+        "revenue": 1075.03,
+        "purchases": 23,
+        "pdp_views": 79,
+        "atc": 46,
+        "checkouts": 30
+      },
+      {
+        "date": "2026-04-03",
+        "sessions": 1507,
+        "revenue": 692.18,
+        "purchases": 17,
+        "pdp_views": 83,
+        "atc": 48,
+        "checkouts": 27
+      },
+      {
+        "date": "2026-04-04",
+        "sessions": 1445,
+        "revenue": 1088.31,
+        "purchases": 23,
+        "pdp_views": 91,
+        "atc": 57,
+        "checkouts": 30
+      },
+      {
+        "date": "2026-04-05",
+        "sessions": 1470,
+        "revenue": 769.99,
+        "purchases": 17,
+        "pdp_views": 82,
+        "atc": 49,
+        "checkouts": 22
       }
     ]
   },
   "calls": {
-    "recent": [],
-    "analysis": "Glyphic API unavailable during data pull. No call data retrieved."
+    "recent": [
+      {
+        "title": "Belliwelli x FERMAT|| Bi-Weekly",
+        "date": "2026-03-23T21:30:00+05:30",
+        "duration": "30 min",
+        "participants": "Pulkit, Tom (belliwelli), Nidhi",
+        "source": "Granola",
+        "summary": "Reviewed $28K revenue (30d), 56% subscription rate. CVR at 1.38% (target 3%). Best Seller GLP-1 funnel leading with 29K sessions. Doctor Backed Generic Fiber at 0.19% CVR needs overhaul.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": [
+          "Deep-dive analysis on CVR patterns",
+          "Build Cherry Limeade + Watermelon flavor selector",
+          "Fix experiment data dashboard issues",
+          "Share ad creative for underperforming fiber funnel"
+        ]
+      },
+      {
+        "title": "BelliWelli <> FERMAT | Bi-Weekly Check In",
+        "date": "2026-02-19T19:58:05Z",
+        "duration": "17 min",
+        "participants": "Talia Cohen, Tom Fitzpatrick, Morry Mitrani",
+        "source": "Glyphic",
+        "summary": "Tom inquired about gift-with-purchase for excess inventory (cucumber/yuzu flavors). Advised Skio for core offer + FERMAT display-only. Discussed funnel optimization to reduce scroll fatigue.",
+        "recording_url": "https://app.glyphic.ai/calls/69976f3acf4f06645a48c452",
+        "snippets": [],
+        "action_items": [
+          "Set up gift-with-purchase in Skio + display-only in FERMAT",
+          "A/B test funnel layout with product card moved up"
+        ]
+      },
+      {
+        "title": "BelliWelli <> FERMAT | Business Review",
+        "date": "2026-02-09T20:58:06Z",
+        "duration": "47 min",
+        "participants": "Tom Fitzpatrick, Morry, Mia DyBuncio, Talia Cohen",
+        "source": "Glyphic",
+        "summary": "Comprehensive business review covering performance, funnel analysis, strategic roadmap. Discussed Spanish funnels, pricing restructuring, AI Search trial.",
+        "recording_url": "https://app.glyphic.ai/calls/698a555b0f182b5333443c28",
+        "snippets": [],
+        "action_items": []
+      }
+    ],
+    "analysis": "BelliWelli has regular bi-weekly calls with strong engagement from Tom Fitzpatrick (Dir. Ecommerce) and Morry Mitrani. The brand is self-sufficient on FERMAT, building funnels independently. Key focus: CVR optimization (1.38% vs 3% target) and scaling via Spanish funnels and flavor selectors."
   },
   "calendar": {
     "past": [
       {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "title": "Belliwelli x FERMAT|| Bi-Weekly",
         "start": "2026-03-09T21:30:00+05:30",
         "end": "2026-03-09T22:00:00+05:30",
         "attendees": []
       },
       {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "title": "Belliwelli x FERMAT|| Bi-Weekly",
         "start": "2026-03-23T21:30:00+05:30",
         "end": "2026-03-23T22:00:00+05:30",
         "attendees": []
@@ -552,27 +603,27 @@
     ],
     "upcoming": [
       {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
-        "start": "2026-04-06T21:30:00+05:30",
-        "end": "2026-04-06T22:00:00+05:30",
-        "attendees": []
-      },
-      {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "title": "Belliwelli x FERMAT|| Bi-Weekly",
         "start": "2026-04-20T21:30:00+05:30",
         "end": "2026-04-20T22:00:00+05:30",
         "attendees": []
       },
       {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "title": "Belliwelli x FERMAT|| Bi-Weekly",
         "start": "2026-05-04T21:30:00+05:30",
         "end": "2026-05-04T22:00:00+05:30",
         "attendees": []
       },
       {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "title": "Belliwelli x FERMAT|| Bi-Weekly",
         "start": "2026-05-18T21:30:00+05:30",
         "end": "2026-05-18T22:00:00+05:30",
+        "attendees": []
+      },
+      {
+        "title": "Belliwelli x FERMAT|| Bi-Weekly",
+        "start": "2026-06-01T21:30:00+05:30",
+        "end": "2026-06-01T22:00:00+05:30",
         "attendees": []
       }
     ]
@@ -580,89 +631,53 @@
   "slack": {
     "messages": [
       {
+        "user": "Tom Fitz",
+        "text": "Changes in experiment variant reverting on save - shared Loom video",
+        "timestamp": "2026-03-31T21:14:26+05:30",
+        "channel": "#belliwelli-fermat-new"
+      },
+      {
+        "user": "Tom Fitz",
+        "text": "Asked about making PDP with powders OR gummies selector",
+        "timestamp": "2026-03-30T22:41:45+05:30",
+        "channel": "#belliwelli-fermat-new"
+      },
+      {
         "user": "Pulkit Srivastava",
-        "text": "Hey Tom Fitz — great call today! Performance Highlights: Revenue — $28K (last 30 days), Subscription Rate — 56%, CVR — 1.38%. Key Takeaways: Top Performer — Best Seller GLP-1 funnel, Scale Opportunity — Generic Gummies v1 at 2.5% CVR needs more traffic, Problem Child — Doctor Backed Generic Fiber at 0.19% CVR needs overhaul.",
+        "text": "Posted call recap: $28K revenue, 56% sub rate, 1.38% CVR, action items",
         "timestamp": "2026-03-23T22:02:46+05:30",
-        "channel": "belliwelli-fermàt-new"
+        "channel": "#belliwelli-fermat-new"
       },
       {
-        "user": "Unknown",
-        "text": "CODE RED — this page is 404ing. What's going on?? (shop.belliwelli.com funnel link)",
+        "user": "Tom Fitz",
+        "text": "CODE RED - Funnel page 404ing on Doctor Backed Generic Fiber",
         "timestamp": "2026-03-18T17:12:52+05:30",
-        "channel": "belliwelli-fermàt-new"
+        "channel": "#belliwelli-fermat-new"
       },
       {
-        "user": "Unknown",
-        "text": "Talia Cohen / Pulkit — We've been running this experiment since Friday and still no data is showing up",
+        "user": "Morry Mitrani",
+        "text": "Experiment running since Friday with no data showing up",
         "timestamp": "2026-03-11T22:10:36+05:30",
-        "channel": "belliwelli-fermàt-new"
-      },
-      {
-        "user": "Unknown",
-        "text": "Talia Cohen / Pulkit — would you be able to look into this pdp and advise why the wrong lead image is pulling?",
-        "timestamp": "2026-02-26T01:35:07+05:30",
-        "channel": "belliwelli-fermàt-new"
-      },
-      {
-        "user": "Unknown",
-        "text": "Talia Cohen congratulations on your new role! Pulkit good to meet you and looking forward to working together.",
-        "timestamp": "2026-02-25T22:51:10+05:30",
-        "channel": "belliwelli-fermàt-new"
-      },
-      {
-        "user": "Pulkit Srivastava",
-        "text": "Hey BelliWelli team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all!",
-        "timestamp": "2026-02-25T20:47:10+05:30",
-        "channel": "belliwelli-fermàt-new"
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Hey BelliWelli team! I'm reaching out with some bittersweet but exciting news — later this week I'll be transitioning into a new role on our Enterprise team here at FERMÀT. I'm thrilled to introduce Pulkit.",
-        "timestamp": "2026-02-25T19:30:22+05:30",
-        "channel": "belliwelli-fermàt-new"
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Hey Tom Fitz - thanks for the time earlier today! Sending over performance analysis and recommendations for Best Sellers GLP1 and Gummies GLP1 Version 1 funnels. Contract set to roll on February 22nd.",
-        "timestamp": "2026-02-20T02:35:33+05:30",
-        "channel": "belliwelli-fermàt-new"
+        "channel": "#belliwelli-fermat-new"
       }
     ],
-    "analysis": "Active channel with regular bi-weekly recaps. Recent urgent 404 issue flagged on Mar 18 (resolved). Experiment data visibility issue reported Mar 11. GM handoff from Talia Cohen to Pulkit Srivastava completed Feb 25. Brand is engaged and responsive."
+    "analysis": "Active Slack channel with brand contacts (Tom, Morry) regularly raising issues. Pulkit is responsive and posts detailed call recaps. Recent issues include a 404 on a funnel page and experiment data visibility problems, indicating active platform usage."
   },
   "email": {
     "messages": [
       {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-03-26T15:37:41-07:00",
-        "snippet": "Your ads were approved and should begin delivering shortly."
+        "from": "Loom <info@e.atlassian.com>",
+        "subject": "Your video has been viewed: Belliwelli Issue",
+        "date": "2026-04-01T06:21:25-06:00",
+        "snippet": "belliwelli issue was watched for the first time"
       },
       {
         "from": "Glyphic AI <noreply@glyphic.ai>",
-        "subject": "Belliwelli x FERMÀT|| Bi-Weekly summary is ready",
-        "date": "2026-03-23T16:31:33+00:00",
-        "snippet": "Find out some key insights from the bi-weekly call."
-      },
-      {
-        "from": "Tom Fitzpatrick (via Google Sheets) <drive-shares-dm-noreply@google.com>",
-        "subject": "Spreadsheet shared with you: BELLIWELLI CREATIVE PIPELINE",
-        "date": "2026-03-23T16:13:24+00:00",
-        "snippet": "Tom Fitzpatrick shared the BELLIWELLI CREATIVE PIPELINE spreadsheet."
-      },
-      {
-        "from": "Zoom <no-reply@zoom.us>",
-        "subject": "FERMÀT Copilot has joined your meeting - Belliwelli x FERMÀT|| Bi-Weekly",
-        "date": "2026-03-23T15:58:27+00:00",
-        "snippet": "FERMÀT Copilot has joined your Belliwelli Bi-Weekly meeting."
-      },
-      {
-        "from": "Nidhi Singh <nidhi@fermatcommerce.com>",
-        "subject": "Accepted: Belliwelli x FERMÀT|| Bi-Weekly",
-        "date": "2026-03-23T09:40:54+00:00",
-        "snippet": "Nidhi Singh has accepted the Belliwelli Bi-Weekly invitation."
+        "subject": "Your Daily Task Overview",
+        "date": "2026-04-01T09:06:12+00:00",
+        "snippet": "Daily tasks reminder with BelliWelli items"
       }
     ],
-    "analysis": "Active email trail. Multiple Meta ad approval notifications (ads actively running). Bi-weekly call summary from Glyphic on Mar 23. Tom Fitzpatrick shared BELLIWELLI CREATIVE PIPELINE spreadsheet. Good engagement signal."
+    "analysis": "Gmail results are predominantly Meta ad approvals (skipped) and system emails. No direct brand-to-CSM email threads; communication is primarily via Slack."
   }
 }

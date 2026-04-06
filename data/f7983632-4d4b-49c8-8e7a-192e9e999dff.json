@@ -1,7 +1,7 @@
 {
   "brand_id": "f7983632-4d4b-49c8-8e7a-192e9e999dff",
   "brand_name": "Henry Rose",
-  "last_updated": "2026-04-01T00:00:00Z",
+  "last_updated": "2026-04-06T06:26:11.815029Z",
   "health": {
     "score": 14,
     "status": "red",
@@ -50,156 +50,84 @@
   },
   "performance": {
     "yesterday": {
-      "sessions": 334,
-      "revenue": 38.25,
-      "purchases": 1,
-      "pdp_views": 22,
-      "atc": 4,
-      "checkouts": 1,
-      "cvr": 0.3,
-      "aov": 38.25,
       "ad_spend": null,
+      "revenue": 153.0,
+      "cvr": 0.6536,
+      "sessions": 306,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 2,
+      "aov": 76.5,
+      "pdp_views": 40,
+      "atc": 15,
+      "checkouts": 3
     },
     "3d": {
-      "sessions": 1583,
-      "revenue": 144.5,
-      "purchases": 4,
-      "pdp_views": 112,
-      "atc": 27,
-      "checkouts": 8,
-      "cvr": 0.25,
-      "aov": 36.12,
       "ad_spend": null,
+      "revenue": 226.25,
+      "cvr": 0.4667,
+      "sessions": 857,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 4,
+      "aov": 56.56,
+      "pdp_views": 88,
+      "atc": 26,
+      "checkouts": 9
     },
     "7d": {
-      "sessions": 3557,
-      "revenue": 399.5,
-      "purchases": 9,
-      "pdp_views": 280,
-      "atc": 57,
-      "checkouts": 16,
-      "cvr": 0.25,
-      "aov": 44.39,
       "ad_spend": null,
+      "revenue": 490.75,
+      "cvr": 0.4171,
+      "sessions": 2158,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 9,
+      "aov": 54.53,
+      "pdp_views": 193,
+      "atc": 51,
+      "checkouts": 19
     },
     "15d": {
-      "sessions": 4583,
-      "revenue": 1089.95,
-      "purchases": 19,
-      "pdp_views": 494,
-      "atc": 110,
-      "checkouts": 28,
-      "cvr": 0.41,
-      "aov": 57.37,
       "ad_spend": null,
+      "revenue": 1292.45,
+      "cvr": 0.4068,
+      "sessions": 5408,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 22,
+      "aov": 58.75,
+      "pdp_views": 519,
+      "atc": 125,
+      "checkouts": 39
     },
     "30d": {
-      "sessions": 6529,
-      "revenue": 2188.0,
-      "purchases": 37,
-      "pdp_views": 753,
-      "atc": 186,
-      "checkouts": 52,
-      "cvr": 0.57,
-      "aov": 59.14,
       "ad_spend": null,
+      "revenue": 2164.5,
+      "cvr": 0.5145,
+      "sessions": 6997,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 36,
+      "aov": 60.12,
+      "pdp_views": 779,
+      "atc": 191,
+      "checkouts": 54
     },
     "45d": {
-      "sessions": 14482,
-      "revenue": 3461.8,
-      "purchases": 59,
-      "pdp_views": 1061,
-      "atc": 285,
-      "checkouts": 94,
-      "cvr": 0.41,
-      "aov": 58.67,
       "ad_spend": null,
+      "revenue": 3679.8,
+      "cvr": 0.6434,
+      "sessions": 9481,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 61,
+      "aov": 60.32,
+      "pdp_views": 1064,
+      "atc": 295,
+      "checkouts": 101
     },
     "daily": [
-      {
-        "date": "2026-02-12",
-        "sessions": 1350,
-        "pdp_views": 43,
-        "atc": 12,
-        "checkouts": 2,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-13",
-        "sessions": 1326,
-        "pdp_views": 26,
-        "atc": 4,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-14",
-        "sessions": 1226,
-        "pdp_views": 33,
-        "atc": 6,
-        "checkouts": 3,
-        "purchases": 1,
-        "revenue": 38.25
-      },
-      {
-        "date": "2026-02-15",
-        "sessions": 1180,
-        "pdp_views": 40,
-        "atc": 10,
-        "checkouts": 2,
-        "purchases": 2,
-        "revenue": 83.25
-      },
-      {
-        "date": "2026-02-16",
-        "sessions": 627,
-        "pdp_views": 26,
-        "atc": 4,
-        "checkouts": 1,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-17",
-        "sessions": 3185,
-        "pdp_views": 13,
-        "atc": 4,
-        "checkouts": 1,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-18",
-        "sessions": 59,
-        "pdp_views": 6,
-        "atc": 2,
-        "checkouts": 1,
-        "purchases": 1,
-        "revenue": 45
-      },
-      {
-        "date": "2026-02-19",
-        "sessions": 70,
-        "pdp_views": 13,
-        "atc": 3,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
       {
         "date": "2026-02-20",
         "sessions": 66,
@@ -535,10 +463,10 @@
       },
       {
         "date": "2026-03-29",
-        "sessions": 724,
-        "pdp_views": 48,
-        "atc": 13,
-        "checkouts": 3,
+        "sessions": 771,
+        "pdp_views": 53,
+        "atc": 15,
+        "checkouts": 4,
         "purchases": 1,
         "revenue": 38.25
       },
@@ -559,6 +487,51 @@
         "checkouts": 1,
         "purchases": 1,
         "revenue": 38.25
+      },
+      {
+        "date": "2026-04-01",
+        "sessions": 207,
+        "pdp_views": 17,
+        "atc": 1,
+        "checkouts": 0,
+        "purchases": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-04-02",
+        "sessions": 235,
+        "pdp_views": 24,
+        "atc": 10,
+        "checkouts": 5,
+        "purchases": 2,
+        "revenue": 158.25
+      },
+      {
+        "date": "2026-04-03",
+        "sessions": 289,
+        "pdp_views": 19,
+        "atc": 5,
+        "checkouts": 3,
+        "purchases": 1,
+        "revenue": 35
+      },
+      {
+        "date": "2026-04-04",
+        "sessions": 262,
+        "pdp_views": 29,
+        "atc": 6,
+        "checkouts": 3,
+        "purchases": 1,
+        "revenue": 38.25
+      },
+      {
+        "date": "2026-04-05",
+        "sessions": 306,
+        "pdp_views": 40,
+        "atc": 15,
+        "checkouts": 3,
+        "purchases": 2,
+        "revenue": 153
       }
     ]
   },

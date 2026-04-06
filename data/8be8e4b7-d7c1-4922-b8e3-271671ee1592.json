@@ -1,592 +1,594 @@
 {
   "brand_id": "8be8e4b7-d7c1-4922-b8e3-271671ee1592",
   "brand_name": "Little Saints",
-  "last_updated": "2026-04-01T00:00:00Z",
+  "last_updated": "2026-04-06T10:30:00+05:30",
   "health": {
-    "score": 25,
+    "score": 29,
     "status": "red",
     "breakdown": {
       "platform_performance": 19,
       "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:4/5, Purchases:5/5",
-      "communication": 4,
-      "communication_detail": "SlackRecency:3/4, BrandSlack14d:1/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
+      "communication": 8,
+      "communication_detail": "SlackRecency:4/4, BrandSlack14d:1/4, PulkitSlack14d:2/4, EmailThreads14d:1/4, PulkitOutreach:0/4",
       "engagement": 2,
       "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": []
+    "signals": [
+      {
+        "type": "positive",
+        "text": "Strong 7d sessions (35,321) and revenue ($38,918.04) â platform actively generating traffic and conversions",
+        "time": "Apr 5"
+      },
+      {
+        "type": "positive",
+        "text": "Pulkit sent intro message on Mar 3 and followed up on Mar 27 â proactive GM transition outreach",
+        "time": "Mar 27"
+      },
+      {
+        "type": "warning",
+        "text": "No call with Little Saints since Feb 19 (46 days) â need to schedule intro call urgently",
+        "time": "Apr 5"
+      },
+      {
+        "type": "negative",
+        "text": "Brand contact Kar has not responded to Pulkit's calendar link in Slack â no engagement since transition",
+        "time": "Mar 27"
+      },
+      {
+        "type": "warning",
+        "text": "No upcoming calls scheduled â risk of disengagement during GM transition",
+        "time": "Apr 5"
+      },
+      {
+        "type": "positive",
+        "text": "Contract renewed recently (per Granola notes from Feb 24) â account is retained",
+        "time": "Feb 24"
+      },
+      {
+        "type": "negative",
+        "text": "Zero email threads with Little Saints in past 30 days â communication gap",
+        "time": "Apr 5"
+      }
+    ]
   },
   "performance": {
     "yesterday": {
-      "sessions": 5543,
-      "revenue": 7446.76,
-      "purchases": 91,
-      "pdp_views": 861,
-      "atc": 238,
-      "checkouts": 91,
-      "cvr": 1.64,
-      "aov": 81.83,
       "ad_spend": null,
+      "revenue": 4793.92,
+      "cvr": 1.433,
+      "sessions": 4466,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 64,
+      "aov": 74.91,
+      "pdp_views": 559,
+      "atc": 161,
+      "checkouts": 47
     },
     "3d": {
-      "sessions": 18876,
-      "revenue": 24676.16,
-      "purchases": 315,
-      "pdp_views": 3055,
-      "atc": 850,
-      "checkouts": 306,
-      "cvr": 1.67,
-      "aov": 78.34,
       "ad_spend": null,
+      "revenue": 12919.04,
+      "cvr": 1.2445,
+      "sessions": 13821,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 172,
+      "aov": 75.11,
+      "pdp_views": 1637,
+      "atc": 412,
+      "checkouts": 142
     },
     "7d": {
-      "sessions": 40920,
-      "revenue": 57444.24,
-      "purchases": 762,
-      "pdp_views": 6477,
-      "atc": 1883,
-      "checkouts": 690,
-      "cvr": 1.86,
-      "aov": 75.39,
       "ad_spend": null,
+      "revenue": 38918.04,
+      "cvr": 1.5543,
+      "sessions": 35321,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 549,
+      "aov": 70.89,
+      "pdp_views": 4736,
+      "atc": 1309,
+      "checkouts": 457
     },
     "15d": {
-      "sessions": 59294,
-      "revenue": 80747.49,
-      "purchases": 1077,
-      "pdp_views": 9078,
-      "atc": 2559,
-      "checkouts": 946,
-      "cvr": 1.82,
-      "aov": 74.97,
       "ad_spend": null,
+      "revenue": 77045.25,
+      "cvr": 1.4892,
+      "sessions": 67470,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 1005,
+      "aov": 76.66,
+      "pdp_views": 9404,
+      "atc": 2710,
+      "checkouts": 890
     },
     "30d": {
-      "sessions": 101930,
-      "revenue": 138409.15,
-      "purchases": 1872,
-      "pdp_views": 14835,
-      "atc": 4199,
-      "checkouts": 1582,
-      "cvr": 1.84,
-      "aov": 73.94,
       "ad_spend": null,
+      "revenue": 152974.16,
+      "cvr": 1.6254,
+      "sessions": 111949,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 1819,
+      "aov": 84.1,
+      "pdp_views": 15793,
+      "atc": 4614,
+      "checkouts": 1574
     },
     "45d": {
-      "sessions": 148988,
-      "revenue": 217758.17,
-      "purchases": 2961,
-      "pdp_views": 21300,
-      "atc": 6193,
-      "checkouts": 2716,
-      "cvr": 1.99,
-      "aov": 73.54,
       "ad_spend": null,
+      "revenue": 224637.71,
+      "cvr": 1.8101,
+      "sessions": 157231,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 2846,
+      "aov": 78.93,
+      "pdp_views": 22059,
+      "atc": 6432,
+      "checkouts": 2305
     },
     "daily": [
       {
-        "date": "2026-02-12",
-        "sessions": 2067,
-        "pdp_views": 261,
-        "atc": 62,
-        "checkouts": 36,
-        "purchases": 32,
-        "revenue": 2215.64
-      },
-      {
-        "date": "2026-02-13",
-        "sessions": 1543,
-        "pdp_views": 174,
-        "atc": 40,
-        "checkouts": 23,
-        "purchases": 25,
-        "revenue": 2216.67
-      },
-      {
-        "date": "2026-02-14",
-        "sessions": 1688,
-        "pdp_views": 247,
-        "atc": 74,
-        "checkouts": 39,
-        "purchases": 37,
-        "revenue": 2763.13
-      },
-      {
-        "date": "2026-02-15",
-        "sessions": 2034,
-        "pdp_views": 257,
-        "atc": 58,
-        "checkouts": 36,
-        "purchases": 36,
-        "revenue": 2528.62
-      },
-      {
-        "date": "2026-02-16",
-        "sessions": 2999,
-        "pdp_views": 447,
-        "atc": 122,
-        "checkouts": 67,
-        "purchases": 62,
-        "revenue": 4364.56
-      },
-      {
-        "date": "2026-02-17",
-        "sessions": 163,
-        "pdp_views": 18,
-        "atc": 5,
-        "checkouts": 4,
-        "purchases": 2,
-        "revenue": 349.95
-      },
-      {
-        "date": "2026-02-18",
-        "sessions": 2707,
-        "pdp_views": 421,
-        "atc": 155,
-        "checkouts": 90,
-        "purchases": 81,
-        "revenue": 5885.56
-      },
-      {
-        "date": "2026-02-19",
-        "sessions": 3758,
-        "pdp_views": 548,
-        "atc": 185,
-        "checkouts": 112,
-        "purchases": 112,
-        "revenue": 7520.56
-      },
-      {
         "date": "2026-02-20",
         "sessions": 4435,
+        "revenue": 6823.45,
+        "purchases": 94,
         "pdp_views": 535,
         "atc": 177,
-        "checkouts": 99,
-        "purchases": 94,
-        "revenue": 6823.45
+        "checkouts": 99
       },
       {
         "date": "2026-02-21",
         "sessions": 2554,
+        "revenue": 4243.13,
+        "purchases": 58,
         "pdp_views": 395,
         "atc": 113,
-        "checkouts": 62,
-        "purchases": 58,
-        "revenue": 4243.13
+        "checkouts": 62
       },
       {
         "date": "2026-02-22",
         "sessions": 4936,
+        "revenue": 7799.45,
+        "purchases": 109,
         "pdp_views": 622,
         "atc": 199,
-        "checkouts": 105,
-        "purchases": 109,
-        "revenue": 7799.45
+        "checkouts": 105
       },
       {
         "date": "2026-02-23",
         "sessions": 4370,
+        "revenue": 7102.92,
+        "purchases": 106,
         "pdp_views": 571,
         "atc": 183,
-        "checkouts": 103,
-        "purchases": 106,
-        "revenue": 7102.92
+        "checkouts": 103
       },
       {
         "date": "2026-02-24",
         "sessions": 3514,
+        "revenue": 5980.61,
+        "purchases": 78,
         "pdp_views": 509,
         "atc": 143,
-        "checkouts": 86,
-        "purchases": 78,
-        "revenue": 5980.61
+        "checkouts": 86
       },
       {
         "date": "2026-02-25",
         "sessions": 2667,
+        "revenue": 4689.29,
+        "purchases": 58,
         "pdp_views": 364,
         "atc": 121,
-        "checkouts": 74,
-        "purchases": 58,
-        "revenue": 4689.29
+        "checkouts": 74
       },
       {
         "date": "2026-02-26",
         "sessions": 3158,
+        "revenue": 5205.91,
+        "purchases": 72,
         "pdp_views": 443,
         "atc": 132,
-        "checkouts": 72,
-        "purchases": 72,
-        "revenue": 5205.91
+        "checkouts": 72
       },
       {
         "date": "2026-02-27",
         "sessions": 2207,
+        "revenue": 3482.06,
+        "purchases": 51,
         "pdp_views": 305,
         "atc": 89,
-        "checkouts": 56,
-        "purchases": 51,
-        "revenue": 3482.06
+        "checkouts": 56
       },
       {
         "date": "2026-02-28",
         "sessions": 2459,
+        "revenue": 4376.08,
+        "purchases": 55,
         "pdp_views": 338,
         "atc": 101,
-        "checkouts": 52,
-        "purchases": 55,
-        "revenue": 4376.08
+        "checkouts": 52
       },
       {
         "date": "2026-03-01",
         "sessions": 3409,
+        "revenue": 6233.74,
+        "purchases": 78,
         "pdp_views": 445,
         "atc": 137,
-        "checkouts": 77,
-        "purchases": 78,
-        "revenue": 6233.74
+        "checkouts": 77
       },
       {
         "date": "2026-03-02",
         "sessions": 2866,
+        "revenue": 4601.44,
+        "purchases": 58,
         "pdp_views": 413,
         "atc": 114,
-        "checkouts": 49,
-        "purchases": 58,
-        "revenue": 4601.44
+        "checkouts": 49
       },
       {
         "date": "2026-03-03",
         "sessions": 3167,
+        "revenue": 4290.35,
+        "purchases": 60,
         "pdp_views": 424,
         "atc": 121,
-        "checkouts": 41,
-        "purchases": 60,
-        "revenue": 4290.35
+        "checkouts": 41
       },
       {
         "date": "2026-03-04",
         "sessions": 2504,
+        "revenue": 3209.44,
+        "purchases": 49,
         "pdp_views": 331,
         "atc": 96,
-        "checkouts": 28,
-        "purchases": 49,
-        "revenue": 3209.44
+        "checkouts": 28
       },
       {
         "date": "2026-03-05",
         "sessions": 2535,
+        "revenue": 3896.89,
+        "purchases": 55,
         "pdp_views": 331,
         "atc": 97,
-        "checkouts": 39,
-        "purchases": 55,
-        "revenue": 3896.89
+        "checkouts": 39
       },
       {
         "date": "2026-03-06",
         "sessions": 2338,
+        "revenue": 3507.47,
+        "purchases": 44,
         "pdp_views": 313,
         "atc": 92,
-        "checkouts": 42,
-        "purchases": 44,
-        "revenue": 3507.47
+        "checkouts": 42
       },
       {
         "date": "2026-03-07",
         "sessions": 2302,
+        "revenue": 3625.68,
+        "purchases": 58,
         "pdp_views": 342,
         "atc": 103,
-        "checkouts": 45,
-        "purchases": 58,
-        "revenue": 3625.68
+        "checkouts": 45
       },
       {
         "date": "2026-03-08",
         "sessions": 2523,
+        "revenue": 4889.05,
+        "purchases": 61,
         "pdp_views": 357,
         "atc": 117,
-        "checkouts": 45,
-        "purchases": 61,
-        "revenue": 4889.05
+        "checkouts": 45
       },
       {
         "date": "2026-03-09",
         "sessions": 2888,
+        "revenue": 5495.44,
+        "purchases": 75,
         "pdp_views": 379,
         "atc": 123,
-        "checkouts": 56,
-        "purchases": 75,
-        "revenue": 5495.44
+        "checkouts": 56
       },
       {
         "date": "2026-03-10",
         "sessions": 3537,
+        "revenue": 4256.32,
+        "purchases": 63,
         "pdp_views": 467,
         "atc": 150,
-        "checkouts": 62,
-        "purchases": 63,
-        "revenue": 4256.32
+        "checkouts": 62
       },
       {
         "date": "2026-03-11",
         "sessions": 3036,
+        "revenue": 3382.93,
+        "purchases": 51,
         "pdp_views": 391,
         "atc": 119,
-        "checkouts": 41,
-        "purchases": 51,
-        "revenue": 3382.93
+        "checkouts": 41
       },
       {
         "date": "2026-03-12",
         "sessions": 3287,
+        "revenue": 3680.2,
+        "purchases": 47,
         "pdp_views": 423,
         "atc": 111,
-        "checkouts": 43,
-        "purchases": 47,
-        "revenue": 3680.2
+        "checkouts": 43
       },
       {
         "date": "2026-03-13",
         "sessions": 2406,
+        "revenue": 2939.84,
+        "purchases": 40,
         "pdp_views": 309,
         "atc": 84,
-        "checkouts": 36,
-        "purchases": 40,
-        "revenue": 2939.84
+        "checkouts": 36
       },
       {
         "date": "2026-03-14",
         "sessions": 2857,
+        "revenue": 3647.96,
+        "purchases": 48,
         "pdp_views": 416,
         "atc": 115,
-        "checkouts": 42,
-        "purchases": 48,
-        "revenue": 3647.96
+        "checkouts": 42
       },
       {
         "date": "2026-03-15",
         "sessions": 3073,
+        "revenue": 3559.25,
+        "purchases": 50,
         "pdp_views": 441,
         "atc": 114,
-        "checkouts": 40,
-        "purchases": 50,
-        "revenue": 3559.25
+        "checkouts": 40
       },
       {
         "date": "2026-03-16",
         "sessions": 3317,
+        "revenue": 2679.4,
+        "purchases": 36,
         "pdp_views": 420,
         "atc": 84,
-        "checkouts": 27,
-        "purchases": 36,
-        "revenue": 2679.4
+        "checkouts": 27
       },
       {
         "date": "2026-03-17",
         "sessions": 2152,
+        "revenue": 2790.35,
+        "purchases": 41,
         "pdp_views": 277,
         "atc": 80,
-        "checkouts": 30,
-        "purchases": 41,
-        "revenue": 2790.35
+        "checkouts": 30
       },
       {
         "date": "2026-03-18",
         "sessions": 2152,
+        "revenue": 2208.95,
+        "purchases": 26,
         "pdp_views": 300,
         "atc": 76,
-        "checkouts": 32,
-        "purchases": 26,
-        "revenue": 2208.95
+        "checkouts": 32
       },
       {
         "date": "2026-03-19",
         "sessions": 2121,
+        "revenue": 2017.18,
+        "purchases": 28,
         "pdp_views": 278,
         "atc": 53,
-        "checkouts": 20,
-        "purchases": 28,
-        "revenue": 2017.18
+        "checkouts": 20
       },
       {
         "date": "2026-03-20",
         "sessions": 2001,
+        "revenue": 2948.29,
+        "purchases": 41,
         "pdp_views": 273,
         "atc": 81,
-        "checkouts": 26,
-        "purchases": 41,
-        "revenue": 2948.29
+        "checkouts": 26
       },
       {
         "date": "2026-03-21",
         "sessions": 1329,
+        "revenue": 1895.67,
+        "purchases": 25,
         "pdp_views": 259,
         "atc": 61,
-        "checkouts": 23,
-        "purchases": 25,
-        "revenue": 1895.67
+        "checkouts": 23
       },
       {
         "date": "2026-03-22",
         "sessions": 1525,
+        "revenue": 1955.94,
+        "purchases": 26,
         "pdp_views": 196,
         "atc": 52,
-        "checkouts": 17,
-        "purchases": 26,
-        "revenue": 1955.94
+        "checkouts": 17
       },
       {
         "date": "2026-03-23",
         "sessions": 3054,
+        "revenue": 3326.26,
+        "purchases": 45,
         "pdp_views": 409,
         "atc": 96,
-        "checkouts": 36,
-        "purchases": 45,
-        "revenue": 3326.26
+        "checkouts": 36
       },
       {
         "date": "2026-03-24",
         "sessions": 4040,
+        "revenue": 6160.61,
+        "purchases": 83,
         "pdp_views": 609,
         "atc": 177,
-        "checkouts": 72,
-        "purchases": 83,
-        "revenue": 6160.61
+        "checkouts": 72
       },
       {
         "date": "2026-03-25",
         "sessions": 4735,
+        "revenue": 7220.85,
+        "purchases": 98,
         "pdp_views": 769,
         "atc": 217,
-        "checkouts": 81,
-        "purchases": 98,
-        "revenue": 7220.85
+        "checkouts": 81
       },
       {
         "date": "2026-03-26",
         "sessions": 5889,
+        "revenue": 9545.25,
+        "purchases": 123,
         "pdp_views": 889,
         "atc": 295,
-        "checkouts": 102,
-        "purchases": 123,
-        "revenue": 9545.25
+        "checkouts": 102
       },
       {
         "date": "2026-03-27",
         "sessions": 4955,
+        "revenue": 7303.18,
+        "purchases": 103,
         "pdp_views": 757,
         "atc": 218,
-        "checkouts": 97,
-        "purchases": 103,
-        "revenue": 7303.18
+        "checkouts": 97
       },
       {
         "date": "2026-03-28",
         "sessions": 6465,
+        "revenue": 8698.8,
+        "purchases": 123,
         "pdp_views": 1007,
         "atc": 303,
-        "checkouts": 104,
-        "purchases": 123,
-        "revenue": 8698.8
+        "checkouts": 104
       },
       {
         "date": "2026-03-29",
-        "sessions": 7569,
-        "pdp_views": 1266,
-        "atc": 329,
-        "checkouts": 110,
-        "purchases": 122,
-        "revenue": 9185.96
+        "sessions": 7859,
+        "revenue": 9985.81,
+        "purchases": 130,
+        "pdp_views": 1318,
+        "atc": 340,
+        "checkouts": 113
       },
       {
         "date": "2026-03-30",
         "sessions": 5764,
+        "revenue": 8043.44,
+        "purchases": 102,
         "pdp_views": 928,
         "atc": 283,
-        "checkouts": 105,
-        "purchases": 102,
-        "revenue": 8043.44
+        "checkouts": 105
       },
       {
         "date": "2026-03-31",
         "sessions": 5543,
+        "revenue": 7446.76,
+        "purchases": 91,
         "pdp_views": 861,
         "atc": 238,
-        "checkouts": 91,
-        "purchases": 91,
-        "revenue": 7446.76
+        "checkouts": 91
+      },
+      {
+        "date": "2026-04-01",
+        "sessions": 5893,
+        "revenue": 6055.64,
+        "purchases": 75,
+        "pdp_views": 762,
+        "atc": 226,
+        "checkouts": 72
+      },
+      {
+        "date": "2026-04-02",
+        "sessions": 4300,
+        "revenue": 3983.87,
+        "purchases": 54,
+        "pdp_views": 548,
+        "atc": 150,
+        "checkouts": 47
+      },
+      {
+        "date": "2026-04-03",
+        "sessions": 4549,
+        "revenue": 3508.26,
+        "purchases": 49,
+        "pdp_views": 491,
+        "atc": 128,
+        "checkouts": 43
+      },
+      {
+        "date": "2026-04-04",
+        "sessions": 4806,
+        "revenue": 4616.86,
+        "purchases": 59,
+        "pdp_views": 587,
+        "atc": 123,
+        "checkouts": 52
+      },
+      {
+        "date": "2026-04-05",
+        "sessions": 4466,
+        "revenue": 4793.92,
+        "purchases": 64,
+        "pdp_views": 559,
+        "atc": 161,
+        "checkouts": 47
       }
     ]
   },
   "calls": {
     "recent": [
       {
-        "id": "699770fbcf4f06645a48c476",
         "title": "Fermat x Little Saints",
-        "date": "2026-02-19",
-        "duration_seconds": 1453,
-        "participants": [
-          "Kar (kar@littlesaints.com)",
-          "Mia DyBuncio (mia@fermatcommerce.com)"
-        ],
-        "summary": "Mia updated Kar on new module visibility features (mobile/desktop toggle) and addressed a font inconsistency on AI Search article pages. Kar raised concerns about penetrating unbranded search terms against larger competitors (Kyo, Seed Lip) and discussed upcoming Margarita product launch funnel. Confirmed no cap on one-off funnel generation.",
-        "next_steps": [
+        "date": "2026-02-19T19:58:02Z",
+        "duration": "24 min",
+        "participants": "Kar (kar@littlesaints.com), Mia DyBuncio (mia@fermatcommerce.com)",
+        "source": "Glyphic",
+        "summary": "Mia updated Kar on new module visibility features (mobile/desktop toggle) and addressed a font inconsistency on AI Search article pages. Kar raised concerns about penetrating unbranded search terms against larger competitors and discussed upcoming Margarita product launch funnel.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": [
           "Fix font issue on AI Search article page",
           "Review prompts Little Saints is cited on most",
           "Create funnel for Margarita launch"
-        ],
-        "url": "https://app.glyphic.ai/calls/699770fbcf4f06645a48c476"
+        ]
       },
       {
-        "id": "696005164622dfd116f11361",
         "title": "Fermat x Little Saints",
-        "date": "2026-01-08",
-        "duration_seconds": 1751,
-        "participants": [
-          "Kar (kar@littlesaints.com)",
-          "Mia DyBuncio (mia@fermatcommerce.com)"
-        ],
-        "summary": "Introductory call between Mia and Kar. Discussed platform usage (10 live funnels), plans for SMS channel expansion with Apple Pay, AI Search early citations (19 in 30d with 1 purchase), sticky CTA feature. Kar targets $25-30K daily ad spend and blended ROAS of 3. Agreed on monthly recurring meetings.",
-        "next_steps": [
+        "date": "2026-01-08T18:58:02Z",
+        "duration": "29 min",
+        "participants": "Kar (kar@littlesaints.com), Mia DyBuncio (mia@fermatcommerce.com)",
+        "source": "Glyphic",
+        "summary": "Discussed platform usage (10 live funnels), plans for SMS channel expansion with Apple Pay, AI Search early citations (19 in 30d with 1 purchase), sticky CTA feature. Kar targets $25-30K daily ad spend and blended ROAS of 3.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": [
           "Set up monthly recurring meeting Thursdays at 2pm",
           "Explore SMS channel with FERMAT funnels",
           "Test more funnel templates"
-        ],
-        "url": "https://app.glyphic.ai/calls/696005164622dfd116f11361"
+        ]
       },
       {
-        "id": "6924b30b80a991131974eb71",
         "title": "Little Saints <> FERMAT | Business Review",
-        "date": "2025-11-24",
-        "duration_seconds": 2042,
-        "participants": [
-          "Kar (kar@littlesaints.com)",
-          "Ryan Barry (ryan.barry@fermatcommerce.com)",
-          "Talia Cohen (talia@fermatcommerce.com)"
-        ],
-        "summary": "QBR handoff from Talia to Ryan. Reviewed $323K lifetime GMV, 3.26% CVR on FERMAT. Discussed subscription default A/B testing, upcoming website overhaul, Klaviyo integration. Kar shared channel expansion plans: YouTube, AppLovin ($15K budget), direct mail, podcast (Jan), TV (late Q1).",
-        "next_steps": [
+        "date": "2025-11-24T18:59:23Z",
+        "duration": "34 min",
+        "participants": "Kar (kar@littlesaints.com), Ryan Barry (ryan.barry@fermatcommerce.com), Talia Cohen (talia@fermatcommerce.com)",
+        "source": "Glyphic",
+        "summary": "QBR handoff from Talia to Ryan. Reviewed $323K lifetime GMV, 3.26% CVR on FERMAT. Discussed subscription default A/B testing, upcoming website overhaul, Klaviyo integration. Kar shared channel expansion plans.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": [
           "Set up deeper Klaviyo integration",
           "A/B test subscription default on PDPs",
           "Coordinate PDP scrape during website overhaul"
-        ],
-        "url": "https://app.glyphic.ai/calls/6924b30b80a991131974eb71"
+        ]
       }
     ],
-    "analysis": "Little Saints has been an engaged, high-performing brand with consistent monthly calls. Key contact Kar (VP Growth & eCommerce) is hands-on, building funnels himself and eager to beta test new features. Recent CSM transition from Mia to Pulkit (March 2026). Brand focuses on AI Search visibility for unbranded terms, Margarita product launch, and SMS channel expansion. Targets $25-30K daily ad spend with blended ROAS of 3. Strong relationship with 10+ live funnels and $323K+ lifetime GMV."
+    "analysis": "Little Saints has had monthly calls with FERMAT, most recently on Feb 19 with Mia. The account transitioned from Mia to Pulkit in early March, and no new call has been held since (46-day gap). Key contact Kar is hands-on and engaged when connected, but has not responded to Pulkit's calendar link. Brand has $323K+ lifetime GMV and targets $25-30K daily ad spend."
   },
   "calendar": {
     "past": [],
@@ -595,67 +597,59 @@
   "slack": {
     "messages": [
       {
-        "date": "2026-03-26",
-        "author": "Pierre (bot)",
-        "content": "New AI Search funnels ready for approval"
+        "user": "Pulkit Srivastava",
+        "text": "Hey Kar! Just following up on my intro message â can you grab a time on my calendar to connect? Looking forward to meeting you!",
+        "timestamp": "2026-03-27T10:53:08+05:30",
+        "channel": "#fermat-x-little-saints"
       },
       {
-        "date": "2026-03-17",
-        "author": "Kar (brand)",
-        "content": "Asked about outages yesterday with Fermat or Shopify (2 replies in thread)"
+        "user": "Pierre (Bot)",
+        "text": "There are new AI Search funnels ready for you to approve!",
+        "timestamp": "2026-03-26T23:11:33+05:30",
+        "channel": "#fermat-x-little-saints"
       },
       {
-        "date": "2026-03-12",
-        "author": "Pierre (bot)",
-        "content": "New AI Search funnels ready for approval"
+        "user": "Brand Contact",
+        "text": "Hi Pulkit were there any outages yesterday with Fermat or Shopify?",
+        "timestamp": "2026-03-17T18:47:07+05:30",
+        "channel": "#fermat-x-little-saints"
       },
       {
-        "date": "2026-03-05",
-        "author": "Pierre (bot)",
-        "content": "New AI Search funnels ready for approval"
+        "user": "Pulkit Srivastava",
+        "text": "Hey Little Saints team! I'm Pulkit, your new GM here at FERMAT. I've been with the FERMAT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call.",
+        "timestamp": "2026-03-03T11:00:32+05:30",
+        "channel": "#fermat-x-little-saints"
       },
       {
-        "date": "2026-03-03",
-        "author": "Pulkit Srivastava",
-        "content": "GM intro message: introduced himself as new GM, shared Calendly link for onboarding call"
+        "user": "Mia DyBuncio",
+        "text": "I'm reaching out with some bittersweet but exciting news â transitioning to Product team. Introducing Pulkit as your new GM.",
+        "timestamp": "2026-03-03T01:51:26+05:30",
+        "channel": "#fermat-x-little-saints"
       },
       {
-        "date": "2026-03-03",
-        "author": "Mia DyBuncio",
-        "content": "Transition announcement: introduced Pulkit as new GM, noted her move to Product team"
-      },
-      {
-        "date": "2026-02-27",
-        "author": "Pierre (bot)",
-        "content": "New AI Search funnels ready for approval"
-      },
-      {
-        "date": "2026-02-24",
-        "author": "Pulkit Srivastava",
-        "content": "Joined the channel"
-      },
-      {
-        "date": "2026-02-20",
-        "author": "Kar (brand)",
-        "content": "Asked about LLMS.txt file setup and how to edit PDP content (About section not syncing with Shopify)"
-      },
-      {
-        "date": "2026-02-18",
-        "author": "Pierre (bot)",
-        "content": "New AI Search funnels ready for approval"
+        "user": "Brand Contact (Kar)",
+        "text": "Questions about LLMS.txt file and editing PDP content/About section that is not syncing with Shopify",
+        "timestamp": "2026-02-20T18:40:08+05:30",
+        "channel": "#fermat-x-little-saints"
       }
     ],
-    "analysis": "Channel is moderately active. Pierre bot posts weekly AI Search funnel approval notifications. Kar (brand contact) engages occasionally with technical questions (outage inquiry Mar 17, PDP content editing Feb 20, LLMS.txt Feb 20). CSM transition from Mia to Pulkit happened March 3. No intro call scheduled with Pulkit visible yet -- needs follow-up."
+    "analysis": "Slack activity is moderate with most messages being Pierre bot notifications for AI Search funnel approvals. Pulkit introduced himself on Mar 3 and followed up on Mar 27, but Kar has not responded to schedule a call. The brand asked about an outage on Mar 17, indicating they monitor platform reliability."
   },
   "email": {
     "messages": [
       {
-        "date": "2026-03-11",
-        "subject": "Jennifer Schnadig made updates in Fermat Commerce",
+        "from": "Glyphic AI (noreply@glyphic.ai)",
+        "subject": "Prepare for De Soi x FERMAT",
+        "date": "2026-04-01",
+        "snippet": "Call preparation notification â not specific to Little Saints"
+      },
+      {
         "from": "Notion Team (notify@mail.notion.so)",
-        "snippet": "Notion update notification mentioning Little Saints"
+        "subject": "Jennifer Schnadig made updates in Fermat Commerce",
+        "date": "2026-03-11",
+        "snippet": "Internal Notion update notification"
       }
     ],
-    "analysis": "Very minimal email activity in the last 30 days. Only one Notion notification found. Direct email communication with the brand appears to happen primarily via Slack rather than email."
+    "analysis": "No direct email threads with Little Saints were found in the past 30 days. The only search results were a Glyphic call prep notification and a Notion update, neither directly related to Little Saints. This represents a significant communication gap that needs addressing."
   }
 }

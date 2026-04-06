@@ -1,484 +1,435 @@
 {
   "brand_id": "ae4f1f5d-f1d1-488f-8340-1890cfd0faf3",
   "brand_name": "MOTHER ROOT",
-  "last_updated": "2026-04-01T00:00:00Z",
+  "last_updated": "2026-04-06T05:47:50.255913Z",
   "health": {
-    "score": 7,
+    "score": 23,
     "status": "red",
     "breakdown": {
       "platform_performance": 0,
       "platform_performance_detail": "Sessions:0/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
-      "communication": 5,
-      "communication_detail": "SlackRecency:3/4, BrandSlack14d:1/4, PulkitSlack14d:0/4, EmailThreads14d:1/4, PulkitOutreach:0/4",
-      "engagement": 2,
-      "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:0/6",
+      "communication": 12,
+      "communication_detail": "SlackRecency:3/4, BrandSlack14d:1/4, PulkitSlack14d:0/4, EmailThreads14d:4/4, PulkitOutreach:4/4",
+      "engagement": 11,
+      "engagement_detail": "LastCall:8/8, Calls30d:3/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": []
+    "signals": [
+      {
+        "type": "negative",
+        "text": "Brand confirmed cancellation on Mar 26 via Slack — churning",
+        "time": "Mar 26"
+      },
+      {
+        "type": "negative",
+        "text": "Zero revenue in last 30 days — platform inactive since Mar 6",
+        "time": "Apr 5"
+      },
+      {
+        "type": "negative",
+        "text": "No upcoming calls scheduled — offboarding in progress",
+        "time": "Apr 5"
+      },
+      {
+        "type": "warning",
+        "text": "Outstanding March invoice flagged by finance — billing issues",
+        "time": "Mar 31"
+      },
+      {
+        "type": "positive",
+        "text": "Pulkit conducted exit call on Mar 31 — proper offboarding with feedback",
+        "time": "Mar 31"
+      },
+      {
+        "type": "positive",
+        "text": "45-day revenue of $5,877.06 with 156 purchases — platform was effective when active",
+        "time": "Mar 6"
+      }
+    ]
   },
   "performance": {
     "yesterday": {
-      "sessions": 0,
+      "ad_spend": null,
       "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
       "purchases": 0,
+      "aov": 0,
       "pdp_views": 0,
       "atc": 0,
-      "checkouts": 0,
-      "cvr": 0,
-      "aov": 0,
-      "ad_spend": null,
-      "roas": null,
-      "cpa": null
+      "checkouts": 0
     },
     "3d": {
-      "sessions": 4,
+      "ad_spend": null,
       "revenue": 0,
+      "cvr": 0,
+      "sessions": 0,
+      "roas": null,
+      "cpa": null,
       "purchases": 0,
+      "aov": 0,
       "pdp_views": 0,
       "atc": 0,
-      "checkouts": 0,
-      "cvr": 0.0,
-      "aov": 0,
-      "ad_spend": null,
-      "roas": null,
-      "cpa": null
+      "checkouts": 0
     },
     "7d": {
-      "sessions": 4,
+      "ad_spend": null,
       "revenue": 0,
+      "cvr": 0.0,
+      "sessions": 4,
+      "roas": null,
+      "cpa": null,
       "purchases": 0,
+      "aov": 0,
       "pdp_views": 0,
       "atc": 0,
-      "checkouts": 0,
-      "cvr": 0.0,
-      "aov": 0,
-      "ad_spend": null,
-      "roas": null,
-      "cpa": null
+      "checkouts": 0
     },
     "15d": {
-      "sessions": 4,
+      "ad_spend": null,
       "revenue": 0,
+      "cvr": 0.0,
+      "sessions": 4,
+      "roas": null,
+      "cpa": null,
       "purchases": 0,
+      "aov": 0,
       "pdp_views": 0,
       "atc": 0,
-      "checkouts": 0,
-      "cvr": 0.0,
-      "aov": 0,
-      "ad_spend": null,
-      "roas": null,
-      "cpa": null
+      "checkouts": 0
     },
     "30d": {
-      "sessions": 1406,
-      "revenue": 839.74,
-      "purchases": 24,
-      "pdp_views": 191,
-      "atc": 69,
-      "checkouts": 40,
-      "cvr": 1.71,
-      "aov": 34.99,
       "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0.0,
+      "sessions": 17,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 1,
+      "atc": 0,
+      "checkouts": 0
     },
     "45d": {
-      "sessions": 7827,
-      "revenue": 6044.76,
-      "purchases": 162,
-      "pdp_views": 1130,
-      "atc": 405,
-      "checkouts": 274,
-      "cvr": 2.07,
-      "aov": 37.31,
       "ad_spend": null,
+      "revenue": 5877.06,
+      "cvr": 2.0872,
+      "sessions": 7474,
       "roas": null,
-      "cpa": null
+      "cpa": null,
+      "purchases": 156,
+      "aov": 37.67,
+      "pdp_views": 1073,
+      "atc": 389,
+      "checkouts": 264
     },
     "daily": [
       {
-        "date": "2026-02-19",
-        "sessions": 353,
-        "pdp_views": 57,
-        "atc": 16,
-        "checkouts": 10,
-        "purchases": 6,
-        "revenue": 167.7
-      },
-      {
         "date": "2026-02-20",
         "sessions": 583,
+        "revenue": 495.93,
+        "purchases": 14,
         "pdp_views": 77,
         "atc": 34,
-        "checkouts": 22,
-        "purchases": 14,
-        "revenue": 495.93
+        "checkouts": 22
       },
       {
         "date": "2026-02-21",
         "sessions": 605,
+        "revenue": 440.46,
+        "purchases": 14,
         "pdp_views": 100,
         "atc": 28,
-        "checkouts": 20,
-        "purchases": 14,
-        "revenue": 440.46
+        "checkouts": 20
       },
       {
         "date": "2026-02-22",
         "sessions": 596,
+        "revenue": 484.36,
+        "purchases": 16,
         "pdp_views": 98,
         "atc": 38,
-        "checkouts": 27,
-        "purchases": 16,
-        "revenue": 484.36
+        "checkouts": 27
       },
       {
         "date": "2026-02-23",
         "sessions": 519,
+        "revenue": 251.76,
+        "purchases": 7,
         "pdp_views": 74,
         "atc": 29,
-        "checkouts": 21,
-        "purchases": 7,
-        "revenue": 251.76
+        "checkouts": 21
       },
       {
         "date": "2026-02-24",
         "sessions": 541,
+        "revenue": 627.06,
+        "purchases": 16,
         "pdp_views": 80,
         "atc": 30,
-        "checkouts": 24,
-        "purchases": 16,
-        "revenue": 627.06
+        "checkouts": 24
       },
       {
         "date": "2026-02-25",
         "sessions": 700,
+        "revenue": 485.92,
+        "purchases": 14,
         "pdp_views": 84,
         "atc": 34,
-        "checkouts": 22,
-        "purchases": 14,
-        "revenue": 485.92
+        "checkouts": 22
       },
       {
         "date": "2026-02-26",
         "sessions": 533,
+        "revenue": 402.88,
+        "purchases": 11,
         "pdp_views": 74,
         "atc": 26,
-        "checkouts": 17,
-        "purchases": 11,
-        "revenue": 402.88
+        "checkouts": 17
       },
       {
         "date": "2026-02-27",
         "sessions": 616,
+        "revenue": 564.41,
+        "purchases": 14,
         "pdp_views": 87,
         "atc": 31,
-        "checkouts": 22,
-        "purchases": 14,
-        "revenue": 564.41
+        "checkouts": 22
       },
       {
         "date": "2026-02-28",
         "sessions": 633,
+        "revenue": 496.79,
+        "purchases": 13,
         "pdp_views": 106,
         "atc": 31,
-        "checkouts": 22,
-        "purchases": 13,
-        "revenue": 496.79
+        "checkouts": 22
       },
       {
         "date": "2026-03-01",
         "sessions": 742,
+        "revenue": 787.75,
+        "purchases": 13,
         "pdp_views": 102,
         "atc": 39,
-        "checkouts": 27,
-        "purchases": 13,
-        "revenue": 787.75
+        "checkouts": 27
       },
       {
         "date": "2026-03-02",
         "sessions": 454,
+        "revenue": 96.8,
+        "purchases": 3,
         "pdp_views": 66,
         "atc": 22,
-        "checkouts": 11,
-        "purchases": 3,
-        "revenue": 96.8
+        "checkouts": 11
       },
       {
         "date": "2026-03-03",
         "sessions": 333,
+        "revenue": 357.37,
+        "purchases": 10,
         "pdp_views": 43,
         "atc": 21,
-        "checkouts": 16,
-        "purchases": 10,
-        "revenue": 357.37
+        "checkouts": 16
       },
       {
         "date": "2026-03-04",
         "sessions": 250,
+        "revenue": 259.87,
+        "purchases": 7,
         "pdp_views": 33,
         "atc": 13,
-        "checkouts": 7,
-        "purchases": 7,
-        "revenue": 259.87
+        "checkouts": 7
       },
       {
         "date": "2026-03-05",
         "sessions": 273,
+        "revenue": 69.8,
+        "purchases": 2,
         "pdp_views": 32,
         "atc": 8,
-        "checkouts": 4,
-        "purchases": 2,
-        "revenue": 69.8
+        "checkouts": 4
       },
       {
         "date": "2026-03-06",
         "sessions": 79,
+        "revenue": 55.9,
+        "purchases": 2,
         "pdp_views": 16,
         "atc": 5,
-        "checkouts": 2,
-        "purchases": 2,
-        "revenue": 55.9
+        "checkouts": 2
       },
       {
         "date": "2026-03-11",
         "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-12",
         "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-13",
         "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-16",
         "sessions": 7,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-30",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       }
     ]
   },
   "calls": {
     "recent": [
       {
-        "title": "Mother Root <> FERMAT | Weekly Check In",
-        "date": "2026-02-13T16:58:06.979649Z",
-        "duration": 685,
-        "participants": "Talia Cohen (talia@fermatcommerce.com), Maddie (maddie@motherroot.com), Thomas Beverley (thomas.beverley@motherroot.com)",
+        "title": "Mother Root <> FERMÀT | Weekly Check In",
+        "date": "2026-02-13T16:58:06Z",
+        "duration": "11 min",
+        "participants": "Talia Cohen (FERMÀT), Maddie Carey, Thomas Beverley (Mother Root)",
         "source": "Glyphic",
-        "summary": "Maddie confirmed that the funnels are finalized and will be deployed on Meta on Monday, with results expected by the end of next week. She also plans to build a Mother's Day funnel for a specific product, targeting the UK market, featuring a bundled offer with a slight discount. Talia offered to provide examples of promotion-based bundles.",
+        "summary": "Weekly check-in covering platform progress, funnel testing status, and upcoming plans.",
         "recording_url": null,
         "snippets": [],
-        "action_items": [
-          "Send examples of promotion-based bundle funnels for inspiration",
-          "Review the Mother's Day bundle or offer if sent ahead of time",
-          "Check on Monday morning when funnels go live"
-        ]
+        "action_items": []
       },
       {
-        "title": "Mother Root <> FERMAT | Weekly Check In",
-        "date": "2026-02-04T16:28:05.400425Z",
-        "duration": 2028,
-        "participants": "Talia Cohen (talia@fermatcommerce.com), Maddie (maddie@motherroot.com), Thomas Beverley (thomas.beverley@motherroot.com)",
+        "title": "Mother Root <> FERMÀT | Weekly Check In",
+        "date": "2026-02-04T16:28:05Z",
+        "duration": "34 min",
+        "participants": "Talia Cohen (FERMÀT), Maddie Carey, Thomas Beverley (Mother Root)",
         "source": "Glyphic",
-        "summary": "Maddie and Talia confirmed Mother Root's plan for a FERMAT vs. Replo test, with Maddie showcasing her progress on the funnel build. Talia provided detailed optimization feedback, including adding CTAs, removing the 'view on site' link, and improving upsell presentation. They discussed technical issues like font display and sticky add-to-cart behavior.",
+        "summary": "Weekly check-in with detailed discussion on funnel optimization and traffic split testing.",
         "recording_url": null,
         "snippets": [],
-        "action_items": [
-          "Double-check font appearing in shopping bag section",
-          "Investigate background color on static add-to-cart button",
-          "Flag sticky add-to-cart bar disappearing issue to team",
-          "Conduct final review of funnel build and send recommendations",
-          "Confirm process for swapping funnel on live Meta link"
-        ]
-      },
+        "action_items": []
+      }
+    ],
+    "analysis": "Mother Root had regular weekly check-ins managed by Talia until the account transitioned to Pulkit on Mar 10. Pulkit conducted an exit call on Mar 31 (captured in Granola) where the brand discussed platform UX issues and decided to cancel. The brand's last Glyphic-recorded call was Feb 13."
+  },
+  "calendar": {
+    "past": [
       {
-        "title": "Mother Root <> FERMAT | Weekly Check In",
-        "date": "2026-01-21T16:28:03.878273Z",
-        "duration": 1789,
-        "participants": "Talia Cohen (talia@fermatcommerce.com), Maddie (maddie@motherroot.com), Thomas Beverley (thomas.beverley@motherroot.com)",
-        "source": "Glyphic",
-        "summary": "Maddie from Mother Root sought assistance with technical aspects of the Funnel Builder, including adjusting product page badges and 'per serve' descriptors, and raised significant concerns about the cart's UX/UI and the platform's ability to optimize funnels for both desktop and mobile simultaneously. The lack of desktop optimization is a known product roadmap item and a potential blocker for their evaluation.",
-        "recording_url": null,
-        "snippets": [],
-        "action_items": [
-          "Flag cart UI issues (sizing of title and price) to product team",
-          "Share examples of aesthetically pleasing and top-performing funnels",
-          "Investigate using HTML to optimize desktop/mobile within a single experience",
-          "Keep buyer informed about product roadmap for native desktop optimization"
+        "title": "Mother Root x FERMÀT",
+        "start": "2026-03-31T13:30:00+05:30",
+        "end": "2026-03-31T14:00:00+05:30",
+        "attendees": [
+          "pulkit@fermatcommerce.com"
         ]
       }
     ],
-    "analysis": "MOTHER ROOT has had regular weekly check-ins with Talia Cohen (now transitioning to Enterprise team). The brand was actively building and testing FERMAT funnels against Replo, with Maddie Carey leading the effort. Key concerns revolved around desktop optimization and design customization limitations. The account has now signaled intent to churn (March 26 Slack message)."
-  },
-  "calendar": {
-    "past": [],
     "upcoming": []
   },
   "slack": {
     "messages": [
       {
-        "user": "Maddie Carey",
-        "text": "Hey Pulkit Talia Cohen - I hope you are both well. I'm writing to inform you that we will not be moving forward with using Fermat on a long term basis - happy to provide feedback if it is of interest. Please could you let me know best way to go about cancellation and the associated date the platform will therefore be shut down for us? I appreciate all of your help up until this point.",
+        "user": "Maddie Carey (Mother Root)",
+        "text": "Hey Pulkit Talia — I'm writing to inform you that we will not be moving forward with using Fermat on a long term basis. Please could you let me know best way to go about cancellation.",
         "timestamp": "2026-03-26T00:49:23+05:30",
-        "channel": "#fermat-x-motherroot"
+        "channel": "#fermàt-x-motherroot"
       },
       {
         "user": "Pulkit Srivastava",
-        "text": "Hey Mother Root team! I'm Pulkit, your new GM here at FERMAT. I've been with the FERMAT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call and get to know everyone. Feel free to grab some time on my calendar.",
+        "text": "Hey Mother Root team! I'm Pulkit, your new GM here at FERMÀT. I've been with the team for about 1.5 years. Would love to hop on a call.",
         "timestamp": "2026-03-10T18:31:15+05:30",
-        "channel": "#fermat-x-motherroot"
+        "channel": "#fermàt-x-motherroot"
       },
       {
         "user": "Talia Cohen",
-        "text": "Hi Maddie - welcome back to the office. I'm reaching out with some bittersweet but exciting news - later this week I'll be transitioning into a new role on our Enterprise team here at FERMAT. I'm thrilled to introduce Pulkit, one of our outstanding Onboarding and Growth Managers! Pulkit will be following up shortly with a calendar link.",
+        "text": "Introducing Pulkit as the new Onboarding and Growth Manager for Mother Root.",
         "timestamp": "2026-03-10T18:30:18+05:30",
-        "channel": "#fermat-x-motherroot"
+        "channel": "#fermàt-x-motherroot"
       },
       {
-        "user": "Maddie Carey",
-        "text": "Hi Talia Cohen Do you know if we have any Marmalade landing page live? We've had a couple random orders appear that we can't seem to find out where from.",
-        "timestamp": "2026-03-02T21:59:32+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Hey Tom - yes, all good to go here! Looks Maddie Carey set the traffic split on the FERMAT link to send 0% to FERMAT with 100% to the site. Would you like me to adjust that to a 50/50 split?",
-        "timestamp": "2026-02-26T21:53:31+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Tom",
-        "text": "We've got paid ads live using the Fermat link",
-        "timestamp": "2026-02-26T16:18:04+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Tom",
-        "text": "Talia Cohen Hey Talia, are we all good to go live for the Mother's Day funnel?",
-        "timestamp": "2026-02-26T16:17:52+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "FERMAT",
-        "text": "FERMAT has joined the channel",
-        "timestamp": "2026-02-24T16:44:18+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Pulkit Srivastava",
-        "text": "Pulkit has joined the channel",
-        "timestamp": "2026-02-24T16:44:06+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Maddie Carey",
-        "text": "Hey Talia - I'm OOO for the next two weeks but the channel will be monitored if any issues",
-        "timestamp": "2026-02-20T19:13:17+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Maddie Carey",
-        "text": "Hey Talia - This product isn't appearing in Fermat - I've resynced too. Could you take a look please? MOTHERSDAYSET",
+        "user": "Maddie Carey (Mother Root)",
+        "text": "Hi Talia — This product isn't appearing in Fermat. I've resynced too. MOTHERSDAYSET",
         "timestamp": "2026-02-19T20:48:59+05:30",
-        "channel": "#fermat-x-motherroot"
+        "channel": "#fermàt-x-motherroot"
       },
       {
         "user": "Talia Cohen",
-        "text": "Hi Maddie - by any chance, can you meet a half hour earlier today? I have a team call thrown on my books.",
-        "timestamp": "2026-02-18T20:57:31+05:30",
-        "channel": "#fermat-x-motherroot"
+        "text": "Traffic split on FERMÀT link set to 0% to FERMÀT with 100% to site. Would you like me to adjust to 50/50?",
+        "timestamp": "2026-02-26T21:53:31+05:30",
+        "channel": "#fermàt-x-motherroot"
       },
       {
-        "user": "Talia Cohen",
-        "text": "Hi Maddie - hope you're having a great week! Checking in on status of your first test. Also sharing Module Visibility Controls update - you can now show/hide specific modules based on device.",
-        "timestamp": "2026-02-18T00:58:19+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Hi Maddie - wanted to follow up on our conversation from last week: how are the final pieces of the funnel coming together?",
-        "timestamp": "2026-02-10T18:35:32+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Hi Maddie, I've made additional changes to the Desktop version of the funnel. Sharing two launch strategy options: 1) Device-based split test, 2) Mobile-first launch. Recommend Option 2.",
-        "timestamp": "2026-02-02T18:00:00+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Additionally, I've created the funnel TC Desktop | Replo Duplication. Our team is still working on the label issue in the variant selector.",
-        "timestamp": "2026-01-28T00:09:16+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Hey Maddie - thanks again for the time yesterday! Sharing a brief recap. Fixed per serve pricing, located variant badges, identified cart/product card design issues. Desktop optimization still needed.",
-        "timestamp": "2026-01-23T03:19:37+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Maddie Carey",
-        "text": "Hey Talia - RHUBARB Q1 LAUNCH DATES: [10th March] Retention Early Access via Email, [26th March] General Launch via Ads",
-        "timestamp": "2026-01-20T19:19:47+05:30",
-        "channel": "#fermat-x-motherroot"
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Hi Maddie - thanks for your time earlier today! Some follow up: confirmed contract addendum shifting opt-out date to 4/22. Sharing 90 Day Roadmap. Aim to have first two funnels ready in 10 days.",
-        "timestamp": "2026-01-15T00:31:43+05:30",
-        "channel": "#fermat-x-motherroot"
+        "user": "Tom (Mother Root)",
+        "text": "We've got paid ads live using the Fermat link. Are we all good to go live for the Mother's Day funnel?",
+        "timestamp": "2026-02-26T16:17:52+05:30",
+        "channel": "#fermàt-x-motherroot"
       }
     ],
-    "analysis": "CRITICAL: MOTHER ROOT has formally notified of intent to churn on March 26, 2026. The Slack channel shows a deteriorating engagement pattern - Maddie was OOO for 2 weeks (Feb 20 - Mar 10), during which the GM transition from Talia to Pulkit occurred. After returning, no call was booked despite Pulkit's outreach. The traffic split was set to 0% FERMAT / 100% site, suggesting the brand was already disengaging from the platform. The cancellation message came just 16 days after the GM transition."
+    "analysis": "The Slack channel tells the full story of MOTHER ROOT's arc: from active engagement on Mother's Day funnels in late February, through the GM transition on Mar 10, to Maddie's cancellation message on Mar 26. The brand cited platform UX issues and mismatched expectations from the sales demo."
   },
   "email": {
     "messages": [
       {
-        "from": "Linear <notifications@linear.app>",
-        "subject": "4 unread notifications on Fermat",
-        "date": "2026-03-16T02:33:27Z",
-        "snippet": "You have 4 unread notifications on Linear."
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "subject": "Re: Brand Churn Notice: MOTHER ROOT",
+        "date": "2026-04-01T06:10:16Z",
+        "snippet": "Noted on the contracts being the most reliable data source. I will reach out to the MOTHER ROOT team to confirm the March invoice status."
       },
       {
-        "from": "Talia Cohen <talia@fermatcommerce.com>",
-        "subject": "Invitation: Mother Root <> FERMAT | Weekly Check In @ Weekly from 9pm to 9:30pm on Wednesday (IST)",
-        "date": "2026-03-09T19:00:13Z",
-        "snippet": "Mother Root <> FERMAT | Weekly Check In Event. Calendar invite for weekly meeting transferred to Pulkit."
+        "from": "Ashutosh Patel <ashutosh@fermatcommerce.com>",
+        "subject": "Re: Brand Churn Notice: MOTHER ROOT",
+        "date": "2026-04-01T06:03:31Z",
+        "snippet": "Contracts are the most reliable data sources. Also can you confirm for the march invoice?"
+      },
+      {
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "subject": "Re: Brand Churn Notice: MOTHER ROOT",
+        "date": "2026-04-01T05:28:44Z",
+        "snippet": "Understood on the $3000 MRR discrepancy. I saw this number on SFDC."
+      },
+      {
+        "from": "Alec Gastesi <alec.gastesi@fermatcommerce.com>",
+        "subject": "Re: Brand Churn Notice: MOTHER ROOT",
+        "date": "2026-03-31T23:31:19Z",
+        "snippet": "Mother Root has paid us on 3/27/26 for invoices INV-0003063 ($1500) and INV-0003155 ($1500). One invoice outstanding INV-0003298."
+      },
+      {
+        "from": "Ashutosh Patel <ashutosh@fermatcommerce.com>",
+        "subject": "Re: Brand Churn Notice: MOTHER ROOT",
+        "date": "2026-03-31T16:23:28Z",
+        "snippet": "The Mother Root team hasn't paid any of their invoices yet. Can you check up with them before we churn them out."
+      },
+      {
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "subject": "Brand Churn Notice: MOTHER ROOT",
+        "date": "2026-03-31T10:53:52Z",
+        "snippet": "Please see the churn details for MOTHER ROOT below. Customer Name: MOTHER ROOT."
       }
     ],
-    "analysis": "Very limited email activity for MOTHER ROOT in the last 30 days. Only a Linear notification and a calendar invite transfer from Talia to Pulkit. The lack of direct email correspondence with the brand contacts (Maddie, Tom) is concerning and aligns with the disengagement pattern visible in Slack."
+    "analysis": "Email activity is entirely focused on churn processing. Pulkit filed the Brand Churn Notice on Mar 31 after the exit call. Internal discussion with Ashutosh (finance) and Alec about outstanding invoices. Mother Root paid 2 of 3 invoices ($3,000 total) on Mar 27, with one March invoice still outstanding."
   }
 }

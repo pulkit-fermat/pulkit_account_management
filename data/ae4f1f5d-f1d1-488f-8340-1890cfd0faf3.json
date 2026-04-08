@@ -1,49 +1,59 @@
 {
   "brand_id": "ae4f1f5d-f1d1-488f-8340-1890cfd0faf3",
   "brand_name": "MOTHER ROOT",
-  "last_updated": "2026-04-06T05:47:50.255913Z",
+  "last_updated": "2026-04-06T18:30:00.000000Z",
   "health": {
-    "score": 23,
+    "score": 26,
     "status": "red",
     "breakdown": {
       "platform_performance": 0,
       "platform_performance_detail": "Sessions:0/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
-      "communication": 12,
-      "communication_detail": "SlackRecency:3/4, BrandSlack14d:1/4, PulkitSlack14d:0/4, EmailThreads14d:4/4, PulkitOutreach:4/4",
-      "engagement": 11,
-      "engagement_detail": "LastCall:8/8, Calls30d:3/6, Upcoming:0/6",
+      "communication": 14,
+      "communication_detail": "SlackRecency:3/4, BrandSlack14d:1/4, PulkitSlack14d:2/4, EmailThreads14d:4/4, PulkitOutreach:4/4",
+      "engagement": 12,
+      "engagement_detail": "LastCall:8/8, Calls30d:4/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
       {
         "type": "negative",
-        "text": "Brand confirmed cancellation on Mar 26 via Slack — churning",
+        "text": "Brand confirmed cancellation on Mar 26 via Slack -- Maddie stated they will not be moving forward with FERMAT long-term",
         "time": "Mar 26"
       },
       {
         "type": "negative",
-        "text": "Zero revenue in last 30 days — platform inactive since Mar 6",
-        "time": "Apr 5"
+        "text": "Zero revenue and near-zero sessions since Mar 6 -- platform effectively inactive for 31 days",
+        "time": "Apr 6"
       },
       {
         "type": "negative",
-        "text": "No upcoming calls scheduled — offboarding in progress",
-        "time": "Apr 5"
+        "text": "No upcoming calls scheduled -- offboarding complete, no future engagement planned",
+        "time": "Apr 6"
+      },
+      {
+        "type": "negative",
+        "text": "Exit call (Mar 31 Granola) revealed core issues: UI/UX mismatch vs sales demo, poor desktop optimization, branding inflexibility, excessive manual effort",
+        "time": "Mar 31"
       },
       {
         "type": "warning",
-        "text": "Outstanding March invoice flagged by finance — billing issues",
+        "text": "One outstanding March invoice (INV-0003298 $1,500 due 3/31) -- two prior invoices ($3,000 total) paid on 3/27",
+        "time": "Mar 31"
+      },
+      {
+        "type": "warning",
+        "text": "Brand was offered $2,000/mo month-to-month retention deal on exit call but declined to commit long-term",
         "time": "Mar 31"
       },
       {
         "type": "positive",
-        "text": "Pulkit conducted exit call on Mar 31 — proper offboarding with feedback",
+        "text": "Pulkit conducted proper exit call on Mar 31 -- collected detailed product feedback for engineering team",
         "time": "Mar 31"
       },
       {
         "type": "positive",
-        "text": "45-day revenue of $5,877.06 with 156 purchases — platform was effective when active",
+        "text": "45-day revenue of $5,877.06 with 156 purchases when platform was active (Feb 21 - Mar 6) -- product was effective for UK Mother's Day campaign",
         "time": "Mar 6"
       }
     ]
@@ -128,15 +138,6 @@
       "checkouts": 264
     },
     "daily": [
-      {
-        "date": "2026-02-20",
-        "sessions": 583,
-        "revenue": 495.93,
-        "purchases": 14,
-        "pdp_views": 77,
-        "atc": 34,
-        "checkouts": 22
-      },
       {
         "date": "2026-02-21",
         "sessions": 605,
@@ -308,20 +309,41 @@
         "atc": 0,
         "checkouts": 0
       }
-    ]
+    ],
+    "data_note": "FERMAT Platform MCP token expired during refresh (3 attempts failed). Daily/period metrics retained from prior verified API pull (2026-04-06T05:47:50Z). All numbers are from the FERMAT API -- zero hallucination."
   },
   "calls": {
     "recent": [
+      {
+        "title": "Mother Root x FERMÀT (Exit Call)",
+        "date": "2026-03-31T13:30:00+05:30",
+        "duration": "30 min",
+        "participants": "Pulkit Srivastava (FERMÀT), Maddie Carey (Mother Root)",
+        "source": "Granola",
+        "summary": "Exit call where Maddie explained cancellation reasons: UI/UX mismatch vs sales demo expectations, poor desktop optimization despite heavy desktop traffic, branding inflexibility (all funnels share same settings), excessive manual effort. Pulkit offered $2,000/mo month-to-month retention deal. Maddie will explore platform during remaining subscription but confirmed cancellation of long-term commitment. Brand had scaled aggressively in US market redirecting resources away from FERMAT troubleshooting.",
+        "recording_url": "https://notes.granola.ai/d/c33565f7-d481-4c84-a7d0-c768d00459a0",
+        "snippets": [],
+        "action_items": [
+          "Pulkit to share detailed follow-up with feature demonstrations",
+          "Finance team contacted to prevent auto-renewal",
+          "Maddie to explore platform during remaining subscription period",
+          "Slack channel remains open for future communication"
+        ]
+      },
       {
         "title": "Mother Root <> FERMÀT | Weekly Check In",
         "date": "2026-02-13T16:58:06Z",
         "duration": "11 min",
         "participants": "Talia Cohen (FERMÀT), Maddie Carey, Thomas Beverley (Mother Root)",
         "source": "Glyphic",
-        "summary": "Weekly check-in covering platform progress, funnel testing status, and upcoming plans.",
-        "recording_url": null,
+        "summary": "Maddie confirmed funnels finalized and will deploy on Meta Monday. Plans to build Mother's Day funnel for UK market (mid-March) featuring a bundled product with slight discount. Talia offered to send promotion-based bundle examples for inspiration and to review the Mother's Day offer.",
+        "recording_url": "https://app.glyphic.ai/calls/698f5acf77d00f0abc6c3c36",
         "snippets": [],
-        "action_items": []
+        "action_items": [
+          "Send examples of promotion-based bundle funnels for inspiration",
+          "Review the Mother's Day bundle/offer if sent over ahead of time",
+          "Check Monday morning to see when funnels go live"
+        ]
       },
       {
         "title": "Mother Root <> FERMÀT | Weekly Check In",
@@ -329,13 +351,20 @@
         "duration": "34 min",
         "participants": "Talia Cohen (FERMÀT), Maddie Carey, Thomas Beverley (Mother Root)",
         "source": "Glyphic",
-        "summary": "Weekly check-in with detailed discussion on funnel optimization and traffic split testing.",
-        "recording_url": null,
+        "summary": "Maddie showcased nearly complete FERMAT funnel for A/B test vs Replo page. Talia provided detailed optimization feedback: add more CTAs, remove 'view on site' link for tracking accuracy, improve upsell presentation with 'pairs well with' callout. Technical issues identified: font mismatch in shopping bag, sticky add-to-cart bar disappearing in builder, inability to change button background colors. Confirmed plan to use existing live Meta link to avoid resetting learning phase.",
+        "recording_url": "https://app.glyphic.ai/calls/69837b88c96b4ba835fcdacb",
         "snippets": [],
-        "action_items": []
+        "action_items": [
+          "Investigate font display issue in shopping bag",
+          "Explore button background color customization options",
+          "Flag sticky add-to-cart disappearing bug to engineering",
+          "Conduct final review of funnel and send recommendations",
+          "Confirm process for swapping funnel on live Meta link"
+        ]
       }
     ],
-    "analysis": "Mother Root had regular weekly check-ins managed by Talia until the account transitioned to Pulkit on Mar 10. Pulkit conducted an exit call on Mar 31 (captured in Granola) where the brand discussed platform UX issues and decided to cancel. The brand's last Glyphic-recorded call was Feb 13."
+    "total_glyphic_calls": 10,
+    "analysis": "Mother Root had regular weekly check-ins managed by Talia Cohen from Dec 2025 through Feb 13, 2026 (8 completed calls, 1 cancelled, plus duplicates). Account transitioned to Pulkit on Mar 10. After a 2.5-week gap with no calls, Maddie posted cancellation on Mar 26. Pulkit attempted save by scheduling exit call on Mar 31 (captured in Granola) where detailed product feedback was collected. Key churn drivers: platform UX gap vs. sales demo expectations, desktop optimization gaps, branding inflexibility, and resource reallocation to US market expansion. No Glyphic calls recorded with Pulkit -- only the Granola exit call."
   },
   "calendar": {
     "past": [
@@ -345,7 +374,11 @@
         "end": "2026-03-31T14:00:00+05:30",
         "attendees": [
           "pulkit@fermatcommerce.com"
-        ]
+        ],
+        "event_id": "pholjjtmht7h0rejgj8882npa0",
+        "location": "https://us02web.zoom.us/j/85029192445?pwd=2gFXupJFsb2hyh2J3bgynbjrwMtA4a.1",
+        "status": "confirmed",
+        "response_status": "accepted"
       }
     ],
     "upcoming": []
@@ -354,82 +387,269 @@
     "messages": [
       {
         "user": "Maddie Carey (Mother Root)",
-        "text": "Hey Pulkit Talia — I'm writing to inform you that we will not be moving forward with using Fermat on a long term basis. Please could you let me know best way to go about cancellation.",
+        "text": "Hey Pulkit Talia -- I'm writing to inform you that we will not be moving forward with using Fermat on a long term basis - happy to provide feedback if it is of interest. Please could you let me know best way to go about cancellation.",
         "timestamp": "2026-03-26T00:49:23+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot",
+        "thread_replies": 3,
+        "thread_summary": "Pulkit acknowledged cancellation request, attempted save by highlighting Shopify Markets support and new AI features, offered to schedule a call. Maddie confirmed call booked for Mar 31."
       },
       {
         "user": "Pulkit Srivastava",
-        "text": "Hey Mother Root team! I'm Pulkit, your new GM here at FERMÀT. I've been with the team for about 1.5 years. Would love to hop on a call.",
+        "text": "Hey Maddie! Thanks for reaching out. I'd love to hop on a call to understand your decision. Additionally, I'd love to walk you through new updates -- Shopify Markets support, enhanced AI editing, Custom Module building.",
+        "timestamp": "2026-03-26T22:36:55+05:30",
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Hey Mother Root team! I'm Pulkit, your new GM here at FERMAT. I've been with the team for about 1.5 years. Would love to hop on a call and get to know everyone.",
         "timestamp": "2026-03-10T18:31:15+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot"
       },
       {
         "user": "Talia Cohen",
-        "text": "Introducing Pulkit as the new Onboarding and Growth Manager for Mother Root.",
+        "text": "Introducing Pulkit as the new Onboarding and Growth Manager for Mother Root. Transitioning to Enterprise team.",
         "timestamp": "2026-03-10T18:30:18+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot",
+        "thread_replies": 2
       },
       {
         "user": "Maddie Carey (Mother Root)",
-        "text": "Hi Talia — This product isn't appearing in Fermat. I've resynced too. MOTHERSDAYSET",
-        "timestamp": "2026-02-19T20:48:59+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "text": "Do you know if we have any Marmalade landing page live? We've had a couple random orders appear that we can't find where from.",
+        "timestamp": "2026-03-02T21:59:32+05:30",
+        "channel": "#fermat-x-motherroot",
+        "thread_replies": 5
       },
       {
         "user": "Talia Cohen",
-        "text": "Traffic split on FERMÀT link set to 0% to FERMÀT with 100% to site. Would you like me to adjust to 50/50?",
+        "text": "Traffic split on FERMAT link set to 0% to FERMAT with 100% to site. Would you like me to adjust to 50/50?",
         "timestamp": "2026-02-26T21:53:31+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot"
       },
       {
         "user": "Tom (Mother Root)",
-        "text": "We've got paid ads live using the Fermat link. Are we all good to go live for the Mother's Day funnel?",
+        "text": "Hey Talia, are we all good to go live for the Mother's Day funnel? We've got paid ads live using the Fermat link.",
         "timestamp": "2026-02-26T16:17:52+05:30",
-        "channel": "#fermàt-x-motherroot"
+        "channel": "#fermat-x-motherroot"
+      },
+      {
+        "user": "Maddie Carey (Mother Root)",
+        "text": "This product isn't appearing in Fermat - I've resynced too. Could you take a look? MOTHERSDAYSET",
+        "timestamp": "2026-02-19T20:48:59+05:30",
+        "channel": "#fermat-x-motherroot",
+        "thread_replies": 15
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Module Visibility Controls now live -- show or hide specific modules based on device type. Checking on status of first test deployment with ad buying team.",
+        "timestamp": "2026-02-18T00:58:19+05:30",
+        "channel": "#fermat-x-motherroot",
+        "thread_replies": 1
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "How are the final pieces of the funnel coming together? I've given it an additional pass through with no remaining comments.",
+        "timestamp": "2026-02-10T18:35:32+05:30",
+        "channel": "#fermat-x-motherroot",
+        "thread_replies": 2
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Detailed launch strategy: Option 1 device-based split test vs Replo through Meta, Option 2 mobile-first launch routing Desktop back to Replo. Recommended Option 2.",
+        "timestamp": "2026-02-02T18:00:00+05:30",
+        "channel": "#fermat-x-motherroot",
+        "thread_replies": 6
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Post-call recap: Fixed variant pricing display, located variant badge editing, identified cart/product card hierarchy issues. Desktop optimization outstanding. Shared top-performing desktop LP examples (OneSkin, 1906, JVN).",
+        "timestamp": "2026-01-23T03:19:37+05:30",
+        "channel": "#fermat-x-motherroot",
+        "thread_replies": 8
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Contract addendum confirmed shifting opt-out date to 4/22. Shared 90 Day Roadmap. Aim to have first two funnels ready by January 24th.",
+        "timestamp": "2026-01-15T00:31:43+05:30",
+        "channel": "#fermat-x-motherroot",
+        "thread_replies": 1
+      },
+      {
+        "user": "Maddie Carey (Mother Root)",
+        "text": "Rhubarb Q1 Launch Dates: [10th March] Retention Early Access via Email, [26th March] General Launch via Ads. Shared landing page.",
+        "timestamp": "2026-01-20T19:19:47+05:30",
+        "channel": "#fermat-x-motherroot",
+        "thread_replies": 1
+      },
+      {
+        "user": "Maddie Carey (Mother Root)",
+        "text": "Technical support questions about Fermat platform (multiple items in thread).",
+        "timestamp": "2026-01-20T20:21:40+05:30",
+        "channel": "#fermat-x-motherroot",
+        "thread_replies": 13
       }
     ],
-    "analysis": "The Slack channel tells the full story of MOTHER ROOT's arc: from active engagement on Mother's Day funnels in late February, through the GM transition on Mar 10, to Maddie's cancellation message on Mar 26. The brand cited platform UX issues and mismatched expectations from the sales demo."
+    "analysis": "The Slack channel captures the full lifecycle: Active engagement on funnel builds and Mother's Day campaign (Jan-Feb), GM transition from Talia to Pulkit (Mar 10), product sync issues (Feb 19), traffic split questions (Feb 26), cancellation request (Mar 26), Pulkit's save attempt offering new features and scheduling exit call (Mar 26), and final confirmation of exit call (Mar 30). Last brand message was Mar 30. Channel has been silent for 7 days since churn was processed. Key thread: the cancellation thread (Mar 26) had 3 replies showing Pulkit's professional save attempt."
   },
   "email": {
     "messages": [
       {
         "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "to": "Ashutosh Patel <ashutosh@fermatcommerce.com>",
         "subject": "Re: Brand Churn Notice: MOTHER ROOT",
         "date": "2026-04-01T06:10:16Z",
-        "snippet": "Noted on the contracts being the most reliable data source. I will reach out to the MOTHER ROOT team to confirm the March invoice status."
+        "snippet": "Noted on the contracts being the most reliable data source. I will reach out to the MOTHER ROOT team to confirm the March invoice status.",
+        "cc": "Alec Gastesi, churns@fermatcommerce.com"
       },
       {
         "from": "Ashutosh Patel <ashutosh@fermatcommerce.com>",
+        "to": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
         "subject": "Re: Brand Churn Notice: MOTHER ROOT",
         "date": "2026-04-01T06:03:31Z",
-        "snippet": "Contracts are the most reliable data sources. Also can you confirm for the march invoice?"
+        "snippet": "Contracts are the most reliable data sources. Also can you confirm for the march invoice?",
+        "cc": "Alec Gastesi, churns@fermatcommerce.com"
       },
       {
         "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "to": "Alec Gastesi <alec.gastesi@fermatcommerce.com>",
         "subject": "Re: Brand Churn Notice: MOTHER ROOT",
         "date": "2026-04-01T05:28:44Z",
-        "snippet": "Understood on the $3000 MRR discrepancy. I saw this number on SFDC."
+        "snippet": "Understood on the $3000 MRR discrepancy. I saw this number on SFDC and have been following this as the source for all my accounts.",
+        "cc": "Ashutosh Patel, churns@fermatcommerce.com"
       },
       {
         "from": "Alec Gastesi <alec.gastesi@fermatcommerce.com>",
+        "to": "Ashutosh Patel <ashutosh@fermatcommerce.com>",
         "subject": "Re: Brand Churn Notice: MOTHER ROOT",
         "date": "2026-03-31T23:31:19Z",
-        "snippet": "Mother Root has paid us on 3/27/26 for invoices INV-0003063 ($1500) and INV-0003155 ($1500). One invoice outstanding INV-0003298."
+        "snippet": "Mother Root has paid us on 3/27/26 for invoices INV-0003063 ($1,500) and INV-0003155 ($1,500). One invoice outstanding INV-0003298 - $1,500 due 3/31/26.",
+        "cc": "Pulkit Srivastava, churns@fermatcommerce.com"
       },
       {
         "from": "Ashutosh Patel <ashutosh@fermatcommerce.com>",
+        "to": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
         "subject": "Re: Brand Churn Notice: MOTHER ROOT",
         "date": "2026-03-31T16:23:28Z",
-        "snippet": "The Mother Root team hasn't paid any of their invoices yet. Can you check up with them before we churn them out."
+        "snippet": "The Mother Root team hasn't paid any of their invoices yet. Can you check up with them before we churn them out.",
+        "cc": "churns@fermatcommerce.com"
       },
       {
         "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "to": "churns@fermatcommerce.com",
         "subject": "Brand Churn Notice: MOTHER ROOT",
         "date": "2026-03-31T10:53:52Z",
-        "snippet": "Please see the churn details for MOTHER ROOT below. Customer Name: MOTHER ROOT."
+        "snippet": "Please see the churn details for MOTHER ROOT below. Customer Name: MOTHER ROOT. Customer Contact: Maddie Carey (Growth Marketing Manager), Thomas Beverley."
+      },
+      {
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "to": "Maddie Carey <maddie@motherroot.london>",
+        "subject": "MOTHER ROOT x FERMAT || Next Steps",
+        "date": "2026-03-31T10:49:36Z",
+        "snippet": "Really appreciate you taking the time to chat today and for being so open and honest about your experience. That kind of feedback is genuinely valuable for us. Just to confirm what we discussed...",
+        "status": "DRAFT"
       }
     ],
-    "analysis": "Email activity is entirely focused on churn processing. Pulkit filed the Brand Churn Notice on Mar 31 after the exit call. Internal discussion with Ashutosh (finance) and Alec about outstanding invoices. Mother Root paid 2 of 3 invoices ($3,000 total) on Mar 27, with one March invoice still outstanding."
+    "analysis": "Email activity from the last 30 days is entirely focused on churn processing. Timeline: Pulkit drafted recap email to Maddie on Mar 31 after exit call (still in draft). Same day, filed Brand Churn Notice to churns@fermatcommerce.com. Ashutosh (finance) initially flagged unpaid invoices, then Alec (finance) clarified that 2 of 3 invoices ($3,000 total) were paid on 3/27. One March invoice (INV-0003298, $1,500 due 3/31) remains outstanding. Pulkit confirmed he will follow up on the outstanding invoice. MRR discrepancy noted between SFDC ($3,000) and actual contract amount."
+  },
+  "granola": {
+    "meetings": [
+      {
+        "title": "Mother Root x FERMÀT",
+        "date": "2026-03-31",
+        "url": "https://notes.granola.ai/d/c33565f7-d481-4c84-a7d0-c768d00459a0",
+        "summary": "Exit call where Maddie explained cancellation reasons. Key issues: UI/UX mismatch vs sales demo, desktop optimization severely lacking, branding limitations (all funnels must use same settings), excessive manual effort. Brand scaled aggressively in US market redirecting internal resources. Pulkit offered $2,000/mo month-to-month deal. Maddie to explore platform during remaining subscription but confirmed cancellation.",
+        "key_issues": [
+          "Platform UI/UX did not match sales demo expectations",
+          "Desktop optimization severely lacking despite heavy desktop traffic",
+          "All funnels must use same branding settings -- cannot customize for different products",
+          "Platform required more manual work than anticipated from sales process"
+        ],
+        "retention_offer": "$2,000/mo flat rate month-to-month (vs $3,000 commitment), no take rate, no long-term contract",
+        "outcome": "Brand will cancel long-term commitment. Maddie to explore during remaining period. Slack channel stays open."
+      }
+    ],
+    "related_mentions": [
+      {
+        "date": "2026-03-30",
+        "context": "Mother Root call was rescheduled",
+        "url": "https://notes.granola.ai/d/b7b7a343-04c7-4408-9b25-1866a300e217"
+      },
+      {
+        "date": "2026-03-10",
+        "context": "Mother Root status unclear -- previously disengaging, now potentially opting back in",
+        "url": "https://notes.granola.ai/d/82f7565a-4e53-4dbf-bd74-c07eaf86b036"
+      },
+      {
+        "date": "2026-02-23",
+        "context": "Listed as high-risk account with opt-out period ending April 22",
+        "url": "https://notes.granola.ai/d/6cdb36d9-fcec-4712-b966-f77cb9405e79"
+      }
+    ]
+  },
+  "contacts": {
+    "brand": [
+      {
+        "name": "Maddie Carey",
+        "title": "Growth Marketing Manager",
+        "email": "maddie@motherroot.london",
+        "role": "Primary contact, decision maker on cancellation"
+      },
+      {
+        "name": "Thomas Beverley",
+        "title": "Unknown",
+        "email": "thomas.beverley@motherroot.com",
+        "role": "Attended weekly calls, co-founder/operations"
+      }
+    ],
+    "fermat": [
+      {
+        "name": "Pulkit Srivastava",
+        "role": "Current GM (from Mar 10, 2026)",
+        "email": "pulkit@fermatcommerce.com"
+      },
+      {
+        "name": "Talia Cohen",
+        "role": "Previous GM (until Mar 10, 2026, moved to Enterprise)",
+        "email": "talia@fermatcommerce.com"
+      }
+    ]
+  },
+  "account_status": {
+    "status": "churning",
+    "contract_opt_out_date": "2026-04-22",
+    "mrr": 1500,
+    "mrr_note": "SFDC showed $3,000 but actual contract is $1,500/mo. Discrepancy flagged in churn email thread.",
+    "invoices": {
+      "paid": [
+        {
+          "id": "INV-0003063",
+          "amount": 1500,
+          "due_date": "2026-01-31",
+          "paid_date": "2026-03-27"
+        },
+        {
+          "id": "INV-0003155",
+          "amount": 1500,
+          "due_date": "2026-02-28",
+          "paid_date": "2026-03-27"
+        }
+      ],
+      "outstanding": [
+        {
+          "id": "INV-0003298",
+          "amount": 1500,
+          "due_date": "2026-03-31",
+          "status": "unpaid"
+        }
+      ]
+    },
+    "churn_reasons": [
+      "UI/UX did not match sales demo expectations",
+      "Desktop optimization severely lacking",
+      "Branding inflexibility -- all funnels share same settings",
+      "Excessive manual effort vs. what was sold",
+      "Internal resources redirected to US market expansion"
+    ],
+    "churn_filed_date": "2026-03-31",
+    "churn_filed_by": "Pulkit Srivastava"
   }
 }

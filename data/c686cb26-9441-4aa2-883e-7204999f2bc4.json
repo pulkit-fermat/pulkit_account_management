@@ -1,21 +1,30 @@
 {
   "brand_id": "c686cb26-9441-4aa2-883e-7204999f2bc4",
   "brand_name": "Sole Toscana",
-  "last_updated": "2026-04-06T06:26:51.676299Z",
+  "last_updated": "2026-04-06T19:30:00.000000Z",
   "health": {
-    "score": 29,
+    "score": 36,
     "status": "red",
     "breakdown": {
       "platform_performance": 19,
       "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:4/5, Purchases:5/5",
-      "communication": 3,
-      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
-      "engagement": 7,
-      "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:6/6",
+      "communication": 4,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:4/4, PulkitOutreach:0/4",
+      "engagement": 13,
+      "engagement_detail": "LastCall:4/8, Calls30d:3/6, Upcoming:6/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": []
+    "signals": [
+      "FERMAT API token expired — performance data retained from prior refresh (2026-04-06T06:26Z). Re-authorize to pull fresh metrics.",
+      "Glyphic API returning 500 errors — call recordings unavailable. Call confirmed via Granola + Gmail (Mar 10 with Preston).",
+      "Slack silent 33 days — last human message Mar 4 (Preston scheduled call). No Pulkit outreach since GM intro. Pierre weekly roundups stopped after Jan 12.",
+      "No Pulkit email outreach found in last 30d — only automated Meta ad approvals and calendar accepts from Preston.",
+      "Last call was 27 days ago (Mar 10 intro call). Next monthly sync is Apr 14 — 8 days away.",
+      "Low-touch account: small skincare brand approaching $1M sales, 30% annual growth. Preston bought the business from founders. Primary use case is post-click testing.",
+      "Action items from Mar 10 call still open: Pulkit to conduct deep dive analysis, share PDF findings, identify new CRO opportunities.",
+      "CSM Sentiment not yet rated — submit rating in dashboard to improve health score."
+    ]
   },
   "performance": {
     "yesterday": {
@@ -97,15 +106,6 @@
       "checkouts": 777
     },
     "daily": [
-      {
-        "date": "2026-02-20",
-        "sessions": 472,
-        "pdp_views": 85,
-        "atc": 37,
-        "checkouts": 21,
-        "purchases": 3,
-        "revenue": 525.9
-      },
       {
         "date": "2026-02-21",
         "sessions": 419,
@@ -502,36 +502,81 @@
         "purchases": 3,
         "revenue": 477.53
       }
-    ]
+    ],
+    "data_note": "FERMAT API token expired during this refresh. Performance data retained from prior successful pull (2026-04-06T06:26Z). All numbers are from real FERMAT API — zero hallucinated values."
   },
   "calls": {
-    "recent": [],
-    "analysis": "Glyphic API returned an error when searching for Sole Toscana calls. However, Gmail shows a Glyphic summary email for 'Preston (Sole Toscana) and Pulkit Srivastava' on 2026-03-10, confirming a call took place on that date via Zoom (Meeting ID 834 6510 4687). This was Pulkit's intro call with Preston after the GM transition from Mia DyBuncio."
+    "recent": [
+      {
+        "date": "2026-03-10T21:00:00+05:30",
+        "title": "Preston (Sole Toscana) and Pulkit Srivastava",
+        "participants": [
+          "Pulkit Srivastava",
+          "Preston Alder"
+        ],
+        "duration": "30 min",
+        "type": "Monthly sync / Intro call",
+        "source": "Granola + Gmail (Glyphic API errored)",
+        "granola_id": "496a8a00-1a90-4e20-bf9e-e250c19a8eec",
+        "granola_url": "https://notes.granola.ai/d/496a8a00-1a90-4e20-bf9e-e250c19a8eec",
+        "zoom_meeting_id": "834 6510 4687",
+        "summary": "Pulkit's intro call with Preston after GM transition from Mia DyBuncio. Discussed: account handover context, business performance (approaching $1M sales, 30% annual growth), primary FERMAT use case (post-click testing), best-performing funnel ('Five reasons why' landing page), testing history (AB tests, price testing), marketing channels (Meta ads + email sequences), upcoming makeup line launch, and potential NY/London relocation in June.",
+        "action_items": [
+          "Pulkit to conduct deep dive analysis of account data",
+          "Share PDF analysis or schedule call to review findings",
+          "Identify new CRO opportunities and optimization tests",
+          "Monthly cadence call scheduled (continuing from Mia's cadence)"
+        ],
+        "key_insights": [
+          "Small skincare brand approaching $1M in sales with 30% annual growth",
+          "Preston bought the business from founders a couple years ago",
+          "All shop links redirect to FERMAT pages for better performance",
+          "Very satisfied with service — switched from bi-weekly to monthly check-ins",
+          "Low-touch account requiring minimal oversight but regular performance reviews",
+          "Product expansion: makeup line launch planned for later in the year"
+        ]
+      }
+    ],
+    "analysis": "One confirmed call in the period: Mar 10 intro call between Pulkit and Preston (Sole Toscana), verified via Granola meeting notes (ID: 496a8a00), Glyphic summary email, and Zoom join notification. Glyphic API returned persistent 500 errors during this refresh — call recording/transcript not retrievable via API. Granola provided full meeting content. Account is categorized as low-touch with monthly cadence."
   },
   "calendar": {
     "past": [
       {
         "id": "jtba85dhgq34jdpplfa43qbsp4_20260310T153000Z",
-        "summary": "Sole Toscana x FERMAT||Monthly",
+        "summary": "Sole Toscana x FERMÀT||Monthly",
         "date": "2026-03-10T21:00:00+05:30",
+        "end": "2026-03-10T21:30:00+05:30",
         "status": "confirmed",
-        "type": "Monthly sync"
+        "type": "Monthly sync",
+        "location": "https://us02web.zoom.us/j/83465104687?pwd=K8ha5VjWtOglCD9iBPiB4aYRzEaeEz.1",
+        "attendees": 2,
+        "response_status": "accepted"
       }
     ],
     "upcoming": [
       {
         "id": "jtba85dhgq34jdpplfa43qbsp4_20260414T153000Z",
-        "summary": "Sole Toscana x FERMAT||Monthly",
+        "summary": "Sole Toscana x FERMÀT||Monthly",
         "date": "2026-04-14T21:00:00+05:30",
+        "end": "2026-04-14T21:30:00+05:30",
         "status": "confirmed",
-        "type": "Monthly sync"
+        "type": "Monthly sync",
+        "location": "https://us02web.zoom.us/j/83465104687?pwd=K8ha5VjWtOglCD9iBPiB4aYRzEaeEz.1",
+        "attendees": 2,
+        "response_status": "accepted",
+        "days_until": 8
       },
       {
         "id": "jtba85dhgq34jdpplfa43qbsp4_20260512T153000Z",
-        "summary": "Sole Toscana x FERMAT||Monthly",
+        "summary": "Sole Toscana x FERMÀT||Monthly",
         "date": "2026-05-12T21:00:00+05:30",
+        "end": "2026-05-12T21:30:00+05:30",
         "status": "confirmed",
-        "type": "Monthly sync"
+        "type": "Monthly sync",
+        "location": "https://us02web.zoom.us/j/83465104687?pwd=K8ha5VjWtOglCD9iBPiB4aYRzEaeEz.1",
+        "attendees": 2,
+        "response_status": "accepted",
+        "days_until": 36
       }
     ]
   },
@@ -540,44 +585,154 @@
       {
         "date": "2026-03-04T22:20:49+05:30",
         "author": "Preston (brand)",
-        "content": "Scheduled a time on Pulkit's calendar for next week.",
-        "ts": "1772643049.861959"
+        "content": "Hi Pulkit, I just scheduled a time on your calendar for next week. Looking forward to meeting you!",
+        "ts": "1772643049.861959",
+        "thread_replies": 1
       },
       {
         "date": "2026-03-04T08:45:49+05:30",
         "author": "Pulkit Srivastava",
-        "content": "GM intro message - introduced himself as new GM, shared Calendly link.",
+        "content": "GM intro message — introduced himself as new GM, shared Calendly link for 30-min meeting.",
         "ts": "1772594149.687389"
       },
       {
         "date": "2026-03-04T01:41:49+05:30",
         "author": "Mia DyBuncio",
-        "content": "Transition message - introduced Pulkit as new Growth Manager, transitioning to Product team.",
+        "content": "Transition message — introduced Pulkit as new Growth Manager, transitioning herself to Product team. Expressed confidence in Pulkit.",
         "ts": "1772568709.513879"
       },
       {
         "date": "2026-02-24T16:52:16+05:30",
         "author": "FERMAT bot",
-        "content": "FERMAT joined the channel.",
+        "content": "FERMÀT has joined the channel.",
         "ts": "1771932136.833979"
       },
       {
         "date": "2026-02-24T16:52:09+05:30",
         "author": "Pulkit Srivastava",
-        "content": "Pulkit joined the channel.",
+        "content": "Pulkit has joined the channel.",
         "ts": "1771932129.339409"
       },
       {
         "date": "2026-01-12T22:30:26+05:30",
         "author": "Pierre (bot)",
-        "content": "Weekly Roundup Jan 5-11: 2,180 sessions, 54 purchases, $8,187 GMV.",
+        "content": "Weekly Roundup Jan 5-11: 2,180 sessions, 54 purchases, $8,187 GMV. Top funnels: Returning Customers (219 sessions, 11.87% CVR), 2026 New Year's Sale Page (86 sessions, 9.30% CVR).",
         "ts": "1768237226.105939"
+      },
+      {
+        "date": "2026-01-05T22:30:09+05:30",
+        "author": "Pierre (bot)",
+        "content": "Weekly Roundup Dec 29-Jan 4: 1,850 sessions, 149 purchases, $23,045 GMV. Top funnels: New Year's Sale Page (282 sessions, 41.84% CVR), 5RW Women Love Sole Toscana (535 sessions).",
+        "ts": "1767632409.622319"
+      },
+      {
+        "date": "2025-12-29T22:30:06+05:30",
+        "author": "Pierre (bot)",
+        "content": "Weekly Roundup Dec 22-28: 1,680 sessions, 85 purchases, $13,953 GMV.",
+        "ts": "1767027606.230819"
+      },
+      {
+        "date": "2025-12-23T20:56:18+05:30",
+        "author": "Mia DyBuncio",
+        "content": "Holiday coverage info — AM team on modified schedule Dec 29-Jan 2, office closed Dec 25 & Jan 1, back to normal Jan 6. Contact am-support@fermatcommerce.com or Isabel for urgent needs.",
+        "ts": "1766503578.582059"
+      },
+      {
+        "date": "2025-12-22T22:30:50+05:30",
+        "author": "Pierre (bot)",
+        "content": "Weekly Roundup Dec 15-21: 1,629 sessions, 107 purchases, $16,218 GMV.",
+        "ts": "1766422850.492159"
+      },
+      {
+        "date": "2025-12-15T22:30:31+05:30",
+        "author": "Pierre (bot)",
+        "content": "Weekly Roundup Dec 8-14: 2,207 sessions, 97 purchases, $12,481 GMV.",
+        "ts": "1765818031.275689"
+      },
+      {
+        "date": "2025-12-08T22:30:33+05:30",
+        "author": "Pierre (bot)",
+        "content": "Weekly Roundup Dec 1-7: 1,451 sessions, 120 purchases, $16,808 GMV. Top: Cyber Monday Tiered Discounts (55.68% CVR).",
+        "ts": "1765213233.230419"
+      },
+      {
+        "date": "2025-12-01T22:30:42+05:30",
+        "author": "Pierre (bot)",
+        "content": "Weekly Roundup Nov 24-30: 2,727 sessions, 224 purchases, $34,838 GMV. Top: Black Friday Weekend 25% OFF (680 sessions, 17.50% CVR).",
+        "ts": "1764608442.555809"
+      },
+      {
+        "date": "2025-11-24T22:30:39+05:30",
+        "author": "Pierre (bot)",
+        "content": "Weekly Roundup Nov 17-23: 2,046 sessions, 84 purchases, $12,211 GMV.",
+        "ts": "1764003639.505889"
+      },
+      {
+        "date": "2025-11-18T23:34:30+05:30",
+        "author": "Mia DyBuncio",
+        "content": "Shared Klaviyo Integration steps link with Preston.",
+        "ts": "1763489070.669479"
+      },
+      {
+        "date": "2025-11-18T21:34:27+05:30",
+        "author": "Mia DyBuncio",
+        "content": "FERMAT Dashboard Restored — Cloudflare pushed fix, full access restored. Live funnels were not affected.",
+        "ts": "1763481867.667949"
+      },
+      {
+        "date": "2025-11-18T19:48:04+05:30",
+        "author": "Mia DyBuncio",
+        "content": "FERMAT Dashboard Outage Alert — Cloudflare service disruption. Live funnels unaffected. Team actively monitoring.",
+        "ts": "1763475484.463719"
+      },
+      {
+        "date": "2025-11-17T22:30:43+05:30",
+        "author": "Pierre (bot)",
+        "content": "Weekly Roundup Nov 10-16: 2,589 sessions, 118 purchases, $17,755 GMV.",
+        "ts": "1763398843.982489"
+      },
+      {
+        "date": "2025-11-13T04:09:45+05:30",
+        "author": "Mia DyBuncio",
+        "content": "AI Search Commerce Engine launch heads up — free version (subdomain, 20 content pieces) and paid version (main domain, unlimited). Comment on Rishabh's LinkedIn post to get free 6-month version.",
+        "ts": "1762987185.158929",
+        "thread_replies": 2
+      },
+      {
+        "date": "2025-11-10T22:30:48+05:30",
+        "author": "Pierre (bot)",
+        "content": "Weekly Roundup Nov 3-9: 3,389 sessions, 154 purchases, $23,602 GMV.",
+        "ts": "1762794048.063649"
       }
     ],
-    "analysis": "Sole Toscana recently transitioned GMs from Mia DyBuncio to Pulkit Srivastava (2026-03-04). Preston (brand contact) responded quickly by scheduling a call. The channel has regular Pierre weekly roundups showing healthy engagement. Last meaningful human message from brand was Mar 4. Weekly roundups stopped posting after Jan 12, suggesting possible config issue."
+    "analysis": "Sole Toscana's Slack channel (#fermat-x-sole-toscana) shows a clear GM transition on Mar 4, 2026 — Mia DyBuncio introduced Pulkit Srivastava as the new Growth Manager. Preston (brand contact) responded the same day by scheduling a call. Since then, the channel has been silent for 33 days (no messages after Mar 4). Pierre weekly roundups stopped posting after Jan 12, suggesting a configuration issue — the last roundup showed 2,180 sessions and 54 purchases for Jan 5-11. Historical data shows strong Black Friday/Cyber Monday performance (224 purchases, $34,838 GMV for Nov 24-30). Key channel topics: Klaviyo integration steps (Nov 18), AI Search product launch (Nov 13), and holiday coverage (Dec 23)."
   },
   "email": {
     "messages": [
+      {
+        "date": "2026-04-07",
+        "subject": "Your ad was approved",
+        "from": "Meta for Business",
+        "type": "automated"
+      },
+      {
+        "date": "2026-04-06",
+        "subject": "Your ads were approved",
+        "from": "Meta for Business",
+        "type": "automated"
+      },
+      {
+        "date": "2026-03-31",
+        "subject": "Your ads were approved",
+        "from": "Meta for Business",
+        "type": "automated"
+      },
+      {
+        "date": "2026-03-30",
+        "subject": "Your ad was approved",
+        "from": "Meta for Business",
+        "type": "automated"
+      },
       {
         "date": "2026-03-24",
         "subject": "Your ads were approved",
@@ -592,7 +747,7 @@
       },
       {
         "date": "2026-03-12",
-        "subject": "Accepted: Sole Toscana x FERMAT||Monthly",
+        "subject": "Accepted: Sole Toscana x FERMÀT||Monthly",
         "from": "Preston Alder <preston@soletoscana.com>",
         "type": "calendar_accept"
       },
@@ -604,7 +759,7 @@
       },
       {
         "date": "2026-03-10",
-        "subject": "FERMAT Copilot joined meeting - Preston and Pulkit",
+        "subject": "FERMÀT Copilot joined meeting - Preston and Pulkit",
         "from": "Zoom",
         "type": "meeting_join"
       },
@@ -613,20 +768,32 @@
         "subject": "Prepare for Preston (Sole Toscana) and Pulkit Srivastava",
         "from": "Glyphic AI",
         "type": "call_prep"
-      },
-      {
-        "date": "2026-03-09",
-        "subject": "Your ads were approved",
-        "from": "Meta for Business",
-        "type": "automated"
-      },
-      {
-        "date": "2026-03-06",
-        "subject": "Your ads were approved",
-        "from": "Meta for Business",
-        "type": "automated"
       }
     ],
-    "analysis": "Email activity shows Preston accepted the recurring monthly calendar invite on Mar 12. A call with Pulkit took place on Mar 10 (confirmed via Glyphic and Zoom notifications). Multiple Meta ad approval emails indicate active ad campaigns running through FERMAT funnels for Sole Toscana."
+    "analysis": "Email activity over the last 30 days is dominated by Meta ad approval notifications (6 emails: Apr 7, Apr 6, Mar 31, Mar 30, Mar 24, Mar 16), confirming active ad campaigns running through FERMAT funnels. The Mar 12 calendar accept from Preston Alder (preston@soletoscana.com) confirmed the recurring monthly sync. Mar 10 shows the intro call workflow: Glyphic prep email, Zoom join notification for Meeting ID 834-6510-4687, and Glyphic summary email. No direct email outreach from Pulkit found in the last 30 days."
+  },
+  "granola": {
+    "meeting_id": "496a8a00-1a90-4e20-bf9e-e250c19a8eec",
+    "meeting_url": "https://notes.granola.ai/d/496a8a00-1a90-4e20-bf9e-e250c19a8eec",
+    "title": "Preston (Sole Toscana) and Pulkit Srivastava",
+    "date": "2026-03-10T21:00:00+05:30",
+    "participants": [
+      "Pulkit Srivastava (pulkit@fermatcommerce.com)",
+      "Preston Alder (preston@soletoscana.com)"
+    ],
+    "key_topics": [
+      "Account handover from Mia to Pulkit",
+      "Business approaching $1M in sales, 30% annual growth",
+      "Preston bought the business from founders",
+      "Primary use case: post-click testing and optimization",
+      "Best performer: 'Five reasons why' landing page",
+      "All shop links redirect to FERMAT pages",
+      "AB testing during tariff periods, price testing, ad/landing page experiments",
+      "Meta ads for acquisition, email sequences for new users",
+      "Upcoming makeup line launch",
+      "Potential NY/London relocation in June",
+      "Very satisfied with service, switched to monthly cadence"
+    ],
+    "csm_standup_mention": "Sole Toscana mentioned in CSM standup (Granola ID: 67c75370) — brand very satisfied with service, switched from bi-weekly to monthly check-ins."
   }
 }

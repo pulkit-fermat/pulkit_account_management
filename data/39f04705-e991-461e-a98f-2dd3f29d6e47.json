@@ -1,17 +1,18 @@
 {
   "brand_id": "39f04705-e991-461e-a98f-2dd3f29d6e47",
   "brand_name": "belliwelli",
-  "last_updated": "2026-04-06T12:00:00",
+  "last_updated": "2026-04-06T23:59:00",
+  "data_notes": "FERMAT metrics API token expired during this refresh. Daily performance data retained from previous refresh (through Apr 5). All other MCP sources refreshed successfully on Apr 6.",
   "health": {
-    "score": 49,
+    "score": 52,
     "status": "yellow",
     "breakdown": {
       "platform_performance": 19,
       "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:4/5, Purchases:5/5",
-      "communication": 12,
-      "communication_detail": "SlackRecency:4/4, BrandSlack14d:3/4, PulkitSlack14d:2/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
-      "engagement": 18,
-      "engagement_detail": "LastCall:8/8, Calls30d:4/6, Upcoming:6/6",
+      "communication": 13,
+      "communication_detail": "SlackRecency:4/4, BrandSlack14d:3/4, PulkitSlack14d:2/4, EmailThreads14d:4/4, PulkitOutreach:0/4",
+      "engagement": 20,
+      "engagement_detail": "LastCall:8/8, Calls30d:6/6, Upcoming:6/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
@@ -33,7 +34,7 @@
       },
       {
         "type": "warning",
-        "text": "7d CVR at 1.44% - below 3% target discussed on Mar 23 call",
+        "text": "7d CVR at 1.42% - below 3% target discussed on Mar 23 call",
         "time": "Apr 5"
       },
       {
@@ -48,8 +49,23 @@
       },
       {
         "type": "warning",
-        "text": "Account recently transitioned from Talia to Pulkit on Feb 25",
+        "text": "Account recently transitioned from Talia to Pulkit on Feb 25 - still building rapport",
         "time": "Feb 25"
+      },
+      {
+        "type": "warning",
+        "text": "Experiment variant changes reverting on save - Tom reported via Slack Mar 31 with Loom video",
+        "time": "Mar 31"
+      },
+      {
+        "type": "positive",
+        "text": "56% subscription rate (30% above benchmark) - strong subscription performance",
+        "time": "Mar 23"
+      },
+      {
+        "type": "negative",
+        "text": "Doctor Backed Generic Fiber v1 at 0.19% CVR with $5,050 ad spend - major underperformer",
+        "time": "Mar 23"
       }
     ]
   },
@@ -543,88 +559,157 @@
   "calls": {
     "recent": [
       {
-        "title": "Belliwelli x FERMAT|| Bi-Weekly",
+        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
         "date": "2026-03-23T21:30:00+05:30",
         "duration": "30 min",
-        "participants": "Pulkit, Tom (belliwelli), Nidhi",
+        "participants": "Pulkit, Tom (belliwelli), Nidhi Singh",
         "source": "Granola",
-        "summary": "Reviewed $28K revenue (30d), 56% subscription rate. CVR at 1.38% (target 3%). Best Seller GLP-1 funnel leading with 29K sessions. Doctor Backed Generic Fiber at 0.19% CVR needs overhaul.",
+        "summary": "Reviewed $28K revenue (30d), 56% subscription rate (30% above benchmark). CVR at 1.38% (target 3%), revenue per session $0.72 (target $1.25). Best Seller GLP-1 funnel leading with 29K sessions, 1.4% CVR. Gummies GLP-1 v1 at 2.42% CVR and Generic Gummies v1 at 2.5% CVR identified as scaling candidates. Doctor Backed Generic Fiber at 0.19% CVR with $5,050 ad spend needs complete overhaul. Discussed new FERMÀT features: Build Your Own Bundle, External MCP, Shopify Markets, AI Module Generator.",
         "recording_url": null,
         "snippets": [],
         "action_items": [
-          "Deep-dive analysis on CVR patterns",
-          "Build Cherry Limeade + Watermelon flavor selector",
-          "Fix experiment data dashboard issues",
-          "Share ad creative for underperforming fiber funnel"
+          "Pulkit: Deep-dive analysis on Mar 12 CVR peak and Mar 7-13 week behavior",
+          "Pulkit: Create Cherry Limeade + Watermelon flavor selector for gummies",
+          "Pulkit: Fix experiment data visibility issues in dashboard",
+          "Pulkit: Analyze ads linked to underperforming Doctor Backed funnel",
+          "Tom: Share Google Sheet access and ad creative links",
+          "Tom: Consider rerouting underperforming funnel ads or building new generic fiber funnel"
         ]
       },
       {
-        "title": "BelliWelli <> FERMAT | Bi-Weekly Check In",
+        "title": "Thomas Fitzpatrick and Pulkit Srivastava",
+        "date": "2026-03-09T21:30:00+05:30",
+        "duration": "30 min",
+        "participants": "Pulkit, Tom (belliwelli)",
+        "source": "Granola",
+        "summary": "First meeting between Pulkit and Tom. Tom returned from Expo West. BelliWelli using FERMÀT since November with strong satisfaction. Team includes email designer (UK), Shopify developers (India), external marketing agency. Key priorities: revenue optimization, subscription take rate maximization. Currently testing free tub (cucumber/yuzu) vs 20% discount subscription offers. AI search feature discussed as future opportunity.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": [
+          "Pulkit: Deep dive into account performance and prepare recommendations",
+          "Pulkit: Review heat maps for funnel drop-off points",
+          "Schedule bimonthly (every 2 weeks) calls going forward"
+        ]
+      },
+      {
+        "title": "BelliWelli <> FERMÀT | Bi-Weekly Check In",
         "date": "2026-02-19T19:58:05Z",
         "duration": "17 min",
         "participants": "Talia Cohen, Tom Fitzpatrick, Morry Mitrani",
         "source": "Glyphic",
-        "summary": "Tom inquired about gift-with-purchase for excess inventory (cucumber/yuzu flavors). Advised Skio for core offer + FERMAT display-only. Discussed funnel optimization to reduce scroll fatigue.",
+        "summary": "Tom inquired about gift-with-purchase for excess inventory (cucumber/yuzu flavors being discontinued). Advised Skio for core offer + FERMÀT display-only to avoid double-dipping. Discussed funnel optimization to reduce scroll fatigue - recommended moving product card above text in Best Sellers GLP-1 funnel. Also flagged need to reconnect TikTok/Meta accounts (deadline extended).",
         "recording_url": "https://app.glyphic.ai/calls/69976f3acf4f06645a48c452",
         "snippets": [],
         "action_items": [
-          "Set up gift-with-purchase in Skio + display-only in FERMAT",
-          "A/B test funnel layout with product card moved up"
+          "Tom: Set up gift-with-purchase in Skio + display-only in FERMÀT",
+          "Tom: A/B test funnel layout with product card moved above text",
+          "Talia: Tag Tom in Slack for TikTok/Meta reconnection",
+          "Talia: Review all funnels for low-hanging fruit optimization"
         ]
       },
       {
-        "title": "BelliWelli <> FERMAT | Business Review",
+        "title": "BelliWelli <> FERMÀT | Business Review",
         "date": "2026-02-09T20:58:06Z",
         "duration": "47 min",
         "participants": "Tom Fitzpatrick, Morry, Mia DyBuncio, Talia Cohen",
         "source": "Glyphic",
-        "summary": "Comprehensive business review covering performance, funnel analysis, strategic roadmap. Discussed Spanish funnels, pricing restructuring, AI Search trial.",
+        "summary": "Comprehensive business review covering performance, funnel analysis, strategic roadmap. Discussed Spanish funnels, pricing restructuring, AI Search trial. Contract renewal discussed - set to roll into remainder of agreement on Feb 22.",
         "recording_url": "https://app.glyphic.ai/calls/698a555b0f182b5333443c28",
+        "snippets": [],
+        "action_items": []
+      },
+      {
+        "title": "BelliWelli <> FERMÀT | Weekly Check In",
+        "date": "2026-01-08T19:58:09Z",
+        "duration": "20 min",
+        "participants": "Talia Cohen, Tom Fitzpatrick, Morry Mitrani",
+        "source": "Glyphic",
+        "summary": "Weekly check-in with Talia as CSM.",
+        "recording_url": "https://app.glyphic.ai/calls/69601119cd1ca7d1eee1543a",
+        "snippets": [],
+        "action_items": []
+      },
+      {
+        "title": "BelliWelli <> FERMÀT | Weekly Check In",
+        "date": "2025-12-18T20:00:44Z",
+        "duration": "35 min",
+        "participants": "Talia Cohen, Tom Fitzpatrick, Morry Mitrani",
+        "source": "Glyphic",
+        "summary": "Weekly check-in prior to CSM transition.",
+        "recording_url": "https://app.glyphic.ai/calls/694465bbcb25c8c6d13a9f5f",
+        "snippets": [],
+        "action_items": []
+      },
+      {
+        "title": "BelliWelli <> FERMÀT | Weekly Check In",
+        "date": "2025-12-11T19:59:32Z",
+        "duration": "33 min",
+        "participants": "Tom Fitzpatrick, Matt Thomas, Talia Cohen, Morry Mitrani",
+        "source": "Glyphic",
+        "summary": "Weekly check-in with additional participant Matt Thomas.",
+        "recording_url": "https://app.glyphic.ai/calls/693b2a7f23255934981933cb",
+        "snippets": [],
+        "action_items": []
+      },
+      {
+        "title": "BelliWelli <> FERMÀT | Weekly Check In",
+        "date": "2025-11-20T20:00:11Z",
+        "duration": "15 min",
+        "participants": "Morry, Talia Cohen",
+        "source": "Glyphic",
+        "summary": "Weekly check-in with Morry only.",
+        "recording_url": "https://app.glyphic.ai/calls/691f76dfc143b43413f55293",
         "snippets": [],
         "action_items": []
       }
     ],
-    "analysis": "BelliWelli has regular bi-weekly calls with strong engagement from Tom Fitzpatrick (Dir. Ecommerce) and Morry Mitrani. The brand is self-sufficient on FERMAT, building funnels independently. Key focus: CVR optimization (1.38% vs 3% target) and scaling via Spanish funnels and flavor selectors."
+    "analysis": "BelliWelli has regular bi-weekly calls with strong engagement from Tom Fitzpatrick (Dir. Ecommerce) and Morry Mitrani. The brand transitioned from Talia (previous CSM) to Pulkit on Feb 25. First Pulkit-Tom call was Mar 9, followed by a productive bi-weekly on Mar 23. The brand is self-sufficient on FERMÀT, building funnels and setting up experiments independently. Key focus areas: CVR optimization (1.38% vs 3% target), subscription take rate maximization (currently 56%), and scaling high-CVR funnels like Gummies GLP-1 v1 (2.42%) and Generic Gummies v1 (2.5%). The Doctor Backed Generic Fiber funnel is a major underperformer at 0.19% CVR despite $5,050 ad spend."
   },
   "calendar": {
     "past": [
       {
-        "title": "Belliwelli x FERMAT|| Bi-Weekly",
+        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
         "start": "2026-03-09T21:30:00+05:30",
         "end": "2026-03-09T22:00:00+05:30",
-        "attendees": []
+        "attendees": [],
+        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
       },
       {
-        "title": "Belliwelli x FERMAT|| Bi-Weekly",
+        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
         "start": "2026-03-23T21:30:00+05:30",
         "end": "2026-03-23T22:00:00+05:30",
-        "attendees": []
+        "attendees": [],
+        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
       }
     ],
     "upcoming": [
       {
-        "title": "Belliwelli x FERMAT|| Bi-Weekly",
+        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
         "start": "2026-04-20T21:30:00+05:30",
         "end": "2026-04-20T22:00:00+05:30",
-        "attendees": []
+        "attendees": [],
+        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
       },
       {
-        "title": "Belliwelli x FERMAT|| Bi-Weekly",
+        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
         "start": "2026-05-04T21:30:00+05:30",
         "end": "2026-05-04T22:00:00+05:30",
-        "attendees": []
+        "attendees": [],
+        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
       },
       {
-        "title": "Belliwelli x FERMAT|| Bi-Weekly",
+        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
         "start": "2026-05-18T21:30:00+05:30",
         "end": "2026-05-18T22:00:00+05:30",
-        "attendees": []
+        "attendees": [],
+        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
       },
       {
-        "title": "Belliwelli x FERMAT|| Bi-Weekly",
+        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
         "start": "2026-06-01T21:30:00+05:30",
         "end": "2026-06-01T22:00:00+05:30",
-        "attendees": []
+        "attendees": [],
+        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
       }
     ]
   },
@@ -632,52 +717,225 @@
     "messages": [
       {
         "user": "Tom Fitz",
-        "text": "Changes in experiment variant reverting on save - shared Loom video",
-        "timestamp": "2026-03-31T21:14:26+05:30",
+        "text": "Screenshot showing experiment creative changes ARE showing in Experiment tab despite reverting on save",
+        "timestamp": "2026-03-31T21:15:35+05:30",
         "channel": "#belliwelli-fermat-new"
       },
       {
         "user": "Tom Fitz",
-        "text": "Asked about making PDP with powders OR gummies selector",
+        "text": "Having trouble setting up test - variant changes reverting on save. Shared Loom video. CC'd Morry",
+        "timestamp": "2026-03-31T21:14:26+05:30",
+        "channel": "#belliwelli-fermat-new",
+        "thread_replies": 9,
+        "loom_url": "https://www.loom.com/share/762a5121d73247b6b73657222f73c839"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Responded to Tom about PDP with powders OR gummies option - can build static version, checking on dynamic content switching",
+        "timestamp": "2026-03-31T11:49:09+05:30",
+        "channel": "#belliwelli-fermat-new"
+      },
+      {
+        "user": "Tom Fitz",
+        "text": "Asked about making a PDP with option to pick powders OR gummies (similar to flavor selector)",
         "timestamp": "2026-03-30T22:41:45+05:30",
         "channel": "#belliwelli-fermat-new"
       },
       {
         "user": "Pulkit Srivastava",
-        "text": "Posted call recap: $28K revenue, 56% sub rate, 1.38% CVR, action items",
+        "text": "Posted detailed call recap: $28K revenue, 56% subscription rate, 1.38% CVR, action items for both sides, link to bi-weekly deck",
         "timestamp": "2026-03-23T22:02:46+05:30",
+        "channel": "#belliwelli-fermat-new",
+        "thread_replies": 3
+      },
+      {
+        "user": "Tom Fitz",
+        "text": "CODE RED - funnel page 404ing on Doctor Backed Generic Fiber. Shared screen recording from mobile Chrome",
+        "timestamp": "2026-03-18T17:12:52+05:30",
+        "channel": "#belliwelli-fermat-new",
+        "thread_replies": 12
+      },
+      {
+        "user": "Morry Mitrani",
+        "text": "Experiment running since Friday with no data showing up. Tagged Talia and Pulkit",
+        "timestamp": "2026-03-11T22:10:36+05:30",
+        "channel": "#belliwelli-fermat-new",
+        "thread_replies": 12
+      },
+      {
+        "user": "Tom Fitz",
+        "text": "Asked about wrong lead image pulling on PDP - should be single tub image only",
+        "timestamp": "2026-02-26T01:35:07+05:30",
+        "channel": "#belliwelli-fermat-new",
+        "thread_replies": 9
+      },
+      {
+        "user": "Tom Fitz",
+        "text": "Congratulated Talia on new role, welcomed Pulkit, said he'd grab a call",
+        "timestamp": "2026-02-25T22:51:10+05:30",
+        "channel": "#belliwelli-fermat-new",
+        "thread_replies": 2
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Intro message: New GM at FERMÀT, with team 1.5 years, shared Calendly link",
+        "timestamp": "2026-02-25T20:47:10+05:30",
+        "channel": "#belliwelli-fermat-new"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Transition announcement: Moving to Enterprise team, introducing Pulkit as new GM for BelliWelli",
+        "timestamp": "2026-02-25T19:30:22+05:30",
+        "channel": "#belliwelli-fermat-new"
+      },
+      {
+        "user": "Talia Cohen",
+        "text": "Sent performance analysis docs for Best Sellers GLP1 and Gummies GLP1 v1 funnels. Reminded about contract renewal rolling on Feb 22",
+        "timestamp": "2026-02-20T02:35:33+05:30",
         "channel": "#belliwelli-fermat-new"
       },
       {
         "user": "Tom Fitz",
-        "text": "CODE RED - Funnel page 404ing on Doctor Backed Generic Fiber",
-        "timestamp": "2026-03-18T17:12:52+05:30",
-        "channel": "#belliwelli-fermat-new"
+        "text": "Asked about Free Tub with Subscription setup via Loom - wants to restrict gift to smallest variant only",
+        "timestamp": "2026-02-20T21:17:23+05:30",
+        "channel": "#belliwelli-fermat-new",
+        "thread_replies": 6,
+        "loom_url": "https://www.loom.com/share/0a80847bf4034b1fbee15ae233b30d0c"
       },
       {
         "user": "Morry Mitrani",
-        "text": "Experiment running since Friday with no data showing up",
-        "timestamp": "2026-03-11T22:10:36+05:30",
-        "channel": "#belliwelli-fermat-new"
+        "text": "Asked about split destination test setup - curious what website performance data FERMÀT can show",
+        "timestamp": "2026-02-11T04:30:53+05:30",
+        "channel": "#belliwelli-fermat-new",
+        "thread_replies": 8
       }
     ],
-    "analysis": "Active Slack channel with brand contacts (Tom, Morry) regularly raising issues. Pulkit is responsive and posts detailed call recaps. Recent issues include a 404 on a funnel page and experiment data visibility problems, indicating active platform usage."
+    "analysis": "Active Slack channel with frequent engagement from Tom Fitzpatrick (Dir. Ecommerce) and Morry Mitrani. Tom is the primary point of contact, raising technical issues (experiment variant reverting, 404 pages, PDP image issues), requesting new features (powder/gummies PDP selector), and actively building funnels. Pulkit joined the channel Feb 24 and has been responsive with detailed call recaps. Key open issues: (1) Experiment variant changes reverting on save (Mar 31, 9 thread replies), (2) CODE RED 404 on Doctor Backed funnel (Mar 18, 12 replies - likely resolved), (3) Experiment data not showing (Mar 11, 12 replies). The brand is highly engaged and self-sufficient with platform usage."
   },
   "email": {
     "messages": [
       {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-04-07T13:53:31-07:00",
+        "snippet": "BelliWelli ads approved and delivering"
+      },
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ad was approved",
+        "date": "2026-04-02T15:50:51-07:00",
+        "snippet": "BelliWelli ad approved and delivering"
+      },
+      {
         "from": "Loom <info@e.atlassian.com>",
         "subject": "Your video has been viewed: Belliwelli Issue",
         "date": "2026-04-01T06:21:25-06:00",
-        "snippet": "belliwelli issue was watched for the first time"
+        "snippet": "belliwelli issue Loom video was watched for the first time"
       },
       {
         "from": "Glyphic AI <noreply@glyphic.ai>",
         "subject": "Your Daily Task Overview",
         "date": "2026-04-01T09:06:12+00:00",
         "snippet": "Daily tasks reminder with BelliWelli items"
+      },
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ad was approved",
+        "date": "2026-03-31T13:05:42-07:00",
+        "snippet": "BelliWelli ad approved"
+      },
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-03-27T10:19:01-07:00",
+        "snippet": "BelliWelli ads approved"
+      },
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-03-26T15:37:41-07:00",
+        "snippet": "BelliWelli ads approved"
+      },
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-03-26T10:09:33-07:00",
+        "snippet": "BelliWelli ads approved"
+      },
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-03-24T15:59:26-07:00",
+        "snippet": "BelliWelli ads approved"
       }
     ],
-    "analysis": "Gmail results are predominantly Meta ad approvals (skipped) and system emails. No direct brand-to-CSM email threads; communication is primarily via Slack."
+    "analysis": "Gmail results are predominantly Meta ad approval notifications (7 of 9 results), indicating active ad campaign management for BelliWelli on Meta. One Loom notification shows the 'Belliwelli Issue' video was viewed (related to experiment variant reverting bug). One Glyphic daily task overview included BelliWelli items. No direct brand-to-CSM email threads found in the last 30 days; all communication appears to flow through Slack."
+  },
+  "granola": {
+    "meetings": [
+      {
+        "id": "20107a6a-a6b5-496b-9d03-e12419949072",
+        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "date": "2026-03-23T21:30:00+05:30",
+        "participants": "Pulkit, Tom (tom@belliwelli.com), Nidhi Singh",
+        "summary": "Revenue $28K (30d), 538 purchases, $52 AOV. 56% subscription rate. CVR 1.38% (target 3%), revenue/session $0.72 (target $1.25). Best CVR day: Mar 12 (2.45%). Best Seller GLP-1 leading with 29K sessions. Gummies GLP-1 v1 at 2.42% CVR recommended for scaling. Doctor Backed Generic Fiber at 0.19% CVR needs overhaul. New features discussed: BYOB, MCP, Shopify Markets, AI Module Generator."
+      },
+      {
+        "id": "67c75370-75f4-4e20-a825-311d2ac0db5d",
+        "title": "Thomas Fitzpatrick and Pulkit Srivastava",
+        "date": "2026-03-09T21:30:00+05:30",
+        "participants": "Pulkit, Tom (tom@belliwelli.com)",
+        "summary": "First meeting between Pulkit and Tom. Using FERMÀT since November with strong satisfaction. Team: email designer (UK), Shopify devs (India), external marketing agency. Priorities: revenue optimization, subscription take rate. Testing free tub vs 20% discount offers. Bimonthly calls scheduled."
+      }
+    ]
+  },
+  "contacts": {
+    "primary": {
+      "name": "Tom Fitzpatrick",
+      "email": "tom@belliwelli.com",
+      "title": "Director of Ecommerce",
+      "role": "Day-to-day platform contact, builds funnels independently"
+    },
+    "secondary": {
+      "name": "Morry Mitrani",
+      "email": "morry@belliwelli.com",
+      "title": "Vice President, Growth",
+      "role": "Economic buyer, strategic oversight"
+    },
+    "previous_csm": {
+      "name": "Talia Cohen",
+      "email": "talia@fermatcommerce.com",
+      "transition_date": "2026-02-25",
+      "new_role": "Enterprise team"
+    }
+  },
+  "key_context": {
+    "onboarded_since": "2025-11",
+    "contract_note": "Contract rolled into remainder of agreement on Feb 22, 2026 as discussed in Business Review",
+    "subscription_platform": "Skio",
+    "ecommerce_platform": "Shopify",
+    "ad_channels": [
+      "Meta (Facebook)",
+      "TikTok (limited)"
+    ],
+    "top_funnels": [
+      "Best Seller GLP-1 (29K sessions, 1.4% CVR - traffic leader)",
+      "Gummies GLP-1 v1 (4,300 sessions, 2.42% CVR - scale candidate)",
+      "Generic Gummies v1 (480 sessions, 2.5% CVR - scale candidate)"
+    ],
+    "problem_funnels": [
+      "Doctor Backed Generic Fiber v1 (0.19% CVR, $5,050 ad spend - major underperformer)"
+    ],
+    "active_experiments": [
+      "30 vs 90 days gummies (control with choice option outperforming)",
+      "30 vs 90 day default (both performing poorly, considering pause)",
+      "30% vs 90 day default gummies for kids (low data, monitoring)"
+    ],
+    "open_issues": [
+      "Experiment variant changes reverting on save (Mar 31 - Loom shared)",
+      "Experiment data not showing (Mar 11 - 12 thread replies)",
+      "PDP powder/gummies selector requested (Mar 30)"
+    ],
+    "csm_transition_status": "Pulkit took over from Talia on Feb 25. First call with Tom on Mar 9. Building rapport. Tom receptive and engaged."
   }
 }

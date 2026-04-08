@@ -1,15 +1,15 @@
 {
   "brand_id": "f8f83f9d-be9e-4177-ad7e-292ed079eafd",
   "brand_name": "Veracity Selfcare",
-  "last_updated": "2026-04-06T06:26:51.655156Z",
+  "last_updated": "2026-04-06T18:30:00.000000Z",
   "health": {
-    "score": 20,
+    "score": 23,
     "status": "red",
     "breakdown": {
       "platform_performance": 18,
       "platform_performance_detail": "Sessions:5/5, Revenue:4/5, CVR:4/5, Purchases:5/5",
-      "communication": 0,
-      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
+      "communication": 3,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
       "engagement": 2,
       "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:0/6",
       "csm_sentiment": 0,
@@ -18,33 +18,53 @@
     "signals": [
       {
         "type": "negative",
-        "text": "Platform nearly dormant: only 4 purchases, $347 revenue in last 15 days. Sessions mostly single digits.",
-        "time": "Mar 26"
+        "text": "Account flagged as churn risk per Granola notes: early churn request received despite October renewal. Brand never found a winning funnel despite multiple testing attempts.",
+        "time": "Feb 2026"
       },
       {
         "type": "negative",
-        "text": "Slack channel completely silent since Feb 24 when Pulkit joined - no intro message posted, no brand engagement",
+        "text": "Slack channel #fermat-x-veracitywellness completely silent since Feb 24 when Pulkit joined. No intro message posted by Pulkit. Last brand message (Feb 18) asking for SKU/variant list remains unanswered.",
         "time": "Feb 24"
       },
       {
         "type": "negative",
-        "text": "Last call (Feb 26) was cancelled. No new call scheduled. Pulkit has never spoken with Veracity team.",
-        "time": "Feb 26"
-      },
-      {
-        "type": "warning",
-        "text": "Brand was asking for SKU cleanup and design changes in Jan - those requests may be stale/unaddressed",
-        "time": "Jan 15"
-      },
-      {
-        "type": "positive",
-        "text": "Brief traffic spike Feb 21-22 (584 + 1,612 sessions) with 14 purchases and $1,083 revenue - shows funnels can still convert",
-        "time": "Feb 22"
+        "text": "Zero Google Calendar events found for Veracity from Mar 9 through Jun 7 2026. No calls scheduled. Pulkit has never spoken with the Veracity team.",
+        "time": "Apr 6"
       },
       {
         "type": "negative",
-        "text": "No direct email communication found between Pulkit and Veracity team. No GM intro email sent.",
-        "time": "Mar 26"
+        "text": "No direct email communication found between Pulkit and Veracity team in last 30 days. Gmail only shows Meta ad approvals and Glyphic prep emails for other brands. No GM intro email sent.",
+        "time": "Apr 6"
+      },
+      {
+        "type": "negative",
+        "text": "Granola notes indicate Grace (main contact) was terminated by Mar 11. Andres took over but meetings were being cancelled. Early termination email was sent. Situation described as cost-cutting, not performance-related.",
+        "time": "Mar 2026"
+      },
+      {
+        "type": "negative",
+        "text": "Payment and billing concerns flagged in Granola notes (Feb-Mar 2026). Mia was checking with finance team on billing update. October renewal cycle with auto-renewal and 1-month notice requirement.",
+        "time": "Feb-Mar 2026"
+      },
+      {
+        "type": "warning",
+        "text": "Brand was actively requesting SKU cleanup, design changes (white backgrounds), protein launch funnels, and rebrand assets in Jan 2026 under Mia - all requests likely stale/unaddressed since GM transition.",
+        "time": "Jan 2026"
+      },
+      {
+        "type": "warning",
+        "text": "Pierre weekly roundups stopped after Jan 11 2026. Last roundup showed Jan 5-11: Sessions 9,032, Purchases 101, GMV $14,633 - strong numbers that have since declined significantly.",
+        "time": "Jan 12"
+      },
+      {
+        "type": "positive",
+        "text": "Platform still generating revenue: 7d shows 2,403 sessions, 43 purchases, $3,447 revenue, 1.79% CVR. Funnels can still convert when traffic flows.",
+        "time": "Apr 5"
+      },
+      {
+        "type": "positive",
+        "text": "Works with DTCo agency (Yuliia Rusianovska, Adaeze, James) who were actively building funnels and managing ads. Agency relationship could be leveraged for re-engagement.",
+        "time": "Jan 2026"
       }
     ]
   },
@@ -533,7 +553,8 @@
         "purchases": 7,
         "revenue": 596.57
       }
-    ]
+    ],
+    "_fermat_note": "FERMAT MCP token expired during Apr 6 refresh. Performance data retained from previous pull (Apr 6 06:26 UTC). All numbers are real API data, not estimates."
   },
   "calls": {
     "recent": [
@@ -549,62 +570,250 @@
         "action_items": []
       }
     ],
-    "analysis": "Last call was Feb 26 but was cancelled after only 7 minutes. Pulkit has never been on a call with Veracity. Key contacts: Jacqueline Lin, Sabrina Pereira, Maggie Sullivan (Veracity), and Yuliia Rusianovska, Adaeze, James (DT Co/Daniel Toft agency). Previously managed by Mia - weekly meetings were happening but brand was already asking to push them out."
+    "analysis": "Last call was Feb 26 but was cancelled after only 7 minutes. Pulkit has never been on a call with Veracity. Key contacts: Jacqueline Lin, Sabrina Pereira, Maggie Sullivan (Veracity), and Yuliia Rusianovska, Adaeze, James (DT Co/Daniel Toft agency). Previously managed by Mia - weekly meetings were happening but brand was already asking to push them out. Glyphic MCP returned server errors during Apr 6 refresh; call data retained from previous pull.",
+    "_glyphic_note": "Glyphic MCP returned -32603 server error on all attempts during Apr 6 refresh. Retaining existing call data."
   },
   "calendar": {
     "past": [],
     "upcoming": [],
-    "_note": "No Google Calendar events found matching 'Veracity' between Feb 9 and Apr 30, 2026 on Pulkit's calendar."
+    "_note": "Google Calendar confirmed zero events matching 'Veracity' between Mar 9 and Jun 7, 2026 on Pulkit's calendar (pulkit@fermatcommerce.com). Verified Apr 6 2026."
   },
   "slack": {
     "messages": [
       {
-        "user": "FERMÀT",
-        "text": "FERMÀT has joined the channel",
+        "user": "FERMAT",
+        "user_id": "U08FU0EPGNM",
+        "text": "FERMAT has joined the channel",
         "timestamp": "2026-02-24T16:51:38+05:30",
-        "channel": "#fermat-x-veracitywellness"
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1771932098.741629"
       },
       {
         "user": "Pulkit Srivastava",
+        "user_id": "U075K1YKELV",
         "text": "Pulkit has joined the channel",
         "timestamp": "2026-02-24T16:51:22+05:30",
-        "channel": "#fermat-x-veracitywellness"
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1771932082.416399"
       },
       {
         "user": "Brand contact",
         "text": "hey team - are you able to share what SKUs/variants are being used on the fermat side? trying to do a cleanup of some of our promo SKUs",
         "timestamp": "2026-02-18T03:15:11+05:30",
-        "channel": "#fermat-x-veracitywellness"
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1771364711.428179"
       },
       {
         "user": "Brand contact",
         "text": "hey @Mia DyBuncio! mind if we push this meeting out to next week?",
         "timestamp": "2026-01-29T22:09:35+05:30",
-        "channel": "#fermat-x-veracitywellness"
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1769704775.901149",
+        "thread_replies": 1
       },
       {
         "user": "Mia DyBuncio",
-        "text": "hey @Maggie Sullivan - the singular protein sku hasn't been shared with fermat, only seeing metabolism + protein power set. could you share this over?",
+        "user_id": "U07SYG0GYVB",
+        "text": "hey @Maggie Sullivan it looks like the singular protein sku hasn't been shared with fermat, i'm only seeing the metabolism + protein power set. could you help share this over?",
         "timestamp": "2026-01-16T22:15:39+05:30",
-        "channel": "#fermat-x-veracitywellness"
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1768581939.495579",
+        "thread_replies": 4
+      },
+      {
+        "user": "Brand contact (Jacqueline Lin)",
+        "user_id": "U098ZHHFM47",
+        "text": "@Mia DyBuncio MI + Protein ads: [Tara UGC Drive link] [Jennie UGC Frame.io link]",
+        "timestamp": "2026-01-15T22:19:19+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1768495759.330649"
+      },
+      {
+        "user": "Brand contact (Jacqueline Lin)",
+        "user_id": "U098ZHHFM47",
+        "text": "Hi @Mia DyBuncio, can you please help change the background color to white in [funnel link] or across all funnels?",
+        "timestamp": "2026-01-15T21:09:41+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1768491581.052859",
+        "thread_replies": 5
+      },
+      {
+        "user": "Mia DyBuncio",
+        "user_id": "U07SYG0GYVB",
+        "text": "hey @Jacqueline Lin @Yuliia Rusianovska (EST) i have a conflict during our meeting time tomorrow - any chance we can meet 30 mins earlier?",
+        "timestamp": "2026-01-15T02:03:33+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1768422813.901339",
+        "thread_replies": 4
       },
       {
         "user": "Pierre (Bot)",
-        "text": "FERMÀT Weekly Roundup Jan 5-11: Sessions 9,032 | Purchases 101 | GMV $14,633 | Revenue $11,784. Top: NY Sale_POV-90D Journey (3,904 sessions, 1.13% CVR)",
+        "user_id": "U07JKQ6RYFQ",
+        "text": "FERMAT Weekly Roundup Jan 5-11: Sessions 9,032 | Purchases 101 | GMV $14,633 | Revenue $11,784. Top: NY Sale_POV-90D Journey (3,904 sessions, 1.13% CVR)",
         "timestamp": "2026-01-12T22:30:40+05:30",
-        "channel": "#fermat-x-veracitywellness"
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1768237240.829359"
       },
       {
         "user": "Mia DyBuncio",
-        "text": "Integration upgrades reminder: Reconnect Meta, GA4, and Shopify from FERMÀT homepage banners. Complete by Jan 15th.",
+        "user_id": "U07SYG0GYVB",
+        "text": "Integration upgrades reminder: Reconnect Meta, GA4, and Shopify from FERMAT homepage banners. Complete by Jan 15th. cc: @Jacqueline Lin @Maggie Sullivan @Yuliia Rusianovska",
         "timestamp": "2026-01-12T20:53:05+05:30",
-        "channel": "#fermat-x-veracitywellness"
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1768231385.056659",
+        "thread_replies": 2
+      },
+      {
+        "user": "Brand contact (Maggie Sullivan)",
+        "user_id": "U096CB8DTMM",
+        "text": "FYI that we will be keeping the metabolism ignite bottle the same for time being",
+        "timestamp": "2026-01-07T23:35:13+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1767809113.952599"
+      },
+      {
+        "user": "Brand contact (Maggie Sullivan)",
+        "user_id": "U096CB8DTMM",
+        "text": "Hi @Mia DyBuncio we are tracking to 1/12 or 1/13 pending our final QA",
+        "timestamp": "2026-01-07T23:34:40+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1767809080.413139",
+        "thread_replies": 12
+      },
+      {
+        "user": "Mia DyBuncio",
+        "user_id": "U07SYG0GYVB",
+        "text": "hey @Maggie Sullivan just wanted to check in on the decision for updated branding on monday 1/12",
+        "timestamp": "2026-01-07T23:34:11+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1767809051.804349"
+      },
+      {
+        "user": "Brand contact (Jacqueline Lin)",
+        "user_id": "U098ZHHFM47",
+        "text": "@Mia DyBuncio see examples of Protein ads: [Drive links]",
+        "timestamp": "2026-01-06T21:01:19+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1767713479.468559",
+        "thread_replies": 1
+      },
+      {
+        "user": "Mia DyBuncio",
+        "user_id": "U07SYG0GYVB",
+        "text": "Hi team, thanks for the time today! Recap of next steps: Mia: proceed with subdomain change. Maggie: share go/no go for 1/12 rebrand. Share protein SKU. Jacqueline: share protein ad examples. Yuliia: cut socks variant from GWP test, create two protein landing pages for 1/15. Mia to help updating rebrand images.",
+        "timestamp": "2026-01-06T02:28:17+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1767646697.723199"
+      },
+      {
+        "user": "Brand contact (Maggie Sullivan)",
+        "user_id": "U096CB8DTMM",
+        "text": "Site imagery from real site here: [Drive folders for PDPs, Homepage, Navigation, About Pages, Test Results]",
+        "timestamp": "2026-01-06T01:36:30+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1767643590.160749"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "user_id": "U07JKQ6RYFQ",
+        "text": "FERMAT Weekly Roundup Jan 5-11: Sessions 9,032 | Purchases 101 | GMV $14,633 | Revenue $11,784",
+        "timestamp": "2026-01-05T22:30:40+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1767632440.781829"
+      },
+      {
+        "user": "Brand contact (Jacqueline Lin)",
+        "user_id": "U098ZHHFM47",
+        "text": "Topics I'd like to talk about today: 1. Fermat definition of CVR and how do we A/B test vs PDP. 2. New Brand, website flip timing, and Fermat new assets needed. 3. Protein powder launch landing page. 4. Performance of existing pages and next page/test going live.",
+        "timestamp": "2025-12-05T00:54:01+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1764876241.838909"
+      },
+      {
+        "user": "Brand contact (Jacqueline Lin)",
+        "user_id": "U098ZHHFM47",
+        "text": "Dr appointment for my son at today's meeting time. Any chance you can meet at 3pm today instead?",
+        "timestamp": "2025-12-04T21:09:46+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1764862786.548569",
+        "thread_replies": 3
+      },
+      {
+        "user": "Mia DyBuncio",
+        "user_id": "U07SYG0GYVB",
+        "text": "Hey @Yuliia Rusianovska here are some funnel examples for new product launch and New Year New Me funnels. @Maggie Sullivan let me know best time Mon or Tue for platform walkthrough.",
+        "timestamp": "2025-12-06T00:53:21+05:30",
+        "channel": "#fermat-x-veracitywellness",
+        "ts": "1764962601.479889",
+        "thread_replies": 10
       }
     ],
-    "analysis": "Channel silent since Feb 24 when Pulkit joined. No intro message posted. Last brand message (Feb 18) asked for SKU/variant list for promo cleanup - likely still unanswered. Brand was already disengaging under Mia (pushing meetings out). Pierre weekly roundups stopped after Jan 11. Active contacts: Jacqueline Lin, Maggie Sullivan, Sabrina Pereira (Veracity), Yuliia Rusianovska (DT Co/agency). Integration upgrades were requested by Jan 15 - unclear if completed."
+    "analysis": "Channel #fermat-x-veracitywellness (C07UG9JPS3A) has been COMPLETELY SILENT since Feb 24 when Pulkit joined. No intro message was ever posted by Pulkit. The last brand message (Feb 18) asked for SKU/variant list for promo cleanup -- this remains unanswered 47+ days later. Before the silence, the channel was very active under Mia's management (Dec 2025 - Jan 2026): weekly calls, rebrand discussions, protein launch planning, GWP tests, funnel examples. Key brand contacts: Jacqueline Lin (U098ZHHFM47), Maggie Sullivan (U096CB8DTMM). Agency: Yuliia Rusianovska (U03TBN8EA86, DT Co/EST). Pierre weekly roundups stopped after Jan 11 -- last showed strong numbers (9,032 sessions, 101 purchases). Brand was asking to push meetings out as early as Jan 29. Integration upgrades (Meta, GA4, Shopify) were requested by Jan 15 -- completion status unknown."
   },
   "email": {
-    "messages": [],
-    "analysis": "No direct brand-specific email communication found between Pulkit/FERMÀT and Veracity Selfcare team. Gmail search returned only Meta ad approval notifications and Glyphic prep emails (for other brands). No GM intro email has been sent to Veracity contacts."
+    "messages": [
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-04-01T10:30:08-07:00",
+        "snippet": "Your ads were approved and should begin delivering shortly",
+        "type": "meta_ad_notification"
+      },
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-04-01T07:42:54-07:00",
+        "snippet": "Your ads were approved and should begin delivering shortly",
+        "type": "meta_ad_notification"
+      },
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-03-30T12:35:39-07:00",
+        "snippet": "Your ads were approved and should begin delivering shortly",
+        "type": "meta_ad_notification"
+      },
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-03-17T15:24:05-07:00",
+        "snippet": "Your ads were approved and should begin delivering shortly",
+        "type": "meta_ad_notification"
+      },
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-03-13T12:35:03-07:00",
+        "snippet": "Your ads were approved and should begin delivering shortly",
+        "type": "meta_ad_notification"
+      },
+      {
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-03-10T07:03:47-07:00",
+        "snippet": "Your ads were approved and should begin delivering shortly",
+        "type": "meta_ad_notification"
+      }
+    ],
+    "analysis": "No direct brand-specific email communication found between Pulkit and Veracity Selfcare team in the last 30 days. Gmail search returned only Meta ad approval notifications (6 total between Mar 10 - Apr 1 2026) and Glyphic prep emails for other brands. No GM intro email has been sent to Veracity contacts (Jacqueline Lin, Maggie Sullivan, Sabrina Pereira). The Meta ad approvals confirm ads are still running through Veracity's account, which explains the ongoing sessions/revenue in FERMAT funnels."
+  },
+  "granola": {
+    "meetings": [],
+    "insights": {
+      "churn_risk": "Account flagged as churn risk in Feb 2026 Granola notes. Early churn request received despite October renewal. Brand never found a winning funnel despite multiple testing attempts.",
+      "billing_issues": "Payment concerns flagged in Feb-Mar 2026. Mia was checking with finance team. Veracity identified as having October renewal with similar payment concerns to other troubled accounts.",
+      "account_transition": "Classified as one of two GM accounts showing churn risk. Early termination email sent day before handoff call. Grace (main contact) terminated by Mar 11. Andres took over but meetings cancelled.",
+      "root_cause": "Situation described as likely cost-cutting measure at client company, not performance-related. Agency (DTCo with Julia/Yuliia as POC) added complexity to account management.",
+      "contract": "October renewal cycle, auto-renewal with 1-month notice requirement."
+    },
+    "_note": "No Veracity-specific meetings found in Granola list_meetings. Insights extracted from query_granola_meetings which cited meetings af675d24, 56e43c52, ac5005d1, 4e6d0abe discussing Veracity in broader account review contexts."
+  },
+  "_mcp_status": {
+    "fermat": "TOKEN_EXPIRED - get_funnel_metrics returned 'requires re-authorization' on all 3 attempts. Performance data retained from previous pull (2026-04-06T06:26:51Z). All pdp_views, atc, checkouts, sessions, revenue, purchases numbers are real API data from that pull.",
+    "glyphic": "SERVER_ERROR - list_calls returned -32603 on all attempts (with and without title_filter). Call data retained from previous pull.",
+    "google_calendar": "OK - Confirmed zero Veracity events Mar 9 - Jun 7 2026",
+    "slack": "OK - Retrieved 20 messages from #fermat-x-veracitywellness (C07UG9JPS3A) plus 20 more via pagination",
+    "gmail": "OK - Searched 'Veracity newer_than:30d', returned 8 results (all Meta ad approvals + Glyphic prep emails, no direct brand communication)",
+    "granola": "OK - query_granola_meetings returned rich context about churn risk, billing, termination. list_meetings found no Veracity-specific meeting titles."
   }
 }

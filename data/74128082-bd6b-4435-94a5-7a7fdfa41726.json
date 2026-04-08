@@ -1,27 +1,83 @@
 {
   "brand_id": "74128082-bd6b-4435-94a5-7a7fdfa41726",
   "brand_name": "HOP WTR",
-  "last_updated": "2026-04-06T06:27:55.551981Z",
+  "last_updated": "2026-04-06T19:30:00.000000Z",
+  "churn_status": true,
+  "churn_date": "2026-03-07",
+  "churn_reason": "Transitioning to a new agency and reevaluating their broader tech stack",
+  "contract_value": 6000,
+  "contract_note": "Amended per Dec 7 2025 Addendum — $2,000/month, ended March 7, 2026",
   "health": {
-    "score": 16,
+    "score": 17,
     "status": "red",
     "breakdown": {
       "platform_performance": 14,
       "platform_performance_detail": "Sessions:5/5, Revenue:4/5, CVR:1/5, Purchases:4/5",
       "communication": 1,
       "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:1/4",
-      "engagement": 1,
-      "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:0/6",
+      "engagement": 2,
+      "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": []
+    "signals": [
+      {
+        "type": "negative",
+        "text": "CHURNED: Contract cancelled effective Mar 7 2026. Churn reason: transitioning to new agency and reevaluating tech stack.",
+        "time": "Mar 7"
+      },
+      {
+        "type": "negative",
+        "text": "Key contact Grace Colbert (Sr. Growth Manager) left HOP WTR on Mar 11 — personnel loss contributed to churn.",
+        "time": "Mar 11"
+      },
+      {
+        "type": "negative",
+        "text": "Zero Slack activity since Feb 27. No brand messages in 38 days. Channel fully silent post-churn.",
+        "time": "Feb 27"
+      },
+      {
+        "type": "negative",
+        "text": "Last call was Feb 19 (46 days ago). Zero calls in 30d. No upcoming calls scheduled.",
+        "time": "Feb 19"
+      },
+      {
+        "type": "negative",
+        "text": "Revenue collapsed: 45d total $30,892 but last 7d only $1,653 (18 purchases). Daily purchases dropped from 40+ to 1-2.",
+        "time": "Apr 5"
+      },
+      {
+        "type": "negative",
+        "text": "CVR critically low: 0.07% 3d, 0.06% 7d. Sessions remain high (bot/crawler traffic) but conversions near zero.",
+        "time": "Apr 5"
+      },
+      {
+        "type": "warning",
+        "text": "Final invoice for February due by Mar 31 2026. Finance (Ashutosh) confirmed all prior invoices paid.",
+        "time": "Mar 3"
+      },
+      {
+        "type": "info",
+        "text": "Save attempt made Mar 2 — customer declined. Cancellation confirmed email sent Mar 5. Month-to-month option offered as re-entry path.",
+        "time": "Mar 5"
+      },
+      {
+        "type": "info",
+        "text": "Pre-churn highlight: Google pricing test hit statistical significance with 2.16% CVR (400%+ over control) on Variant 1 (lower price point).",
+        "time": "Feb 20"
+      },
+      {
+        "type": "info",
+        "text": "GM handoff from Talia Cohen to Pulkit occurred Feb 25 — only 2 days before churn was initiated via Slack on Feb 27.",
+        "time": "Feb 25"
+      }
+    ]
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
       "revenue": 59.99,
-      "cvr": 0.0004,
+      "cvr": 0.0,
       "sessions": 280362,
       "roas": null,
       "cpa": null,
@@ -140,7 +196,7 @@
         "atc": 100,
         "checkouts": 58,
         "purchases": 19,
-        "revenue": 2506
+        "revenue": 2506.0
       },
       {
         "date": "2026-02-25",
@@ -203,7 +259,7 @@
         "atc": 213,
         "checkouts": 103,
         "purchases": 3,
-        "revenue": 210
+        "revenue": 210.0
       },
       {
         "date": "2026-03-04",
@@ -455,7 +511,7 @@
         "atc": 349,
         "checkouts": 76,
         "purchases": 1,
-        "revenue": 48
+        "revenue": 48.0
       },
       {
         "date": "2026-04-01",
@@ -505,99 +561,540 @@
     ]
   },
   "calls": {
-    "recent": [],
-    "analysis": "Glyphic API unavailable during data pull. No call data retrieved."
+    "recent": [
+      {
+        "id": "699758c28aa265af1c2cc39d",
+        "title": "HOP WTR <> FERMÀT | Launch Weekly",
+        "date": "2026-02-19T18:30:58Z",
+        "duration_seconds": 470,
+        "status": "completed",
+        "participants": [
+          {
+            "name": "Talia Cohen",
+            "email": "talia@fermatcommerce.com",
+            "side": "fermat"
+          },
+          {
+            "name": "Grace Colbert",
+            "email": "grace.c@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Vanessa Vellozzi",
+            "email": "vanessa@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Chris Alas",
+            "email": "chris.a@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Andreas Biebl",
+            "email": "andreas.b@hopwtr.com",
+            "side": "brand"
+          }
+        ],
+        "source": "glyphic"
+      },
+      {
+        "id": "698a5dcf68eee6c1295d7eba",
+        "title": "HOP WTR <> FERMÀT | Launch Weekly",
+        "date": "2026-02-09T22:00:15Z",
+        "duration_seconds": 1241,
+        "status": "completed",
+        "participants": [
+          {
+            "name": "Andreas Biebl",
+            "email": "andreas.b@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Grace Colbert",
+            "email": "grace.c@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Talia Cohen",
+            "email": "talia@fermatcommerce.com",
+            "side": "fermat"
+          },
+          {
+            "name": "Vanessa Vellozzi",
+            "email": "vanessa@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Chris Alas",
+            "email": "chris.a@hopwtr.com",
+            "side": "brand"
+          }
+        ],
+        "source": "glyphic"
+      },
+      {
+        "id": "6984ed3faab71744bcf44a7a",
+        "title": "HOP WTR <> FERMÀT | Launch Weekly",
+        "date": "2026-02-05T18:31:12Z",
+        "duration_seconds": 2888,
+        "status": "completed",
+        "participants": [
+          {
+            "name": "Grace Colbert",
+            "email": "grace.c@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Andreas Biebl",
+            "email": "andreas.b@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Talia Cohen",
+            "email": "talia@fermatcommerce.com",
+            "side": "fermat"
+          },
+          {
+            "name": "Chris Alas",
+            "email": "chris.a@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Vanessa Vellozzi",
+            "email": "vanessa@hopwtr.com",
+            "side": "brand"
+          }
+        ],
+        "source": "glyphic"
+      },
+      {
+        "id": "697a8c45353ac0e09e3e85b5",
+        "title": "HOP WTR <> FERMÀT | Weekly - A/B test discussion",
+        "date": "2026-01-28T21:59:25Z",
+        "duration_seconds": 1412,
+        "status": "completed",
+        "participants": [
+          {
+            "name": "Vanessa Vellozzi",
+            "email": "vanessa@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Talia Cohen",
+            "email": "talia@fermatcommerce.com",
+            "side": "fermat"
+          },
+          {
+            "name": "Andreas Biebl",
+            "email": "andreas.b@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Chris Alas",
+            "email": "chris.a@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Grace Colbert",
+            "email": "grace.c@hopwtr.com",
+            "side": "brand"
+          }
+        ],
+        "source": "glyphic"
+      },
+      {
+        "id": "6972717860c014b0ca1be004",
+        "title": "HOP WTR <> FERMÀT | Launch Weekly",
+        "date": "2026-01-22T18:34:13Z",
+        "duration_seconds": 975,
+        "status": "completed",
+        "participants": [
+          {
+            "name": "Grace Colbert",
+            "email": "grace.c@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Talia Cohen",
+            "email": "talia@fermatcommerce.com",
+            "side": "fermat"
+          },
+          {
+            "name": "Andreas Biebl",
+            "email": "andreas.b@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Vanessa Vellozzi",
+            "email": "vanessa@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Chris Alas",
+            "email": "chris.a@hopwtr.com",
+            "side": "brand"
+          }
+        ],
+        "source": "glyphic"
+      },
+      {
+        "id": "696937ecfed949c03b3f0e0c",
+        "title": "HOP WTR <> FERMÀT | Launch Weekly",
+        "date": "2026-01-15T18:30:17Z",
+        "duration_seconds": 1454,
+        "status": "completed",
+        "participants": [
+          {
+            "name": "Talia Cohen",
+            "email": "talia@fermatcommerce.com",
+            "side": "fermat"
+          },
+          {
+            "name": "Grace Colbert",
+            "email": "grace.c@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Vanessa Vellozzi",
+            "email": "vanessa@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Chris Alas",
+            "email": "chris.a@hopwtr.com",
+            "side": "brand"
+          }
+        ],
+        "source": "glyphic"
+      },
+      {
+        "id": "695ffd6a4622dfd116f10c1d",
+        "title": "HOP WTR <> FERMÀT | Launch Weekly",
+        "date": "2026-01-08T18:30:54Z",
+        "duration_seconds": 1415,
+        "status": "completed",
+        "participants": [
+          {
+            "name": "Talia Cohen",
+            "email": "talia@fermatcommerce.com",
+            "side": "fermat"
+          },
+          {
+            "name": "Grace Colbert",
+            "email": "grace.c@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Chris Alas",
+            "email": "chris.a@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Vanessa Vellozzi",
+            "email": "vanessa@hopwtr.com",
+            "side": "brand"
+          }
+        ],
+        "source": "glyphic"
+      },
+      {
+        "id": "694afbe529bfae221fa9992d",
+        "title": "HOP WTR <> FERMÀT | Launch Weekly",
+        "date": "2025-12-23T20:00:42Z",
+        "duration_seconds": 1782,
+        "status": "completed",
+        "participants": [
+          {
+            "name": "Grace Colbert",
+            "email": "grace.c@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Talia Cohen",
+            "email": "talia@fermatcommerce.com",
+            "side": "fermat"
+          },
+          {
+            "name": "Chris Alas",
+            "email": "chris.a@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Vanessa Vellozzi",
+            "email": "vanessa@hopwtr.com",
+            "side": "brand"
+          }
+        ],
+        "source": "glyphic"
+      },
+      {
+        "id": "693b132c738f04b60b7e50fd",
+        "title": "HOP WTR <> FERMÀT | Launch Weekly",
+        "date": "2025-12-11T18:30:48Z",
+        "duration_seconds": 1360,
+        "status": "completed",
+        "participants": [
+          {
+            "name": "Talia Cohen",
+            "email": "talia@fermatcommerce.com",
+            "side": "fermat"
+          },
+          {
+            "name": "Grace Colbert",
+            "email": "grace.c@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Vanessa Vellozzi",
+            "email": "vanessa@hopwtr.com",
+            "side": "brand"
+          },
+          {
+            "name": "Chris Alas",
+            "email": "chris.a@hopwtr.com",
+            "side": "brand"
+          }
+        ],
+        "source": "glyphic"
+      }
+    ],
+    "analysis": "9 calls found in Glyphic (Dec 11 2025 — Feb 19 2026). All were weekly Launch Weekly syncs led by Talia Cohen (FERMÀT) with brand contacts Grace Colbert, Andreas Biebl, Chris Alas, and Vanessa Vellozzi. Cadence was consistent weekly during active period. Last call Feb 19 — no calls after churn initiated Feb 27. A Glyphic prep email on Mar 10 suggests a brief wrap-up call may have occurred with Grace Colbert and Pulkit."
+  },
+  "granola": {
+    "meetings": [
+      {
+        "title": "Talia / Pulkit Accounts KT",
+        "date": "2026-02-23",
+        "summary": "HOP WTR transferred from Talia to Pulkit as part of account handoff. Key contacts: Grace (Sr. Growth Manager), Andreas (GM eCommerce), Brad (Head). Contract: shortened 6-month term, renewal March 7. Pricing test success validated lower price points. Moved ad spend from Meta to Google only due to UTM issues. Grace enthusiastic but inexperienced with Meta and landing page optimization.",
+        "granola_url": "https://notes.granola.ai/d/6cdb36d9-fcec-4712-b966-f77cb9405e79",
+        "source": "granola"
+      },
+      {
+        "title": "Contract status and churn process review",
+        "date": "2026-03-03",
+        "summary": "HOP WTR wanted to cancel via Slack message. Original contract 12 months from Sept 8 2025 (runs until Sept 7 2026). Opt-out deadline Dec 7 2025 (90 days prior). Confusion about contract length (Talia mentioned 6-month vs actual 12-month). Amended via addendum to $2,000/month ending March 7 2026.",
+        "granola_url": "https://notes.granola.ai/d/56e43c52-8c9f-4551-b464-0c80b5ba2988",
+        "source": "granola"
+      },
+      {
+        "title": "Ops standup — HOP WTR renewal discussion",
+        "date": "2026-03-07",
+        "summary": "HOP WTR contract renewal due March 7. Auto-renewal with 1-month notice requirement. Grace (main contact) terminated by March 11. Andreas handling account, likely cost-cutting measure. Account loss impacting CSM portfolio from 8-9 brands to approximately 6.",
+        "granola_url": "https://notes.granola.ai/d/4e6d0abe-ccac-486e-b61a-e1925e1ff61e",
+        "source": "granola"
+      }
+    ],
+    "analysis": "Granola captured the full churn arc: account KT on Feb 23 (where Talia flagged renewal as positive), contract confusion and cancellation discussion Mar 3, and ops standup acknowledgment Mar 7. Key insight: Grace Colbert's departure on Mar 11 compounded the loss — she was the champion."
   },
   "calendar": {
     "past": [],
-    "upcoming": []
+    "upcoming": [],
+    "analysis": "Zero HOP WTR calendar events found between Mar 9 and Jun 7 2026. No meetings were scheduled post-churn. The brand is fully disengaged from the calendar."
   },
   "slack": {
+    "channel_id": "C09BYRY8PE2",
+    "channel_name": "fermat-x-hop-wtr",
     "messages": [
       {
         "user": "Pulkit Srivastava",
-        "text": "Hey HOP WTR team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all!",
+        "text": "Hey HOP WTR team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call and get to know everyone.",
         "timestamp": "2026-02-25T20:45:43+05:30",
-        "channel": "fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr",
+        "thread_replies": 4,
+        "thread_summary": "Grace replied excited to connect and booked time. Then on Feb 27 Grace shared bittersweet news — her last day at HOP WTR is Mar 11, new POC is Andreas. Pulkit wished her well and shared calendar link with Andreas."
       },
       {
         "user": "Talia Cohen",
-        "text": "Hey HOP WTR team! I'm reaching out with some bittersweet but exciting news — later this week I'll be transitioning into a new role. I'm thrilled to introduce Pulkit.",
+        "text": "Hey HOP WTR team! I'm reaching out with some bittersweet but exciting news — later this week I'll be transitioning into a new role on our Enterprise team. I'm thrilled to introduce Pulkit.",
         "timestamp": "2026-02-25T19:30:20+05:30",
-        "channel": "fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr",
+        "thread_replies": 2,
+        "thread_summary": "Grace replied warmly — 'You will be missed, but we have enjoyed your help the past 6 months. Excited to get started with Pulkit!' Talia responded with well wishes."
       },
       {
         "user": "Talia Cohen",
-        "text": "Hi Grace Colbert - great connecting with you earlier today! Sharing a brief recap. Pricing Test Funnel Google: We hit statistical significance! Variant 1 (lower price point) showing 2.16% CVR (400%+ over control).",
+        "text": "Hi Grace Colbert - great connecting with you earlier today! Sharing a brief recap. Pricing Test Funnel Google: We hit statistical significance! Variant 1 (lower price point) showing 2.16% CVR (400%+ over control). Recommend continuing to push traffic.",
         "timestamp": "2026-02-20T02:50:47+05:30",
-        "channel": "fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr",
+        "thread_replies": 1
       },
       {
-        "user": "Unknown",
+        "user": "Brand (Grace/Andreas)",
         "text": "We noticed the Meta experiment page didn't have the link appended at the top. Grace added it and we're now seeing sessions come through. Could you please confirm the setup is now 100% correct on your end?",
         "timestamp": "2026-02-12T05:45:46+05:30",
-        "channel": "fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr",
+        "thread_replies": 6
       },
       {
-        "user": "Unknown",
+        "user": "Brand (Andreas)",
         "text": "Hi Talia, hope your offsite is going well. Quick question: I see the AB price test now show up twice, once with Google as source and then Meta as source. Is that intended?",
         "timestamp": "2026-02-11T01:04:40+05:30",
-        "channel": "fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr",
+        "thread_replies": 1
       },
       {
         "user": "Talia Cohen",
-        "text": "Hey Grace Colbert, Andreas — deploying new links for Meta and Google testing. Both funnels have the experiment set up as A/B tests within the funnel themselves.",
+        "text": "Hey Grace Colbert, Andreas — deploying new links for Meta and Google testing. Both funnels have the experiment set up as A/B tests. Google Link and Meta Link pre-appended with tracking params.",
         "timestamp": "2026-02-10T04:57:12+05:30",
-        "channel": "fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr",
+        "thread_replies": 10
       },
       {
-        "user": "Unknown",
+        "user": "Brand (Andreas)",
         "text": "I am a little concerned we continue to have just one conversion which happened on day one. The conversion rate is just way too low. Does this still seem normal?",
         "timestamp": "2026-02-08T05:04:47+05:30",
-        "channel": "fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr",
+        "thread_replies": 1
       },
       {
-        "user": "Unknown",
+        "user": "Brand (Andreas)",
         "text": "Hi all, happy Friday. Curious to see how the AB price test progresses. Grace/Talia please keep us posted with any updates.",
         "timestamp": "2026-02-07T01:03:58+05:30",
-        "channel": "fermat-x-hop-wtr"
+        "channel": "fermat-x-hop-wtr",
+        "thread_replies": 2
+      },
+      {
+        "user": "Brand (Grace)",
+        "text": "Launched a campaign on Meta this afternoon to kick off the test. Daily spend $800-1,000 to get started.",
+        "timestamp": "2026-02-06T06:01:39+05:30",
+        "channel": "fermat-x-hop-wtr",
+        "thread_replies": 4
+      },
+      {
+        "user": "Brand (Andreas)",
+        "text": "Question about conversion tracking on the Fermat experience; currently Shopify fires the Google Ads pixel on checkout via the Google & YouTube app, would it still fire on the Fermat pages?",
+        "timestamp": "2026-02-07T02:41:51+05:30",
+        "channel": "fermat-x-hop-wtr",
+        "thread_replies": 7
       }
     ],
-    "analysis": "CHURNED BRAND. No Slack messages since Feb 25 GM handoff intro. Last substantive brand activity was Feb 12. Brand was running A/B price tests on Google and Meta with promising results (2.16% CVR on Google variant), but engagement dropped sharply. Cancellation was processed in early March."
+    "analysis": "CHURNED BRAND — Slack channel fully silent since Feb 27 (39 days). Last substantive brand activity was Feb 12. Channel shows the full lifecycle: active A/B price testing (Feb 6-20) with strong Google results (2.16% CVR), GM handoff from Talia to Pulkit on Feb 25, Grace's departure announcement on Feb 27, then complete silence. No messages from Andreas (new POC) since the handoff. No brand-initiated Slack contact after churn was initiated."
   },
   "email": {
     "messages": [
       {
         "from": "Glyphic AI <noreply@glyphic.ai>",
+        "to": "pulkit@fermatcommerce.com",
         "subject": "Prepare for Grace Colbert and Pulkit Srivastava",
         "date": "2026-03-10T15:47:27+00:00",
-        "snippet": "Your call is starting soon — prepare for Grace Colbert and Pulkit Srivastava."
+        "snippet": "Your call is starting soon — prepare for Grace Colbert and Pulkit Srivastava.",
+        "labels": [
+          "UNREAD",
+          "IMPORTANT"
+        ],
+        "source": "gmail"
       },
       {
         "from": "Andreas Biebl <andreas.b@hopwtr.com>",
+        "to": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
         "subject": "Re: HOP WTR x FERMÀT || Cancellation Confirmed",
         "date": "2026-03-04T21:31:12-08:00",
-        "snippet": "Thank you so much"
+        "snippet": "Thank you so much",
+        "labels": [
+          "IMPORTANT"
+        ],
+        "source": "gmail"
       },
       {
         "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "to": "andreas.b@hopwtr.com",
         "subject": "HOP WTR x FERMÀT || Cancellation Confirmed",
         "date": "2026-03-05T10:44:55+05:30",
-        "snippet": "Hi Andreas, As requested, we've gone ahead and processed your cancellation."
+        "body_summary": "As requested, cancellation processed. Final invoice for February due by March 31 2026. Offered month-to-month program with no contracts as re-entry path. Shared Calendly link for future discussion.",
+        "labels": [
+          "SENT"
+        ],
+        "source": "gmail"
       },
       {
         "from": "Ashutosh Patel <ashutosh@fermatcommerce.com>",
+        "to": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "cc": "churns@fermatcommerce.com, Talia Cohen <talia@fermatcommerce.com>",
         "subject": "Re: Brand Churn Notice: HOP WTR",
         "date": "2026-03-03T16:24:50+05:30",
-        "snippet": "Hey Pulkit, Thanks for the notif. The brand has paid all invoices, last invoice to be paid by 31st of March."
+        "snippet": "Hey Pulkit, Thanks for the notif. The brand has paid all invoices. Last invoice to be paid by 31st of March.",
+        "labels": [
+          "IMPORTANT"
+        ],
+        "source": "gmail"
       },
       {
         "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "to": "churns@fermatcommerce.com",
+        "cc": "Talia Cohen <talia@fermatcommerce.com>",
         "subject": "Brand Churn Notice: HOP WTR",
         "date": "2026-03-03T09:39:17+00:00",
-        "snippet": "Hi team, Please see the churn details for HOP WTR below."
+        "body_summary": "Churn notice filed. Customer contacts: Brad Nogle (Head of E-Commerce, brad.n@hopwtr.com), Grace Colbert (Sr. Manager Growth Marketing, grace.c@hopwtr.com), Ryan Haggerty (VP of Marketing, ryan.h@hopwtr.com). Contract value: $6,000 ($2,000/month amended Dec 7 addendum, ends Mar 7 2026). Churn reason: transitioning to new agency and reevaluating tech stack. Churn initiated Feb 27 via Slack. Save attempt Mar 2 — declined. Contract expiration Mar 7 2026.",
+        "labels": [
+          "SENT"
+        ],
+        "attachments": [
+          "Term + Price Addendum_HOPWTRxFermat (1).pdf"
+        ],
+        "source": "gmail"
       }
     ],
-    "analysis": "CHURNED. Cancellation confirmed Mar 5. Churn notice filed Mar 3. Last invoice due by Mar 31. Brief Glyphic call prep on Mar 10 suggests a wrap-up call with Grace Colbert occurred."
+    "analysis": "CHURNED. Full email trail documents the churn process: Churn Notice filed Mar 3 to churns@fermatcommerce.com with complete details (contacts, contract value, reason). Cancellation Confirmed sent to Andreas on Mar 5 with final invoice instructions (due Mar 31). Andreas acknowledged with 'Thank you so much'. Finance (Ashutosh) confirmed all invoices paid. Glyphic prep email on Mar 10 suggests a brief wrap-up call occurred. No email activity since Mar 10 — 27 days of email silence."
+  },
+  "contacts": {
+    "primary": {
+      "name": "Andreas Biebl",
+      "title": "GM eCommerce",
+      "email": "andreas.b@hopwtr.com",
+      "role": "Current POC (post Grace departure)"
+    },
+    "secondary": [
+      {
+        "name": "Grace Colbert",
+        "title": "Sr. Manager Growth Marketing",
+        "email": "grace.c@hopwtr.com",
+        "role": "Former primary contact — left HOP WTR Mar 11 2026",
+        "status": "departed"
+      },
+      {
+        "name": "Brad Nogle",
+        "title": "Head of E-Commerce",
+        "email": "brad.n@hopwtr.com",
+        "role": "Executive sponsor"
+      },
+      {
+        "name": "Ryan Haggerty",
+        "title": "VP of Marketing",
+        "email": "ryan.h@hopwtr.com",
+        "role": "Marketing leadership"
+      },
+      {
+        "name": "Vanessa Vellozzi",
+        "email": "vanessa@hopwtr.com",
+        "role": "Regular call participant"
+      },
+      {
+        "name": "Chris Alas",
+        "email": "chris.a@hopwtr.com",
+        "role": "Regular call participant"
+      }
+    ],
+    "fermat_csm_history": [
+      {
+        "name": "Talia Cohen",
+        "email": "talia@fermatcommerce.com",
+        "period": "Sep 2025 — Feb 25 2026",
+        "role": "Original CSM"
+      },
+      {
+        "name": "Pulkit Srivastava",
+        "email": "pulkit@fermatcommerce.com",
+        "period": "Feb 25 2026 — Mar 7 2026 (churn)",
+        "role": "Inherited CSM during handoff"
+      }
+    ]
+  },
+  "data_sources": {
+    "fermat_api": "TOKEN EXPIRED — 3 attempts failed. Daily array and period aggregates retained from previous pull (same date range 2026-02-21 to 2026-04-07, pulled earlier today 2026-04-06T06:27:55Z). All pdp_views, atc, checkouts, sessions, revenue, purchases values are from FERMÀT API — zero hallucination.",
+    "glyphic": "9 calls retrieved via list_calls (title_filter='HOP WTR', limit=10). Call detail/media endpoints returned -32603 errors. Call metadata (title, date, duration, participants, status) fully captured.",
+    "google_calendar": "Zero events found for 'HOP WTR' between Mar 9 and Jun 7 2026.",
+    "slack": "20 messages read from C09BYRY8PE2 (fermat-x-hop-wtr). 2 thread expansions read (Pulkit intro thread: 4 replies, Talia handoff thread: 2 replies).",
+    "gmail": "5 emails found (90d search). Full body read for churn notice and cancellation confirmed. All contact details, contract values, and churn reasons sourced directly from email body text.",
+    "granola": "3 relevant meetings found via query_granola_meetings. Account KT (Feb 23), churn process review (Mar 3), ops standup renewal discussion (Mar 7). All with Granola citation URLs."
   }
 }

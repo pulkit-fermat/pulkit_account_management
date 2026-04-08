@@ -1,15 +1,15 @@
 {
   "brand_id": "f0a1a21b-3832-4bfd-ad3d-af38d11a90e8",
   "brand_name": "Moment",
-  "last_updated": "2026-04-06T12:00:00+05:30",
+  "last_updated": "2026-04-06T23:59:00+05:30",
   "health": {
-    "score": 30,
+    "score": 37,
     "status": "red",
     "breakdown": {
       "platform_performance": 20,
       "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:5/5, Purchases:5/5",
-      "communication": 1,
-      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:1/4, PulkitOutreach:0/4",
+      "communication": 8,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:4/4, PulkitOutreach:4/4",
       "engagement": 9,
       "engagement_detail": "LastCall:6/8, Calls30d:3/6, Upcoming:0/6",
       "csm_sentiment": 0,
@@ -18,33 +18,48 @@
     "signals": [
       {
         "type": "positive",
-        "text": "7d sessions at 4,274 with strong platform performance (20/20)",
+        "text": "Active email thread: Aisha replied Apr 5 excited to work together, agreed to reconnect in ~1 month",
+        "time": "Apr 7"
+      },
+      {
+        "type": "positive",
+        "text": "Pulkit sent intro email (Apr 3) and Aisha responded positively (Apr 5) - relationship building",
         "time": "Apr 5"
       },
       {
         "type": "positive",
-        "text": "Active email thread with Aisha Chottani from Moment (Apr 5)",
-        "time": "Apr 5"
+        "text": "Olivia Renfro asked a technical funnel question (Mar 24) - brand is actively using FERMAT",
+        "time": "Mar 24"
       },
       {
         "type": "warning",
-        "text": "Slack #fermat-x-moment dormant since Mar 3 - no human messages",
+        "text": "Slack #fermat-x-moment dormant since Mar 3 - last human message was Jan 12 noting low CVR",
         "time": "Mar 3"
       },
       {
         "type": "negative",
-        "text": "No upcoming calls scheduled with Moment",
+        "text": "No upcoming calls scheduled with Moment - brand prefers support-only model",
         "time": "Apr 6"
       },
       {
         "type": "warning",
-        "text": "Session volume declining: recent 7d avg ~610/day vs 45d avg ~1,300/day",
-        "time": "Apr 5"
+        "text": "Session volume declining sharply: recent 7d avg ~611/day vs 45d avg ~1,309/day (53% drop)",
+        "time": "Apr 6"
       },
       {
         "type": "positive",
-        "text": "Moment renewed at $1,500/month flat fee",
-        "time": "Feb 24"
+        "text": "Moment successfully recovered from churn - renewed at $1,500/month flat fee on 6-month contract",
+        "time": "Mar 2026"
+      },
+      {
+        "type": "warning",
+        "text": "Moment was heads down in fundraising mode (per Aisha Apr 1) - limited bandwidth for optimization",
+        "time": "Apr 1"
+      },
+      {
+        "type": "positive",
+        "text": "FERMAT automated welcome email sent to Aisha (Apr 1) - onboarding refresh initiated",
+        "time": "Apr 1"
       }
     ]
   },
@@ -543,20 +558,82 @@
         "duration": "30 min",
         "participants": "Pulkit Srivastava, Olivia Renfro, Aisha Chottani",
         "source": "Granola",
-        "summary": "Introductory call between Pulkit and the Moment team (Olivia Renfro, Aisha Chottani). Discussed account transition from Mia and current funnel performance.",
+        "summary": "Introductory call between Pulkit (new CSM) and the Moment team (Olivia Renfro, Aisha Chottani). Discussed account transition from Mia and current funnel performance.",
         "recording_url": null,
+        "granola_url": "https://notes.granola.ai/d/0e98ffe6-8cce-4925-9f34-2e5c56ae447d",
+        "snippets": [],
+        "action_items": []
+      },
+      {
+        "title": "Moment / FERMAT",
+        "date": "2026-01-26T18:00:33Z",
+        "duration": "30 min",
+        "participants": "Mia DyBuncio, Isabel O'Keefe, Aisha Chottani",
+        "source": "Glyphic",
+        "summary": "Regular sync between Mia (previous CSM), Isabel, and Aisha from Moment.",
+        "recording_url": null,
+        "glyphic_id": "6977b2d333a484da0a09b7f0",
+        "snippets": [],
+        "action_items": []
+      },
+      {
+        "title": "Moment / FERMAT",
+        "date": "2026-01-23T20:28:05Z",
+        "duration": "12 min",
+        "participants": "Mia DyBuncio, Isabel O'Keefe",
+        "source": "Glyphic",
+        "summary": "Short call between Mia and Isabel - Fireflies notetaker for Aisha present but likely a brief sync.",
+        "recording_url": null,
+        "glyphic_id": "6973dc9160c014b0ca1c78ed",
+        "snippets": [],
+        "action_items": []
+      },
+      {
+        "title": "Fermat x Moment",
+        "date": "2025-10-28T18:01:06Z",
+        "duration": "22 min",
+        "participants": "Mia DyBuncio, Emma Brewer",
+        "source": "Glyphic",
+        "summary": "Bi-weekly sync between Mia and Emma from Moment (previous brand contact).",
+        "recording_url": null,
+        "glyphic_id": "69010a2bec6ab66325a89e3b",
+        "snippets": [],
+        "action_items": []
+      },
+      {
+        "title": "Fermat x Moment",
+        "date": "2025-09-23T18:00:46Z",
+        "duration": "18 min",
+        "participants": "Mia DyBuncio, Emma Brewer",
+        "source": "Glyphic",
+        "summary": "Regular sync between Mia and Emma Brewer from Moment.",
+        "recording_url": null,
+        "glyphic_id": "68d2e4a55d04981e57d8b5af",
         "snippets": [],
         "action_items": []
       }
     ],
-    "analysis": "One call with Moment in last 30d (Mar 18 intro call via Granola). Glyphic data was unavailable due to API errors. Account prefers support-only model with no recurring meetings."
+    "analysis": "One call with Moment in the last 30 days (Mar 18 intro call via Granola with Olivia Renfro and Aisha Chottani). Glyphic has 5 historical Moment/drinkmoment.com calls from Jan 2026 back to Sep 2025 (all with previous CSM Mia DyBuncio). Glyphic call detail/media API returned errors. Account prefers support-only model with no recurring meetings."
   },
   "calendar": {
     "past": [],
-    "upcoming": []
+    "upcoming": [],
+    "analysis": "No Moment-related events found on Pulkit's calendar between Mar 9 - Jun 7 2026. Brand operates on a support-only model without recurring meeting cadence."
   },
   "slack": {
     "messages": [
+      {
+        "user": "ClickUp (Bot)",
+        "text": "ClickUp has joined the channel",
+        "timestamp": "2026-03-03T23:08:41+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "FERMAT (Bot)",
+        "text": "FERMAT has joined the channel",
+        "timestamp": "2026-02-24T16:49:51+05:30",
+        "channel": "#fermat-x-moment"
+      },
       {
         "user": "Pulkit Srivastava",
         "text": "Pulkit has joined the channel",
@@ -577,22 +654,244 @@
       },
       {
         "user": "Pierre (Bot)",
-        "text": "FERMAT Weekly Roundup Jan 5-11: 24,512 sessions, 679 purchases, $47,915 GMV",
+        "text": "FERMAT Weekly Roundup Jan 5-11: 24,512 sessions, 679 purchases, $47,915 GMV, $41,785 revenue. Top funnel: 3 Reasons Why - Better than Booze (24,361 sessions, 2.79% CVR, $1.72 rev/session)",
         "timestamp": "2026-01-12T22:30:38+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMAT Weekly Roundup Dec 29-Jan 4: 11,126 sessions, 572 purchases, $39,569 GMV, $34,477 revenue. Top funnel: 3 Reasons Why - Better than Booze (11,044 sessions, 5.14% CVR, $3.10 rev/session)",
+        "timestamp": "2026-01-05T22:30:41+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMAT Weekly Roundup Dec 22-28: 5,897 sessions, 378 purchases, $26,145 GMV, $22,703 revenue",
+        "timestamp": "2025-12-29T22:30:30+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMAT Weekly Roundup Dec 15-21: 4,379 sessions, 266 purchases, $18,787 GMV, $16,403 revenue",
+        "timestamp": "2025-12-22T22:30:46+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMAT Weekly Roundup Dec 8-14: 4,210 sessions, 184 purchases, $12,729 GMV, $11,030 revenue",
+        "timestamp": "2025-12-15T22:30:10+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMAT Weekly Roundup Dec 1-7: 2,720 sessions, 205 purchases, $14,131 GMV, $12,219 revenue",
+        "timestamp": "2025-12-08T22:30:16+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pylon (Bot)",
+        "text": "Pylon has joined the channel",
+        "timestamp": "2025-12-04T20:12:06+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMAT Weekly Roundup Nov 24-30: 8,577 sessions, 307 purchases, $21,602 GMV, $17,953 revenue",
+        "timestamp": "2025-12-01T22:30:08+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "Hi Emma, happy BFCM week! FERMAT will have enhanced monitoring and engineering on-call coverage this week. For any urgent needs please tag me.",
+        "timestamp": "2025-11-25T23:29:49+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMAT Weekly Roundup Nov 17-23: 7,322 sessions, 211 purchases, $14,988 GMV, $12,599 revenue",
+        "timestamp": "2025-11-24T22:30:10+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "FERMAT Dashboard Restored - Cloudflare pushed a fix, full access restored. Live funnels were not affected.",
+        "timestamp": "2025-11-18T21:34:22+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "FERMAT Dashboard Outage Alert - service disruption due to Cloudflare outage. Funnels unaffected, team monitoring.",
+        "timestamp": "2025-11-18T19:47:56+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMAT Weekly Roundup Nov 10-16: 10,976 sessions, 296 purchases, $21,536 GMV, $17,573 revenue",
+        "timestamp": "2025-11-17T22:30:25+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Mia DyBuncio",
+        "text": "Hey Faheem, launching FERMAT AI Search Commerce Engine tomorrow. Free version: subdomain, 20 pieces of content. Paid version: main domain, unlimited content. Comment 'AI Search' on Rishabh's LinkedIn post for 6 month free trial.",
+        "timestamp": "2025-11-13T04:07:33+05:30",
+        "channel": "#fermat-x-moment"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "FERMAT Weekly Roundup Nov 3-9: 11,171 sessions, 303 purchases, $21,341 GMV, $17,791 revenue",
+        "timestamp": "2025-11-10T22:30:33+05:30",
         "channel": "#fermat-x-moment"
       }
     ],
-    "analysis": "The #fermat-x-moment Slack channel is dormant. Last non-bot human message was Jan 12 commenting on low CVR. Pulkit joined Feb 24 but no conversations since. Weekly roundup bot posts stopped after Jan 12."
+    "analysis": "The #fermat-x-moment Slack channel (C05Q4HDFRDE) is dormant. Last non-bot human message was Jan 12 from an unknown user commenting 'wow, cvr is super low' followed by 'why is that?' in response to the weekly roundup. Pulkit joined Feb 24 but has not posted. Weekly Pierre roundup bot posts stopped after Jan 12. Previous CSM Mia's last message was Nov 25 (BFCM coverage). Brand-side participants have not posted in the channel."
   },
   "email": {
     "messages": [
       {
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "to": "Aisha Chottani <aisha@drinkmoment.com>",
+        "subject": "Re: Moment / FERMAT",
+        "date": "2026-04-07T09:32:39+00:00",
+        "snippet": "Sounds great! Let's reconnect in a month once you're through your current priorities. In the meantime, if any questions come up or you'd like to explore specific opportunities on your pages, feel free to reach out anytime."
+      },
+      {
+        "from": "Pulkit - FERMAT Brand Support <pulkit@fermatcommerce.com>",
+        "to": "aisha@drinkmoment.com",
+        "subject": "Your email clicks aren't converting",
+        "date": "2026-04-06T23:00:00+00:00",
+        "snippet": "Quick question: what happens after someone clicks your email? Most DTC brands send email traffic to generic product pages... FERMAT lets you create custom post-click experiences..."
+      },
+      {
         "from": "Aisha Chottani <aisha@drinkmoment.com>",
+        "to": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
         "subject": "Re: Moment / FERMAT",
         "date": "2026-04-05T00:17:25-04:00",
-        "snippet": "Hey Pulkit, Thank you so much, excited to chat! I wanted to know if there is anything in particular you are seeing on our pages that you think needs to be improved?"
+        "snippet": "Hey Pulkit, Thank you so much, excited to chat! I wanted to know if there is anything in particular you are seeing on our pages that you think needs to be improved? Otherwise, it would be great to connect in about a month or so once we're through a few things on our end."
+      },
+      {
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "to": "Isabel O'Keefe <isabel@fermatcommerce.com>",
+        "subject": "Re: Moment / FERMAT",
+        "date": "2026-04-03T06:51:50+00:00",
+        "snippet": "Hi Aisha, Great to meet you! I'm super excited to be working with you and the Moment team as your Customer Success Manager here at FERMAT. I'd love to hop on a call to introduce myself properly."
+      },
+      {
+        "from": "Isabel O'Keefe <isabel@fermatcommerce.com>",
+        "to": "Aisha Chottani <aisha@drinkmoment.com>",
+        "subject": "Re: Moment / FERMAT",
+        "date": "2026-04-01T08:50:09-06:00",
+        "snippet": "Awesome, thanks for the update!"
+      },
+      {
+        "from": "FERMAT Brand Support <brand-support@fermatcommerce.com>",
+        "to": "aisha@drinkmoment.com",
+        "subject": "Your FERMAT journey starts now",
+        "date": "2026-04-01T09:29:09+00:00",
+        "snippet": "Welcome to FERMAT - we're thrilled to have you on board! Our Brand Support team is here to make sure you hit the ground running."
+      },
+      {
+        "from": "Aisha Chottani <aisha@drinkmoment.com>",
+        "to": "Isabel O'Keefe <isabel@fermatcommerce.com>",
+        "subject": "Re: Moment / FERMAT",
+        "date": "2026-04-01T03:11:51-04:00",
+        "snippet": "Thanks Isabel, this has been done! Apologies for the delay - we have been heads down in fundraising mode."
+      },
+      {
+        "from": "Isabel O'Keefe <isabel@fermatcommerce.com>",
+        "to": "Mukul Varshney <mukul@fermatcommerce.com>",
+        "subject": "Re: Moment / FERMAT",
+        "date": "2026-03-25T09:47:31-04:00",
+        "snippet": "Hi Aisha, I wanted to touch base, my finance team flagged that the Stripe link sent over last week still hasn't been completed yet. Since your renewal is overdue, can you please complete this by..."
+      },
+      {
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "to": "Olivia Renfro <olivia@drinkmoment.com>",
+        "subject": "Re: Quick Funnel Question",
+        "date": "2026-03-24T17:33:16+00:00",
+        "snippet": "Hi Olivia, Thanks for reaching out! The Apple Pay button is actually part of the Add to Bag button component, so as of now it's not possible to remove the Add to Bag button..."
+      },
+      {
+        "from": "Olivia Renfro <olivia@drinkmoment.com>",
+        "to": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "subject": "Quick Funnel Question",
+        "date": "2026-03-24T09:49:06-07:00",
+        "snippet": "Hi Pulkit and Fermat Team, Quick question on a funnel variant - on mobile, the buy box is currently showing both Add to Bag and Apple Pay buttons. Is there a way to remove the Add to Bag?"
       }
     ],
-    "analysis": "Active email thread with Aisha Chottani from Moment as of Apr 5 discussing page improvements. Most other results were Meta ad approvals (excluded). Brand is responsive via email."
+    "analysis": "Active email engagement. Pulkit introduced himself as new CSM on Apr 3, Aisha responded positively Apr 5, Pulkit replied Apr 7 agreeing to reconnect in a month. Separate thread: Olivia Renfro asked about funnel buy box configuration (Mar 24) and Pulkit answered. Isabel managed Stripe renewal payment (completed Apr 1 after delay due to fundraising). Automated brand support welcome email sent Apr 1. Brand contacts: Aisha Chottani (CEO/primary, aisha@drinkmoment.com), Olivia Renfro (marketing, olivia@drinkmoment.com). Brand is responsive via email but bandwidth-constrained by fundraising."
+  },
+  "granola": {
+    "meetings": [
+      {
+        "id": "0e98ffe6-8cce-4925-9f34-2e5c56ae447d",
+        "title": "1:1 Call With Pulkit from Fermat",
+        "date": "2026-03-18T21:30:00+05:30",
+        "participants": [
+          "Pulkit Srivastava",
+          "Olivia Renfro",
+          "Aisha Chottani"
+        ],
+        "url": "https://notes.granola.ai/d/0e98ffe6-8cce-4925-9f34-2e5c56ae447d",
+        "summary": "Introductory call between Pulkit and the Moment team. No detailed summary available from Granola."
+      }
+    ],
+    "context_from_other_meetings": [
+      {
+        "source": "CSM Standup (Mar 16) - notes.granola.ai/d/2b1e9704-d878-447c-a482-e01966514c29",
+        "detail": "Moment had payment/signup issues, coupon code access problems preventing link creation. Account transitioning from Mia to Pulkit."
+      },
+      {
+        "source": "CSM Accounts Status (Mar 30) - notes.granola.ai/d/97f4b1ec-77cc-4f4e-93e6-2dc7a325c957",
+        "detail": "Moment experiencing ongoing payment and signup issues with coupon code access."
+      },
+      {
+        "source": "Self-Serve Status (Mar 9) - notes.granola.ai/d/762af547-a056-49b2-a6f1-2f2d86af64a5",
+        "detail": "Moment on $10.5k pricing with 6-month contract via Stripe, $1.5k discount applied."
+      },
+      {
+        "source": "Ops Standup (Mar 10) - notes.granola.ai/d/82f7565a-4e53-4dbf-bd74-c07eaf86b036",
+        "detail": "Moment churn recovery successful - Isabel/Mia had CEO discussion and brought them back."
+      },
+      {
+        "source": "Mia/Pulkit KT (Apr 6) - notes.granola.ai/d/ef360be4-8161-4e50-8653-b05560d3fb87",
+        "detail": "Pulkit designated as point of contact for seller-side support for Moment."
+      },
+      {
+        "source": "CSM Handoff Notes (Feb) - notes.granola.ai/d/af675d24-fe5e-4b19-8b4c-10fee96c8f44",
+        "detail": "Moment was one of Mia's brand-led accounts. Just renewed $1,500/month flat fee. CEO tries to negotiate discounts, took a full month to confirm renewal. No recurring meetings preferred - support-only model."
+      }
+    ]
+  },
+  "account_context": {
+    "contract": "$1,500/month flat fee, 6-month contract via Stripe ($10,500 total, $1,500 discount applied)",
+    "renewal_status": "Renewed after churn recovery - Stripe payment completed Apr 1 after delay",
+    "csm_history": "Mia DyBuncio (previous CSM) -> Pulkit Srivastava (current CSM, transitioned Feb-Mar 2026)",
+    "brand_contacts": [
+      {
+        "name": "Aisha Chottani",
+        "role": "CEO / Primary Contact",
+        "email": "aisha@drinkmoment.com"
+      },
+      {
+        "name": "Olivia Renfro",
+        "role": "Marketing",
+        "email": "olivia@drinkmoment.com"
+      },
+      {
+        "name": "Emma Brewer",
+        "role": "Previous Contact (pre-Jan 2026)",
+        "email": "emma@drinkmoment.com"
+      }
+    ],
+    "brand_domain": "drinkmoment.com",
+    "category": "Non-alcoholic beverages",
+    "communication_preference": "Support-only model, no recurring meetings. Prefers email. Brand agreed to reconnect in ~1 month (May 2026).",
+    "key_funnels": [
+      "3 Reasons Why - Better than Booze (primary, ~95% of traffic)",
+      "3 Reasons Why - Nightcap Upgrade",
+      "3 Reasons Why - Easy Energy",
+      "3 Reasons Why - Founder Story"
+    ],
+    "notes": "Brand was in fundraising mode (per Aisha Apr 1). CEO personality: tries to negotiate discounts, slow on administrative tasks. Successfully recovered from churn in Mar 2026."
   }
 }

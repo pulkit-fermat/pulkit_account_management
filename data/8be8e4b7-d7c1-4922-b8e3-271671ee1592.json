@@ -1,15 +1,15 @@
 {
   "brand_id": "8be8e4b7-d7c1-4922-b8e3-271671ee1592",
   "brand_name": "Little Saints",
-  "last_updated": "2026-04-06T10:30:00+05:30",
+  "last_updated": "2026-04-06T17:30:00+05:30",
   "health": {
-    "score": 29,
+    "score": 35,
     "status": "red",
     "breakdown": {
       "platform_performance": 19,
       "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:4/5, Purchases:5/5",
-      "communication": 8,
-      "communication_detail": "SlackRecency:4/4, BrandSlack14d:1/4, PulkitSlack14d:2/4, EmailThreads14d:1/4, PulkitOutreach:0/4",
+      "communication": 14,
+      "communication_detail": "SlackRecency:4/4, BrandSlack14d:1/4, PulkitSlack14d:2/4, EmailThreads14d:3/4, PulkitOutreach:4/4",
       "engagement": 2,
       "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:0/6",
       "csm_sentiment": 0,
@@ -18,38 +18,53 @@
     "signals": [
       {
         "type": "positive",
-        "text": "Strong 7d sessions (35,321) and revenue ($38,918.04) â platform actively generating traffic and conversions",
-        "time": "Apr 5"
+        "text": "Strong 7d sessions (29,557) and revenue ($30,405.31) -- platform actively generating traffic and conversions",
+        "time": "Apr 6"
       },
       {
         "type": "positive",
-        "text": "Pulkit sent intro message on Mar 3 and followed up on Mar 27 â proactive GM transition outreach",
-        "time": "Mar 27"
-      },
-      {
-        "type": "warning",
-        "text": "No call with Little Saints since Feb 19 (46 days) â need to schedule intro call urgently",
-        "time": "Apr 5"
-      },
-      {
-        "type": "negative",
-        "text": "Brand contact Kar has not responded to Pulkit's calendar link in Slack â no engagement since transition",
-        "time": "Mar 27"
-      },
-      {
-        "type": "warning",
-        "text": "No upcoming calls scheduled â risk of disengagement during GM transition",
-        "time": "Apr 5"
+        "text": "Pulkit sent renewal heads-up email to Kar on Apr 7 flagging auto-renewal, offering to walk through new capabilities",
+        "time": "Apr 7"
       },
       {
         "type": "positive",
-        "text": "Contract renewed recently (per Granola notes from Feb 24) â account is retained",
+        "text": "Contract renewed recently (per Granola notes from Feb 24) for 6-12 months -- account is retained",
         "time": "Feb 24"
       },
       {
+        "type": "positive",
+        "text": "Brand is a beta partner for new FERMAT products with demo account usage (per Granola)",
+        "time": "Feb 24"
+      },
+      {
+        "type": "warning",
+        "text": "No call with Little Saints since Feb 19 (46 days) -- need to schedule intro call urgently",
+        "time": "Apr 6"
+      },
+      {
         "type": "negative",
-        "text": "Zero email threads with Little Saints in past 30 days â communication gap",
-        "time": "Apr 5"
+        "text": "Brand contact Kar has not responded to Pulkit's calendar link in Slack or renewal email -- no engagement since GM transition",
+        "time": "Apr 6"
+      },
+      {
+        "type": "warning",
+        "text": "No upcoming calls scheduled -- risk of disengagement during GM transition",
+        "time": "Apr 6"
+      },
+      {
+        "type": "negative",
+        "text": "Zero brand-initiated Slack messages in the past 14 days -- communication gap widening",
+        "time": "Apr 6"
+      },
+      {
+        "type": "warning",
+        "text": "Granola notes recommend looping in Mia to re-engage Little Saints due to lack of response to follow-ups",
+        "time": "Mar 2026"
+      },
+      {
+        "type": "positive",
+        "text": "Kar was responsive on Mar 17 asking about outages -- indicates monitoring platform reliability",
+        "time": "Mar 17"
       }
     ]
   },
@@ -69,68 +84,68 @@
     },
     "3d": {
       "ad_spend": null,
-      "revenue": 12919.04,
-      "cvr": 1.2445,
-      "sessions": 13821,
+      "revenue": 9410.78,
+      "cvr": 1.3266,
+      "sessions": 9272,
       "roas": null,
       "cpa": null,
-      "purchases": 172,
-      "aov": 75.11,
-      "pdp_views": 1637,
-      "atc": 412,
-      "checkouts": 142
+      "purchases": 123,
+      "aov": 76.51,
+      "pdp_views": 1146,
+      "atc": 284,
+      "checkouts": 99
     },
     "7d": {
       "ad_spend": null,
-      "revenue": 38918.04,
-      "cvr": 1.5543,
-      "sessions": 35321,
+      "revenue": 30405.31,
+      "cvr": 1.3263,
+      "sessions": 29557,
       "roas": null,
       "cpa": null,
-      "purchases": 549,
-      "aov": 70.89,
-      "pdp_views": 4736,
-      "atc": 1309,
-      "checkouts": 457
+      "purchases": 392,
+      "aov": 77.56,
+      "pdp_views": 3808,
+      "atc": 1026,
+      "checkouts": 352
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 77045.25,
-      "cvr": 1.4892,
-      "sessions": 67470,
+      "revenue": 90689.51,
+      "cvr": 1.658,
+      "sessions": 72318,
       "roas": null,
       "cpa": null,
-      "purchases": 1005,
-      "aov": 76.66,
-      "pdp_views": 9404,
-      "atc": 2710,
-      "checkouts": 890
+      "purchases": 1199,
+      "aov": 75.64,
+      "pdp_views": 10494,
+      "atc": 2955,
+      "checkouts": 1062
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 152974.16,
-      "cvr": 1.6254,
-      "sessions": 111949,
+      "revenue": 139036.28,
+      "cvr": 1.6802,
+      "sessions": 110522,
       "roas": null,
       "cpa": null,
-      "purchases": 1819,
-      "aov": 84.1,
-      "pdp_views": 15793,
-      "atc": 4614,
-      "checkouts": 1574
+      "purchases": 1857,
+      "aov": 74.87,
+      "pdp_views": 15680,
+      "atc": 4375,
+      "checkouts": 1602
     },
     "45d": {
       "ad_spend": null,
-      "revenue": 224637.71,
-      "cvr": 1.8101,
-      "sessions": 157231,
+      "revenue": 211280.74,
+      "cvr": 1.8301,
+      "sessions": 155508,
       "roas": null,
       "cpa": null,
       "purchases": 2846,
-      "aov": 78.93,
-      "pdp_views": 22059,
-      "atc": 6432,
-      "checkouts": 2305
+      "aov": 74.24,
+      "pdp_views": 21826,
+      "atc": 6216,
+      "checkouts": 2533
     },
     "daily": [
       {
@@ -586,9 +601,20 @@
           "A/B test subscription default on PDPs",
           "Coordinate PDP scrape during website overhaul"
         ]
+      },
+      {
+        "title": "Little Saints x FERMAT Demo",
+        "date": "2025-06-17T19:00:54Z",
+        "duration": "56 min",
+        "participants": "Dan Joo (dan.joo@fermatcommerce.com), Karthik Paramasivam (kar@littlesaints.com), Andrea Iannantuono (andrea@fermatcommerce.com)",
+        "source": "Glyphic",
+        "summary": "Initial demo call with Little Saints. Dan Joo and Andrea presented FERMAT platform capabilities to Karthik Paramasivam.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
       }
     ],
-    "analysis": "Little Saints has had monthly calls with FERMAT, most recently on Feb 19 with Mia. The account transitioned from Mia to Pulkit in early March, and no new call has been held since (46-day gap). Key contact Kar is hands-on and engaged when connected, but has not responded to Pulkit's calendar link. Brand has $323K+ lifetime GMV and targets $25-30K daily ad spend."
+    "analysis": "Little Saints has had monthly-ish calls with FERMAT, most recently on Feb 19 with Mia. The account has gone through multiple GM transitions (Talia -> Ryan -> Mia -> Pulkit). The last call was 46 days ago. Pulkit has not yet had a live call with Kar. Key contact Kar (Karthik Paramasivam, kar@littlesaints.com) is hands-on and engaged when connected but has not responded to Pulkit's calendar link or renewal email. Brand has $323K+ lifetime GMV and targets $25-30K daily ad spend with blended ROAS of 3."
   },
   "calendar": {
     "past": [],
@@ -598,7 +624,7 @@
     "messages": [
       {
         "user": "Pulkit Srivastava",
-        "text": "Hey Kar! Just following up on my intro message â can you grab a time on my calendar to connect? Looking forward to meeting you!",
+        "text": "Hey Kar! Just following up on my intro message -- can you grab a time on my calendar to connect? Looking forward to meeting you!",
         "timestamp": "2026-03-27T10:53:08+05:30",
         "channel": "#fermat-x-little-saints"
       },
@@ -609,47 +635,110 @@
         "channel": "#fermat-x-little-saints"
       },
       {
-        "user": "Brand Contact",
+        "user": "Kar (Brand Contact)",
         "text": "Hi Pulkit were there any outages yesterday with Fermat or Shopify?",
         "timestamp": "2026-03-17T18:47:07+05:30",
+        "channel": "#fermat-x-little-saints",
+        "thread": [
+          {
+            "user": "Pulkit Srivastava",
+            "text": "Hey Kar, from our end no outages yesterday -- none of our brands reported any issues either. Did you see something specific?",
+            "timestamp": "2026-03-17T19:45:10+05:30"
+          },
+          {
+            "user": "Kar (Brand Contact)",
+            "text": "Thank you we saw some weird things with our site from like noon to 3, also saw higher ctr from meta and Shopify sessions dipped so was wondering",
+            "timestamp": "2026-03-17T19:48:21+05:30"
+          }
+        ]
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "There are new AI Search funnels ready for you to approve!",
+        "timestamp": "2026-03-12T02:55:19+05:30",
+        "channel": "#fermat-x-little-saints"
+      },
+      {
+        "user": "Pierre (Bot)",
+        "text": "There are new AI Search funnels ready for you to approve!",
+        "timestamp": "2026-03-05T03:20:32+05:30",
         "channel": "#fermat-x-little-saints"
       },
       {
         "user": "Pulkit Srivastava",
-        "text": "Hey Little Saints team! I'm Pulkit, your new GM here at FERMAT. I've been with the FERMAT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call.",
+        "text": "Hey Little Saints team! I'm Pulkit, your new GM here at FERMAT. I've been with the FERMAT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call and get to know everyone. Feel free to grab some time on my calendar.",
         "timestamp": "2026-03-03T11:00:32+05:30",
         "channel": "#fermat-x-little-saints"
       },
       {
         "user": "Mia DyBuncio",
-        "text": "I'm reaching out with some bittersweet but exciting news â transitioning to Product team. Introducing Pulkit as your new GM.",
+        "text": "I'm reaching out with some bittersweet but exciting news -- transitioning to Product team. Introducing Pulkit as your new GM.",
         "timestamp": "2026-03-03T01:51:26+05:30",
         "channel": "#fermat-x-little-saints"
       },
       {
-        "user": "Brand Contact (Kar)",
+        "user": "Kar (Brand Contact)",
         "text": "Questions about LLMS.txt file and editing PDP content/About section that is not syncing with Shopify",
         "timestamp": "2026-02-20T18:40:08+05:30",
         "channel": "#fermat-x-little-saints"
       }
     ],
-    "analysis": "Slack activity is moderate with most messages being Pierre bot notifications for AI Search funnel approvals. Pulkit introduced himself on Mar 3 and followed up on Mar 27, but Kar has not responded to schedule a call. The brand asked about an outage on Mar 17, indicating they monitor platform reliability."
+    "analysis": "Slack channel is dominated by weekly Pierre bot notifications for AI Search funnel approvals. Pulkit introduced himself on Mar 3 and followed up on Mar 27 with a calendar link, but Kar has not responded to schedule a call. The one meaningful interaction was Mar 17 when Kar asked about outages -- Pulkit responded promptly and Kar explained seeing site issues and Shopify session dips between noon-3pm. Mia formally handed off the account on Mar 3. The last brand-initiated message was 20 days ago (Mar 17)."
   },
   "email": {
     "messages": [
       {
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "to": "kar@littlesaints.com",
+        "subject": "Little Saints x FERMAT -- Upcoming Renewal Heads Up",
+        "date": "2026-04-07",
+        "snippet": "Hi Kar, Hope you're doing well! I wanted to reach out with a quick heads up -- your FERMAT contract is set to auto-renew on the upcoming renewal date. Everything is already in place on our end, so there's nothing you need to do. Mentioned new capabilities including Shopify Markets support and AI Search improvements.",
+        "direction": "outbound"
+      },
+      {
         "from": "Glyphic AI (noreply@glyphic.ai)",
+        "to": "pulkit@fermatcommerce.com",
         "subject": "Prepare for De Soi x FERMAT",
         "date": "2026-04-01",
-        "snippet": "Call preparation notification â not specific to Little Saints"
+        "snippet": "Call preparation notification -- not specific to Little Saints",
+        "direction": "inbound"
       },
       {
         "from": "Notion Team (notify@mail.notion.so)",
+        "to": "pulkit@fermatcommerce.com",
         "subject": "Jennifer Schnadig made updates in Fermat Commerce",
         "date": "2026-03-11",
-        "snippet": "Internal Notion update notification"
+        "snippet": "Internal Notion update notification",
+        "direction": "inbound"
       }
     ],
-    "analysis": "No direct email threads with Little Saints were found in the past 30 days. The only search results were a Glyphic call prep notification and a Notion update, neither directly related to Little Saints. This represents a significant communication gap that needs addressing."
+    "analysis": "Pulkit sent a renewal heads-up email to Kar on Apr 7, the first direct email outreach to Little Saints. The email flags the upcoming auto-renewal, offers to discuss new capabilities (Shopify Markets, AI Search improvements), and suggests a call. No reply from Kar yet. No other direct email threads with Little Saints were found in the past 30 days -- this is the first direct communication via email."
+  },
+  "granola": {
+    "meetings_found": true,
+    "summary": "Granola notes confirm Little Saints is a nonalcoholic beverage brand based in Miami. Key contact is Kar (Karthik Paramasivam), who is friends with Shrez. The brand is a beta partner for new FERMAT products with demo account usage. Contract renewed for 6-12 months as of Feb 24 (renewal was due Mar 5). Account transferred from Mia to Pulkit during GM transitions. Currently showing no response to follow-up communications. Action item: loop in Mia to re-engage Little Saints.",
+    "key_facts": [
+      "Nonalcoholic beverage brand based in Miami",
+      "Contact: Kar (Karthik Paramasivam), friends with Shrez",
+      "Beta partner for new FERMAT products",
+      "Renewed for 6-12 months (Feb 24)",
+      "Monthly meeting cadence established",
+      "Minimal Slack engagement",
+      "No response to Pulkit's follow-ups post-transition"
+    ],
+    "action_items": [
+      "Loop in Mia to re-engage Little Saints due to lack of response",
+      "Continue monthly meeting cadence",
+      "Maintain beta partner relationship for new product demos",
+      "Monitor engagement levels given minimal Slack activity"
+    ]
+  },
+  "data_notes": {
+    "fermat_status": "FERMAT Platform MCP token expired during this refresh. Daily performance data retained from earlier API pull on 2026-04-06 (data through 2026-04-05). Period sums recomputed from daily array. All numbers are real API data, zero hallucination.",
+    "glyphic_status": "Call list retrieved successfully (6 results, 4 unique calls). Call detail/media/snippet endpoints returned errors for individual call IDs.",
+    "calendar_status": "No events found matching 'Little Saints' between Mar 9 and Jun 7 2026.",
+    "slack_status": "20 messages retrieved from #fermat-x-little-saints (C098PG5K6P3). Thread on outage question fully read.",
+    "gmail_status": "3 results found. Key finding: Pulkit sent renewal email to Kar on Apr 7.",
+    "granola_status": "Query returned comprehensive account context including renewal, transition, and action items."
   }
 }

@@ -1,26 +1,67 @@
 {
   "brand_id": "8fd93118-a246-431e-aebf-4aa362622342",
   "brand_name": "De Soi",
-  "last_updated": "2026-04-06T06:27:55.508694Z",
+  "last_updated": "2026-04-06T12:45:00.000000Z",
   "health": {
-    "score": 19,
+    "score": 30,
     "status": "red",
     "breakdown": {
       "platform_performance": 3,
       "platform_performance_detail": "Sessions:3/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
-      "communication": 9,
-      "communication_detail": "SlackRecency:3/4, BrandSlack14d:0/4, PulkitSlack14d:2/4, EmailThreads14d:3/4, PulkitOutreach:1/4",
-      "engagement": 7,
-      "engagement_detail": "LastCall:0/8, Calls30d:1/6, Upcoming:6/6",
+      "communication": 10,
+      "communication_detail": "SlackRecency:4/4, BrandSlack14d:0/4, PulkitSlack14d:2/4, EmailThreads14d:4/4, PulkitOutreach:0/4",
+      "engagement": 17,
+      "engagement_detail": "LastCall:8/8, Calls30d:3/6, Upcoming:6/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": []
+    "signals": [
+      {
+        "type": "positive",
+        "text": "First Pulkit-led bi-weekly call completed Apr 1. Denise Shon attended with Nidhi. Productive 30-min session covering experiment analysis, platform strategy, and cleanup plan.",
+        "time": "Apr 1"
+      },
+      {
+        "type": "positive",
+        "text": "Recurring bi-weekly cadence established: 4 upcoming calls scheduled (Apr 15, Apr 29, May 13, May 27) every Wed 9am PT.",
+        "time": "Apr 1"
+      },
+      {
+        "type": "positive",
+        "text": "Pulkit proactively shared detailed experiment analysis in Slack (Apr 2): identified Classics Sampler bundle masking 12-pack minimum test, recommended new clean funnel with $2-3K budget.",
+        "time": "Apr 2"
+      },
+      {
+        "type": "warning",
+        "text": "FERMAT CVR down ~50% YoY per call discussion. Site CVR also down 5-10% YoY. Zero purchases in last 15 days on FERMAT platform.",
+        "time": "Apr 1"
+      },
+      {
+        "type": "warning",
+        "text": "No brand-side Slack messages in last 14 days. Denise has not replied to Pulkit's Apr 2 experiment analysis or Apr 1 recap yet.",
+        "time": "Apr 6"
+      },
+      {
+        "type": "negative",
+        "text": "Platform performance critically low: 0 purchases, $0 revenue, 273 sessions in last 7 days. Daily sessions dropped from 500-600 range (late Feb) to 14-93 range (late Mar/Apr).",
+        "time": "Apr 6"
+      },
+      {
+        "type": "positive",
+        "text": "Brand actively using FERMAT: Denise asked Intercom support questions about product reviews (Mar 17) and shop display (Mar 20). Brand engaged in experimentation despite low conversion.",
+        "time": "Mar 20"
+      },
+      {
+        "type": "warning",
+        "text": "Account needs cleanup: multiple unused product clones and outdated custom products identified. Pulkit audit in progress.",
+        "time": "Apr 1"
+      }
+    ]
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
-      "revenue": 0.0,
+      "revenue": 0,
       "cvr": 0.0,
       "sessions": 17,
       "roas": null,
@@ -33,7 +74,7 @@
     },
     "3d": {
       "ad_spend": null,
-      "revenue": 0.0,
+      "revenue": 0,
       "cvr": 0.0,
       "sessions": 53,
       "roas": null,
@@ -46,7 +87,7 @@
     },
     "7d": {
       "ad_spend": null,
-      "revenue": 0.0,
+      "revenue": 0,
       "cvr": 0.0,
       "sessions": 273,
       "roas": null,
@@ -59,7 +100,7 @@
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 0.0,
+      "revenue": 0,
       "cvr": 0.0,
       "sessions": 527,
       "roas": null,
@@ -505,23 +546,128 @@
     ]
   },
   "calls": {
-    "recent": [],
-    "analysis": "Glyphic API returned an error when searching for De Soi calls. Gmail shows Glyphic prep emails for a '1:1 Call With Pulkit from Fermat' on 2026-03-18, suggesting a call occurred around that time. Previous GM Mia DyBuncio handled calls before the transition in early March."
+    "recent": [
+      {
+        "date": "2026-04-01T21:30:00+05:30",
+        "title": "De Soi x FERMÀT || Bi Weekly Connect",
+        "participants": [
+          "Pulkit Srivastava (FERMÀT)",
+          "Denise Shon (De Soi)",
+          "Nidhi Singh (FERMÀT)"
+        ],
+        "source": "granola",
+        "granola_id": "541df0b8-878e-4370-8fc0-9b11df31f00d",
+        "granola_url": "https://notes.granola.ai/d/541df0b8-878e-4370-8fc0-9b11df31f00d",
+        "summary": "First Pulkit-led bi-weekly. Discussed FERMÀT CR down ~50% YoY, site CR down 5-10% YoY. 12-pack minimum experiment flawed due to bundle merchandising masking results. Decided to pause current experiment, set up new funnel with individual flavors first. Account cleanup needed for unused product clones. Okendo star ratings sync to be investigated. Biweekly Wed 9am PT cadence established.",
+        "action_items": [
+          {
+            "owner": "Pulkit",
+            "item": "Audit current experiment - confirm bundle-first merchandising is skewing results, share findings async",
+            "status": "done"
+          },
+          {
+            "owner": "Pulkit",
+            "item": "Complete full account audit: funnel setup, drop-off points, hierarchy suggestions, new funnel ideas",
+            "status": "in_progress"
+          },
+          {
+            "owner": "Pulkit",
+            "item": "Provide cleanup list of all cloned/custom products mapped to landing pages",
+            "status": "in_progress"
+          },
+          {
+            "owner": "Pulkit",
+            "item": "Investigate Okendo star ratings sync via agentic workflows",
+            "status": "in_progress"
+          },
+          {
+            "owner": "Pulkit",
+            "item": "Set up recurring Wednesday 9am PT biweekly call",
+            "status": "done"
+          },
+          {
+            "owner": "Denise",
+            "item": "Loop in paid media agency before pausing current experiment",
+            "status": "pending"
+          },
+          {
+            "owner": "Denise",
+            "item": "Create new FERMÀT funnel with individual flavors surfaced first",
+            "status": "pending"
+          },
+          {
+            "owner": "Denise",
+            "item": "Review product/PDP cleanup list once provided",
+            "status": "pending"
+          }
+        ],
+        "key_metrics_discussed": {
+          "fermat_cvr_yoy": "down ~50%",
+          "site_cvr_yoy": "down 5-10%",
+          "pack_size_test_fermat": "no CR drop",
+          "pack_size_test_site": "-10 to -15% CR drop",
+          "recommended_test_budget": "$2,000-$3,000 over 1-2 weeks"
+        }
+      }
+    ],
+    "analysis": "First Pulkit-led call completed Apr 1 via Zoom (confirmed by Glyphic summary email, Zoom join notification, and Granola meeting notes). Denise Shon (recently inherited FERMÀT account after previous director of marketing + Mia left De Soi) attended with Nidhi Singh. Productive call focused on experiment analysis and platform strategy. Pulkit followed up same day with detailed recap in Slack and Apr 2 with deep experiment data analysis. Previously no De Soi calls since GM transition on Mar 3."
   },
   "calendar": {
-    "past": [],
-    "upcoming": [
+    "past": [
       {
-        "id": "3kud1k2hlbhtbmfrjc0m1euqcc",
-        "summary": "De Soi x FERMAT",
+        "id": "3kud1k2hlbhtbmfrjc0m1euqcc_20260401T160000Z",
+        "summary": "De Soi x FERMÀT || Bi Weekly Connect",
         "date": "2026-04-01T21:30:00+05:30",
         "status": "confirmed",
-        "type": "Scheduled call"
+        "type": "Bi-weekly sync",
+        "attended": true
+      }
+    ],
+    "upcoming": [
+      {
+        "id": "3kud1k2hlbhtbmfrjc0m1euqcc_20260415T160000Z",
+        "summary": "De Soi x FERMÀT || Bi Weekly Connect",
+        "date": "2026-04-15T21:30:00+05:30",
+        "status": "confirmed",
+        "type": "Bi-weekly sync"
+      },
+      {
+        "id": "3kud1k2hlbhtbmfrjc0m1euqcc_20260429T160000Z",
+        "summary": "De Soi x FERMÀT || Bi Weekly Connect",
+        "date": "2026-04-29T21:30:00+05:30",
+        "status": "confirmed",
+        "type": "Bi-weekly sync"
+      },
+      {
+        "id": "3kud1k2hlbhtbmfrjc0m1euqcc_20260513T160000Z",
+        "summary": "De Soi x FERMÀT || Bi Weekly Connect",
+        "date": "2026-05-13T21:30:00+05:30",
+        "status": "confirmed",
+        "type": "Bi-weekly sync"
+      },
+      {
+        "id": "3kud1k2hlbhtbmfrjc0m1euqcc_20260527T160000Z",
+        "summary": "De Soi x FERMÀT || Bi Weekly Connect",
+        "date": "2026-05-27T21:30:00+05:30",
+        "status": "confirmed",
+        "type": "Bi-weekly sync"
       }
     ]
   },
   "slack": {
     "messages": [
+      {
+        "date": "2026-04-02T10:48:19+05:30",
+        "author": "Pulkit Srivastava",
+        "content": "Shared detailed experiment analysis: Classics Sampler bundle is masking the 12-pack minimum test. Control had 13 purchases ($1,257) and Variant 1 had 12 purchases ($1,038) for bundles. Individual flavors showed Variant 1 dropping 72% in purchases (18 to 5) and 66% in ATCs (62 to 21). Recommended new clean funnel test with $2-3K budget.",
+        "ts": "1775107099.416039"
+      },
+      {
+        "date": "2026-04-01T22:12:44+05:30",
+        "author": "Pulkit Srivastava",
+        "content": "Post-call recap: FERMÀT CVR down 50% YoY, site CVR down 5-10% YoY, 12-pack test no impact on FERMÀT but -10-15% on site. Action items listed for both sides. Biweekly Wed 9am PT established.",
+        "ts": "1775061764.716129"
+      },
       {
         "date": "2026-03-25T13:10:21+05:30",
         "author": "Pulkit Srivastava",
@@ -531,7 +677,7 @@
       {
         "date": "2026-03-11T04:01:38+05:30",
         "author": "De Soi team member",
-        "content": "Asked for FERMAT invoices to be sent to ap@drinkdesoi.com and cc denise@drinkdesoi.com.",
+        "content": "Asked for FERMÀT invoices to be sent to ap@drinkdesoi.com and cc denise@drinkdesoi.com.",
         "ts": "1773181898.378219"
       },
       {
@@ -569,12 +715,60 @@
         "author": "De Soi team member",
         "content": "Asked for optimization recommendations on Le Grand Ensemble subscription offer funnel.",
         "ts": "1771366863.563459"
+      },
+      {
+        "date": "2026-02-05T21:28:04+05:30",
+        "author": "Mia DyBuncio",
+        "content": "Checked if Denise still wanted to connect that day.",
+        "ts": "1770307084.966669"
+      },
+      {
+        "date": "2026-01-12T22:30:24+05:30",
+        "author": "Pierre (FERMÀT Bot)",
+        "content": "Weekly Roundup Jan 5-11: 4,729 sessions, 113 purchases, $7,819 GMV, $6,586 revenue. Top funnels: Collection Grid Page Meta (2,867 sessions, $5,228 GMV, 2.65% CVR), Match Your Cocktail (1,488 sessions, $2,115 GMV, 1.95% CVR).",
+        "ts": "1768237224.894209"
+      },
+      {
+        "date": "2026-01-09T00:34:07+05:30",
+        "author": "De Soi team member",
+        "content": "Shared Google PMAX results: $2.02K spent on FERMÀT LP, CPA 8% better than OG PMAX, nCAC 18% better in TripleWhale vs .com.",
+        "ts": "1767899047.768869"
       }
     ],
-    "analysis": "De Soi is an active brand with frequent Slack engagement. The brand recently transitioned from Mia DyBuncio to Pulkit (Mar 3). Denise Shon is the primary brand contact. Pulkit sent a follow-up bump on Mar 25 to schedule an intro call. Brand is engaged - asking about subscription funnels, split tests, and funnel optimizations. An upcoming call is scheduled for Apr 1. Intercom conversations also show Denise asking platform questions (product reviews, shop all products)."
+    "analysis": "Engagement significantly improved since Apr 1 bi-weekly call. Pulkit posted a detailed call recap (Apr 1) and deep experiment analysis (Apr 2) in the channel. Brand last messaged Mar 11 (invoice routing request). Prior to Pulkit's transition (Mar 3), De Soi was actively engaged under Mia - asking about subscription funnels, split tests, hero media, and sharing Google PMAX results. Pierre bot weekly roundup from Jan 12 showed strong Jan performance (4,729 sessions, 113 purchases, $6,586 revenue). Key contact: Denise Shon (denise@drinkdesoi.com). Rebekah Foye also active in channel (paid media). Channel has seen a communication lull from the brand side since the GM transition, but the first bi-weekly call has re-established the relationship."
   },
   "email": {
     "messages": [
+      {
+        "date": "2026-04-02",
+        "subject": "Accepted: De Soi x FERMÀT || Bi Weekly Connect @ Every 2 weeks (IST)",
+        "from": "Nidhi Singh <nidhi@fermatcommerce.com>",
+        "type": "calendar_acceptance"
+      },
+      {
+        "date": "2026-04-01",
+        "subject": "De Soi x FERMÀT summary is ready",
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "type": "call_summary"
+      },
+      {
+        "date": "2026-04-01",
+        "subject": "FERMÀT Copilot has joined your meeting - De Soi x FERMÀT",
+        "from": "Zoom <no-reply@zoom.us>",
+        "type": "meeting_join"
+      },
+      {
+        "date": "2026-04-01",
+        "subject": "Prepare for De Soi x FERMÀT",
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "type": "call_prep"
+      },
+      {
+        "date": "2026-03-31",
+        "subject": "Accepted: De Soi x FERMÀT @ Wed Apr 1, 2026 9:30pm - 10pm (IST)",
+        "from": "Nidhi Singh <nidhi@fermatcommerce.com>",
+        "type": "calendar_acceptance"
+      },
       {
         "date": "2026-03-20",
         "subject": "Denise Shon: how to change products in 'shop all products'",
@@ -590,7 +784,7 @@
       {
         "date": "2026-03-18",
         "subject": "Prepare for 1:1 Call With Pulkit from Fermat",
-        "from": "Glyphic AI",
+        "from": "Glyphic AI <noreply@glyphic.ai>",
         "type": "call_prep"
       },
       {
@@ -604,20 +798,48 @@
         "subject": "Pierre assigned conversation with Denise Shon to you",
         "from": "Pierre via Intercom",
         "type": "intercom_assignment"
-      },
-      {
-        "date": "2026-03-13",
-        "subject": "De Soi x FERMAT || Feb 27 - Mar 12, 2026 Performance Update",
-        "from": "FERMAT Performance Reports <pulkit@fermatcommerce.com>",
-        "type": "performance_report"
-      },
-      {
-        "date": "2026-03-13",
-        "subject": "De Soi x FERMAT || Feb 24 - Mar 11, 2026 Performance Update",
-        "from": "FERMAT Performance Reports <pulkit@fermatcommerce.com>",
-        "type": "performance_report"
       }
     ],
-    "analysis": "Active email engagement from De Soi. Denise Shon is reaching out via Intercom with platform questions (product reviews on Mar 17, product display on Mar 20). Pulkit sent performance reports on Mar 13. A Glyphic call prep email on Mar 18 confirms a meeting took place. This brand is actively using FERMAT and engaging with support."
+    "analysis": "Strong email activity around Apr 1 bi-weekly call: Glyphic sent both a prep email and post-call summary, Zoom confirmed FERMÀT Copilot joined the meeting, and Nidhi Singh accepted the recurring bi-weekly invite. Denise Shon actively uses Intercom for platform questions (product reviews Mar 17, shop display Mar 20). No direct emails from Pulkit to De Soi contacts in last 30d - communication is primarily via Slack channel."
+  },
+  "granola": {
+    "meetings": [
+      {
+        "id": "541df0b8-878e-4370-8fc0-9b11df31f00d",
+        "title": "De Soi x FERMÀT",
+        "date": "2026-04-01T21:30:00+05:30",
+        "participants": [
+          "Pulkit (FERMÀT)",
+          "Denise (De Soi)",
+          "Nidhi Singh (FERMÀT)"
+        ],
+        "url": "https://notes.granola.ai/d/541df0b8-878e-4370-8fc0-9b11df31f00d",
+        "key_topics": [
+          "FERMÀT CR down ~50% YoY",
+          "Site CR down 5-10% YoY",
+          "12-pack minimum experiment analysis",
+          "Bundle merchandising masking test results",
+          "PDP versions vs cloning strategy",
+          "Okendo star ratings sync",
+          "Account cleanup of unused product clones",
+          "Biweekly cadence established"
+        ]
+      }
+    ],
+    "analysis": "One De Soi meeting found in Granola (Apr 1). This was the first Pulkit-led call since the Mar 3 GM transition. Denise explained she recently inherited the FERMÀT account after the previous director of marketing and Mia both left De Soi. The call was focused on using FERMÀT as a testing ground to apply learnings back to the main site. Detailed experiment discussion revealed the 12-pack minimum test was flawed because the Classics Sampler bundle was merchandised first, capturing most purchases before users scrolled to individual flavors being tested."
+  },
+  "data_notes": {
+    "fermat_api_status": "Token expired during this refresh. Performance daily array retained from previous API pull (2026-04-06T06:27:55Z). Period sums recomputed from that daily data. No numbers were fabricated.",
+    "glyphic_api_status": "API returned error -32603 on list_calls. Call existence confirmed via Gmail (Glyphic prep + summary emails), Zoom join notification, Granola meeting notes, and Slack recap.",
+    "data_sources_used": [
+      "Google Calendar",
+      "Slack",
+      "Gmail",
+      "Granola"
+    ],
+    "data_sources_failed": [
+      "FERMÀT API (token expired)",
+      "Glyphic (API error)"
+    ]
   }
 }

@@ -1,15 +1,16 @@
 {
   "brand_id": "35845b70-d5ef-4dbf-83cf-e9f327662c17",
   "brand_name": "Medik8",
-  "last_updated": "2026-04-06T05:47:50.255913Z",
+  "last_updated": "2026-04-06T18:30:00.000000Z",
+  "data_notes": "FERMÀT metrics API token expired — performance data carried forward from prior refresh (2026-04-06). All other MCP sources refreshed successfully.",
   "health": {
-    "score": 35,
+    "score": 36,
     "status": "red",
     "breakdown": {
       "platform_performance": 0,
       "platform_performance_detail": "Sessions:0/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
-      "communication": 15,
-      "communication_detail": "SlackRecency:4/4, BrandSlack14d:4/4, PulkitSlack14d:4/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
+      "communication": 16,
+      "communication_detail": "SlackRecency:4/4, BrandSlack14d:4/4, PulkitSlack14d:4/4, EmailThreads14d:4/4, PulkitOutreach:0/4",
       "engagement": 20,
       "engagement_detail": "LastCall:8/8, Calls30d:6/6, Upcoming:6/6",
       "csm_sentiment": 0,
@@ -18,33 +19,38 @@
     "signals": [
       {
         "type": "negative",
-        "text": "Zero revenue in 45-day period — funnels not yet generating sales",
-        "time": "Apr 5"
+        "text": "Zero revenue in 45-day period — funnels not yet generating sales; brand still in pre-launch design phase",
+        "time": "Apr 7"
       },
       {
         "type": "positive",
-        "text": "4 calls completed in 30 days — strong engagement cadence with weekly syncs",
-        "time": "Apr 5"
+        "text": "5 calls completed in 30 days (Mar 9 KOC, Mar 16, Mar 25, Mar 31, Apr 7 weekly syncs) — strong weekly engagement cadence",
+        "time": "Apr 7"
       },
       {
         "type": "positive",
-        "text": "Very active Slack channel — Jiyoon Cha providing design feedback on Apr 3",
-        "time": "Apr 3"
+        "text": "Extremely active Slack channel — 20+ messages in last 7 days with Jiyoon Cha and Lindsey providing detailed design feedback, screenshots, and CTA direction",
+        "time": "Apr 8"
       },
       {
         "type": "positive",
-        "text": "Next weekly sync scheduled Apr 7 — consistent meeting cadence",
+        "text": "Weekly sync on Apr 14 already scheduled — consistent meeting cadence maintained",
+        "time": "Apr 14"
+      },
+      {
+        "type": "warning",
+        "text": "Brand requested go-live last Friday (Apr 3) but design iterations pushed launch — watch for frustration signals",
+        "time": "Apr 6"
+      },
+      {
+        "type": "positive",
+        "text": "Design nearly finalized — FERMÀT PDPs adopted, 15% discount badge integrated, A/B test experiment set up (control=homepage vs test=FERMÀT funnel)",
         "time": "Apr 7"
       },
       {
         "type": "warning",
-        "text": "Only 24 sessions in 7d — very low traffic, brand still in pre-launch phase",
-        "time": "Apr 5"
-      },
-      {
-        "type": "positive",
-        "text": "Brand actively onboarding — DNS setup, Meta integration, funnel design in progress",
-        "time": "Apr 3"
+        "text": "Danielle Finn declined Apr 7 weekly sync — monitor stakeholder engagement; Jiyoon Cha (designer) has been primary contact recently",
+        "time": "Apr 7"
       }
     ]
   },
@@ -169,30 +175,111 @@
   "calls": {
     "recent": [
       {
+        "title": "Medik8 x FERMÀT|| Weekly Sync-up",
+        "date": "2026-04-07T15:00:00Z",
+        "duration": "30 min",
+        "participants": "Lindsey Shin (Medik8), Jiyoon Cha (Medik8), Pulkit Srivastava (FERMÀT)",
+        "source": "Granola",
+        "summary": "Final design changes nearly complete (5-10 min of work remaining). Resolved PDP strategy — using FERMÀT PDPs for funnel experience, native PDPs for other contexts. 15% discount now consistent across ads to landing page to PDP to auto-applied at checkout. Best seller funnel ready to launch. A/B test set up: control (homepage) vs test (FERMÀT funnel). Discussed upcoming template requests for video-based influencer landing pages for May product launch.",
+        "recording_url": "https://app.glyphic.ai/calls/69aee2c89cda96902c3ffcc0",
+        "granola_url": "https://notes.granola.ai/d/c1f7c689-dae3-4fc8-940b-afe5fe7285c3",
+        "snippets": [],
+        "action_items": [
+          "Pulkit: Complete final design changes (5-10 minutes remaining)",
+          "Pulkit: Create 2 landing page templates (best-seller + video/UGC)",
+          "Pulkit: Update team via Slack when changes complete",
+          "Lindsey: Confirm product-centric landing page requirements",
+          "Lindsey: Sign off on changes once completed",
+          "Medik8: Provide UGC videos and content for May product launch"
+        ]
+      },
+      {
+        "title": "Medik8 x FERMÀT",
+        "date": "2026-03-31T15:30:00Z",
+        "duration": "30 min",
+        "participants": "Jiyoon Cha (Medik8), Pulkit Srivastava (FERMÀT), Nidhi Singh (FERMÀT)",
+        "source": "Granola",
+        "summary": "Design feedback review with Jiyoon. Key requirements: 12.5% letter spacing for serif all-caps, 2.5% for sentence case. CTA optimization — simplified to 'Learn More' and 'Shop Now'. HTML/CSS customization capabilities demonstrated. 'Powered by FERMÀT' logo mandatory across all plans. Target launch Thursday/Friday.",
+        "recording_url": null,
+        "granola_url": "https://notes.granola.ai/d/27d2bf25-46bf-4a0e-bd75-b49500dfe172",
+        "snippets": [],
+        "action_items": [
+          "Jiyoon: Experiment with styling platform",
+          "Pulkit: Implement spacing and typography feedback",
+          "Pulkit: Update CTA text across funnel",
+          "Pulkit: Complete design changes by tomorrow afternoon"
+        ]
+      },
+      {
+        "title": "Medik8 x FERMÀT|| Weekly Sync-up",
+        "date": "2026-03-25T16:00:00Z",
+        "duration": "30 min",
+        "participants": "Lindsey Shin (Medik8), Danielle Finn (Medik8), Jiyoon Cha (Medik8), Pulkit Srivastava (FERMÀT)",
+        "source": "Granola",
+        "summary": "Platform setup progress review. Brand assets uploaded, domain config ready for shop.us.medik8.com. Google and TikTok pixels complete, Facebook pending approval. Welcome series landing page requirements discussed — Social15 discount code, brand USPs, best seller showcase. Fospha analytics integration requested (2-3 month roadmap). Design feedback: CTA buttons need brand alignment.",
+        "recording_url": null,
+        "granola_url": "https://notes.granola.ai/d/425941e1-cd3d-4b6b-b016-d3c4ab458a47",
+        "snippets": [],
+        "action_items": [
+          "Lindsey: Provide Meta Business ID",
+          "Lindsey: Implement DNS record for domain setup",
+          "Pulkit: Create 1-2 welcome series landing pages by tomorrow EOD",
+          "Team: Review design feedback and provide brand guidelines"
+        ]
+      },
+      {
+        "title": "Medik8 x FERMÀT|| Weekly Sync-up",
+        "date": "2026-03-16T17:00:00Z",
+        "duration": "30 min",
+        "participants": "Lindsey Shin (Medik8), Pulkit Srivastava (FERMÀT)",
+        "source": "Granola",
+        "summary": "Setup nearly complete. Three critical items remaining: custom domain config, Facebook Ads Manager integration, GA4 connection. May 14 product launch identified as biggest of year. Sampling journey paused — focus shifted to product launch campaign. Canada expansion requires separate FERMÀT account for new Shopify instance launching late April.",
+        "recording_url": null,
+        "granola_url": "https://notes.granola.ai/d/92549d6f-7bd7-43cb-aa82-9cfccf1046c0",
+        "snippets": [],
+        "action_items": [
+          "Lindsey: Share brand guidelines and product launch details",
+          "Lindsey: Set up domain configuration with digital team",
+          "Pulkit: Configure brand guidelines into existing pages",
+          "Pulkit: Check Canada account pricing with Mukul",
+          "Pulkit: Add Jiyoon and Danielle to next meeting"
+        ]
+      },
+      {
         "title": "Medik8 x FERMÀT|| Kick-Off Call",
         "date": "2026-03-09T14:28:04Z",
         "duration": "42 min",
         "participants": "Lindsey Shin (Medik8), Pulkit Srivastava (FERMÀT)",
-        "source": "Glyphic",
-        "summary": "Initial onboarding kick-off. Discussed Medik8's goals for landing pages and A/B testing. Covered technical setup requirements (domain, integrations). Two demo funnels created. Weekly meetings scheduled.",
-        "recording_url": null,
+        "source": "Glyphic + Granola",
+        "summary": "Kick-off call with Lindsey Shin (Senior Ecommerce Manager, North America). Medik8 is a global skincare brand based in London, focusing on hyper-growth in America. Goals: test new landing page strategies without changing main website, rapid A/B testing, improve conversion rates, reduce sampling costs. Two demo funnels created (Crystal Retinal + C-Tetra bundle). Weekly meetings scheduled for onboarding phase.",
+        "recording_url": "https://app.glyphic.ai/calls/69aee2c89cda96902c3ffcc0",
+        "granola_url": "https://notes.granola.ai/d/dead1d8e-2955-4361-84d1-6745c52afbef",
         "snippets": [],
         "action_items": [
-          "Add DNS CNAME record for custom domain",
-          "Share Meta Business ID",
-          "Review example funnels and provide design feedback"
+          "Lindsey: Complete technical integrations (Shopify, Meta, GA4)",
+          "Lindsey: Have designer upload brand fonts and colors",
+          "Lindsey: Share marketing calendar for year",
+          "Lindsey: Provide feedback on sample funnels",
+          "Pulkit: Send help documentation for all integrations",
+          "Pulkit: Clarify Bloomreach data drill-down capabilities"
         ]
       },
       {
         "title": "Medik8 x FERMÀT | Platform Demo",
         "date": "2026-02-19T15:58:04Z",
         "duration": "43 min",
-        "participants": "Lindsey Shin (Medik8), Mukul Varshney (FERMÀT), Monika (Medik8)",
+        "participants": "Lindsey Shin (Medik8), Mukul Varshney (FERMÀT), Monika Burketamics (Medik8)",
         "source": "Glyphic",
-        "summary": "Platform demo for Medik8 team. Showcased FERMÀT capabilities for landing page creation and optimization.",
-        "recording_url": null,
+        "summary": "Platform demo for Medik8 team including Head of Digital Monica. Showcased FERMÀT funnel builder, sampling/GWP capabilities, and brand customization features. Addressed questions about TikTok Shop, discounts, and gift-with-purchase workflow.",
+        "recording_url": "https://maverick-calls-prod.s3-accelerate.amazonaws.com/video/66b354bc1ca036530b3cc4a5/e60015cb-6e3f-4cf9-a522-b82077ba933f.mp4",
+        "glyphic_url": "https://app.glyphic.ai/calls/69973d20d32f52df8732be91",
         "snippets": [],
-        "action_items": []
+        "action_items": [
+          "Mukul: Send follow-up email with pricing and preview links",
+          "Mukul: Create ROI calculator/business case for Medik8",
+          "Mukul: Schedule follow-up demo with Monica",
+          "Mukul: Prepare FERMÀT vs Replo vs Shogun comparison"
+        ]
       },
       {
         "title": "Catch-up: Medik8 + FERMÀT | Follow-up Call",
@@ -200,13 +287,21 @@
         "duration": "31 min",
         "participants": "Mukul Varshney (FERMÀT), Lindsey Shin (Medik8), Danielle Finn (Medik8)",
         "source": "Glyphic",
-        "summary": "Follow-up call to discuss next steps after initial demo.",
-        "recording_url": null,
+        "summary": "Follow-up call re-engaging Medik8 after prior rep Jack left FERMÀT. Lindsey has internal deadline of May to select a landing page provider. Discussed sampling strategy pain points — current campaigns costly with bad leads. Competitors mentioned: Replo and Shogun. Needs ROI business case for internal budget approval. Mukul demoed funnel builder and GWP setup.",
+        "recording_url": "https://maverick-calls-prod.s3-accelerate.amazonaws.com/video/66b354bc1ca036530b3cc4a5/1265e10a-f5e4-40b4-9397-fd199f9b6d94.mp4",
+        "glyphic_url": "https://app.glyphic.ai/calls/698a27bf68eee6c1295d5fcb",
         "snippets": [],
-        "action_items": []
+        "action_items": [
+          "Mukul: Send pricing information",
+          "Mukul: Include preview links for demo funnels",
+          "Mukul: Create ROI calculator/business case",
+          "Mukul: Schedule demo with Head of Digital Monica",
+          "Mukul: Prepare FERMÀT vs Replo vs Shogun comparison",
+          "Mukul: Check TikTok Shop experience"
+        ]
       }
     ],
-    "analysis": "Medik8 is actively onboarding with 4 calls in the last 30 days. The engagement cadence is strong with weekly sync-ups established. The KOC on Mar 9 was followed by weekly syncs on Mar 16, Mar 25, and Mar 31 with Granola meeting notes available."
+    "analysis": "Medik8 has had 7 total calls since Feb 9, with 5 in the last 30 days (KOC Mar 9, weekly syncs Mar 16, Mar 25, Mar 31, Apr 7). Engagement is very strong — weekly cadence fully established. The account transitioned from pre-sales (Mukul) to onboarding (Pulkit) at the KOC on Mar 9. Granola meeting notes available for all 5 post-KOC calls. Key theme across calls: design alignment with Medik8's premium brand standards has been the main blocker to go-live."
   },
   "calendar": {
     "past": [
@@ -234,9 +329,7 @@
         "attendees": [
           "pulkit@fermatcommerce.com"
         ]
-      }
-    ],
-    "upcoming": [
+      },
       {
         "title": "Medik8 x FERMÀT|| Weekly Sync-up",
         "start": "2026-04-07T20:30:00+05:30",
@@ -244,7 +337,9 @@
         "attendees": [
           "pulkit@fermatcommerce.com"
         ]
-      },
+      }
+    ],
+    "upcoming": [
       {
         "title": "Medik8 x FERMÀT|| Weekly Sync-up",
         "start": "2026-04-14T20:30:00+05:30",
@@ -257,6 +352,76 @@
   },
   "slack": {
     "messages": [
+      {
+        "user": "Lindsey (Medik8)",
+        "text": "Also, I think we are good to go on design for now. We'll revisit design once we start testing + fix the variant buttons on Crystal Retinal & Advanced Pro Collagen Peptides Moisturizer.",
+        "timestamp": "2026-04-08T04:57:40+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Lindsey (Medik8)",
+        "text": "@Pulkit on the welcome funnel, I see the 15% badging and discount on the product grid and cart, but when you go to checkout, the discount does not apply. Can you edit so that when customers go to checkout and social15 is already applied to their basket?",
+        "timestamp": "2026-04-08T02:33:05+05:30",
+        "channel": "#fermat-x-medik8",
+        "thread_replies": 1
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Hi Lindsey, Thank you for taking the time for our sync today. Here's a recap of where we stand and what's next. Current Status: Design Updates nearly complete, PDP Integration moving forward with FERMÀT PDPs, 15% Off Badge fixed, A/B Test set up. Ready to Launch: Best Seller Funnel with product grid + hero image. Upcoming: Product-Centric Pages, May Launch, Video Landing Pages.",
+        "timestamp": "2026-04-07T20:45:21+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Lindsey (Medik8)",
+        "text": "@Pulkit When you click on Funnels > Medik8 Welcome - Best Sellers Final > Click Preview > Scroll down to the product grid > Click Liquid Peptides Advanced MP. There are so many things we have to adjust. Please see my feedback here: [Section 3 screenshot]",
+        "timestamp": "2026-04-07T02:39:06+05:30",
+        "channel": "#fermat-x-medik8",
+        "thread_replies": 11
+      },
+      {
+        "user": "Lindsey (Medik8)",
+        "text": "Recap of call with Pulkit: 1. Cart Design: Pulkit to check customization. 2. Landing Page: Update font sizes, CTA font & corners rounded to 5 radius. 3. Using Fermat's PDP instead of own PDPs. 4. PDP: Update CTAs with styling notes. 5. Prioritize: Liquid Peptides Advanced MP, Crystal Retinal, C-Tetra Advanced, Advanced Pro Collagen+, Niacinamide Peptides, and Liquid Peptides.",
+        "timestamp": "2026-04-06T20:28:47+05:30",
+        "channel": "#fermat-x-medik8",
+        "thread_replies": 11
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "Sure! Calling you on Slack huddle.",
+        "timestamp": "2026-04-06T20:08:12+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Jiyoon Cha (Medik8)",
+        "text": "Can you hop on a call now?",
+        "timestamp": "2026-04-06T20:04:26+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Jiyoon Cha (Medik8)",
+        "text": "No, we need this one and the PDPs ready.",
+        "timestamp": "2026-04-06T20:04:20+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Pulkit Srivastava",
+        "text": "@Jiyoon Cha The changes you mentioned we have implemented in the Meet the Brand: Medik8 V2 funnel. I think we can get on a quick call today and get the design completed. I thought you will be going live with this funnel itself.",
+        "timestamp": "2026-04-06T19:44:51+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Jiyoon Cha (Medik8)",
+        "text": "I think what's been a challenge is that the feedback I gave last week hasn't been applied to any other funnels we're trying to go live with. We were supposed to go live last Friday. Can we stay close today to make sure everything is good to go today?",
+        "timestamp": "2026-04-06T19:37:35+05:30",
+        "channel": "#fermat-x-medik8"
+      },
+      {
+        "user": "Jiyoon Cha (Medik8)",
+        "text": "@Pulkit following up if this page has been updated? We need to update the CTAs Still the wrong style. Can you also update the type to be larger? [3 screenshots attached]",
+        "timestamp": "2026-04-06T18:55:50+05:30",
+        "channel": "#fermat-x-medik8",
+        "thread_replies": 2
+      },
       {
         "user": "Jiyoon Cha (Medik8)",
         "text": "Thank you so much!",
@@ -277,76 +442,107 @@
       },
       {
         "user": "Jiyoon Cha (Medik8)",
-        "text": "Pulkit Lindsay and I just aligned and we want this funnel to be updated in terms of design. The typography and CTAs are still off on this.",
+        "text": "@Pulkit Lindsay and I just aligned and we want this funnel to be updated in terms of design. The typography and CTAs are still off on this. [Screenshot attached]",
         "timestamp": "2026-04-03T20:32:33+05:30",
         "channel": "#fermat-x-medik8"
       },
       {
         "user": "Jiyoon Cha (Medik8)",
-        "text": "Just following up on the above from this thread. Can we hop on a call today so we can go live tomorrow?",
+        "text": "Just following up on the above from this thread. Can we hop on a call today so we can go live tomorrow? @Pulkit",
         "timestamp": "2026-04-02T23:18:19+05:30",
         "channel": "#fermat-x-medik8"
       },
       {
         "user": "Pulkit Srivastava",
-        "text": "I have updated the funnel as per your feedback. You can see this and let me know if I should make any more changes.",
+        "text": "@Jiyoon Cha I have updated the funnel as per your feedback. You can see this and let me know if I should make any more changes. [Preview link shared]",
         "timestamp": "2026-04-01T13:09:08+05:30",
         "channel": "#fermat-x-medik8"
       },
       {
         "user": "Pulkit Srivastava",
-        "text": "Hey Jiyoon — great call yesterday! Here's a quick recap with performance highlights, key takeaways, and action items.",
+        "text": "Hey Jiyoon — great call yesterday! Here's a quick recap. Design Review completed, Launch Timeline: Thursday/Friday target. Typography Standards: Serif all caps 12.5% spacing, sentence case 2.5%. CTAs simplified to Learn More and Shop Now. Action items listed for both teams.",
         "timestamp": "2026-04-01T13:03:29+05:30",
         "channel": "#fermat-x-medik8"
       },
       {
         "user": "Lindsey (Medik8)",
-        "text": "Sorry have one more. Talk soon: [shared Section 2 screenshot]",
+        "text": "Sorry have one more. Talk soon: [Section 2 screenshot]",
         "timestamp": "2026-03-31T20:57:53+05:30",
-        "channel": "#fermat-x-medik8"
+        "channel": "#fermat-x-medik8",
+        "thread_replies": 8
       },
       {
         "user": "Lindsey (Medik8)",
-        "text": "Sharing this ahead of our call. We can review this together. [shared Section 1 screenshot]",
+        "text": "Sharing this ahead of our call. We can review this together. [Section 1 screenshot]",
         "timestamp": "2026-03-31T20:14:20+05:30",
-        "channel": "#fermat-x-medik8"
-      },
-      {
-        "user": "Lindsey (Medik8)",
-        "text": "Can we white label the powered by FERMÀT at the end of landing pages?",
-        "timestamp": "2026-03-27T23:48:21+05:30",
         "channel": "#fermat-x-medik8"
       }
     ],
-    "analysis": "Highly active Slack channel with regular back-and-forth between Pulkit and the Medik8 team (Jiyoon Cha, Lindsey). Recent discussions focused on funnel design refinements, typography standards, and CTA optimization. Brand is actively engaged in pre-launch design review."
+    "analysis": "Extremely active Slack channel with 20+ messages in the last 7 days. Three Medik8 stakeholders actively engaging: Lindsey Shin (strategy/go-live decisions), Jiyoon Cha (design/UX feedback), and Danielle Finn (paid media). Most recent message from Lindsey on Apr 8 indicates design is approved for now — ready to go live. Key friction point: Social15 discount code not auto-applying at checkout (reported Apr 8, needs fix). The channel shows a high-urgency, design-iteration-heavy onboarding phase with brand pushing for faster execution."
   },
   "email": {
     "messages": [
       {
-        "from": "Glyphic AI <noreply@glyphic.ai>",
-        "subject": "✅ Medik8 x FERMÀT summary is ready",
-        "date": "2026-03-31T15:50:40Z",
-        "snippet": "Find out some key insights from the call..."
+        "from": "Medik8-US <news@medik8.com>",
+        "subject": "It looks like you left something behind",
+        "date": "2026-04-08T10:30:19Z",
+        "snippet": "We've saved your basket! Act fast — abandoned cart email from Medik8 marketing"
       },
       {
-        "from": "Nidhi Singh <nidhi@fermatcommerce.com>",
-        "subject": "Accepted: Medik8 x FERMÀT @ Tue Mar 31",
-        "date": "2026-03-31T07:30:33Z",
-        "snippet": "Nidhi Singh has accepted this invitation."
-      },
-      {
-        "from": "Reminder <reminder@superhuman.com>",
-        "subject": "Re: Re: Medik8 x FERMÀT | Check-in Call Recap",
-        "date": "2026-03-31T02:30:00Z",
-        "snippet": "Hi Team, Great connecting yesterday! Really excited to get Medik8 up and running on FERMÀT."
+        "from": "Loom <info@e.atlassian.com>",
+        "subject": "Your video has been viewed: Medik8 Checkout Flow",
+        "date": "2026-04-08T08:47:26Z",
+        "snippet": "Medik8 checkout flow video was watched for the first time — Pulkit's Loom recording viewed"
       },
       {
         "from": "Linear <notifications@linear.app>",
-        "subject": "Gayathri mentioned you in comment on Medik8: Welco...",
-        "date": "2026-03-30T02:30:21Z",
-        "snippet": "You have 1 unread notification on Linear."
+        "subject": "3 unread notifications on Fermat",
+        "date": "2026-04-08T06:49:44Z",
+        "snippet": "Linear notifications related to Medik8 tickets"
+      },
+      {
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "subject": "Medik8 x FERMÀT|| Weekly Sync-up summary is ready",
+        "date": "2026-04-07T15:17:33Z",
+        "snippet": "Call summary for Apr 7 weekly sync-up now available"
+      },
+      {
+        "from": "Zoom <no-reply@zoom.us>",
+        "subject": "FERMÀT Copilot has joined your meeting - Medik8 x FERMÀT|| Weekly Sync-up",
+        "date": "2026-04-07T14:58:27Z",
+        "snippet": "Zoom meeting ID 823 4203 7130 — Apr 7 weekly sync recording captured"
+      },
+      {
+        "from": "Danielle Finn <danielle.finn@medik8.com>",
+        "subject": "Declined: Medik8 x FERMÀT|| Weekly Sync-up @ Tue Apr 7",
+        "date": "2026-04-06T19:30:25Z",
+        "snippet": "Danielle Finn declined the Apr 7 weekly sync invitation"
+      },
+      {
+        "from": "Lindsey Shin <lindsey.shin@medik8.com>",
+        "subject": "Accepted: Medik8 x FERMÀT|| Weekly Sync-up @ Tue Apr 7",
+        "date": "2026-04-06T19:30:02Z",
+        "snippet": "Lindsey Shin accepted the Apr 7 weekly sync invitation"
+      },
+      {
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "subject": "Medik8 x FERMÀT summary is ready",
+        "date": "2026-03-31T15:50:40Z",
+        "snippet": "Call summary for Mar 31 Medik8 x FERMÀT call now available"
+      },
+      {
+        "from": "Zoom <no-reply@zoom.us>",
+        "subject": "FERMÀT Copilot has joined your meeting - Medik8 x FERMÀT",
+        "date": "2026-03-31T15:28:21Z",
+        "snippet": "Zoom meeting ID 812 4853 2042 — Mar 31 call recording captured"
+      },
+      {
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "subject": "Prepare for Medik8 x FERMÀT",
+        "date": "2026-03-31T15:15:50Z",
+        "snippet": "Pre-call preparation summary for Medik8 x FERMÀT meeting"
       }
     ],
-    "analysis": "Email activity is primarily automated notifications (Glyphic call summaries, Zoom joins, Meta ad approvals, Linear mentions). The Superhuman reminder on Mar 31 references a check-in call recap sent by Pulkit. Active onboarding workflow with Linear ticket tracking."
+    "analysis": "Email activity in last 30 days is primarily automated notifications — Glyphic call summaries (2), Zoom join confirmations (2), calendar RSVPs. Notable: Danielle Finn declined Apr 7 sync while Lindsey accepted. Pulkit created a Loom video titled 'Medik8 Checkout Flow' that was viewed on Apr 8 — likely used to walkthrough the checkout discount issue. No direct 1:1 email threads with brand contacts visible in Gmail search; communication primarily happening via Slack channel."
   }
 }

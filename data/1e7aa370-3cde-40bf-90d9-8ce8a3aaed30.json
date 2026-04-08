@@ -1,7 +1,7 @@
 {
   "brand_id": "1e7aa370-3cde-40bf-90d9-8ce8a3aaed30",
   "brand_name": "HAVN",
-  "last_updated": "2026-04-06T06:21:21.084906Z",
+  "last_updated": "2026-04-06T18:30:00.000000Z",
   "health": {
     "score": 2,
     "status": "red",
@@ -15,7 +15,53 @@
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
-    "signals": []
+    "signals": [
+      {
+        "type": "negative",
+        "text": "CHURNED ACCOUNT — brand marked churn_status:true in sentiment.json. All platform metrics are zero.",
+        "time": "Apr 6"
+      },
+      {
+        "type": "negative",
+        "text": "Zero sessions, revenue, purchases, pdp_views, atc, checkouts across all time windows (FERMAT API token expired; prior pull confirmed all zeroes)",
+        "time": "Apr 6"
+      },
+      {
+        "type": "negative",
+        "text": "Last recorded call was Dec 11, 2025 (117 days ago) — no calls in 2026",
+        "time": "Dec 11"
+      },
+      {
+        "type": "negative",
+        "text": "No upcoming calendar events with HAVN through Jun 7, 2026 — zero meeting cadence",
+        "time": "Apr 6"
+      },
+      {
+        "type": "negative",
+        "text": "Zero Gmail messages found in 90 days — no email communication at all",
+        "time": "Apr 6"
+      },
+      {
+        "type": "negative",
+        "text": "Last Slack message from brand contact (Tom Guilbert) was Jan 6, 2026 — 90 days ago, about an A/B test split issue",
+        "time": "Jan 6"
+      },
+      {
+        "type": "negative",
+        "text": "CSM handoff failure: Ryan Barry left Dec 20, Isabel checked in Jan 16 with no reply, Pulkit joined Feb 24 but never posted outreach",
+        "time": "Feb 24"
+      },
+      {
+        "type": "negative",
+        "text": "No Granola meeting notes found for HAVN — brand not discussed in any recorded internal or external meetings",
+        "time": "Apr 6"
+      },
+      {
+        "type": "warning",
+        "text": "Tom Guilbert (tom@havnwear.com) last engaged on Jan 6 reporting a technical issue with incremental test setup — issue may have gone unresolved",
+        "time": "Jan 6"
+      }
+    ]
   },
   "performance": {
     "yesterday": {
@@ -96,7 +142,8 @@
       "atc": 0,
       "checkouts": 0
     },
-    "daily": []
+    "daily": [],
+    "data_note": "FERMAT API token expired during this refresh (3 consecutive attempts failed). Prior refresh on Apr 6 confirmed all metrics at zero across all time windows. HAVN is a churned account with no active funnel traffic."
   },
   "calls": {
     "recent": [
@@ -110,10 +157,11 @@
           "Ryan Barry (ryan.barry@fermatcommerce.com)",
           "Isabel O'Keefe (isabel@fermatcommerce.com)"
         ],
-        "summary": "Last recorded weekly sync with HAVN. Tom, Ryan, and Isabel discussed ongoing funnel performance and AI Search trial. Ryan's last day at FERMAT was Dec 20 -- handoff to Mia announced. This was likely one of the final active engagement calls before the brand went silent.",
+        "summary": "Last recorded weekly sync with HAVN. Tom, Ryan, and Isabel discussed ongoing funnel performance and AI Search trial. Ryan's last day at FERMAT was Dec 20 — handoff to Mia/Isabel announced. This was the final active engagement call before the brand went silent.",
         "next_steps": [
           "Ryan handoff to Mia/Isabel for ongoing account management"
         ],
+        "recording_status": "completed",
         "url": "https://app.glyphic.ai/calls/693b1552738f04b60b7e5114"
       },
       {
@@ -127,7 +175,22 @@
         ],
         "summary": "Weekly sync between Tom and Ryan discussing funnel performance and ongoing optimization work.",
         "next_steps": [],
+        "recording_status": "completed",
         "url": "https://app.glyphic.ai/calls/693322c5575677ba4bf0f6e1"
+      },
+      {
+        "id": "6939d9ba5c06f6a1a1424419",
+        "title": "Sync on HAVN",
+        "date": "2025-12-10",
+        "duration_seconds": 17,
+        "participants": [
+          "Ryan Barry (ryan.barry@fermatcommerce.com)",
+          "Isabel O'Keefe (isabel@fermatcommerce.com)"
+        ],
+        "summary": "Internal sync on HAVN account — cancelled after 17 seconds.",
+        "next_steps": [],
+        "recording_status": "cancelled",
+        "url": "https://app.glyphic.ai/calls/6939d9ba5c06f6a1a1424419"
       },
       {
         "id": "6920ace3acef311c557e581b",
@@ -140,72 +203,197 @@
         ],
         "summary": "Regular weekly sync discussing HAVN funnel performance and strategy.",
         "next_steps": [],
+        "recording_status": "completed",
         "url": "https://app.glyphic.ai/calls/6920ace3acef311c557e581b"
+      },
+      {
+        "id": "690e39755ac1e1346e1f968b",
+        "title": "HAVN x Fermat Weekly",
+        "date": "2025-11-07",
+        "duration_seconds": 1478,
+        "participants": [
+          "Tom Guilbert (tom@havnwear.com)",
+          "Ryan Barry (ryan.barry@fermatcommerce.com)"
+        ],
+        "summary": "Weekly sync discussing funnel performance, blanket launch, and AI visibility report.",
+        "next_steps": [],
+        "recording_status": "completed",
+        "url": "https://app.glyphic.ai/calls/690e39755ac1e1346e1f968b"
+      },
+      {
+        "id": "68e9415a4c3483004996671d",
+        "title": "HAVN x Fermat Weekly",
+        "date": "2025-10-10",
+        "duration_seconds": 1416,
+        "participants": [
+          "Tom Guilbert (tom@havnwear.com)",
+          "Ryan Barry (ryan.barry@fermatcommerce.com)"
+        ],
+        "summary": "Weekly sync — Tom asked about sticky CTA for long-format editorial funnels.",
+        "next_steps": [],
+        "recording_status": "completed",
+        "url": "https://app.glyphic.ai/calls/68e9415a4c3483004996671d"
       }
     ],
-    "analysis": "HAVN had active weekly calls through December 2025 with Ryan Barry as CSM. Ryan left FERMAT on Dec 20, and Isabel O'Keefe (Head of AM) was introduced as interim contact. Mia was also introduced. Last call was Dec 11 -- no calls recorded in 2026. The brand has gone completely silent on calls for 3.5+ months. Key contact is Tom Guilbert (tom@havnwear.com). HAVN is a churning account with no active FERMAT metrics."
+    "analysis": "HAVN had active weekly calls through December 2025 with Ryan Barry as primary CSM. Ryan departed FERMAT on Dec 20, 2025. Isabel O'Keefe (Head of AM) was introduced as interim contact on the Dec 11 call. No calls recorded in 2026 at all — 117 days of complete silence. Brand contact is Tom Guilbert (tom@havnwear.com). Glyphic returned 10 call records total (6 unique calls after deduplication, all from Oct-Dec 2025). Call_info and call_media APIs returned errors for all call IDs, so detailed transcripts/snippets are unavailable. HAVN is fully churned with no active meeting cadence.",
+    "glyphic_note": "Glyphic list_calls returned 10 results. get_call_info, get_call_media, and get_call_snippets all returned -32603 errors for every call_id attempted. Call metadata (titles, dates, participants, durations) sourced from list_calls response."
   },
   "calendar": {
     "past": [],
-    "upcoming": []
+    "upcoming": [],
+    "analysis": "Google Calendar search for 'HAVN' from Mar 9 to Jun 7, 2026 returned zero events. No past or upcoming meetings scheduled. The brand has been completely dropped from the calendar since the CSM transition."
   },
   "slack": {
     "messages": [
       {
         "date": "2026-02-24",
         "author": "Pulkit Srivastava",
-        "content": "Joined the channel"
+        "content": "Joined the channel",
+        "ts": "1771931940.864309"
       },
       {
         "date": "2026-02-24",
         "author": "FERMAT (bot)",
-        "content": "Joined the channel"
+        "content": "Joined the channel",
+        "ts": "1771931951.769549"
       },
       {
         "date": "2026-01-16",
         "author": "Isabel O'Keefe",
-        "content": "Checked in with Tom: asked if he wanted to keep the weekly sync on the calendar (no reply visible)"
+        "content": "Checked in with Tom: asked if he wanted to keep the weekly sync on the calendar (no reply visible)",
+        "ts": "1768577784.697659"
       },
       {
         "date": "2026-01-06",
         "author": "Tom Guilbert (brand)",
-        "content": "Reported issue with 50/50 incremental test setup not producing correct split (9 replies in thread, included screenshot)"
+        "content": "Reported issue with 50/50 incremental test setup not producing correct split (9 replies in thread, included screenshot)",
+        "ts": "1767721001.787289"
       },
       {
         "date": "2025-12-20",
         "author": "Ryan Barry",
-        "content": "Farewell message: announced last day at FERMAT, introduced Mia DyBuncio and Isabel O'Keefe as new contacts (2 replies)"
+        "content": "Farewell message: announced last day at FERMAT, introduced Mia DyBuncio and Isabel O'Keefe as new contacts (2 replies)",
+        "ts": "1766176515.383669"
+      },
+      {
+        "date": "2025-12-19",
+        "author": "Mia DyBuncio",
+        "content": "Joined the channel",
+        "ts": "1766167921.635799"
       },
       {
         "date": "2025-12-03",
         "author": "Ryan Barry",
-        "content": "Shared AI Search Free Trial info and onboarding steps, offered free 6-month trial"
+        "content": "Shared AI Search Free Trial info and onboarding steps, offered free 6-month trial",
+        "ts": "1764713138.790679"
       },
       {
         "date": "2025-11-18",
         "author": "Ryan Barry",
-        "content": "Dashboard outage restoration notice (Cloudflare issue resolved)"
+        "content": "Dashboard outage restoration notice (Cloudflare issue resolved)",
+        "ts": "1763481258.726849"
       },
       {
         "date": "2025-11-18",
         "author": "Isabel O'Keefe",
-        "content": "Dashboard outage alert (Cloudflare issue, funnels unaffected)"
+        "content": "Dashboard outage alert (Cloudflare issue, funnels unaffected)",
+        "ts": "1763474964.492099"
       },
       {
         "date": "2025-11-13",
         "author": "Ryan Barry",
-        "content": "AI Search Commerce Engine launch announcement with free and paid tiers"
+        "content": "AI Search Commerce Engine launch announcement with free and paid tiers",
+        "ts": "1762988083.364309"
       },
       {
         "date": "2025-11-08",
         "author": "Ryan Barry",
-        "content": "Post-call follow-up: virtual product config for blanket launch, AI visibility report, gift guide funnel examples"
+        "content": "Post-call follow-up: virtual product config for blanket launch, AI visibility report PDF, gift guide funnel examples (Omnilux, Glossier, Brightland, U Beauty)",
+        "ts": "1762540740.843789"
+      },
+      {
+        "date": "2025-10-10",
+        "author": "Tom Guilbert (brand)",
+        "content": "Asked about sticky CTA on funnels for long format editorials (1 reply from Ryan)",
+        "ts": "1760053566.453039"
+      },
+      {
+        "date": "2025-10-03",
+        "author": "Ryan Barry",
+        "content": "Pierre AI assistant announcement — build and launch funnels with AI (Tom reacted with raised_hands)",
+        "ts": "1759435399.365829"
+      },
+      {
+        "date": "2025-09-30",
+        "author": "Ryan Barry",
+        "content": "5RW Blanket funnel analysis: performance dip happening proportionally across all stages, Meta prospecting fatigue likely cause. Performance rebounded over weekend.",
+        "ts": "1759179057.551949"
+      },
+      {
+        "date": "2025-09-27",
+        "author": "Ryan Barry",
+        "content": "Confirmed secondary button styling does not affect variant selectors (with screenshot)",
+        "ts": "1758921323.789059"
+      },
+      {
+        "date": "2025-09-26",
+        "author": "Tom Guilbert (brand)",
+        "content": "Asked if internal shop name can be changed for a funnel once created (2 replies)",
+        "ts": "1758907955.619919"
+      },
+      {
+        "date": "2025-09-19",
+        "author": "Ryan Barry",
+        "content": "AI Search Commerce Engine pitch deck shared, emphasized low lift for brands in beta",
+        "ts": "1758296757.581309"
+      },
+      {
+        "date": "2025-09-19",
+        "author": "Tom Guilbert (brand)",
+        "content": "Cancelled next day's call",
+        "ts": "1758235428.833269"
+      },
+      {
+        "date": "2025-09-18",
+        "author": "Ryan Barry",
+        "content": "Follow-up on AI Search demo scheduling",
+        "ts": "1758150886.458169"
       }
     ],
-    "analysis": "HAVN Slack channel has been essentially dead since January 2026. Isabel checked in on Jan 16 about keeping the weekly sync -- no visible response from Tom. Tom's last engagement was a technical issue on Jan 6 about A/B test splits. Pulkit joined the channel Feb 24 but has not posted any outreach. Ryan Barry (former CSM) was the primary relationship driver before departing Dec 20. The brand appears to have disengaged after the CSM transition and is now churning."
+    "analysis": "HAVN Slack channel (#havn-x-fermat, C08SNU8SHB6) has been dead since January 2026. Last brand message: Tom Guilbert on Jan 6, 2026 reporting a 50/50 incremental test split issue (9 thread replies). Isabel O'Keefe checked in Jan 16 asking about keeping the weekly sync — no visible reply from Tom. Pulkit joined the channel Feb 24, 2026 but has NOT posted any outreach message. Ryan Barry (former CSM, departed Dec 20) was the primary relationship driver with consistent engagement through Dec 2025. Mia DyBuncio joined Dec 19 as part of the transition but no messages from her beyond joining. The channel shows a classic CSM handoff failure pattern — strong engagement under Ryan, complete silence after his departure."
   },
   "email": {
     "messages": [],
-    "analysis": "No email communication found in the last 30 days between Pulkit and HAVN. The brand has been completely silent across all communication channels."
+    "analysis": "Zero Gmail messages found for HAVN in the last 90 days. Searched both 'HAVN newer_than:30d' and 'HAVN newer_than:90d' plus 'from:tom@havnwear.com OR to:tom@havnwear.com' — all returned zero results. No email communication exists between Pulkit and HAVN whatsoever. The brand has been completely silent across all email channels."
+  },
+  "granola": {
+    "meetings": [],
+    "analysis": "Granola query for 'HAVN meetings and discussions' returned no HAVN-specific meeting notes. The brand name does not appear in any Granola meeting transcripts from Oct 2025 through Apr 2026. This confirms HAVN has not been discussed in any recorded internal or external meetings during Pulkit's tenure as CSM."
+  },
+  "meta": {
+    "fermat_org_id": "1e7aa370-3cde-40bf-90d9-8ce8a3aaed30",
+    "slack_channel_id": "C08SNU8SHB6",
+    "slack_channel_name": "#havn-x-fermat",
+    "primary_contact": "Tom Guilbert",
+    "primary_contact_email": "tom@havnwear.com",
+    "brand_domain": "havnwear.com",
+    "former_csm": "Ryan Barry (ryan.barry@fermatcommerce.com) — departed Dec 20, 2025",
+    "interim_contacts": "Isabel O'Keefe (Head of AM), Mia DyBuncio (Team Lead)",
+    "current_csm": "Pulkit Srivastava",
+    "churn_status": true,
+    "churn_confirmed_in": "sentiment.json (churn_status: true)",
+    "last_brand_activity": "2026-01-06 (Slack: Tom reported A/B test issue)",
+    "last_call": "2025-12-11 (HAVN x Fermat Weekly — 117 days ago)",
+    "days_since_last_call": 117,
+    "days_since_last_brand_message": 91,
+    "data_sources_queried": [
+      "FERMAT get_funnel_metrics (token expired — 3 attempts failed, prior data confirmed zeroes)",
+      "Glyphic list_calls (10 results returned, call_info/media/snippets errored)",
+      "Google Calendar gcal_list_events (0 events Mar 9 - Jun 7 2026)",
+      "Slack slack_read_channel C08SNU8SHB6 (20 messages returned)",
+      "Gmail gmail_search_messages (3 queries, all 0 results)",
+      "Granola query_granola_meetings (no HAVN-specific results)"
+    ],
+    "refresh_notes": "FERMAT API token was expired during this refresh cycle (3 consecutive authorization failures across get_funnel_metrics and list_funnels). Performance data retained from prior refresh which confirmed all metrics at zero — consistent with churned account status. Glyphic call detail APIs (get_call_info, get_call_media, get_call_snippets) all returned -32603 errors; only list_calls metadata was available."
   }
 }

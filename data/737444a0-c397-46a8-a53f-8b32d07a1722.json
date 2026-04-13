@@ -1,518 +1,617 @@
 {
   "brand_id": "737444a0-c397-46a8-a53f-8b32d07a1722",
   "brand_name": "Shop FlavCity",
-  "last_updated": "2026-04-06T17:15:00.000000Z",
+  "last_updated": "2026-04-13T12:00:00.000000Z",
   "health": {
-    "score": 39,
+    "score": 25,
     "status": "red",
     "breakdown": {
-      "platform_performance": 19,
-      "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:4/5, Purchases:5/5",
-      "communication": 12,
-      "communication_detail": "SlackRecency:4/4, BrandSlack14d:1/4, PulkitSlack14d:2/4, EmailThreads14d:1/4, PulkitOutreach:4/4",
-      "engagement": 8,
-      "engagement_detail": "LastCall:4/8, Calls30d:4/6, Upcoming:0/6",
+      "platform_performance": 13,
+      "platform_performance_detail": "Sessions:5/5, Revenue:3/5, CVR:1/5, Purchases:4/5",
+      "communication": 8,
+      "communication_detail": "SlackRecency:1/4, BrandSlack14d:1/4, PulkitSlack14d:2/4, EmailThreads14d:1/4, PulkitOutreach:3/4",
+      "engagement": 4,
+      "engagement_detail": "LastCall:1/8, Calls30d:3/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
-      "POSITIVE: Will responded to Pulkit's Slack outreach within 18 minutes on Apr 6, asked for optimized TikTok LP examples -- strong engagement signal",
-      "POSITIVE: Christy (brand) also replied same day asking to join TikTok strategy call -- multi-stakeholder interest",
-      "POSITIVE: Marie Leroux actively building new funnels (Upgrade to Subscription: Consistency Hook LP), asking technical questions in Slack on Apr 4",
-      "POSITIVE: Pulkit sent first outreach email + Slack message to FlavCity on Apr 6 -- re-engagement initiated after CSM transition",
-      "NEGATIVE: Contract expires April 15, transitioning to month-to-month at $2,000/month -- downgrade from annual",
-      "NEGATIVE: Massive TikTok session volume (millions) with near-zero CVR suggests bot/crawler traffic or unoptimized funnels",
-      "NEGATIVE: No calls recorded since March 13 -- 24 day gap in live engagement",
-      "NEGATIVE: High stakeholder turnover: Mia left CSM role, Christy is new D2C lead (started March), TikTok agency contact SarahJay also departed",
-      "NEGATIVE: Internal billing discrepancy flagged -- brand on $2,000 plan but internal records show $1,500",
-      "WATCH: Will confirmed TikTok traffic is intentional to avoid unqualified traffic to D2C site, but needs optimization help",
-      "WATCH: Large TikTok Shop program planned for end of May -- potential expansion opportunity if engagement maintained"
+      "POSITIVE: Pulkit's TikTok outreach (Apr 6) generated active 8-reply Slack thread through Apr 9 with Will, Christy, and Marie engaging -- re-engagement working",
+      "POSITIVE: Marie Leroux actively building new funnels (Upgrade to Subscription: Consistency Hook LP on Apr 4) and asking detailed technical questions about modules and subscription defaults -- platform usage is alive",
+      "POSITIVE: Will confirmed TikTok traffic is intentional and brand is seeing millions of sessions across Butter Coffee, Cinnamon Roll, Chocolate funnels -- massive traffic opportunity to optimize",
+      "NEGATIVE: Contract expires April 15, transitioning to month-to-month at $2,000/month (down from annual) -- confirmed in Mar 13 call with Will and Christy",
+      "NEGATIVE: 31 days since last recorded call (Mar 13) with zero calls on Pulkit's calendar -- engagement lapsed during CSM transition from Mia to Kaitlin to Pulkit",
+      "NEGATIVE: Extremely low CVR across all periods (0.0005% for 7d) despite massive session volume (2.37M in 7d) -- likely bot/crawler TikTok traffic inflating sessions artificially",
+      "NEGATIVE: High stakeholder turnover on all sides: Mia left CSM role (Mar 11), SarahJay (TikTok agency) departed (Feb 23), Christy new eCommerce head (started Mar 7) -- relationship continuity at risk",
+      "WATCH: Ad strategy pivoted from trial kits to full-price bags with GLP1 and breakfast replacement angles -- need new funnels built for these themes per Mar 11 call discussion",
+      "WATCH: No upcoming calls scheduled -- Pulkit must book a strategy call urgently to re-establish cadence and discuss TikTok optimization"
     ]
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
-      "revenue": 4793.92,
-      "cvr": 1.433,
-      "sessions": 4466,
+      "revenue": 59.99,
+      "cvr": 0.0002,
+      "sessions": 434377,
       "roas": null,
       "cpa": null,
-      "purchases": 64,
-      "aov": 74.91,
-      "pdp_views": 559,
-      "atc": 161,
-      "checkouts": 47
+      "purchases": 1,
+      "aov": 59.99,
+      "pdp_views": 3239,
+      "atc": 252,
+      "checkouts": 50
     },
     "3d": {
       "ad_spend": null,
-      "revenue": 12919.04,
-      "cvr": 1.2445,
-      "sessions": 13821,
+      "revenue": 470.93,
+      "cvr": 0.0005,
+      "sessions": 1145990,
       "roas": null,
       "cpa": null,
-      "purchases": 172,
-      "aov": 75.11,
-      "pdp_views": 1637,
-      "atc": 412,
-      "checkouts": 142
+      "purchases": 6,
+      "aov": 78.49,
+      "pdp_views": 8761,
+      "atc": 742,
+      "checkouts": 194
     },
     "7d": {
       "ad_spend": null,
-      "revenue": 38448.75,
-      "cvr": 1.3986,
-      "sessions": 35321,
+      "revenue": 980.87,
+      "cvr": 0.0005,
+      "sessions": 2370812,
       "roas": null,
       "cpa": null,
-      "purchases": 494,
-      "aov": 77.83,
-      "pdp_views": 4736,
-      "atc": 1309,
-      "checkouts": 457
+      "purchases": 13,
+      "aov": 75.45,
+      "pdp_views": 18238,
+      "atc": 1719,
+      "checkouts": 458
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 92645.45,
-      "cvr": 1.6589,
-      "sessions": 73843,
+      "revenue": 2741.61,
+      "cvr": 0.0005,
+      "sessions": 6010828,
       "roas": null,
       "cpa": null,
-      "purchases": 1225,
-      "aov": 75.63,
-      "pdp_views": 10690,
-      "atc": 3007,
-      "checkouts": 1079
+      "purchases": 33,
+      "aov": 83.08,
+      "pdp_views": 46706,
+      "atc": 4322,
+      "checkouts": 1078
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 142661.96,
-      "cvr": 1.6973,
-      "sessions": 112824,
+      "revenue": 6411.04,
+      "cvr": 0.001,
+      "sessions": 8139700,
       "roas": null,
       "cpa": null,
-      "purchases": 1915,
-      "aov": 74.5,
-      "pdp_views": 16022,
-      "atc": 4478,
-      "checkouts": 1647
+      "purchases": 79,
+      "aov": 81.15,
+      "pdp_views": 63831,
+      "atc": 6685,
+      "checkouts": 1705
     },
     "45d": {
       "ad_spend": null,
-      "revenue": 218104.19,
-      "cvr": 1.8382,
-      "sessions": 159943,
+      "revenue": 17547.4,
+      "cvr": 0.0023,
+      "sessions": 9204068,
       "roas": null,
       "cpa": null,
-      "purchases": 2940,
-      "aov": 74.19,
-      "pdp_views": 22361,
-      "atc": 6393,
-      "checkouts": 2632
+      "purchases": 209,
+      "aov": 83.96,
+      "pdp_views": 75014,
+      "atc": 8811,
+      "checkouts": 2567
     },
     "daily": [
       {
-        "date": "2026-02-20",
-        "sessions": 4435,
-        "pdp_views": 535,
-        "atc": 177,
-        "checkouts": 99,
-        "purchases": 94,
-        "revenue": 6823.45
-      },
-      {
-        "date": "2026-02-21",
-        "sessions": 2554,
-        "pdp_views": 395,
-        "atc": 113,
-        "checkouts": 62,
-        "purchases": 58,
-        "revenue": 4243.13
-      },
-      {
-        "date": "2026-02-22",
-        "sessions": 4936,
-        "pdp_views": 622,
-        "atc": 199,
-        "checkouts": 105,
-        "purchases": 109,
-        "revenue": 7799.45
-      },
-      {
-        "date": "2026-02-23",
-        "sessions": 4370,
-        "pdp_views": 571,
-        "atc": 183,
-        "checkouts": 103,
-        "purchases": 106,
-        "revenue": 7102.92
-      },
-      {
-        "date": "2026-02-24",
-        "sessions": 3514,
-        "pdp_views": 509,
-        "atc": 143,
-        "checkouts": 86,
-        "purchases": 78,
-        "revenue": 5980.61
-      },
-      {
-        "date": "2026-02-25",
-        "sessions": 2667,
-        "pdp_views": 364,
-        "atc": 121,
-        "checkouts": 74,
-        "purchases": 58,
-        "revenue": 4689.29
-      },
-      {
         "date": "2026-02-26",
-        "sessions": 3158,
-        "pdp_views": 443,
-        "atc": 132,
-        "checkouts": 72,
-        "purchases": 72,
-        "revenue": 5205.91
+        "sessions": 111520,
+        "revenue": 1394.98,
+        "purchases": 19,
+        "pdp_views": 1149,
+        "atc": 129,
+        "checkouts": 54,
+        "cvr": 0.017,
+        "aov": 73.42
       },
       {
         "date": "2026-02-27",
-        "sessions": 2207,
-        "pdp_views": 305,
-        "atc": 89,
-        "checkouts": 56,
-        "purchases": 51,
-        "revenue": 3482.06
+        "sessions": 52507,
+        "revenue": 1143.92,
+        "purchases": 12,
+        "pdp_views": 543,
+        "atc": 83,
+        "checkouts": 43,
+        "cvr": 0.0229,
+        "aov": 95.33
       },
       {
         "date": "2026-02-28",
-        "sessions": 2459,
-        "pdp_views": 338,
-        "atc": 101,
-        "checkouts": 52,
-        "purchases": 55,
-        "revenue": 4376.08
+        "sessions": 85672,
+        "revenue": 974.94,
+        "purchases": 11,
+        "pdp_views": 845,
+        "atc": 117,
+        "checkouts": 45,
+        "cvr": 0.0128,
+        "aov": 88.63
       },
       {
         "date": "2026-03-01",
-        "sessions": 3409,
-        "pdp_views": 445,
+        "sessions": 90690,
+        "revenue": 675.95,
+        "purchases": 8,
+        "pdp_views": 964,
         "atc": 137,
-        "checkouts": 77,
-        "purchases": 78,
-        "revenue": 6233.74
+        "checkouts": 76,
+        "cvr": 0.0088,
+        "aov": 84.49
       },
       {
         "date": "2026-03-02",
-        "sessions": 2866,
-        "pdp_views": 413,
-        "atc": 114,
-        "checkouts": 49,
-        "purchases": 58,
-        "revenue": 4601.44
+        "sessions": 125113,
+        "revenue": 624.96,
+        "purchases": 8,
+        "pdp_views": 1123,
+        "atc": 164,
+        "checkouts": 81,
+        "cvr": 0.0064,
+        "aov": 78.12
       },
       {
         "date": "2026-03-03",
-        "sessions": 3167,
-        "pdp_views": 424,
-        "atc": 121,
-        "checkouts": 41,
-        "purchases": 60,
-        "revenue": 4290.35
+        "sessions": 13690,
+        "revenue": 210.0,
+        "purchases": 3,
+        "pdp_views": 458,
+        "atc": 213,
+        "checkouts": 103,
+        "cvr": 0.0219,
+        "aov": 70.0
       },
       {
         "date": "2026-03-04",
-        "sessions": 2504,
-        "pdp_views": 331,
-        "atc": 96,
-        "checkouts": 28,
-        "purchases": 49,
-        "revenue": 3209.44
+        "sessions": 29647,
+        "revenue": 392.98,
+        "purchases": 5,
+        "pdp_views": 463,
+        "atc": 173,
+        "checkouts": 87,
+        "cvr": 0.0169,
+        "aov": 78.6
       },
       {
         "date": "2026-03-05",
-        "sessions": 2535,
-        "pdp_views": 331,
-        "atc": 97,
-        "checkouts": 39,
-        "purchases": 55,
-        "revenue": 3896.89
+        "sessions": 14869,
+        "revenue": 897.96,
+        "purchases": 12,
+        "pdp_views": 255,
+        "atc": 90,
+        "checkouts": 41,
+        "cvr": 0.0807,
+        "aov": 74.83
       },
       {
         "date": "2026-03-06",
-        "sessions": 2338,
-        "pdp_views": 313,
-        "atc": 92,
-        "checkouts": 42,
-        "purchases": 44,
-        "revenue": 3507.47
+        "sessions": 41084,
+        "revenue": 448.98,
+        "purchases": 6,
+        "pdp_views": 427,
+        "atc": 124,
+        "checkouts": 48,
+        "cvr": 0.0146,
+        "aov": 74.83
       },
       {
         "date": "2026-03-07",
-        "sessions": 2302,
-        "pdp_views": 342,
-        "atc": 103,
-        "checkouts": 45,
-        "purchases": 58,
-        "revenue": 3625.68
+        "sessions": 54324,
+        "revenue": 851.9,
+        "purchases": 4,
+        "pdp_views": 596,
+        "atc": 88,
+        "checkouts": 32,
+        "cvr": 0.0074,
+        "aov": 212.98
       },
       {
         "date": "2026-03-08",
-        "sessions": 2523,
-        "pdp_views": 357,
-        "atc": 117,
-        "checkouts": 45,
-        "purchases": 61,
-        "revenue": 4889.05
+        "sessions": 27301,
+        "revenue": 960.96,
+        "purchases": 11,
+        "pdp_views": 410,
+        "atc": 123,
+        "checkouts": 60,
+        "cvr": 0.0403,
+        "aov": 87.36
       },
       {
         "date": "2026-03-09",
-        "sessions": 2888,
-        "pdp_views": 379,
-        "atc": 123,
-        "checkouts": 56,
-        "purchases": 75,
-        "revenue": 5495.44
+        "sessions": 39958,
+        "revenue": 737.94,
+        "purchases": 7,
+        "pdp_views": 444,
+        "atc": 112,
+        "checkouts": 36,
+        "cvr": 0.0175,
+        "aov": 105.42
       },
       {
         "date": "2026-03-10",
-        "sessions": 3537,
-        "pdp_views": 467,
-        "atc": 150,
-        "checkouts": 62,
-        "purchases": 63,
-        "revenue": 4256.32
+        "sessions": 38947,
+        "revenue": 479.99,
+        "purchases": 7,
+        "pdp_views": 449,
+        "atc": 116,
+        "checkouts": 33,
+        "cvr": 0.018,
+        "aov": 68.57
       },
       {
         "date": "2026-03-11",
-        "sessions": 3036,
-        "pdp_views": 391,
-        "atc": 119,
-        "checkouts": 41,
-        "purchases": 51,
-        "revenue": 3382.93
+        "sessions": 132890,
+        "revenue": 543.97,
+        "purchases": 7,
+        "pdp_views": 1200,
+        "atc": 186,
+        "checkouts": 43,
+        "cvr": 0.0053,
+        "aov": 77.71
       },
       {
         "date": "2026-03-12",
-        "sessions": 3287,
-        "pdp_views": 423,
-        "atc": 111,
+        "sessions": 110319,
+        "revenue": 149.99,
+        "purchases": 3,
+        "pdp_views": 985,
+        "atc": 139,
         "checkouts": 43,
-        "purchases": 47,
-        "revenue": 3680.2
+        "cvr": 0.0027,
+        "aov": 50.0
       },
       {
         "date": "2026-03-13",
-        "sessions": 2406,
-        "pdp_views": 309,
-        "atc": 84,
-        "checkouts": 36,
-        "purchases": 40,
-        "revenue": 2939.84
+        "sessions": 95837,
+        "revenue": 646.94,
+        "purchases": 7,
+        "pdp_views": 872,
+        "atc": 132,
+        "checkouts": 37,
+        "cvr": 0.0073,
+        "aov": 92.42
       },
       {
         "date": "2026-03-14",
-        "sessions": 2857,
-        "pdp_views": 416,
-        "atc": 115,
-        "checkouts": 42,
-        "purchases": 48,
-        "revenue": 3647.96
+        "sessions": 109882,
+        "revenue": 808.97,
+        "purchases": 9,
+        "pdp_views": 1074,
+        "atc": 184,
+        "checkouts": 59,
+        "cvr": 0.0082,
+        "aov": 89.89
       },
       {
         "date": "2026-03-15",
-        "sessions": 3073,
-        "pdp_views": 441,
-        "atc": 114,
-        "checkouts": 40,
-        "purchases": 50,
-        "revenue": 3559.25
+        "sessions": 94901,
+        "revenue": 269.99,
+        "purchases": 4,
+        "pdp_views": 850,
+        "atc": 143,
+        "checkouts": 38,
+        "cvr": 0.0042,
+        "aov": 67.5
       },
       {
         "date": "2026-03-16",
-        "sessions": 3317,
-        "pdp_views": 420,
-        "atc": 84,
+        "sessions": 150287,
+        "revenue": 185.99,
+        "purchases": 2,
+        "pdp_views": 1320,
+        "atc": 148,
         "checkouts": 27,
-        "purchases": 36,
-        "revenue": 2679.4
+        "cvr": 0.0013,
+        "aov": 93.0
       },
       {
         "date": "2026-03-17",
-        "sessions": 2152,
-        "pdp_views": 277,
-        "atc": 80,
+        "sessions": 104975,
+        "revenue": 143.99,
+        "purchases": 3,
+        "pdp_views": 862,
+        "atc": 101,
         "checkouts": 30,
-        "purchases": 41,
-        "revenue": 2790.35
+        "cvr": 0.0029,
+        "aov": 48.0
       },
       {
         "date": "2026-03-18",
-        "sessions": 2152,
-        "pdp_views": 300,
-        "atc": 76,
-        "checkouts": 32,
-        "purchases": 26,
-        "revenue": 2208.95
+        "sessions": 112080,
+        "revenue": 107.99,
+        "purchases": 2,
+        "pdp_views": 928,
+        "atc": 91,
+        "checkouts": 20,
+        "cvr": 0.0018,
+        "aov": 54.0
       },
       {
         "date": "2026-03-19",
-        "sessions": 2121,
-        "pdp_views": 278,
-        "atc": 53,
-        "checkouts": 20,
-        "purchases": 28,
-        "revenue": 2017.18
+        "sessions": 140964,
+        "revenue": 185.99,
+        "purchases": 2,
+        "pdp_views": 1296,
+        "atc": 173,
+        "checkouts": 37,
+        "cvr": 0.0014,
+        "aov": 93.0
       },
       {
         "date": "2026-03-20",
-        "sessions": 2001,
-        "pdp_views": 273,
-        "atc": 81,
-        "checkouts": 26,
-        "purchases": 41,
-        "revenue": 2948.29
+        "sessions": 81282,
+        "revenue": 389.97,
+        "purchases": 6,
+        "pdp_views": 747,
+        "atc": 111,
+        "checkouts": 29,
+        "cvr": 0.0074,
+        "aov": 65.0
       },
       {
         "date": "2026-03-21",
-        "sessions": 1329,
-        "pdp_views": 259,
-        "atc": 61,
-        "checkouts": 23,
-        "purchases": 25,
-        "revenue": 1895.67
+        "sessions": 55250,
+        "revenue": 227.97,
+        "purchases": 4,
+        "pdp_views": 659,
+        "atc": 148,
+        "checkouts": 45,
+        "cvr": 0.0072,
+        "aov": 57.0
       },
       {
         "date": "2026-03-22",
-        "sessions": 1525,
-        "pdp_views": 196,
-        "atc": 52,
-        "checkouts": 17,
-        "purchases": 26,
-        "revenue": 1955.94
+        "sessions": 73733,
+        "revenue": 147.98,
+        "purchases": 2,
+        "pdp_views": 717,
+        "atc": 149,
+        "checkouts": 41,
+        "cvr": 0.0027,
+        "aov": 73.99
       },
       {
         "date": "2026-03-23",
-        "sessions": 3054,
-        "pdp_views": 409,
-        "atc": 96,
-        "checkouts": 36,
-        "purchases": 45,
-        "revenue": 3326.26
+        "sessions": 89411,
+        "revenue": 59.99,
+        "purchases": 1,
+        "pdp_views": 823,
+        "atc": 144,
+        "checkouts": 47,
+        "cvr": 0.0011,
+        "aov": 59.99
       },
       {
         "date": "2026-03-24",
-        "sessions": 4040,
-        "pdp_views": 609,
-        "atc": 177,
-        "checkouts": 72,
-        "purchases": 83,
-        "revenue": 6160.61
+        "sessions": 96280,
+        "revenue": 239.96,
+        "purchases": 2,
+        "pdp_views": 937,
+        "atc": 161,
+        "checkouts": 44,
+        "cvr": 0.0021,
+        "aov": 119.98
       },
       {
         "date": "2026-03-25",
-        "sessions": 4735,
-        "pdp_views": 769,
-        "atc": 217,
-        "checkouts": 81,
-        "purchases": 98,
-        "revenue": 7220.85
+        "sessions": 128806,
+        "revenue": 312.74,
+        "purchases": 3,
+        "pdp_views": 955,
+        "atc": 176,
+        "checkouts": 47,
+        "cvr": 0.0023,
+        "aov": 104.25
       },
       {
         "date": "2026-03-26",
-        "sessions": 5889,
-        "pdp_views": 889,
-        "atc": 295,
-        "checkouts": 102,
-        "purchases": 123,
-        "revenue": 9545.25
+        "sessions": 251690,
+        "revenue": 215.96,
+        "purchases": 2,
+        "pdp_views": 1629,
+        "atc": 184,
+        "checkouts": 45,
+        "cvr": 0.0008,
+        "aov": 107.98
       },
       {
         "date": "2026-03-27",
-        "sessions": 4955,
-        "pdp_views": 757,
-        "atc": 218,
-        "checkouts": 97,
-        "purchases": 103,
-        "revenue": 7303.18
+        "sessions": 317384,
+        "revenue": 227.96,
+        "purchases": 2,
+        "pdp_views": 2117,
+        "atc": 224,
+        "checkouts": 57,
+        "cvr": 0.0006,
+        "aov": 113.98
       },
       {
         "date": "2026-03-28",
-        "sessions": 6465,
-        "pdp_views": 1007,
-        "atc": 303,
-        "checkouts": 104,
-        "purchases": 123,
-        "revenue": 8698.8
+        "sessions": 321947,
+        "revenue": 143.98,
+        "purchases": 2,
+        "pdp_views": 2211,
+        "atc": 226,
+        "checkouts": 61,
+        "cvr": 0.0006,
+        "aov": 71.99
       },
       {
         "date": "2026-03-29",
-        "sessions": 7859,
-        "pdp_views": 1318,
-        "atc": 340,
-        "checkouts": 113,
-        "purchases": 130,
-        "revenue": 9985.81
+        "sessions": 391458,
+        "revenue": 107.98,
+        "purchases": 2,
+        "pdp_views": 2385,
+        "atc": 239,
+        "checkouts": 56,
+        "cvr": 0.0005,
+        "aov": 53.99
       },
       {
         "date": "2026-03-30",
-        "sessions": 5764,
-        "pdp_views": 928,
-        "atc": 283,
-        "checkouts": 105,
-        "purchases": 102,
-        "revenue": 8043.44
+        "sessions": 272382,
+        "revenue": 167.97,
+        "purchases": 2,
+        "pdp_views": 1969,
+        "atc": 238,
+        "checkouts": 56,
+        "cvr": 0.0007,
+        "aov": 83.99
       },
       {
         "date": "2026-03-31",
-        "sessions": 5543,
-        "pdp_views": 861,
-        "atc": 238,
-        "checkouts": 91,
-        "purchases": 91,
-        "revenue": 7446.76
+        "sessions": 552178,
+        "revenue": 48.0,
+        "purchases": 1,
+        "pdp_views": 4099,
+        "atc": 349,
+        "checkouts": 76,
+        "cvr": 0.0002,
+        "aov": 48.0
       },
       {
         "date": "2026-04-01",
-        "sessions": 5893,
-        "pdp_views": 762,
-        "atc": 226,
-        "checkouts": 72,
-        "purchases": 75,
-        "revenue": 6055.64
+        "sessions": 407928,
+        "revenue": 155.98,
+        "purchases": 2,
+        "pdp_views": 3117,
+        "atc": 287,
+        "checkouts": 78,
+        "cvr": 0.0005,
+        "aov": 77.99
       },
       {
         "date": "2026-04-02",
-        "sessions": 4300,
-        "pdp_views": 548,
-        "atc": 150,
-        "checkouts": 47,
-        "purchases": 54,
-        "revenue": 3983.87
+        "sessions": 640132,
+        "revenue": 349.94,
+        "purchases": 4,
+        "pdp_views": 5193,
+        "atc": 394,
+        "checkouts": 90,
+        "cvr": 0.0006,
+        "aov": 87.49
       },
       {
         "date": "2026-04-03",
-        "sessions": 4549,
-        "pdp_views": 491,
-        "atc": 128,
-        "checkouts": 43,
-        "purchases": 49,
-        "revenue": 3508.26
+        "sessions": 684197,
+        "revenue": 179.97,
+        "purchases": 3,
+        "pdp_views": 5863,
+        "atc": 444,
+        "checkouts": 104,
+        "cvr": 0.0004,
+        "aov": 59.99
       },
       {
         "date": "2026-04-04",
-        "sessions": 4806,
-        "pdp_views": 587,
-        "atc": 123,
-        "checkouts": 52,
-        "purchases": 59,
-        "revenue": 4616.86
+        "sessions": 411379,
+        "revenue": 690.91,
+        "purchases": 5,
+        "pdp_views": 3518,
+        "atc": 363,
+        "checkouts": 82,
+        "cvr": 0.0012,
+        "aov": 138.18
       },
       {
         "date": "2026-04-05",
-        "sessions": 4466,
-        "pdp_views": 559,
-        "atc": 161,
+        "sessions": 280362,
+        "revenue": 59.99,
+        "purchases": 1,
+        "pdp_views": 2324,
+        "atc": 289,
+        "checkouts": 78,
+        "cvr": 0.0004,
+        "aov": 59.99
+      },
+      {
+        "date": "2026-04-06",
+        "sessions": 288741,
+        "revenue": 155.99,
+        "purchases": 2,
+        "pdp_views": 2430,
+        "atc": 241,
+        "checkouts": 61,
+        "cvr": 0.0007,
+        "aov": 78.0
+      },
+      {
+        "date": "2026-04-07",
+        "sessions": 307450,
+        "revenue": 113.99,
+        "purchases": 2,
+        "pdp_views": 2479,
+        "atc": 253,
+        "checkouts": 68,
+        "cvr": 0.0007,
+        "aov": 57.0
+      },
+      {
+        "date": "2026-04-08",
+        "sessions": 395865,
+        "revenue": 119.98,
+        "purchases": 2,
+        "pdp_views": 2824,
+        "atc": 274,
+        "checkouts": 88,
+        "cvr": 0.0005,
+        "aov": 59.99
+      },
+      {
+        "date": "2026-04-09",
+        "sessions": 232766,
+        "revenue": 119.98,
+        "purchases": 1,
+        "pdp_views": 1744,
+        "atc": 209,
         "checkouts": 47,
-        "purchases": 64,
-        "revenue": 4793.92
+        "cvr": 0.0004,
+        "aov": 119.98
+      },
+      {
+        "date": "2026-04-10",
+        "sessions": 327992,
+        "revenue": 110.99,
+        "purchases": 2,
+        "pdp_views": 2360,
+        "atc": 201,
+        "checkouts": 61,
+        "cvr": 0.0006,
+        "aov": 55.5
+      },
+      {
+        "date": "2026-04-11",
+        "sessions": 383621,
+        "revenue": 299.95,
+        "purchases": 3,
+        "pdp_views": 3162,
+        "atc": 289,
+        "checkouts": 83,
+        "cvr": 0.0008,
+        "aov": 100.0
+      },
+      {
+        "date": "2026-04-12",
+        "sessions": 434377,
+        "revenue": 59.99,
+        "purchases": 1,
+        "pdp_views": 3239,
+        "atc": 252,
+        "checkouts": 50,
+        "cvr": 0.0002,
+        "aov": 59.99
       }
     ]
   },
@@ -521,347 +620,220 @@
       {
         "id": "69b4735c829bd9726fcda490",
         "title": "Flavcity x Fermat",
-        "date": "2026-03-13",
-        "duration_seconds": 1806,
+        "date": "2026-03-13T19:58:03Z",
+        "duration_minutes": 30,
         "participants": [
-          "Will (will@shopflavcity.com)",
-          "Christy (christy@shopflavcity.com)",
-          "Mia DyBuncio (mia@fermatcommerce.com)"
+          "Mia DyBuncio (mia@fermatcommerce.com)",
+          "Will Matalene (will@shopflavcity.com)",
+          "Christy Hernandez (christy@shopflavcity.com)"
         ],
-        "summary": "FlavCity requested transition to month-to-month contract ($2K/month via Stripe) due to internal changes, with current contract expiring April 15. Mia confirmed the arrangement and announced her transition to Product team, with a new CSM to be introduced. Will expressed interest in exploring AI Search product.",
+        "summary": "FlavCity requested to transition their contract to month-to-month at $2,000/month via Stripe, as current agreement expires April 15. Mia confirmed FERMAT can accommodate. Mia also transitioning to product team and will introduce new CSM. Both parties agreed to terms.",
         "next_steps": [
-          "Reply to Christy's email with month-to-month details",
-          "Introduce new CSM to FlavCity team",
-          "Set up Stripe billing link"
+          "Reply to Christy's email with month-to-month agreement details",
+          "Introduce the new CSM to FlavCity team"
         ],
-        "url": "https://app.glyphic.ai/calls/69b4735c829bd9726fcda490"
+        "insights": "Contract downgrade from annual to month-to-month. Brand undergoing internal changes. Will (Head of Growth) expressed interest in AI Search product. Churn risk mitigated with flexible pricing.",
+        "glyphic_url": "https://app.glyphic.ai/calls/69b4735c829bd9726fcda490"
       },
       {
         "id": "69b1bfc9d98e5bea61355baf",
         "title": "FlavCity x Fermat Weekly",
-        "date": "2026-03-11",
-        "duration_seconds": 1159,
+        "date": "2026-03-11T18:58:03Z",
+        "duration_minutes": 19,
         "participants": [
-          "Christy (christy@shopflavcity.com)",
-          "Ryan Longo (ryan@chiefdetective.com)",
-          "Kaitlin Frye (kaitlin@fermatcommerce.com)",
           "Mia DyBuncio (mia@fermatcommerce.com)",
-          "Sammie Walker (sammie@eckodigitalmedia.com)",
-          "Will (will@shopflavcity.com)",
-          "Megan Hart (megan@shopflavcity.com)",
-          "Thi Tran (thi@shopflavcity.com)",
-          "Marie Leroux (marie@shopflavcity.com)",
-          "Travis Halff (travis@yall.co)",
-          "Eddie (eddie@chiefdetective.com)",
-          "Ryan Barry (ryan.barry@fermatcommerce.com)"
+          "Kaitlin Frye (kaitlin@fermatcommerce.com)",
+          "Christy Hernandez (christy@shopflavcity.com)",
+          "Ryan Longo (ryan@chiefdetective.com)"
         ],
-        "summary": "CSM handoff from Mia to Kaitlin Frye. Introduced Christy Hernandez (new D2C lead, started that week). Ad strategy shifted to full-price bags focusing on breakfast replacement and GLP1 themes. Discussed creating enhanced PDPs and listicle-style funnels aligned with winning ad headlines. TikTok agency contact also left recently.",
+        "summary": "Mia introduced Kaitlin Frye as new AM. Christy (new D2C lead) introduced herself. Ad strategy shifted from trial kits to full-price bags with breakfast replacement and GLP1 angles. Ryan to share marketing calendar and winning headlines for new funnel creation.",
         "next_steps": [
           "Kaitlin to schedule platform walkthrough with Christy via Slack",
-          "Ryan Longo to share marketing calendar and winning headlines",
-          "Build breakfast replacement and GLP1-themed funnels"
+          "Ryan to share marketing calendar and winning ad headlines",
+          "Create enhanced PDPs for breakfast replacement and GLP1 angles"
         ],
-        "url": "https://app.glyphic.ai/calls/69b1bfc9d98e5bea61355baf"
+        "insights": "Major stakeholder turnover: Mia leaving CSM role, Christy new at brand (1 week). TikTok agency contact also left. Strategy pivot to full-price products with GLP1/breakfast replacement angles. Cherry berry flavor launching soon.",
+        "glyphic_url": "https://app.glyphic.ai/calls/69b1bfc9d98e5bea61355baf"
       },
       {
         "id": "699cae2d487f1bc61d75bbf6",
         "title": "Fermat x FlavCity - Platform Walkthrough",
-        "date": "2026-02-23",
-        "duration_seconds": 998,
+        "date": "2026-02-23T19:28:04Z",
+        "duration_minutes": 17,
         "participants": [
           "Mia DyBuncio (mia@fermatcommerce.com)",
           "SarahJay Kucyk (sarah@verb.tech)"
         ],
-        "summary": "Platform walkthrough for SarahJay (TikTok agency contact from Verb.tech). Covered funnel builder, cloning, Pierre AI for product swaps, offers/scheduling, and A/B testing features. SarahJay's last day was that Friday -- introduced replacement Seth for handoff. Focused on building TikTok-specific PDPs for individual flavors.",
+        "summary": "Platform walkthrough for TikTok agency contact SarahJay. Covered funnel builder, cloning, Pierre AI agent, A/B testing, offers scheduling. SarahJay's last day was that Friday -- handed off to Seth.",
         "next_steps": [
-          "Review SarahJay's test funnel draft",
-          "Ensure TikTok naming convention for funnels",
-          "Onboard Seth as replacement contact"
+          "SarahJay to build test funnel for vanilla flavor",
+          "Mia to review draft",
+          "SarahJay to introduce replacement Seth"
         ],
-        "url": "https://app.glyphic.ai/calls/699cae2d487f1bc61d75bbf6"
+        "insights": "TikTok funnels being managed by external agency (TON Strategy/Verb.Tech). Key contact SarahJay departed same week. TikTok ads to collection pages dropping conversions -- decision fatigue issue.",
+        "glyphic_url": "https://app.glyphic.ai/calls/699cae2d487f1bc61d75bbf6"
       },
       {
         "id": "699ca6e25ecc0df412dab0d2",
         "title": "FlavCity x Fermat Weekly",
-        "date": "2026-02-23",
-        "duration_seconds": 930,
+        "date": "2026-02-23T18:58:04Z",
+        "duration_minutes": 16,
         "participants": [
-          "Ryan Longo (ryan@chiefdetective.com)",
           "Mia DyBuncio (mia@fermatcommerce.com)",
-          "Will (will@shopflavcity.com)",
+          "Ryan Longo (ryan@chiefdetective.com)",
           "Marie Leroux (marie@shopflavcity.com)",
           "Sammie Walker (sammie@eckodigitalmedia.com)",
           "Megan Hart (megan@shopflavcity.com)",
-          "Eddie (eddie@chiefdetective.com)",
-          "Ryan Barry (ryan.barry@fermatcommerce.com)",
-          "Thi Tran (thi@shopflavcity.com)",
-          "Travis Halff (travis@yall.co)"
+          "Thi Tran (thi@shopflavcity.com)"
         ],
-        "summary": "Regular weekly sync with full FlavCity and agency team. Discussed ongoing funnel optimization, subscription offer testing, and TikTok-specific funnel strategy with Chief Detective agency.",
+        "summary": "Weekly sync with FlavCity team and Chief Detective agency.",
         "next_steps": [],
-        "url": "https://app.glyphic.ai/calls/699ca6e25ecc0df412dab0d2"
-      },
-      {
-        "id": "6994c7076780dbe02779d090",
-        "title": "Fermat x FlavCity - Platform Walkthrough",
-        "date": "2026-02-17",
-        "duration_seconds": 1472,
-        "participants": [
-          "Mia DyBuncio (mia@fermatcommerce.com)",
-          "Ryan Longo (ryan@chiefdetective.com)"
-        ],
-        "summary": "Platform walkthrough for Ryan Longo from Chief Detective (FlavCity's agency partner). Covered funnel building, cloning, TikTok-specific PDP creation, and campaign strategy for FlavCity's flavor-specific funnels.",
-        "next_steps": [],
-        "url": "https://app.glyphic.ai/calls/6994c7076780dbe02779d090"
+        "insights": "Regular weekly cadence with multiple stakeholders from brand and agency.",
+        "glyphic_url": "https://app.glyphic.ai/calls/699ca6e25ecc0df412dab0d2"
       },
       {
         "id": "698a34060f182b533344339c",
         "title": "FlavCity x Fermat Weekly",
-        "date": "2026-02-09",
-        "duration_seconds": 1476,
+        "date": "2026-02-09T18:58:05Z",
+        "duration_minutes": 25,
         "participants": [
-          "Will Matalene (will@shopflavcity.com)",
-          "Ryan Longo (ryan@chiefdetective.com)",
           "Mia DyBuncio (mia@fermatcommerce.com)",
-          "Ryan Barry (ryan.barry@fermatcommerce.com)",
-          "Megan Hart (megan@shopflavcity.com)",
-          "Thi Tran (thi@shopflavcity.com)",
-          "Sammie Walker (sammie@eckodigitalmedia.com)",
-          "Marie Leroux (marie@shopflavcity.com)",
-          "Travis Halff (travis@yall.co)",
-          "Eddie (eddie@chiefdetective.com)"
+          "Will Matalene (will@shopflavcity.com)",
+          "Ryan Longo (ryan@chiefdetective.com)"
         ],
-        "summary": "Weekly sync with full team. Discussed onboarding Chief Detective agency, subscription offer A/B testing roadmap, and TikTok funnel expansion plans.",
+        "summary": "Weekly sync with Will and agency team.",
         "next_steps": [],
-        "url": "https://app.glyphic.ai/calls/698a34060f182b533344339c"
-      },
-      {
-        "id": "6977bf5f33a484da0a09bdf3",
-        "title": "FlavCity x Fermat Weekly",
-        "date": "2026-01-26",
-        "duration_seconds": 1566,
-        "participants": [
-          "Will Matalene (will@shopflavcity.com)",
-          "Sammie Walker (sammie@eckodigitalmedia.com)",
-          "Ryan Longo (ryan@chiefdetective.com)",
-          "Mia DyBuncio (mia@fermatcommerce.com)",
-          "Ryan Barry (ryan.barry@fermatcommerce.com)",
-          "Marie Leroux (marie@shopflavcity.com)",
-          "Travis Halff (travis@yall.co)",
-          "Megan Hart (megan@shopflavcity.com)",
-          "Thi Tran (thi@shopflavcity.com)",
-          "Eddie (eddie@chiefdetective.com)"
-        ],
-        "summary": "Weekly sync discussing onboarding Chief Detective agency to FERMAT, subscription testing plans, and campaign strategy.",
-        "next_steps": [],
-        "url": "https://app.glyphic.ai/calls/6977bf5f33a484da0a09bdf3"
-      },
-      {
-        "id": "69654ab0761c900cdd92f180",
-        "title": "FlavCity x Fermat Weekly",
-        "date": "2026-01-12",
-        "duration_seconds": 1647,
-        "participants": [
-          "Sammie Walker (sammie@eckodigitalmedia.com)",
-          "Marie Leroux (marie@shopflavcity.com)",
-          "Will Matalene (will@shopflavcity.com)",
-          "Mia DyBuncio (mia@fermatcommerce.com)",
-          "Megan Hart (megan@shopflavcity.com)",
-          "Ryan Barry (ryan.barry@fermatcommerce.com)",
-          "Thi Tran (thi@shopflavcity.com)"
-        ],
-        "summary": "Weekly sync covering subscription funnel strategy, starter kit inspiration, and offer testing roadmap after holiday break. Mia shared funnel examples for subscription acquisition and starter kits.",
-        "next_steps": [
-          "Share starter kit and subscription funnel examples",
-          "Finalize CRM subscription offer buildout"
-        ],
-        "url": "https://app.glyphic.ai/calls/69654ab0761c900cdd92f180"
-      },
-      {
-        "id": "694589b3db99d6d0192cc8b7",
-        "title": "FlavCity x Fermat Weekly",
-        "date": "2025-12-19",
-        "duration_seconds": 1143,
-        "participants": [
-          "Will Matalene (will@shopflavcity.com)",
-          "Ryan Barry (ryan.barry@fermatcommerce.com)",
-          "Mia DyBuncio (mia@fermatcommerce.com)",
-          "Marie Leroux (marie@shopflavcity.com)",
-          "Sammie Walker (sammie@eckodigitalmedia.com)",
-          "Thi Tran (thi@shopflavcity.com)",
-          "Megan Hart (megan@shopflavcity.com)"
-        ],
-        "summary": "Final weekly sync of 2025. Discussed BFCM performance and New Year campaign plans. Ryan Barry's last call before leaving FERMAT; Mia DyBuncio officially took over as CSM.",
-        "next_steps": [],
-        "url": "https://app.glyphic.ai/calls/694589b3db99d6d0192cc8b7"
+        "insights": "Consistent weekly call cadence maintained.",
+        "glyphic_url": "https://app.glyphic.ai/calls/698a34060f182b533344339c"
       }
     ],
-    "analysis": "FlavCity had consistent weekly calls from Dec 2025 through March 13, 2026. Last recorded call was March 13 (24 days ago) where the brand requested month-to-month transition at $2K/month with contract expiring April 15. Three CSM transitions have occurred: Ryan Barry left Dec 2025, Mia DyBuncio took over and then moved to Product team in March 2026, Kaitlin Frye was briefly introduced as replacement. Pulkit is now the assigned CSM as of late March. 9 calls recorded in Glyphic total. Key brand contacts: Will Matalene (Head of Growth), Christy Hernandez (new D2C lead since March), Marie Leroux (operations). Agency partners: Chief Detective (Ryan Longo, Eddie), Ecko Digital Media (Sammie Walker), Y'all (Travis Halff). TikTok agency contact SarahJay from Verb.tech departed in late February."
+    "analysis": {
+      "total_calls_found": 10,
+      "calls_last_30d": 2,
+      "calls_last_14d": 0,
+      "last_call_date": "2026-03-13",
+      "days_since_last_call": 31,
+      "call_cadence": "Was weekly, now lapsed for 31 days since CSM transition",
+      "key_themes": [
+        "Contract transition to month-to-month at $2,000/month (from annual)",
+        "CSM handoff: Mia to product team, Kaitlin Frye taking over",
+        "New D2C lead Christy Hernandez onboarding",
+        "Ad strategy pivot from trial kits to full-price bags with GLP1/breakfast replacement angles",
+        "TikTok agency contact SarahJay departed, handoff to Seth",
+        "Cherry berry new flavor launch upcoming",
+        "Will expressed interest in AI Search product"
+      ]
+    }
   },
   "calendar": {
     "past": [],
     "upcoming": [],
-    "analysis": "No FlavCity calendar events found between March 9 and June 7, 2026. Searched 'FlavCity', 'Shop FlavCity', and 'Flavcity Fermat' -- all returned zero results. The weekly sync cadence has lapsed since the CSM transition. A new recurring meeting needs to be established with the FlavCity team."
+    "analysis": "No FlavCity-specific calendar events found on Pulkit's calendar from Mar 14 to Jun 12. This brand was managed by Mia DyBuncio who transitioned to product team on ~Mar 11. Kaitlin Frye was introduced as new CSM but may also be transitioning. Pulkit reached out on Apr 6 as part of account re-engagement. No upcoming calls scheduled -- a call needs to be booked urgently."
   },
   "slack": {
     "messages": [
       {
         "date": "2026-04-06",
         "author": "Pulkit Srivastava",
-        "content": "First outreach message to FlavCity team about massive TikTok traffic across Butter Coffee, Cinnamon Roll, Chocolate funnels. Offered to walk through data and discuss strategy. Shared calendar link. (3 replies: Will confirmed traffic is intentional to avoid D2C unqualified traffic, asked for optimized TikTok LP examples. Christy asked to join the call. Will mentioned large TikTok Shop program planned for end of May.)"
+        "summary": "Pulkit reached out about massive TikTok traffic through Fermat funnels (millions of sessions). Offered to hop on a call to discuss strategy and share data. Included calendar booking link.",
+        "thread_replies": 8,
+        "latest_reply": "2026-04-09"
       },
       {
         "date": "2026-04-06",
         "author": "Mukul Varshney",
-        "content": "Joined the channel"
+        "summary": "Mukul joined the channel."
       },
       {
         "date": "2026-04-04",
-        "author": "Marie Leroux (brand)",
-        "content": "Working on new LP 'Upgrade to Subscription: Consistency Hook'. Asked about module ordering issues (avatar header firing out of order) and how to default product links to subscription. (9 replies: Pulkit answered both questions on Apr 6 -- disabled avatar header and provided PDP subscription default walkthrough with Loom video. Marie and Will discussed whether to set vanilla SKUs to subscription for all PDPs vs duplicating. Resolved to set vanilla SKUs to sub only.)"
+        "author": "Brand (likely Marie Leroux)",
+        "summary": "Working on new LP 'Upgrade to Subscription: Consistency Hook'. Asked about module ordering issues (avatar header firing out of order, avatar overlay stuck). Also asked how to default product links to subscription.",
+        "thread_replies": 9,
+        "latest_reply": "2026-04-07"
       },
       {
         "date": "2026-03-27",
-        "author": "FERMAT (bot)",
-        "content": "Joined the channel"
-      },
-      {
-        "date": "2026-03-27",
-        "author": "Pulkit Srivastava",
-        "content": "Joined the channel"
+        "author": "FERMAT bot + Pulkit",
+        "summary": "FERMAT bot and Pulkit joined the channel."
       },
       {
         "date": "2026-03-12",
-        "author": "Will (brand)",
-        "content": "Apologized for missing bi-weekly call, asked Mia for quick 15-min chat on Friday (9 replies in thread, led to the March 13 contract transition call)"
+        "author": "Brand (likely Will)",
+        "summary": "Apologized for missing TB (touch-base call). Asked for 15 min on Friday afternoon to chat.",
+        "thread_replies": 9,
+        "latest_reply": "2026-03-14"
       },
       {
         "date": "2026-03-07",
-        "author": "Will (brand)",
-        "content": "Introduced Christy Hernandez as new head of eCommerce, asked Mia to invite her to meetings and set up 1-on-1"
+        "author": "Brand (likely Will)",
+        "summary": "Introduced Christy Hernandez as new head of eCommerce. Asked Mia to invite her to meetings and set up 1-on-1.",
+        "thread_replies": 1
       },
       {
         "date": "2026-03-07",
         "author": "Mia DyBuncio",
-        "content": "Asked Will and Ryan Longo to push Monday meeting to Wednesday at 3pm ET due to travel"
+        "summary": "Asked to reschedule Monday meeting to Wednesday 3pm ET due to travel."
       },
       {
         "date": "2026-02-26",
         "author": "System",
-        "content": "Connor Simon joined the channel"
+        "summary": "Connor Simon joined the channel."
       },
       {
         "date": "2026-02-24",
-        "author": "Ryan Longo (agency)",
-        "content": "Was stuck underground in transit, unable to attend meeting"
+        "author": "Brand member",
+        "summary": "Stuck underground in transit, unable to attend call."
       },
       {
         "date": "2026-02-18",
-        "author": "Will (brand)",
-        "content": "Asked to add connor@chiefdetective.com and ryan@chiefdetective.com to channel"
-      },
-      {
-        "date": "2026-02-14",
-        "author": "Will (brand)",
-        "content": "Asked Mia to invite Nate Lee to channel"
-      },
-      {
-        "date": "2026-02-11",
-        "author": "Will (brand)",
-        "content": "Asked whether Amazon crawls FERMAT landing pages for price matching on promo SKUs -- wants to run promos on FERMAT only without AMZ price matching (3 replies)"
-      },
-      {
-        "date": "2026-01-27",
-        "author": "Mia DyBuncio",
-        "content": "Noticed Will went through AI Search onboarding, offered to review visibility score and discuss FERMAT capabilities"
-      },
-      {
-        "date": "2026-01-26",
-        "author": "Will (brand)",
-        "content": "Shared Chief Detective agency emails (ryan@chiefdetective.com, eddie@chiefdetective.com) and travis@yall.co for channel invite"
-      },
-      {
-        "date": "2026-01-14",
-        "author": "Mia DyBuncio",
-        "content": "Post-call follow-up sharing starter kit funnel examples (Act+Acre, Prymal, Henry Rose, Three Spirit, Cann) and subscription acquisition examples (Everyday Dose, Infinwell, Veracity, Beam, Humann)"
-      },
-      {
-        "date": "2026-01-13",
-        "author": "Will (brand)",
-        "content": "Shared CRM subscription offer buildout plan for Jan 19 launch with 4 test variants: Control 10%, A) 15%+free ship, B) 20%+free ship, C) 10%+free ship, D) 30% on two subscribed items"
-      },
-      {
-        "date": "2026-01-09",
-        "author": "Will (brand)",
-        "content": "Asked if dynamic product pages are an additional charge or can be turned on"
-      },
-      {
-        "date": "2025-12-23",
-        "author": "Mia DyBuncio",
-        "content": "Holiday coverage message: AM team on modified schedule Dec 29-Jan 2, urgent contact Isabel O'Keefe. Cancelled Dec 30 meeting."
-      },
-      {
-        "date": "2025-12-17",
-        "author": "Ryan Barry",
-        "content": "Farewell message announcing last day at FERMAT, introduced Mia DyBuncio as new CSM"
+        "author": "Brand (likely Will)",
+        "summary": "Asked to add Connor and Ryan from Chief Detective agency to the channel."
       }
     ],
-    "analysis": "Slack channel is now actively re-engaging as of April 6. Pulkit joined the channel March 27 and sent his first outreach on April 6, receiving fast responses from Will (18 min) and Christy (same day). Marie is actively building new funnels and asking technical questions (subscription LP, module ordering). Key engagement pattern: Will is the primary interlocutor on strategic matters (contract, agency coordination, Amazon pricing questions, AI Search), Marie handles funnel building and technical implementation, Christy is new and asking to join calls. The channel was quiet from mid-March through early April during the CSM transition gap. Historical activity shows strong engagement from Will with multiple channel invite requests and strategic questions. Agency partners Chief Detective and Y'all are connected in the channel."
+    "analysis": {
+      "channel_id": "C092VNA8RHU",
+      "channel_name": "#fermat-x-flavcity",
+      "total_messages_retrieved": 20,
+      "last_message_date": "2026-04-06",
+      "days_since_last_message": 7,
+      "last_brand_message_date": "2026-04-04",
+      "days_since_last_brand_message": 9,
+      "pulkit_messages_14d": 1,
+      "brand_messages_14d": 2,
+      "latest_thread_activity": "2026-04-09 (reply in Pulkit's TikTok traffic thread)",
+      "key_observations": [
+        "Pulkit joined channel on Mar 27 as part of CSM transition/re-engagement",
+        "Brand actively building new funnels (Subscription Consistency Hook LP) as of Apr 4",
+        "Pulkit's TikTok outreach on Apr 6 generated 8-reply thread through Apr 9 -- good engagement",
+        "Marie Leroux asking technical questions about module behavior -- active platform user",
+        "Brand asking about subscription default links -- revenue optimization interest",
+        "Christy Hernandez (new eCommerce head) introduced in channel on Mar 7"
+      ]
+    }
   },
   "email": {
     "messages": [
       {
         "date": "2026-04-06",
         "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "to": "Will Matalene <will@shopflavcity.com>, Christy Hernandez <christy@shopflavcity.com>, Marie Leroux <marie@shopflavcity.com>",
-        "cc": "Mukul Varshney <mukul@fermatcommerce.com>",
+        "to": "Will Matalene, Christy Hernandez, Marie Leroux",
+        "cc": "Mukul Varshney",
         "subject": "FlavCity x FERMAT -- Loving the TikTok Traffic, Let's Chat Strategy",
-        "summary": "Pulkit's first email outreach to FlavCity. Highlighted massive TikTok session volume (millions) across Butter Coffee, Cinnamon Roll, Chocolate, Mint Chocolate funnels. Noted FlavCity is driving more traffic than every other brand on FERMAT combined. Flagged low CVR on TikTok funnels vs higher-converting Spring 30 funnel. Proposed call to discuss optimization opportunities. Shared calendar scheduling link.",
-        "status": "sent",
-        "thread_id": "19d628e836af93b7"
+        "snippet": "Noticed massive TikTok traffic through Fermat funnels. Millions of sessions across Butter Coffee, Cinnamon Roll, Chocolate and other flavor funnels. Offered to discuss strategy and optimization."
       }
     ],
-    "analysis": "Pulkit sent his first email outreach to FlavCity on April 6 (same day as Slack message). Email went to Will, Christy, and Marie with Mukul CC'd. The email mirrors the Slack message content about TikTok traffic volume and CVR optimization opportunity. No email reply received yet as of April 6. No other email threads found in the last 60 days, indicating communication has historically been Slack and call-driven. The email was a coordinated outreach alongside the Slack message as Pulkit's opening engagement as the new CSM."
-  },
-  "granola": {
-    "meetings": [],
-    "mentions": [
-      {
-        "meeting_id": "7a664311-762d-44aa-ad91-e739edbcfe4f",
-        "meeting_title": "CSM Standup",
-        "date": "2026-04-06",
-        "context": "FlavCity discussed during CSM Standup. Main issues: massive TikTok session volume with near-zero CVR, suspected organic/viral traffic not paid. Billing discrepancy flagged -- brand on $2,000 plan but internal records show $1,500. Team decided to first understand the traffic source, then address the cost conversation. Pulkit to use Will's request to connect as an opening."
-      },
-      {
-        "meeting_id": "2b1e9704-d878-447c-a482-e01966514c29",
-        "meeting_title": "CSM Standup",
-        "date": "2026-03-16",
-        "context": "FlavCity onboarding discussed. Calendar invite and platform demo to be scheduled. Monthly check-ins preferred over bi-weekly. Payment processing still pending."
-      },
-      {
-        "meeting_id": "97f4b1ec-77cc-4f4e-93e6-2dc7a325c957",
-        "meeting_title": "CSM Accounts Status- Weekly Check-in",
-        "date": "2026-03-30",
-        "context": "Pulkit tasked to get update from Mia on FlavCity and send message + email to the brand."
-      }
-    ],
-    "analysis": "No dedicated FlavCity meetings recorded in Granola (meetings with FlavCity contacts were pre-Pulkit era and recorded in Glyphic). FlavCity was discussed in 3 internal meetings: Apr 6 CSM Standup (traffic anomaly, billing discrepancy, outreach plan), Mar 30 Weekly Check-in (Pulkit assigned to reach out), Mar 16 CSM Standup (onboarding planning, monthly cadence preference). The team is treating FlavCity as a re-engagement project with a careful approach to the billing/cost conversation."
-  },
-  "notes": {
-    "contract": "Current annual contract expires April 15, 2026. Brand requested month-to-month transition at $2,000/month via Stripe (confirmed in March 13 call). Internal billing discrepancy: plan shows $2,000 but internal records show $1,500.",
-    "key_contacts": {
-      "will_matalene": "Head of Growth (will@shopflavcity.com) -- primary strategic contact, highly responsive on Slack",
-      "christy_hernandez": "Head of eCommerce (christy@shopflavcity.com) -- new hire as of March 2026, interested in joining TikTok strategy calls",
-      "marie_leroux": "Operations/Funnel Builder (marie@shopflavcity.com) -- actively building funnels, handles technical implementation",
-      "megan_hart": "Team member (megan@shopflavcity.com)",
-      "thi_tran": "Team member (thi@shopflavcity.com)"
-    },
-    "agency_partners": {
-      "chief_detective": "Ryan Longo (ryan@chiefdetective.com), Eddie (eddie@chiefdetective.com), Connor Simon (connor@chiefdetective.com) -- primary media buying agency",
-      "ecko_digital_media": "Sammie Walker (sammie@eckodigitalmedia.com)",
-      "yall": "Travis Halff (travis@yall.co)"
-    },
-    "csm_history": "Ryan Barry (CSM until Dec 2025) -> Mia DyBuncio (CSM Dec 2025 - Mar 2026, moved to Product) -> Kaitlin Frye (brief handoff in March) -> Pulkit Srivastava (current CSM, joined channel Mar 27, first outreach Apr 6)",
-    "strategic_context": "FlavCity is a health-focused food/beverage brand with strong TikTok presence. Massive organic TikTok traffic driving millions of sessions through flavor-specific funnels (Butter Coffee, Cinnamon Roll, Chocolate, Mint Chocolate, Vanilla). Traffic is intentional per Will -- redirected from D2C to avoid unqualified traffic. Large TikTok Shop program planned for end of May. Ad strategy shifted from trial kits to full-price bags with GLP1/breakfast replacement angles. AI Search onboarding completed in January. Subscription offer testing was planned but status unclear post-CSM transitions."
+    "analysis": {
+      "total_emails_30d": 1,
+      "last_email_date": "2026-04-06",
+      "days_since_last_email": 7,
+      "pulkit_emails_14d": 1,
+      "brand_replies_detected": 0,
+      "key_observations": [
+        "Only 1 email found in last 30 days -- Pulkit's initial outreach on Apr 6",
+        "No brand reply detected via email -- brand engagement happening in Slack thread instead",
+        "Email included cc to Mukul (Pulkit's manager) for visibility",
+        "Email sent same day as Slack message -- multi-channel outreach strategy"
+      ]
+    }
   }
 }

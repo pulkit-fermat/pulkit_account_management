@@ -1,7 +1,7 @@
 {
   "brand_id": "ab6fc1e8-f245-4344-902c-b60388575aca",
   "brand_name": "FOND Regenerative",
-  "last_updated": "2026-04-06T18:45:00.000000Z",
+  "last_updated": "2026-04-13T00:00:00Z",
   "health": {
     "score": 4,
     "status": "red",
@@ -17,54 +17,39 @@
     },
     "signals": [
       {
+        "signal": "CRITICAL: Zero revenue in last 30 days - only $92.50 total revenue across entire 45-day window (single purchase on Mar 13)",
         "type": "negative",
-        "text": "Zero revenue and zero purchases across all recent periods (7d, 15d) -- 94 sessions in 7d with 0% CVR",
-        "time": "2026-04-06"
+        "date": "2026-04-12"
       },
       {
+        "signal": "Account marked as cancelled in internal CSM weekly check-in (Granola notes, Apr 6)",
         "type": "negative",
-        "text": "Zero email engagement in last 90 days -- only email found is a Glyphic KT summary from Feb 23, no direct brand correspondence",
-        "time": "2026-04-06"
+        "date": "2026-04-06"
       },
       {
+        "signal": "No calls since Jan 28 (74 days) - last call was 'FOND Bone Broth <> FERMAT Launch Weekly' managed by Talia Cohen",
         "type": "negative",
-        "text": "No calls since Jan 28 (68+ days ago) -- all Glyphic calls were with Talia, zero with Pulkit. Brand never booked intro call despite Calendly link",
-        "time": "2026-04-06"
+        "date": "2026-01-28"
       },
       {
+        "signal": "No upcoming calendar events scheduled - zero future brand touchpoints",
         "type": "negative",
-        "text": "Slack channel silent since Mar 13 (24 days) -- video compression question was the only brand message since GM handoff",
-        "time": "2026-03-13"
+        "date": "2026-04-13"
       },
       {
+        "signal": "Last brand Slack message was Mar 13 asking about video compression on FERMAT - no response thread resolution visible",
         "type": "negative",
-        "text": "No upcoming calendar events found for FOND through Jun 7 -- no bi-weekly or weekly calls scheduled",
-        "time": "2026-04-06"
+        "date": "2026-03-13"
       },
       {
+        "signal": "GM transition from Talia Cohen to Pulkit on Feb 25 - brand had limited platform independence per Granola handoff notes",
+        "type": "neutral",
+        "date": "2026-02-25"
+      },
+      {
+        "signal": "Zero emails found in last 30 days - complete email silence between CSM and brand",
         "type": "negative",
-        "text": "Granola confirms account was cancelled -- brand churned without providing a reason",
-        "time": "2026-04-06"
-      },
-      {
-        "type": "warning",
-        "text": "Only 1 purchase ($92.50) in entire 45d period (Feb 21 - Apr 5) across 1,010 sessions -- 0.10% purchase CVR",
-        "time": "2026-04-06"
-      },
-      {
-        "type": "negative",
-        "text": "Brand team (Chelsea, Kendall, Amy) were highly active with Talia (4 completed calls Jan 7-28) but engagement dropped to zero after Pulkit transition on Feb 25",
-        "time": "2026-02-25"
-      },
-      {
-        "type": "warning",
-        "text": "Facebook connection was incomplete per Granola notes, explaining missing ad spend data throughout the account lifecycle",
-        "time": "2026-04-06"
-      },
-      {
-        "type": "info",
-        "text": "Very small brand (~$360K annual GMV), lean team that relied heavily on Talia to build funnels -- inexperienced with platform",
-        "time": "2026-04-06"
+        "date": "2026-04-12"
       }
     ]
   },
@@ -73,7 +58,7 @@
       "ad_spend": null,
       "revenue": 0.0,
       "cvr": 0.0,
-      "sessions": 10,
+      "sessions": 7,
       "roas": null,
       "cpa": null,
       "purchases": 0,
@@ -86,12 +71,12 @@
       "ad_spend": null,
       "revenue": 0.0,
       "cvr": 0.0,
-      "sessions": 26,
+      "sessions": 16,
       "roas": null,
       "cpa": null,
       "purchases": 0,
       "aov": 0,
-      "pdp_views": 0,
+      "pdp_views": 1,
       "atc": 0,
       "checkouts": 0
     },
@@ -99,7 +84,7 @@
       "ad_spend": null,
       "revenue": 0.0,
       "cvr": 0.0,
-      "sessions": 94,
+      "sessions": 62,
       "roas": null,
       "cpa": null,
       "purchases": 0,
@@ -112,450 +97,547 @@
       "ad_spend": null,
       "revenue": 0.0,
       "cvr": 0.0,
-      "sessions": 170,
+      "sessions": 164,
       "roas": null,
       "cpa": null,
       "purchases": 0,
       "aov": 0,
       "pdp_views": 3,
-      "atc": 1,
-      "checkouts": 1
+      "atc": 0,
+      "checkouts": 0
     },
     "30d": {
       "ad_spend": null,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "sessions": 393,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 12,
+      "atc": 1,
+      "checkouts": 1
+    },
+    "45d": {
+      "ad_spend": null,
       "revenue": 92.5,
-      "cvr": 0.2252,
-      "sessions": 444,
+      "cvr": 0.1721,
+      "sessions": 581,
       "roas": null,
       "cpa": null,
       "purchases": 1,
       "aov": 92.5,
-      "pdp_views": 23,
-      "atc": 3,
+      "pdp_views": 26,
+      "atc": 4,
       "checkouts": 2
-    },
-    "45d": {
-      "ad_spend": null,
-      "revenue": 388.5,
-      "cvr": 0.3413,
-      "sessions": 879,
-      "roas": null,
-      "cpa": null,
-      "purchases": 3,
-      "aov": 129.5,
-      "pdp_views": 71,
-      "atc": 11,
-      "checkouts": 5
     },
     "daily": [
       {
-        "date": "2026-02-21",
-        "sessions": 99,
-        "pdp_views": 11,
-        "atc": 5,
-        "checkouts": 2,
-        "purchases": 2,
-        "revenue": 296
-      },
-      {
-        "date": "2026-02-22",
-        "sessions": 56,
-        "pdp_views": 3,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-23",
-        "sessions": 38,
-        "pdp_views": 2,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-24",
-        "sessions": 52,
-        "pdp_views": 6,
-        "atc": 1,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-25",
-        "sessions": 30,
-        "pdp_views": 15,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
         "date": "2026-02-26",
         "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-02-27",
         "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-02-28",
         "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-01",
         "sessions": 16,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-02",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-03",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-04",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-05",
         "sessions": 30,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-06",
         "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 1,
         "atc": 1,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-07",
         "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-08",
         "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-09",
         "sessions": 12,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-10",
         "sessions": 22,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-11",
         "sessions": 19,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-12",
         "sessions": 14,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-13",
         "sessions": 38,
+        "revenue": 92.5,
+        "purchases": 1,
+        "cvr": 2.6316,
+        "aov": 92.5,
         "pdp_views": 7,
         "atc": 2,
-        "checkouts": 1,
-        "purchases": 1,
-        "revenue": 92.5
+        "checkouts": 1
       },
       {
         "date": "2026-03-14",
         "sessions": 12,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-15",
         "sessions": 18,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-16",
         "sessions": 34,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-17",
         "sessions": 34,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-18",
         "sessions": 12,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-19",
         "sessions": 16,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-20",
         "sessions": 15,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-21",
         "sessions": 20,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-22",
         "sessions": 13,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-23",
         "sessions": 8,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-24",
         "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-25",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-26",
         "sessions": 9,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 1,
         "atc": 1,
-        "checkouts": 1,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 1
       },
       {
         "date": "2026-03-27",
         "sessions": 17,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-28",
         "sessions": 11,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-29",
         "sessions": 8,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-30",
         "sessions": 19,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-31",
         "sessions": 17,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-01",
         "sessions": 11,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-02",
         "sessions": 21,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-03",
         "sessions": 12,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-04",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-05",
         "sessions": 10,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-06",
+        "sessions": 18,
+        "revenue": 0,
         "purchases": 0,
-        "revenue": 0
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-07",
+        "sessions": 8,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-08",
+        "sessions": 11,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-09",
+        "sessions": 9,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-10",
+        "sessions": 9,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-12",
+        "sessions": 7,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
       }
-    ],
-    "data_note": "FERMAT metrics API token expired during this refresh. Daily data and period sums retained from prior pull (2026-04-06T06:25:35Z). All figures are from the FERMAT API -- zero hallucination."
+    ]
   },
   "calls": {
     "recent": [
       {
         "id": "697a84d6d3dfffeedd52c569",
-        "title": "FOND Bone Broth <> FERMÀT | Launch Weekly",
+        "title": "FOND Bone Broth <> FERMAT | Launch Weekly",
         "date": "2026-01-28T21:32:21Z",
         "duration_seconds": 1132,
         "status": "completed",
-        "csm": "Talia Cohen",
         "participants": [
           "Talia Cohen",
           "Kendall Harris",
@@ -564,24 +646,18 @@
           "Nick Melcher",
           "Josh White"
         ],
-        "summary": "Kendall raised a funnel getting high traffic from a viral tallow video but low conversions. Talia added founder Alysa Seeland's name, implemented sticky nav bar, and added grid shop CTA. Discussed capitalizing on competitor distrust in tallow industry. Talia recommended increasing ad spend.",
-        "next_steps": [
-          "Add founder name (Alysa Seeland) to funnel",
-          "Implement sticky nav bar with anchor points",
-          "Add 'Shop more FOND' grid CTA at bottom",
-          "Follow up in Slack re: increasing ad spend",
-          "Review new funnels as FOND team creates them"
-        ],
-        "glyphic_url": "https://app.glyphic.ai/calls/697a84d6d3dfffeedd52c569",
-        "recording_url": "https://maverick-calls-prod.s3-accelerate.amazonaws.com/video/66b354bc1ca036530b3cc4a5/7d84e5ea-4e0f-457c-beae-df16bd724fd9.mp4?AWSAccessKeyId=AKIAZELYJAGB46BCH7AS&Signature=skySvtva55CZacgFe6f0ZrBINfE%3D&Expires=1775737361"
+        "companies": [
+          "fondregenerative.com",
+          "fondbonebroth.com",
+          "melch.media"
+        ]
       },
       {
         "id": "69714a5d50ca90912978beaf",
-        "title": "FOND Bone Broth <> FERMÀT | Launch Weekly",
+        "title": "FOND Bone Broth <> FERMAT | Launch Weekly",
         "date": "2026-01-21T21:30:01Z",
         "duration_seconds": 1279,
         "status": "completed",
-        "csm": "Talia Cohen",
         "participants": [
           "Chelsea K",
           "Kendall Harris",
@@ -590,23 +666,18 @@
           "Nick Melcher",
           "Josh White"
         ],
-        "summary": "Talia reviewed 'Tallow for Fat Hormones' funnel recommendations: fixed hyperlinks to stay in FERMAT experience for tracking, introduced nav bar and grid shop features. FOND team discussed upcoming shiitake funnel and video funnel for foundational nourishment bundle. Kendall clarified how to make funnels live (via forever links + traffic).",
-        "next_steps": [
-          "Review shiitake funnel and send cloned feedback",
-          "Watch inspirational video and give optimization feedback",
-          "Chelsea to capture lifestyle B-roll",
-          "Kendall to build additional flavor funnels"
-        ],
-        "glyphic_url": "https://app.glyphic.ai/calls/69714a5d50ca90912978beaf",
-        "recording_url": "https://maverick-calls-prod.s3-accelerate.amazonaws.com/video/66b354bc1ca036530b3cc4a5/3c361f59-a068-4213-ac05-9d77be525d36.mp4?AWSAccessKeyId=AKIAZELYJAGB46BCH7AS&Signature=z2cdo0yaDXbbFzoVjyelY2WPuC8%3D&Expires=1775737363"
+        "companies": [
+          "fondregenerative.com",
+          "fondbonebroth.com",
+          "melch.media"
+        ]
       },
       {
         "id": "696810c895ce44fd83b17ffa",
-        "title": "FOND Bone Broth <> FERMÀT | Launch Weekly",
+        "title": "FOND Bone Broth <> FERMAT | Launch Weekly",
         "date": "2026-01-14T21:30:33Z",
         "duration_seconds": 1481,
         "status": "completed",
-        "csm": "Talia Cohen",
         "participants": [
           "Amy",
           "Chelsea K",
@@ -615,22 +686,18 @@
           "Nick Melcher",
           "Josh White"
         ],
-        "summary": "Chelsea K's first call as new creative strategist -- Talia gave comprehensive platform walkthrough covering funnels, PDPs, AB testing, split testing, forever links, bundle builder, analytics, and Pierre AI chatbot. Amy outlined strategy: expand into broth listicles, recipe funnels, custom bundles. Chelsea to handle creative, Kendall execution.",
-        "next_steps": [
-          "Send help guides and platform literature",
-          "Be available on Slack for questions",
-          "Review funnels and provide feedback"
-        ],
-        "glyphic_url": "https://app.glyphic.ai/calls/696810c895ce44fd83b17ffa",
-        "recording_url": "https://maverick-calls-prod.s3-accelerate.amazonaws.com/video/66b354bc1ca036530b3cc4a5/8cece8aa-640b-42a1-9e90-c7f0b04789bf.mp4?AWSAccessKeyId=AKIAZELYJAGB46BCH7AS&Signature=GoZb8XMAcbBhuVnRJgx9D5hzgoM%3D&Expires=1775737365"
+        "companies": [
+          "fondregenerative.com",
+          "fondbonebroth.com",
+          "melch.media"
+        ]
       },
       {
         "id": "695edd3bdc494849a4747a96",
-        "title": "FOND Bone Broth <> FERMÀT | Launch Weekly",
+        "title": "FOND Bone Broth <> FERMAT | Launch Weekly",
         "date": "2026-01-07T22:01:03Z",
         "duration_seconds": 1431,
         "status": "completed",
-        "csm": "Talia Cohen",
         "participants": [
           "Kendall Harris",
           "Talia Cohen",
@@ -638,160 +705,87 @@
           "Amy Miller",
           "Nick Melcher"
         ],
-        "summary": "Talia walked through optimized tallow funnel with Kendall: improved education, reduced scrolling fatigue, strategic CTA placement, standalone FAQ section, product grid for cross-merchandising, pulled-out reviews section. Amy approved running with new version. Planned AB test against site. Discussed using funnel as template for beauty/collagen/broth funnels.",
-        "next_steps": [
-          "Get tallow funnel live within the week",
-          "Review additional funnels for beauty and collagen",
-          "Use optimized funnel as template for future builds"
+        "companies": [
+          "fondregenerative.com",
+          "fondbonebroth.com",
+          "melch.media"
+        ]
+      },
+      {
+        "id": "690bc4dccf3b576e5c712aab",
+        "title": "FOND Bone Broth <> FERMAT | Launch Weekly",
+        "date": "2025-11-05T21:30:39Z",
+        "duration_seconds": 730,
+        "status": "completed",
+        "participants": [
+          "Amy Miller",
+          "Talia Cohen",
+          "Josh White",
+          "Nick Melcher",
+          "Kendall Harris"
         ],
-        "glyphic_url": "https://app.glyphic.ai/calls/695edd3bdc494849a4747a96",
-        "recording_url": "https://maverick-calls-prod.s3-accelerate.amazonaws.com/video/66b354bc1ca036530b3cc4a5/fbc34057-d342-4985-8c8d-bc0a314e690f.mp4?AWSAccessKeyId=AKIAZELYJAGB46BCH7AS&Signature=8rEMkzf8X%2FJuWzlv9Alj7CLMPsw%3D&Expires=1775737367"
+        "companies": [
+          "fondregenerative.com",
+          "fondbonebroth.com",
+          "melch.media"
+        ]
       }
     ],
-    "analysis": "4 completed weekly calls found, all from January 2026, all led by Talia Cohen (previous CSM). Zero calls with Pulkit (current CSM). Last call was Jan 28, 2026 -- 68 days ago. Brand had strong weekly cadence with Talia but engagement dropped to zero after GM transition on Feb 25. Key contacts: Kendall Harris (Digital Marketing Manager), Amy Miller (Business Owner), Chelsea K (Creative Strategist), Josh White, Nick Melcher (agency, melch.media). Calls were focused on funnel optimization, new feature rollouts (nav bar, grid shop), and building flavor-specific funnels. Churn risk was flagged by Glyphic as 'Low Product Adoption' and 'Stakeholder Turnover'."
+    "analysis": "All 5 calls were with previous GM Talia Cohen (Oct 2025-Jan 2026). No calls recorded since Jan 28, 2026. Account confirmed cancelled — no active call engagement."
   },
   "calendar": {
-    "past": [],
     "upcoming": [],
-    "analysis": "Zero calendar events found for FOND between Mar 9 and Jun 7, 2026. No past meetings and no upcoming calls scheduled. The weekly 'FOND Bone Broth <> FERMÀT | Launch Weekly' cadence that existed under Talia was never re-established after the GM transition."
+    "past": [],
+    "total_events": 0,
+    "next_meeting": null
   },
   "slack": {
-    "messages": [
+    "channel_id": "C09GBN46A68",
+    "channel_name": "#fermat-x-fond",
+    "last_message_date": "2026-03-13",
+    "last_message_author": "Brand (unknown user)",
+    "last_message_preview": "Do you have an idea why videos compress on Fermat?",
+    "messages_14d": 0,
+    "brand_messages_14d": 0,
+    "csm_messages_14d": 0,
+    "recent_messages": [
       {
-        "user": "Kendall Harris",
-        "text": "Hi! Pulkit - Do you have an idea why videos compress on Fermat? [attached: IMG_7524.PNG, Screen Shot 2026-03-13 at 9.44.15 AM.png]",
-        "timestamp": "2026-03-13T20:17:30+05:30",
-        "channel": "fermat-x-fond",
-        "thread_reply": "Pulkit responded within 10 min explaining adaptive video quality based on network speed"
+        "date": "2026-03-13",
+        "author": "Brand User",
+        "preview": "Do you have an idea why videos compress on Fermat? (with screenshots attached)"
       },
       {
-        "user": "Pulkit Srivastava",
-        "text": "Hey FOND team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call and get to know everyone. Feel free to grab some time on my calendar.",
-        "timestamp": "2026-02-25T20:46:07+05:30",
-        "channel": "fermat-x-fond",
-        "thread_reply": "Two brand members responded positively: 'Looking forward to meeting you!' and 'great to meet you! Looking forward to connecting' -- but no call was ever booked"
+        "date": "2026-02-25",
+        "author": "Pulkit Srivastava",
+        "preview": "Hey FOND team! I'm Pulkit, your new GM here at FERMAT..."
       },
       {
-        "user": "Talia Cohen",
-        "text": "Hey FOND team! I'm reaching out with some bittersweet but exciting news -- later this week I'll be transitioning into a new role on our Enterprise team here at FERMÀT. I'm thrilled to introduce Pulkit.",
-        "timestamp": "2026-02-25T19:30:15+05:30",
-        "channel": "fermat-x-fond",
-        "thread_reply": "4 replies with warm reception from brand team members"
+        "date": "2026-02-25",
+        "author": "Talia Cohen",
+        "preview": "Hey FOND team! I'm reaching out with some bittersweet but exciting news - transitioning Pulkit as new GM..."
       },
       {
-        "user": "Unknown (likely Chelsea or Kendall)",
-        "text": "I think I would love your insights on a different style recipe video funnel. I have 2 created (swedish meatballs & filet mignon). Could you build an Egg Drop Soup recipe funnel?",
-        "timestamp": "2026-02-18T21:15:19+05:30",
-        "channel": "fermat-x-fond"
+        "date": "2026-02-18",
+        "author": "Brand User",
+        "preview": "I think I would love your insights on a different style recipe video funnel..."
       },
       {
-        "user": "Talia Cohen",
-        "text": "Great, thanks all! Chelsea and Kendall - I don't believe I saw any funnels come across my way. Was there anything you were working on?",
-        "timestamp": "2026-02-18T20:55:46+05:30",
-        "channel": "fermat-x-fond"
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "[Call recap] Great chat today! Sharing below a quick recap of what we covered: Tallow for Fat Hormones Funnel recommendations, upcoming funnels discussed (shiitake, foundational nourishment bundle), next steps assigned.",
-        "timestamp": "2026-01-22T04:04:48+05:30",
-        "channel": "fermat-x-fond"
-      },
-      {
-        "user": "Unknown (likely Kendall)",
-        "text": "Hi Talia! Our funnel 'how to know your tallow can be trusted' is getting some good traction due to another company going viral about the tallow industry. Can you take another look and make edits to really get people converting?",
-        "timestamp": "2026-01-28T20:55:04+05:30",
-        "channel": "fermat-x-fond"
-      }
-    ],
-    "analysis": "Channel #fermat-x-fond (C09GBN46A68) has 20 messages visible. Last brand message: Mar 13 (video compression question from Kendall, Pulkit replied within 10 min). Last Pulkit message: Feb 25 (intro message). Last Talia message: Feb 25 (handoff). No messages from brand team since Mar 13 -- 24 days of silence. Brand was active with Talia (call recaps, funnel requests, scheduling) but engagement dropped completely post-transition. Pulkit's intro was warmly received but the brand never booked the offered Calendly call. The only post-handoff interaction was the video compression question."
-  },
-  "email": {
-    "messages": [
-      {
-        "subject": "Talia / Pulkit Accounts KT summary is ready",
-        "from": "Glyphic AI <noreply@glyphic.ai>",
-        "to": "pulkit@fermatcommerce.com",
-        "date": "2026-02-23",
-        "snippet": "Find out some key insights... (automated Glyphic KT summary for account transfer)",
-        "is_brand_correspondence": false
-      }
-    ],
-    "analysis": "Zero direct email correspondence with FOND brand contacts found in last 90 days. The only email matching 'FOND' was an automated Glyphic KT summary from Feb 23. No outreach emails from Pulkit to FOND team, no emails from FOND brand contacts (Amy, Kendall, Chelsea, Josh) to Pulkit. Complete email silence since account transfer."
-  },
-  "granola": {
-    "meetings": [],
-    "analysis": "No Granola meetings found specifically for FOND Regenerative. Granola's query engine confirmed: FOND was one of 4 accounts transferred from Talia to Pulkit in Feb 2026. The account was later cancelled without providing a reason. Key context from Granola: very small brand (~$360K annual GMV), lean team requiring significant support, team relied heavily on Talia to build funnels, inexperienced with platform and landing page best practices, Facebook connection was incomplete (explains missing ad spend data), used Meta/SMS/email channels in small bursts, had already opted into contract with no near-term renewal concerns at time of transfer."
-  },
-  "contacts": {
-    "brand_team": [
-      {
-        "name": "Amy Miller",
-        "email": "amy@fondregenerative.com",
-        "role": "Business Owner / Founder",
-        "notes": "Primary decision-maker, directs strategy, approved funnel designs"
-      },
-      {
-        "name": "Kendall Harris",
-        "email": "kendall@fondbonebroth.com",
-        "role": "Digital Marketing Manager",
-        "notes": "Primary contact for calls, handles funnel execution, does not control ad spend decisions"
-      },
-      {
-        "name": "Chelsea K",
-        "email": "creativebychelsea@gmail.com",
-        "role": "Creative Strategist (Paid Media)",
-        "notes": "Joined team Jan 2026, based in Dripping Springs TX, handles creative ideation and strategy"
-      },
-      {
-        "name": "Josh White",
-        "email": "josh@fondregenerative.com",
-        "role": "Team Member",
-        "notes": "Appears on calls but minimal direct interaction"
-      },
-      {
-        "name": "Nick Melcher",
-        "email": "nick@melch.media",
-        "role": "Agency / Media Partner (Melch Media)",
-        "notes": "External agency partner, appears on most calls"
-      }
-    ],
-    "fermat_team": [
-      {
-        "name": "Talia Cohen",
-        "email": "talia@fermatcommerce.com",
-        "role": "Previous CSM (now Enterprise)",
-        "notes": "Managed account through Jan 28. Strong relationship with brand team. Transitioned Feb 25."
-      },
-      {
-        "name": "Pulkit Srivastava",
-        "email": "pulkit@fermatcommerce.com",
-        "role": "Current CSM",
-        "notes": "Took over Feb 25. Posted intro in Slack. Responded to video compression question Mar 13. No calls held with brand."
+        "date": "2026-02-18",
+        "author": "Talia Cohen",
+        "preview": "Great, thanks all! Chelsea and Kendall - was there anything you were working on?"
       }
     ]
   },
-  "brand_profile": {
-    "domain": "fondregenerative.com",
-    "alt_domain": "fondbonebroth.com",
-    "products": [
-      "Beef Tallow (various flavors)",
-      "Bone Broth",
-      "Tallow Skincare",
-      "Bundles (Foundational Nourishment Bundle)",
-      "Duck Fat"
-    ],
-    "annual_gmv": "$360,000 (approximate, per Granola notes)",
-    "channels": [
-      "Meta",
-      "SMS",
-      "Email"
-    ],
-    "platform": "Shopify",
-    "segment": "Food and Beverage / DTC / Health and Wellness",
-    "founder": "Alysa Seeland",
-    "crm_deal_id": "006Rm00000giNrxIAE",
-    "customer_stage": "Churned",
-    "facebook_connected": false,
-    "notes": "Very small brand that relied heavily on CSM for funnel building. Team was getting more self-sufficient with Chelsea onboarding as creative strategist. Had strong engagement under Talia with weekly calls and active Slack. Engagement collapsed after GM transition. Account cancelled -- reason not provided."
+  "email": {
+    "total_results": 0,
+    "last_email_date": null,
+    "last_email_subject": null,
+    "emails_14d": 0,
+    "csm_last_email_date": null,
+    "recent_emails": []
+  },
+  "granola": {
+    "fond_specific_meetings": 0,
+    "notes": "Account listed as cancelled in CSM weekly check-in (Apr 6). Small brand, high-touch - team relied heavily on Talia for funnel builds. Facebook connection was incomplete at handoff. Channels: Meta, SMS, email in small bursts. Annual GMV ~$360K. Removed from active account tracking."
   }
 }

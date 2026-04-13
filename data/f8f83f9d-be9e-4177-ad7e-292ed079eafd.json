@@ -1,13 +1,13 @@
 {
   "brand_id": "f8f83f9d-be9e-4177-ad7e-292ed079eafd",
   "brand_name": "Veracity Selfcare",
-  "last_updated": "2026-04-06T18:30:00.000000Z",
+  "last_updated": "2026-04-13T12:00:00.000000Z",
   "health": {
-    "score": 23,
+    "score": 12,
     "status": "red",
     "breakdown": {
-      "platform_performance": 18,
-      "platform_performance_detail": "Sessions:5/5, Revenue:4/5, CVR:4/5, Purchases:5/5",
+      "platform_performance": 7,
+      "platform_performance_detail": "Sessions:0/5, Revenue:1/5, CVR:5/5, Purchases:1/5",
       "communication": 3,
       "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
       "engagement": 2,
@@ -18,802 +18,1098 @@
     "signals": [
       {
         "type": "negative",
-        "text": "Account flagged as churn risk per Granola notes: early churn request received despite October renewal. Brand never found a winning funnel despite multiple testing attempts.",
-        "time": "Feb 2026"
+        "text": "Account confirmed as CHURNED per Granola meeting notes. Early termination email received Feb 23, churn confirmed by Mar 2. Contract was through October 2026 but brand requested early exit due to never finding a winning funnel despite multiple testing attempts.",
+        "time": "Mar 2, 2026"
       },
       {
         "type": "negative",
-        "text": "Slack channel #fermat-x-veracitywellness completely silent since Feb 24 when Pulkit joined. No intro message posted by Pulkit. Last brand message (Feb 18) asking for SKU/variant list remains unanswered.",
-        "time": "Feb 24"
+        "text": "Platform activity has collapsed: only 36 sessions in the last 7 days (Apr 6-12) with just 1 purchase ($123.75). Yesterday (Apr 12) saw only 1 session and $0 revenue. Funnels appear to be almost entirely off.",
+        "time": "Apr 12, 2026"
       },
       {
         "type": "negative",
-        "text": "Zero Google Calendar events found for Veracity from Mar 9 through Jun 7 2026. No calls scheduled. Pulkit has never spoken with the Veracity team.",
-        "time": "Apr 6"
+        "text": "Slack channel #fermat-x-veracitywellness completely silent for 48+ days. Last brand activity was Feb 18 (SKU cleanup request). Pulkit joined Feb 24 but never posted an intro message. Zero communication in last 14 days from any party.",
+        "time": "Apr 13, 2026"
       },
       {
         "type": "negative",
-        "text": "No direct email communication found between Pulkit and Veracity team in last 30 days. Gmail only shows Meta ad approvals and Glyphic prep emails for other brands. No GM intro email sent.",
-        "time": "Apr 6"
+        "text": "No calls with Veracity in the last 67 days. Last completed call was Feb 5, 2026 (Mia and Yuliia from DT Co agency). Most recent scheduled call (Feb 26) was cancelled. No upcoming calls on calendar.",
+        "time": "Feb 26, 2026"
       },
       {
         "type": "negative",
-        "text": "Granola notes indicate Grace (main contact) was terminated by Mar 11. Andres took over but meetings were being cancelled. Early termination email was sent. Situation described as cost-cutting, not performance-related.",
-        "time": "Mar 2026"
+        "text": "No direct email correspondence between Pulkit and Veracity contacts found in the last 30 days. Only automated Meta ad rejection emails appear in Gmail search results related to Veracity.",
+        "time": "Apr 13, 2026"
       },
       {
-        "type": "negative",
-        "text": "Payment and billing concerns flagged in Granola notes (Feb-Mar 2026). Mia was checking with finance team on billing update. October renewal cycle with auto-renewal and 1-month notice requirement.",
-        "time": "Feb-Mar 2026"
+        "type": "info",
+        "text": "Mia DyBuncio was the primary CSM handling Veracity before handoff to Pulkit on Feb 24. Mia confirmed she would handle the final communications and cancellation process. DT Co (agency with Julia/Yuliia as POC) managed the FERMAT funnels.",
+        "time": "Feb 24, 2026"
       },
       {
-        "type": "warning",
-        "text": "Brand was actively requesting SKU cleanup, design changes (white backgrounds), protein launch funnels, and rebrand assets in Jan 2026 under Mia - all requests likely stale/unaddressed since GM transition.",
-        "time": "Jan 2026"
-      },
-      {
-        "type": "warning",
-        "text": "Pierre weekly roundups stopped after Jan 11 2026. Last roundup showed Jan 5-11: Sessions 9,032, Purchases 101, GMV $14,633 - strong numbers that have since declined significantly.",
-        "time": "Jan 12"
-      },
-      {
-        "type": "positive",
-        "text": "Platform still generating revenue: 7d shows 2,403 sessions, 43 purchases, $3,447 revenue, 1.79% CVR. Funnels can still convert when traffic flows.",
-        "time": "Apr 5"
-      },
-      {
-        "type": "positive",
-        "text": "Works with DTCo agency (Yuliia Rusianovska, Adaeze, James) who were actively building funnels and managing ads. Agency relationship could be leveraged for re-engagement.",
-        "time": "Jan 2026"
+        "type": "info",
+        "text": "30-day performance (Mar 14-Apr 12): 1,407 sessions, $662.25 revenue, 7 purchases, 0.50% CVR, $94.61 AOV. Traffic is sporadic and declining rapidly, consistent with a churning account winding down ad spend.",
+        "time": "Apr 13, 2026"
       }
     ]
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
-      "revenue": 596.57,
-      "cvr": 1.6241,
-      "sessions": 431,
+      "revenue": 0,
+      "cvr": 0.0,
+      "sessions": 1,
       "roas": null,
       "cpa": null,
-      "purchases": 7,
-      "aov": 85.22,
-      "pdp_views": 88,
-      "atc": 27,
-      "checkouts": 7
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
     },
     "3d": {
       "ad_spend": null,
-      "revenue": 1478.01,
-      "cvr": 1.7208,
-      "sessions": 1046,
+      "revenue": 0,
+      "cvr": 0.0,
+      "sessions": 2,
       "roas": null,
       "cpa": null,
-      "purchases": 18,
-      "aov": 82.11,
-      "pdp_views": 222,
-      "atc": 54,
-      "checkouts": 19
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 1,
+      "atc": 0,
+      "checkouts": 0
     },
     "7d": {
       "ad_spend": null,
-      "revenue": 3447.26,
-      "cvr": 1.7894,
-      "sessions": 2403,
+      "revenue": 123.75,
+      "cvr": 2.7778,
+      "sessions": 36,
       "roas": null,
       "cpa": null,
-      "purchases": 43,
-      "aov": 80.17,
-      "pdp_views": 474,
-      "atc": 123,
-      "checkouts": 47
+      "purchases": 1,
+      "aov": 123.75,
+      "pdp_views": 5,
+      "atc": 1,
+      "checkouts": 1
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 6408.11,
-      "cvr": 1.5578,
-      "sessions": 5328,
+      "revenue": 123.75,
+      "cvr": 0.2899,
+      "sessions": 345,
       "roas": null,
       "cpa": null,
-      "purchases": 83,
-      "aov": 77.21,
-      "pdp_views": 1050,
-      "atc": 256,
-      "checkouts": 99
+      "purchases": 1,
+      "aov": 123.75,
+      "pdp_views": 24,
+      "atc": 4,
+      "checkouts": 2
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 12320.49,
-      "cvr": 1.7053,
-      "sessions": 9500,
+      "revenue": 662.25,
+      "cvr": 0.4975,
+      "sessions": 1407,
       "roas": null,
       "cpa": null,
-      "purchases": 162,
-      "aov": 76.05,
-      "pdp_views": 1956,
-      "atc": 469,
-      "checkouts": 197
+      "purchases": 7,
+      "aov": 94.61,
+      "pdp_views": 80,
+      "atc": 25,
+      "checkouts": 11
     },
     "45d": {
       "ad_spend": null,
-      "revenue": 20247.57,
-      "cvr": 1.7348,
-      "sessions": 14757,
+      "revenue": 958.5,
+      "cvr": 0.4803,
+      "sessions": 2082,
       "roas": null,
       "cpa": null,
-      "purchases": 256,
-      "aov": 79.09,
-      "pdp_views": 3055,
-      "atc": 716,
-      "checkouts": 332
+      "purchases": 10,
+      "aov": 95.85,
+      "pdp_views": 121,
+      "atc": 36,
+      "checkouts": 16
     },
     "daily": [
       {
-        "date": "2026-02-20",
-        "sessions": 473,
-        "pdp_views": 103,
-        "atc": 28,
-        "checkouts": 18,
-        "purchases": 11,
-        "revenue": 912.28
-      },
-      {
-        "date": "2026-02-21",
-        "sessions": 396,
-        "pdp_views": 69,
-        "atc": 15,
-        "checkouts": 10,
-        "purchases": 5,
-        "revenue": 498.45
-      },
-      {
-        "date": "2026-02-22",
-        "sessions": 560,
-        "pdp_views": 105,
-        "atc": 25,
-        "checkouts": 14,
-        "purchases": 6,
-        "revenue": 564.58
-      },
-      {
-        "date": "2026-02-23",
-        "sessions": 504,
-        "pdp_views": 118,
-        "atc": 22,
-        "checkouts": 10,
-        "purchases": 8,
-        "revenue": 743.44
-      },
-      {
-        "date": "2026-02-24",
-        "sessions": 461,
-        "pdp_views": 89,
-        "atc": 20,
-        "checkouts": 13,
-        "purchases": 9,
-        "revenue": 830.26
-      },
-      {
-        "date": "2026-02-25",
-        "sessions": 395,
-        "pdp_views": 74,
-        "atc": 20,
-        "checkouts": 13,
-        "purchases": 11,
-        "revenue": 971.91
-      },
-      {
         "date": "2026-02-26",
-        "sessions": 246,
-        "pdp_views": 47,
-        "atc": 5,
-        "checkouts": 0,
-        "purchases": 1,
-        "revenue": 62.55
+        "sessions": 101,
+        "revenue": 232.5,
+        "purchases": 2,
+        "cvr": 1.9802,
+        "aov": 116.25,
+        "pdp_views": 4,
+        "atc": 1,
+        "checkouts": 1,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-02-27",
-        "sessions": 279,
-        "pdp_views": 76,
-        "atc": 22,
-        "checkouts": 9,
-        "purchases": 9,
-        "revenue": 617.2
+        "sessions": 99,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 9,
+        "atc": 3,
+        "checkouts": 1,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-02-28",
-        "sessions": 294,
-        "pdp_views": 57,
-        "atc": 16,
-        "checkouts": 9,
-        "purchases": 5,
-        "revenue": 356.48
+        "sessions": 85,
+        "revenue": 63.75,
+        "purchases": 1,
+        "cvr": 1.1765,
+        "aov": 63.75,
+        "pdp_views": 4,
+        "atc": 2,
+        "checkouts": 2,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-01",
-        "sessions": 375,
-        "pdp_views": 88,
-        "atc": 18,
-        "checkouts": 7,
-        "purchases": 6,
-        "revenue": 523.01
+        "sessions": 119,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 5,
+        "atc": 1,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-02",
-        "sessions": 345,
-        "pdp_views": 69,
-        "atc": 16,
-        "checkouts": 11,
-        "purchases": 9,
-        "revenue": 618.84
+        "sessions": 79,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 7,
+        "atc": 1,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-03",
-        "sessions": 262,
-        "pdp_views": 45,
-        "atc": 10,
-        "checkouts": 9,
-        "purchases": 5,
-        "revenue": 550.07
+        "sessions": 101,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 8,
+        "atc": 2,
+        "checkouts": 1,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-04",
-        "sessions": 236,
-        "pdp_views": 67,
-        "atc": 16,
-        "checkouts": 7,
-        "purchases": 4,
-        "revenue": 247.58
+        "sessions": 32,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-05",
-        "sessions": 235,
-        "pdp_views": 52,
-        "atc": 8,
-        "checkouts": 3,
-        "purchases": 3,
-        "revenue": 196.33
+        "sessions": 8,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-06",
-        "sessions": 196,
-        "pdp_views": 40,
-        "atc": 6,
-        "checkouts": 2,
-        "purchases": 2,
-        "revenue": 234.1
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-07",
-        "sessions": 179,
-        "pdp_views": 35,
-        "atc": 11,
-        "checkouts": 9,
-        "purchases": 8,
-        "revenue": 607.18
+        "sessions": 7,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-08",
-        "sessions": 244,
-        "pdp_views": 68,
-        "atc": 9,
-        "checkouts": 8,
-        "purchases": 5,
-        "revenue": 551.39
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-09",
-        "sessions": 218,
-        "pdp_views": 49,
-        "atc": 9,
-        "checkouts": 2,
-        "purchases": 1,
-        "revenue": 87.18
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-10",
-        "sessions": 295,
-        "pdp_views": 87,
-        "atc": 20,
-        "checkouts": 11,
-        "purchases": 4,
-        "revenue": 344.04
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-11",
-        "sessions": 223,
-        "pdp_views": 51,
-        "atc": 11,
-        "checkouts": 6,
-        "purchases": 6,
-        "revenue": 395.87
+        "sessions": 8,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-12",
-        "sessions": 296,
-        "pdp_views": 58,
-        "atc": 15,
-        "checkouts": 5,
-        "purchases": 5,
-        "revenue": 320.98
+        "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-13",
-        "sessions": 280,
-        "pdp_views": 58,
-        "atc": 18,
-        "checkouts": 10,
-        "purchases": 6,
-        "revenue": 386.54
+        "sessions": 25,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 3,
+        "atc": 1,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-14",
-        "sessions": 219,
-        "pdp_views": 46,
-        "atc": 7,
-        "checkouts": 4,
-        "purchases": 3,
-        "revenue": 189.65
+        "sessions": 47,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 1,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-15",
-        "sessions": 302,
-        "pdp_views": 61,
-        "atc": 26,
-        "checkouts": 10,
-        "purchases": 11,
-        "revenue": 765.61
+        "sessions": 162,
+        "revenue": 63.75,
+        "purchases": 1,
+        "cvr": 0.6173,
+        "aov": 63.75,
+        "pdp_views": 7,
+        "atc": 3,
+        "checkouts": 2,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-16",
-        "sessions": 399,
-        "pdp_views": 109,
-        "atc": 31,
-        "checkouts": 10,
-        "purchases": 9,
-        "revenue": 651.6
+        "sessions": 144,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 8,
+        "atc": 2,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-17",
-        "sessions": 295,
-        "pdp_views": 66,
-        "atc": 15,
-        "checkouts": 8,
-        "purchases": 5,
-        "revenue": 422.44
+        "sessions": 123,
+        "revenue": 63.75,
+        "purchases": 1,
+        "cvr": 0.813,
+        "aov": 63.75,
+        "pdp_views": 6,
+        "atc": 3,
+        "checkouts": 1,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-18",
-        "sessions": 307,
-        "pdp_views": 61,
-        "atc": 10,
-        "checkouts": 6,
-        "purchases": 3,
-        "revenue": 112.52
+        "sessions": 46,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 1,
+        "atc": 2,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-19",
-        "sessions": 353,
-        "pdp_views": 66,
-        "atc": 19,
-        "checkouts": 2,
-        "purchases": 5,
-        "revenue": 468.45
+        "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-20",
-        "sessions": 290,
-        "pdp_views": 51,
-        "atc": 5,
-        "checkouts": 3,
-        "purchases": 4,
-        "revenue": 246.14
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-21",
-        "sessions": 272,
-        "pdp_views": 40,
-        "atc": 7,
-        "checkouts": 4,
-        "purchases": 4,
-        "revenue": 362.79
+        "sessions": 22,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-22",
-        "sessions": 453,
-        "pdp_views": 111,
-        "atc": 25,
-        "checkouts": 9,
-        "purchases": 7,
-        "revenue": 566.42
+        "sessions": 71,
+        "revenue": 283.5,
+        "purchases": 2,
+        "cvr": 2.817,
+        "aov": 141.75,
+        "pdp_views": 7,
+        "atc": 3,
+        "checkouts": 2,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-23",
-        "sessions": 380,
-        "pdp_views": 83,
-        "atc": 18,
-        "checkouts": 9,
-        "purchases": 9,
-        "revenue": 610.46
+        "sessions": 75,
+        "revenue": 63.75,
+        "purchases": 1,
+        "cvr": 1.3333,
+        "aov": 63.75,
+        "pdp_views": 3,
+        "atc": 1,
+        "checkouts": 1,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-24",
-        "sessions": 343,
-        "pdp_views": 46,
-        "atc": 13,
-        "checkouts": 8,
-        "purchases": 4,
-        "revenue": 398.22
+        "sessions": 64,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 8,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-25",
-        "sessions": 351,
-        "pdp_views": 79,
-        "atc": 29,
-        "checkouts": 7,
-        "purchases": 11,
-        "revenue": 876.95
+        "sessions": 73,
+        "revenue": 63.75,
+        "purchases": 1,
+        "cvr": 1.3699,
+        "aov": 63.75,
+        "pdp_views": 2,
+        "atc": 1,
+        "checkouts": 1,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-26",
-        "sessions": 346,
-        "pdp_views": 69,
-        "atc": 14,
-        "checkouts": 6,
-        "purchases": 2,
-        "revenue": 130.46
+        "sessions": 59,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 1,
+        "checkouts": 1,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-27",
-        "sessions": 348,
-        "pdp_views": 74,
-        "atc": 8,
-        "checkouts": 4,
-        "purchases": 2,
-        "revenue": 171.34
+        "sessions": 82,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 5,
+        "atc": 2,
+        "checkouts": 1,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-28",
-        "sessions": 286,
-        "pdp_views": 41,
-        "atc": 8,
-        "checkouts": 0,
+        "sessions": 86,
+        "revenue": 0,
         "purchases": 0,
-        "revenue": 0
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 7,
+        "atc": 2,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-29",
-        "sessions": 418,
-        "pdp_views": 73,
-        "atc": 18,
-        "checkouts": 9,
-        "purchases": 5,
-        "revenue": 207
+        "sessions": 76,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 6,
+        "atc": 1,
+        "checkouts": 1,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-30",
-        "sessions": 408,
-        "pdp_views": 85,
-        "atc": 22,
-        "checkouts": 7,
-        "purchases": 5,
-        "revenue": 430.63
+        "sessions": 63,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-03-31",
-        "sessions": 277,
-        "pdp_views": 47,
-        "atc": 20,
-        "checkouts": 8,
-        "purchases": 7,
-        "revenue": 555.34
+        "sessions": 73,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 5,
+        "atc": 1,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-04-01",
-        "sessions": 372,
-        "pdp_views": 53,
-        "atc": 18,
-        "checkouts": 7,
-        "purchases": 7,
-        "revenue": 484.62
+        "sessions": 65,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 3,
+        "atc": 1,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-04-02",
-        "sessions": 300,
-        "pdp_views": 67,
-        "atc": 9,
-        "checkouts": 6,
-        "purchases": 6,
-        "revenue": 498.66
+        "sessions": 21,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-04-03",
-        "sessions": 340,
-        "pdp_views": 79,
-        "atc": 15,
-        "checkouts": 5,
-        "purchases": 5,
-        "revenue": 373.05
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-04-04",
-        "sessions": 275,
-        "pdp_views": 55,
-        "atc": 12,
-        "checkouts": 7,
-        "purchases": 6,
-        "revenue": 508.39
+        "sessions": 7,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       },
       {
         "date": "2026-04-05",
-        "sessions": 431,
-        "pdp_views": 88,
-        "atc": 27,
-        "checkouts": 7,
-        "purchases": 7,
-        "revenue": 596.57
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
+      },
+      {
+        "date": "2026-04-06",
+        "sessions": 7,
+        "revenue": 123.75,
+        "purchases": 1,
+        "cvr": 14.2857,
+        "aov": 123.75,
+        "pdp_views": 1,
+        "atc": 1,
+        "checkouts": 1,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
+      },
+      {
+        "date": "2026-04-08",
+        "sessions": 11,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
+      },
+      {
+        "date": "2026-04-09",
+        "sessions": 16,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
+      },
+      {
+        "date": "2026-04-11",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
+      },
+      {
+        "date": "2026-04-12",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "cvr": 0.0,
+        "aov": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "ad_spend": null,
+        "roas": null,
+        "cpa": null
       }
-    ],
-    "_fermat_note": "FERMAT MCP token expired during Apr 6 refresh. Performance data retained from previous pull (Apr 6 06:26 UTC). All numbers are real API data, not estimates."
+    ]
   },
   "calls": {
     "recent": [
       {
+        "id": "69a07d44efca0c1957f08fd9",
         "title": "Fermat x Veracity",
         "date": "2026-02-26T16:58:10Z",
-        "duration": "7 min",
-        "participants": "Mia DyBuncio, Jacqueline Lin, Adaeze (DT Co), Yuliia (DT Co), James (DT Co), Sabrina Pereira, Maggie Sullivan",
-        "source": "Glyphic",
-        "summary": "Very short call (7 min) that was cancelled/cut short. Included Veracity team (Jacqueline Lin, Sabrina Pereira, Maggie Sullivan) and DT Co agency (Adaeze, Yuliia, James). Led by Mia before transition.",
-        "recording_url": null,
-        "snippets": [],
-        "action_items": []
+        "duration_seconds": 416,
+        "status": "cancelled",
+        "participants": [
+          "Mia DyBuncio (FERMAT)",
+          "Jacqueline Lin (Veracity)",
+          "Adaeze (DT Co)",
+          "Yuliia (DT Co)",
+          "James (DT Co)",
+          "Sabrina Pereira (Veracity)",
+          "Maggie Sullivan (Veracity)"
+        ],
+        "summary": null,
+        "url": "https://app.glyphic.ai/calls/69a07d44efca0c1957f08fd9"
+      },
+      {
+        "id": "6984cf2aaab71744bcf4377e",
+        "title": "Fermat x Veracity",
+        "date": "2026-02-05T16:58:14Z",
+        "duration_seconds": 767,
+        "status": "completed",
+        "participants": [
+          "Mia DyBuncio (FERMAT)",
+          "Yuliia Rusianovska (DT Co)",
+          "Jacqueline Lin (Veracity)",
+          "James (DT Co)",
+          "Maggie Sullivan (Veracity)",
+          "Sabrina Pereira (Veracity)",
+          "Adaeze (DT Co)"
+        ],
+        "summary": "Discussed reviving a stalled protein funnel by focusing on a protein and metabolism ignite bundle (40% discount). Yuliia committed to testing the bundle funnel that week. Mia suggested a founder funnel concept leveraging existing video content of Ali (founder). Spend on FERMAT funnels was paused as Veracity focused on sitewide A/B offer testing (35% vs 43% off).",
+        "url": "https://app.glyphic.ai/calls/6984cf2aaab71744bcf4377e",
+        "next_steps": [
+          "Send over founder funnel examples",
+          "Yuliia to execute bundle funnel test that week",
+          "Look at founder funnel next week"
+        ],
+        "churn_risk": "Strategic Pause / Budget Freeze"
+      },
+      {
+        "id": "69691bc2fed949c03b3ef9b5",
+        "title": "Fermat x Veracity",
+        "date": "2026-01-15T16:28:10Z",
+        "duration_seconds": 1571,
+        "status": "completed",
+        "participants": [
+          "Mia DyBuncio (FERMAT)",
+          "Yuliia Rusianovska (DT Co)",
+          "Jacqueline Lin (Veracity)",
+          "Maggie Sullivan (Veracity)",
+          "Adaeze (DT Co)",
+          "Sabrina Pereira (Veracity)",
+          "James (DT Co)"
+        ],
+        "summary": "Updated Veracity brand guidelines on platform (color schemes: tan background, green accent, orange elements). Discussed building skeleton funnels for Protein Science Listicle and Protein + MI bundle offer. Mia to provide templates by next day. Reviewed past experiment setup with advice on using FERMAT internal A/B test feature. GWP sleep mask funnel was paused for poor performance.",
+        "url": "https://app.glyphic.ai/calls/69691bc2fed949c03b3ef9b5",
+        "next_steps": [
+          "Build skeleton template for Protein Science Listicle",
+          "Build listicle shell for bundle offer (protein + MI)",
+          "Upload secondary font (Lasson)",
+          "Change logo on banners"
+        ],
+        "churn_risk": "Limited Internal Bandwidth; Low Product Adoption"
+      },
+      {
+        "id": "695c1e6f29bfae221faa404f",
+        "title": "Fermat x Veracity",
+        "date": "2026-01-05T19:58:11Z",
+        "duration_seconds": 1685,
+        "status": "completed",
+        "participants": [
+          "Mia DyBuncio (FERMAT)",
+          "Yuliia Rusianovska (DT Co)",
+          "Jacqueline Lin (Veracity)",
+          "Maggie Sullivan (Veracity)",
+          "Sabrina Pereira (Veracity)",
+          "James (DT Co)",
+          "Adaeze (DT Co)"
+        ],
+        "summary": null,
+        "url": "https://app.glyphic.ai/calls/695c1e6f29bfae221faa404f"
+      },
+      {
+        "id": "6941a224689268c973dccb1f",
+        "title": "Fermat x Veracity",
+        "date": "2025-12-16T17:58:08Z",
+        "duration_seconds": 1136,
+        "status": "completed",
+        "participants": [
+          "Jacqueline Lin (Veracity)",
+          "Mia DyBuncio (FERMAT)",
+          "Adaeze (DT Co)",
+          "Sabrina Pereira (Veracity)",
+          "James (DT Co)",
+          "Maggie Sullivan (Veracity)",
+          "Yuliia (DT Co)"
+        ],
+        "summary": null,
+        "url": "https://app.glyphic.ai/calls/6941a224689268c973dccb1f"
+      },
+      {
+        "id": "693997068d46bda050ca0654",
+        "title": "Fermat x Veracity - Platform Walkthrough",
+        "date": "2025-12-10T15:30:48Z",
+        "duration_seconds": 1240,
+        "status": "completed",
+        "participants": [
+          "Mia DyBuncio (FERMAT)",
+          "Maggie Sullivan (Veracity)"
+        ],
+        "summary": null,
+        "url": "https://app.glyphic.ai/calls/693997068d46bda050ca0654"
+      },
+      {
+        "id": "6931efd7575677ba4bf07f1a",
+        "title": "Fermat x Veracity",
+        "date": "2025-12-04T19:58:09Z",
+        "duration_seconds": 2049,
+        "status": "completed",
+        "participants": [
+          "Yuliia Rusianovska (DT Co)",
+          "Maggie Sullivan (Veracity)",
+          "Mia DyBuncio (FERMAT)",
+          "Jacqueline Lin (Veracity)",
+          "James (DT Co)",
+          "Adaeze (DT Co)",
+          "Sabrina Pereira (Veracity)"
+        ],
+        "summary": null,
+        "url": "https://app.glyphic.ai/calls/6931efd7575677ba4bf07f1a"
       }
     ],
-    "analysis": "Last call was Feb 26 but was cancelled after only 7 minutes. Pulkit has never been on a call with Veracity. Key contacts: Jacqueline Lin, Sabrina Pereira, Maggie Sullivan (Veracity), and Yuliia Rusianovska, Adaeze, James (DT Co/Daniel Toft agency). Previously managed by Mia - weekly meetings were happening but brand was already asking to push them out. Glyphic MCP returned server errors during Apr 6 refresh; call data retained from previous pull.",
-    "_glyphic_note": "Glyphic MCP returned -32603 server error on all attempts during Apr 6 refresh. Retaining existing call data."
+    "analysis": {
+      "total_calls_found": 10,
+      "completed_calls": 8,
+      "cancelled_calls": 1,
+      "last_completed_call_date": "2026-02-05",
+      "days_since_last_call": 67,
+      "calls_in_last_30d": 0,
+      "primary_fermat_contact": "Mia DyBuncio",
+      "primary_brand_contacts": [
+        "Jacqueline Lin",
+        "Maggie Sullivan",
+        "Sabrina Pereira"
+      ],
+      "agency": "DT Co (danieltoft.co)",
+      "agency_contacts": [
+        "Yuliia Rusianovska",
+        "Adaeze",
+        "James"
+      ],
+      "key_themes": [
+        "Protein funnel launch stalled",
+        "Bundle offer testing (40% off)",
+        "Brand guideline rebrand",
+        "GWP testing (bottle vs sleep mask vs socks)",
+        "Founder funnel concept",
+        "Agency bandwidth constraints"
+      ],
+      "churn_indicators": [
+        "Strategic pause/budget freeze on FERMAT funnels",
+        "Limited agency bandwidth (Yuliia solo)",
+        "Never found a winning funnel",
+        "Early termination requested Feb 23"
+      ]
+    }
   },
   "calendar": {
     "past": [],
     "upcoming": [],
-    "_note": "Google Calendar confirmed zero events matching 'Veracity' between Mar 9 and Jun 7, 2026 on Pulkit's calendar (pulkit@fermatcommerce.com). Verified Apr 6 2026."
+    "analysis": {
+      "total_events": 0,
+      "note": "No Veracity events found on Pulkit's calendar from Mar 14 to Jun 12, 2026. The account was managed by Mia DyBuncio before handoff on Feb 24, and churn was confirmed by Mar 2. No meetings were scheduled post-handoff."
+    }
   },
   "slack": {
     "messages": [
       {
-        "user": "FERMAT",
-        "user_id": "U08FU0EPGNM",
+        "date": "2026-02-24T16:51:38+05:30",
+        "author": "FERMAT (bot)",
         "text": "FERMAT has joined the channel",
-        "timestamp": "2026-02-24T16:51:38+05:30",
-        "channel": "#fermat-x-veracitywellness",
         "ts": "1771932098.741629"
       },
       {
-        "user": "Pulkit Srivastava",
-        "user_id": "U075K1YKELV",
+        "date": "2026-02-24T16:51:22+05:30",
+        "author": "Pulkit Srivastava",
         "text": "Pulkit has joined the channel",
-        "timestamp": "2026-02-24T16:51:22+05:30",
-        "channel": "#fermat-x-veracitywellness",
         "ts": "1771932082.416399"
       },
       {
-        "user": "Brand contact",
+        "date": "2026-02-18T03:15:11+05:30",
+        "author": "Brand (Veracity)",
         "text": "hey team - are you able to share what SKUs/variants are being used on the fermat side? trying to do a cleanup of some of our promo SKUs",
-        "timestamp": "2026-02-18T03:15:11+05:30",
-        "channel": "#fermat-x-veracitywellness",
         "ts": "1771364711.428179"
       },
       {
-        "user": "Brand contact",
-        "text": "hey @Mia DyBuncio! mind if we push this meeting out to next week?",
-        "timestamp": "2026-01-29T22:09:35+05:30",
-        "channel": "#fermat-x-veracitywellness",
+        "date": "2026-01-29T22:09:35+05:30",
+        "author": "Brand (Veracity)",
+        "text": "hey Mia! mind if we push this meeting out to next week?",
         "ts": "1769704775.901149",
         "thread_replies": 1
       },
       {
-        "user": "Mia DyBuncio",
-        "user_id": "U07SYG0GYVB",
-        "text": "hey @Maggie Sullivan it looks like the singular protein sku hasn't been shared with fermat, i'm only seeing the metabolism + protein power set. could you help share this over?",
-        "timestamp": "2026-01-16T22:15:39+05:30",
-        "channel": "#fermat-x-veracitywellness",
+        "date": "2026-01-16T22:15:39+05:30",
+        "author": "Mia DyBuncio",
+        "text": "hey Maggie it looks like the singular protein sku hasn't been shared with fermat, i'm only seeing the metabolism + protein power set. could you help share this over?",
         "ts": "1768581939.495579",
         "thread_replies": 4
       },
       {
-        "user": "Brand contact (Jacqueline Lin)",
-        "user_id": "U098ZHHFM47",
-        "text": "@Mia DyBuncio MI + Protein ads: [Tara UGC Drive link] [Jennie UGC Frame.io link]",
-        "timestamp": "2026-01-15T22:19:19+05:30",
-        "channel": "#fermat-x-veracitywellness",
+        "date": "2026-01-15T22:19:19+05:30",
+        "author": "Brand (Veracity)",
+        "text": "MI + Protein ads shared (Tara UGC, Jennie UGC links)",
         "ts": "1768495759.330649"
       },
       {
-        "user": "Brand contact (Jacqueline Lin)",
-        "user_id": "U098ZHHFM47",
-        "text": "Hi @Mia DyBuncio, can you please help change the background color to white in [funnel link] or across all funnels?",
-        "timestamp": "2026-01-15T21:09:41+05:30",
-        "channel": "#fermat-x-veracitywellness",
+        "date": "2026-01-15T21:09:41+05:30",
+        "author": "Brand (Veracity)",
+        "text": "Hi Mia, can you please help change the background color to white across all funnels?",
         "ts": "1768491581.052859",
         "thread_replies": 5
       },
       {
-        "user": "Mia DyBuncio",
-        "user_id": "U07SYG0GYVB",
-        "text": "hey @Jacqueline Lin @Yuliia Rusianovska (EST) i have a conflict during our meeting time tomorrow - any chance we can meet 30 mins earlier?",
-        "timestamp": "2026-01-15T02:03:33+05:30",
-        "channel": "#fermat-x-veracitywellness",
+        "date": "2026-01-15T02:03:33+05:30",
+        "author": "Mia DyBuncio",
+        "text": "Meeting time change request for next day",
         "ts": "1768422813.901339",
         "thread_replies": 4
       },
       {
-        "user": "Pierre (Bot)",
-        "user_id": "U07JKQ6RYFQ",
-        "text": "FERMAT Weekly Roundup Jan 5-11: Sessions 9,032 | Purchases 101 | GMV $14,633 | Revenue $11,784. Top: NY Sale_POV-90D Journey (3,904 sessions, 1.13% CVR)",
-        "timestamp": "2026-01-12T22:30:40+05:30",
-        "channel": "#fermat-x-veracitywellness",
+        "date": "2026-01-12T22:30:40+05:30",
+        "author": "Pierre (bot)",
+        "text": "FERMAT Weekly Roundup: Jan 5-11. Sessions: 9,032, Purchases: 101, GMV: $14,633, Revenue: $11,784",
         "ts": "1768237240.829359"
       },
       {
-        "user": "Mia DyBuncio",
-        "user_id": "U07SYG0GYVB",
-        "text": "Integration upgrades reminder: Reconnect Meta, GA4, and Shopify from FERMAT homepage banners. Complete by Jan 15th. cc: @Jacqueline Lin @Maggie Sullivan @Yuliia Rusianovska",
-        "timestamp": "2026-01-12T20:53:05+05:30",
-        "channel": "#fermat-x-veracitywellness",
+        "date": "2026-01-12T20:53:05+05:30",
+        "author": "Mia DyBuncio",
+        "text": "Integration Upgrades notice - reconnect Meta, GA4, Shopify by Jan 15th",
         "ts": "1768231385.056659",
         "thread_replies": 2
       },
       {
-        "user": "Brand contact (Maggie Sullivan)",
-        "user_id": "U096CB8DTMM",
+        "date": "2026-01-07T23:35:13+05:30",
+        "author": "Brand (Veracity)",
         "text": "FYI that we will be keeping the metabolism ignite bottle the same for time being",
-        "timestamp": "2026-01-07T23:35:13+05:30",
-        "channel": "#fermat-x-veracitywellness",
         "ts": "1767809113.952599"
       },
       {
-        "user": "Brand contact (Maggie Sullivan)",
-        "user_id": "U096CB8DTMM",
-        "text": "Hi @Mia DyBuncio we are tracking to 1/12 or 1/13 pending our final QA",
-        "timestamp": "2026-01-07T23:34:40+05:30",
-        "channel": "#fermat-x-veracitywellness",
+        "date": "2026-01-07T23:34:40+05:30",
+        "author": "Brand (Veracity)",
+        "text": "Rebrand tracking update - targeting 1/12 or 1/13 pending final QA",
         "ts": "1767809080.413139",
         "thread_replies": 12
       },
       {
-        "user": "Mia DyBuncio",
-        "user_id": "U07SYG0GYVB",
-        "text": "hey @Maggie Sullivan just wanted to check in on the decision for updated branding on monday 1/12",
-        "timestamp": "2026-01-07T23:34:11+05:30",
-        "channel": "#fermat-x-veracitywellness",
-        "ts": "1767809051.804349"
-      },
-      {
-        "user": "Brand contact (Jacqueline Lin)",
-        "user_id": "U098ZHHFM47",
-        "text": "@Mia DyBuncio see examples of Protein ads: [Drive links]",
-        "timestamp": "2026-01-06T21:01:19+05:30",
-        "channel": "#fermat-x-veracitywellness",
-        "ts": "1767713479.468559",
-        "thread_replies": 1
-      },
-      {
-        "user": "Mia DyBuncio",
-        "user_id": "U07SYG0GYVB",
-        "text": "Hi team, thanks for the time today! Recap of next steps: Mia: proceed with subdomain change. Maggie: share go/no go for 1/12 rebrand. Share protein SKU. Jacqueline: share protein ad examples. Yuliia: cut socks variant from GWP test, create two protein landing pages for 1/15. Mia to help updating rebrand images.",
-        "timestamp": "2026-01-06T02:28:17+05:30",
-        "channel": "#fermat-x-veracitywellness",
+        "date": "2026-01-06T02:28:17+05:30",
+        "author": "Mia DyBuncio",
+        "text": "Post-call recap: subdomain change, rebrand go/no-go, protein SKU sharing, protein ad examples, GWP socks variant cut, protein landing pages creation",
         "ts": "1767646697.723199"
       },
       {
-        "user": "Brand contact (Maggie Sullivan)",
-        "user_id": "U096CB8DTMM",
-        "text": "Site imagery from real site here: [Drive folders for PDPs, Homepage, Navigation, About Pages, Test Results]",
-        "timestamp": "2026-01-06T01:36:30+05:30",
-        "channel": "#fermat-x-veracitywellness",
+        "date": "2026-01-06T01:36:30+05:30",
+        "author": "Brand (Veracity)",
+        "text": "Shared site imagery for rebrand: PDPs, Homepage, Navigation, About Pages, Test Results",
         "ts": "1767643590.160749"
       },
       {
-        "user": "Pierre (Bot)",
-        "user_id": "U07JKQ6RYFQ",
-        "text": "FERMAT Weekly Roundup Jan 5-11: Sessions 9,032 | Purchases 101 | GMV $14,633 | Revenue $11,784",
-        "timestamp": "2026-01-05T22:30:40+05:30",
-        "channel": "#fermat-x-veracitywellness",
+        "date": "2026-01-05T22:30:40+05:30",
+        "author": "Pierre (bot)",
+        "text": "FERMAT Weekly Roundup: Dec 29 - Jan 4. Sessions: 5,685, Purchases: 108, GMV: $17,193, Revenue: $13,831",
         "ts": "1767632440.781829"
-      },
-      {
-        "user": "Brand contact (Jacqueline Lin)",
-        "user_id": "U098ZHHFM47",
-        "text": "Topics I'd like to talk about today: 1. Fermat definition of CVR and how do we A/B test vs PDP. 2. New Brand, website flip timing, and Fermat new assets needed. 3. Protein powder launch landing page. 4. Performance of existing pages and next page/test going live.",
-        "timestamp": "2025-12-05T00:54:01+05:30",
-        "channel": "#fermat-x-veracitywellness",
-        "ts": "1764876241.838909"
-      },
-      {
-        "user": "Brand contact (Jacqueline Lin)",
-        "user_id": "U098ZHHFM47",
-        "text": "Dr appointment for my son at today's meeting time. Any chance you can meet at 3pm today instead?",
-        "timestamp": "2025-12-04T21:09:46+05:30",
-        "channel": "#fermat-x-veracitywellness",
-        "ts": "1764862786.548569",
-        "thread_replies": 3
-      },
-      {
-        "user": "Mia DyBuncio",
-        "user_id": "U07SYG0GYVB",
-        "text": "Hey @Yuliia Rusianovska here are some funnel examples for new product launch and New Year New Me funnels. @Maggie Sullivan let me know best time Mon or Tue for platform walkthrough.",
-        "timestamp": "2025-12-06T00:53:21+05:30",
-        "channel": "#fermat-x-veracitywellness",
-        "ts": "1764962601.479889",
-        "thread_replies": 10
       }
     ],
-    "analysis": "Channel #fermat-x-veracitywellness (C07UG9JPS3A) has been COMPLETELY SILENT since Feb 24 when Pulkit joined. No intro message was ever posted by Pulkit. The last brand message (Feb 18) asked for SKU/variant list for promo cleanup -- this remains unanswered 47+ days later. Before the silence, the channel was very active under Mia's management (Dec 2025 - Jan 2026): weekly calls, rebrand discussions, protein launch planning, GWP tests, funnel examples. Key brand contacts: Jacqueline Lin (U098ZHHFM47), Maggie Sullivan (U096CB8DTMM). Agency: Yuliia Rusianovska (U03TBN8EA86, DT Co/EST). Pierre weekly roundups stopped after Jan 11 -- last showed strong numbers (9,032 sessions, 101 purchases). Brand was asking to push meetings out as early as Jan 29. Integration upgrades (Meta, GA4, Shopify) were requested by Jan 15 -- completion status unknown."
+    "analysis": {
+      "channel_name": "#fermat-x-veracitywellness",
+      "channel_id": "C07UG9JPS3A",
+      "total_messages_reviewed": 20,
+      "last_brand_message_date": "2026-02-18",
+      "last_fermat_message_date": "2026-01-16",
+      "last_pulkit_activity_date": "2026-02-24",
+      "pulkit_messages_count": 0,
+      "pulkit_joined_date": "2026-02-24",
+      "days_since_last_brand_msg": 54,
+      "days_since_last_fermat_msg": 87,
+      "brand_messages_14d": 0,
+      "pulkit_messages_14d": 0,
+      "key_observation": "Channel has been completely silent since Feb 24. Last brand message (Feb 18) about SKU cleanup remains unanswered. Pulkit joined Feb 24 as part of account handoff from Mia but posted no messages. Pierre weekly roundups stopped after Jan 12, indicating funnels were turned off. All pre-Feb activity was between Mia DyBuncio and Veracity team (Maggie Sullivan, Jacqueline Lin) with DT Co agency."
+    }
   },
   "email": {
     "messages": [
       {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-04-01T10:30:08-07:00",
-        "snippet": "Your ads were approved and should begin delivering shortly",
-        "type": "meta_ad_notification"
+        "id": "19d852e07b6a6076",
+        "date": "2026-04-12",
+        "from": "Meta for Business <noreply@business.facebook.com>",
+        "to": "pulkit@fermatcommerce.com",
+        "subject": "Your appeal outcome and next steps",
+        "snippet": "Your ad will remain rejected - ad policy compliance issue",
+        "is_brand_email": false
       },
       {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-04-01T07:42:54-07:00",
-        "snippet": "Your ads were approved and should begin delivering shortly",
-        "type": "meta_ad_notification"
-      },
-      {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-03-30T12:35:39-07:00",
-        "snippet": "Your ads were approved and should begin delivering shortly",
-        "type": "meta_ad_notification"
-      },
-      {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-03-17T15:24:05-07:00",
-        "snippet": "Your ads were approved and should begin delivering shortly",
-        "type": "meta_ad_notification"
-      },
-      {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-03-13T12:35:03-07:00",
-        "snippet": "Your ads were approved and should begin delivering shortly",
-        "type": "meta_ad_notification"
-      },
-      {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-03-10T07:03:47-07:00",
-        "snippet": "Your ads were approved and should begin delivering shortly",
-        "type": "meta_ad_notification"
+        "id": "19d7ae2a501d1f50",
+        "date": "2026-04-10",
+        "from": "Meta for Business <advertise-noreply@support.facebook.com>",
+        "to": "pulkit@fermatcommerce.com",
+        "subject": "Your appeal outcome and next steps",
+        "snippet": "Your ad will remain rejected - ad policy compliance issue",
+        "is_brand_email": false
       }
     ],
-    "analysis": "No direct brand-specific email communication found between Pulkit and Veracity Selfcare team in the last 30 days. Gmail search returned only Meta ad approval notifications (6 total between Mar 10 - Apr 1 2026) and Glyphic prep emails for other brands. No GM intro email has been sent to Veracity contacts (Jacqueline Lin, Maggie Sullivan, Sabrina Pereira). The Meta ad approvals confirm ads are still running through Veracity's account, which explains the ongoing sessions/revenue in FERMAT funnels."
+    "analysis": {
+      "total_results": 8,
+      "direct_brand_emails": 0,
+      "automated_emails": 8,
+      "last_direct_email_date": null,
+      "email_threads_14d": 0,
+      "pulkit_last_outreach_date": null,
+      "note": "No direct email correspondence found between Pulkit and Veracity contacts in the last 30 days. All 8 results are automated Meta for Business ad rejection notifications unrelated to Veracity brand communications. This aligns with the account being in confirmed churn status since early March."
+    }
   },
   "granola": {
-    "meetings": [],
-    "insights": {
-      "churn_risk": "Account flagged as churn risk in Feb 2026 Granola notes. Early churn request received despite October renewal. Brand never found a winning funnel despite multiple testing attempts.",
-      "billing_issues": "Payment concerns flagged in Feb-Mar 2026. Mia was checking with finance team. Veracity identified as having October renewal with similar payment concerns to other troubled accounts.",
-      "account_transition": "Classified as one of two GM accounts showing churn risk. Early termination email sent day before handoff call. Grace (main contact) terminated by Mar 11. Andres took over but meetings cancelled.",
-      "root_cause": "Situation described as likely cost-cutting measure at client company, not performance-related. Agency (DTCo with Julia/Yuliia as POC) added complexity to account management.",
-      "contract": "October renewal cycle, auto-renewal with 1-month notice requirement."
-    },
-    "_note": "No Veracity-specific meetings found in Granola list_meetings. Insights extracted from query_granola_meetings which cited meetings af675d24, 56e43c52, ac5005d1, 4e6d0abe discussing Veracity in broader account review contexts."
-  },
-  "_mcp_status": {
-    "fermat": "TOKEN_EXPIRED - get_funnel_metrics returned 'requires re-authorization' on all 3 attempts. Performance data retained from previous pull (2026-04-06T06:26:51Z). All pdp_views, atc, checkouts, sessions, revenue, purchases numbers are real API data from that pull.",
-    "glyphic": "SERVER_ERROR - list_calls returned -32603 on all attempts (with and without title_filter). Call data retained from previous pull.",
-    "google_calendar": "OK - Confirmed zero Veracity events Mar 9 - Jun 7 2026",
-    "slack": "OK - Retrieved 20 messages from #fermat-x-veracitywellness (C07UG9JPS3A) plus 20 more via pagination",
-    "gmail": "OK - Searched 'Veracity newer_than:30d', returned 8 results (all Meta ad approvals + Glyphic prep emails, no direct brand communication)",
-    "granola": "OK - query_granola_meetings returned rich context about churn risk, billing, termination. list_meetings found no Veracity-specific meeting titles."
+    "veracity_mentions": [
+      {
+        "date": "2026-02-24",
+        "context": "Mia flagged Veracity during account handoff to Pulkit. Early termination email received the day before. Decision pending on whether to allow early exit vs. enforcing contract terms."
+      },
+      {
+        "date": "2026-02-25",
+        "context": "Veracity listed as brand with potential cancellation. Contract runs through October. Described as 'tricky' situation - performance issues despite multiple optimization attempts."
+      },
+      {
+        "date": "2026-02-26",
+        "context": "Mia noted Veracity as self-care potentially canceling, contract through October."
+      },
+      {
+        "date": "2026-03-02",
+        "context": "Veracity confirmed as non-renewal. Mia handling final process."
+      },
+      {
+        "date": "2026-03-16",
+        "context": "Listed among accounts with payments pending and cancellation concerns."
+      }
+    ],
+    "analysis": {
+      "account_status": "Churned",
+      "churn_confirmed_date": "2026-03-02",
+      "contract_end_date": "October 2026",
+      "early_termination": true,
+      "churn_reason": "Poor funnel performance - brand never found a winning funnel despite multiple test angles (GWP tests, protein funnels, advertorials, founder funnels, bundle offers)",
+      "previous_csm": "Mia DyBuncio",
+      "handoff_date": "2026-02-24",
+      "agency": "DT Co (Julia/Yuliia Rusianovska as POC)",
+      "offboarding_owner": "Mia DyBuncio"
+    }
   }
 }

@@ -1,845 +1,1117 @@
 {
   "brand_id": "8fd93118-a246-431e-aebf-4aa362622342",
   "brand_name": "De Soi",
-  "last_updated": "2026-04-06T12:45:00.000000Z",
+  "fermat_org_id": "01177dbe-2c72-4dfc-bd98-ab4866295f65",
+  "last_updated": "2026-04-13T00:00:00+05:30",
   "health": {
     "score": 30,
     "status": "red",
     "breakdown": {
-      "platform_performance": 3,
-      "platform_performance_detail": "Sessions:3/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
-      "communication": 10,
-      "communication_detail": "SlackRecency:4/4, BrandSlack14d:0/4, PulkitSlack14d:2/4, EmailThreads14d:4/4, PulkitOutreach:0/4",
-      "engagement": 17,
-      "engagement_detail": "LastCall:8/8, Calls30d:3/6, Upcoming:6/6",
+      "platform_performance": 18,
+      "platform_performance_detail": "Sessions:5/5, Revenue:4/5, CVR:4/5, Purchases:5/5",
+      "communication": 4,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:4/4, PulkitOutreach:0/4",
+      "engagement": 8,
+      "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:6/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
       {
+        "signal": "Bi-weekly call on Apr 1 covered pack size experiment, funnel audit, and account cleanup - active engagement with Denise",
         "type": "positive",
-        "text": "First Pulkit-led bi-weekly call completed Apr 1. Denise Shon attended with Nidhi. Productive 30-min session covering experiment analysis, platform strategy, and cleanup plan.",
-        "time": "Apr 1"
+        "date": "2026-04-01"
       },
       {
+        "signal": "Next bi-weekly already scheduled for Apr 15 - consistent meeting cadence maintained",
         "type": "positive",
-        "text": "Recurring bi-weekly cadence established: 4 upcoming calls scheduled (Apr 15, Apr 29, May 13, May 27) every Wed 9am PT.",
-        "time": "Apr 1"
+        "date": "2026-04-15"
       },
       {
-        "type": "positive",
-        "text": "Pulkit proactively shared detailed experiment analysis in Slack (Apr 2): identified Classics Sampler bundle masking 12-pack minimum test, recommended new clean funnel with $2-3K budget.",
-        "time": "Apr 2"
-      },
-      {
-        "type": "warning",
-        "text": "FERMAT CVR down ~50% YoY per call discussion. Site CVR also down 5-10% YoY. Zero purchases in last 15 days on FERMAT platform.",
-        "time": "Apr 1"
-      },
-      {
-        "type": "warning",
-        "text": "No brand-side Slack messages in last 14 days. Denise has not replied to Pulkit's Apr 2 experiment analysis or Apr 1 recap yet.",
-        "time": "Apr 6"
-      },
-      {
+        "signal": "Denise DECLINED the Apr 15 bi-weekly invite on Apr 8 - meeting may not happen",
         "type": "negative",
-        "text": "Platform performance critically low: 0 purchases, $0 revenue, 273 sessions in last 7 days. Daily sessions dropped from 500-600 range (late Feb) to 14-93 range (late Mar/Apr).",
-        "time": "Apr 6"
+        "date": "2026-04-08"
       },
       {
+        "signal": "7-day CVR at 1.38% is below 2% threshold - conversion performance needs attention",
+        "type": "negative",
+        "date": "2026-04-12"
+      },
+      {
+        "signal": "GM transition from Mia to Pulkit completed Mar 3 - still building relationship with De Soi team",
+        "type": "neutral",
+        "date": "2026-03-03"
+      },
+      {
+        "signal": "Zero brand-initiated Slack messages in last 14 days - low proactive engagement from De Soi",
+        "type": "negative",
+        "date": "2026-04-12"
+      },
+      {
+        "signal": "Apr 12 was strongest day in 7d window: 412 sessions, 8 purchases, $750.19 revenue",
         "type": "positive",
-        "text": "Brand actively using FERMAT: Denise asked Intercom support questions about product reviews (Mar 17) and shop display (Mar 20). Brand engaged in experimentation despite low conversion.",
-        "time": "Mar 20"
-      },
-      {
-        "type": "warning",
-        "text": "Account needs cleanup: multiple unused product clones and outdated custom products identified. Pulkit audit in progress.",
-        "time": "Apr 1"
+        "date": "2026-04-12"
       }
     ]
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
-      "revenue": 0,
-      "cvr": 0.0,
-      "sessions": 17,
+      "revenue": 750.19,
+      "cvr": 1.94,
+      "sessions": 412,
       "roas": null,
       "cpa": null,
-      "purchases": 0,
-      "aov": 0,
-      "pdp_views": 0,
-      "atc": 0,
-      "checkouts": 0
+      "purchases": 8,
+      "aov": 93.77,
+      "pdp_views": 97,
+      "atc": 21,
+      "checkouts": 8
     },
     "3d": {
       "ad_spend": null,
-      "revenue": 0,
-      "cvr": 0.0,
-      "sessions": 53,
+      "revenue": 1052.05,
+      "cvr": 1.17,
+      "sessions": 1024,
       "roas": null,
       "cpa": null,
-      "purchases": 0,
-      "aov": 0,
-      "pdp_views": 1,
-      "atc": 0,
-      "checkouts": 0
+      "purchases": 12,
+      "aov": 87.67,
+      "pdp_views": 209,
+      "atc": 41,
+      "checkouts": 13
     },
     "7d": {
       "ad_spend": null,
-      "revenue": 0,
-      "cvr": 0.0,
-      "sessions": 273,
+      "revenue": 2419.79,
+      "cvr": 1.4,
+      "sessions": 2290,
       "roas": null,
       "cpa": null,
-      "purchases": 0,
-      "aov": 0,
-      "pdp_views": 3,
-      "atc": 0,
-      "checkouts": 0
+      "purchases": 32,
+      "aov": 75.62,
+      "pdp_views": 452,
+      "atc": 104,
+      "checkouts": 42
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 0,
-      "cvr": 0.0,
-      "sessions": 527,
+      "revenue": 6154.05,
+      "cvr": 1.58,
+      "sessions": 5132,
       "roas": null,
       "cpa": null,
-      "purchases": 0,
-      "aov": 0,
-      "pdp_views": 12,
-      "atc": 0,
-      "checkouts": 0
+      "purchases": 81,
+      "aov": 75.98,
+      "pdp_views": 1002,
+      "atc": 248,
+      "checkouts": 99
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 217.48,
-      "cvr": 0.3272,
-      "sessions": 1834,
+      "revenue": 12127.1,
+      "cvr": 1.59,
+      "sessions": 10076,
       "roas": null,
       "cpa": null,
-      "purchases": 6,
-      "aov": 36.25,
-      "pdp_views": 61,
-      "atc": 16,
-      "checkouts": 5
+      "purchases": 160,
+      "aov": 75.79,
+      "pdp_views": 2005,
+      "atc": 483,
+      "checkouts": 189
     },
     "45d": {
       "ad_spend": null,
-      "revenue": 2900.02,
-      "cvr": 0.8199,
-      "sessions": 7440,
+      "revenue": 18226.44,
+      "cvr": 1.67,
+      "sessions": 14279,
       "roas": null,
       "cpa": null,
-      "purchases": 61,
-      "aov": 47.54,
-      "pdp_views": 451,
-      "atc": 154,
-      "checkouts": 79
+      "purchases": 239,
+      "aov": 76.26,
+      "pdp_views": 2952,
+      "atc": 693,
+      "checkouts": 297
     },
     "daily": [
       {
-        "date": "2026-02-20",
-        "sessions": 209,
-        "pdp_views": 22,
-        "atc": 5,
-        "checkouts": 2,
-        "purchases": 2,
-        "revenue": 62.9
-      },
-      {
-        "date": "2026-02-21",
-        "sessions": 158,
-        "pdp_views": 13,
-        "atc": 7,
-        "checkouts": 5,
-        "purchases": 2,
-        "revenue": 94.34
-      },
-      {
-        "date": "2026-02-22",
-        "sessions": 274,
-        "pdp_views": 25,
-        "atc": 9,
-        "checkouts": 4,
-        "purchases": 4,
-        "revenue": 157.24
-      },
-      {
-        "date": "2026-02-23",
-        "sessions": 296,
-        "pdp_views": 25,
-        "atc": 7,
-        "checkouts": 3,
-        "purchases": 4,
-        "revenue": 244.93
-      },
-      {
-        "date": "2026-02-24",
-        "sessions": 641,
-        "pdp_views": 41,
-        "atc": 14,
-        "checkouts": 8,
-        "purchases": 4,
-        "revenue": 193.13
-      },
-      {
-        "date": "2026-02-25",
-        "sessions": 395,
-        "pdp_views": 46,
-        "atc": 23,
-        "checkouts": 13,
-        "purchases": 14,
-        "revenue": 839.11
-      },
-      {
         "date": "2026-02-26",
-        "sessions": 550,
-        "pdp_views": 43,
-        "atc": 14,
-        "checkouts": 7,
-        "purchases": 6,
-        "revenue": 283.12
+        "ad_spend": null,
+        "revenue": 62.55,
+        "cvr": 0.41,
+        "sessions": 246,
+        "roas": null,
+        "cpa": null,
+        "purchases": 1,
+        "aov": 62.55,
+        "pdp_views": 47,
+        "atc": 5,
+        "checkouts": 0
       },
       {
         "date": "2026-02-27",
-        "sessions": 478,
-        "pdp_views": 36,
-        "atc": 10,
-        "checkouts": 5,
-        "purchases": 4,
-        "revenue": 170.64
+        "ad_spend": null,
+        "revenue": 617.2,
+        "cvr": 3.23,
+        "sessions": 279,
+        "roas": null,
+        "cpa": null,
+        "purchases": 9,
+        "aov": 68.58,
+        "pdp_views": 76,
+        "atc": 22,
+        "checkouts": 9
       },
       {
         "date": "2026-02-28",
-        "sessions": 413,
-        "pdp_views": 37,
-        "atc": 14,
-        "checkouts": 8,
-        "purchases": 3,
-        "revenue": 117.34
+        "ad_spend": null,
+        "revenue": 356.48,
+        "cvr": 1.7,
+        "sessions": 294,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 71.3,
+        "pdp_views": 57,
+        "atc": 16,
+        "checkouts": 9
       },
       {
         "date": "2026-03-01",
-        "sessions": 560,
-        "pdp_views": 44,
-        "atc": 11,
-        "checkouts": 6,
-        "purchases": 4,
-        "revenue": 201.27
+        "ad_spend": null,
+        "revenue": 523.01,
+        "cvr": 1.6,
+        "sessions": 375,
+        "roas": null,
+        "cpa": null,
+        "purchases": 6,
+        "aov": 87.17,
+        "pdp_views": 88,
+        "atc": 18,
+        "checkouts": 7
       },
       {
         "date": "2026-03-02",
-        "sessions": 381,
-        "pdp_views": 24,
-        "atc": 13,
-        "checkouts": 6,
-        "purchases": 2,
-        "revenue": 65.18
+        "ad_spend": null,
+        "revenue": 618.84,
+        "cvr": 2.61,
+        "sessions": 345,
+        "roas": null,
+        "cpa": null,
+        "purchases": 9,
+        "aov": 68.76,
+        "pdp_views": 69,
+        "atc": 16,
+        "checkouts": 11
       },
       {
         "date": "2026-03-03",
-        "sessions": 317,
-        "pdp_views": 13,
-        "atc": 3,
-        "checkouts": 1,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 550.07,
+        "cvr": 1.91,
+        "sessions": 262,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 110.01,
+        "pdp_views": 45,
+        "atc": 10,
+        "checkouts": 9
       },
       {
         "date": "2026-03-04",
-        "sessions": 617,
-        "pdp_views": 7,
-        "atc": 2,
-        "checkouts": 2,
-        "purchases": 2,
-        "revenue": 95.31
+        "ad_spend": null,
+        "revenue": 247.58,
+        "cvr": 1.69,
+        "sessions": 236,
+        "roas": null,
+        "cpa": null,
+        "purchases": 4,
+        "aov": 61.9,
+        "pdp_views": 67,
+        "atc": 16,
+        "checkouts": 7
       },
       {
         "date": "2026-03-05",
-        "sessions": 219,
-        "pdp_views": 8,
-        "atc": 2,
-        "checkouts": 2,
-        "purchases": 2,
-        "revenue": 64.84
+        "ad_spend": null,
+        "revenue": 196.33,
+        "cvr": 1.28,
+        "sessions": 235,
+        "roas": null,
+        "cpa": null,
+        "purchases": 3,
+        "aov": 65.44,
+        "pdp_views": 52,
+        "atc": 8,
+        "checkouts": 3
       },
       {
         "date": "2026-03-06",
-        "sessions": 98,
-        "pdp_views": 6,
-        "atc": 4,
-        "checkouts": 2,
+        "ad_spend": null,
+        "revenue": 234.1,
+        "cvr": 1.02,
+        "sessions": 196,
+        "roas": null,
+        "cpa": null,
         "purchases": 2,
-        "revenue": 93.19
+        "aov": 117.05,
+        "pdp_views": 40,
+        "atc": 6,
+        "checkouts": 2
       },
       {
         "date": "2026-03-07",
-        "sessions": 75,
-        "pdp_views": 8,
-        "atc": 4,
-        "checkouts": 2,
-        "purchases": 2,
-        "revenue": 33.1
+        "ad_spend": null,
+        "revenue": 607.18,
+        "cvr": 4.47,
+        "sessions": 179,
+        "roas": null,
+        "cpa": null,
+        "purchases": 8,
+        "aov": 75.9,
+        "pdp_views": 35,
+        "atc": 11,
+        "checkouts": 9
       },
       {
         "date": "2026-03-08",
-        "sessions": 159,
-        "pdp_views": 10,
-        "atc": 3,
-        "checkouts": 1,
-        "purchases": 2,
-        "revenue": 98.8
+        "ad_spend": null,
+        "revenue": 551.39,
+        "cvr": 2.05,
+        "sessions": 244,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 110.28,
+        "pdp_views": 68,
+        "atc": 9,
+        "checkouts": 8
       },
       {
         "date": "2026-03-09",
-        "sessions": 96,
-        "pdp_views": 7,
-        "atc": 3,
-        "checkouts": 0,
-        "purchases": 2,
-        "revenue": 85.58
+        "ad_spend": null,
+        "revenue": 87.18,
+        "cvr": 0.46,
+        "sessions": 218,
+        "roas": null,
+        "cpa": null,
+        "purchases": 1,
+        "aov": 87.18,
+        "pdp_views": 49,
+        "atc": 9,
+        "checkouts": 2
       },
       {
         "date": "2026-03-10",
-        "sessions": 130,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 344.04,
+        "cvr": 1.36,
+        "sessions": 295,
+        "roas": null,
+        "cpa": null,
+        "purchases": 4,
+        "aov": 86.01,
+        "pdp_views": 87,
+        "atc": 20,
+        "checkouts": 11
       },
       {
         "date": "2026-03-11",
-        "sessions": 84,
-        "pdp_views": 2,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 395.87,
+        "cvr": 2.69,
+        "sessions": 223,
+        "roas": null,
+        "cpa": null,
+        "purchases": 6,
+        "aov": 65.98,
+        "pdp_views": 51,
+        "atc": 11,
+        "checkouts": 6
       },
       {
         "date": "2026-03-12",
-        "sessions": 72,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 320.98,
+        "cvr": 1.69,
+        "sessions": 296,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 64.2,
+        "pdp_views": 58,
+        "atc": 15,
+        "checkouts": 5
       },
       {
         "date": "2026-03-13",
-        "sessions": 183,
-        "pdp_views": 3,
-        "atc": 2,
-        "checkouts": 1,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 386.54,
+        "cvr": 2.14,
+        "sessions": 280,
+        "roas": null,
+        "cpa": null,
+        "purchases": 6,
+        "aov": 64.42,
+        "pdp_views": 58,
+        "atc": 18,
+        "checkouts": 10
       },
       {
         "date": "2026-03-14",
-        "sessions": 107,
-        "pdp_views": 2,
-        "atc": 1,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 189.65,
+        "cvr": 1.37,
+        "sessions": 219,
+        "roas": null,
+        "cpa": null,
+        "purchases": 3,
+        "aov": 63.22,
+        "pdp_views": 46,
+        "atc": 7,
+        "checkouts": 4
       },
       {
         "date": "2026-03-15",
-        "sessions": 91,
-        "pdp_views": 2,
-        "atc": 1,
-        "checkouts": 1,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 765.61,
+        "cvr": 3.64,
+        "sessions": 302,
+        "roas": null,
+        "cpa": null,
+        "purchases": 11,
+        "aov": 69.6,
+        "pdp_views": 61,
+        "atc": 26,
+        "checkouts": 10
       },
       {
         "date": "2026-03-16",
-        "sessions": 143,
-        "pdp_views": 5,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 651.6,
+        "cvr": 2.26,
+        "sessions": 399,
+        "roas": null,
+        "cpa": null,
+        "purchases": 9,
+        "aov": 72.4,
+        "pdp_views": 109,
+        "atc": 31,
+        "checkouts": 10
       },
       {
         "date": "2026-03-17",
-        "sessions": 56,
-        "pdp_views": 5,
-        "atc": 2,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 422.44,
+        "cvr": 1.69,
+        "sessions": 295,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 84.49,
+        "pdp_views": 66,
+        "atc": 15,
+        "checkouts": 8
       },
       {
         "date": "2026-03-18",
-        "sessions": 30,
-        "pdp_views": 1,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 112.52,
+        "cvr": 0.98,
+        "sessions": 307,
+        "roas": null,
+        "cpa": null,
+        "purchases": 3,
+        "aov": 37.51,
+        "pdp_views": 61,
+        "atc": 10,
+        "checkouts": 6
       },
       {
         "date": "2026-03-19",
-        "sessions": 20,
-        "pdp_views": 1,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 468.45,
+        "cvr": 1.42,
+        "sessions": 353,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 93.69,
+        "pdp_views": 66,
+        "atc": 19,
+        "checkouts": 2
       },
       {
         "date": "2026-03-20",
-        "sessions": 34,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 246.14,
+        "cvr": 1.38,
+        "sessions": 290,
+        "roas": null,
+        "cpa": null,
+        "purchases": 4,
+        "aov": 61.53,
+        "pdp_views": 51,
+        "atc": 5,
+        "checkouts": 3
       },
       {
         "date": "2026-03-21",
-        "sessions": 27,
-        "pdp_views": 3,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 362.79,
+        "cvr": 1.47,
+        "sessions": 272,
+        "roas": null,
+        "cpa": null,
+        "purchases": 4,
+        "aov": 90.7,
+        "pdp_views": 40,
+        "atc": 7,
+        "checkouts": 4
       },
       {
         "date": "2026-03-22",
-        "sessions": 49,
-        "pdp_views": 1,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 566.42,
+        "cvr": 1.55,
+        "sessions": 453,
+        "roas": null,
+        "cpa": null,
+        "purchases": 7,
+        "aov": 80.92,
+        "pdp_views": 111,
+        "atc": 25,
+        "checkouts": 9
       },
       {
         "date": "2026-03-23",
-        "sessions": 50,
-        "pdp_views": 4,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 610.46,
+        "cvr": 2.37,
+        "sessions": 380,
+        "roas": null,
+        "cpa": null,
+        "purchases": 9,
+        "aov": 67.83,
+        "pdp_views": 83,
+        "atc": 18,
+        "checkouts": 9
       },
       {
         "date": "2026-03-24",
-        "sessions": 31,
-        "pdp_views": 1,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 398.22,
+        "cvr": 1.17,
+        "sessions": 343,
+        "roas": null,
+        "cpa": null,
+        "purchases": 4,
+        "aov": 99.56,
+        "pdp_views": 46,
+        "atc": 13,
+        "checkouts": 8
       },
       {
         "date": "2026-03-25",
-        "sessions": 28,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 876.95,
+        "cvr": 3.13,
+        "sessions": 351,
+        "roas": null,
+        "cpa": null,
+        "purchases": 11,
+        "aov": 79.72,
+        "pdp_views": 79,
+        "atc": 29,
+        "checkouts": 7
       },
       {
         "date": "2026-03-26",
-        "sessions": 18,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 130.46,
+        "cvr": 0.58,
+        "sessions": 346,
+        "roas": null,
+        "cpa": null,
+        "purchases": 2,
+        "aov": 65.23,
+        "pdp_views": 69,
+        "atc": 14,
+        "checkouts": 6
       },
       {
         "date": "2026-03-27",
-        "sessions": 27,
-        "pdp_views": 1,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 171.34,
+        "cvr": 0.57,
+        "sessions": 348,
+        "roas": null,
+        "cpa": null,
+        "purchases": 2,
+        "aov": 85.67,
+        "pdp_views": 74,
+        "atc": 8,
+        "checkouts": 4
       },
       {
         "date": "2026-03-28",
-        "sessions": 27,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
+        "ad_spend": null,
+        "revenue": 0.0,
+        "cvr": 0.0,
+        "sessions": 286,
+        "roas": null,
+        "cpa": null,
         "purchases": 0,
-        "revenue": 0
+        "aov": 0,
+        "pdp_views": 41,
+        "atc": 8,
+        "checkouts": 0
       },
       {
         "date": "2026-03-29",
-        "sessions": 24,
-        "pdp_views": 2,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 207.0,
+        "cvr": 1.2,
+        "sessions": 418,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 41.4,
+        "pdp_views": 73,
+        "atc": 18,
+        "checkouts": 9
       },
       {
         "date": "2026-03-30",
-        "sessions": 25,
-        "pdp_views": 1,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 430.63,
+        "cvr": 1.23,
+        "sessions": 408,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 86.13,
+        "pdp_views": 85,
+        "atc": 22,
+        "checkouts": 7
       },
       {
         "date": "2026-03-31",
-        "sessions": 31,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 555.34,
+        "cvr": 2.53,
+        "sessions": 277,
+        "roas": null,
+        "cpa": null,
+        "purchases": 7,
+        "aov": 79.33,
+        "pdp_views": 47,
+        "atc": 20,
+        "checkouts": 8
       },
       {
         "date": "2026-04-01",
-        "sessions": 71,
-        "pdp_views": 1,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 484.62,
+        "cvr": 1.88,
+        "sessions": 372,
+        "roas": null,
+        "cpa": null,
+        "purchases": 7,
+        "aov": 69.23,
+        "pdp_views": 53,
+        "atc": 18,
+        "checkouts": 7
       },
       {
         "date": "2026-04-02",
-        "sessions": 93,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 498.66,
+        "cvr": 2.0,
+        "sessions": 300,
+        "roas": null,
+        "cpa": null,
+        "purchases": 6,
+        "aov": 83.11,
+        "pdp_views": 67,
+        "atc": 9,
+        "checkouts": 6
       },
       {
         "date": "2026-04-03",
-        "sessions": 22,
-        "pdp_views": 1,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 373.05,
+        "cvr": 1.47,
+        "sessions": 340,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 74.61,
+        "pdp_views": 79,
+        "atc": 15,
+        "checkouts": 5
       },
       {
         "date": "2026-04-04",
-        "sessions": 14,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 508.39,
+        "cvr": 2.18,
+        "sessions": 275,
+        "roas": null,
+        "cpa": null,
+        "purchases": 6,
+        "aov": 84.73,
+        "pdp_views": 55,
+        "atc": 12,
+        "checkouts": 7
       },
       {
         "date": "2026-04-05",
-        "sessions": 17,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "ad_spend": null,
+        "revenue": 676.57,
+        "cvr": 1.77,
+        "sessions": 452,
+        "roas": null,
+        "cpa": null,
+        "purchases": 8,
+        "aov": 84.57,
+        "pdp_views": 91,
+        "atc": 30,
+        "checkouts": 8
+      },
+      {
+        "date": "2026-04-06",
+        "ad_spend": null,
+        "revenue": 114.44,
+        "cvr": 0.8,
+        "sessions": 374,
+        "roas": null,
+        "cpa": null,
+        "purchases": 3,
+        "aov": 38.15,
+        "pdp_views": 73,
+        "atc": 16,
+        "checkouts": 7
+      },
+      {
+        "date": "2026-04-07",
+        "ad_spend": null,
+        "revenue": 355.04,
+        "cvr": 2.21,
+        "sessions": 271,
+        "roas": null,
+        "cpa": null,
+        "purchases": 6,
+        "aov": 59.17,
+        "pdp_views": 46,
+        "atc": 13,
+        "checkouts": 7
+      },
+      {
+        "date": "2026-04-08",
+        "ad_spend": null,
+        "revenue": 463.37,
+        "cvr": 1.53,
+        "sessions": 327,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 92.67,
+        "pdp_views": 63,
+        "atc": 15,
+        "checkouts": 5
+      },
+      {
+        "date": "2026-04-09",
+        "ad_spend": null,
+        "revenue": 434.89,
+        "cvr": 2.04,
+        "sessions": 294,
+        "roas": null,
+        "cpa": null,
+        "purchases": 6,
+        "aov": 72.48,
+        "pdp_views": 61,
+        "atc": 19,
+        "checkouts": 10
+      },
+      {
+        "date": "2026-04-10",
+        "ad_spend": null,
+        "revenue": 132.06,
+        "cvr": 0.66,
+        "sessions": 304,
+        "roas": null,
+        "cpa": null,
+        "purchases": 2,
+        "aov": 66.03,
+        "pdp_views": 47,
+        "atc": 8,
+        "checkouts": 3
+      },
+      {
+        "date": "2026-04-11",
+        "ad_spend": null,
+        "revenue": 169.8,
+        "cvr": 0.65,
+        "sessions": 308,
+        "roas": null,
+        "cpa": null,
+        "purchases": 2,
+        "aov": 84.9,
+        "pdp_views": 65,
+        "atc": 12,
+        "checkouts": 2
+      },
+      {
+        "date": "2026-04-12",
+        "ad_spend": null,
+        "revenue": 750.19,
+        "cvr": 1.94,
+        "sessions": 412,
+        "roas": null,
+        "cpa": null,
+        "purchases": 8,
+        "aov": 93.77,
+        "pdp_views": 97,
+        "atc": 21,
+        "checkouts": 8
       }
     ]
   },
   "calls": {
     "recent": [
       {
-        "date": "2026-04-01T21:30:00+05:30",
-        "title": "De Soi x FERMÀT || Bi Weekly Connect",
+        "id": "69974a51cf4f06645a48b5e9",
+        "title": "Fermat x De Soi weekly",
+        "date": "2026-02-19",
+        "duration_minutes": 9,
+        "status": "cancelled",
         "participants": [
-          "Pulkit Srivastava (FERMÀT)",
-          "Denise Shon (De Soi)",
-          "Nidhi Singh (FERMÀT)"
+          "Mia DyBuncio",
+          "Sammi Tydings",
+          "jordan@structured.agency",
+          "Ibtissam Berkat",
+          "Rebekah .",
+          "Amruta Vyas",
+          "Denise Shon",
+          "sarah@fermatcommerce.com"
         ],
-        "source": "granola",
-        "granola_id": "541df0b8-878e-4370-8fc0-9b11df31f00d",
-        "granola_url": "https://notes.granola.ai/d/541df0b8-878e-4370-8fc0-9b11df31f00d",
-        "summary": "First Pulkit-led bi-weekly. Discussed FERMÀT CR down ~50% YoY, site CR down 5-10% YoY. 12-pack minimum experiment flawed due to bundle merchandising masking results. Decided to pause current experiment, set up new funnel with individual flavors first. Account cleanup needed for unused product clones. Okendo star ratings sync to be investigated. Biweekly Wed 9am PT cadence established.",
-        "action_items": [
-          {
-            "owner": "Pulkit",
-            "item": "Audit current experiment - confirm bundle-first merchandising is skewing results, share findings async",
-            "status": "done"
-          },
-          {
-            "owner": "Pulkit",
-            "item": "Complete full account audit: funnel setup, drop-off points, hierarchy suggestions, new funnel ideas",
-            "status": "in_progress"
-          },
-          {
-            "owner": "Pulkit",
-            "item": "Provide cleanup list of all cloned/custom products mapped to landing pages",
-            "status": "in_progress"
-          },
-          {
-            "owner": "Pulkit",
-            "item": "Investigate Okendo star ratings sync via agentic workflows",
-            "status": "in_progress"
-          },
-          {
-            "owner": "Pulkit",
-            "item": "Set up recurring Wednesday 9am PT biweekly call",
-            "status": "done"
-          },
-          {
-            "owner": "Denise",
-            "item": "Loop in paid media agency before pausing current experiment",
-            "status": "pending"
-          },
-          {
-            "owner": "Denise",
-            "item": "Create new FERMÀT funnel with individual flavors surfaced first",
-            "status": "pending"
-          },
-          {
-            "owner": "Denise",
-            "item": "Review product/PDP cleanup list once provided",
-            "status": "pending"
-          }
+        "source": "glyphic"
+      },
+      {
+        "id": "69825ca3899be8a8fbe879b0",
+        "title": "De Soi x Fermat - Platform Walkthrough",
+        "date": "2026-02-03",
+        "duration_minutes": 40,
+        "status": "completed",
+        "participants": [
+          "Mia DyBuncio",
+          "Denise Shon"
         ],
-        "key_metrics_discussed": {
-          "fermat_cvr_yoy": "down ~50%",
-          "site_cvr_yoy": "down 5-10%",
-          "pack_size_test_fermat": "no CR drop",
-          "pack_size_test_site": "-10 to -15% CR drop",
-          "recommended_test_budget": "$2,000-$3,000 over 1-2 weeks"
-        }
+        "source": "glyphic"
+      },
+      {
+        "id": "6972640460c014b0ca1bdedc",
+        "title": "Fermat x De Soi weekly",
+        "date": "2026-01-22",
+        "duration_minutes": 25,
+        "status": "completed",
+        "participants": [
+          "Amruta Vyas",
+          "Mia DyBuncio",
+          "Denise Shon",
+          "sarah@fermatcommerce.com",
+          "jordan@structured.agency",
+          "Sammi Tydings",
+          "Rebekah .",
+          "Ibtissam Berkat"
+        ],
+        "source": "glyphic"
+      },
+      {
+        "id": "695fed34cd1ca7d1eee13942",
+        "title": "Fermat x De Soi weekly",
+        "date": "2026-01-08",
+        "duration_minutes": 17,
+        "status": "completed",
+        "participants": [
+          "Amruta Vyas",
+          "Mia DyBuncio",
+          "Sammi Tydings",
+          "Sarah Herman",
+          "denise@drinkdesoi.com",
+          "Ibtissam Berkat",
+          "jordan@structured.agency",
+          "Rebekah ."
+        ],
+        "source": "glyphic"
+      },
+      {
+        "id": "6939d89198224930863d5701",
+        "title": "Fermat x De Soi weekly",
+        "date": "2025-12-10",
+        "duration_minutes": 30,
+        "status": "completed",
+        "participants": [
+          "Amruta",
+          "Mia DyBuncio",
+          "denise@drinkdesoi.com",
+          "jordan@structured.agency",
+          "Ibtissam Berkat",
+          "Sarah Herman",
+          "Sammi Tydings",
+          "Rebekah ."
+        ],
+        "source": "glyphic"
       }
     ],
-    "analysis": "First Pulkit-led call completed Apr 1 via Zoom (confirmed by Glyphic summary email, Zoom join notification, and Granola meeting notes). Denise Shon (recently inherited FERMÀT account after previous director of marketing + Mia left De Soi) attended with Nidhi Singh. Productive call focused on experiment analysis and platform strategy. Pulkit followed up same day with detailed recap in Slack and Apr 2 with deep experiment data analysis. Previously no De Soi calls since GM transition on Mar 3."
+    "analysis": {
+      "total_calls_glyphic": 10,
+      "completed_calls": 7,
+      "cancelled_calls": 2,
+      "most_recent_completed": {
+        "title": "De Soi x FERMÀT",
+        "date": "2026-04-01",
+        "source": "granola",
+        "attendees": [
+          "Pulkit Srivastava",
+          "Denise Shon",
+          "Nidhi Singh"
+        ],
+        "key_topics": [
+          "Pack size experiment (12-pack minimum test)",
+          "FERMÀT CVR down ~50% YoY",
+          "Bundle merchandising masking experiment results",
+          "Account cleanup of unused product versions",
+          "Okendo star ratings sync investigation",
+          "Bi-weekly cadence set for Wednesdays 9am PT"
+        ],
+        "action_items_fermat": [
+          "Audit current experiment - confirm bundle-first merchandising skewing results",
+          "Full account audit - funnel setup, drop-off points, hierarchy",
+          "Provide cleanup list of cloned/custom products mapped to landing pages",
+          "Investigate Okendo star ratings sync via agentic workflows",
+          "Bi-weekly check-ins scheduled (Wednesdays 9am PT)"
+        ],
+        "action_items_brand": [
+          "Loop in paid media agency before pausing current experiment",
+          "Create new funnel with individual flavors surfaced first",
+          "Review product/PDP cleanup list once provided"
+        ]
+      },
+      "granola_meeting_id": "541df0b8-878e-4370-8fc0-9b11df31f00d",
+      "key_contacts": [
+        "Denise Shon (denise@drinkdesoi.com)",
+        "Amruta Vyas (amruta@drinkdesoi.com)",
+        "Sammi Tydings (sammi@drinkdesoi.com)"
+      ],
+      "agency": "Structured Agency (structured.agency)"
+    }
   },
   "calendar": {
     "past": [
       {
-        "id": "3kud1k2hlbhtbmfrjc0m1euqcc_20260401T160000Z",
-        "summary": "De Soi x FERMÀT || Bi Weekly Connect",
-        "date": "2026-04-01T21:30:00+05:30",
-        "status": "confirmed",
-        "type": "Bi-weekly sync",
-        "attended": true
+        "title": "De Soi x FERMÀT || Bi Weekly Connect",
+        "date": "2026-04-01",
+        "time": "21:30 IST",
+        "status": "completed",
+        "attendees": 3
       }
     ],
     "upcoming": [
       {
-        "id": "3kud1k2hlbhtbmfrjc0m1euqcc_20260415T160000Z",
-        "summary": "De Soi x FERMÀT || Bi Weekly Connect",
-        "date": "2026-04-15T21:30:00+05:30",
+        "title": "De Soi x FERMÀT || Bi Weekly Connect",
+        "date": "2026-04-15",
+        "time": "21:30 IST",
         "status": "confirmed",
-        "type": "Bi-weekly sync"
+        "note": "Denise Shon declined this invite on Apr 8",
+        "attendees": 3
       },
       {
-        "id": "3kud1k2hlbhtbmfrjc0m1euqcc_20260429T160000Z",
-        "summary": "De Soi x FERMÀT || Bi Weekly Connect",
-        "date": "2026-04-29T21:30:00+05:30",
+        "title": "De Soi x FERMÀT || Bi Weekly Connect",
+        "date": "2026-04-29",
+        "time": "21:30 IST",
         "status": "confirmed",
-        "type": "Bi-weekly sync"
+        "attendees": 3
       },
       {
-        "id": "3kud1k2hlbhtbmfrjc0m1euqcc_20260513T160000Z",
-        "summary": "De Soi x FERMÀT || Bi Weekly Connect",
-        "date": "2026-05-13T21:30:00+05:30",
+        "title": "De Soi x FERMÀT || Bi Weekly Connect",
+        "date": "2026-05-13",
+        "time": "21:30 IST",
         "status": "confirmed",
-        "type": "Bi-weekly sync"
+        "attendees": 3
       },
       {
-        "id": "3kud1k2hlbhtbmfrjc0m1euqcc_20260527T160000Z",
-        "summary": "De Soi x FERMÀT || Bi Weekly Connect",
-        "date": "2026-05-27T21:30:00+05:30",
+        "title": "De Soi x FERMÀT || Bi Weekly Connect",
+        "date": "2026-05-27",
+        "time": "21:30 IST",
         "status": "confirmed",
-        "type": "Bi-weekly sync"
+        "attendees": 3
+      },
+      {
+        "title": "De Soi x FERMÀT || Bi Weekly Connect",
+        "date": "2026-06-10",
+        "time": "21:30 IST",
+        "status": "confirmed",
+        "attendees": 3
       }
     ]
   },
   "slack": {
     "messages": [
       {
-        "date": "2026-04-02T10:48:19+05:30",
         "author": "Pulkit Srivastava",
-        "content": "Shared detailed experiment analysis: Classics Sampler bundle is masking the 12-pack minimum test. Control had 13 purchases ($1,257) and Variant 1 had 12 purchases ($1,038) for bundles. Individual flavors showed Variant 1 dropping 72% in purchases (18 to 5) and 66% in ATCs (62 to 21). Recommended new clean funnel test with $2-3K budget.",
-        "ts": "1775107099.416039"
+        "date": "2026-04-02",
+        "timestamp": "1775107099.416039",
+        "preview": "Experiment data analysis: Classics Sampler hero product masking 12-pack minimum test. Individual flavors show 72% drop in purchases with 12-pack min. Recommend new funnel with individual flavors front and center."
       },
       {
-        "date": "2026-04-01T22:12:44+05:30",
         "author": "Pulkit Srivastava",
-        "content": "Post-call recap: FERMÀT CVR down 50% YoY, site CVR down 5-10% YoY, 12-pack test no impact on FERMÀT but -10-15% on site. Action items listed for both sides. Biweekly Wed 9am PT established.",
-        "ts": "1775061764.716129"
+        "date": "2026-04-01",
+        "timestamp": "1775061764.716129",
+        "preview": "Post-call recap: FERMAT CVR down 50% YoY, 12-pack minimum test results, platform transition notes, action items for both sides."
       },
       {
-        "date": "2026-03-25T13:10:21+05:30",
         "author": "Pulkit Srivastava",
-        "content": "Follow-up bump asking De Soi team to schedule intro call via calendar link.",
-        "ts": "1774424421.376029"
+        "date": "2026-03-25",
+        "timestamp": "1774424421.376029",
+        "preview": "Follow-up to schedule intro call with De Soi team, shared calendar link."
       },
       {
-        "date": "2026-03-11T04:01:38+05:30",
-        "author": "De Soi team member",
-        "content": "Asked for FERMÀT invoices to be sent to ap@drinkdesoi.com and cc denise@drinkdesoi.com.",
-        "ts": "1773181898.378219"
+        "author": "Brand (unknown)",
+        "date": "2026-03-11",
+        "timestamp": "1773181898.378219",
+        "preview": "Requested FERMAT invoices be sent to ap@drinkdesoi.com cc denise@drinkdesoi.com. Thread: 2 replies."
       },
       {
-        "date": "2026-03-03T11:00:12+05:30",
         "author": "Pulkit Srivastava",
-        "content": "GM intro message - introduced himself as new GM, shared Calendly link.",
-        "ts": "1772515812.475609"
+        "date": "2026-03-03",
+        "timestamp": "1772515812.475609",
+        "preview": "GM introduction message - Pulkit as new GM, shared calendar link for intro call."
       },
       {
-        "date": "2026-03-03T01:50:37+05:30",
         "author": "Mia DyBuncio",
-        "content": "Transition message - introduced Pulkit as new GM to Denise Shon, transitioning to Product team.",
-        "ts": "1772482837.632239"
+        "date": "2026-03-03",
+        "timestamp": "1772482837.632239",
+        "preview": "GM transition announcement - Mia moving to Product team, introducing Pulkit as new GM."
       },
       {
-        "date": "2026-02-19T23:09:02+05:30",
         "author": "Mia DyBuncio",
-        "content": "Was on Zoom but not much to cover, offered to connect async.",
-        "ts": "1771522742.078539"
+        "date": "2026-02-19",
+        "timestamp": "1771522742.078539",
+        "preview": "Async check-in offer, nothing major to cover on call."
       },
       {
-        "date": "2026-02-19T00:09:25+05:30",
-        "author": "De Soi team member",
-        "content": "Asked about subscription-only buy box in Fermat for split test.",
-        "ts": "1771439965.343169"
+        "author": "Brand (Denise)",
+        "date": "2026-02-19",
+        "timestamp": "1771439965.343169",
+        "preview": "Asking about subscription-only buy box in Fermat for split test."
       },
       {
-        "date": "2026-02-18T05:51:52+05:30",
-        "author": "De Soi team member",
-        "content": "Asked how to change media for hero header on duplicated funnel.",
-        "ts": "1771374112.047099"
+        "author": "Brand (Denise)",
+        "date": "2026-02-18",
+        "timestamp": "1771374112.047099",
+        "preview": "How to change media for hero header on duplicated funnel."
       },
       {
-        "date": "2026-02-18T03:51:03+05:30",
-        "author": "De Soi team member",
-        "content": "Asked for optimization recommendations on Le Grand Ensemble subscription offer funnel.",
-        "ts": "1771366863.563459"
-      },
-      {
-        "date": "2026-02-05T21:28:04+05:30",
-        "author": "Mia DyBuncio",
-        "content": "Checked if Denise still wanted to connect that day.",
-        "ts": "1770307084.966669"
-      },
-      {
-        "date": "2026-01-12T22:30:24+05:30",
-        "author": "Pierre (FERMÀT Bot)",
-        "content": "Weekly Roundup Jan 5-11: 4,729 sessions, 113 purchases, $7,819 GMV, $6,586 revenue. Top funnels: Collection Grid Page Meta (2,867 sessions, $5,228 GMV, 2.65% CVR), Match Your Cocktail (1,488 sessions, $2,115 GMV, 1.95% CVR).",
-        "ts": "1768237224.894209"
-      },
-      {
-        "date": "2026-01-09T00:34:07+05:30",
-        "author": "De Soi team member",
-        "content": "Shared Google PMAX results: $2.02K spent on FERMÀT LP, CPA 8% better than OG PMAX, nCAC 18% better in TripleWhale vs .com.",
-        "ts": "1767899047.768869"
+        "author": "Brand (Denise)",
+        "date": "2026-02-18",
+        "timestamp": "1771366863.563459",
+        "preview": "Requesting funnel review for Le Grand Ensemble subscription offer with free 4pk promotion."
       }
     ],
-    "analysis": "Engagement significantly improved since Apr 1 bi-weekly call. Pulkit posted a detailed call recap (Apr 1) and deep experiment analysis (Apr 2) in the channel. Brand last messaged Mar 11 (invoice routing request). Prior to Pulkit's transition (Mar 3), De Soi was actively engaged under Mia - asking about subscription funnels, split tests, hero media, and sharing Google PMAX results. Pierre bot weekly roundup from Jan 12 showed strong Jan performance (4,729 sessions, 113 purchases, $6,586 revenue). Key contact: Denise Shon (denise@drinkdesoi.com). Rebekah Foye also active in channel (paid media). Channel has seen a communication lull from the brand side since the GM transition, but the first bi-weekly call has re-established the relationship."
+    "analysis": {
+      "last_message_date": "2026-04-02",
+      "days_since_last_message": 11,
+      "total_messages_shown": 20,
+      "pulkit_messages_14d": 2,
+      "brand_messages_14d": 0,
+      "key_topics": [
+        "12-pack minimum experiment analysis and recommendations",
+        "Post-call recap with action items",
+        "GM transition from Mia to Pulkit",
+        "Invoice routing request",
+        "Subscription-only buy box inquiry",
+        "Le Grand Ensemble subscription funnel review"
+      ],
+      "gm_transition": {
+        "from": "Mia DyBuncio",
+        "to": "Pulkit Srivastava",
+        "date": "2026-03-03"
+      }
+    }
   },
   "email": {
     "messages": [
       {
+        "date": "2026-04-08",
+        "from": "Denise Shon <denise@drinkdesoi.com>",
+        "subject": "Declined: De Soi x FERMÀT || Bi Weekly Connect @ Wed Apr 15, 2026 9:30pm - 10pm (IST)",
+        "type": "calendar_decline"
+      },
+      {
         "date": "2026-04-02",
-        "subject": "Accepted: De Soi x FERMÀT || Bi Weekly Connect @ Every 2 weeks (IST)",
         "from": "Nidhi Singh <nidhi@fermatcommerce.com>",
-        "type": "calendar_acceptance"
+        "subject": "Accepted: De Soi x FERMÀT || Bi Weekly Connect (recurring)",
+        "type": "calendar_accept"
       },
       {
         "date": "2026-04-01",
-        "subject": "De Soi x FERMÀT summary is ready",
         "from": "Glyphic AI <noreply@glyphic.ai>",
+        "subject": "De Soi x FERMÀT summary is ready",
         "type": "call_summary"
       },
       {
         "date": "2026-04-01",
-        "subject": "FERMÀT Copilot has joined your meeting - De Soi x FERMÀT",
         "from": "Zoom <no-reply@zoom.us>",
-        "type": "meeting_join"
+        "subject": "FERMÀT Copilot has joined your meeting - De Soi x FERMÀT",
+        "type": "meeting_notification"
       },
       {
         "date": "2026-04-01",
-        "subject": "Prepare for De Soi x FERMÀT",
         "from": "Glyphic AI <noreply@glyphic.ai>",
-        "type": "call_prep"
+        "subject": "Prepare for De Soi x FERMÀT",
+        "type": "pre_call_brief"
       },
       {
         "date": "2026-03-31",
-        "subject": "Accepted: De Soi x FERMÀT @ Wed Apr 1, 2026 9:30pm - 10pm (IST)",
         "from": "Nidhi Singh <nidhi@fermatcommerce.com>",
-        "type": "calendar_acceptance"
+        "subject": "Accepted: De Soi x FERMÀT @ Wed Apr 1, 2026 9:30pm - 10pm (IST)",
+        "type": "calendar_accept"
       },
       {
         "date": "2026-03-20",
-        "subject": "Denise Shon: how to change products in 'shop all products'",
         "from": "Denise Shon via Intercom",
-        "type": "intercom_support"
+        "subject": "Re: [FERMÀT] Denise Shon: How to change shop all products display",
+        "type": "intercom_inquiry"
       },
       {
         "date": "2026-03-20",
-        "subject": "Pierre assigned conversation with Denise Shon to you",
         "from": "Pierre via Intercom",
+        "subject": "FERMÀT: Pierre assigned a conversation with Denise Shon to you",
         "type": "intercom_assignment"
       },
       {
         "date": "2026-03-18",
-        "subject": "Prepare for 1:1 Call With Pulkit from Fermat",
         "from": "Glyphic AI <noreply@glyphic.ai>",
-        "type": "call_prep"
-      },
-      {
-        "date": "2026-03-17",
-        "subject": "Denise Shon: how to pull in product reviews",
-        "from": "Denise Shon via Intercom",
-        "type": "intercom_support"
-      },
-      {
-        "date": "2026-03-17",
-        "subject": "Pierre assigned conversation with Denise Shon to you",
-        "from": "Pierre via Intercom",
-        "type": "intercom_assignment"
+        "subject": "Prepare for 1:1 Call With Pulkit from Fermat",
+        "type": "pre_call_brief"
       }
     ],
-    "analysis": "Strong email activity around Apr 1 bi-weekly call: Glyphic sent both a prep email and post-call summary, Zoom confirmed FERMÀT Copilot joined the meeting, and Nidhi Singh accepted the recurring bi-weekly invite. Denise Shon actively uses Intercom for platform questions (product reviews Mar 17, shop display Mar 20). No direct emails from Pulkit to De Soi contacts in last 30d - communication is primarily via Slack channel."
-  },
-  "granola": {
-    "meetings": [
-      {
-        "id": "541df0b8-878e-4370-8fc0-9b11df31f00d",
-        "title": "De Soi x FERMÀT",
-        "date": "2026-04-01T21:30:00+05:30",
-        "participants": [
-          "Pulkit (FERMÀT)",
-          "Denise (De Soi)",
-          "Nidhi Singh (FERMÀT)"
-        ],
-        "url": "https://notes.granola.ai/d/541df0b8-878e-4370-8fc0-9b11df31f00d",
-        "key_topics": [
-          "FERMÀT CR down ~50% YoY",
-          "Site CR down 5-10% YoY",
-          "12-pack minimum experiment analysis",
-          "Bundle merchandising masking test results",
-          "PDP versions vs cloning strategy",
-          "Okendo star ratings sync",
-          "Account cleanup of unused product clones",
-          "Biweekly cadence established"
-        ]
-      }
-    ],
-    "analysis": "One De Soi meeting found in Granola (Apr 1). This was the first Pulkit-led call since the Mar 3 GM transition. Denise explained she recently inherited the FERMÀT account after the previous director of marketing and Mia both left De Soi. The call was focused on using FERMÀT as a testing ground to apply learnings back to the main site. Detailed experiment discussion revealed the 12-pack minimum test was flawed because the Classics Sampler bundle was merchandised first, capturing most purchases before users scrolled to individual flavors being tested."
-  },
-  "data_notes": {
-    "fermat_api_status": "Token expired during this refresh. Performance daily array retained from previous API pull (2026-04-06T06:27:55Z). Period sums recomputed from that daily data. No numbers were fabricated.",
-    "glyphic_api_status": "API returned error -32603 on list_calls. Call existence confirmed via Gmail (Glyphic prep + summary emails), Zoom join notification, Granola meeting notes, and Slack recap.",
-    "data_sources_used": [
-      "Google Calendar",
-      "Slack",
-      "Gmail",
-      "Granola"
-    ],
-    "data_sources_failed": [
-      "FERMÀT API (token expired)",
-      "Glyphic (API error)"
-    ]
+    "analysis": {
+      "total_results": 10,
+      "last_brand_email_date": "2026-04-08",
+      "days_since_last_brand_email": 5,
+      "email_types": {
+        "calendar_responses": 3,
+        "call_summaries": 1,
+        "meeting_notifications": 1,
+        "pre_call_briefs": 2,
+        "intercom": 2
+      },
+      "key_insight": "Denise declined Apr 15 bi-weekly on Apr 8. Intercom inquiry on Mar 20 about shop all products display. Most email activity is automated (Glyphic, Zoom, calendar)."
+    }
   }
 }

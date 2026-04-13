@@ -1,55 +1,55 @@
 {
   "brand_id": "508e7756-81aa-48b1-bbf5-765d2e8f1eb9",
   "brand_name": "Westmore Beauty",
-  "last_updated": "2026-04-07T16:45:00.000000Z",
+  "last_updated": "2026-04-13T12:00:00.000000Z",
   "health": {
-    "score": 26,
+    "score": 20,
     "status": "red",
     "breakdown": {
       "platform_performance": 0,
       "platform_performance_detail": "Sessions:0/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
       "communication": 8,
       "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:4/4, PulkitOutreach:4/4",
-      "engagement": 18,
-      "engagement_detail": "LastCall:8/8, Calls30d:4/6, Upcoming:6/6",
+      "engagement": 12,
+      "engagement_detail": "LastCall:8/8, Calls30d:4/6, Upcoming:0/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
       {
         "type": "positive",
-        "text": "Brand re-engaged: Brenda booked and completed a check-in call on Apr 7 — first call since Mar 11 (27-day gap closed)",
+        "text": "Two back-to-back calls completed Apr 7 and Apr 8 — brand re-engaged after 27-day silence since Mar 11",
+        "time": "Apr 8"
+      },
+      {
+        "type": "positive",
+        "text": "Supreme Creme relaunch set for Apr 22 — brand wants FERMÀT alternative landing pages for A/B testing against paid social",
         "time": "Apr 7"
       },
       {
         "type": "positive",
-        "text": "Supreme Creme relaunch on Apr 22 — brand wants FERMÀT landing pages for A/B testing against existing paid social page",
-        "time": "Apr 7"
+        "text": "Ryan Ruger (Sr. Mgr Paid Social) shared New Supreme Creme assets and product docs on Apr 10 — creative pipeline unblocked",
+        "time": "Apr 10"
       },
       {
         "type": "positive",
-        "text": "New stakeholder Deepa (configuration specialist) introduced on Apr 7 call — expanding brand-side engagement",
-        "time": "Apr 7"
-      },
-      {
-        "type": "positive",
-        "text": "Pulkit sent recap email same day (Apr 7) with next steps; V1 funnel draft promised by Apr 8 afternoon",
-        "time": "Apr 7"
-      },
-      {
-        "type": "positive",
-        "text": "Second follow-up call already booked for Apr 8 at 9:30 PM IST — rapid cadence restored",
+        "text": "New stakeholder Deepa (configuration specialist from Guthy-Renker) onboarded to platform on Apr 8 call — expanding brand-side capabilities",
         "time": "Apr 8"
       },
       {
         "type": "warning",
-        "text": "Zero FERMÀT sessions/revenue — platform still completely inactive, no funnels live yet",
-        "time": "Apr 7"
+        "text": "Zero FERMÀT sessions/revenue across entire 45-day window — platform completely inactive, no funnels have ever gone live",
+        "time": "Apr 13"
+      },
+      {
+        "type": "warning",
+        "text": "No upcoming calls scheduled after Apr 8 — need to book next check-in before Apr 22 launch deadline",
+        "time": "Apr 13"
       },
       {
         "type": "negative",
-        "text": "No Slack activity since Feb 14 — brand does not use Slack internally; all communication is email-only",
-        "time": "Apr 7"
+        "text": "Slack channel dead since Feb 24 — brand does not use Slack internally (explicitly stated by Jessica Tennant); all communication is email-only",
+        "time": "Apr 13"
       }
     ]
   },
@@ -133,17 +133,32 @@
       "checkouts": 0
     },
     "daily": [],
-    "note": "FERMÀT Platform MCP token expired during this refresh. Prior refresh (Apr 6) also returned zero metrics across all periods — brand has never gone live on FERMÀT funnels."
+    "note": "FERMÀT API returned no funnel metrics for org 508e7756-81aa-48b1-bbf5-765d2e8f1eb9 between 2026-02-26 and 2026-04-12. Brand has never gone live on FERMÀT funnels — zero sessions, zero revenue across all periods. Supreme Creme launch target is Apr 22."
   },
   "calls": {
     "recent": [
       {
-        "title": "Westmore Beauty x FERMÀT",
+        "title": "Westmore Beauty x FERMÀT (Deepa Onboarding)",
+        "date": "2026-04-08T15:58:02Z",
+        "duration": "53 min",
+        "participants": "Pulkit Srivastava (FERMÀT), Deepalakshmi Murugesan (Guthy-Renker), Nidhi Singh (FERMÀT)",
+        "source": "Glyphic",
+        "summary": "Full platform onboarding for Deepa (configuration specialist). Walkthrough of funnel builder, PDP editor, bundle creation, price testing, and offer setup. Confirmed checkout remains in Shopify; all other funnel elements controlled in FERMÀT. Deepa was invited to the platform during the call. Discussed one-way Shopify integration and discount code testing workflow. No go-live timeline confirmed yet.",
+        "recording_url": "https://app.glyphic.ai/calls/69d687757b311c1ae5fe0a0f",
+        "snippets": [],
+        "action_items": [
+          "Deepa to book dedicated 45-min onboarding deep-dive with Pulkit",
+          "Pulkit to continue building Supreme Creme funnels with new assets once received",
+          "Deepa to explore FERMÀT platform and familiarize with modules"
+        ]
+      },
+      {
+        "title": "Westmore Beauty x FERMÀT (Supreme Creme Check-In)",
         "date": "2026-04-07T15:58:03Z",
         "duration": "23 min",
-        "participants": "Pulkit Srivastava (FERMÀT), Ryan Ruger, Brenda Hernandez, Deepa (Westmore/Guthy-Renker)",
+        "participants": "Pulkit Srivastava (FERMÀT), Ryan Ruger (Westmore), Brenda Hernandez (Westmore), Deepa (Guthy-Renker)",
         "source": "Glyphic",
-        "summary": "Supreme Creme relaunch check-in. Product launches Apr 22 with complete packaging redesign and face-focused repositioning. Brand wants FERMÀT alternative landing pages for A/B testing against existing paid social. Pulkit to deliver V1 funnel draft and updated PDP by Apr 8 afternoon. Deepa (configuration specialist) introduced; dedicated 45-min onboarding call to be scheduled. Shopify integration confirmed one-way (Shopify to FERMÀT only).",
+        "summary": "Supreme Creme relaunch check-in. Product launches Apr 22 with complete packaging redesign — repositioned from body/face to face-focused. Ryan Ruger shared existing paid social landing page. Brand wants FERMÀT alternative landing pages for A/B testing. Pulkit committed to deliver V1 funnel draft and updated PDP by Apr 8 afternoon. Deepa (configuration specialist) introduced. Shopify integration confirmed one-way. Brenda confirmed they have not tested anything built by FERMÀT yet — everything was on hold for months.",
         "recording_url": "https://app.glyphic.ai/calls/69d52ef00bda0ca411c07a54",
         "snippets": [],
         "action_items": [
@@ -178,7 +193,7 @@
         "participants": "Brenda Hernandez, Jessica Tennant, Ryan Ruger (Westmore), Talia Cohen, Pulkit Srivastava (FERMÀT)",
         "source": "Glyphic",
         "summary": "Second kick-off call. Discussed 60 Second Eye Cream, Body Coverage Perfector, and Supreme Cream funnels. Integrations complete (Google Ads, GA, Klaviyo). Shifted to performance-focused approach targeting key products. Action items: share brand kit, upload hero video, revise 60 Second Eye funnel.",
-        "recording_url": null,
+        "recording_url": "https://app.glyphic.ai/calls/698f6e09537f90601169ecd1",
         "snippets": [],
         "action_items": [
           "Share brand kit (fonts, hex codes)",
@@ -193,12 +208,12 @@
         "participants": "Brenda Hernandez, Jessica Tennant, Ryan Ruger (Westmore), Pulkit Srivastava, Talia Cohen (FERMÀT)",
         "source": "Glyphic",
         "summary": "Initial kick-off with Westmore Beauty team. Discussed Shopify integration, product selection, and funnel strategy. Priority products: 60 Second Eye Cream, Body Coverage Perfector, Supreme Cream. Primary goal: ROAS and revenue efficiency.",
-        "recording_url": null,
+        "recording_url": "https://app.glyphic.ai/calls/6984d7a7aab71744bcf43a29",
         "snippets": [],
         "action_items": []
       }
     ],
-    "analysis": "Major positive shift: after 27 days of silence (since Mar 11), Brenda booked and completed a call on Apr 7 to discuss the Supreme Creme relaunch (Apr 22). New stakeholder Deepa (configuration specialist) was introduced. Ryan Ruger also re-engaged after being absent since the Feb kick-offs. Pulkit has committed to delivering a V1 funnel by Apr 8 afternoon. A second follow-up call is already booked for Apr 8. Account has transitioned from Talia to Pulkit ownership (handover Feb 23). Total calls: 4 recorded (2 Glyphic, 1 Granola, 1 new Glyphic on Apr 7)."
+    "analysis": "Strong re-engagement cadence: after 27 days of silence (Mar 11 to Apr 7), brand completed two back-to-back calls on Apr 7 (Supreme Creme check-in with Ryan/Brenda/Deepa) and Apr 8 (dedicated Deepa onboarding). Total of 5 recorded Westmore calls across Glyphic and Granola. Key inflection: Brenda proactively booked the Apr 7 call on Apr 2 — brand is now driving engagement rather than being chased. Ryan Ruger shared assets on Apr 10. Supreme Creme launch deadline is Apr 22 (9 days away). Critical risk: no follow-up call scheduled after Apr 8 with 9 days to launch."
   },
   "calendar": {
     "past": [
@@ -208,17 +223,16 @@
         "type": "check-in",
         "attendees": "Pulkit Srivastava, Brenda Hernandez, Ryan Ruger, Deepa",
         "status": "completed"
-      }
-    ],
-    "upcoming": [
+      },
       {
         "title": "Westmore Beauty x FERMÀT",
         "date": "2026-04-08T21:30:00+05:30",
-        "type": "follow-up",
-        "attendees": "Pulkit Srivastava, Brenda Hernandez (and team)",
-        "status": "confirmed"
+        "type": "follow-up / Deepa onboarding",
+        "attendees": "Pulkit Srivastava, Deepalakshmi Murugesan, Nidhi Singh",
+        "status": "completed"
       }
-    ]
+    ],
+    "upcoming": []
   },
   "slack": {
     "messages": [
@@ -265,15 +279,57 @@
         "channel": "#fermat-x-westmorebeauty"
       }
     ],
-    "analysis": "Slack channel is effectively dead. Westmore Beauty does not use Slack internally — Jessica asked to be added as a guest, then the org removed itself twice (Feb 5 and Feb 12). Last substantive message from Talia on Feb 14. No messages from Pulkit or the brand in the last 52 days. All real communication happens over email. This channel should not be weighted heavily for health scoring."
+    "analysis": "Slack channel is effectively dead and has been since Feb 24. Westmore Beauty does not use Slack internally — Jessica Tennant explicitly stated this on Feb 10, and the brand org removed itself from the channel twice (Feb 5, Feb 12). Last substantive message was Talia's recap on Feb 14. Zero messages from Pulkit or the brand in 48+ days. All real communication happens over email. This channel should not be weighted heavily for health scoring — it is a known communication preference, not disengagement."
   },
   "email": {
     "messages": [
       {
+        "from": "Ryan Ruger <rruger@westmorebeauty.com>",
+        "subject": "Re: Westmore Beauty x FERMÀT | Check-In Recap — Apr 7",
+        "date": "2026-04-10T21:10:15Z",
+        "snippet": "Hello Pulkit, Please find New Supreme Crème assets here. You should be able to access this folder but let me know if you can't. In the folder, there are product images but I will share the product..."
+      },
+      {
+        "from": "Ryan Ruger <rruger@westmorebeauty.com>",
+        "subject": "Re: Westmore Beauty x FERMÀT | Check-In Recap — Apr 7",
+        "date": "2026-04-10T17:24:53Z",
+        "snippet": "Hello Pulkit, Thank you for the call. I am currently working on getting those assets ready for you. Will follow-up by EOD."
+      },
+      {
+        "from": "Pulkit Srivastava (Superhuman reminder)",
+        "subject": "Re: Westmore Beauty x FERMÀT | Check-In Recap — Apr 7",
+        "date": "2026-04-10T02:30:00Z",
+        "snippet": "Hi Team, Just checking in to see if Ryan can share the Supreme Cream assets and product documentation so I can get my team started on creating the funnels."
+      },
+      {
+        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "subject": "Re: Westmore Beauty x FERMÀT | Check-In Recap — Apr 7",
+        "date": "2026-04-09T11:46:51Z",
+        "snippet": "Hi Team, Just checking in to see if Ryan can share the Supreme Cream assets and product documentation so I can get my team started on creating the funnels."
+      },
+      {
+        "from": "Deepalakshmi Murugesan <dmurugesan@guthy-renker.com>",
+        "subject": "Accepted: Westmore Beauty x FERMÀT",
+        "date": "2026-04-08T16:00:46Z",
+        "snippet": "(Calendar acceptance for Apr 8 call)"
+      },
+      {
+        "from": "Zoom <no-reply@zoom.us>",
+        "subject": "Meeting assets for Westmore Beauty x FERMÀT are ready!",
+        "date": "2026-04-08T17:07:51Z",
+        "snippet": "Recording Duration: 00:44:00"
+      },
+      {
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "subject": "Westmore Beauty x FERMÀT summary is ready",
+        "date": "2026-04-08T16:55:29Z",
+        "snippet": "Call summary from Glyphic AI for the Apr 8 call"
+      },
+      {
         "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
         "subject": "Westmore Beauty x FERMÀT | Check-In Recap — Apr 7",
         "date": "2026-04-07T16:36:51Z",
-        "snippet": "Hi Team, Great connecting today! Here's a quick recap of our check-in and the next steps. Performance Highlights: Account Status: Previously on hold for 2-3 weeks, now reactivating for Supreme Creme launch."
+        "snippet": "Hi Team, Great connecting today! Here's a quick recap of our check-in and the next steps. Account Status: Previously on hold for 2-3 weeks, now reactivating for Supreme Creme launch."
       },
       {
         "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
@@ -282,54 +338,29 @@
         "snippet": "Hi Brenda, Perfect! I see you've scheduled time for today morning — looking forward to connecting with you, Ryan, and Deepa then. I'm excited to dive into the Supreme Creme launch strategy."
       },
       {
-        "from": "Brenda Hernandez <bhernandez@westmorebeauty.com>",
-        "subject": "Re: FERMÀT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-04-06T16:51:00Z",
-        "snippet": "Hi Pulkit, I hope you had a nice weekend! I've scheduled some time for us to connect tomorrow morning."
-      },
-      {
-        "from": "Ryan Ruger <rruger@westmorebeauty.com>",
-        "subject": "Accepted: Westmore Beauty x FERMÀT",
-        "date": "2026-04-06T16:52:25Z",
-        "snippet": "(Calendar acceptance for Apr 7 call)"
-      },
-      {
-        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "subject": "Re: FERMÀT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-04-03T06:49:22Z",
-        "snippet": "Hi Brenda, Thanks so much for reaching out! I'm excited to help you strategize and optimize the landing page for the Supreme Creme launch."
-      },
-      {
-        "from": "Brenda Hernandez <bhernandez@westmorebeauty.com>",
-        "subject": "Re: FERMÀT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-04-02T21:46:19Z",
-        "snippet": "Hi Pulkit, We are in the process of launching our refreshed Supreme Creme and would love to touch base with you."
-      },
-      {
-        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "subject": "Re: FERMÀT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-03-31T13:41:29Z",
-        "snippet": "Hey Jessica, I know you're busy with the rebrand, but just wanted to check in."
-      },
-      {
-        "from": "Jessica Tennant <jtennant@westmorebeauty.com>",
-        "subject": "Re: FERMÀT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-03-18T16:59:08Z",
-        "snippet": "No I haven't, we have been knee deep in the rebrand which we will also need to update all creative to match."
-      },
-      {
-        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "subject": "Re: FERMÀT <> Westmore Beauty | Call Recap 2/13",
-        "date": "2026-03-18T17:51:21Z",
-        "snippet": "Hey Jessica, Thanks for the update! I completely understand how rebranding can take precedence."
+        "from": "Meta for Business <noreply@business-updates.facebook.com>",
+        "subject": "Your ads were approved",
+        "date": "2026-04-10T18:44:31Z",
+        "snippet": "Your ads were approved and should begin delivering shortly or when scheduled."
       }
     ],
-    "analysis": "Email is the primary and effectively ONLY communication channel for Westmore. Major positive momentum in the last week: Brenda re-engaged Apr 2 about Supreme Creme launch, booked a call for Apr 7, and Pulkit sent a comprehensive recap email the same day. Ryan Ruger accepted the calendar invite. The thread has been continuous since the Feb 13 kick-off recap. Pulkit has been consistent with follow-ups (Mar 18, Mar 31, Apr 3, Apr 7). Brand contacts: Brenda Hernandez (Director of Ecommerce), Jessica Tennant (Head of Ecommerce & Performance Marketing), Ryan Ruger (Senior Manager, Paid Social), Deepa (Configuration Specialist, new)."
+    "analysis": "Email is the primary and effectively ONLY communication channel for Westmore Beauty. Strong positive momentum in the last week: Ryan Ruger shared Supreme Creme assets on Apr 10 (unblocking funnel creation), followed up twice the same day. Pulkit sent a follow-up nudge on Apr 9 and a Superhuman reminder triggered Apr 10. The recap thread has been continuous since the Feb 13 kick-off. Meta for Business confirmed ads were approved on Apr 10 — suggesting active ad campaign setup. Key contacts: Brenda Hernandez (Director of Ecommerce), Ryan Ruger (Senior Manager, Paid Social), Deepalakshmi Murugesan (Configuration Specialist, Guthy-Renker), Jessica Tennant (Head of Ecommerce & Performance Marketing — less active recently). Contract renewal due May 2026 (joined February)."
   },
   "granola": {
     "meetings": [
       {
-        "title": "Westmore Beauty x FERMÀT",
+        "title": "Westmore Beauty x FERMÀT (Deepa Onboarding)",
+        "date": "2026-04-08",
+        "url": "https://notes.granola.ai/d/5b291c0a-7079-49c8-abb6-17328eba8947",
+        "key_points": [
+          "Deepalakshmi (Deepa) joined the account; invited to the platform during the call",
+          "Full platform walkthrough: funnel builder, PDP editor, bundle creation, price testing, and offer setup",
+          "Checkout remains in Shopify; all other funnel elements controlled in FERMÀT",
+          "No go-live timeline confirmed yet — priorities had shifted"
+        ]
+      },
+      {
+        "title": "Westmore Beauty x FERMÀT (Supreme Creme Check-In)",
         "date": "2026-04-07",
         "url": "https://notes.granola.ai/d/edcee322-a6aa-40cf-8cd9-37542a570dce",
         "key_points": [

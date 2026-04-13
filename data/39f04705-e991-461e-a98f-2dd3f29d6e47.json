@@ -1,941 +1,1091 @@
 {
   "brand_id": "39f04705-e991-461e-a98f-2dd3f29d6e47",
   "brand_name": "belliwelli",
-  "last_updated": "2026-04-06T23:59:00",
-  "data_notes": "FERMAT metrics API token expired during this refresh. Daily performance data retained from previous refresh (through Apr 5). All other MCP sources refreshed successfully on Apr 6.",
+  "last_updated": "2026-04-13T00:00:00Z",
   "health": {
-    "score": 52,
-    "status": "yellow",
+    "score": 32,
+    "status": "red",
     "breakdown": {
       "platform_performance": 19,
       "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:4/5, Purchases:5/5",
-      "communication": 13,
-      "communication_detail": "SlackRecency:4/4, BrandSlack14d:3/4, PulkitSlack14d:2/4, EmailThreads14d:4/4, PulkitOutreach:0/4",
-      "engagement": 20,
-      "engagement_detail": "LastCall:8/8, Calls30d:6/6, Upcoming:6/6",
+      "communication": 0,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
+      "engagement": 13,
+      "engagement_detail": "LastCall:4/8, Calls30d:3/6, Upcoming:6/6",
       "csm_sentiment": 0,
       "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
       {
-        "type": "positive",
-        "text": "Strong 7d sessions (10,112) with consistent daily traffic >1,200",
-        "time": "Apr 5"
+        "signal": "positive",
+        "text": "7d sessions strong at 10,269 with consistent daily traffic above 1,300"
       },
       {
-        "type": "positive",
-        "text": "7d revenue $5,412.92 with 144 purchases across the period",
-        "time": "Apr 5"
+        "signal": "positive",
+        "text": "7d revenue of $7,689.58 with 166 purchases shows healthy purchase volume"
       },
       {
-        "type": "positive",
-        "text": "Brand actively using platform - Tom setting up experiments and building funnels independently",
-        "time": "Mar 31"
+        "signal": "positive",
+        "text": "Upcoming bi-weekly on Apr 20 with recurring bi-weekly cadence through June 2026"
       },
       {
-        "type": "warning",
-        "text": "7d CVR at 1.42% - below 3% target discussed on Mar 23 call",
-        "time": "Apr 5"
+        "signal": "neutral",
+        "text": "Last Glyphic-recorded call was Feb 19 (53 days ago); Granola shows Mar 23 bi-weekly as most recent"
       },
       {
-        "type": "negative",
-        "text": "CODE RED 404 issue reported Mar 18 on Doctor Backed Generic Fiber funnel",
-        "time": "Mar 18"
+        "signal": "neutral",
+        "text": "Email activity is mostly automated Meta ad approvals; no substantive brand email threads in 30 days"
       },
       {
-        "type": "positive",
-        "text": "Bi-weekly calls scheduled through June, next Apr 20",
-        "time": "Apr 6"
+        "signal": "positive",
+        "text": "Brand actively engaging on Slack -- Tom posted Apr 9 requesting help with product images, Mar 31 experiment issue, Mar 18 CODE RED on 404"
       },
       {
-        "type": "warning",
-        "text": "Account recently transitioned from Talia to Pulkit on Feb 25 - still building rapport",
-        "time": "Feb 25"
-      },
-      {
-        "type": "warning",
-        "text": "Experiment variant changes reverting on save - Tom reported via Slack Mar 31 with Loom video",
-        "time": "Mar 31"
-      },
-      {
-        "type": "positive",
-        "text": "56% subscription rate (30% above benchmark) - strong subscription performance",
-        "time": "Mar 23"
-      },
-      {
-        "type": "negative",
-        "text": "Doctor Backed Generic Fiber v1 at 0.19% CVR with $5,050 ad spend - major underperformer",
-        "time": "Mar 23"
+        "signal": "warning",
+        "text": "CVR at 1.62% (7d) remains below the 3% target discussed in Mar 23 bi-weekly call"
       }
     ]
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
-      "revenue": 769.99,
-      "cvr": 1.16,
-      "sessions": 1470,
+      "revenue": 1634.65,
+      "cvr": 1.93,
+      "sessions": 1608,
       "roas": null,
       "cpa": null,
-      "purchases": 17,
-      "aov": 45.29,
+      "purchases": 31,
+      "aov": 52.73,
       "pdp_views": 82,
-      "atc": 49,
-      "checkouts": 22
+      "atc": 65,
+      "checkouts": 40
     },
     "3d": {
       "ad_spend": null,
-      "revenue": 2550.48,
-      "cvr": 1.29,
-      "sessions": 4422,
+      "revenue": 3850.15,
+      "cvr": 1.76,
+      "sessions": 4550,
       "roas": null,
       "cpa": null,
-      "purchases": 57,
-      "aov": 44.74,
-      "pdp_views": 256,
-      "atc": 154,
-      "checkouts": 79
+      "purchases": 80,
+      "aov": 48.13,
+      "pdp_views": 247,
+      "atc": 171,
+      "checkouts": 96
     },
     "7d": {
       "ad_spend": null,
-      "revenue": 5412.92,
-      "cvr": 1.42,
-      "sessions": 10112,
+      "revenue": 7689.58,
+      "cvr": 1.62,
+      "sessions": 10269,
       "roas": null,
       "cpa": null,
-      "purchases": 144,
-      "aov": 37.59,
-      "pdp_views": 604,
-      "atc": 347,
-      "checkouts": 203
+      "purchases": 166,
+      "aov": 46.32,
+      "pdp_views": 571,
+      "atc": 375,
+      "checkouts": 215
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 14814.98,
-      "cvr": 1.44,
-      "sessions": 22204,
+      "revenue": 15609.12,
+      "cvr": 1.54,
+      "sessions": 22196,
       "roas": null,
       "cpa": null,
-      "purchases": 319,
-      "aov": 46.44,
-      "pdp_views": 1314,
-      "atc": 766,
-      "checkouts": 444
+      "purchases": 341,
+      "aov": 45.77,
+      "pdp_views": 1294,
+      "atc": 799,
+      "checkouts": 458
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 28863.3,
-      "cvr": 1.37,
-      "sessions": 44159,
+      "revenue": 30288.71,
+      "cvr": 1.43,
+      "sessions": 45305,
       "roas": null,
       "cpa": null,
-      "purchases": 606,
-      "aov": 47.63,
-      "pdp_views": 2659,
-      "atc": 1496,
-      "checkouts": 868
+      "purchases": 647,
+      "aov": 46.81,
+      "pdp_views": 2642,
+      "atc": 1552,
+      "checkouts": 877
     },
     "45d": {
       "ad_spend": null,
-      "revenue": 42137.14,
-      "cvr": 1.37,
-      "sessions": 60698,
+      "revenue": 46475.6,
+      "cvr": 1.47,
+      "sessions": 64692,
       "roas": null,
       "cpa": null,
-      "purchases": 832,
-      "aov": 50.65,
-      "pdp_views": 3488,
-      "atc": 1993,
-      "checkouts": 1147
+      "purchases": 953,
+      "aov": 48.77,
+      "pdp_views": 3747,
+      "atc": 2224,
+      "checkouts": 1285
     },
     "daily": [
       {
-        "date": "2026-02-20",
-        "sessions": 1031,
-        "revenue": 653.1,
-        "purchases": 12,
-        "pdp_views": 56,
-        "atc": 28,
-        "checkouts": 23
-      },
-      {
-        "date": "2026-02-21",
-        "sessions": 1115,
-        "revenue": 469.23,
-        "purchases": 11,
-        "pdp_views": 51,
-        "atc": 30,
-        "checkouts": 18
-      },
-      {
-        "date": "2026-02-22",
-        "sessions": 1260,
-        "revenue": 921.88,
-        "purchases": 20,
-        "pdp_views": 55,
-        "atc": 48,
-        "checkouts": 35
-      },
-      {
-        "date": "2026-02-23",
-        "sessions": 1205,
-        "revenue": 766.48,
-        "purchases": 16,
-        "pdp_views": 62,
-        "atc": 35,
-        "checkouts": 28
-      },
-      {
-        "date": "2026-02-24",
-        "sessions": 1105,
-        "revenue": 453.32,
-        "purchases": 7,
-        "pdp_views": 60,
-        "atc": 25,
-        "checkouts": 19
-      },
-      {
-        "date": "2026-02-25",
-        "sessions": 1027,
-        "revenue": 1001.22,
-        "purchases": 13,
-        "pdp_views": 42,
-        "atc": 21,
-        "checkouts": 18
-      },
-      {
         "date": "2026-02-26",
-        "sessions": 1361,
+        "ad_spend": null,
         "revenue": 792.27,
+        "cvr": 0.96,
+        "sessions": 1361,
+        "roas": null,
+        "cpa": null,
         "purchases": 13,
+        "aov": 60.94,
         "pdp_views": 75,
         "atc": 29,
         "checkouts": 18
       },
       {
         "date": "2026-02-27",
-        "sessions": 1088,
+        "ad_spend": null,
         "revenue": 1336.6,
+        "cvr": 1.93,
+        "sessions": 1088,
+        "roas": null,
+        "cpa": null,
         "purchases": 21,
+        "aov": 63.65,
         "pdp_views": 61,
         "atc": 35,
         "checkouts": 26
       },
       {
         "date": "2026-02-28",
-        "sessions": 972,
+        "ad_spend": null,
         "revenue": 748.67,
+        "cvr": 1.13,
+        "sessions": 972,
+        "roas": null,
+        "cpa": null,
         "purchases": 11,
+        "aov": 68.06,
         "pdp_views": 49,
         "atc": 31,
         "checkouts": 17
       },
       {
         "date": "2026-03-01",
-        "sessions": 1124,
+        "ad_spend": null,
         "revenue": 938.41,
+        "cvr": 1.33,
+        "sessions": 1124,
+        "roas": null,
+        "cpa": null,
         "purchases": 15,
+        "aov": 62.56,
         "pdp_views": 54,
         "atc": 29,
         "checkouts": 21
       },
       {
         "date": "2026-03-02",
-        "sessions": 1218,
+        "ad_spend": null,
         "revenue": 948.13,
+        "cvr": 1.15,
+        "sessions": 1218,
+        "roas": null,
+        "cpa": null,
         "purchases": 14,
+        "aov": 67.72,
         "pdp_views": 71,
         "atc": 38,
         "checkouts": 20
       },
       {
         "date": "2026-03-03",
-        "sessions": 1035,
+        "ad_spend": null,
         "revenue": 705.96,
+        "cvr": 1.26,
+        "sessions": 1035,
+        "roas": null,
+        "cpa": null,
         "purchases": 13,
+        "aov": 54.3,
         "pdp_views": 51,
         "atc": 26,
         "checkouts": 14
       },
       {
         "date": "2026-03-04",
-        "sessions": 1084,
+        "ad_spend": null,
         "revenue": 1046.0,
+        "cvr": 1.75,
+        "sessions": 1084,
+        "roas": null,
+        "cpa": null,
         "purchases": 19,
+        "aov": 55.05,
         "pdp_views": 61,
         "atc": 41,
         "checkouts": 27
       },
       {
         "date": "2026-03-05",
-        "sessions": 953,
+        "ad_spend": null,
         "revenue": 1007.75,
+        "cvr": 2.1,
+        "sessions": 953,
+        "roas": null,
+        "cpa": null,
         "purchases": 20,
+        "aov": 50.39,
         "pdp_views": 56,
         "atc": 41,
         "checkouts": 24
       },
       {
         "date": "2026-03-06",
-        "sessions": 1011,
+        "ad_spend": null,
         "revenue": 1153.15,
+        "cvr": 2.18,
+        "sessions": 1011,
+        "roas": null,
+        "cpa": null,
         "purchases": 22,
+        "aov": 52.42,
         "pdp_views": 58,
         "atc": 40,
         "checkouts": 26
       },
       {
         "date": "2026-03-07",
-        "sessions": 1071,
+        "ad_spend": null,
         "revenue": 1154.43,
+        "cvr": 2.33,
+        "sessions": 1071,
+        "roas": null,
+        "cpa": null,
         "purchases": 25,
+        "aov": 46.18,
         "pdp_views": 63,
         "atc": 46,
         "checkouts": 28
       },
       {
         "date": "2026-03-08",
-        "sessions": 1185,
+        "ad_spend": null,
         "revenue": 724.39,
+        "cvr": 1.52,
+        "sessions": 1185,
+        "roas": null,
+        "cpa": null,
         "purchases": 18,
+        "aov": 40.24,
         "pdp_views": 64,
         "atc": 42,
         "checkouts": 29
       },
       {
         "date": "2026-03-09",
-        "sessions": 1255,
+        "ad_spend": null,
         "revenue": 900.15,
+        "cvr": 1.43,
+        "sessions": 1255,
+        "roas": null,
+        "cpa": null,
         "purchases": 18,
+        "aov": 50.01,
         "pdp_views": 68,
         "atc": 38,
         "checkouts": 23
       },
       {
         "date": "2026-03-10",
-        "sessions": 1330,
+        "ad_spend": null,
         "revenue": 1070.39,
+        "cvr": 1.88,
+        "sessions": 1330,
+        "roas": null,
+        "cpa": null,
         "purchases": 25,
+        "aov": 42.82,
         "pdp_views": 68,
         "atc": 48,
         "checkouts": 36
       },
       {
         "date": "2026-03-11",
-        "sessions": 1220,
+        "ad_spend": null,
         "revenue": 872.65,
+        "cvr": 1.56,
+        "sessions": 1220,
+        "roas": null,
+        "cpa": null,
         "purchases": 19,
+        "aov": 45.93,
         "pdp_views": 70,
         "atc": 55,
         "checkouts": 31
       },
       {
         "date": "2026-03-12",
-        "sessions": 1385,
+        "ad_spend": null,
         "revenue": 1807.06,
+        "cvr": 2.45,
+        "sessions": 1385,
+        "roas": null,
+        "cpa": null,
         "purchases": 34,
+        "aov": 53.15,
         "pdp_views": 92,
         "atc": 66,
         "checkouts": 38
       },
       {
         "date": "2026-03-13",
-        "sessions": 2095,
+        "ad_spend": null,
         "revenue": 980.88,
+        "cvr": 0.91,
+        "sessions": 2095,
+        "roas": null,
+        "cpa": null,
         "purchases": 19,
+        "aov": 51.63,
         "pdp_views": 144,
         "atc": 67,
         "checkouts": 30
       },
       {
         "date": "2026-03-14",
-        "sessions": 1410,
+        "ad_spend": null,
         "revenue": 465.2,
+        "cvr": 0.71,
+        "sessions": 1410,
+        "roas": null,
+        "cpa": null,
         "purchases": 10,
+        "aov": 46.52,
         "pdp_views": 87,
         "atc": 40,
         "checkouts": 18
       },
       {
         "date": "2026-03-15",
-        "sessions": 1794,
+        "ad_spend": null,
         "revenue": 1045.71,
+        "cvr": 1.11,
+        "sessions": 1794,
+        "roas": null,
+        "cpa": null,
         "purchases": 20,
+        "aov": 52.29,
         "pdp_views": 114,
         "atc": 63,
         "checkouts": 28
       },
       {
         "date": "2026-03-16",
-        "sessions": 1752,
+        "ad_spend": null,
         "revenue": 984.59,
+        "cvr": 1.03,
+        "sessions": 1752,
+        "roas": null,
+        "cpa": null,
         "purchases": 18,
+        "aov": 54.7,
         "pdp_views": 73,
         "atc": 44,
         "checkouts": 30
       },
       {
         "date": "2026-03-17",
-        "sessions": 1499,
+        "ad_spend": null,
         "revenue": 734.8,
+        "cvr": 1.07,
+        "sessions": 1499,
+        "roas": null,
+        "cpa": null,
         "purchases": 16,
+        "aov": 45.92,
         "pdp_views": 75,
         "atc": 47,
         "checkouts": 29
       },
       {
         "date": "2026-03-18",
-        "sessions": 1569,
+        "ad_spend": null,
         "revenue": 1172.54,
+        "cvr": 1.34,
+        "sessions": 1569,
+        "roas": null,
+        "cpa": null,
         "purchases": 21,
+        "aov": 55.84,
         "pdp_views": 97,
         "atc": 49,
         "checkouts": 29
       },
       {
         "date": "2026-03-19",
-        "sessions": 1579,
+        "ad_spend": null,
         "revenue": 758.81,
+        "cvr": 1.08,
+        "sessions": 1579,
+        "roas": null,
+        "cpa": null,
         "purchases": 17,
+        "aov": 44.64,
         "pdp_views": 87,
         "atc": 52,
         "checkouts": 28
       },
       {
         "date": "2026-03-20",
-        "sessions": 1373,
+        "ad_spend": null,
         "revenue": 1108.53,
+        "cvr": 1.53,
+        "sessions": 1373,
+        "roas": null,
+        "cpa": null,
         "purchases": 21,
+        "aov": 52.79,
         "pdp_views": 87,
         "atc": 48,
         "checkouts": 25
       },
       {
         "date": "2026-03-21",
-        "sessions": 1375,
+        "ad_spend": null,
         "revenue": 671.65,
+        "cvr": 1.09,
+        "sessions": 1375,
+        "roas": null,
+        "cpa": null,
         "purchases": 15,
+        "aov": 44.78,
         "pdp_views": 86,
         "atc": 37,
         "checkouts": 19
       },
       {
         "date": "2026-03-22",
-        "sessions": 1628,
+        "ad_spend": null,
         "revenue": 1218.05,
+        "cvr": 1.6,
+        "sessions": 1628,
+        "roas": null,
+        "cpa": null,
         "purchases": 26,
+        "aov": 46.85,
         "pdp_views": 96,
         "atc": 59,
         "checkouts": 32
       },
       {
         "date": "2026-03-23",
-        "sessions": 1482,
+        "ad_spend": null,
         "revenue": 1087.31,
+        "cvr": 1.69,
+        "sessions": 1482,
+        "roas": null,
+        "cpa": null,
         "purchases": 25,
+        "aov": 43.49,
         "pdp_views": 84,
         "atc": 56,
         "checkouts": 31
       },
       {
         "date": "2026-03-24",
-        "sessions": 1655,
+        "ad_spend": null,
         "revenue": 729.83,
+        "cvr": 0.97,
+        "sessions": 1655,
+        "roas": null,
+        "cpa": null,
         "purchases": 16,
+        "aov": 45.61,
         "pdp_views": 107,
         "atc": 48,
         "checkouts": 26
       },
       {
         "date": "2026-03-25",
-        "sessions": 1451,
+        "ad_spend": null,
         "revenue": 904.1,
+        "cvr": 1.31,
+        "sessions": 1451,
+        "roas": null,
+        "cpa": null,
         "purchases": 19,
+        "aov": 47.58,
         "pdp_views": 71,
         "atc": 48,
         "checkouts": 27
       },
       {
         "date": "2026-03-26",
-        "sessions": 1579,
+        "ad_spend": null,
         "revenue": 1724.98,
+        "cvr": 2.15,
+        "sessions": 1579,
+        "roas": null,
+        "cpa": null,
         "purchases": 34,
+        "aov": 50.73,
         "pdp_views": 98,
         "atc": 66,
         "checkouts": 39
       },
       {
         "date": "2026-03-27",
-        "sessions": 1634,
+        "ad_spend": null,
         "revenue": 928.19,
+        "cvr": 1.35,
+        "sessions": 1634,
+        "roas": null,
+        "cpa": null,
         "purchases": 22,
+        "aov": 42.19,
         "pdp_views": 93,
         "atc": 45,
         "checkouts": 28
       },
       {
         "date": "2026-03-28",
-        "sessions": 1329,
+        "ad_spend": null,
         "revenue": 1145.3,
+        "cvr": 1.96,
+        "sessions": 1329,
+        "roas": null,
+        "cpa": null,
         "purchases": 26,
+        "aov": 44.05,
         "pdp_views": 93,
         "atc": 51,
         "checkouts": 30
       },
       {
         "date": "2026-03-29",
-        "sessions": 1711,
+        "ad_spend": null,
         "revenue": 1346.66,
+        "cvr": 1.64,
+        "sessions": 1711,
+        "roas": null,
+        "cpa": null,
         "purchases": 28,
+        "aov": 48.1,
         "pdp_views": 111,
         "atc": 65,
         "checkouts": 39
       },
       {
         "date": "2026-03-30",
-        "sessions": 1790,
+        "ad_spend": null,
         "revenue": 1282.27,
+        "cvr": 1.56,
+        "sessions": 1790,
+        "roas": null,
+        "cpa": null,
         "purchases": 28,
+        "aov": 45.8,
         "pdp_views": 101,
         "atc": 61,
         "checkouts": 39
       },
       {
         "date": "2026-03-31",
-        "sessions": 1373,
+        "ad_spend": null,
         "revenue": 616.21,
+        "cvr": 1.09,
+        "sessions": 1373,
+        "roas": null,
+        "cpa": null,
         "purchases": 15,
+        "aov": 41.08,
         "pdp_views": 93,
         "atc": 48,
         "checkouts": 25
       },
       {
         "date": "2026-04-01",
-        "sessions": 1226,
+        "ad_spend": null,
         "revenue": 888.93,
+        "cvr": 1.71,
+        "sessions": 1226,
+        "roas": null,
+        "cpa": null,
         "purchases": 21,
+        "aov": 42.33,
         "pdp_views": 76,
         "atc": 48,
         "checkouts": 30
       },
       {
         "date": "2026-04-02",
-        "sessions": 1301,
+        "ad_spend": null,
         "revenue": 1075.03,
+        "cvr": 1.77,
+        "sessions": 1301,
+        "roas": null,
+        "cpa": null,
         "purchases": 23,
+        "aov": 46.74,
         "pdp_views": 79,
         "atc": 46,
         "checkouts": 30
       },
       {
         "date": "2026-04-03",
-        "sessions": 1507,
+        "ad_spend": null,
         "revenue": 692.18,
+        "cvr": 1.13,
+        "sessions": 1507,
+        "roas": null,
+        "cpa": null,
         "purchases": 17,
+        "aov": 40.72,
         "pdp_views": 83,
         "atc": 48,
         "checkouts": 27
       },
       {
         "date": "2026-04-04",
-        "sessions": 1445,
+        "ad_spend": null,
         "revenue": 1088.31,
+        "cvr": 1.59,
+        "sessions": 1445,
+        "roas": null,
+        "cpa": null,
         "purchases": 23,
+        "aov": 47.32,
         "pdp_views": 91,
         "atc": 57,
         "checkouts": 30
       },
       {
         "date": "2026-04-05",
-        "sessions": 1470,
-        "revenue": 769.99,
-        "purchases": 17,
-        "pdp_views": 82,
+        "ad_spend": null,
+        "revenue": 929.95,
+        "cvr": 1.27,
+        "sessions": 1574,
+        "roas": null,
+        "cpa": null,
+        "purchases": 20,
+        "aov": 46.5,
+        "pdp_views": 89,
+        "atc": 51,
+        "checkouts": 23
+      },
+      {
+        "date": "2026-04-06",
+        "ad_spend": null,
+        "revenue": 505.42,
+        "cvr": 0.81,
+        "sessions": 1606,
+        "roas": null,
+        "cpa": null,
+        "purchases": 13,
+        "aov": 38.88,
+        "pdp_views": 83,
+        "atc": 45,
+        "checkouts": 23
+      },
+      {
+        "date": "2026-04-07",
+        "ad_spend": null,
+        "revenue": 861.38,
+        "cvr": 1.42,
+        "sessions": 1339,
+        "roas": null,
+        "cpa": null,
+        "purchases": 19,
+        "aov": 45.34,
+        "pdp_views": 62,
+        "atc": 38,
+        "checkouts": 17
+      },
+      {
+        "date": "2026-04-08",
+        "ad_spend": null,
+        "revenue": 1011.89,
+        "cvr": 1.46,
+        "sessions": 1441,
+        "roas": null,
+        "cpa": null,
+        "purchases": 21,
+        "aov": 48.19,
+        "pdp_views": 92,
+        "atc": 53,
+        "checkouts": 31
+      },
+      {
+        "date": "2026-04-09",
+        "ad_spend": null,
+        "revenue": 1460.74,
+        "cvr": 2.48,
+        "sessions": 1333,
+        "roas": null,
+        "cpa": null,
+        "purchases": 33,
+        "aov": 44.26,
+        "pdp_views": 87,
+        "atc": 68,
+        "checkouts": 48
+      },
+      {
+        "date": "2026-04-10",
+        "ad_spend": null,
+        "revenue": 1309.71,
+        "cvr": 1.85,
+        "sessions": 1459,
+        "roas": null,
+        "cpa": null,
+        "purchases": 27,
+        "aov": 48.51,
+        "pdp_views": 85,
+        "atc": 57,
+        "checkouts": 27
+      },
+      {
+        "date": "2026-04-11",
+        "ad_spend": null,
+        "revenue": 905.79,
+        "cvr": 1.48,
+        "sessions": 1483,
+        "roas": null,
+        "cpa": null,
+        "purchases": 22,
+        "aov": 41.17,
+        "pdp_views": 80,
         "atc": 49,
-        "checkouts": 22
+        "checkouts": 29
+      },
+      {
+        "date": "2026-04-12",
+        "ad_spend": null,
+        "revenue": 1634.65,
+        "cvr": 1.93,
+        "sessions": 1608,
+        "roas": null,
+        "cpa": null,
+        "purchases": 31,
+        "aov": 52.73,
+        "pdp_views": 82,
+        "atc": 65,
+        "checkouts": 40
       }
     ]
   },
   "calls": {
-    "recent": [
+    "glyphic": [
       {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
-        "date": "2026-03-23T21:30:00+05:30",
-        "duration": "30 min",
-        "participants": "Pulkit, Tom (belliwelli), Nidhi Singh",
-        "source": "Granola",
-        "summary": "Reviewed $28K revenue (30d), 56% subscription rate (30% above benchmark). CVR at 1.38% (target 3%), revenue per session $0.72 (target $1.25). Best Seller GLP-1 funnel leading with 29K sessions, 1.4% CVR. Gummies GLP-1 v1 at 2.42% CVR and Generic Gummies v1 at 2.5% CVR identified as scaling candidates. Doctor Backed Generic Fiber at 0.19% CVR with $5,050 ad spend needs complete overhaul. Discussed new FERMÀT features: Build Your Own Bundle, External MCP, Shopify Markets, AI Module Generator.",
-        "recording_url": null,
-        "snippets": [],
-        "action_items": [
-          "Pulkit: Deep-dive analysis on Mar 12 CVR peak and Mar 7-13 week behavior",
-          "Pulkit: Create Cherry Limeade + Watermelon flavor selector for gummies",
-          "Pulkit: Fix experiment data visibility issues in dashboard",
-          "Pulkit: Analyze ads linked to underperforming Doctor Backed funnel",
-          "Tom: Share Google Sheet access and ad creative links",
-          "Tom: Consider rerouting underperforming funnel ads or building new generic fiber funnel"
-        ]
-      },
-      {
-        "title": "Thomas Fitzpatrick and Pulkit Srivastava",
-        "date": "2026-03-09T21:30:00+05:30",
-        "duration": "30 min",
-        "participants": "Pulkit, Tom (belliwelli)",
-        "source": "Granola",
-        "summary": "First meeting between Pulkit and Tom. Tom returned from Expo West. BelliWelli using FERMÀT since November with strong satisfaction. Team includes email designer (UK), Shopify developers (India), external marketing agency. Key priorities: revenue optimization, subscription take rate maximization. Currently testing free tub (cucumber/yuzu) vs 20% discount subscription offers. AI search feature discussed as future opportunity.",
-        "recording_url": null,
-        "snippets": [],
-        "action_items": [
-          "Pulkit: Deep dive into account performance and prepare recommendations",
-          "Pulkit: Review heat maps for funnel drop-off points",
-          "Schedule bimonthly (every 2 weeks) calls going forward"
-        ]
-      },
-      {
-        "title": "BelliWelli <> FERMÀT | Bi-Weekly Check In",
+        "id": "69976f3acf4f06645a48c452",
+        "title": "BelliWelli <> FERMAT | Bi-Weekly Check In",
         "date": "2026-02-19T19:58:05Z",
-        "duration": "17 min",
-        "participants": "Talia Cohen, Tom Fitzpatrick, Morry Mitrani",
-        "source": "Glyphic",
-        "summary": "Tom inquired about gift-with-purchase for excess inventory (cucumber/yuzu flavors being discontinued). Advised Skio for core offer + FERMÀT display-only to avoid double-dipping. Discussed funnel optimization to reduce scroll fatigue - recommended moving product card above text in Best Sellers GLP-1 funnel. Also flagged need to reconnect TikTok/Meta accounts (deadline extended).",
-        "recording_url": "https://app.glyphic.ai/calls/69976f3acf4f06645a48c452",
-        "snippets": [],
-        "action_items": [
-          "Tom: Set up gift-with-purchase in Skio + display-only in FERMÀT",
-          "Tom: A/B test funnel layout with product card moved above text",
-          "Talia: Tag Tom in Slack for TikTok/Meta reconnection",
-          "Talia: Review all funnels for low-hanging fruit optimization"
-        ]
+        "duration_minutes": 17,
+        "participants": [
+          "Talia Cohen (talia@fermatcommerce.com)",
+          "Tom Fitzpatrick (tom@belliwelli.com)",
+          "Morry Mitrani (morry@belliwelli.com)"
+        ],
+        "status": "completed",
+        "source": "glyphic"
       },
       {
-        "title": "BelliWelli <> FERMÀT | Business Review",
+        "id": "698a555b0f182b5333443c28",
+        "title": "BelliWelli <> FERMAT | Business Review",
         "date": "2026-02-09T20:58:06Z",
-        "duration": "47 min",
-        "participants": "Tom Fitzpatrick, Morry, Mia DyBuncio, Talia Cohen",
-        "source": "Glyphic",
-        "summary": "Comprehensive business review covering performance, funnel analysis, strategic roadmap. Discussed Spanish funnels, pricing restructuring, AI Search trial. Contract renewal discussed - set to roll into remainder of agreement on Feb 22.",
-        "recording_url": "https://app.glyphic.ai/calls/698a555b0f182b5333443c28",
-        "snippets": [],
-        "action_items": []
+        "duration_minutes": 47,
+        "participants": [
+          "Tom Fitzpatrick (tom@belliwelli.com)",
+          "Morry (morry@belliwelli.com)",
+          "Mia DyBuncio (mia@fermatcommerce.com)",
+          "Talia Cohen (talia@fermatcommerce.com)"
+        ],
+        "status": "completed",
+        "source": "glyphic"
       },
       {
-        "title": "BelliWelli <> FERMÀT | Weekly Check In",
+        "id": "6984fa7baab71744bcf455a2",
+        "title": "BelliWelli <> FERMAT | Bi-Weekly Check In",
+        "date": "2026-02-05T19:58:05Z",
+        "duration_minutes": 18,
+        "participants": [
+          "Talia Cohen (talia@fermatcommerce.com)",
+          "Tom Fitzpatrick (tom@belliwelli.com)",
+          "Morry Mitrani (morry@belliwelli.com)"
+        ],
+        "status": "completed",
+        "source": "glyphic"
+      },
+      {
+        "id": "69601119cd1ca7d1eee1543a",
+        "title": "BelliWelli <> FERMAT | Weekly Check In",
         "date": "2026-01-08T19:58:09Z",
-        "duration": "20 min",
-        "participants": "Talia Cohen, Tom Fitzpatrick, Morry Mitrani",
-        "source": "Glyphic",
-        "summary": "Weekly check-in with Talia as CSM.",
-        "recording_url": "https://app.glyphic.ai/calls/69601119cd1ca7d1eee1543a",
-        "snippets": [],
-        "action_items": []
+        "duration_minutes": 20,
+        "participants": [
+          "Talia Cohen (talia@fermatcommerce.com)",
+          "Tom Fitzpatrick (tom@belliwelli.com)",
+          "Morry Mitrani (morry@belliwelli.com)"
+        ],
+        "status": "completed",
+        "source": "glyphic"
       },
       {
-        "title": "BelliWelli <> FERMÀT | Weekly Check In",
+        "id": "694465bbcb25c8c6d13a9f5f",
+        "title": "BelliWelli <> FERMAT | Weekly Check In",
         "date": "2025-12-18T20:00:44Z",
-        "duration": "35 min",
-        "participants": "Talia Cohen, Tom Fitzpatrick, Morry Mitrani",
-        "source": "Glyphic",
-        "summary": "Weekly check-in prior to CSM transition.",
-        "recording_url": "https://app.glyphic.ai/calls/694465bbcb25c8c6d13a9f5f",
-        "snippets": [],
-        "action_items": []
+        "duration_minutes": 35,
+        "participants": [
+          "Talia Cohen (talia@fermatcommerce.com)",
+          "Tom Fitzpatrick (tom@belliwelli.com)",
+          "Morry Mitrani (morry@belliwelli.com)"
+        ],
+        "status": "completed",
+        "source": "glyphic"
       },
       {
-        "title": "BelliWelli <> FERMÀT | Weekly Check In",
+        "id": "693b2a7f23255934981933cb",
+        "title": "BelliWelli <> FERMAT | Weekly Check In",
         "date": "2025-12-11T19:59:32Z",
-        "duration": "33 min",
-        "participants": "Tom Fitzpatrick, Matt Thomas, Talia Cohen, Morry Mitrani",
-        "source": "Glyphic",
-        "summary": "Weekly check-in with additional participant Matt Thomas.",
-        "recording_url": "https://app.glyphic.ai/calls/693b2a7f23255934981933cb",
-        "snippets": [],
-        "action_items": []
+        "duration_minutes": 33,
+        "participants": [
+          "Tom Fitzpatrick (tom@belliwelli.com)",
+          "Matt Thomas",
+          "Talia Cohen (talia@fermatcommerce.com)",
+          "Morry Mitrani (morry@belliwelli.com)"
+        ],
+        "status": "completed",
+        "source": "glyphic"
       },
       {
-        "title": "BelliWelli <> FERMÀT | Weekly Check In",
+        "id": "691f76dfc143b43413f55293",
+        "title": "BelliWelli <> FERMAT | Weekly Check In",
         "date": "2025-11-20T20:00:11Z",
-        "duration": "15 min",
-        "participants": "Morry, Talia Cohen",
-        "source": "Glyphic",
-        "summary": "Weekly check-in with Morry only.",
-        "recording_url": "https://app.glyphic.ai/calls/691f76dfc143b43413f55293",
-        "snippets": [],
-        "action_items": []
+        "duration_minutes": 15,
+        "participants": [
+          "Morry (morry@belliwelli.com)",
+          "Talia Cohen (talia@fermatcommerce.com)"
+        ],
+        "status": "completed",
+        "source": "glyphic"
       }
     ],
-    "analysis": "BelliWelli has regular bi-weekly calls with strong engagement from Tom Fitzpatrick (Dir. Ecommerce) and Morry Mitrani. The brand transitioned from Talia (previous CSM) to Pulkit on Feb 25. First Pulkit-Tom call was Mar 9, followed by a productive bi-weekly on Mar 23. The brand is self-sufficient on FERMÀT, building funnels and setting up experiments independently. Key focus areas: CVR optimization (1.38% vs 3% target), subscription take rate maximization (currently 56%), and scaling high-CVR funnels like Gummies GLP-1 v1 (2.42%) and Generic Gummies v1 (2.5%). The Doctor Backed Generic Fiber funnel is a major underperformer at 0.19% CVR despite $5,050 ad spend."
+    "granola": [
+      {
+        "title": "Belliwelli x FERMAT || Bi-Weekly",
+        "date": "2026-03-23",
+        "url": "https://notes.granola.ai/d/20107a6a-a6b5-496b-9d03-e12419949072",
+        "summary": "Reviewed last 30 days: $28K revenue, 538 purchases, 1.38% CVR (target 3%), 56% subscription rate. Best performer: Gummy GLP-1 v1 at 2.42% CVR. Underperformer: Doctor Backed Generic Fiber (0.19% CVR despite $5K spend). Discussed BYOB, External MCP beta, Shopify Markets. Action items: flavor selector, experiment data fixes, ad analysis.",
+        "source": "granola"
+      },
+      {
+        "title": "Thomas Fitzpatrick (Tom) and Pulkit - Intro Call",
+        "date": "2026-03-09",
+        "url": "https://notes.granola.ai/d/67c75370-75f4-4e20-a825-311d2ac0db5d",
+        "summary": "First intro call with Tom. Platform satisfaction high -- analytics clear, funnels working well. Priorities: revenue optimization, subscription take rate maximization. Testing free tub vs 20% discount subscription offers. Agreed bimonthly cadence.",
+        "source": "granola"
+      },
+      {
+        "title": "Talia / Pulkit Accounts KT (BelliWelli section)",
+        "date": "2026-02-23",
+        "url": "https://notes.granola.ai/d/6cdb36d9-fcec-4712-b966-f77cb9405e79",
+        "summary": "BelliWelli included in Talia to Pulkit handoff. Contract passed opt-out date (Feb 22), auto-renewed. Tom handles all technical setup independently. Focus: CVR optimization, reducing text-heavy pages. AI Search signed up but not prioritized by Morry.",
+        "source": "granola"
+      }
+    ]
   },
   "calendar": {
     "past": [
       {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
-        "start": "2026-03-09T21:30:00+05:30",
-        "end": "2026-03-09T22:00:00+05:30",
-        "attendees": [],
-        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
-      },
-      {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "title": "Belliwelli x FERMAT || Bi-Weekly",
         "start": "2026-03-23T21:30:00+05:30",
         "end": "2026-03-23T22:00:00+05:30",
-        "attendees": [],
-        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
+        "attendees": []
       }
     ],
     "upcoming": [
       {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "title": "Belliwelli x FERMAT || Bi-Weekly",
         "start": "2026-04-20T21:30:00+05:30",
         "end": "2026-04-20T22:00:00+05:30",
-        "attendees": [],
-        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
+        "attendees": []
       },
       {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "title": "Belliwelli x FERMAT || Bi-Weekly",
         "start": "2026-05-04T21:30:00+05:30",
         "end": "2026-05-04T22:00:00+05:30",
-        "attendees": [],
-        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
+        "attendees": []
       },
       {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "title": "Belliwelli x FERMAT || Bi-Weekly",
         "start": "2026-05-18T21:30:00+05:30",
         "end": "2026-05-18T22:00:00+05:30",
-        "attendees": [],
-        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
+        "attendees": []
       },
       {
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
+        "title": "Belliwelli x FERMAT || Bi-Weekly",
         "start": "2026-06-01T21:30:00+05:30",
         "end": "2026-06-01T22:00:00+05:30",
-        "attendees": [],
-        "location": "https://us02web.zoom.us/j/83226591759?pwd=wwa2jsrbmEmLjzjdYk1VUMgOoOciZM.1"
+        "attendees": []
       }
     ]
   },
   "slack": {
-    "messages": [
+    "channel_id": "C0A99HSHTCL",
+    "channel_name": "#belliwelli-fermat-new",
+    "recent_messages": [
       {
-        "user": "Tom Fitz",
-        "text": "Screenshot showing experiment creative changes ARE showing in Experiment tab despite reverting on save",
-        "timestamp": "2026-03-31T21:15:35+05:30",
-        "channel": "#belliwelli-fermat-new"
-      },
-      {
-        "user": "Tom Fitz",
-        "text": "Having trouble setting up test - variant changes reverting on save. Shared Loom video. CC'd Morry",
-        "timestamp": "2026-03-31T21:14:26+05:30",
-        "channel": "#belliwelli-fermat-new",
-        "thread_replies": 9,
-        "loom_url": "https://www.loom.com/share/762a5121d73247b6b73657222f73c839"
-      },
-      {
-        "user": "Pulkit Srivastava",
-        "text": "Responded to Tom about PDP with powders OR gummies option - can build static version, checking on dynamic content switching",
-        "timestamp": "2026-03-31T11:49:09+05:30",
-        "channel": "#belliwelli-fermat-new"
-      },
-      {
-        "user": "Tom Fitz",
-        "text": "Asked about making a PDP with option to pick powders OR gummies (similar to flavor selector)",
-        "timestamp": "2026-03-30T22:41:45+05:30",
-        "channel": "#belliwelli-fermat-new"
-      },
-      {
-        "user": "Pulkit Srivastava",
-        "text": "Posted detailed call recap: $28K revenue, 56% subscription rate, 1.38% CVR, action items for both sides, link to bi-weekly deck",
-        "timestamp": "2026-03-23T22:02:46+05:30",
-        "channel": "#belliwelli-fermat-new",
-        "thread_replies": 3
-      },
-      {
-        "user": "Tom Fitz",
-        "text": "CODE RED - funnel page 404ing on Doctor Backed Generic Fiber. Shared screen recording from mobile Chrome",
-        "timestamp": "2026-03-18T17:12:52+05:30",
-        "channel": "#belliwelli-fermat-new",
-        "thread_replies": 12
-      },
-      {
-        "user": "Morry Mitrani",
-        "text": "Experiment running since Friday with no data showing up. Tagged Talia and Pulkit",
-        "timestamp": "2026-03-11T22:10:36+05:30",
-        "channel": "#belliwelli-fermat-new",
-        "thread_replies": 12
-      },
-      {
-        "user": "Tom Fitz",
-        "text": "Asked about wrong lead image pulling on PDP - should be single tub image only",
-        "timestamp": "2026-02-26T01:35:07+05:30",
-        "channel": "#belliwelli-fermat-new",
-        "thread_replies": 9
-      },
-      {
-        "user": "Tom Fitz",
-        "text": "Congratulated Talia on new role, welcomed Pulkit, said he'd grab a call",
-        "timestamp": "2026-02-25T22:51:10+05:30",
-        "channel": "#belliwelli-fermat-new",
+        "ts": "1775683916.048149",
+        "date": "2026-04-09",
+        "author": "Tom Fitz (brand)",
+        "text": "hey Pulkit would you be able to help me get these 3 flavors to have the tub image as the lead? this is within the powder flavor selector",
+        "has_thread": true,
         "thread_replies": 2
       },
       {
-        "user": "Pulkit Srivastava",
-        "text": "Intro message: New GM at FERMÀT, with team 1.5 years, shared Calendly link",
-        "timestamp": "2026-02-25T20:47:10+05:30",
-        "channel": "#belliwelli-fermat-new"
+        "ts": "1774971935.979399",
+        "date": "2026-03-31",
+        "author": "Tom Fitz (brand)",
+        "text": "the weird thing is when I go look at it in the Experiment tab, the creative changes ARE showing up as what I want them to be.",
+        "has_thread": false,
+        "thread_replies": 0
       },
       {
-        "user": "Talia Cohen",
-        "text": "Transition announcement: Moving to Enterprise team, introducing Pulkit as new GM for BelliWelli",
-        "timestamp": "2026-02-25T19:30:22+05:30",
-        "channel": "#belliwelli-fermat-new"
+        "ts": "1774971866.872409",
+        "date": "2026-03-31",
+        "author": "Tom Fitz (brand)",
+        "text": "Pulkit I am having a tough time setting up a test - the changes I am making in variant are reverting back everytime I save. Details in video below (Loom)",
+        "has_thread": true,
+        "thread_replies": 9
       },
       {
-        "user": "Talia Cohen",
-        "text": "Sent performance analysis docs for Best Sellers GLP1 and Gummies GLP1 v1 funnels. Reminded about contract renewal rolling on Feb 22",
-        "timestamp": "2026-02-20T02:35:33+05:30",
-        "channel": "#belliwelli-fermat-new"
+        "ts": "1774937949.386229",
+        "date": "2026-03-31",
+        "author": "Pulkit Srivastava (FERMAT)",
+        "text": "Tom Fitz not difficult at all! Share the product links and I can get this set up for you.",
+        "has_thread": false,
+        "thread_replies": 0
       },
       {
-        "user": "Tom Fitz",
-        "text": "Asked about Free Tub with Subscription setup via Loom - wants to restrict gift to smallest variant only",
-        "timestamp": "2026-02-20T21:17:23+05:30",
-        "channel": "#belliwelli-fermat-new",
-        "thread_replies": 6,
-        "loom_url": "https://www.loom.com/share/0a80847bf4034b1fbee15ae233b30d0c"
+        "ts": "1774890705.732509",
+        "date": "2026-03-30",
+        "author": "Tom Fitz (brand)",
+        "text": "Pulkit how difficult would it be for us to make a PdP that has the option to pick powders OR gummies? similar to how we have built the flavor selector",
+        "has_thread": false,
+        "thread_replies": 0
       },
       {
-        "user": "Morry Mitrani",
-        "text": "Asked about split destination test setup - curious what website performance data FERMÀT can show",
-        "timestamp": "2026-02-11T04:30:53+05:30",
-        "channel": "#belliwelli-fermat-new",
-        "thread_replies": 8
-      }
-    ],
-    "analysis": "Active Slack channel with frequent engagement from Tom Fitzpatrick (Dir. Ecommerce) and Morry Mitrani. Tom is the primary point of contact, raising technical issues (experiment variant reverting, 404 pages, PDP image issues), requesting new features (powder/gummies PDP selector), and actively building funnels. Pulkit joined the channel Feb 24 and has been responsive with detailed call recaps. Key open issues: (1) Experiment variant changes reverting on save (Mar 31, 9 thread replies), (2) CODE RED 404 on Doctor Backed funnel (Mar 18, 12 replies - likely resolved), (3) Experiment data not showing (Mar 11, 12 replies). The brand is highly engaged and self-sufficient with platform usage."
-  },
-  "email": {
-    "messages": [
-      {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-04-07T13:53:31-07:00",
-        "snippet": "BelliWelli ads approved and delivering"
+        "ts": "1774283566.150479",
+        "date": "2026-03-23",
+        "author": "Pulkit Srivastava (FERMAT)",
+        "text": "Post-call recap: Revenue $28K (30d), Subscription Rate 56%, CVR 1.38% (target 3%). Action items shared.",
+        "has_thread": true,
+        "thread_replies": 3
       },
       {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ad was approved",
-        "date": "2026-04-02T15:50:51-07:00",
-        "snippet": "BelliWelli ad approved and delivering"
+        "ts": "1773834172.964039",
+        "date": "2026-03-18",
+        "author": "Tom Fitz / Morry (brand)",
+        "text": "CODE RED - page is 404ing on a live ad funnel URL",
+        "has_thread": true,
+        "thread_replies": 12
       },
       {
-        "from": "Loom <info@e.atlassian.com>",
-        "subject": "Your video has been viewed: Belliwelli Issue",
-        "date": "2026-04-01T06:21:25-06:00",
-        "snippet": "belliwelli issue Loom video was watched for the first time"
+        "ts": "1773247236.842639",
+        "date": "2026-03-11",
+        "author": "Morry (brand)",
+        "text": "Experiment running since Friday but no data showing up",
+        "has_thread": true,
+        "thread_replies": 12
       },
       {
-        "from": "Glyphic AI <noreply@glyphic.ai>",
-        "subject": "Your Daily Task Overview",
-        "date": "2026-04-01T09:06:12+00:00",
-        "snippet": "Daily tasks reminder with BelliWelli items"
+        "ts": "1772049907.315369",
+        "date": "2026-02-26",
+        "author": "Tom Fitz (brand)",
+        "text": "Wrong lead image pulling on PDP - should be single tub image",
+        "has_thread": true,
+        "thread_replies": 9
       },
       {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ad was approved",
-        "date": "2026-03-31T13:05:42-07:00",
-        "snippet": "BelliWelli ad approved"
-      },
-      {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-03-27T10:19:01-07:00",
-        "snippet": "BelliWelli ads approved"
-      },
-      {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-03-26T15:37:41-07:00",
-        "snippet": "BelliWelli ads approved"
-      },
-      {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-03-26T10:09:33-07:00",
-        "snippet": "BelliWelli ads approved"
-      },
-      {
-        "from": "Meta for Business <noreply@business-updates.facebook.com>",
-        "subject": "Your ads were approved",
-        "date": "2026-03-24T15:59:26-07:00",
-        "snippet": "BelliWelli ads approved"
-      }
-    ],
-    "analysis": "Gmail results are predominantly Meta ad approval notifications (7 of 9 results), indicating active ad campaign management for BelliWelli on Meta. One Loom notification shows the 'Belliwelli Issue' video was viewed (related to experiment variant reverting bug). One Glyphic daily task overview included BelliWelli items. No direct brand-to-CSM email threads found in the last 30 days; all communication appears to flow through Slack."
-  },
-  "granola": {
-    "meetings": [
-      {
-        "id": "20107a6a-a6b5-496b-9d03-e12419949072",
-        "title": "Belliwelli x FERMÀT|| Bi-Weekly",
-        "date": "2026-03-23T21:30:00+05:30",
-        "participants": "Pulkit, Tom (tom@belliwelli.com), Nidhi Singh",
-        "summary": "Revenue $28K (30d), 538 purchases, $52 AOV. 56% subscription rate. CVR 1.38% (target 3%), revenue/session $0.72 (target $1.25). Best CVR day: Mar 12 (2.45%). Best Seller GLP-1 leading with 29K sessions. Gummies GLP-1 v1 at 2.42% CVR recommended for scaling. Doctor Backed Generic Fiber at 0.19% CVR needs overhaul. New features discussed: BYOB, MCP, Shopify Markets, AI Module Generator."
-      },
-      {
-        "id": "67c75370-75f4-4e20-a825-311d2ac0db5d",
-        "title": "Thomas Fitzpatrick and Pulkit Srivastava",
-        "date": "2026-03-09T21:30:00+05:30",
-        "participants": "Pulkit, Tom (tom@belliwelli.com)",
-        "summary": "First meeting between Pulkit and Tom. Using FERMÀT since November with strong satisfaction. Team: email designer (UK), Shopify devs (India), external marketing agency. Priorities: revenue optimization, subscription take rate. Testing free tub vs 20% discount offers. Bimonthly calls scheduled."
+        "ts": "1772040070.763279",
+        "date": "2026-02-25",
+        "author": "Tom Fitz (brand)",
+        "text": "Talia congratulations on your new role! Pulkit good to meet you and looking forward to working together.",
+        "has_thread": true,
+        "thread_replies": 2
       }
     ]
   },
-  "contacts": {
-    "primary": {
-      "name": "Tom Fitzpatrick",
-      "email": "tom@belliwelli.com",
-      "title": "Director of Ecommerce",
-      "role": "Day-to-day platform contact, builds funnels independently"
-    },
-    "secondary": {
-      "name": "Morry Mitrani",
-      "email": "morry@belliwelli.com",
-      "title": "Vice President, Growth",
-      "role": "Economic buyer, strategic oversight"
-    },
-    "previous_csm": {
-      "name": "Talia Cohen",
-      "email": "talia@fermatcommerce.com",
-      "transition_date": "2026-02-25",
-      "new_role": "Enterprise team"
-    }
-  },
-  "key_context": {
-    "onboarded_since": "2025-11",
-    "contract_note": "Contract rolled into remainder of agreement on Feb 22, 2026 as discussed in Business Review",
-    "subscription_platform": "Skio",
-    "ecommerce_platform": "Shopify",
-    "ad_channels": [
-      "Meta (Facebook)",
-      "TikTok (limited)"
+  "email": {
+    "recent": [
+      {
+        "id": "19d69b8cae9608dc",
+        "date": "2026-04-07",
+        "from": "Meta for Business",
+        "subject": "Your ads were approved",
+        "snippet": "BelliWelli ads approved and should begin delivering shortly"
+      },
+      {
+        "id": "19d50646a78869e2",
+        "date": "2026-04-02",
+        "from": "Meta for Business",
+        "subject": "Your ad was approved",
+        "snippet": "BelliWelli ad approved and should begin delivering shortly"
+      },
+      {
+        "id": "19d48fdd2c35e3cd",
+        "date": "2026-04-01",
+        "from": "Loom",
+        "subject": "Your video has been viewed: Belliwelli Issue",
+        "snippet": "Belliwelli issue video was watched for the first time"
+      },
+      {
+        "id": "19d484b12be869d2",
+        "date": "2026-04-01",
+        "from": "Glyphic AI",
+        "subject": "Your Daily Task Overview",
+        "snippet": "Daily tasks reminder including belliwelli items"
+      },
+      {
+        "id": "19d45807e24957c4",
+        "date": "2026-03-31",
+        "from": "Meta for Business",
+        "subject": "Your ad was approved",
+        "snippet": "BelliWelli ad approved"
+      },
+      {
+        "id": "19d304e781cd3d24",
+        "date": "2026-03-27",
+        "from": "Meta for Business",
+        "subject": "Your ads were approved",
+        "snippet": "BelliWelli ads approved"
+      },
+      {
+        "id": "19d301de2023ea00",
+        "date": "2026-03-27",
+        "from": "Meta for Business",
+        "subject": "Your ad was approved",
+        "snippet": "BelliWelli ad approved"
+      },
+      {
+        "id": "19d2c4bd87c0e0cc",
+        "date": "2026-03-26",
+        "from": "Meta for Business",
+        "subject": "Your ads were approved",
+        "snippet": "BelliWelli ads approved"
+      },
+      {
+        "id": "19d2b1f72e52d886",
+        "date": "2026-03-26",
+        "from": "Meta for Business",
+        "subject": "Your ads were approved",
+        "snippet": "BelliWelli ads approved"
+      },
+      {
+        "id": "19d22130d8dbc001",
+        "date": "2026-03-24",
+        "from": "Meta for Business",
+        "subject": "Your ads were approved",
+        "snippet": "BelliWelli ads approved"
+      }
     ],
-    "top_funnels": [
-      "Best Seller GLP-1 (29K sessions, 1.4% CVR - traffic leader)",
-      "Gummies GLP-1 v1 (4,300 sessions, 2.42% CVR - scale candidate)",
-      "Generic Gummies v1 (480 sessions, 2.5% CVR - scale candidate)"
-    ],
-    "problem_funnels": [
-      "Doctor Backed Generic Fiber v1 (0.19% CVR, $5,050 ad spend - major underperformer)"
-    ],
-    "active_experiments": [
-      "30 vs 90 days gummies (control with choice option outperforming)",
-      "30 vs 90 day default (both performing poorly, considering pause)",
-      "30% vs 90 day default gummies for kids (low data, monitoring)"
-    ],
-    "open_issues": [
-      "Experiment variant changes reverting on save (Mar 31 - Loom shared)",
-      "Experiment data not showing (Mar 11 - 12 thread replies)",
-      "PDP powder/gummies selector requested (Mar 30)"
-    ],
-    "csm_transition_status": "Pulkit took over from Talia on Feb 25. First call with Tom on Mar 9. Building rapport. Tom receptive and engaged."
+    "total_results_estimate": 201
   }
 }

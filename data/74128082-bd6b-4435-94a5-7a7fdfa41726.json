@@ -1,20 +1,20 @@
 {
   "brand_id": "74128082-bd6b-4435-94a5-7a7fdfa41726",
   "brand_name": "HOP WTR",
-  "last_updated": "2026-04-06T19:30:00.000000Z",
+  "last_updated": "2026-04-13T00:00:00.000000Z",
   "churn_status": true,
   "churn_date": "2026-03-07",
-  "churn_reason": "Transitioning to a new agency and reevaluating their broader tech stack",
+  "churn_reason": "Client wanted to cancel and move to month-to-month. Transitioning to new agency and reevaluating tech stack. Contract ended March 7, 2026.",
   "contract_value": 6000,
-  "contract_note": "Amended per Dec 7 2025 Addendum — $2,000/month, ended March 7, 2026",
+  "contract_note": "Amended per Dec 7 2025 Addendum — $2,000/month, ended March 7, 2026. Final invoice for February covers through March 7; payment due March 31.",
   "health": {
-    "score": 17,
+    "score": 4,
     "status": "red",
     "breakdown": {
-      "platform_performance": 14,
-      "platform_performance_detail": "Sessions:5/5, Revenue:4/5, CVR:1/5, Purchases:4/5",
-      "communication": 1,
-      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:1/4",
+      "platform_performance": 2,
+      "platform_performance_detail": "Sessions:2/5, Revenue:0/5, CVR:0/5, Purchases:0/5",
+      "communication": 0,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
       "engagement": 2,
       "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:0/6",
       "csm_sentiment": 0,
@@ -23,540 +23,544 @@
     "signals": [
       {
         "type": "negative",
-        "text": "CHURNED: Contract cancelled effective Mar 7 2026. Churn reason: transitioning to new agency and reevaluating tech stack.",
+        "text": "CHURNED: Contract cancelled effective Mar 7 2026. Client declined renewal and month-to-month offer ($2,000/mo). Cancellation confirmed via churns@fermatcommerce.com.",
         "time": "Mar 7"
       },
       {
         "type": "negative",
-        "text": "Key contact Grace Colbert (Sr. Growth Manager) left HOP WTR on Mar 11 — personnel loss contributed to churn.",
-        "time": "Mar 11"
+        "text": "Platform completely dead: 0 purchases, $0 revenue, 0 checkouts, 0 ATC across last 30 days (Mar 14-Apr 12). Only 1,164 residual sessions with 0% CVR.",
+        "time": "Apr 12"
       },
       {
         "type": "negative",
-        "text": "Zero Slack activity since Feb 27. No brand messages in 38 days. Channel fully silent post-churn.",
+        "text": "Zero Slack activity since Feb 27 — channel silent for 45+ days. No brand messages, no Pulkit messages, no email threads in 30d.",
         "time": "Feb 27"
       },
       {
         "type": "negative",
-        "text": "Last call was Feb 19 (46 days ago). Zero calls in 30d. No upcoming calls scheduled.",
+        "text": "Last call was Feb 19 (52 days ago) — Talia's final weekly with Grace. Zero calls in 30d. No upcoming calls scheduled. No Granola meetings found for Pulkit.",
         "time": "Feb 19"
       },
       {
         "type": "negative",
-        "text": "Revenue collapsed: 45d total $30,892 but last 7d only $1,653 (18 purchases). Daily purchases dropped from 40+ to 1-2.",
-        "time": "Apr 5"
-      },
-      {
-        "type": "negative",
-        "text": "CVR critically low: 0.07% 3d, 0.06% 7d. Sessions remain high (bot/crawler traffic) but conversions near zero.",
-        "time": "Apr 5"
+        "text": "45d total: only $1,308 revenue from 31 purchases across 5,596 sessions (0.55% CVR). All conversions occurred before Mar 9 — nothing since.",
+        "time": "Apr 12"
       },
       {
         "type": "warning",
-        "text": "Final invoice for February due by Mar 31 2026. Finance (Ashutosh) confirmed all prior invoices paid.",
-        "time": "Mar 3"
+        "text": "GM handoff from Talia Cohen to Pulkit on Feb 25 — only 10 days before churn finalized. Insufficient time to build relationship or execute save attempt.",
+        "time": "Feb 25"
       },
       {
         "type": "info",
-        "text": "Save attempt made Mar 2 — customer declined. Cancellation confirmed email sent Mar 5. Month-to-month option offered as re-entry path.",
-        "time": "Mar 5"
-      },
-      {
-        "type": "info",
-        "text": "Pre-churn highlight: Google pricing test hit statistical significance with 2.16% CVR (400%+ over control) on Variant 1 (lower price point).",
+        "text": "Pre-churn highlight: Google pricing test hit statistical significance with 2.16% CVR on Variant 1 (lower price point, $29.99) vs 0.43% control. Meta test paused due to session tracking issues.",
         "time": "Feb 20"
       },
       {
         "type": "info",
-        "text": "GM handoff from Talia Cohen to Pulkit occurred Feb 25 — only 2 days before churn was initiated via Slack on Feb 27.",
-        "time": "Feb 25"
+        "text": "Key contacts: Grace Colbert (Sr. Growth Manager), Andreas Biebl (GM eCommerce), Vanessa Vellozzi, Chris Alas. Grace ran Meta campaigns; Alex LaManna managed Google Ads.",
+        "time": "Feb 19"
+      },
+      {
+        "type": "info",
+        "text": "Save attempt: $2,000/month flat with no take rate offered. Backup: $699 self-serve plan. Client declined both. Final billing: Feb invoice covers through Mar 7, due Mar 31.",
+        "time": "Mar 3"
       }
     ]
   },
   "performance": {
     "yesterday": {
       "ad_spend": null,
-      "revenue": 59.99,
-      "cvr": 0.0,
-      "sessions": 280362,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 17,
       "roas": null,
       "cpa": null,
-      "purchases": 1,
-      "aov": 59.99,
-      "pdp_views": 2324,
-      "atc": 289,
-      "checkouts": 78
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
     },
     "3d": {
       "ad_spend": null,
-      "revenue": 930.87,
-      "cvr": 0.0007,
-      "sessions": 1375938,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 48,
       "roas": null,
       "cpa": null,
-      "purchases": 9,
-      "aov": 103.43,
-      "pdp_views": 11705,
-      "atc": 1096,
-      "checkouts": 264
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 1,
+      "atc": 0,
+      "checkouts": 0
     },
     "7d": {
       "ad_spend": null,
-      "revenue": 1652.76,
-      "cvr": 0.0006,
-      "sessions": 3248558,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 128,
       "roas": null,
       "cpa": null,
-      "purchases": 18,
-      "aov": 91.82,
-      "pdp_views": 26083,
-      "atc": 2364,
-      "checkouts": 564
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 2,
+      "atc": 0,
+      "checkouts": 0
     },
     "15d": {
       "ad_spend": null,
-      "revenue": 3109.31,
-      "cvr": 0.0007,
-      "sessions": 4919267,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 426,
       "roas": null,
       "cpa": null,
-      "purchases": 34,
-      "aov": 91.45,
-      "pdp_views": 37857,
-      "atc": 3867,
-      "checkouts": 962
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 7,
+      "atc": 0,
+      "checkouts": 0
     },
     "30d": {
       "ad_spend": null,
-      "revenue": 9801.86,
-      "cvr": 0.0018,
-      "sessions": 6268464,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 1164,
       "roas": null,
       "cpa": null,
-      "purchases": 112,
-      "aov": 87.52,
-      "pdp_views": 50549,
-      "atc": 5862,
-      "checkouts": 1531
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 33,
+      "atc": 4,
+      "checkouts": 1
     },
     "45d": {
       "ad_spend": null,
-      "revenue": 30891.59,
-      "cvr": 0.0052,
-      "sessions": 6845742,
+      "revenue": 1308.37,
+      "cvr": 0.554,
+      "sessions": 5596,
       "roas": null,
       "cpa": null,
-      "purchases": 359,
-      "aov": 86.05,
-      "pdp_views": 58393,
-      "atc": 7898,
-      "checkouts": 2514
+      "purchases": 31,
+      "aov": 42.21,
+      "pdp_views": 281,
+      "atc": 89,
+      "checkouts": 44
     },
     "daily": [
       {
-        "date": "2026-02-20",
-        "sessions": 1783,
-        "pdp_views": 394,
-        "atc": 191,
-        "checkouts": 91,
-        "purchases": 41,
-        "revenue": 3601.91
-      },
-      {
-        "date": "2026-02-21",
-        "sessions": 1406,
-        "pdp_views": 307,
-        "atc": 142,
-        "checkouts": 63,
-        "purchases": 22,
-        "revenue": 1491.94
-      },
-      {
-        "date": "2026-02-22",
-        "sessions": 1131,
-        "pdp_views": 286,
-        "atc": 147,
-        "checkouts": 78,
-        "purchases": 37,
-        "revenue": 3183.87
-      },
-      {
-        "date": "2026-02-23",
-        "sessions": 1118,
-        "pdp_views": 251,
-        "atc": 133,
-        "checkouts": 66,
-        "purchases": 25,
-        "revenue": 2217.96
-      },
-      {
-        "date": "2026-02-24",
-        "sessions": 781,
-        "pdp_views": 179,
-        "atc": 100,
-        "checkouts": 58,
-        "purchases": 19,
-        "revenue": 2506.0
-      },
-      {
-        "date": "2026-02-25",
-        "sessions": 6267,
-        "pdp_views": 200,
-        "atc": 93,
-        "checkouts": 49,
-        "purchases": 19,
-        "revenue": 1323.38
-      },
-      {
         "date": "2026-02-26",
-        "sessions": 111520,
-        "pdp_views": 1149,
-        "atc": 129,
-        "checkouts": 54,
-        "purchases": 19,
-        "revenue": 1394.98
+        "sessions": 550,
+        "revenue": 283.12,
+        "purchases": 6,
+        "pdp_views": 43,
+        "atc": 14,
+        "checkouts": 7
       },
       {
         "date": "2026-02-27",
-        "sessions": 52507,
-        "pdp_views": 543,
-        "atc": 83,
-        "checkouts": 43,
-        "purchases": 12,
-        "revenue": 1143.92
+        "sessions": 478,
+        "revenue": 170.64,
+        "purchases": 4,
+        "pdp_views": 36,
+        "atc": 10,
+        "checkouts": 5
       },
       {
         "date": "2026-02-28",
-        "sessions": 85672,
-        "pdp_views": 845,
-        "atc": 117,
-        "checkouts": 45,
-        "purchases": 11,
-        "revenue": 974.94
+        "sessions": 413,
+        "revenue": 117.34,
+        "purchases": 3,
+        "pdp_views": 37,
+        "atc": 14,
+        "checkouts": 8
       },
       {
         "date": "2026-03-01",
-        "sessions": 90690,
-        "pdp_views": 964,
-        "atc": 137,
-        "checkouts": 76,
-        "purchases": 8,
-        "revenue": 675.95
+        "sessions": 560,
+        "revenue": 201.27,
+        "purchases": 4,
+        "pdp_views": 44,
+        "atc": 11,
+        "checkouts": 6
       },
       {
         "date": "2026-03-02",
-        "sessions": 125113,
-        "pdp_views": 1123,
-        "atc": 164,
-        "checkouts": 81,
-        "purchases": 8,
-        "revenue": 624.96
+        "sessions": 381,
+        "revenue": 65.18,
+        "purchases": 2,
+        "pdp_views": 24,
+        "atc": 13,
+        "checkouts": 6
       },
       {
         "date": "2026-03-03",
-        "sessions": 13690,
-        "pdp_views": 458,
-        "atc": 213,
-        "checkouts": 103,
-        "purchases": 3,
-        "revenue": 210.0
+        "sessions": 317,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 13,
+        "atc": 3,
+        "checkouts": 1
       },
       {
         "date": "2026-03-04",
-        "sessions": 29647,
-        "pdp_views": 463,
-        "atc": 173,
-        "checkouts": 87,
-        "purchases": 5,
-        "revenue": 392.98
+        "sessions": 617,
+        "revenue": 95.31,
+        "purchases": 2,
+        "pdp_views": 7,
+        "atc": 2,
+        "checkouts": 2
       },
       {
         "date": "2026-03-05",
-        "sessions": 14869,
-        "pdp_views": 255,
-        "atc": 90,
-        "checkouts": 41,
-        "purchases": 12,
-        "revenue": 897.96
+        "sessions": 219,
+        "revenue": 64.84,
+        "purchases": 2,
+        "pdp_views": 8,
+        "atc": 2,
+        "checkouts": 2
       },
       {
         "date": "2026-03-06",
-        "sessions": 41084,
-        "pdp_views": 427,
-        "atc": 124,
-        "checkouts": 48,
-        "purchases": 6,
-        "revenue": 448.98
+        "sessions": 98,
+        "revenue": 93.19,
+        "purchases": 2,
+        "pdp_views": 6,
+        "atc": 4,
+        "checkouts": 2
       },
       {
         "date": "2026-03-07",
-        "sessions": 54324,
-        "pdp_views": 596,
-        "atc": 88,
-        "checkouts": 32,
-        "purchases": 4,
-        "revenue": 851.9
+        "sessions": 75,
+        "revenue": 33.1,
+        "purchases": 2,
+        "pdp_views": 8,
+        "atc": 4,
+        "checkouts": 2
       },
       {
         "date": "2026-03-08",
-        "sessions": 27301,
-        "pdp_views": 410,
-        "atc": 123,
-        "checkouts": 60,
-        "purchases": 11,
-        "revenue": 960.96
+        "sessions": 159,
+        "revenue": 98.8,
+        "purchases": 2,
+        "pdp_views": 10,
+        "atc": 3,
+        "checkouts": 1
       },
       {
         "date": "2026-03-09",
-        "sessions": 39958,
-        "pdp_views": 444,
-        "atc": 112,
-        "checkouts": 36,
-        "purchases": 7,
-        "revenue": 737.94
+        "sessions": 96,
+        "revenue": 85.58,
+        "purchases": 2,
+        "pdp_views": 7,
+        "atc": 3,
+        "checkouts": 0
       },
       {
         "date": "2026-03-10",
-        "sessions": 38947,
-        "pdp_views": 449,
-        "atc": 116,
-        "checkouts": 33,
-        "purchases": 7,
-        "revenue": 479.99
+        "sessions": 130,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-11",
-        "sessions": 132890,
-        "pdp_views": 1200,
-        "atc": 186,
-        "checkouts": 43,
-        "purchases": 7,
-        "revenue": 543.97
+        "sessions": 84,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-12",
-        "sessions": 110319,
-        "pdp_views": 985,
-        "atc": 139,
-        "checkouts": 43,
-        "purchases": 3,
-        "revenue": 149.99
+        "sessions": 72,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-13",
-        "sessions": 95837,
-        "pdp_views": 872,
-        "atc": 132,
-        "checkouts": 37,
-        "purchases": 7,
-        "revenue": 646.94
+        "sessions": 183,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 3,
+        "atc": 2,
+        "checkouts": 1
       },
       {
         "date": "2026-03-14",
-        "sessions": 109882,
-        "pdp_views": 1074,
-        "atc": 184,
-        "checkouts": 59,
-        "purchases": 9,
-        "revenue": 808.97
+        "sessions": 107,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 1,
+        "checkouts": 0
       },
       {
         "date": "2026-03-15",
-        "sessions": 94901,
-        "pdp_views": 850,
-        "atc": 143,
-        "checkouts": 38,
-        "purchases": 4,
-        "revenue": 269.99
+        "sessions": 91,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 1,
+        "checkouts": 1
       },
       {
         "date": "2026-03-16",
-        "sessions": 150287,
-        "pdp_views": 1320,
-        "atc": 148,
-        "checkouts": 27,
-        "purchases": 2,
-        "revenue": 185.99
+        "sessions": 143,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 5,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-17",
-        "sessions": 104975,
-        "pdp_views": 862,
-        "atc": 101,
-        "checkouts": 30,
-        "purchases": 3,
-        "revenue": 143.99
+        "sessions": 56,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 5,
+        "atc": 2,
+        "checkouts": 0
       },
       {
         "date": "2026-03-18",
-        "sessions": 112080,
-        "pdp_views": 928,
-        "atc": 91,
-        "checkouts": 20,
-        "purchases": 2,
-        "revenue": 107.99
+        "sessions": 30,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-19",
-        "sessions": 140964,
-        "pdp_views": 1296,
-        "atc": 173,
-        "checkouts": 37,
-        "purchases": 2,
-        "revenue": 185.99
+        "sessions": 20,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-20",
-        "sessions": 81282,
-        "pdp_views": 747,
-        "atc": 111,
-        "checkouts": 29,
-        "purchases": 6,
-        "revenue": 389.97
+        "sessions": 34,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-21",
-        "sessions": 55250,
-        "pdp_views": 659,
-        "atc": 148,
-        "checkouts": 45,
-        "purchases": 4,
-        "revenue": 227.97
+        "sessions": 27,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 3,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-22",
-        "sessions": 73733,
-        "pdp_views": 717,
-        "atc": 149,
-        "checkouts": 41,
-        "purchases": 2,
-        "revenue": 147.98
+        "sessions": 49,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-23",
-        "sessions": 89411,
-        "pdp_views": 823,
-        "atc": 144,
-        "checkouts": 47,
-        "purchases": 1,
-        "revenue": 59.99
+        "sessions": 50,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 4,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-24",
-        "sessions": 96280,
-        "pdp_views": 937,
-        "atc": 161,
-        "checkouts": 44,
-        "purchases": 2,
-        "revenue": 239.96
+        "sessions": 31,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-25",
-        "sessions": 128806,
-        "pdp_views": 955,
-        "atc": 176,
-        "checkouts": 47,
-        "purchases": 3,
-        "revenue": 312.74
+        "sessions": 28,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-26",
-        "sessions": 251690,
-        "pdp_views": 1629,
-        "atc": 184,
-        "checkouts": 45,
-        "purchases": 2,
-        "revenue": 215.96
+        "sessions": 18,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-27",
-        "sessions": 317384,
-        "pdp_views": 2117,
-        "atc": 224,
-        "checkouts": 57,
-        "purchases": 2,
-        "revenue": 227.96
+        "sessions": 27,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-28",
-        "sessions": 321947,
-        "pdp_views": 2211,
-        "atc": 226,
-        "checkouts": 61,
-        "purchases": 2,
-        "revenue": 143.98
+        "sessions": 27,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-29",
-        "sessions": 391458,
-        "pdp_views": 2385,
-        "atc": 239,
-        "checkouts": 56,
-        "purchases": 2,
-        "revenue": 107.98
+        "sessions": 24,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-30",
-        "sessions": 272382,
-        "pdp_views": 1969,
-        "atc": 238,
-        "checkouts": 56,
-        "purchases": 2,
-        "revenue": 167.97
+        "sessions": 25,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-03-31",
-        "sessions": 552178,
-        "pdp_views": 4099,
-        "atc": 349,
-        "checkouts": 76,
-        "purchases": 1,
-        "revenue": 48.0
+        "sessions": 31,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-04-01",
-        "sessions": 407928,
-        "pdp_views": 3117,
-        "atc": 287,
-        "checkouts": 78,
-        "purchases": 2,
-        "revenue": 155.98
+        "sessions": 71,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-04-02",
-        "sessions": 640132,
-        "pdp_views": 5193,
-        "atc": 394,
-        "checkouts": 90,
-        "purchases": 4,
-        "revenue": 349.94
+        "sessions": 93,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-04-03",
-        "sessions": 684197,
-        "pdp_views": 5863,
-        "atc": 444,
-        "checkouts": 104,
-        "purchases": 3,
-        "revenue": 179.97
+        "sessions": 22,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-04-04",
-        "sessions": 411379,
-        "pdp_views": 3518,
-        "atc": 363,
-        "checkouts": 82,
-        "purchases": 5,
-        "revenue": 690.91
+        "sessions": 14,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
       },
       {
         "date": "2026-04-05",
-        "sessions": 280362,
-        "pdp_views": 2324,
-        "atc": 289,
-        "checkouts": 78,
-        "purchases": 1,
-        "revenue": 59.99
+        "sessions": 18,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-06",
+        "sessions": 14,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-07",
+        "sessions": 33,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-08",
+        "sessions": 30,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-09",
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-10",
+        "sessions": 10,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 1,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-11",
+        "sessions": 21,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-12",
+        "sessions": 17,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
       }
     ]
   },
@@ -564,537 +568,275 @@
     "recent": [
       {
         "id": "699758c28aa265af1c2cc39d",
-        "title": "HOP WTR <> FERMÀT | Launch Weekly",
-        "date": "2026-02-19T18:30:58Z",
-        "duration_seconds": 470,
-        "status": "completed",
+        "title": "HOP WTR <> FERMAT | Launch Weekly",
+        "date": "2026-02-19",
+        "duration_minutes": 8,
         "participants": [
-          {
-            "name": "Talia Cohen",
-            "email": "talia@fermatcommerce.com",
-            "side": "fermat"
-          },
-          {
-            "name": "Grace Colbert",
-            "email": "grace.c@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Vanessa Vellozzi",
-            "email": "vanessa@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Chris Alas",
-            "email": "chris.a@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Andreas Biebl",
-            "email": "andreas.b@hopwtr.com",
-            "side": "brand"
-          }
+          "Talia Cohen (FERMAT)",
+          "Grace Colbert (HOP WTR)",
+          "Vanessa Vellozzi (HOP WTR)",
+          "Chris Alas (HOP WTR)",
+          "Andreas Biebl (HOP WTR)"
         ],
-        "source": "glyphic"
+        "summary": "Google pricing test hit statistical significance with 2.16% CVR on lower price point variant. Meta test paused due to session tracking issues. Renewal approaching first week of March. Grace to consult Andreas on renewal decision and test continuation.",
+        "url": "https://app.glyphic.ai/calls/699758c28aa265af1c2cc39d"
       },
       {
         "id": "698a5dcf68eee6c1295d7eba",
-        "title": "HOP WTR <> FERMÀT | Launch Weekly",
-        "date": "2026-02-09T22:00:15Z",
-        "duration_seconds": 1241,
-        "status": "completed",
+        "title": "HOP WTR <> FERMAT | Launch Weekly",
+        "date": "2026-02-09",
+        "duration_minutes": 21,
         "participants": [
-          {
-            "name": "Andreas Biebl",
-            "email": "andreas.b@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Grace Colbert",
-            "email": "grace.c@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Talia Cohen",
-            "email": "talia@fermatcommerce.com",
-            "side": "fermat"
-          },
-          {
-            "name": "Vanessa Vellozzi",
-            "email": "vanessa@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Chris Alas",
-            "email": "chris.a@hopwtr.com",
-            "side": "brand"
-          }
+          "Talia Cohen (FERMAT)",
+          "Andreas Biebl (HOP WTR)",
+          "Grace Colbert (HOP WTR)",
+          "Vanessa Vellozzi (HOP WTR)",
+          "Chris Alas (HOP WTR)"
         ],
-        "source": "glyphic"
+        "summary": "Reviewed Meta vs Google A/B price test performance. Google showing 10x higher revenue per session. Discovered Meta test set up incorrectly using nested forever links. Talia to fix Meta setup and create new Google forever link. Andreas considering shifting all budget to Google.",
+        "url": "https://app.glyphic.ai/calls/698a5dcf68eee6c1295d7eba"
       },
       {
         "id": "6984ed3faab71744bcf44a7a",
-        "title": "HOP WTR <> FERMÀT | Launch Weekly",
-        "date": "2026-02-05T18:31:12Z",
-        "duration_seconds": 2888,
-        "status": "completed",
+        "title": "HOP WTR <> FERMAT | Launch Weekly",
+        "date": "2026-02-05",
+        "duration_minutes": 48,
         "participants": [
-          {
-            "name": "Grace Colbert",
-            "email": "grace.c@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Andreas Biebl",
-            "email": "andreas.b@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Talia Cohen",
-            "email": "talia@fermatcommerce.com",
-            "side": "fermat"
-          },
-          {
-            "name": "Chris Alas",
-            "email": "chris.a@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Vanessa Vellozzi",
-            "email": "vanessa@hopwtr.com",
-            "side": "brand"
-          }
+          "Talia Cohen (FERMAT)",
+          "Grace Colbert (HOP WTR)",
+          "Andreas Biebl (HOP WTR)",
+          "Chris Alas (HOP WTR)",
+          "Vanessa Vellozzi (HOP WTR)",
+          "Sam"
         ],
-        "source": "glyphic"
+        "summary": "Discussed pricing test setup, funnel configuration, and Meta/Google campaign strategy. Grace launched Meta campaign at $800-1000/day. Addressed A/B test structure and tracking concerns.",
+        "url": "https://app.glyphic.ai/calls/6984ed3faab71744bcf44a7a"
       },
       {
         "id": "697a8c45353ac0e09e3e85b5",
-        "title": "HOP WTR <> FERMÀT | Weekly - A/B test discussion",
-        "date": "2026-01-28T21:59:25Z",
-        "duration_seconds": 1412,
-        "status": "completed",
+        "title": "HOP WTR <> FERMAT | Weekly - A/B test discussion",
+        "date": "2026-01-28",
+        "duration_minutes": 24,
         "participants": [
-          {
-            "name": "Vanessa Vellozzi",
-            "email": "vanessa@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Talia Cohen",
-            "email": "talia@fermatcommerce.com",
-            "side": "fermat"
-          },
-          {
-            "name": "Andreas Biebl",
-            "email": "andreas.b@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Chris Alas",
-            "email": "chris.a@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Grace Colbert",
-            "email": "grace.c@hopwtr.com",
-            "side": "brand"
-          }
+          "Talia Cohen (FERMAT)",
+          "Justin Cowperthwaite",
+          "Vanessa Vellozzi (HOP WTR)",
+          "Andreas Biebl (HOP WTR)",
+          "Chris Alas (HOP WTR)",
+          "Grace Colbert (HOP WTR)"
         ],
-        "source": "glyphic"
+        "summary": "A/B test discussion for pricing experiments.",
+        "url": "https://app.glyphic.ai/calls/697a8c45353ac0e09e3e85b5"
       },
       {
         "id": "6972717860c014b0ca1be004",
-        "title": "HOP WTR <> FERMÀT | Launch Weekly",
-        "date": "2026-01-22T18:34:13Z",
-        "duration_seconds": 975,
-        "status": "completed",
+        "title": "HOP WTR <> FERMAT | Launch Weekly",
+        "date": "2026-01-22",
+        "duration_minutes": 16,
         "participants": [
-          {
-            "name": "Grace Colbert",
-            "email": "grace.c@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Talia Cohen",
-            "email": "talia@fermatcommerce.com",
-            "side": "fermat"
-          },
-          {
-            "name": "Andreas Biebl",
-            "email": "andreas.b@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Vanessa Vellozzi",
-            "email": "vanessa@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Chris Alas",
-            "email": "chris.a@hopwtr.com",
-            "side": "brand"
-          }
+          "Talia Cohen (FERMAT)",
+          "Grace Colbert (HOP WTR)",
+          "Andreas Biebl (HOP WTR)",
+          "Vanessa Vellozzi (HOP WTR)",
+          "Chris Alas (HOP WTR)"
         ],
-        "source": "glyphic"
+        "summary": "Weekly launch check-in.",
+        "url": "https://app.glyphic.ai/calls/6972717860c014b0ca1be004"
       },
       {
         "id": "696937ecfed949c03b3f0e0c",
-        "title": "HOP WTR <> FERMÀT | Launch Weekly",
-        "date": "2026-01-15T18:30:17Z",
-        "duration_seconds": 1454,
-        "status": "completed",
+        "title": "HOP WTR <> FERMAT | Launch Weekly",
+        "date": "2026-01-15",
+        "duration_minutes": 24,
         "participants": [
-          {
-            "name": "Talia Cohen",
-            "email": "talia@fermatcommerce.com",
-            "side": "fermat"
-          },
-          {
-            "name": "Grace Colbert",
-            "email": "grace.c@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Vanessa Vellozzi",
-            "email": "vanessa@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Chris Alas",
-            "email": "chris.a@hopwtr.com",
-            "side": "brand"
-          }
+          "Talia Cohen (FERMAT)",
+          "Grace Colbert (HOP WTR)",
+          "Vanessa Vellozzi (HOP WTR)",
+          "Chris Alas (HOP WTR)"
         ],
-        "source": "glyphic"
+        "summary": "Weekly launch check-in.",
+        "url": "https://app.glyphic.ai/calls/696937ecfed949c03b3f0e0c"
       },
       {
         "id": "695ffd6a4622dfd116f10c1d",
-        "title": "HOP WTR <> FERMÀT | Launch Weekly",
-        "date": "2026-01-08T18:30:54Z",
-        "duration_seconds": 1415,
-        "status": "completed",
+        "title": "HOP WTR <> FERMAT | Launch Weekly",
+        "date": "2026-01-08",
+        "duration_minutes": 24,
         "participants": [
-          {
-            "name": "Talia Cohen",
-            "email": "talia@fermatcommerce.com",
-            "side": "fermat"
-          },
-          {
-            "name": "Grace Colbert",
-            "email": "grace.c@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Chris Alas",
-            "email": "chris.a@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Vanessa Vellozzi",
-            "email": "vanessa@hopwtr.com",
-            "side": "brand"
-          }
+          "Talia Cohen (FERMAT)",
+          "Grace Colbert (HOP WTR)",
+          "Chris Alas (HOP WTR)",
+          "Vanessa Vellozzi (HOP WTR)"
         ],
-        "source": "glyphic"
+        "summary": "Weekly launch check-in.",
+        "url": "https://app.glyphic.ai/calls/695ffd6a4622dfd116f10c1d"
       },
       {
         "id": "694afbe529bfae221fa9992d",
-        "title": "HOP WTR <> FERMÀT | Launch Weekly",
-        "date": "2025-12-23T20:00:42Z",
-        "duration_seconds": 1782,
-        "status": "completed",
+        "title": "HOP WTR <> FERMAT | Launch Weekly",
+        "date": "2025-12-23",
+        "duration_minutes": 30,
         "participants": [
-          {
-            "name": "Grace Colbert",
-            "email": "grace.c@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Talia Cohen",
-            "email": "talia@fermatcommerce.com",
-            "side": "fermat"
-          },
-          {
-            "name": "Chris Alas",
-            "email": "chris.a@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Vanessa Vellozzi",
-            "email": "vanessa@hopwtr.com",
-            "side": "brand"
-          }
+          "Talia Cohen (FERMAT)",
+          "Grace Colbert (HOP WTR)",
+          "Chris Alas (HOP WTR)",
+          "Vanessa Vellozzi (HOP WTR)"
         ],
-        "source": "glyphic"
+        "summary": "Weekly launch check-in.",
+        "url": "https://app.glyphic.ai/calls/694afbe529bfae221fa9992d"
       },
       {
         "id": "693b132c738f04b60b7e50fd",
-        "title": "HOP WTR <> FERMÀT | Launch Weekly",
-        "date": "2025-12-11T18:30:48Z",
-        "duration_seconds": 1360,
-        "status": "completed",
+        "title": "HOP WTR <> FERMAT | Launch Weekly",
+        "date": "2025-12-11",
+        "duration_minutes": 23,
         "participants": [
-          {
-            "name": "Talia Cohen",
-            "email": "talia@fermatcommerce.com",
-            "side": "fermat"
-          },
-          {
-            "name": "Grace Colbert",
-            "email": "grace.c@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Vanessa Vellozzi",
-            "email": "vanessa@hopwtr.com",
-            "side": "brand"
-          },
-          {
-            "name": "Chris Alas",
-            "email": "chris.a@hopwtr.com",
-            "side": "brand"
-          }
+          "Talia Cohen (FERMAT)",
+          "Grace Colbert (HOP WTR)",
+          "Vanessa Vellozzi (HOP WTR)",
+          "Chris Alas (HOP WTR)"
         ],
-        "source": "glyphic"
+        "summary": "Weekly launch check-in.",
+        "url": "https://app.glyphic.ai/calls/693b132c738f04b60b7e50fd"
       }
     ],
-    "analysis": "9 calls found in Glyphic (Dec 11 2025 — Feb 19 2026). All were weekly Launch Weekly syncs led by Talia Cohen (FERMÀT) with brand contacts Grace Colbert, Andreas Biebl, Chris Alas, and Vanessa Vellozzi. Cadence was consistent weekly during active period. Last call Feb 19 — no calls after churn initiated Feb 27. A Glyphic prep email on Mar 10 suggests a brief wrap-up call may have occurred with Grace Colbert and Pulkit."
-  },
-  "granola": {
-    "meetings": [
-      {
-        "title": "Talia / Pulkit Accounts KT",
-        "date": "2026-02-23",
-        "summary": "HOP WTR transferred from Talia to Pulkit as part of account handoff. Key contacts: Grace (Sr. Growth Manager), Andreas (GM eCommerce), Brad (Head). Contract: shortened 6-month term, renewal March 7. Pricing test success validated lower price points. Moved ad spend from Meta to Google only due to UTM issues. Grace enthusiastic but inexperienced with Meta and landing page optimization.",
-        "granola_url": "https://notes.granola.ai/d/6cdb36d9-fcec-4712-b966-f77cb9405e79",
-        "source": "granola"
-      },
-      {
-        "title": "Contract status and churn process review",
-        "date": "2026-03-03",
-        "summary": "HOP WTR wanted to cancel via Slack message. Original contract 12 months from Sept 8 2025 (runs until Sept 7 2026). Opt-out deadline Dec 7 2025 (90 days prior). Confusion about contract length (Talia mentioned 6-month vs actual 12-month). Amended via addendum to $2,000/month ending March 7 2026.",
-        "granola_url": "https://notes.granola.ai/d/56e43c52-8c9f-4551-b464-0c80b5ba2988",
-        "source": "granola"
-      },
-      {
-        "title": "Ops standup — HOP WTR renewal discussion",
-        "date": "2026-03-07",
-        "summary": "HOP WTR contract renewal due March 7. Auto-renewal with 1-month notice requirement. Grace (main contact) terminated by March 11. Andreas handling account, likely cost-cutting measure. Account loss impacting CSM portfolio from 8-9 brands to approximately 6.",
-        "granola_url": "https://notes.granola.ai/d/4e6d0abe-ccac-486e-b61a-e1925e1ff61e",
-        "source": "granola"
-      }
-    ],
-    "analysis": "Granola captured the full churn arc: account KT on Feb 23 (where Talia flagged renewal as positive), contract confusion and cancellation discussion Mar 3, and ops standup acknowledgment Mar 7. Key insight: Grace Colbert's departure on Mar 11 compounded the loss — she was the champion."
+    "analysis": {
+      "total_calls_found": 10,
+      "calls_last_30d": 0,
+      "last_call_date": "2026-02-19",
+      "days_since_last_call": 52,
+      "primary_csm_on_calls": "Talia Cohen",
+      "key_brand_contacts": [
+        "Grace Colbert (grace.c@hopwtr.com)",
+        "Andreas Biebl (andreas.b@hopwtr.com)",
+        "Vanessa Vellozzi (vanessa@hopwtr.com)",
+        "Chris Alas (chris.a@hopwtr.com)"
+      ],
+      "call_cadence": "Weekly (Launch Weekly series)",
+      "call_cadence_status": "STOPPED — last call Feb 19, no calls since churn Mar 7",
+      "key_topics": [
+        "A/B pricing test ($29.99 vs $36.99)",
+        "Meta vs Google traffic allocation",
+        "Statistical significance on Google test",
+        "Contract renewal discussion",
+        "Session tracking discrepancies",
+        "Forever link setup issues"
+      ]
+    }
   },
   "calendar": {
     "past": [],
     "upcoming": [],
-    "analysis": "Zero HOP WTR calendar events found between Mar 9 and Jun 7 2026. No meetings were scheduled post-churn. The brand is fully disengaged from the calendar."
+    "analysis": {
+      "total_events": 0,
+      "note": "No calendar events found for HOP WTR in Pulkit's calendar (Mar 14 - Jun 12). All historical calls were on Talia Cohen's calendar. Account churned Mar 7 before Pulkit could schedule any meetings."
+    }
   },
   "slack": {
-    "channel_id": "C09BYRY8PE2",
-    "channel_name": "fermat-x-hop-wtr",
     "messages": [
       {
-        "user": "Pulkit Srivastava",
-        "text": "Hey HOP WTR team! I'm Pulkit, your new GM here at FERMÀT. I've been with the FERMÀT team for about 1.5 years and I'm genuinely so excited to start working with you all! Would love to hop on a call and get to know everyone.",
-        "timestamp": "2026-02-25T20:45:43+05:30",
-        "channel": "fermat-x-hop-wtr",
-        "thread_replies": 4,
-        "thread_summary": "Grace replied excited to connect and booked time. Then on Feb 27 Grace shared bittersweet news — her last day at HOP WTR is Mar 11, new POC is Andreas. Pulkit wished her well and shared calendar link with Andreas."
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Hey HOP WTR team! I'm reaching out with some bittersweet but exciting news — later this week I'll be transitioning into a new role on our Enterprise team. I'm thrilled to introduce Pulkit.",
-        "timestamp": "2026-02-25T19:30:20+05:30",
-        "channel": "fermat-x-hop-wtr",
-        "thread_replies": 2,
-        "thread_summary": "Grace replied warmly — 'You will be missed, but we have enjoyed your help the past 6 months. Excited to get started with Pulkit!' Talia responded with well wishes."
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Hi Grace Colbert - great connecting with you earlier today! Sharing a brief recap. Pricing Test Funnel Google: We hit statistical significance! Variant 1 (lower price point) showing 2.16% CVR (400%+ over control). Recommend continuing to push traffic.",
-        "timestamp": "2026-02-20T02:50:47+05:30",
-        "channel": "fermat-x-hop-wtr",
-        "thread_replies": 1
-      },
-      {
-        "user": "Brand (Grace/Andreas)",
-        "text": "We noticed the Meta experiment page didn't have the link appended at the top. Grace added it and we're now seeing sessions come through. Could you please confirm the setup is now 100% correct on your end?",
-        "timestamp": "2026-02-12T05:45:46+05:30",
-        "channel": "fermat-x-hop-wtr",
-        "thread_replies": 6
-      },
-      {
-        "user": "Brand (Andreas)",
-        "text": "Hi Talia, hope your offsite is going well. Quick question: I see the AB price test now show up twice, once with Google as source and then Meta as source. Is that intended?",
-        "timestamp": "2026-02-11T01:04:40+05:30",
-        "channel": "fermat-x-hop-wtr",
-        "thread_replies": 1
-      },
-      {
-        "user": "Talia Cohen",
-        "text": "Hey Grace Colbert, Andreas — deploying new links for Meta and Google testing. Both funnels have the experiment set up as A/B tests. Google Link and Meta Link pre-appended with tracking params.",
-        "timestamp": "2026-02-10T04:57:12+05:30",
-        "channel": "fermat-x-hop-wtr",
-        "thread_replies": 10
-      },
-      {
-        "user": "Brand (Andreas)",
-        "text": "I am a little concerned we continue to have just one conversion which happened on day one. The conversion rate is just way too low. Does this still seem normal?",
-        "timestamp": "2026-02-08T05:04:47+05:30",
-        "channel": "fermat-x-hop-wtr",
-        "thread_replies": 1
-      },
-      {
-        "user": "Brand (Andreas)",
-        "text": "Hi all, happy Friday. Curious to see how the AB price test progresses. Grace/Talia please keep us posted with any updates.",
-        "timestamp": "2026-02-07T01:03:58+05:30",
-        "channel": "fermat-x-hop-wtr",
-        "thread_replies": 2
-      },
-      {
-        "user": "Brand (Grace)",
-        "text": "Launched a campaign on Meta this afternoon to kick off the test. Daily spend $800-1,000 to get started.",
-        "timestamp": "2026-02-06T06:01:39+05:30",
-        "channel": "fermat-x-hop-wtr",
+        "date": "2026-02-25",
+        "author": "Pulkit Srivastava",
+        "preview": "Hey HOP WTR team! I'm Pulkit, your new GM here at FERMAT. I've been with the FERMAT team for about 1.5 years...",
+        "type": "gm_intro",
         "thread_replies": 4
       },
       {
-        "user": "Brand (Andreas)",
-        "text": "Question about conversion tracking on the Fermat experience; currently Shopify fires the Google Ads pixel on checkout via the Google & YouTube app, would it still fire on the Fermat pages?",
-        "timestamp": "2026-02-07T02:41:51+05:30",
-        "channel": "fermat-x-hop-wtr",
+        "date": "2026-02-25",
+        "author": "Talia Cohen",
+        "preview": "Hey HOP WTR team! I'm reaching out with some bittersweet but exciting news — later this week I'll be transitioning into a new role on our Enterprise team...",
+        "type": "gm_handoff",
+        "thread_replies": 2
+      },
+      {
+        "date": "2026-02-20",
+        "author": "Talia Cohen",
+        "preview": "Hi Grace Colbert - great connecting with you earlier today! Sharing a brief recap... Pricing Test Funnel hit statistical significance! Variant 1 showing 2.16% CVR...",
+        "type": "recap",
+        "thread_replies": 1
+      },
+      {
+        "date": "2026-02-12",
+        "author": "Brand (unknown)",
+        "preview": "We noticed the Meta experiment page didn't have the link appended at the top. Grace added it and we're now seeing sessions come through...",
+        "type": "issue_report",
+        "thread_replies": 6
+      },
+      {
+        "date": "2026-02-11",
+        "author": "Brand (unknown)",
+        "preview": "Hi Talia, I see the AB price test now show up twice in here, once with Google as source and then Meta as source. Is that intended?",
+        "type": "question",
+        "thread_replies": 1
+      },
+      {
+        "date": "2026-02-10",
+        "author": "Talia Cohen",
+        "preview": "New links deployed for Meta and Google testing, both pre-appended with fermat_channel UTMs. Both funnels have the experiment set up as A/B tests within the funnel.",
+        "type": "action_item",
+        "thread_replies": 10
+      },
+      {
+        "date": "2026-02-09",
+        "author": "Brand (unknown)",
+        "preview": "If I look at the funnels, I see the two tests side by side, not too many data points yet either but directionally very encouraging as the test group has >2x conversion rate.",
+        "type": "observation",
+        "thread_replies": 0
+      },
+      {
+        "date": "2026-02-08",
+        "author": "Brand (unknown)",
+        "preview": "I am a little concerned we continue to have just one conversion which happened on day one. I just went through both flows and it worked ok but the conversion rate is just way too low.",
+        "type": "concern",
+        "thread_replies": 1
+      },
+      {
+        "date": "2026-02-07",
+        "author": "Brand (unknown)",
+        "preview": "Question about conversion tracking on the Fermat experience; currently Shopify fires the Google Ads pixel on checkout via the Google & YouTube app...",
+        "type": "technical_question",
         "thread_replies": 7
+      },
+      {
+        "date": "2026-02-06",
+        "author": "Grace Colbert",
+        "preview": "Launched a campaign on Meta this afternoon to kick off the test. Daily spend $800-1000 to get started.",
+        "type": "launch_update",
+        "thread_replies": 4
       }
     ],
-    "analysis": "CHURNED BRAND — Slack channel fully silent since Feb 27 (39 days). Last substantive brand activity was Feb 12. Channel shows the full lifecycle: active A/B price testing (Feb 6-20) with strong Google results (2.16% CVR), GM handoff from Talia to Pulkit on Feb 25, Grace's departure announcement on Feb 27, then complete silence. No messages from Andreas (new POC) since the handoff. No brand-initiated Slack contact after churn was initiated."
+    "analysis": {
+      "channel_name": "#fermat-x-hop-wtr",
+      "channel_id": "C09BYRY8PE2",
+      "total_messages_retrieved": 20,
+      "last_message_date": "2026-02-25",
+      "days_since_last_message": 47,
+      "pulkit_messages_14d": 0,
+      "brand_messages_14d": 0,
+      "channel_status": "DEAD — last activity Feb 25 (Pulkit's intro message). No responses from brand after Feb 12. Channel silent for 47 days.",
+      "sentiment": "Post-churn silence. Brand engagement dropped off completely after Feb 12. Pulkit's intro on Feb 25 received thread replies but no substantive conversation followed."
+    }
   },
   "email": {
-    "messages": [
-      {
-        "from": "Glyphic AI <noreply@glyphic.ai>",
-        "to": "pulkit@fermatcommerce.com",
-        "subject": "Prepare for Grace Colbert and Pulkit Srivastava",
-        "date": "2026-03-10T15:47:27+00:00",
-        "snippet": "Your call is starting soon — prepare for Grace Colbert and Pulkit Srivastava.",
-        "labels": [
-          "UNREAD",
-          "IMPORTANT"
-        ],
-        "source": "gmail"
-      },
-      {
-        "from": "Andreas Biebl <andreas.b@hopwtr.com>",
-        "to": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "subject": "Re: HOP WTR x FERMÀT || Cancellation Confirmed",
-        "date": "2026-03-04T21:31:12-08:00",
-        "snippet": "Thank you so much",
-        "labels": [
-          "IMPORTANT"
-        ],
-        "source": "gmail"
-      },
-      {
-        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "to": "andreas.b@hopwtr.com",
-        "subject": "HOP WTR x FERMÀT || Cancellation Confirmed",
-        "date": "2026-03-05T10:44:55+05:30",
-        "body_summary": "As requested, cancellation processed. Final invoice for February due by March 31 2026. Offered month-to-month program with no contracts as re-entry path. Shared Calendly link for future discussion.",
-        "labels": [
-          "SENT"
-        ],
-        "source": "gmail"
-      },
-      {
-        "from": "Ashutosh Patel <ashutosh@fermatcommerce.com>",
-        "to": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "cc": "churns@fermatcommerce.com, Talia Cohen <talia@fermatcommerce.com>",
-        "subject": "Re: Brand Churn Notice: HOP WTR",
-        "date": "2026-03-03T16:24:50+05:30",
-        "snippet": "Hey Pulkit, Thanks for the notif. The brand has paid all invoices. Last invoice to be paid by 31st of March.",
-        "labels": [
-          "IMPORTANT"
-        ],
-        "source": "gmail"
-      },
-      {
-        "from": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
-        "to": "churns@fermatcommerce.com",
-        "cc": "Talia Cohen <talia@fermatcommerce.com>",
-        "subject": "Brand Churn Notice: HOP WTR",
-        "date": "2026-03-03T09:39:17+00:00",
-        "body_summary": "Churn notice filed. Customer contacts: Brad Nogle (Head of E-Commerce, brad.n@hopwtr.com), Grace Colbert (Sr. Manager Growth Marketing, grace.c@hopwtr.com), Ryan Haggerty (VP of Marketing, ryan.h@hopwtr.com). Contract value: $6,000 ($2,000/month amended Dec 7 addendum, ends Mar 7 2026). Churn reason: transitioning to new agency and reevaluating tech stack. Churn initiated Feb 27 via Slack. Save attempt Mar 2 — declined. Contract expiration Mar 7 2026.",
-        "labels": [
-          "SENT"
-        ],
-        "attachments": [
-          "Term + Price Addendum_HOPWTRxFermat (1).pdf"
-        ],
-        "source": "gmail"
-      }
-    ],
-    "analysis": "CHURNED. Full email trail documents the churn process: Churn Notice filed Mar 3 to churns@fermatcommerce.com with complete details (contacts, contract value, reason). Cancellation Confirmed sent to Andreas on Mar 5 with final invoice instructions (due Mar 31). Andreas acknowledged with 'Thank you so much'. Finance (Ashutosh) confirmed all invoices paid. Glyphic prep email on Mar 10 suggests a brief wrap-up call occurred. No email activity since Mar 10 — 27 days of email silence."
+    "messages": [],
+    "analysis": {
+      "total_emails_30d": 0,
+      "last_email_date": null,
+      "pulkit_emails_14d": 0,
+      "brand_emails_14d": 0,
+      "note": "No emails found matching 'HOP WTR' in last 30 days. All prior email communication was under Talia Cohen's account. Pulkit has not sent or received any HOP WTR emails."
+    }
   },
-  "contacts": {
-    "primary": {
-      "name": "Andreas Biebl",
-      "title": "GM eCommerce",
-      "email": "andreas.b@hopwtr.com",
-      "role": "Current POC (post Grace departure)"
-    },
-    "secondary": [
-      {
-        "name": "Grace Colbert",
-        "title": "Sr. Manager Growth Marketing",
-        "email": "grace.c@hopwtr.com",
-        "role": "Former primary contact — left HOP WTR Mar 11 2026",
-        "status": "departed"
-      },
-      {
-        "name": "Brad Nogle",
-        "title": "Head of E-Commerce",
-        "email": "brad.n@hopwtr.com",
-        "role": "Executive sponsor"
-      },
-      {
-        "name": "Ryan Haggerty",
-        "title": "VP of Marketing",
-        "email": "ryan.h@hopwtr.com",
-        "role": "Marketing leadership"
-      },
-      {
-        "name": "Vanessa Vellozzi",
-        "email": "vanessa@hopwtr.com",
-        "role": "Regular call participant"
-      },
-      {
-        "name": "Chris Alas",
-        "email": "chris.a@hopwtr.com",
-        "role": "Regular call participant"
-      }
-    ],
-    "fermat_csm_history": [
-      {
-        "name": "Talia Cohen",
-        "email": "talia@fermatcommerce.com",
-        "period": "Sep 2025 — Feb 25 2026",
-        "role": "Original CSM"
-      },
-      {
-        "name": "Pulkit Srivastava",
-        "email": "pulkit@fermatcommerce.com",
-        "period": "Feb 25 2026 — Mar 7 2026 (churn)",
-        "role": "Inherited CSM during handoff"
-      }
-    ]
-  },
-  "data_sources": {
-    "fermat_api": "TOKEN EXPIRED — 3 attempts failed. Daily array and period aggregates retained from previous pull (same date range 2026-02-21 to 2026-04-07, pulled earlier today 2026-04-06T06:27:55Z). All pdp_views, atc, checkouts, sessions, revenue, purchases values are from FERMÀT API — zero hallucination.",
-    "glyphic": "9 calls retrieved via list_calls (title_filter='HOP WTR', limit=10). Call detail/media endpoints returned -32603 errors. Call metadata (title, date, duration, participants, status) fully captured.",
-    "google_calendar": "Zero events found for 'HOP WTR' between Mar 9 and Jun 7 2026.",
-    "slack": "20 messages read from C09BYRY8PE2 (fermat-x-hop-wtr). 2 thread expansions read (Pulkit intro thread: 4 replies, Talia handoff thread: 2 replies).",
-    "gmail": "5 emails found (90d search). Full body read for churn notice and cancellation confirmed. All contact details, contract values, and churn reasons sourced directly from email body text.",
-    "granola": "3 relevant meetings found via query_granola_meetings. Account KT (Feb 23), churn process review (Mar 3), ops standup renewal discussion (Mar 7). All with Granola citation URLs."
+  "granola": {
+    "meetings": [],
+    "analysis": {
+      "summary": "No Granola meetings found for Pulkit with HOP WTR. All historical meeting data is from Talia Cohen's Granola account. Key Granola intelligence: contract was 12 months (not 6 as described), Dec addendum extended opt-out to Mar 7 2026. Grace ran Meta incorrectly (UTM issues). Lower price point won the 12-pack minimum test. New pricing of $2,000/month flat offered but declined.",
+      "key_contacts_from_granola": [
+        "Grace Colbert (Senior Growth Manager)",
+        "Andreas Biebl (GM eCommerce)",
+        "Brad (head of HOP WTR)"
+      ],
+      "churn_context": "Client wanted to cancel and move to month-to-month. Save attempt with $2,000/month flat (no take rate) and $699 self-serve backup were both declined. Account churned around March 7, 2026."
+    }
   }
 }

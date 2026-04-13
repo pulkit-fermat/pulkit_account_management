@@ -28,6 +28,10 @@ LOGOS = {
     "c686cb26-9441-4aa2-883e-7204999f2bc4": "https://cdn05.zipify.com/mVnWKnc4QGQcZBz4LYnC5Co_AxE=/17x139:750x600/fit-in/3840x0/d9757b1e13b947c49c1d73c65aa1515b/simple-logo_nodate.png",
     "8fd93118-a246-431e-aebf-4aa362622342": "https://cdn.shopify.com/s/files/1/0565/6621/8952/files/De_Soi_New_Logo_2_cropped.png?v=1688586288",
     "5cc7fc09-8acf-4af0-892f-735c6686c2a2": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gainsinbulk.com&size=128",
+    "b89a160e-d16b-4f64-af15-8b7843fa815c": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://grazly.com&size=128",
+    "a5b80aa3-f791-4625-a5de-5f83612cfc05": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://genseebeauty.com&size=128",
+    "6826b036-80db-4d25-a5bc-9a8de9b8d58d": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://jvnhair.com&size=128",
+    "38ec92fb-1234-4408-8571-be4226712e02": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://1906newhighs.com&size=128",
 }
 
 SLACKS = {
@@ -38,7 +42,11 @@ SLACKS = {
     "C08SNU8SHB6":"havn-x-fermat","C05Q4HDFRDE":"fermat-x-moment",
     "C08271XLYVC":"fermat-x-henry-rose","C07UG9JPS3A":"fermat-x-veracitywellness",
     "C07PRNWRZ9Q":"fermat-x-sole-toscana","C06SF766JBC":"fermat-x-de-soi",
-    "C06PNPHF2E9":"fermat-x-gains-in-bulk"
+    "C06PNPHF2E9":"fermat-x-gains-in-bulk",
+    "C0APRC7HFSN":"fermat-x-grazly",
+    "C08HRJ2GCTF":"fermat-x-genseebeauty",
+    "C08HT3J2ACV":"jvn-x-fermat",
+    "C07NLDDBEBF":"fermat-x-1906"
 }
 
 META = {
@@ -57,6 +65,10 @@ META = {
     "c686cb26-9441-4aa2-883e-7204999f2bc4":{"n":"Sole Toscana","v":"Personal Care","t":"lmm","arr":16800,"ren":"2026-06-30","sl":"C07PRNWRZ9Q","ch":False,"cm":""},
     "8fd93118-a246-431e-aebf-4aa362622342":{"n":"De Soi","v":"Food & Beverage","t":"lmm","arr":12000,"ren":"2026-03-31","sl":"C06SF766JBC","ch":False,"cm":""},
     "5cc7fc09-8acf-4af0-892f-735c6686c2a2":{"n":"Gains In Bulk","v":"Health & Supplements","t":"lmm","arr":36000,"ren":"2026-09-30","sl":"C06PNPHF2E9","ch":False,"cm":"Brand is churning (non-payment)"},
+    "b89a160e-d16b-4f64-af15-8b7843fa815c":{"n":"Grazly","v":"Food & Beverage","t":"lmm","arr":24000,"ren":"","sl":"C0APRC7HFSN","ch":False,"cm":"New brand, similar to Carnivore Snax strategy"},
+    "a5b80aa3-f791-4625-a5de-5f83612cfc05":{"n":"Gen See","v":"Beauty","t":"lmm","arr":24000,"ren":"2026-03-28","sl":"C08HRJ2GCTF","ch":False,"cm":"Cancellation notice received"},
+    "6826b036-80db-4d25-a5bc-9a8de9b8d58d":{"n":"JVN Hair","v":"Health & Supplements","t":"lmm","arr":25200,"ren":"2026-05-16","sl":"C08HT3J2ACV","ch":False,"cm":""},
+    "38ec92fb-1234-4408-8571-be4226712e02":{"n":"1906","v":"CBD/THC","t":"lmm","arr":27000,"ren":"2026-09-25","sl":"C07NLDDBEBF","ch":False,"cm":""},
 }
 
 def e(s): return H.escape(str(s)) if s else ""

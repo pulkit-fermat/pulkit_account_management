@@ -1,0 +1,1050 @@
+{
+  "brand_id": "38ec92fb-1234-4408-8571-be4226712e02",
+  "brand_name": "1906",
+  "last_updated": "2026-04-13T00:00:00Z",
+  "arr": 27000,
+  "vertical": "CBD/THC",
+  "previous_gm": "Kaitlin",
+  "next_renewal": "2026-09-25",
+  "poc_emails": [
+    "simon@woolventures.com",
+    "simon@icarusdigitalmarketing.com"
+  ],
+  "slack_channel_id": "C07NLDDBEBF",
+  "fermat_org_id": "38ec92fb-1234-4408-8571-be4226712e02",
+  "health": {
+    "score": 29,
+    "status": "red",
+    "breakdown": {
+      "platform_performance": 15,
+      "platform_performance_detail": "Sessions:5/5, Revenue:4/5, CVR:1/5, Purchases:5/5",
+      "communication": 7,
+      "communication_detail": "SlackRecency:3/4, BrandSlack14d:4/4, PulkitSlack14d:0/4, EmailThreads14d:0/4, PulkitOutreach:0/4",
+      "engagement": 7,
+      "engagement_detail": "LastCall:4/8, Calls30d:3/6, Upcoming:0/6",
+      "csm_sentiment": 0,
+      "csm_sentiment_detail": "Not rated yet"
+    },
+    "signals": [
+      {
+        "type": "negative",
+        "signal": "Revenue collapsing: 7d revenue of $3,470 is down dramatically from 45d average of ~$2,771/day, and yesterday (Apr 12) saw only $225.92 in revenue on 2,593 sessions",
+        "date": "2026-04-12"
+      },
+      {
+        "type": "negative",
+        "signal": "CVR critically low at 0.28% over 7d (Apr 6-12), well below the 45d average of 0.93%. Conversion has cratered since late March",
+        "date": "2026-04-12"
+      },
+      {
+        "type": "negative",
+        "signal": "No email communication between Pulkit and the 1906 POC (Simon Wool) found in Gmail. Account handoff from Kaitlin to Pulkit may not be fully established",
+        "date": "2026-04-13"
+      },
+      {
+        "type": "negative",
+        "signal": "Simon expressed churn risk on Mar 17 call: wants month-to-month contract, testing AppLovin landing page that is outperforming FERMAT pages, and feels he has not received direct answers about contract flexibility",
+        "date": "2026-03-17"
+      },
+      {
+        "type": "negative",
+        "signal": "No upcoming calls scheduled with 1906. Last call was 27 days ago (Mar 17). Standing calls were removed by Simon in Nov 2025",
+        "date": "2026-04-13"
+      },
+      {
+        "type": "positive",
+        "signal": "Brand is actively engaged in Slack: Finsi data integration team introduced on Apr 10, Simon requesting FERMAT analytics data integration",
+        "date": "2026-04-10"
+      },
+      {
+        "type": "neutral",
+        "signal": "April promo calendar is loaded through Apr 30 including major 4/20 flash sale (42% off sitewide). Revenue should spike during Apr 14-30 promo periods",
+        "date": "2026-03-13"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 225.92,
+      "cvr": 0.1928,
+      "sessions": 2593,
+      "roas": null,
+      "cpa": null,
+      "purchases": 5,
+      "aov": 45.18,
+      "pdp_views": 436,
+      "atc": 92,
+      "checkouts": 44
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 1518.8,
+      "cvr": 0.3049,
+      "sessions": 6887,
+      "roas": null,
+      "cpa": null,
+      "purchases": 21,
+      "aov": 72.32,
+      "pdp_views": 1225,
+      "atc": 291,
+      "checkouts": 144
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 3470.28,
+      "cvr": 0.2754,
+      "sessions": 15614,
+      "roas": null,
+      "cpa": null,
+      "purchases": 43,
+      "aov": 80.7,
+      "pdp_views": 2919,
+      "atc": 728,
+      "checkouts": 332
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 9170.82,
+      "cvr": 0.3603,
+      "sessions": 33027,
+      "roas": null,
+      "cpa": null,
+      "purchases": 119,
+      "aov": 77.07,
+      "pdp_views": 6748,
+      "atc": 1728,
+      "checkouts": 731
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 53896.22,
+      "cvr": 0.6603,
+      "sessions": 101770,
+      "roas": null,
+      "cpa": null,
+      "purchases": 672,
+      "aov": 80.2,
+      "pdp_views": 20642,
+      "atc": 5004,
+      "checkouts": 2212
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 124679.76,
+      "cvr": 0.932,
+      "sessions": 179301,
+      "roas": null,
+      "cpa": null,
+      "purchases": 1671,
+      "aov": 74.61,
+      "pdp_views": 36555,
+      "atc": 9196,
+      "checkouts": 4633
+    },
+    "daily": [
+      {
+        "date": "2026-02-26",
+        "ad_spend": null,
+        "revenue": 4801.2,
+        "cvr": 1.2171,
+        "sessions": 4601,
+        "roas": null,
+        "cpa": null,
+        "purchases": 56,
+        "aov": 85.74,
+        "pdp_views": 926,
+        "atc": 227,
+        "checkouts": 131
+      },
+      {
+        "date": "2026-02-27",
+        "ad_spend": null,
+        "revenue": 4008.47,
+        "cvr": 1.2091,
+        "sessions": 4466,
+        "roas": null,
+        "cpa": null,
+        "purchases": 54,
+        "aov": 74.23,
+        "pdp_views": 890,
+        "atc": 251,
+        "checkouts": 160
+      },
+      {
+        "date": "2026-02-28",
+        "ad_spend": null,
+        "revenue": 4328.7,
+        "cvr": 1.3284,
+        "sessions": 4818,
+        "roas": null,
+        "cpa": null,
+        "purchases": 64,
+        "aov": 67.64,
+        "pdp_views": 928,
+        "atc": 237,
+        "checkouts": 146
+      },
+      {
+        "date": "2026-03-01",
+        "ad_spend": null,
+        "revenue": 4324.16,
+        "cvr": 1.1775,
+        "sessions": 4501,
+        "roas": null,
+        "cpa": null,
+        "purchases": 53,
+        "aov": 81.59,
+        "pdp_views": 995,
+        "atc": 262,
+        "checkouts": 157
+      },
+      {
+        "date": "2026-03-02",
+        "ad_spend": null,
+        "revenue": 4323.94,
+        "cvr": 1.2639,
+        "sessions": 4510,
+        "roas": null,
+        "cpa": null,
+        "purchases": 57,
+        "aov": 75.86,
+        "pdp_views": 912,
+        "atc": 261,
+        "checkouts": 166
+      },
+      {
+        "date": "2026-03-03",
+        "ad_spend": null,
+        "revenue": 4849.77,
+        "cvr": 1.3514,
+        "sessions": 5180,
+        "roas": null,
+        "cpa": null,
+        "purchases": 70,
+        "aov": 69.28,
+        "pdp_views": 956,
+        "atc": 251,
+        "checkouts": 155
+      },
+      {
+        "date": "2026-03-04",
+        "ad_spend": null,
+        "revenue": 6526.85,
+        "cvr": 1.8303,
+        "sessions": 4808,
+        "roas": null,
+        "cpa": null,
+        "purchases": 88,
+        "aov": 74.17,
+        "pdp_views": 1048,
+        "atc": 274,
+        "checkouts": 160
+      },
+      {
+        "date": "2026-03-05",
+        "ad_spend": null,
+        "revenue": 4021.2,
+        "cvr": 1.2584,
+        "sessions": 4450,
+        "roas": null,
+        "cpa": null,
+        "purchases": 56,
+        "aov": 71.81,
+        "pdp_views": 926,
+        "atc": 242,
+        "checkouts": 140
+      },
+      {
+        "date": "2026-03-06",
+        "ad_spend": null,
+        "revenue": 4362.78,
+        "cvr": 1.4719,
+        "sessions": 4620,
+        "roas": null,
+        "cpa": null,
+        "purchases": 68,
+        "aov": 64.16,
+        "pdp_views": 894,
+        "atc": 244,
+        "checkouts": 161
+      },
+      {
+        "date": "2026-03-07",
+        "ad_spend": null,
+        "revenue": 4279.54,
+        "cvr": 1.3345,
+        "sessions": 4421,
+        "roas": null,
+        "cpa": null,
+        "purchases": 59,
+        "aov": 72.53,
+        "pdp_views": 894,
+        "atc": 233,
+        "checkouts": 143
+      },
+      {
+        "date": "2026-03-08",
+        "ad_spend": null,
+        "revenue": 4357.44,
+        "cvr": 1.5998,
+        "sessions": 4563,
+        "roas": null,
+        "cpa": null,
+        "purchases": 73,
+        "aov": 59.69,
+        "pdp_views": 978,
+        "atc": 280,
+        "checkouts": 174
+      },
+      {
+        "date": "2026-03-09",
+        "ad_spend": null,
+        "revenue": 4917.54,
+        "cvr": 1.5095,
+        "sessions": 4306,
+        "roas": null,
+        "cpa": null,
+        "purchases": 65,
+        "aov": 75.65,
+        "pdp_views": 865,
+        "atc": 217,
+        "checkouts": 130
+      },
+      {
+        "date": "2026-03-10",
+        "ad_spend": null,
+        "revenue": 4033.49,
+        "cvr": 1.0881,
+        "sessions": 5790,
+        "roas": null,
+        "cpa": null,
+        "purchases": 63,
+        "aov": 64.02,
+        "pdp_views": 1295,
+        "atc": 327,
+        "checkouts": 163
+      },
+      {
+        "date": "2026-03-11",
+        "ad_spend": null,
+        "revenue": 2642.45,
+        "cvr": 0.7971,
+        "sessions": 4767,
+        "roas": null,
+        "cpa": null,
+        "purchases": 38,
+        "aov": 69.54,
+        "pdp_views": 972,
+        "atc": 225,
+        "checkouts": 105
+      },
+      {
+        "date": "2026-03-12",
+        "ad_spend": null,
+        "revenue": 3567.13,
+        "cvr": 1.0852,
+        "sessions": 5068,
+        "roas": null,
+        "cpa": null,
+        "purchases": 55,
+        "aov": 64.86,
+        "pdp_views": 1073,
+        "atc": 280,
+        "checkouts": 140
+      },
+      {
+        "date": "2026-03-13",
+        "ad_spend": null,
+        "revenue": 5438.88,
+        "cvr": 1.2008,
+        "sessions": 6662,
+        "roas": null,
+        "cpa": null,
+        "purchases": 80,
+        "aov": 67.99,
+        "pdp_views": 1361,
+        "atc": 381,
+        "checkouts": 190
+      },
+      {
+        "date": "2026-03-14",
+        "ad_spend": null,
+        "revenue": 4983.73,
+        "cvr": 1.0844,
+        "sessions": 6271,
+        "roas": null,
+        "cpa": null,
+        "purchases": 68,
+        "aov": 73.29,
+        "pdp_views": 1319,
+        "atc": 375,
+        "checkouts": 184
+      },
+      {
+        "date": "2026-03-15",
+        "ad_spend": null,
+        "revenue": 7606.53,
+        "cvr": 1.1747,
+        "sessions": 7321,
+        "roas": null,
+        "cpa": null,
+        "purchases": 86,
+        "aov": 88.45,
+        "pdp_views": 1631,
+        "atc": 467,
+        "checkouts": 195
+      },
+      {
+        "date": "2026-03-16",
+        "ad_spend": null,
+        "revenue": 3200.05,
+        "cvr": 0.8266,
+        "sessions": 5807,
+        "roas": null,
+        "cpa": null,
+        "purchases": 48,
+        "aov": 66.67,
+        "pdp_views": 1114,
+        "atc": 275,
+        "checkouts": 115
+      },
+      {
+        "date": "2026-03-17",
+        "ad_spend": null,
+        "revenue": 2159.7,
+        "cvr": 0.5248,
+        "sessions": 6288,
+        "roas": null,
+        "cpa": null,
+        "purchases": 33,
+        "aov": 65.45,
+        "pdp_views": 1205,
+        "atc": 308,
+        "checkouts": 134
+      },
+      {
+        "date": "2026-03-18",
+        "ad_spend": null,
+        "revenue": 3897.37,
+        "cvr": 0.6791,
+        "sessions": 5890,
+        "roas": null,
+        "cpa": null,
+        "purchases": 40,
+        "aov": 97.43,
+        "pdp_views": 1193,
+        "atc": 263,
+        "checkouts": 122
+      },
+      {
+        "date": "2026-03-19",
+        "ad_spend": null,
+        "revenue": 3262.02,
+        "cvr": 0.7241,
+        "sessions": 5938,
+        "roas": null,
+        "cpa": null,
+        "purchases": 43,
+        "aov": 75.86,
+        "pdp_views": 1188,
+        "atc": 253,
+        "checkouts": 123
+      },
+      {
+        "date": "2026-03-20",
+        "ad_spend": null,
+        "revenue": 4270.54,
+        "cvr": 0.6433,
+        "sessions": 6995,
+        "roas": null,
+        "cpa": null,
+        "purchases": 45,
+        "aov": 94.9,
+        "pdp_views": 1290,
+        "atc": 275,
+        "checkouts": 121
+      },
+      {
+        "date": "2026-03-21",
+        "ad_spend": null,
+        "revenue": 4695.93,
+        "cvr": 0.8665,
+        "sessions": 5655,
+        "roas": null,
+        "cpa": null,
+        "purchases": 49,
+        "aov": 95.84,
+        "pdp_views": 1225,
+        "atc": 246,
+        "checkouts": 115
+      },
+      {
+        "date": "2026-03-22",
+        "ad_spend": null,
+        "revenue": 2011.52,
+        "cvr": 1.0208,
+        "sessions": 2841,
+        "roas": null,
+        "cpa": null,
+        "purchases": 29,
+        "aov": 69.36,
+        "pdp_views": 624,
+        "atc": 137,
+        "checkouts": 68
+      },
+      {
+        "date": "2026-03-23",
+        "ad_spend": null,
+        "revenue": 2827.42,
+        "cvr": 0.9129,
+        "sessions": 3834,
+        "roas": null,
+        "cpa": null,
+        "purchases": 35,
+        "aov": 80.78,
+        "pdp_views": 766,
+        "atc": 185,
+        "checkouts": 81
+      },
+      {
+        "date": "2026-03-24",
+        "ad_spend": null,
+        "revenue": 1801.61,
+        "cvr": 0.5878,
+        "sessions": 3913,
+        "roas": null,
+        "cpa": null,
+        "purchases": 23,
+        "aov": 78.33,
+        "pdp_views": 740,
+        "atc": 150,
+        "checkouts": 66
+      },
+      {
+        "date": "2026-03-25",
+        "ad_spend": null,
+        "revenue": 1431.86,
+        "cvr": 0.8344,
+        "sessions": 2397,
+        "roas": null,
+        "cpa": null,
+        "purchases": 20,
+        "aov": 71.59,
+        "pdp_views": 426,
+        "atc": 106,
+        "checkouts": 54
+      },
+      {
+        "date": "2026-03-26",
+        "ad_spend": null,
+        "revenue": 328.08,
+        "cvr": 0.7174,
+        "sessions": 697,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 65.62,
+        "pdp_views": 99,
+        "atc": 19,
+        "checkouts": 8
+      },
+      {
+        "date": "2026-03-27",
+        "ad_spend": null,
+        "revenue": 1289.9,
+        "cvr": 0.5138,
+        "sessions": 2725,
+        "roas": null,
+        "cpa": null,
+        "purchases": 14,
+        "aov": 92.14,
+        "pdp_views": 589,
+        "atc": 119,
+        "checkouts": 48
+      },
+      {
+        "date": "2026-03-28",
+        "ad_spend": null,
+        "revenue": 959.14,
+        "cvr": 0.6909,
+        "sessions": 2171,
+        "roas": null,
+        "cpa": null,
+        "purchases": 15,
+        "aov": 63.94,
+        "pdp_views": 485,
+        "atc": 98,
+        "checkouts": 47
+      },
+      {
+        "date": "2026-03-29",
+        "ad_spend": null,
+        "revenue": 1264.16,
+        "cvr": 0.7752,
+        "sessions": 2322,
+        "roas": null,
+        "cpa": null,
+        "purchases": 18,
+        "aov": 70.23,
+        "pdp_views": 544,
+        "atc": 135,
+        "checkouts": 49
+      },
+      {
+        "date": "2026-03-30",
+        "ad_spend": null,
+        "revenue": 994.38,
+        "cvr": 0.632,
+        "sessions": 2057,
+        "roas": null,
+        "cpa": null,
+        "purchases": 13,
+        "aov": 76.49,
+        "pdp_views": 497,
+        "atc": 138,
+        "checkouts": 48
+      },
+      {
+        "date": "2026-03-31",
+        "ad_spend": null,
+        "revenue": 499.2,
+        "cvr": 0.2228,
+        "sessions": 2244,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 99.84,
+        "pdp_views": 550,
+        "atc": 134,
+        "checkouts": 50
+      },
+      {
+        "date": "2026-04-01",
+        "ad_spend": null,
+        "revenue": 1092.8,
+        "cvr": 0.5418,
+        "sessions": 2215,
+        "roas": null,
+        "cpa": null,
+        "purchases": 12,
+        "aov": 91.07,
+        "pdp_views": 479,
+        "atc": 139,
+        "checkouts": 61
+      },
+      {
+        "date": "2026-04-02",
+        "ad_spend": null,
+        "revenue": 360.04,
+        "cvr": 0.266,
+        "sessions": 1880,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 72.01,
+        "pdp_views": 374,
+        "atc": 95,
+        "checkouts": 42
+      },
+      {
+        "date": "2026-04-03",
+        "ad_spend": null,
+        "revenue": 347.0,
+        "cvr": 0.3767,
+        "sessions": 1858,
+        "roas": null,
+        "cpa": null,
+        "purchases": 7,
+        "aov": 49.57,
+        "pdp_views": 384,
+        "atc": 115,
+        "checkouts": 45
+      },
+      {
+        "date": "2026-04-04",
+        "ad_spend": null,
+        "revenue": 437.92,
+        "cvr": 0.3221,
+        "sessions": 2173,
+        "roas": null,
+        "cpa": null,
+        "purchases": 7,
+        "aov": 62.56,
+        "pdp_views": 490,
+        "atc": 118,
+        "checkouts": 50
+      },
+      {
+        "date": "2026-04-05",
+        "ad_spend": null,
+        "revenue": 705.04,
+        "cvr": 0.3378,
+        "sessions": 2664,
+        "roas": null,
+        "cpa": null,
+        "purchases": 9,
+        "aov": 78.34,
+        "pdp_views": 511,
+        "atc": 126,
+        "checkouts": 54
+      },
+      {
+        "date": "2026-04-06",
+        "ad_spend": null,
+        "revenue": 715.84,
+        "cvr": 0.3863,
+        "sessions": 2330,
+        "roas": null,
+        "cpa": null,
+        "purchases": 9,
+        "aov": 79.54,
+        "pdp_views": 523,
+        "atc": 123,
+        "checkouts": 52
+      },
+      {
+        "date": "2026-04-07",
+        "ad_spend": null,
+        "revenue": 609.8,
+        "cvr": 0.2821,
+        "sessions": 2481,
+        "roas": null,
+        "cpa": null,
+        "purchases": 7,
+        "aov": 87.11,
+        "pdp_views": 437,
+        "atc": 116,
+        "checkouts": 50
+      },
+      {
+        "date": "2026-04-08",
+        "ad_spend": null,
+        "revenue": 341.84,
+        "cvr": 0.1395,
+        "sessions": 2151,
+        "roas": null,
+        "cpa": null,
+        "purchases": 3,
+        "aov": 113.95,
+        "pdp_views": 404,
+        "atc": 94,
+        "checkouts": 38
+      },
+      {
+        "date": "2026-04-09",
+        "ad_spend": null,
+        "revenue": 284.0,
+        "cvr": 0.17,
+        "sessions": 1765,
+        "roas": null,
+        "cpa": null,
+        "purchases": 3,
+        "aov": 94.67,
+        "pdp_views": 330,
+        "atc": 104,
+        "checkouts": 48
+      },
+      {
+        "date": "2026-04-10",
+        "ad_spend": null,
+        "revenue": 382.88,
+        "cvr": 0.3302,
+        "sessions": 2120,
+        "roas": null,
+        "cpa": null,
+        "purchases": 7,
+        "aov": 54.7,
+        "pdp_views": 356,
+        "atc": 81,
+        "checkouts": 40
+      },
+      {
+        "date": "2026-04-11",
+        "ad_spend": null,
+        "revenue": 910.0,
+        "cvr": 0.4139,
+        "sessions": 2174,
+        "roas": null,
+        "cpa": null,
+        "purchases": 9,
+        "aov": 101.11,
+        "pdp_views": 433,
+        "atc": 118,
+        "checkouts": 60
+      },
+      {
+        "date": "2026-04-12",
+        "ad_spend": null,
+        "revenue": 225.92,
+        "cvr": 0.1928,
+        "sessions": 2593,
+        "roas": null,
+        "cpa": null,
+        "purchases": 5,
+        "aov": 45.18,
+        "pdp_views": 436,
+        "atc": 92,
+        "checkouts": 44
+      }
+    ]
+  },
+  "calls": {
+    "recent": [
+      {
+        "id": "69b9aaf5afeb918311746323",
+        "title": "FERMAT x 1906 // Sync",
+        "date": "2026-03-17",
+        "duration_seconds": 1715,
+        "participants": [
+          "Kaitlin Frye (kaitlin@fermatcommerce.com)",
+          "Simon Wool (simon@woolventures.com)",
+          "Isabel O'keefe (isabel@fermatcommerce.com)",
+          "Mukul Varshney (mukul@fermatcommerce.com)"
+        ],
+        "status": "completed",
+        "url": "https://app.glyphic.ai/calls/69b9aaf5afeb918311746323",
+        "summary": "Simon expressed desire for month-to-month contract flexibility and more hands-on support. Kaitlin demoed new AI features (custom module generator, edit with AI). Simon receptive to new features but concerned about being locked into annual contract through August. Kaitlin introduced Pulkit as new day-to-day contact.",
+        "key_topics": [
+          "Contract flexibility - wants 30/45-day out clause instead of annual lock-in",
+          "AppLovin landing page test beating FERMAT pages",
+          "Google Ads paused due to advertiser verification delay",
+          "No Meta traffic to FERMAT (performing well natively)",
+          "Product pivot from Beans to Go Drops/Bliss Drops",
+          "April promo calendar through 4/30 including 4/20 flash sale",
+          "Custom module generator and edit with AI features demoed",
+          "Pierre 2.0 and MCP integration previewed"
+        ],
+        "next_steps": [
+          "Follow up on contract month-to-month request",
+          "Loop in Pulkit as new day-to-day account contact",
+          "Finish Go Drops offer setup (replacing Beans)",
+          "Send call recap with feature info",
+          "Pull historical performance insights and optimization recommendations",
+          "Set up recurring call cadence"
+        ]
+      },
+      {
+        "id": "68d2c5adf7f5828e9e050707",
+        "title": "[placeholder] Evelyn / Ryan 1906 sync",
+        "date": "2025-09-23",
+        "duration_seconds": 368,
+        "participants": [
+          "Evelyn Xue (evelyn@fermatcommerce.com)",
+          "Ryan Barry (ryan.barry@fermatcommerce.com)"
+        ],
+        "status": "completed",
+        "url": "https://app.glyphic.ai/calls/68d2c5adf7f5828e9e050707",
+        "summary": "Internal sync between Evelyn and Ryan about 1906 account"
+      },
+      {
+        "id": "68cc5816fcc00ae09c0d3bce",
+        "title": "1906 <> Fermat",
+        "date": "2025-09-18",
+        "duration_seconds": 261,
+        "participants": [
+          "Ryan Barry (ryan.barry@fermatcommerce.com)",
+          "Simon Wool (simon@woolventures.com)",
+          "Isabel O'keefe (isabel@fermatcommerce.com)"
+        ],
+        "status": "completed",
+        "url": "https://app.glyphic.ai/calls/68cc5816fcc00ae09c0d3bce",
+        "summary": "Regular sync between 1906 and FERMAT team"
+      },
+      {
+        "id": "68c9db27afda2b4ead45506e",
+        "title": "1906 <> Sender <> FERMAT",
+        "date": "2025-09-16",
+        "duration_seconds": 1099,
+        "participants": [
+          "Ryan Barry (ryan.barry@fermatcommerce.com)",
+          "Mark Peesel (mark@sender.agency)",
+          "Richard Tubman (richard@sender.agency)",
+          "Jimena Bernal (jimena@sender.agency)",
+          "Alan Saura (alan@sender.agency)"
+        ],
+        "status": "completed",
+        "url": "https://app.glyphic.ai/calls/68c9db27afda2b4ead45506e",
+        "summary": "Three-way sync between 1906, Sender agency, and FERMAT"
+      },
+      {
+        "id": "68b9a996bf2672cf725ea984",
+        "title": "Regroup: 1906 <> FERMAT",
+        "date": "2025-09-04",
+        "duration_seconds": 1783,
+        "participants": [
+          "Simon Wool (simon@woolventures.com)",
+          "Ryan Barry (ryan.barry@fermatcommerce.com)",
+          "Sveta Doucet (sdoucet@nukafoods.com)"
+        ],
+        "status": "completed",
+        "url": "https://app.glyphic.ai/calls/68b9aaf5afeb918311746323",
+        "summary": "Regroup call with Simon and Sveta from Nuka Foods"
+      }
+    ],
+    "analysis": {
+      "total_calls_found": 10,
+      "most_recent_call_date": "2026-03-17",
+      "days_since_last_call": 27,
+      "calls_in_last_30d": 1,
+      "calls_in_last_90d": 1,
+      "primary_fermat_contacts": [
+        "Kaitlin Frye",
+        "Ryan Barry",
+        "Isabel O'keefe"
+      ],
+      "primary_brand_contacts": [
+        "Simon Wool (simon@woolventures.com)"
+      ],
+      "agency_history": "Previously worked with Sender agency (removed from Slack Mar 13, 2026). No longer partnered.",
+      "key_call_themes": [
+        "Contract flexibility and month-to-month request (recurring theme)",
+        "AppLovin vs FERMAT landing page performance testing",
+        "Promo calendar management and offer setup",
+        "New feature demos (custom modules, AI editing, Pierre 2.0)",
+        "Account handoff from Ryan to Kaitlin to Pulkit"
+      ]
+    }
+  },
+  "calendar": {
+    "past": [],
+    "upcoming": [],
+    "analysis": {
+      "total_events_found": 0,
+      "note": "No calendar events found for 1906. Standing calls were removed by Simon in Nov 2025. No recurring sync has been re-established since account handoff to Pulkit."
+    }
+  },
+  "slack": {
+    "messages": [
+      {
+        "date": "2026-04-10",
+        "author": "Slackbot",
+        "summary": "Admin (Evelyn) removed SENDER from the channel"
+      },
+      {
+        "date": "2026-04-10",
+        "author": "Misha Druzhinin (Finsi)",
+        "summary": "Finsi team member asking about technical integration for web events data from FERMAT landing pages, similar to GA4"
+      },
+      {
+        "date": "2026-04-10",
+        "author": "Misha Druzhinin (Finsi)",
+        "summary": "Joined the channel"
+      },
+      {
+        "date": "2026-04-10",
+        "author": "Simon Wool",
+        "summary": "Wants to find a way to bring FERMAT data into Finsi"
+      },
+      {
+        "date": "2026-04-10",
+        "author": "Simon Wool",
+        "summary": "Introduced Finsi team to the channel"
+      },
+      {
+        "date": "2026-04-10",
+        "author": "Simon Wool",
+        "summary": "Chatting about bessier soiree event"
+      },
+      {
+        "date": "2026-04-10",
+        "author": "Andrei Rebrov (Finsi)",
+        "summary": "Joined and said thanks for inviting, pleasure to meet everyone"
+      },
+      {
+        "date": "2026-04-10",
+        "author": "Simon Wool",
+        "summary": "Requested adding md@finsi.ai and andrei@finsi.ai to channel"
+      },
+      {
+        "date": "2026-03-25",
+        "author": "Simon Wool",
+        "summary": "Responded to Kaitlin's intro of Pulkit: 'Sounds good - Pulkit lets sync'"
+      },
+      {
+        "date": "2026-03-25",
+        "author": "Kaitlin Frye",
+        "summary": "Formal introduction of Pulkit as new day-to-day contact. Covered: contract stays annual through August then can go month-to-month, April offers configured through end of month, shipping threshold question ($85 vs $75), CRO recommendations coming soon, custom module feature updates pending"
+      },
+      {
+        "date": "2026-03-13",
+        "author": "Simon Wool",
+        "summary": "Shared April promo calendar: 4/1-4/13 warm-up, 4/14-4/19 buildup 30% off, 4/20 flash 42.0% off sitewide code 420, 4/21-4/30 wind down"
+      },
+      {
+        "date": "2026-03-13",
+        "author": "Simon Wool",
+        "summary": "Shared March promo schedule: Friday 13th flash 35% off, St Patrick's Day 35% off, free Chill tin thresholds"
+      },
+      {
+        "date": "2026-03-13",
+        "author": "Simon Wool",
+        "summary": "Requested flash sale be mimicked on ALL FERMAT pages immediately"
+      }
+    ],
+    "analysis": {
+      "channel_name": "#fermat-x-1906",
+      "last_brand_message_date": "2026-04-10",
+      "last_fermat_message_date": "2026-03-25",
+      "days_since_last_brand_message": 3,
+      "days_since_last_fermat_message": 19,
+      "brand_message_count_14d": 6,
+      "pulkit_message_count_14d": 0,
+      "key_themes": [
+        "Finsi data integration request (Apr 10) - brand wants FERMAT analytics piped into Finsi platform",
+        "Sender agency removed from channel (Apr 10)",
+        "Pulkit intro and account handoff (Mar 25)",
+        "Contract terms - stays annual through August, then month-to-month option",
+        "April promo calendar loaded through 4/30 with 4/20 flash sale",
+        "Simon responsive to Pulkit intro but no follow-up sync visible"
+      ],
+      "red_flags": [
+        "Pulkit has not sent any visible messages in the channel since joining Feb 24",
+        "19 days since last FERMAT message (Kaitlin's Mar 25 intro)",
+        "Simon asked to sync with Pulkit on Mar 25 but no calendar event or follow-up found",
+        "Finsi integration request on Apr 10 appears unanswered by FERMAT team"
+      ]
+    }
+  },
+  "email": {
+    "messages": [],
+    "analysis": {
+      "total_emails_found": 0,
+      "last_email_date": null,
+      "emails_from_pulkit": 0,
+      "emails_to_pulkit": 0,
+      "note": "No email communication found between Pulkit and 1906 contacts (simon@woolventures.com, simon@icarusdigitalmarketing.com) in the last 90 days. All communication appears to be via Slack only. Simon mentioned on Mar 17 call that he is 'pretty bad at responding to people's emails' which may explain the email gap, but Pulkit needs to establish email contact."
+    }
+  },
+  "granola": {
+    "summary": "1906 is a THC tablets/drops company flagged as a quiet, low-engagement client. Had payment issues last year. Originally under Kaitlin with handoff to Pulkit in progress. Granola notes show 15K sessions but only ~$1,500 revenue was flagged as concerning. Action items include: follow up to schedule a call (Apr 6 weekly check-in), confirm handoff details with Mukul and Isabel. Account described as being in a fragile state.",
+    "meeting_references": [
+      "https://notes.granola.ai/d/3196d479-ae62-4ef9-b0b5-f578b0ae65ec",
+      "https://notes.granola.ai/d/83fddfe7-d6f4-4109-b574-eff0d0e1d61b",
+      "https://notes.granola.ai/d/506c9456-7953-4ebc-9ad2-4e4c1d01481b"
+    ]
+  },
+  "context": {
+    "account_history": "1906 is a CBD/THC brand (tablets, drops, edibles) run by Simon Wool through Woolventures. $27,000 ARR. Previously managed by Ryan Barry, then transitioned to Kaitlin Frye (Dec 2025), now being handed off to Pulkit Srivastava (Mar 2026). The account has had multiple GM transitions which has created instability. Simon runs a performance marketing agency (Icarus Digital Marketing) and manages 1906's growth. Previously worked with Sender agency but that relationship ended in early 2026.",
+    "key_risks": [
+      "CHURN RISK: Simon explicitly asked for month-to-month contract on Mar 17 call. Told contract stays annual until August renewal, then can switch.",
+      "COMPETITIVE THREAT: AppLovin landing page ('love page') is currently outperforming FERMAT pages in Simon's A/B test",
+      "HANDOFF GAP: Pulkit was introduced Mar 25 but has zero visible email or Slack outreach since. Simon said 'Sounds good - Pulkit lets sync' but no sync occurred.",
+      "PERFORMANCE DECLINE: Sessions dropped from ~5,000/day (early Mar) to ~2,200/day (Apr). Revenue cratered from ~$4,500/day to <$500/day. CVR fell from 1.2% to 0.19%.",
+      "GOOGLE ADS PAUSED: Google campaigns down due to advertiser verification delay (as of Mar 17). May still be paused.",
+      "NO RECURRING CALL: Standing calls were removed Nov 2025. Only one call in last 6 months (Mar 17)."
+    ],
+    "opportunities": [
+      "4/20 FLASH SALE: Major promo event (42% off sitewide) on Apr 20 should drive significant volume. FERMAT pages need to be ready.",
+      "FINSI INTEGRATION: Simon introduced Finsi team on Apr 10 wanting FERMAT data integration. This is a stickiness opportunity if we can deliver.",
+      "CUSTOM MODULES: Simon was excited about custom module generator and AI editing features during Mar 17 demo. Follow up on whether he's tried them.",
+      "OFFER OPTIMIZATION: April promos are configured through 4/30. Ensure all offers are correctly set up including the Go Drops GWP swap."
+    ],
+    "renewal_info": {
+      "next_renewal": "2026-09-25",
+      "contract_type": "Annual",
+      "requested_change": "Month-to-month with 30-45 day out clause",
+      "response": "Current contract stays through August, then month-to-month option available at new pricing"
+    }
+  }
+}

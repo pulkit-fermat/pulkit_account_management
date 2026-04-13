@@ -1,0 +1,1081 @@
+{
+  "brand_id": "a5b80aa3-f791-4625-a5de-5f83612cfc05",
+  "brand_name": "Gen See",
+  "fermat_org_id": "a5b80aa3-f791-4625-a5de-5f83612cfc05",
+  "slack_channel_id": "C08HRJ2GCTF",
+  "arr": 24000,
+  "vertical": "Beauty",
+  "previous_gm": "Mia",
+  "next_renewal": "2026-03-28",
+  "poc_emails": [],
+  "last_updated": "2026-04-13T00:00:00Z",
+  "health": {
+    "score": 25,
+    "status": "red",
+    "breakdown": {
+      "platform_performance": 9,
+      "platform_performance_detail": "Sessions:2/5, Revenue:1/5, CVR:5/5, Purchases:1/5",
+      "communication": 4,
+      "communication_detail": "SlackRecency:0/4, BrandSlack14d:0/4, PulkitSlack14d:0/4, EmailThreads14d:4/4, PulkitOutreach:0/4",
+      "engagement": 12,
+      "engagement_detail": "LastCall:8/8, Calls30d:4/6, Upcoming:0/6",
+      "csm_sentiment": 0,
+      "csm_sentiment_detail": "Not rated yet"
+    },
+    "signals": [
+      {
+        "type": "critical",
+        "signal": "Brand submitted cancellation notice on Apr 6, 2026 to Isabel (AR), Talia, and their team - NOT to the CSM (Mia). Contract may have auto-renewed on Mar 28.",
+        "date": "2026-04-06"
+      },
+      {
+        "type": "critical",
+        "signal": "Traffic cliff: sessions dropped from ~1,000-2,400/day pre-Mar 23 to single digits post-Mar 24. Only 3 sessions on Apr 12. Brand has effectively stopped sending traffic to FERMAT.",
+        "date": "2026-03-24"
+      },
+      {
+        "type": "critical",
+        "signal": "Brand has been ghosting/unresponsive on Slack and meetings for 2+ months per KT call transcript. Multiple bi-weekly meetings cancelled or no-showed.",
+        "date": "2026-02-01"
+      },
+      {
+        "type": "negative",
+        "signal": "Competitor threat: Brand uses Israeli startup Jurni (Journey) for UK/EU markets. Tamar called FERMAT's lack of international support 'a real Achilles heel' on Dec 4 call.",
+        "date": "2025-12-04"
+      },
+      {
+        "type": "negative",
+        "signal": "Low contract value ($2,000/month flat fee, quarterly auto-renew) relative to traffic volume they were driving (1,000-2,400 sessions/day before drop-off).",
+        "date": "2026-01-01"
+      },
+      {
+        "type": "info",
+        "signal": "Account handed from Mia DyBuncio to Pulkit Srivastava on Apr 6. Mia sent intro email to eli@genseebeauty.com on Apr 3 cc Pulkit and Isabel. Talia handling final retention attempt.",
+        "date": "2026-04-06"
+      },
+      {
+        "type": "info",
+        "signal": "Key contacts: Tamar Yaniv (Co-CEO, tamar@genseebeauty.com), Eli Cohen (eli@genseebeauty.com), Danya Klein (danya@genseebeauty.com). Brand domain: genseebeauty.com.",
+        "date": "2026-04-13"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 3,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 0,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 0,
+      "cvr": 0,
+      "sessions": 16,
+      "roas": null,
+      "cpa": null,
+      "purchases": 0,
+      "aov": 0,
+      "pdp_views": 4,
+      "atc": 0,
+      "checkouts": 0
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 84.0,
+      "cvr": 2.44,
+      "sessions": 82,
+      "roas": null,
+      "cpa": null,
+      "purchases": 2,
+      "aov": 42.0,
+      "pdp_views": 35,
+      "atc": 8,
+      "checkouts": 3
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 84.0,
+      "cvr": 0.87,
+      "sessions": 230,
+      "roas": null,
+      "cpa": null,
+      "purchases": 2,
+      "aov": 42.0,
+      "pdp_views": 82,
+      "atc": 17,
+      "checkouts": 5
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 21206.2,
+      "cvr": 3.13,
+      "sessions": 12003,
+      "roas": null,
+      "cpa": null,
+      "purchases": 376,
+      "aov": 56.4,
+      "pdp_views": 2875,
+      "atc": 1171,
+      "checkouts": 339
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 82249.53,
+      "cvr": 4.09,
+      "sessions": 34317,
+      "roas": null,
+      "cpa": null,
+      "purchases": 1403,
+      "aov": 58.62,
+      "pdp_views": 8537,
+      "atc": 3744,
+      "checkouts": 1305
+    },
+    "daily": [
+      {
+        "date": "2026-02-26",
+        "sessions": 1459,
+        "revenue": 4826.1,
+        "purchases": 77,
+        "pdp_views": 378,
+        "atc": 167,
+        "checkouts": 85,
+        "cvr": 5.28,
+        "aov": 62.68
+      },
+      {
+        "date": "2026-02-27",
+        "sessions": 1740,
+        "revenue": 5029.4,
+        "purchases": 87,
+        "pdp_views": 431,
+        "atc": 209,
+        "checkouts": 90,
+        "cvr": 5.0,
+        "aov": 57.81
+      },
+      {
+        "date": "2026-02-28",
+        "sessions": 2459,
+        "revenue": 5707.9,
+        "purchases": 97,
+        "pdp_views": 567,
+        "atc": 236,
+        "checkouts": 107,
+        "cvr": 3.94,
+        "aov": 58.84
+      },
+      {
+        "date": "2026-03-01",
+        "sessions": 2135,
+        "revenue": 5773.91,
+        "purchases": 95,
+        "pdp_views": 484,
+        "atc": 222,
+        "checkouts": 96,
+        "cvr": 4.45,
+        "aov": 60.78
+      },
+      {
+        "date": "2026-03-02",
+        "sessions": 1393,
+        "revenue": 3598.2,
+        "purchases": 60,
+        "pdp_views": 335,
+        "atc": 144,
+        "checkouts": 56,
+        "cvr": 4.31,
+        "aov": 59.97
+      },
+      {
+        "date": "2026-03-03",
+        "sessions": 1488,
+        "revenue": 5444.31,
+        "purchases": 81,
+        "pdp_views": 380,
+        "atc": 190,
+        "checkouts": 70,
+        "cvr": 5.44,
+        "aov": 67.21
+      },
+      {
+        "date": "2026-03-04",
+        "sessions": 1439,
+        "revenue": 3857.8,
+        "purchases": 67,
+        "pdp_views": 349,
+        "atc": 166,
+        "checkouts": 57,
+        "cvr": 4.66,
+        "aov": 57.58
+      },
+      {
+        "date": "2026-03-05",
+        "sessions": 1085,
+        "revenue": 2847.9,
+        "purchases": 48,
+        "pdp_views": 270,
+        "atc": 118,
+        "checkouts": 38,
+        "cvr": 4.42,
+        "aov": 59.33
+      },
+      {
+        "date": "2026-03-06",
+        "sessions": 1098,
+        "revenue": 3342.3,
+        "purchases": 59,
+        "pdp_views": 283,
+        "atc": 144,
+        "checkouts": 50,
+        "cvr": 5.37,
+        "aov": 56.65
+      },
+      {
+        "date": "2026-03-07",
+        "sessions": 1414,
+        "revenue": 4014.1,
+        "purchases": 63,
+        "pdp_views": 367,
+        "atc": 154,
+        "checkouts": 50,
+        "cvr": 4.46,
+        "aov": 63.72
+      },
+      {
+        "date": "2026-03-08",
+        "sessions": 1158,
+        "revenue": 2717.0,
+        "purchases": 49,
+        "pdp_views": 286,
+        "atc": 139,
+        "checkouts": 43,
+        "cvr": 4.23,
+        "aov": 55.45
+      },
+      {
+        "date": "2026-03-09",
+        "sessions": 926,
+        "revenue": 2806.0,
+        "purchases": 45,
+        "pdp_views": 259,
+        "atc": 122,
+        "checkouts": 50,
+        "cvr": 4.86,
+        "aov": 62.36
+      },
+      {
+        "date": "2026-03-10",
+        "sessions": 894,
+        "revenue": 2796.43,
+        "purchases": 46,
+        "pdp_views": 285,
+        "atc": 123,
+        "checkouts": 45,
+        "cvr": 5.15,
+        "aov": 60.79
+      },
+      {
+        "date": "2026-03-11",
+        "sessions": 1309,
+        "revenue": 3114.4,
+        "purchases": 57,
+        "pdp_views": 372,
+        "atc": 170,
+        "checkouts": 47,
+        "cvr": 4.35,
+        "aov": 54.64
+      },
+      {
+        "date": "2026-03-12",
+        "sessions": 1117,
+        "revenue": 2417.88,
+        "purchases": 46,
+        "pdp_views": 305,
+        "atc": 134,
+        "checkouts": 37,
+        "cvr": 4.12,
+        "aov": 52.56
+      },
+      {
+        "date": "2026-03-13",
+        "sessions": 1200,
+        "revenue": 2749.7,
+        "purchases": 50,
+        "pdp_views": 311,
+        "atc": 135,
+        "checkouts": 45,
+        "cvr": 4.17,
+        "aov": 54.99
+      },
+      {
+        "date": "2026-03-14",
+        "sessions": 1041,
+        "revenue": 2091.6,
+        "purchases": 37,
+        "pdp_views": 257,
+        "atc": 105,
+        "checkouts": 22,
+        "cvr": 3.55,
+        "aov": 56.53
+      },
+      {
+        "date": "2026-03-15",
+        "sessions": 1273,
+        "revenue": 2984.0,
+        "purchases": 51,
+        "pdp_views": 305,
+        "atc": 149,
+        "checkouts": 44,
+        "cvr": 4.01,
+        "aov": 58.51
+      },
+      {
+        "date": "2026-03-16",
+        "sessions": 1282,
+        "revenue": 1855.0,
+        "purchases": 34,
+        "pdp_views": 283,
+        "atc": 96,
+        "checkouts": 29,
+        "cvr": 2.65,
+        "aov": 54.56
+      },
+      {
+        "date": "2026-03-17",
+        "sessions": 1553,
+        "revenue": 2092.6,
+        "purchases": 40,
+        "pdp_views": 340,
+        "atc": 150,
+        "checkouts": 41,
+        "cvr": 2.58,
+        "aov": 52.32
+      },
+      {
+        "date": "2026-03-18",
+        "sessions": 1434,
+        "revenue": 2499.1,
+        "purchases": 47,
+        "pdp_views": 307,
+        "atc": 132,
+        "checkouts": 40,
+        "cvr": 3.28,
+        "aov": 53.17
+      },
+      {
+        "date": "2026-03-19",
+        "sessions": 1241,
+        "revenue": 1772.3,
+        "purchases": 31,
+        "pdp_views": 260,
+        "atc": 122,
+        "checkouts": 34,
+        "cvr": 2.5,
+        "aov": 57.17
+      },
+      {
+        "date": "2026-03-20",
+        "sessions": 1163,
+        "revenue": 2592.1,
+        "purchases": 41,
+        "pdp_views": 290,
+        "atc": 114,
+        "checkouts": 36,
+        "cvr": 3.53,
+        "aov": 63.22
+      },
+      {
+        "date": "2026-03-21",
+        "sessions": 1088,
+        "revenue": 2177.9,
+        "purchases": 37,
+        "pdp_views": 290,
+        "atc": 115,
+        "checkouts": 30,
+        "cvr": 3.4,
+        "aov": 58.86
+      },
+      {
+        "date": "2026-03-22",
+        "sessions": 1083,
+        "revenue": 1767.8,
+        "purchases": 35,
+        "pdp_views": 287,
+        "atc": 103,
+        "checkouts": 38,
+        "cvr": 3.23,
+        "aov": 50.51
+      },
+      {
+        "date": "2026-03-23",
+        "sessions": 545,
+        "revenue": 1289.8,
+        "purchases": 21,
+        "pdp_views": 149,
+        "atc": 66,
+        "checkouts": 20,
+        "cvr": 3.85,
+        "aov": 61.42
+      },
+      {
+        "date": "2026-03-24",
+        "sessions": 12,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 3,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-03-25",
+        "sessions": 12,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 3,
+        "atc": 1,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-03-26",
+        "sessions": 11,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 5,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-03-27",
+        "sessions": 16,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 4,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-03-28",
+        "sessions": 19,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 10,
+        "atc": 1,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-03-29",
+        "sessions": 56,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 3,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-03-30",
+        "sessions": 14,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 5,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-03-31",
+        "sessions": 17,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 7,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-04-01",
+        "sessions": 14,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 7,
+        "atc": 4,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-04-02",
+        "sessions": 8,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 3,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-04-03",
+        "sessions": 22,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 13,
+        "atc": 3,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-04-04",
+        "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-04-05",
+        "sessions": 11,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 7,
+        "atc": 2,
+        "checkouts": 2,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-04-06",
+        "sessions": 9,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 6,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-04-07",
+        "sessions": 19,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 10,
+        "atc": 2,
+        "checkouts": 2,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-04-08",
+        "sessions": 26,
+        "revenue": 42.0,
+        "purchases": 1,
+        "pdp_views": 11,
+        "atc": 5,
+        "checkouts": 0,
+        "cvr": 3.85,
+        "aov": 42.0
+      },
+      {
+        "date": "2026-04-09",
+        "sessions": 12,
+        "revenue": 42.0,
+        "purchases": 1,
+        "pdp_views": 4,
+        "atc": 1,
+        "checkouts": 1,
+        "cvr": 8.33,
+        "aov": 42.0
+      },
+      {
+        "date": "2026-04-10",
+        "sessions": 7,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-04-11",
+        "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 2,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      },
+      {
+        "date": "2026-04-12",
+        "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0,
+        "cvr": 0,
+        "aov": 0
+      }
+    ]
+  },
+  "calls": {
+    "recent": [
+      {
+        "id": "69d3c5331de71e6563f30ad1",
+        "title": "Mia / Pulkit Gen See KT",
+        "date": "2026-04-06",
+        "duration_seconds": 1473,
+        "status": "completed",
+        "type": "internal_kt",
+        "participants": [
+          {
+            "name": "Pulkit Srivastava",
+            "email": "pulkit@fermatcommerce.com"
+          },
+          {
+            "name": "Mia DyBuncio",
+            "email": "mia@fermatcommerce.com"
+          }
+        ],
+        "glyphic_url": "https://app.glyphic.ai/calls/69d3c5331de71e6563f30ad1",
+        "summary": "Internal KT call. Mia briefed Pulkit on Gen See: historically difficult to engage, ghosting for 2+ months, uses competitor Jurni for international, quarterly auto-renew at $2K flat. During call, Talia messaged that Gen See submitted cancellation notice (not sent to Mia). Contract may have just auto-renewed. Hero funnel was '5 Reasons Why' rosewater page with 6-7% CVR at peak."
+      },
+      {
+        "id": "69c15740ebc67f7b3a4ef948",
+        "title": "Gen See x FERMAT",
+        "date": "2026-03-23",
+        "duration_seconds": 576,
+        "status": "cancelled",
+        "type": "bi_weekly",
+        "participants": [
+          {
+            "name": "Mia DyBuncio",
+            "email": "mia@fermatcommerce.com"
+          },
+          {
+            "name": "Tamar Yaniv",
+            "email": "tamar@genseebeauty.com"
+          },
+          {
+            "name": "Danya Klein",
+            "email": "danya@genseebeauty.com"
+          },
+          {
+            "name": "Eli Cohen",
+            "email": "eli@genseebeauty.com"
+          }
+        ],
+        "glyphic_url": "https://app.glyphic.ai/calls/69c15740ebc67f7b3a4ef948",
+        "summary": "Bi-weekly meeting cancelled by brand."
+      },
+      {
+        "id": "699c7b425ecc0df412da9fc1",
+        "title": "Gen See x FERMAT",
+        "date": "2026-02-23",
+        "duration_seconds": 562,
+        "status": "cancelled",
+        "type": "bi_weekly",
+        "participants": [
+          {
+            "name": "Mia DyBuncio",
+            "email": "mia@fermatcommerce.com"
+          },
+          {
+            "name": "Eli Cohen",
+            "email": "eli@genseebeauty.com"
+          },
+          {
+            "name": "Danya Klein",
+            "email": "danya@genseebeauty.com"
+          },
+          {
+            "name": "Tamar Yaniv",
+            "email": "tamar@genseebeauty.com"
+          }
+        ],
+        "glyphic_url": "https://app.glyphic.ai/calls/699c7b425ecc0df412da9fc1",
+        "summary": "Bi-weekly meeting cancelled by brand."
+      },
+      {
+        "id": "698a066868eee6c1295d5296",
+        "title": "Gen See x FERMAT",
+        "date": "2026-02-09",
+        "duration_seconds": 604,
+        "status": "cancelled",
+        "type": "bi_weekly",
+        "participants": [
+          {
+            "name": "Mia DyBuncio",
+            "email": "mia@fermatcommerce.com"
+          },
+          {
+            "name": "Danya Klein",
+            "email": "danya@genseebeauty.com"
+          },
+          {
+            "name": "Tamar Yaniv",
+            "email": "tamar@genseebeauty.com"
+          },
+          {
+            "name": "Eli Cohen",
+            "email": "eli@genseebeauty.com"
+          }
+        ],
+        "glyphic_url": "https://app.glyphic.ai/calls/698a066868eee6c1295d5296",
+        "summary": "Bi-weekly meeting cancelled by brand."
+      },
+      {
+        "id": "6977922133a484da0a09ae8e",
+        "title": "Gen See x FERMAT",
+        "date": "2026-01-26",
+        "duration_seconds": 786,
+        "status": "cancelled",
+        "type": "bi_weekly",
+        "participants": [
+          {
+            "name": "Mia DyBuncio",
+            "email": "mia@fermatcommerce.com"
+          },
+          {
+            "name": "Tamar Yaniv",
+            "email": "tamar@genseebeauty.com"
+          },
+          {
+            "name": "Danya Klein",
+            "email": "danya@genseebeauty.com"
+          },
+          {
+            "name": "Eli Cohen",
+            "email": "eli@genseebeauty.com"
+          }
+        ],
+        "glyphic_url": "https://app.glyphic.ai/calls/6977922133a484da0a09ae8e",
+        "summary": "Bi-weekly meeting cancelled by brand."
+      },
+      {
+        "id": "6931adb9982e2f693deab815",
+        "title": "Gen See x FERMAT",
+        "date": "2025-12-04",
+        "duration_seconds": 1102,
+        "status": "completed",
+        "type": "bi_weekly",
+        "participants": [
+          {
+            "name": "Mia DyBuncio",
+            "email": "mia@fermatcommerce.com"
+          },
+          {
+            "name": "Tamar Yaniv",
+            "email": "tamar@genseebeauty.com"
+          }
+        ],
+        "glyphic_url": "https://app.glyphic.ai/calls/6931adb9982e2f693deab815",
+        "summary": "Post-BFCM review. Tamar reported 9% avg conversion rates during BFCM. Discussed AI Search product in depth - Tamar interested but wants flexibility on pricing ($2K/mo), commitment (6-month), and funnel count (20 free). Using competitor Jurni for UK/EU markets. Mia to follow up with team on flexibility."
+      },
+      {
+        "id": "690b8761cf3b576e5c70fcd8",
+        "title": "Fermat x Gen See",
+        "date": "2025-11-05",
+        "duration_seconds": 1160,
+        "status": "completed",
+        "type": "bi_weekly",
+        "participants": [
+          {
+            "name": "Mia DyBuncio",
+            "email": "mia@fermatcommerce.com"
+          },
+          {
+            "name": "Tamar Yaniv",
+            "email": "tamar@genseebeauty.com"
+          },
+          {
+            "name": "Eli Cohen",
+            "email": "eli@genseebeauty.com"
+          }
+        ],
+        "glyphic_url": "https://app.glyphic.ai/calls/690b8761cf3b576e5c70fcd8",
+        "summary": "Regular bi-weekly with brand."
+      },
+      {
+        "id": "6908e0e375ed37da9286b098",
+        "title": "Gen See x FERMAT",
+        "date": "2025-11-03",
+        "duration_seconds": 3858,
+        "status": "completed",
+        "type": "product_demo",
+        "participants": [
+          {
+            "name": "Eli Cohen",
+            "email": "eli@genseebeauty.com"
+          },
+          {
+            "name": "Mia DyBuncio",
+            "email": "mia@fermatcommerce.com"
+          },
+          {
+            "name": "Danya Klein",
+            "email": "danya@genseebeauty.com"
+          },
+          {
+            "name": "Tamar Yaniv",
+            "email": "tamar@genseebeauty.com"
+          },
+          {
+            "name": "Jennifer Schnadig",
+            "email": "jennifer@fermatcommerce.com"
+          }
+        ],
+        "glyphic_url": "https://app.glyphic.ai/calls/6908e0e375ed37da9286b098",
+        "summary": "AI Search product demo with Jennifer Schnadig. Extended 64-min call with full team."
+      }
+    ],
+    "analysis": {
+      "total_calls_found": 10,
+      "completed_calls": 5,
+      "cancelled_calls": 5,
+      "last_brand_call_date": "2025-12-04",
+      "days_since_last_brand_call": 130,
+      "last_internal_call_date": "2026-04-06",
+      "pattern": "Brand has cancelled every bi-weekly since Jan 26, 2026 (4 consecutive cancellations). Last completed brand call was Dec 4, 2025. Internal KT call happened Apr 6.",
+      "key_participants": [
+        {
+          "name": "Tamar Yaniv",
+          "email": "tamar@genseebeauty.com",
+          "role": "Co-CEO + Co-Founder"
+        },
+        {
+          "name": "Eli Cohen",
+          "email": "eli@genseebeauty.com",
+          "role": "Team member"
+        },
+        {
+          "name": "Danya Klein",
+          "email": "danya@genseebeauty.com",
+          "role": "Team member"
+        }
+      ]
+    }
+  },
+  "calendar": {
+    "past": [
+      {
+        "id": "8nfgufeci0r9gt9f5cqurkjk4g",
+        "title": "Mia / Pulkit Gen See KT",
+        "date": "2026-04-06",
+        "start": "2026-04-06T19:45:00+05:30",
+        "end": "2026-04-06T20:15:00+05:30",
+        "type": "internal_kt",
+        "status": "confirmed",
+        "attendees_count": 2,
+        "organizer": "pulkit@fermatcommerce.com"
+      }
+    ],
+    "upcoming": []
+  },
+  "slack": {
+    "messages": [
+      {
+        "date": "2026-02-27",
+        "author": "Kaitlin Frye",
+        "content": "Kaitlin Frye has joined the channel",
+        "type": "join"
+      },
+      {
+        "date": "2026-01-26",
+        "author": "Mia DyBuncio",
+        "content": "hi @tamar @Eli Cohen is now still a good time to connect?",
+        "type": "outreach"
+      },
+      {
+        "date": "2026-01-14",
+        "author": "Brand (Gen See)",
+        "content": "List of 13 orders with missing recipient name/street address - fulfillment issues from Fermat orders. Follow-ups emailed 11/28, 01/09.",
+        "type": "issue_report",
+        "thread_replies": 4
+      },
+      {
+        "date": "2026-01-14",
+        "author": "Brand (Gen See)",
+        "content": "Having issues again with addresses not transmitting properly from fermat orders. Outstanding unfulfilled orders awaiting customer confirmation.",
+        "type": "issue_report"
+      },
+      {
+        "date": "2026-01-12",
+        "author": "Brand (Gen See)",
+        "content": "Happy New Year, pls can we cancel for today. Thanks",
+        "type": "meeting_cancel",
+        "thread_replies": 1
+      },
+      {
+        "date": "2025-12-23",
+        "author": "Mia DyBuncio",
+        "content": "Holiday coverage notice - FERMAT team on modified schedule Dec 29-Jan 2. Cancelling Dec 30 meeting. Emergency contacts: am-support@fermatcommerce.com, Isabel.",
+        "type": "holiday_notice"
+      },
+      {
+        "date": "2025-12-18",
+        "author": "Brand (Gen See)",
+        "content": "Want to give access to a junior person to start doubling down on pages. Is there a way to give page edit access without sharing funnel financial details?",
+        "type": "feature_request",
+        "thread_replies": 1
+      },
+      {
+        "date": "2025-12-15",
+        "author": "Brand (Gen See)",
+        "content": "Pls can we cancel today's meeting",
+        "type": "meeting_cancel",
+        "thread_replies": 2
+      },
+      {
+        "date": "2025-12-08",
+        "author": "Mia DyBuncio",
+        "content": "AI Search trial offer - expanded 40-piece allowance (double standard 20). Leadership approved with condition of aligning contract timing across products for 6-month AI Search term.",
+        "type": "proposal"
+      },
+      {
+        "date": "2025-11-25",
+        "author": "Mia DyBuncio",
+        "content": "BFCM week notice - enhanced monitoring and engineering on-call coverage. Team actively overseeing uptime and page stability.",
+        "type": "bfcm_notice"
+      },
+      {
+        "date": "2025-11-20",
+        "author": "Brand (Gen See)",
+        "content": "Primarily using competitor for non-US geos which Fermat doesn't support at the moment.",
+        "type": "competitor_mention",
+        "thread_replies": 1
+      },
+      {
+        "date": "2025-11-20",
+        "author": "Mia DyBuncio",
+        "content": "Noticed new subdomain using '5 Reasons Why' style page mirroring Fermat page. New platform doesn't seem as shoppable. Checking in on purpose behind testing it.",
+        "type": "competitor_alert"
+      }
+    ],
+    "analysis": {
+      "channel_name": "#fermat-x-genseebeauty",
+      "channel_id": "C08HRJ2GCTF",
+      "last_brand_message_date": "2026-01-14",
+      "days_since_last_brand_message": 89,
+      "last_fermat_message_date": "2026-02-27",
+      "days_since_last_fermat_message": 45,
+      "brand_messages_14d": 0,
+      "pulkit_messages_14d": 0,
+      "key_issues": [
+        "Address transmission issues with Fermat orders (13 orders affected, reported Jan 14)",
+        "Brand using competitor Jurni for non-US markets",
+        "Brand frequently cancels scheduled meetings",
+        "Channel has been silent since Jan 26, 2026"
+      ]
+    }
+  },
+  "email": {
+    "messages": [
+      {
+        "date": "2026-04-07",
+        "subject": "Your ads were approved",
+        "from": "Meta for Business",
+        "to": "pulkit@fermatcommerce.com",
+        "type": "notification",
+        "relevant": false
+      },
+      {
+        "date": "2026-04-06",
+        "subject": "Mia / Pulkit Gen See KT summary is ready",
+        "from": "Glyphic AI",
+        "to": "pulkit@fermatcommerce.com",
+        "type": "call_summary",
+        "relevant": true
+      },
+      {
+        "date": "2026-04-06",
+        "subject": "FERMAT Copilot has joined your meeting - Mia / Pulkit Gen See KT",
+        "from": "Zoom",
+        "to": "pulkit@fermatcommerce.com",
+        "type": "meeting_join",
+        "relevant": true
+      },
+      {
+        "date": "2026-04-03",
+        "subject": "Accepted: Mia / Pulkit Gen See KT",
+        "from": "Mia DyBuncio",
+        "to": "pulkit@fermatcommerce.com",
+        "type": "calendar_accept",
+        "relevant": true
+      },
+      {
+        "date": "2026-04-03",
+        "subject": "Fermat x Gen See",
+        "from": "Mia DyBuncio",
+        "to": "eli@genseebeauty.com",
+        "cc": "pulkit@fermatcommerce.com, isabel@fermatcommerce.com",
+        "type": "intro_email",
+        "relevant": true,
+        "summary": "Mia's GM transition email introducing Pulkit as new CSM to Eli Cohen at Gen See. Mia mentioned transitioning to product team at FERMAT."
+      },
+      {
+        "date": "2026-04-01",
+        "subject": "Your ads were approved",
+        "from": "Meta for Business",
+        "to": "pulkit@fermatcommerce.com",
+        "type": "notification",
+        "relevant": false
+      },
+      {
+        "date": "2026-03-27",
+        "subject": "Your ads were approved",
+        "from": "Meta for Business",
+        "to": "pulkit@fermatcommerce.com",
+        "type": "notification",
+        "relevant": false
+      },
+      {
+        "date": "2026-03-19",
+        "subject": "Your ads were approved",
+        "from": "Meta for Business",
+        "to": "pulkit@fermatcommerce.com",
+        "type": "notification",
+        "relevant": false
+      }
+    ],
+    "analysis": {
+      "total_results": 9,
+      "relevant_emails": 4,
+      "last_brand_email_date": null,
+      "last_outbound_to_brand_date": "2026-04-03",
+      "days_since_last_outbound": 10,
+      "key_thread": "Mia's transition email to eli@genseebeauty.com on Apr 3 (cc Pulkit, Isabel) - no reply from brand as of Apr 13",
+      "notes": "No direct email from brand contacts found in last 30 days. Cancellation notice was sent to Isabel/AR/Talia but not to CSM email."
+    }
+  }
+}

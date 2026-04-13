@@ -1,0 +1,1079 @@
+{
+  "brand_id": "6826b036-80db-4d25-a5bc-9a8de9b8d58d",
+  "brand_name": "JVN Hair",
+  "fermat_org_id": "6826b036-80db-4d25-a5bc-9a8de9b8d58d",
+  "arr": 25200,
+  "vertical": "Health & Supplements",
+  "previous_gm": "Kaitlin",
+  "next_renewal": "2026-05-16",
+  "contract_tenure_months": 12,
+  "slack_channel_id": "C08HT3J2ACV",
+  "last_updated": "2026-04-13T00:00:00Z",
+  "health": {
+    "score": 31,
+    "status": "red",
+    "breakdown": {
+      "platform_performance": 20,
+      "platform_performance_detail": "Sessions:5/5, Revenue:5/5, CVR:5/5, Purchases:5/5",
+      "communication": 9,
+      "communication_detail": "SlackRecency:3/4, BrandSlack14d:1/4, PulkitSlack14d:2/4, EmailThreads14d:3/4, PulkitOutreach:0/4",
+      "engagement": 2,
+      "engagement_detail": "LastCall:1/8, Calls30d:1/6, Upcoming:0/6",
+      "csm_sentiment": 0,
+      "csm_sentiment_detail": "Not rated yet"
+    },
+    "signals": [
+      {
+        "signal": "Account handoff in progress - transitioning from Kaitlin/Mia to Pulkit as new GM",
+        "type": "warning",
+        "date": "2026-04-08",
+        "detail": "Mia intro'd Pulkit in Slack on Apr 8. Handoff meetings with Kaitlin on Apr 6 and Apr 8. POC (Hannah) initially thought Kaitlin was taking over."
+      },
+      {
+        "signal": "No brand call in 32 days - last bi-weekly was Mar 12 with Mia",
+        "type": "negative",
+        "date": "2026-03-12",
+        "detail": "Last JVN x Fermat Bi-Weekly was Mar 12 (Mia + Hannah). No calls since. Hannah cancels meetings frequently per Granola notes."
+      },
+      {
+        "signal": "Platform sessions declining significantly - 7d avg 2,051/day vs 45d avg 2,580/day",
+        "type": "negative",
+        "date": "2026-04-12",
+        "detail": "7d sessions 14,357 (avg 2,051/day) vs 45d total 118,787 (avg 2,580/day). Revenue also declining: 7d $12,137 vs 30d $64,432."
+      },
+      {
+        "signal": "Renewal approaching in 33 days (May 16, 2026) - requires proactive outreach",
+        "type": "warning",
+        "date": "2026-05-16",
+        "detail": "Contract renewal May 16. Granola notes advise sending renewal heads-up 45-60 days in advance with positive tone and QBR offer."
+      },
+      {
+        "signal": "Pulkit sent intro message in Slack on Apr 9 - awaiting Hannah's response to schedule first call",
+        "type": "positive",
+        "date": "2026-04-09",
+        "detail": "Pulkit posted intro with Calendly link. Hannah has not yet responded or booked a call as of Apr 13."
+      },
+      {
+        "signal": "Brand raised tracking concern on Apr 9 - funnel insight appears incorrect",
+        "type": "warning",
+        "date": "2026-04-09",
+        "detail": "Hannah posted screenshots flagging that a Fermat funnel insight seems to be for a completely different funnel. Thread has replies but issue needs resolution."
+      },
+      {
+        "signal": "Two product launches planned for early April - opportunity to build dedicated pages",
+        "type": "positive",
+        "date": "2026-04-12",
+        "detail": "From Mar 12 call: Hannah mentioned .com-only launches in first and second weeks of April. This is an engagement opportunity for the new GM."
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 1941.13,
+      "cvr": 3.02,
+      "sessions": 2116,
+      "roas": null,
+      "cpa": null,
+      "purchases": 64,
+      "aov": 30.33,
+      "pdp_views": 278,
+      "atc": 147,
+      "checkouts": 51
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 4931.91,
+      "cvr": 2.81,
+      "sessions": 5627,
+      "roas": null,
+      "cpa": null,
+      "purchases": 158,
+      "aov": 31.21,
+      "pdp_views": 710,
+      "atc": 385,
+      "checkouts": 134
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 12136.93,
+      "cvr": 2.75,
+      "sessions": 14357,
+      "roas": null,
+      "cpa": null,
+      "purchases": 395,
+      "aov": 30.73,
+      "pdp_views": 1852,
+      "atc": 1016,
+      "checkouts": 338
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 25757.47,
+      "cvr": 2.72,
+      "sessions": 30555,
+      "roas": null,
+      "cpa": null,
+      "purchases": 830,
+      "aov": 31.03,
+      "pdp_views": 4180,
+      "atc": 2261,
+      "checkouts": 711
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 63832.38,
+      "cvr": 3.19,
+      "sessions": 64012,
+      "roas": null,
+      "cpa": null,
+      "purchases": 2045,
+      "aov": 31.21,
+      "pdp_views": 9419,
+      "atc": 5354,
+      "checkouts": 1649
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 131188.15,
+      "cvr": 3.77,
+      "sessions": 114188,
+      "roas": null,
+      "cpa": null,
+      "purchases": 4309,
+      "aov": 30.45,
+      "pdp_views": 17341,
+      "atc": 9926,
+      "checkouts": 3622
+    },
+    "daily": [
+      {
+        "date": "2026-02-26",
+        "ad_spend": null,
+        "revenue": 6315.49,
+        "cvr": 4.7,
+        "sessions": 4576,
+        "roas": null,
+        "cpa": null,
+        "purchases": 215,
+        "aov": 29.37,
+        "pdp_views": 651,
+        "atc": 392,
+        "checkouts": 229
+      },
+      {
+        "date": "2026-02-27",
+        "ad_spend": null,
+        "revenue": 6017.83,
+        "cvr": 4.64,
+        "sessions": 4055,
+        "roas": null,
+        "cpa": null,
+        "purchases": 188,
+        "aov": 32.01,
+        "pdp_views": 608,
+        "atc": 349,
+        "checkouts": 194
+      },
+      {
+        "date": "2026-02-28",
+        "ad_spend": null,
+        "revenue": 5697.97,
+        "cvr": 4.88,
+        "sessions": 4058,
+        "roas": null,
+        "cpa": null,
+        "purchases": 198,
+        "aov": 28.78,
+        "pdp_views": 649,
+        "atc": 389,
+        "checkouts": 224
+      },
+      {
+        "date": "2026-03-01",
+        "ad_spend": null,
+        "revenue": 7622.51,
+        "cvr": 4.81,
+        "sessions": 5202,
+        "roas": null,
+        "cpa": null,
+        "purchases": 250,
+        "aov": 30.49,
+        "pdp_views": 797,
+        "atc": 498,
+        "checkouts": 260
+      },
+      {
+        "date": "2026-03-02",
+        "ad_spend": null,
+        "revenue": 5238.11,
+        "cvr": 4.33,
+        "sessions": 4068,
+        "roas": null,
+        "cpa": null,
+        "purchases": 176,
+        "aov": 29.76,
+        "pdp_views": 618,
+        "atc": 327,
+        "checkouts": 134
+      },
+      {
+        "date": "2026-03-03",
+        "ad_spend": null,
+        "revenue": 3425.82,
+        "cvr": 5.7,
+        "sessions": 2229,
+        "roas": null,
+        "cpa": null,
+        "purchases": 127,
+        "aov": 26.97,
+        "pdp_views": 392,
+        "atc": 231,
+        "checkouts": 87
+      },
+      {
+        "date": "2026-03-04",
+        "ad_spend": null,
+        "revenue": 3667.3,
+        "cvr": 4.88,
+        "sessions": 2501,
+        "roas": null,
+        "cpa": null,
+        "purchases": 122,
+        "aov": 30.06,
+        "pdp_views": 401,
+        "atc": 226,
+        "checkouts": 83
+      },
+      {
+        "date": "2026-03-05",
+        "ad_spend": null,
+        "revenue": 3671.31,
+        "cvr": 4.5,
+        "sessions": 2755,
+        "roas": null,
+        "cpa": null,
+        "purchases": 124,
+        "aov": 29.61,
+        "pdp_views": 444,
+        "atc": 251,
+        "checkouts": 88
+      },
+      {
+        "date": "2026-03-06",
+        "ad_spend": null,
+        "revenue": 4226.52,
+        "cvr": 5.51,
+        "sessions": 2596,
+        "roas": null,
+        "cpa": null,
+        "purchases": 143,
+        "aov": 29.56,
+        "pdp_views": 437,
+        "atc": 249,
+        "checkouts": 105
+      },
+      {
+        "date": "2026-03-07",
+        "ad_spend": null,
+        "revenue": 3225.99,
+        "cvr": 4.4,
+        "sessions": 2409,
+        "roas": null,
+        "cpa": null,
+        "purchases": 106,
+        "aov": 30.43,
+        "pdp_views": 375,
+        "atc": 224,
+        "checkouts": 79
+      },
+      {
+        "date": "2026-03-08",
+        "ad_spend": null,
+        "revenue": 2683.17,
+        "cvr": 4.22,
+        "sessions": 2226,
+        "roas": null,
+        "cpa": null,
+        "purchases": 94,
+        "aov": 28.54,
+        "pdp_views": 365,
+        "atc": 209,
+        "checkouts": 77
+      },
+      {
+        "date": "2026-03-09",
+        "ad_spend": null,
+        "revenue": 3214.17,
+        "cvr": 4.45,
+        "sessions": 2380,
+        "roas": null,
+        "cpa": null,
+        "purchases": 106,
+        "aov": 30.32,
+        "pdp_views": 385,
+        "atc": 231,
+        "checkouts": 89
+      },
+      {
+        "date": "2026-03-10",
+        "ad_spend": null,
+        "revenue": 2385.34,
+        "cvr": 3.57,
+        "sessions": 2464,
+        "roas": null,
+        "cpa": null,
+        "purchases": 88,
+        "aov": 27.11,
+        "pdp_views": 383,
+        "atc": 200,
+        "checkouts": 70
+      },
+      {
+        "date": "2026-03-11",
+        "ad_spend": null,
+        "revenue": 2886.46,
+        "cvr": 3.66,
+        "sessions": 2760,
+        "roas": null,
+        "cpa": null,
+        "purchases": 101,
+        "aov": 28.58,
+        "pdp_views": 426,
+        "atc": 215,
+        "checkouts": 78
+      },
+      {
+        "date": "2026-03-12",
+        "ad_spend": null,
+        "revenue": 3714.92,
+        "cvr": 3.86,
+        "sessions": 3111,
+        "roas": null,
+        "cpa": null,
+        "purchases": 120,
+        "aov": 30.96,
+        "pdp_views": 515,
+        "atc": 287,
+        "checkouts": 91
+      },
+      {
+        "date": "2026-03-13",
+        "ad_spend": null,
+        "revenue": 3362.86,
+        "cvr": 3.8,
+        "sessions": 2786,
+        "roas": null,
+        "cpa": null,
+        "purchases": 106,
+        "aov": 31.73,
+        "pdp_views": 476,
+        "atc": 294,
+        "checkouts": 85
+      },
+      {
+        "date": "2026-03-14",
+        "ad_spend": null,
+        "revenue": 2824.34,
+        "cvr": 3.92,
+        "sessions": 2272,
+        "roas": null,
+        "cpa": null,
+        "purchases": 89,
+        "aov": 31.73,
+        "pdp_views": 399,
+        "atc": 240,
+        "checkouts": 69
+      },
+      {
+        "date": "2026-03-15",
+        "ad_spend": null,
+        "revenue": 3219.78,
+        "cvr": 3.81,
+        "sessions": 2810,
+        "roas": null,
+        "cpa": null,
+        "purchases": 107,
+        "aov": 30.09,
+        "pdp_views": 437,
+        "atc": 280,
+        "checkouts": 87
+      },
+      {
+        "date": "2026-03-16",
+        "ad_spend": null,
+        "revenue": 3627.98,
+        "cvr": 4.18,
+        "sessions": 2802,
+        "roas": null,
+        "cpa": null,
+        "purchases": 117,
+        "aov": 31.01,
+        "pdp_views": 425,
+        "atc": 269,
+        "checkouts": 76
+      },
+      {
+        "date": "2026-03-17",
+        "ad_spend": null,
+        "revenue": 2749.03,
+        "cvr": 3.66,
+        "sessions": 2433,
+        "roas": null,
+        "cpa": null,
+        "purchases": 89,
+        "aov": 30.89,
+        "pdp_views": 369,
+        "atc": 223,
+        "checkouts": 66
+      },
+      {
+        "date": "2026-03-18",
+        "ad_spend": null,
+        "revenue": 2644.51,
+        "cvr": 3.72,
+        "sessions": 2256,
+        "roas": null,
+        "cpa": null,
+        "purchases": 84,
+        "aov": 31.48,
+        "pdp_views": 304,
+        "atc": 198,
+        "checkouts": 56
+      },
+      {
+        "date": "2026-03-19",
+        "ad_spend": null,
+        "revenue": 2083.93,
+        "cvr": 3.66,
+        "sessions": 1994,
+        "roas": null,
+        "cpa": null,
+        "purchases": 73,
+        "aov": 28.55,
+        "pdp_views": 326,
+        "atc": 214,
+        "checkouts": 75
+      },
+      {
+        "date": "2026-03-20",
+        "ad_spend": null,
+        "revenue": 2539.3,
+        "cvr": 4.0,
+        "sessions": 2001,
+        "roas": null,
+        "cpa": null,
+        "purchases": 80,
+        "aov": 31.74,
+        "pdp_views": 329,
+        "atc": 201,
+        "checkouts": 61
+      },
+      {
+        "date": "2026-03-21",
+        "ad_spend": null,
+        "revenue": 2834.51,
+        "cvr": 3.96,
+        "sessions": 2123,
+        "roas": null,
+        "cpa": null,
+        "purchases": 84,
+        "aov": 33.74,
+        "pdp_views": 387,
+        "atc": 233,
+        "checkouts": 73
+      },
+      {
+        "date": "2026-03-22",
+        "ad_spend": null,
+        "revenue": 2873.51,
+        "cvr": 3.79,
+        "sessions": 2615,
+        "roas": null,
+        "cpa": null,
+        "purchases": 99,
+        "aov": 29.03,
+        "pdp_views": 382,
+        "atc": 234,
+        "checkouts": 71
+      },
+      {
+        "date": "2026-03-23",
+        "ad_spend": null,
+        "revenue": 2311.69,
+        "cvr": 3.13,
+        "sessions": 2142,
+        "roas": null,
+        "cpa": null,
+        "purchases": 67,
+        "aov": 34.5,
+        "pdp_views": 331,
+        "atc": 169,
+        "checkouts": 51
+      },
+      {
+        "date": "2026-03-24",
+        "ad_spend": null,
+        "revenue": 1793.71,
+        "cvr": 3.14,
+        "sessions": 1751,
+        "roas": null,
+        "cpa": null,
+        "purchases": 55,
+        "aov": 32.61,
+        "pdp_views": 275,
+        "atc": 154,
+        "checkouts": 43
+      },
+      {
+        "date": "2026-03-25",
+        "ad_spend": null,
+        "revenue": 2164.28,
+        "cvr": 3.5,
+        "sessions": 1828,
+        "roas": null,
+        "cpa": null,
+        "purchases": 64,
+        "aov": 33.82,
+        "pdp_views": 307,
+        "atc": 164,
+        "checkouts": 55
+      },
+      {
+        "date": "2026-03-26",
+        "ad_spend": null,
+        "revenue": 2611.89,
+        "cvr": 3.65,
+        "sessions": 2356,
+        "roas": null,
+        "cpa": null,
+        "purchases": 86,
+        "aov": 30.37,
+        "pdp_views": 330,
+        "atc": 196,
+        "checkouts": 69
+      },
+      {
+        "date": "2026-03-27",
+        "ad_spend": null,
+        "revenue": 2056.39,
+        "cvr": 2.86,
+        "sessions": 2236,
+        "roas": null,
+        "cpa": null,
+        "purchases": 64,
+        "aov": 32.13,
+        "pdp_views": 355,
+        "atc": 170,
+        "checkouts": 50
+      },
+      {
+        "date": "2026-03-28",
+        "ad_spend": null,
+        "revenue": 1740.06,
+        "cvr": 3.1,
+        "sessions": 1838,
+        "roas": null,
+        "cpa": null,
+        "purchases": 57,
+        "aov": 30.53,
+        "pdp_views": 283,
+        "atc": 148,
+        "checkouts": 36
+      },
+      {
+        "date": "2026-03-29",
+        "ad_spend": null,
+        "revenue": 1908.11,
+        "cvr": 2.7,
+        "sessions": 2111,
+        "roas": null,
+        "cpa": null,
+        "purchases": 57,
+        "aov": 33.48,
+        "pdp_views": 308,
+        "atc": 153,
+        "checkouts": 43
+      },
+      {
+        "date": "2026-03-30",
+        "ad_spend": null,
+        "revenue": 1604.18,
+        "cvr": 2.51,
+        "sessions": 2232,
+        "roas": null,
+        "cpa": null,
+        "purchases": 56,
+        "aov": 28.65,
+        "pdp_views": 330,
+        "atc": 162,
+        "checkouts": 57
+      },
+      {
+        "date": "2026-03-31",
+        "ad_spend": null,
+        "revenue": 1725.31,
+        "cvr": 2.96,
+        "sessions": 1827,
+        "roas": null,
+        "cpa": null,
+        "purchases": 54,
+        "aov": 31.95,
+        "pdp_views": 309,
+        "atc": 161,
+        "checkouts": 45
+      },
+      {
+        "date": "2026-04-01",
+        "ad_spend": null,
+        "revenue": 1725.95,
+        "cvr": 3.0,
+        "sessions": 1903,
+        "roas": null,
+        "cpa": null,
+        "purchases": 57,
+        "aov": 30.28,
+        "pdp_views": 303,
+        "atc": 174,
+        "checkouts": 52
+      },
+      {
+        "date": "2026-04-02",
+        "ad_spend": null,
+        "revenue": 1640.58,
+        "cvr": 2.84,
+        "sessions": 2006,
+        "roas": null,
+        "cpa": null,
+        "purchases": 57,
+        "aov": 28.78,
+        "pdp_views": 283,
+        "atc": 157,
+        "checkouts": 52
+      },
+      {
+        "date": "2026-04-03",
+        "ad_spend": null,
+        "revenue": 1627.35,
+        "cvr": 2.72,
+        "sessions": 1803,
+        "roas": null,
+        "cpa": null,
+        "purchases": 49,
+        "aov": 33.21,
+        "pdp_views": 251,
+        "atc": 154,
+        "checkouts": 46
+      },
+      {
+        "date": "2026-04-04",
+        "ad_spend": null,
+        "revenue": 1531.23,
+        "cvr": 2.96,
+        "sessions": 1587,
+        "roas": null,
+        "cpa": null,
+        "purchases": 47,
+        "aov": 32.58,
+        "pdp_views": 237,
+        "atc": 128,
+        "checkouts": 36
+      },
+      {
+        "date": "2026-04-05",
+        "ad_spend": null,
+        "revenue": 1857.83,
+        "cvr": 2.13,
+        "sessions": 2729,
+        "roas": null,
+        "cpa": null,
+        "purchases": 58,
+        "aov": 32.03,
+        "pdp_views": 307,
+        "atc": 156,
+        "checkouts": 42
+      },
+      {
+        "date": "2026-04-06",
+        "ad_spend": null,
+        "revenue": 2352.55,
+        "cvr": 2.56,
+        "sessions": 2891,
+        "roas": null,
+        "cpa": null,
+        "purchases": 74,
+        "aov": 31.79,
+        "pdp_views": 352,
+        "atc": 193,
+        "checkouts": 61
+      },
+      {
+        "date": "2026-04-07",
+        "ad_spend": null,
+        "revenue": 1660.65,
+        "cvr": 2.98,
+        "sessions": 1915,
+        "roas": null,
+        "cpa": null,
+        "purchases": 57,
+        "aov": 29.13,
+        "pdp_views": 263,
+        "atc": 157,
+        "checkouts": 45
+      },
+      {
+        "date": "2026-04-08",
+        "ad_spend": null,
+        "revenue": 1230.56,
+        "cvr": 2.58,
+        "sessions": 1591,
+        "roas": null,
+        "cpa": null,
+        "purchases": 41,
+        "aov": 30.01,
+        "pdp_views": 210,
+        "atc": 107,
+        "checkouts": 31
+      },
+      {
+        "date": "2026-04-09",
+        "ad_spend": null,
+        "revenue": 1961.26,
+        "cvr": 2.79,
+        "sessions": 2333,
+        "roas": null,
+        "cpa": null,
+        "purchases": 65,
+        "aov": 30.17,
+        "pdp_views": 317,
+        "atc": 174,
+        "checkouts": 67
+      },
+      {
+        "date": "2026-04-10",
+        "ad_spend": null,
+        "revenue": 1437.45,
+        "cvr": 2.54,
+        "sessions": 1893,
+        "roas": null,
+        "cpa": null,
+        "purchases": 48,
+        "aov": 29.95,
+        "pdp_views": 230,
+        "atc": 128,
+        "checkouts": 44
+      },
+      {
+        "date": "2026-04-11",
+        "ad_spend": null,
+        "revenue": 1553.33,
+        "cvr": 2.84,
+        "sessions": 1618,
+        "roas": null,
+        "cpa": null,
+        "purchases": 46,
+        "aov": 33.77,
+        "pdp_views": 202,
+        "atc": 110,
+        "checkouts": 39
+      },
+      {
+        "date": "2026-04-12",
+        "ad_spend": null,
+        "revenue": 1941.13,
+        "cvr": 3.02,
+        "sessions": 2116,
+        "roas": null,
+        "cpa": null,
+        "purchases": 64,
+        "aov": 30.33,
+        "pdp_views": 278,
+        "atc": 147,
+        "checkouts": 51
+      }
+    ]
+  },
+  "calls": {
+    "recent": [
+      {
+        "id": "69b31fc690857b0c319be90e",
+        "title": "JVN x Fermat Bi-Weekly",
+        "date": "2026-03-12T19:58:04Z",
+        "duration_seconds": 1271,
+        "participants": [
+          "Mia DyBuncio (mia@fermatcommerce.com)",
+          "Hannah Stephens (hstephens@bellebrands.com)"
+        ],
+        "status": "completed",
+        "url": "https://app.glyphic.ai/calls/69b31fc690857b0c319be90e",
+        "summary": "Mia transitioning to product team, introduced Kaitlin as new AM. Hannah wants to increase AOV/LTV via bundles and size variants. Set up A/B test for Air Dry Cream Regular vs Jumbo. AI Search content quality was frustrating - mass rejected old funnels for regeneration. New copywriter Emily onboarded. Two product launches planned for early April.",
+        "next_steps": [
+          "Mass reject old AI search funnels for regeneration",
+          "Introduce Hannah to new AM Kaitlin via Slack",
+          "Update free shipping messaging to $50 threshold",
+          "Upload brand guidelines to improve AI content",
+          "Set up dedicated pages for April product launches"
+        ]
+      },
+      {
+        "id": "69695c34fed949c03b3f22b7",
+        "title": "JVN x Fermat Bi-Weekly",
+        "date": "2026-01-15T20:58:07Z",
+        "duration_seconds": 1872,
+        "participants": [
+          "Mia DyBuncio (mia@fermatcommerce.com)",
+          "Hannah Stephens (hstephens@bellebrands.com)"
+        ],
+        "status": "completed",
+        "url": null
+      },
+      {
+        "id": "6945979c77a0f1e1ed09e9cb",
+        "title": "JVN x Fermat Bi-Weekly",
+        "date": "2025-12-19T18:01:03Z",
+        "duration_seconds": 1210,
+        "participants": [
+          "Mia DyBuncio (mia@fermatcommerce.com)",
+          "Hannah Stephens (hstephens@bellebrands.com)"
+        ],
+        "status": "completed",
+        "url": null
+      },
+      {
+        "id": "691f87b3c143b43413f55769",
+        "title": "JVN x Fermat Bi-Weekly",
+        "date": "2025-11-20T21:00:20Z",
+        "duration_seconds": 1610,
+        "participants": [
+          "Mia DyBuncio (mia@fermatcommerce.com)",
+          "Hannah Stephens (hstephens@bellebrands.com)"
+        ],
+        "status": "completed",
+        "url": null
+      },
+      {
+        "id": "68d5adaa2d65385b8fb9cd3b",
+        "title": "JVN <> FERMAT | Business Review + Scale Intro",
+        "date": "2025-09-25T20:29:23Z",
+        "duration_seconds": 1913,
+        "participants": [
+          "Mia DyBuncio (mia@fermatcommerce.com)",
+          "Talia Cohen (talia@fermatcommerce.com)",
+          "Hannah Stephens (hstephens@bellebrands.com)"
+        ],
+        "status": "completed",
+        "url": null
+      }
+    ],
+    "analysis": {
+      "total_calls": 10,
+      "completed_calls": 9,
+      "cancelled_calls": 1,
+      "last_brand_call": "2026-03-12",
+      "days_since_last_call": 32,
+      "primary_contact": "Hannah Stephens (hstephens@bellebrands.com)",
+      "company": "Belle Brands (bellebrands.com)",
+      "previous_csm": "Mia DyBuncio",
+      "call_frequency": "Bi-weekly (historically)",
+      "key_topics": [
+        "AOV/LTV improvement",
+        "Product size variants",
+        "AI Search content quality",
+        "Bundle strategy",
+        "April product launches"
+      ],
+      "handoff_notes": "Mia announced transition to product team on Mar 12. Initially introduced Kaitlin as new AM. Pulkit now confirmed as new GM per Apr 6 KT session with Mia and Apr 8 handoff with Kaitlin."
+    }
+  },
+  "calendar": {
+    "past": [
+      {
+        "id": "3r0n8lbi5c543s82jkac721bvo",
+        "title": "Pulkit / Kaitlin -> JVN Beauty Handoff",
+        "date": "2026-04-06T19:15:00+05:30",
+        "end": "2026-04-06T19:45:00+05:30",
+        "organizer": "kaitlin@fermatcommerce.com",
+        "status": "confirmed",
+        "response": "accepted",
+        "type": "internal_handoff"
+      },
+      {
+        "id": "81oo9brcnl4do8vj67u5cgc1ao",
+        "title": "Pulkit / Kaitlin -> JVN Beauty Handoff",
+        "date": "2026-04-08T19:00:00+05:30",
+        "end": "2026-04-08T19:30:00+05:30",
+        "organizer": "kaitlin@fermatcommerce.com",
+        "status": "confirmed",
+        "response": "needsAction",
+        "type": "internal_handoff"
+      }
+    ],
+    "upcoming": [],
+    "analysis": {
+      "total_events": 2,
+      "past_events": 2,
+      "upcoming_events": 0,
+      "next_brand_call": null,
+      "note": "Both calendar events are internal handoff meetings (Pulkit/Kaitlin), not brand-facing calls. No upcoming call with Hannah/JVN team is scheduled yet."
+    }
+  },
+  "slack": {
+    "messages": [
+      {
+        "author": "Pulkit Srivastava",
+        "date": "2026-04-09T09:25:23+05:30",
+        "text": "Introduction message to Hannah Stephens with Calendly link for first call",
+        "type": "gm_intro"
+      },
+      {
+        "author": "Hannah (brand)",
+        "date": "2026-04-09T06:01:10+05:30",
+        "text": "Flagged that a funnel insight appears to be for a different funnel (with screenshot)",
+        "type": "brand_concern",
+        "has_thread": true,
+        "thread_replies": 1
+      },
+      {
+        "author": "Hannah (brand)",
+        "date": "2026-04-09T05:59:03+05:30",
+        "text": "Asked Kaitlin to review Fermat funnel insight and tracking issue (with screenshot)",
+        "type": "brand_concern",
+        "has_thread": true,
+        "thread_replies": 3
+      },
+      {
+        "author": "Mia DyBuncio",
+        "date": "2026-04-08T20:02:39+05:30",
+        "text": "Formal intro of Pulkit as new Growth Manager to Hannah, announcing internal reorg",
+        "type": "gm_transition"
+      },
+      {
+        "author": "System",
+        "date": "2026-04-08T17:57:26+05:30",
+        "text": "FERMAT bot joined the channel",
+        "type": "system"
+      },
+      {
+        "author": "Pulkit Srivastava",
+        "date": "2026-04-08T17:57:13+05:30",
+        "text": "Pulkit joined the channel",
+        "type": "system"
+      },
+      {
+        "author": "Hannah (brand)",
+        "date": "2026-03-16T23:02:49+05:30",
+        "text": "Questions about experiment dashboard metric definitions - AOV, Revenue per Order, color coding inconsistencies",
+        "type": "brand_question",
+        "has_thread": true,
+        "thread_replies": 13
+      },
+      {
+        "author": "Mia DyBuncio",
+        "date": "2026-03-13T01:32:32+05:30",
+        "text": "Running late to bi-weekly call",
+        "type": "logistics"
+      },
+      {
+        "author": "Hannah (brand)",
+        "date": "2026-02-27T02:06:17+05:30",
+        "text": "Suggested skipping bi-weekly, asked for AI Search status summary instead",
+        "type": "brand_preference",
+        "has_thread": true,
+        "thread_replies": 3
+      }
+    ],
+    "analysis": {
+      "channel_name": "#jvn-x-fermat",
+      "channel_id": "C08HT3J2ACV",
+      "last_activity": "2026-04-09",
+      "days_since_last_activity": 4,
+      "brand_messages_14d": 3,
+      "pulkit_messages_14d": 1,
+      "key_themes": [
+        "GM transition from Mia/Kaitlin to Pulkit",
+        "Tracking/funnel insight accuracy concern",
+        "Experiment dashboard metric definition questions",
+        "Brand prefers async over meetings when no updates"
+      ],
+      "open_issues": [
+        "Funnel insight appearing for wrong funnel (Apr 9, unresolved)",
+        "Hannah has not responded to Pulkit's intro message (Apr 9)"
+      ]
+    }
+  },
+  "email": {
+    "messages": [
+      {
+        "id": "19d6357de03501ca",
+        "date": "2026-04-06",
+        "subject": "Updated invitation: Pulkit / Kaitlin -> JVN Beauty Handoff @ Wed Apr 8",
+        "from": "Kaitlin Frye <kaitlin@fermatcommerce.com>",
+        "to": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "type": "calendar_invite"
+      },
+      {
+        "id": "19d633dbeba91b76",
+        "date": "2026-04-06",
+        "subject": "Mia / Pulkit Gen See KT summary is ready",
+        "from": "Glyphic AI <noreply@glyphic.ai>",
+        "to": "pulkit@fermatcommerce.com",
+        "type": "call_summary"
+      },
+      {
+        "id": "19d6316427681d68",
+        "date": "2026-04-06",
+        "subject": "Invitation: Pulkit / Kaitlin -> JVN Beauty Handoff @ Tue Apr 7",
+        "from": "Kaitlin Frye <kaitlin@fermatcommerce.com>",
+        "to": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "type": "calendar_invite"
+      },
+      {
+        "id": "19d4ea258ccddd31",
+        "date": "2026-04-02",
+        "subject": "Invitation: Pulkit / Kaitlin -> JVN Beauty Handoff @ Mon Apr 6",
+        "from": "Kaitlin Frye <kaitlin@fermatcommerce.com>",
+        "to": "Pulkit Srivastava <pulkit@fermatcommerce.com>",
+        "type": "calendar_invite"
+      }
+    ],
+    "analysis": {
+      "total_emails_30d": 4,
+      "emails_from_brand": 0,
+      "emails_to_brand": 0,
+      "emails_internal": 4,
+      "last_email_date": "2026-04-06",
+      "days_since_last_email": 7,
+      "note": "All 4 emails are internal (handoff calendar invites and Glyphic KT summary). No direct email communication with the brand (Hannah/Belle Brands) found in the last 30 days."
+    }
+  },
+  "granola": {
+    "relevant_meetings": [
+      {
+        "id": "ef360be4-8161-4e50-8653-b05560d3fb87",
+        "title": "Mia / Pulkit Gen See KT",
+        "date": "2026-04-06",
+        "participants": [
+          "Pulkit",
+          "Mia"
+        ],
+        "key_notes": "JVN account overview: hero funnel is '5 reasons why' page for air dry cream, live ~1 year, ~67K sessions in 30d, ~500K since Jun 2025. 95% of Meta ad spend directed here at peak. Hannah is budget-conscious, manages JVN + 2 other brands. Strategy: increase AOV and subscriptions, test default to larger size, clone holiday gift guide. Renewal advice: heads-up 45-60 days out, keep positive tone."
+      },
+      {
+        "id": "b89a35d6-fd5f-488e-883b-e55d665e37c5",
+        "title": "Pulkit / Kaitlin -> JVN Beauty Handoff",
+        "date": "2026-04-08",
+        "participants": [
+          "Pulkit",
+          "Kaitlin Frye"
+        ],
+        "key_notes": "Meta account listed under 'JVN Hair' not 'JVN Beauty'. Mia to send formal intro email clarifying Pulkit (not Kaitlin) is new CSM. Kaitlin to confirm handoff details with Mukul/Isabel."
+      }
+    ],
+    "action_items": [
+      "Pulkit: Review JVN Slack channel before first outreach (completed Apr 8-9)",
+      "Pulkit: Set up biweekly (or monthly minimum) cadence once intro is made (pending - awaiting Hannah response)",
+      "Mia: Send formal intro email to JVN POC (completed Apr 8 via Slack)",
+      "Kaitlin: Confirm 1906 and JVN handoff details with Mukul/Isabel"
+    ]
+  }
+}

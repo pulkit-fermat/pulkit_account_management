@@ -1,0 +1,430 @@
+{
+  "brand_id": "b89a160e-d16b-4f64-af15-8b7843fa815c",
+  "brand_name": "Grazly",
+  "last_updated": "2026-04-13T12:00:00.000000Z",
+  "health": {
+    "score": 52,
+    "status": "yellow",
+    "breakdown": {
+      "platform_performance": 17,
+      "platform_performance_detail": "Sessions:4/5, Revenue:4/5, CVR:5/5, Purchases:4/5",
+      "communication": 19,
+      "communication_detail": "SlackRecency:4/4, BrandSlack14d:4/4, PulkitSlack14d:4/4, EmailThreads14d:4/4, PulkitOutreach:3/4",
+      "engagement": 16,
+      "engagement_detail": "LastCall:6/8, Calls30d:4/6, Upcoming:6/6",
+      "csm_sentiment": 0,
+      "csm_sentiment_detail": "Not rated yet"
+    },
+    "signals": [
+      {
+        "type": "positive",
+        "text": "Brand went LIVE on FERMAT funnels around Apr 10-11 and is seeing strong early traction: 564 sessions on Apr 12 alone with 16 purchases and $965 revenue. 7-day CVR is 2.42% which is excellent for a new brand.",
+        "time": "Apr 12"
+      },
+      {
+        "type": "positive",
+        "text": "Very active Slack channel with 20+ messages in the last 14 days. Brand contacts (Matt Kagan, Jacob Popp) are highly engaged, sharing ad creatives, fonts, and providing detailed funnel feedback with screenshots.",
+        "time": "Apr 12"
+      },
+      {
+        "type": "positive",
+        "text": "Weekly check-in cadence established (every Tuesday 7:30 PM IST). Next call scheduled Apr 14. KOC completed Mar 31 with clear goals: increase Meta spend via optimized video funnels.",
+        "time": "Apr 14"
+      },
+      {
+        "type": "positive",
+        "text": "Brand spending ~$150,000/mo on Meta ads with $30 CAC and $72+ LTV. Goal is to INCREASE spend (not reduce CAC), which aligns perfectly with FERMAT value prop. Willing to tolerate up to $75 CAC.",
+        "time": "Mar 31"
+      },
+      {
+        "type": "warning",
+        "text": "Brand is only ~2 weeks old (created Mar 30). Still in onboarding phase with design alignment ongoing. Matt was offline Apr 7-10 for Passover, causing brief delays in funnel review.",
+        "time": "Apr 7"
+      },
+      {
+        "type": "warning",
+        "text": "Matt requested cart cross-sell fix on Apr 12 — wants to stop recommending shipping protection and actually cross-sell into other products. Needs follow-up resolution.",
+        "time": "Apr 12"
+      },
+      {
+        "type": "positive",
+        "text": "Rapid traffic ramp: 1 session on Apr 3 (testing) to 564 sessions on Apr 12. Revenue trajectory is strong at $1,496.25 total with 23 purchases across 3 active days.",
+        "time": "Apr 12"
+      }
+    ]
+  },
+  "performance": {
+    "yesterday": {
+      "ad_spend": null,
+      "revenue": 965.13,
+      "cvr": 2.84,
+      "sessions": 564,
+      "roas": null,
+      "cpa": null,
+      "purchases": 16,
+      "aov": 60.32,
+      "pdp_views": 175,
+      "atc": 48,
+      "checkouts": 34
+    },
+    "3d": {
+      "ad_spend": null,
+      "revenue": 1496.25,
+      "cvr": 2.42,
+      "sessions": 950,
+      "roas": null,
+      "cpa": null,
+      "purchases": 23,
+      "aov": 65.05,
+      "pdp_views": 280,
+      "atc": 67,
+      "checkouts": 46
+    },
+    "7d": {
+      "ad_spend": null,
+      "revenue": 1496.25,
+      "cvr": 2.42,
+      "sessions": 950,
+      "roas": null,
+      "cpa": null,
+      "purchases": 23,
+      "aov": 65.05,
+      "pdp_views": 280,
+      "atc": 67,
+      "checkouts": 46
+    },
+    "15d": {
+      "ad_spend": null,
+      "revenue": 1496.25,
+      "cvr": 2.41,
+      "sessions": 951,
+      "roas": null,
+      "cpa": null,
+      "purchases": 23,
+      "aov": 65.05,
+      "pdp_views": 280,
+      "atc": 67,
+      "checkouts": 46
+    },
+    "30d": {
+      "ad_spend": null,
+      "revenue": 1496.25,
+      "cvr": 2.41,
+      "sessions": 951,
+      "roas": null,
+      "cpa": null,
+      "purchases": 23,
+      "aov": 65.05,
+      "pdp_views": 280,
+      "atc": 67,
+      "checkouts": 46
+    },
+    "45d": {
+      "ad_spend": null,
+      "revenue": 1496.25,
+      "cvr": 2.41,
+      "sessions": 951,
+      "roas": null,
+      "cpa": null,
+      "purchases": 23,
+      "aov": 65.05,
+      "pdp_views": 280,
+      "atc": 67,
+      "checkouts": 46
+    },
+    "daily": [
+      {
+        "date": "2026-04-03",
+        "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
+        "pdp_views": 0,
+        "atc": 0,
+        "checkouts": 0
+      },
+      {
+        "date": "2026-04-10",
+        "sessions": 90,
+        "revenue": 28.33,
+        "purchases": 1,
+        "pdp_views": 13,
+        "atc": 1,
+        "checkouts": 1
+      },
+      {
+        "date": "2026-04-11",
+        "sessions": 296,
+        "revenue": 502.79,
+        "purchases": 6,
+        "pdp_views": 92,
+        "atc": 18,
+        "checkouts": 11
+      },
+      {
+        "date": "2026-04-12",
+        "sessions": 564,
+        "revenue": 965.13,
+        "purchases": 16,
+        "pdp_views": 175,
+        "atc": 48,
+        "checkouts": 34
+      }
+    ]
+  },
+  "calls": {
+    "recent": [
+      {
+        "id": "69cbda8476fddbc06f9fc372",
+        "title": "Grazly & FERMAT | Onboarding & Kick-Off",
+        "date": "2026-03-31",
+        "duration_min": 32,
+        "participants": [
+          "Matt Kagan (matt@grazly.co)",
+          "Pulkit Srivastava (pulkit@fermatcommerce.com)",
+          "Nidhi Singh (nidhi@fermatcommerce.com)",
+          "Mukul Varshney (mukul@fermatcommerce.com)"
+        ],
+        "summary": "Grazly onboarding call. Matt Kagan (Co-Founder) handles all advertising. Company pivoted to beef brisket slabs as hero product (~88% of Meta spend). Goal: increase Meta ad spend via optimized video funnels (not reduce CAC). Current blended CAC $30, tolerable up to $75, LTV $72-120. All winning ads are voiceover-style videos. Plan: build 2 video funnels for beef brisket + bundle builder. Matt offline for Passover, Jacob Popp as backup. Go-live target: week 2. Carnivore Snax is direct competitor and also FERMAT client.",
+        "url": "https://app.glyphic.ai/calls/69cbda8476fddbc06f9fc372"
+      },
+      {
+        "id": "69c29f7de7c5755109b5ddfb",
+        "title": "Grazly | Intro Meeting",
+        "date": "2026-03-24",
+        "duration_min": 30,
+        "participants": [
+          "Matt Kagan (matt@grazly.co)",
+          "Mukul Varshney (mukul@fermatcommerce.com)"
+        ],
+        "summary": "Sales intro call with Mukul. Matt heard about FERMAT on Twitter. Grazly on Shopify Plus, doing $1.1-1.2M/mo revenue, spending $150K/mo on Meta + $40K YouTube + $45K Amazon. No funnel currently — all ads route to homepage/PDP. Tried Replo but didn't work. Wants managed service ($2K/mo). No dev team. Interested in quiz funnels, bundle building, video funnels. Evaluating other CRO tools. Carnivore Snax mentioned as competitor also on FERMAT.",
+        "url": "https://app.glyphic.ai/calls/69c29f7de7c5755109b5ddfb"
+      },
+      {
+        "id": "696e26a7b9f43820866bee58",
+        "title": "Grazly <> Fermat (2024)",
+        "date": "2024-05-20",
+        "duration_min": 28,
+        "participants": [
+          "Matt Kagan (info@grazly.co)",
+          "Joshua Springer (josh@fermatcommerce.com)",
+          "Ben Potesky (benpotesky@fermatcommerce.com)"
+        ],
+        "summary": "Initial outreach call from 2024 — Matt explored FERMAT but was not ready at that time. Company was earlier stage.",
+        "url": "https://app.glyphic.ai/calls/696e26a7b9f43820866bee58"
+      }
+    ],
+    "analysis": "Strong call cadence for a new brand: Intro call (Mar 24) -> KOC (Mar 31) -> Weekly Check-in (Apr 7, captured in Granola). 3 calls in 3 weeks with clear progression from sales to onboarding to optimization. Matt is highly engaged on calls, asking detailed product questions. Key insight: Matt wants to 'go hard on video funnels' and FERMAT should prioritize this. The Apr 7 weekly check-in revealed design alignment issues (fonts, colors, badges not matching website) which were addressed. Brand is now live and generating conversions as of Apr 10."
+  },
+  "calendar": {
+    "past": [
+      {
+        "date": "2026-03-31",
+        "title": "Grazly & FERMAT | Weekly Checkin",
+        "time": "7:30 PM IST",
+        "attendees": 3,
+        "note": "This was actually the KOC/Onboarding call. Recurring series started this date."
+      },
+      {
+        "date": "2026-04-07",
+        "title": "Grazly & FERMAT | Weekly Checkin",
+        "time": "7:30 PM IST",
+        "attendees": 3,
+        "note": "Design feedback session. Matt raised font/color alignment issues with funnels."
+      }
+    ],
+    "upcoming": [
+      {
+        "date": "2026-04-14",
+        "title": "Grazly & FERMAT | Weekly Checkin",
+        "time": "7:30 PM IST",
+        "attendees": 3,
+        "note": "Next weekly check-in. Should review live performance data (Apr 10-13 traffic)."
+      },
+      {
+        "date": "2026-04-21",
+        "title": "Grazly & FERMAT | Weekly Checkin",
+        "time": "7:30 PM IST",
+        "attendees": 3,
+        "note": "Week 4 check-in. Should have 10+ days of live data for analysis."
+      }
+    ]
+  },
+  "slack": {
+    "messages": [
+      {
+        "date": "2026-04-12",
+        "author": "Matt Kagan",
+        "text": "hey guys, how do i get the cart to stop recommending the shipping protection to people and actually cross sell into other items",
+        "thread_replies": 2
+      },
+      {
+        "date": "2026-04-10",
+        "author": "Matt Kagan",
+        "text": "things look good. Im gonna work on getting this up and running",
+        "thread_replies": 1
+      },
+      {
+        "date": "2026-04-09",
+        "author": "Jacob Popp",
+        "text": "Aside from those 3 changes, I don't see anything else on my end. When Matt gets back tonight he can verify.",
+        "thread_replies": 1
+      },
+      {
+        "date": "2026-04-09",
+        "author": "Jacob Popp",
+        "text": "For this section please only include the meat snack videos. I think it creates disconnect when there are tallow videos on this lander.",
+        "thread_replies": 1
+      },
+      {
+        "date": "2026-04-09",
+        "author": "Jacob Popp",
+        "text": "Can we please capitalize what is needed in this review. The first words of the sentences, 'i', and the name please.",
+        "thread_replies": 1
+      },
+      {
+        "date": "2026-04-09",
+        "author": "Pulkit Srivastava",
+        "text": "Sure Jacob Popp I will update these as well."
+      },
+      {
+        "date": "2026-04-08",
+        "author": "Pulkit Srivastava",
+        "text": "Sure Jacob Popp let me update the fonts and get back to you."
+      },
+      {
+        "date": "2026-04-08",
+        "author": "Jacob Popp",
+        "text": "Let's unbold the description text after the benefits here (keeping the bold headers). Website comparison attached.",
+        "thread_replies": 3
+      },
+      {
+        "date": "2026-04-08",
+        "author": "Jacob Popp",
+        "text": "Let's capitalize the first word of these sentences and bullet points here like on our website.",
+        "thread_replies": 1
+      },
+      {
+        "date": "2026-04-08",
+        "author": "Pulkit Srivastava",
+        "text": "Jacob Popp and Matt Kagan I have updated the PDP and landing page as per your website font and the feedback you shared. Feel free to share more feedback."
+      },
+      {
+        "date": "2026-04-07",
+        "author": "Matt Kagan",
+        "text": "Hi guys - from today evening to Thursday evening Mike and I will be completely offline again. Last 2 days of passover. We will be back Thursday night and online Friday and onwards."
+      },
+      {
+        "date": "2026-04-07",
+        "author": "Pulkit Srivastava",
+        "text": "Thanks for the feedback Matt Kagan I will updated these and get back to you."
+      },
+      {
+        "date": "2026-04-07",
+        "author": "Matt Kagan",
+        "text": "and this font needs to align with other header fonts (screenshot of funnel)",
+        "thread_replies": 1
+      },
+      {
+        "date": "2026-04-07",
+        "author": "Matt Kagan",
+        "text": "This section needs to use a thinner, lowercase version of the font (screenshot)",
+        "thread_replies": 1
+      },
+      {
+        "date": "2026-04-07",
+        "author": "Pulkit Srivastava",
+        "text": "Hey Matt thanks for joining the call today. We have updated font and colors of the UGC 2 Video Shop Beef Brisket Slabs funnel and the Beef Brisket product PDP."
+      },
+      {
+        "date": "2026-04-06",
+        "author": "Matt Kagan",
+        "text": "one change - you guys used the bernier capital font. Can we make all instances of bernier font lowercase please? Also can we add some css code to make the font weight thinner?",
+        "thread_replies": 1
+      },
+      {
+        "date": "2026-04-06",
+        "author": "Pulkit Srivastava",
+        "text": "Hey Team, we have updated the Funnels and Fonts. You can review the 3 funnels: Amazon Reviews Video Shop, UGC Video Shop, UGC 2 Video Shop - all for Beef Brisket Slabs."
+      },
+      {
+        "date": "2026-04-02",
+        "author": "Jacob Popp",
+        "text": "Here are a few more social proof focused ads - Reviews and UGC video links shared."
+      },
+      {
+        "date": "2026-04-02",
+        "author": "Jacob Popp",
+        "text": "current winners are the following in order of spend: (6 video ad links shared)"
+      },
+      {
+        "date": "2026-04-02",
+        "author": "Jacob Popp",
+        "text": "Heres a bunch of content: founder/factory broll, warehouse footage, UGC folders (multiple Google Drive links shared)"
+      },
+      {
+        "date": "2026-04-02",
+        "author": "Jacob Popp",
+        "text": "here are the fonts (BERNIERRegular-Regular.otf, Hore.ttf, BebasNeue-Regular.ttf)"
+      },
+      {
+        "date": "2026-03-31",
+        "author": "Pulkit Srivastava",
+        "text": "Hey Matt - great connecting today! Here's a quick recap from our kick-off call. Key Takeaways: Focus on Video Funnels, Beef Brisket Hero Product, Meta Spend Optimization, External A/B Testing. Action items listed for both Grazly and FERMAT."
+      },
+      {
+        "date": "2026-03-30",
+        "author": "Mukul Varshney",
+        "text": "Hey Matt Kagan welcome to FERMAT! Introducing Pulkit as your Account Manager & Primary POC. Book your Kick-Off Strategy Call."
+      }
+    ],
+    "analysis": "Extremely active Slack channel for a 2-week-old brand. 40+ messages exchanged since Mar 30. Brand contacts (Matt Kagan + Jacob Popp) are highly responsive, providing winning ad videos, b-roll content folders, custom fonts (Bernier, Hore, Bebas Neue), and detailed design feedback with screenshots. Pulkit is responsive to all feedback. Key pattern: Jacob Popp handles creative/design reviews while Matt Kagan handles strategy and final sign-off. Most recent message (Apr 12) is Matt asking about cart cross-sell configuration — needs follow-up. The channel shows a healthy build-review-iterate cycle typical of successful onboardings."
+  },
+  "email": {
+    "messages": [
+      {
+        "date": "2026-04-07",
+        "subject": "Grazly & FERMAT | Weekly Checkin summary is ready",
+        "from": "Glyphic AI",
+        "to": "pulkit@fermatcommerce.com",
+        "snippet": "Call summary auto-generated by Glyphic after the Apr 7 weekly check-in."
+      },
+      {
+        "date": "2026-04-02",
+        "subject": "Your email clicks aren't converting",
+        "from": "Pulkit - FERMAT Brand Support",
+        "to": "matt@grazly.co, michael@grazly.co, jacobpopp24@gmail.com",
+        "snippet": "Automated nurture email about FERMAT custom post-click experiences for email traffic."
+      },
+      {
+        "date": "2026-03-31",
+        "subject": "Your draft FERMAT funnels are ready!",
+        "from": "Pulkit - FERMAT Brand Support",
+        "to": "michael@grazly.co, matt@grazly.co",
+        "snippet": "Onboarding email with video tutorial link and resources for creating funnels."
+      },
+      {
+        "date": "2026-03-31",
+        "subject": "Grazly x FERMAT | Kick-Off Call Recap",
+        "from": "Pulkit Srivastava",
+        "to": "matt@grazly.co",
+        "cc": "jacobpopp24@gmail.com, nidhi@fermatcommerce.com, mukul@fermatcommerce.com",
+        "snippet": "Post-KOC recap email with key takeaways: focus on video funnels for beef brisket hero product, Meta spend optimization, external A/B testing plan."
+      },
+      {
+        "date": "2026-03-31",
+        "subject": "Grazly & FERMAT | Onboarding & Kick-Off summary is ready",
+        "from": "Glyphic AI",
+        "to": "pulkit@fermatcommerce.com",
+        "snippet": "Auto-generated call summary from Glyphic after the KOC."
+      },
+      {
+        "date": "2026-03-31",
+        "subject": "Accepted: Grazly & FERMAT | Weekly Checkin",
+        "from": "Nidhi Singh",
+        "to": "Pulkit Srivastava",
+        "snippet": "Calendar acceptance for recurring weekly check-in series."
+      }
+    ],
+    "analysis": "Email cadence is solid for onboarding phase. Pulkit sent the KOC recap email on Mar 31 (same day as call), followed by onboarding resources email and a nurture email on Apr 2. Most emails are from Pulkit to the brand (outbound), with automated Glyphic summaries and calendar acceptances as inbound. No direct reply emails from Matt visible in search — communication is primarily happening on Slack, which is expected for an active engaged brand. The Apr 7 Glyphic summary confirms the weekly check-in happened. No concerning email gaps given the heavy Slack activity."
+  }
+}

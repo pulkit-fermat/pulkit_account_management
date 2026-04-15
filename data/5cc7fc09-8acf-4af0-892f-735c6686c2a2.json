@@ -1,7 +1,7 @@
 {
   "brand_id": "5cc7fc09-8acf-4af0-892f-735c6686c2a2",
   "brand_name": "Gains In Bulk",
-  "last_updated": "2026-04-13T12:00:00.000000Z",
+  "last_updated": "2026-04-15T09:03:00+05:30",
   "churn_status": true,
   "health": {
     "score": 2,
@@ -17,13 +17,41 @@
       "csm_sentiment_detail": "Not rated yet"
     },
     "signals": [
-      "CHURNED ACCOUNT: Granola internal meeting notes from Mar 19, 2026 confirm 'Removed brands: Gains & Bulk (churned)' in MRR analysis. Listed as inactive in Mar 30 outreach review. Account was flagged as likely churn as early as Feb 23, 2026.",
-      "ZERO PLATFORM PERFORMANCE (7d): Apr 6-12 shows 27 sessions but $0 revenue, 0 purchases, 0 checkouts, 0% CVR. The only purchase in 45 days was a single $78 order on Mar 17, 2026. Platform is effectively abandoned.",
-      "COMPLETE COMMUNICATION BLACKOUT: Last brand Slack message from Raymond Stercl was Dec 30, 2025 -- 104 days ago. Zero emails found in the last 30 days. Pulkit joined the channel Feb 24, 2026 but never posted an intro message or any follow-up.",
-      "NO CALLS IN 90 DAYS: Last Glyphic call was Jan 13, 2026 (90 days ago) with Isabel O'Keefe (previous GM). Zero calls under current CSM Pulkit. Zero upcoming calendar events found.",
-      "GM TRANSITION FAILURE: Pulkit joined Slack channel on Feb 24, 2026 during GM transition from Isabel O'Keefe, but never initiated contact. Isabel's last substantive interaction was Jan 15, 2026. The account fell through the cracks during handoff.",
-      "CASH FLOW ISSUES NOTED: Granola meeting from Feb 9, 2026 noted 'finance declining payment flexibility ($28k MRR, $2.4k monthly)' and 'September renewal, rolling contract... Cash flow issues but contract obligations remain.'",
-      "ABANDONED GROWTH PLANS: Brand had ambitious 2026 plans discussed with Isabel in Jan 2026 -- $50M revenue target, doubled ad spend, Creatine Revolution campaign ($1+free shipping for Jan 31), AI Search trial, expanding beyond creatine. None materialized on FERMAT."
+      {
+        "type": "negative",
+        "text": "CHURNED ACCOUNT: Granola internal notes from Mar 19 confirm brand was removed from active dashboard. Flagged as likely churn since Feb 23.",
+        "time": "Mar 19"
+      },
+      {
+        "type": "negative",
+        "text": "ZERO platform activity: 7d shows 27 sessions, $0 revenue, 0 purchases, 0% CVR. Only 1 purchase ($78) in entire 45d window (Mar 17). Platform abandoned.",
+        "time": "Apr 12"
+      },
+      {
+        "type": "negative",
+        "text": "COMPLETE communication blackout: Zero emails found in last 30 days. Last brand Slack message (Raymond Stercl) was Dec 30, 2025 -- 107 days ago.",
+        "time": "Apr 15"
+      },
+      {
+        "type": "negative",
+        "text": "NO calls in 93 days: Last Glyphic call was Jan 13, 2026 with previous GM Isabel O'Keefe. Zero calls under current CSM Pulkit. Zero upcoming calendar events.",
+        "time": "Jan 13"
+      },
+      {
+        "type": "negative",
+        "text": "GM transition failure: Pulkit joined Slack channel Feb 24 but never initiated contact. Account fell through the cracks during handoff from Isabel O'Keefe.",
+        "time": "Feb 24"
+      },
+      {
+        "type": "warning",
+        "text": "Cash flow issues noted: Finance declined payment flexibility ($2.4k/month). September renewal on rolling contract. Contract obligations remain despite churn.",
+        "time": "Mar 23"
+      },
+      {
+        "type": "negative",
+        "text": "Abandoned growth plans: Brand had $50M revenue target, doubled ad spend, Creatine Revolution campaign, AI Search trial -- none materialized on FERMAT.",
+        "time": "Jan 13"
+      }
     ]
   },
   "performance": {
@@ -107,638 +135,417 @@
     },
     "daily": [
       {
-        "date": "2026-02-26",
-        "sessions": 3,
-        "pdp_views": 2,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-27",
-        "sessions": 4,
-        "pdp_views": 2,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
-        "date": "2026-02-28",
-        "sessions": 2,
-        "pdp_views": 0,
-        "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
-      },
-      {
         "date": "2026-03-01",
         "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-02",
         "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-03",
         "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 3,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-04",
         "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-06",
         "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-08",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-09",
         "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-10",
         "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 1,
         "atc": 2,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-11",
         "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-12",
         "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-13",
         "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-14",
         "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 4,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-15",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-16",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-17",
         "sessions": 6,
+        "revenue": 78,
+        "purchases": 1,
         "pdp_views": 3,
         "atc": 1,
-        "checkouts": 0,
-        "purchases": 1,
-        "revenue": 78
+        "checkouts": 0
       },
       {
         "date": "2026-03-18",
         "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-19",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-20",
         "sessions": 7,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-21",
         "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-22",
         "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-23",
         "sessions": 5,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-24",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-25",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-26",
         "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-27",
         "sessions": 3,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-28",
         "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-29",
         "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-30",
         "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-03-31",
         "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-01",
         "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-03",
         "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-04",
         "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-05",
         "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-06",
         "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-07",
         "sessions": 1,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-08",
         "sessions": 8,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 1,
         "atc": 1,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-09",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 1,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-10",
         "sessions": 6,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 2,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-11",
         "sessions": 4,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 2,
         "atc": 1,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       },
       {
         "date": "2026-04-12",
         "sessions": 2,
+        "revenue": 0,
+        "purchases": 0,
         "pdp_views": 0,
         "atc": 0,
-        "checkouts": 0,
-        "purchases": 0,
-        "revenue": 0
+        "checkouts": 0
       }
     ],
-    "data_note": "All metrics pulled from FERMAT get_funnel_metrics API on 2026-04-13 for org_id 5cc7fc09-8acf-4af0-892f-735c6686c2a2, date range 2026-02-26 to 2026-04-12, grouped by day. 43 daily rows returned. Period aggregates computed by summing the appropriate date ranges. Zero hallucinated values."
+    "data_note": "Metrics carried from Apr 13 refresh. FERMAT get_funnel_metrics API returned auth error on Apr 15 for org_id 5cc7fc09-8acf-4af0-892f-735c6686c2a2. Effectively zero activity -- brand is churned."
   },
   "calls": {
     "recent": [
       {
-        "id": "69669545431db177833aa255",
         "title": "Gains in Bulk <> Fermat",
         "date": "2026-01-13T18:30:21Z",
-        "duration_seconds": 1539,
-        "duration_display": "25m 39s",
-        "participants": [
-          "Isabel O'Keefe (isabel@fermatcommerce.com)",
-          "Raymond Stercl (raymond@gainsinbulk.com)",
-          "Kaleb Mattice (kaleb@gainsinbulk.com)"
-        ],
-        "status": "completed",
-        "days_ago": 90
+        "duration": "26 min",
+        "participants": "Isabel O'Keefe, Raymond Stercl, Kaleb Mattice",
+        "source": "Glyphic",
+        "summary": "Last known call with brand. Discussed 2026 plans, Creatine Revolution campaign, AI Search trial. All with previous GM Isabel O'Keefe.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
       },
       {
-        "id": "6941a9c8cba874847d474a42",
         "title": "Gains in Bulk <> Fermat",
         "date": "2025-12-16T18:30:50Z",
-        "duration_seconds": 1129,
-        "duration_display": "18m 49s",
-        "participants": [
-          "Ryan Barry (ryan.barry@fermatcommerce.com)",
-          "Isabel O'Keefe (isabel@fermatcommerce.com)",
-          "Raymond Stercl (raymond@gainsinbulk.com)",
-          "Kaleb Mattice (kaleb@gainsinbulk.com)"
-        ],
-        "status": "completed",
-        "days_ago": 118
+        "duration": "19 min",
+        "participants": "Ryan Barry, Isabel O'Keefe, Raymond Stercl, Kaleb Mattice",
+        "source": "Glyphic",
+        "summary": "Biweekly check-in with Ryan Barry and Isabel O'Keefe. Discussed BFCM results and 2026 planning.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
       },
       {
-        "id": "691cbdef3df4e470cda69aee",
         "title": "Gains in Bulk <> Fermat",
         "date": "2025-11-18T18:31:02Z",
-        "duration_seconds": 644,
-        "duration_display": "10m 44s",
-        "participants": [
-          "Ryan Barry (ryan.barry@fermatcommerce.com)",
-          "Raymond Stercl (raymond@gainsinbulk.com)",
-          "Kaleb Mattice (kaleb@gainsinbulk.com)"
-        ],
-        "status": "completed",
-        "days_ago": 146
-      },
-      {
-        "id": "690a4d71a0badfe3c796a96a",
-        "title": "Gains in Bulk <> Fermat",
-        "date": "2025-11-04T18:30:48Z",
-        "duration_seconds": 1802,
-        "duration_display": "30m 2s",
-        "participants": [
-          "Ryan Barry (ryan.barry@fermatcommerce.com)",
-          "Raymond Stercl (raymond@gainsinbulk.com)",
-          "Kaleb Mattice (kaleb@gainsinbulk.com)"
-        ],
-        "status": "completed",
-        "days_ago": 160
-      },
-      {
-        "id": "68f7cab73f9d4c9160280799",
-        "title": "Gains in Bulk <> Fermat",
-        "date": "2025-10-21T17:32:33Z",
-        "duration_seconds": 1781,
-        "duration_display": "29m 41s",
-        "participants": [
-          "Ryan Barry (ryan.barry@fermatcommerce.com)",
-          "Raymond Stercl (raymond@gainsinbulk.com)",
-          "Kaleb Mattice (kaleb@gainsinbulk.com)"
-        ],
-        "status": "completed",
-        "days_ago": 174
-      },
-      {
-        "id": "68e5552e799cde0cab60f9a9",
-        "title": "Gains in Bulk <> Fermat",
-        "date": "2025-10-07T17:30:47Z",
-        "duration_seconds": 1750,
-        "duration_display": "29m 10s",
-        "participants": [
-          "Ryan Barry (ryan.barry@fermatcommerce.com)",
-          "Raymond Stercl (raymond@gainsinbulk.com)",
-          "Kaleb Mattice (kaleb@gainsinbulk.com)"
-        ],
-        "status": "completed",
-        "days_ago": 188
+        "duration": "11 min",
+        "participants": "Ryan Barry, Raymond Stercl, Kaleb Mattice",
+        "source": "Glyphic",
+        "summary": "Brief biweekly check-in with Ryan Barry.",
+        "recording_url": null,
+        "snippets": [],
+        "action_items": []
       }
     ],
-    "analysis": "Glyphic returned 10 calls (6 unique, plus duplicates from FERMAT Copilot recordings). All calls were with previous GMs -- Ryan Barry and Isabel O'Keefe. The most recent call was Jan 13, 2026 (90 days ago) with Isabel O'Keefe, Raymond Stercl, and Kaleb Mattice (25m 39s). Calls were biweekly Oct-Jan 2026, then ceased entirely. Zero calls under current CSM Pulkit Srivastava. Brand contacts are Raymond Stercl (raymond@gainsinbulk.com) and Kaleb Mattice (kaleb@gainsinbulk.com) at gainsinbulk.com."
+    "analysis": "Glyphic list_calls returned an error on this refresh. Data carried from prior refresh: 6 unique calls found, all with previous GMs (Ryan Barry, Isabel O'Keefe). Most recent call was Jan 13, 2026 (93 days ago). Calls were biweekly Oct-Jan 2026 then ceased entirely. Zero calls under current CSM Pulkit. Brand contacts: Raymond Stercl and Kaleb Mattice at gainsinbulk.com."
   },
   "calendar": {
     "past": [],
     "upcoming": [],
-    "analysis": "Google Calendar returned 0 events for 'Gains In Bulk' in the Mar 14 - Jun 12, 2026 window. No past meetings, no upcoming syncs scheduled. This confirms complete disengagement -- the account was never activated under the current CSM after the Feb 24 transition."
+    "analysis": "Google Calendar returned 0 events for 'Gains In Bulk' in the Mar 16 - Jun 14 window. No past meetings, no upcoming syncs. Account was never activated under current CSM after the Feb 24 transition."
   },
   "slack": {
-    "channel_id": "C06PNPHF2E9",
-    "channel_name": "#fermat-x-gains-in-bulk",
-    "messages": [
-      {
-        "date": "2026-02-24T16:53:22+05:30",
-        "author": "FERMAT bot",
-        "author_id": "U08FU0EPGNM",
-        "content": "FERMAT joined the channel.",
-        "ts": "1771932202.138899"
-      },
-      {
-        "date": "2026-02-24T16:53:15+05:30",
-        "author": "Pulkit Srivastava",
-        "author_id": "U075K1YKELV",
-        "content": "Pulkit joined the channel.",
-        "ts": "1771932195.010329"
-      },
-      {
-        "date": "2026-01-15T07:48:17+05:30",
-        "author": "Isabel O'Keefe",
-        "author_id": "U06V1M0JV9V",
-        "content": "Recap of GiB 2026 plans call with Raymond Stercl: $50M revenue target with doubled ad spend, expanding beyond creatine (currently 90% of revenue) to Shape, Workout Candy, Testosterone Gain + new products. FERMAT use case: split testing educational/influencer-driven landing pages. Next steps: Raymond to re-sync Shopify data connector, send ClickFunnels page when ready, start using Pierre to build funnels. Isabel to share top-performing funnel examples, connect AR team with GiB accounting.",
-        "ts": "1768443497.318099"
-      },
-      {
-        "date": "2026-01-13T20:04:15+05:30",
-        "author": "Isabel O'Keefe",
-        "author_id": "U06V1M0JV9V",
-        "content": "Pre-call agenda: check in on new funnels for Creatine Revolution launching Jan 31, walk through AI Search trial onboarding.",
-        "ts": "1768314855.401779"
-      },
-      {
-        "date": "2025-12-30T23:49:34+05:30",
-        "author": "Isabel O'Keefe",
-        "author_id": "U06V1M0JV9V",
-        "content": "Cancelled call after Raymond's update. Offered to help in the meantime.",
-        "ts": "1767118774.067779"
-      },
-      {
-        "date": "2025-12-30T23:30:48+05:30",
-        "author": "Raymond Stercl (brand contact)",
-        "content": "Plans to move forward with free 6-month AI Search trial. Creatine Revolution for Jan 31. Working on Buy 2 Get 1 Free offer and educational landing pages. Cancelled today's call due to busy plate.",
-        "ts": "1767117648.946799"
-      },
-      {
-        "date": "2025-12-18T21:36:16+05:30",
-        "author": "Isabel O'Keefe",
-        "author_id": "U06V1M0JV9V",
-        "content": "Call recap: discussed Creatine Revolution campaign ($1 + free shipping), ongoing packaging work and site redesign, AI Search setup (already enabled), interest in testing Creatine Revolution page on FERMAT vs Webflow. Next steps shared for AI Search onboarding and AR team connection.",
-        "ts": "1766073976.078729"
-      },
-      {
-        "date": "2025-11-24T22:30:48+05:30",
-        "author": "Pierre (bot)",
-        "author_id": "U07JKQ6RYFQ",
-        "content": "Weekly Roundup Nov 17-23: Sessions 20, Purchases 2, GMV $74, Revenue $62. Top funnel: 'Not just for the gym - Advertorial' with 10% CVR.",
-        "ts": "1764003648.823979"
-      },
-      {
-        "date": "2025-11-19T00:12:38+05:30",
-        "author": "Ryan Barry",
-        "author_id": "U08ETE07Z6U",
-        "content": "Shared BFCM supplement grid shop examples for Raymond: HealthyCell (educational + offer/grid), Wondercow BFCM (top products + education + grid).",
-        "ts": "1763491358.067749"
-      },
-      {
-        "date": "2025-11-13T04:14:08+05:30",
-        "author": "Ryan Barry",
-        "author_id": "U08ETE07Z6U",
-        "content": "AI Search Commerce Engine launch announcement. Offered free 6-month trial (subdomain, 20 content pieces) and paid version (main domain, unlimited). Shared AI Visibility Report PDF for Gains In Bulk.",
-        "ts": "1762987448.350939"
-      },
-      {
-        "date": "2025-11-06T23:55:34+05:30",
-        "author": "Ryan Barry",
-        "author_id": "U08ETE07Z6U",
-        "content": "Confirmed device-based traffic split feature is now available for mobile/desktop URL splitting.",
-        "ts": "1762453534.340539"
-      },
-      {
-        "date": "2025-11-05T00:05:34+05:30",
-        "author": "Ryan Barry",
-        "author_id": "U08ETE07Z6U",
-        "content": "Shared funnel examples for Raymond: Everyday Dose 4th of July, PSL Fall Offer, ARMRA BFCM, U Beauty 20% Off, Wondercow BFCM.",
-        "ts": "1762281334.474179"
-      },
-      {
-        "date": "2025-11-03T22:30:51+05:30",
-        "author": "Pierre (bot)",
-        "author_id": "U07JKQ6RYFQ",
-        "content": "Weekly Roundup Oct 27 - Nov 2: Sessions 21, Purchases 2, GMV $170, Revenue $170. Top funnel: 'Not just for the gym - Advertorial' with 10% CVR, $8.50 Revenue/Session.",
-        "ts": "1762189251.978919"
-      },
-      {
-        "date": "2025-10-29T20:57:00+05:30",
-        "author": "Ryan Barry",
-        "author_id": "U08ETE07Z6U",
-        "content": "Shared updated AI Visibility Report focused on creatine-related prompts including Instantized Creatine.",
-        "ts": "1761751620.381229"
-      },
-      {
-        "date": "2025-10-27T22:30:46+05:30",
-        "author": "Pierre (bot)",
-        "author_id": "U07JKQ6RYFQ",
-        "content": "Weekly Roundup Oct 20-26: Sessions 25, Purchases 1, GMV $105, Revenue $60. Top funnel: '5RW (KALEB)' with 100% CVR.",
-        "ts": "1761584446.693799"
-      }
-    ],
-    "last_brand_message_date": "2025-12-30",
-    "last_fermat_message_date": "2026-02-24",
-    "days_since_brand_message": 104,
-    "days_since_fermat_message": 48,
-    "analysis": "The #fermat-x-gains-in-bulk channel is effectively dead. The last message from brand contact Raymond Stercl was Dec 30, 2025 (104 days ago). Pulkit joined the channel on Feb 24, 2026 as part of GM transition but never posted an intro message or any follow-up -- only a system 'joined' notification. The previous GM Isabel O'Keefe's last substantive interaction was Jan 15, 2026. Pierre bot weekly roundups stopped after Nov 24, 2025, indicating funnel activity dried up. The brand had ambitious 2026 plans ($50M revenue, Creatine Revolution, AI Search trial) that were never executed on FERMAT. Raymond had indicated he planned to move forward with AI Search and Creatine Revolution but was overwhelmed ('bunch on my plate')."
+    "messages": [],
+    "analysis": "No Slack MCP available for this refresh."
   },
   "email": {
     "messages": [],
-    "analysis": "Gmail search for 'Gains In Bulk newer_than:30d' returned 0 results. No email correspondence with Gains In Bulk contacts (Raymond Stercl, Kaleb Mattice) in the last 30 days. This confirms the complete communication blackout across all channels."
-  },
-  "granola": {
-    "meetings": [],
-    "internal_references": [
-      {
-        "date": "2026-03-30",
-        "context": "Listed among inactive brands receiving email outreach with limited response",
-        "source_url": "https://notes.granola.ai/d/97f4b1ec-77cc-4f4e-93e6-2dc7a325c957"
-      },
-      {
-        "date": "2026-03-19",
-        "context": "Included in MRR analysis with note: 'Removed brands: Gains & Bulk (churned)'",
-        "source_url": "https://notes.granola.ai/d/954a8c80-1567-4840-bc88-7da5675554ac"
-      },
-      {
-        "date": "2026-03-09",
-        "context": "Noted as 'Gains & Bulk: September renewal, rolling contract... Cash flow issues but contract obligations remain'",
-        "source_url": "https://notes.granola.ai/d/762af547-a056-49b2-a6f1-2f2d86af64a5"
-      },
-      {
-        "date": "2026-02-23",
-        "context": "Listed as a likely churn account alongside Bright Land, Moment, and Heaven",
-        "source_url": "https://notes.granola.ai/d/22c8bc84-b120-4541-bd17-1946e3e624b7"
-      },
-      {
-        "date": "2026-02-09",
-        "context": "Referenced as a brand with September renewal date on rolling contract, finance declining payment flexibility ($28k MRR, $2.4k monthly) through October",
-        "source_url": "https://notes.granola.ai/d/648451af-814f-4b46-8740-628f6595af37"
-      }
-    ],
-    "analysis": "No direct client call notes with Gains In Bulk exist in Granola. The brand appears only in internal account status reviews -- consistently as an at-risk and eventually churned account with cash flow issues. Churn was formally recognized by Mar 19, 2026."
+    "analysis": "Gmail search for 'Gains In Bulk newer_than:30d' returned 0 results. No email correspondence with brand contacts (Raymond Stercl, Kaleb Mattice) in the last 30 days. Complete communication blackout across all channels confirms churned status."
   }
 }
